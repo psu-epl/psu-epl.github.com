@@ -12,7 +12,7 @@ enclosure.
 
 --------------------------------------------------------------------------------
 
-## Lab Timeline
+### Lab Timeline
 
  1. Phase I - Invitation only (current)
  1. Phase II - MCECS students only on 2012/09/24
@@ -20,9 +20,9 @@ enclosure.
  1. Phase IV - Open to public on 2013/04/01
  1. Phase V - World domination sometime Summer 2014
 
-## Equipment
+### Equipment
 
- - Full Spectrum Laser Pro24x12
+ - [[/laser|Full Spectrum Laser Pro24x12]]
  - Stratisys Mojo 3D printer (FDM)
  - LPKF S63 Printed Circuit Board Router
  - Soldering Equipment
