@@ -1,5 +1,6 @@
+***
+
 # Electronics Prototyping Lab policies (DRAFT)
------------------------------------------------
 
 ## Tool Safety
 
