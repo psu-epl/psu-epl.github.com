@@ -2,12 +2,30 @@
 <html>
 <head>
  <meta charset='utf-8' />
- <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/bootstrap.min.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" media="screen" href="style.css">
  <title>{{ page.title }}</title>
 </head>
 <body>
 
-  {{ content }}
+  <div class="jumbotron subhead" id="header">
+    <div class="container">
+      <h1>Electronics Prototyping Lab</h1>
+      <p class="lead">At Portland State University</p>
+    </div>
+  </div>
 
+    <div id="content">
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
