@@ -21,8 +21,7 @@ enclosure.
  1. Phase V - World domination sometime Summer 2014
 
 ### Equipment
-
- - [[/laser|Full Spectrum Laser Pro24x12]]
+ - [Full Spectrum Laser Pro24x12](/laser "Full Spectrum Laser Pro24x12")
  - Stratisys Mojo 3D printer (FDM)
  - LPKF S63 Printed Circuit Board Router
  - Soldering Equipment
