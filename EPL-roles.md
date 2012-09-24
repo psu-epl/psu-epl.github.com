@@ -1,9 +1,9 @@
 ## Formal Roles in the EPL
 
 - *EPL administrators*
-   -  Final decision making authority and responsibility (Andrew, Phillip).
+   - Final decision making authority and responsibility (Andrew, Phillip).
 - *EPL managers*
-   -  Trained on all machines, 24 hour badge access, some decision making abilities (Nathan, Pat, Monty, Rami, Chris, Dave).
+   - Trained on all machines, 24 hour badge access, some decision making abilities (Nathan, Pat, Monty, Rami, Chris, Dave).
 - *EPL users*
    - People who have signed the waiver, trained on one or more machines, do not have badge access.
 - *EPL visitors*
