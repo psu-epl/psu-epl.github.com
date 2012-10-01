@@ -58,4 +58,4 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 
 ## Meeting notes
 
-- [[2012-08-20|EPL managers meeting]]
+- [[Managers Meeting 2012-08-20|2012-08-20]]
