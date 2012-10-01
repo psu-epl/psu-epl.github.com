@@ -57,6 +57,8 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - Phillip Wong
 - Chris Clark
 - Rami Alshafi
+- Pat Nystrom
+- Monty Goodson
 - Other staff who have FAB building access
 
 
