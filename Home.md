@@ -31,20 +31,15 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - [[Things to get]]
 - [[3D Scanning|3Dscanning]]
 
-## STUFF WITH THINGS
+## Lists:
 
-- [[SOP lists|SOP]]
 - Official rules and regs
 - Badgenista stuff
-- List of people on what.
-- See Nathan/Andrew list.
 
 ## Membership
 
-1. Get a Github account.
-2. Ask a EPL Manager to get you in.
-1. ???
-1. Profit!
+1. Get a Github account
+1. Ask a EPL Manager to get you in
 
 ## Admin
 
@@ -60,7 +55,6 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - Pat Nystrom
 - Monty Goodson
 - Other staff who have FAB building access
-
 
 ## Meeting notes
 
