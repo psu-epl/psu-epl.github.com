@@ -24,7 +24,7 @@
 
 ## Room and infrastructure improvements
 * Door jamb
-* Plug strips (outlets aligned properly to be compatible with Ikea task lights?)
+* Plug strips (outlets aligned parallel to strip to be compatible with Ikea task lights?)
 * Fan(s?)
 * Extra fire extinguisher for laser
 * 220V extension cord for reflow oven
