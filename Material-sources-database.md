@@ -31,3 +31,16 @@
  * Tigard
   * 503-620-4960
   * 15230 SW Sequoia Pkwy, Tigard, OR 97224
+
+## PCB stock
+* EBay
+  * [PCB Depot](http://stores.ebay.com/PCB-Depot?_trksid=p2047675.l2563)
+   * Unlike other PCB stock stores on EBay, these guys have a pull-down selection for different options, rather than having to wade through multiple listings.
+   * Good prices
+   * Standard or custom sizes
+   * Mostly 1-oz double sided and 1 or 2-oz single-sided
+   * Thicknesses from 0.005" to 0.062"
+   * Recommendation for ordering:
+     * [1/1 Double sided 1/16" (0.062"), 3 pieces, 9x12": $14](http://www.ebay.com/itm/Copper-Clad-Laminate-PCB-Printed-Circuit-Board-Material-/120664289524?pt=LH_DefaultDomain_0&var=&hash=item61cb0e8da0)
+      * Shipping: $11.95 Standard shipping; + $4 for each additional lot
+ 
