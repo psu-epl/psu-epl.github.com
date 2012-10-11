@@ -1,5 +1,5 @@
 ## Hand Tools
-* Socket set
+* <del>Socket set</del>
 * Hand saw (for wood)
 * Hack saw
 * Flush cut dike
@@ -7,8 +7,8 @@
 * Counter-sink drill bits
 
 ## Office supplies
-* Post-it notes
-* Pens & pencils
+* <del>Post-it notes</del>
+* <del>Pens & pencils</del>
 
 ## Other tools
 * Laminator
@@ -31,7 +31,7 @@
 
 ## Chemicals
 * Lock-tite (for laser-cutter alignment screws)
-* Acrylic cement and applicator syringe
+* <del>Acrylic cement and applicator syringe</del>
 
 ## Library
 
