@@ -32,3 +32,7 @@
 ## Chemicals
 * Lock-tite (for laser-cutter alignment screws)
 * Acrylic cement and applicator syringe
+
+## Library
+
+The Machinists Handbook
