@@ -44,3 +44,10 @@
      * [1/1 Double sided 1/16" (0.062"), 3 pieces, 9x12": $14](http://www.ebay.com/itm/Copper-Clad-Laminate-PCB-Printed-Circuit-Board-Material-/120664289524?pt=LH_DefaultDomain_0&var=&hash=item61cb0e8da0)
       * Shipping: $11.95 Standard shipping; + $4 for each additional lot
  
+## LPKF 
+* [Think & Tinker LTD](http://www.thinktink.com)
+  * [V-tip bits](http://www.thinktink.com/products/Mechanical_Etching_Bits.asp)
+    * LPKF 0.2mm Universal Mill replacement: EM2E8-0625-90V: 90deg 0.005" tip ($10.84)
+* [LPKF](http://www.lpkfusa.com/Store/pages/list.aspx?cat=11&cid=11)
+  * [V-tip bits](http://www.lpkfusa.com/Store/pages/list.aspx?cat=11/42&cid=42)
+    * LPKF 0.2mm Universal Mill: ($180/10)
