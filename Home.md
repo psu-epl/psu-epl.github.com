@@ -31,9 +31,9 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - [[Things to get]]
 - [[3D Scanning|3Dscanning]]
 
-## Materials
+## Materials / Consumables
 - [[Material Properties|Material database]]
-- [[Material Sources|Material sources database]]
+- [[Material / Consumable Sources|Material sources database]]
 
 ## Lists:
 
