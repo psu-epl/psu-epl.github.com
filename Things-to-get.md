@@ -9,6 +9,9 @@
 ## Office supplies
 * <del>Post-it notes</del>
 * <del>Pens & pencils</del>
+* Binder per machine for instruction manuals
+* Binder pocket inserts for instruction manuals
+
 
 ## Other tools
 * Laminator
@@ -21,6 +24,7 @@
 * Trash can for LPKF/SMT area
 * Carbon filter air-cleaner
 * 3D print rinse bucket
+* Iris modular plastic drawers
 
 ## Room and infrastructure improvements
 * Door jamb
