@@ -43,6 +43,8 @@
    * Recommendation for ordering:
      * [1/1 Double sided 1/16" (0.062"), 3 pieces, 9x12": $14](http://www.ebay.com/itm/Copper-Clad-Laminate-PCB-Printed-Circuit-Board-Material-/120664289524?pt=LH_DefaultDomain_0&var=&hash=item61cb0e8da0)
       * Shipping: $11.95 Standard shipping; + $4 for each additional lot
+* [Think & Tinker LTD](http://www.thinktink.com/products/Copperclad.asp)
+  * 1/2 oz or 1 oz Double Sided 1/16" (0.062"), 5 pieces, 9x12": $59.37
  
 ## LPKF 
 * [Think & Tinker LTD](http://www.thinktink.com)
