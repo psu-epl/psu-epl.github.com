@@ -52,14 +52,25 @@ Here is how to cut something in the either of the two different modes:
  1. Play with the pixelization, halftoning, DPI, size, etc using RetinaEngrave3D settings.
  1. Run your job.
 
-## Vector mode SOP
+## Raster and Vector:
+
+ 1. Make the Rastered part of you're project (logos, text, etc) black and the cut lines lighter colors like yellow. 
+ 1. Print to RetinaEngrave
+ 1. On the Raster tab set the B/W cutoff to a high enough value so only the black raster shows
+ 1. On the vector tab set the repeat of the black layer to '0' to suppress vectoring
+ 1. Choose **Raster then Vector** for the mode.
+ 1. Run your job
+
+***
+
+# Detailed Procedures
 
 ### Computer prep
 
  1. **Login** to the computer
  1. **Turn key on** laser cutter to turn on laser cutter. If that doesn't turn it on, rotate the stop button until it snaps out.
  1. Wait for laser cutter to boot and get an IP address (shown on the LCD front panel).
- 1. Start up **RetinaEngrave3D** by clicking on the desktop icon
+ 1. Start up **RetinaEngrave3D** by clicking on the desktop icon 
  1. Press **'H'** to home the laserhead. You'll get "0 0 0" for your current position and "Connected" and "Homed" in the status bar.
  1. **Open the file** you've designed
  1. File > **Print**
@@ -73,14 +84,15 @@ Here is how to cut something in the either of the two different modes:
 
 Your pattern is from (0,0) to (+i,+j) in RetinatEngrave3D. However, the laserhead parks at (0,0) and **CAN'T go positive**, it can only go negative. So, you need to move the laser head to the origin of your workpiece (which is the upper left corner, like in RetinaEngrave3D).
 
-The laser cutter is at 0,0 where + is off to the right and - if off to left, butThis is **NOT** how your pattern out is aligned: your pattern is from (0,0) off to the right.
+The laser cutter is at 0,0 where + is off to the right and - if off to left, but this is **NOT** how your pattern out is aligned: your pattern is from (0,0) off to the right.
+
+**TL;DR: YOU WILL HURT THE LASER CUTTER BY ENTERING POSITIVE 'MOVE TO' VALUES**
 
  1. **Put in your material** in laser cutter wherever you want.
  1. Use the arrow keys on the PC's keyboard to **move the lasercutter head to the upper left corner** of where you want to cut. It's got a red laser so you can see exactly where it's going to start.
  1. **Test the outline** of your image to make sure it fits on your material. Hit the 'P' key (for _Perimeter Steps_) once per side and watch where the laser goes. Adjust your material or head appropriately. Make sure that the laser head is back in the upper left hand corner of your piece (on the screen, the red dot should be in the upper left at (0,0).
- 1. **Turn on water pump and air pump** are on by turning on the power strip.
- 1. **Verify** that the water pump and air pump are on by feeling them.
- 1. **Turn on the carbon filter ventilator** by turning on the power switch.
+ 1. **Turn on water pump, air pump, and ventilator** are on by turning on the power strip.
+ 1. **Verify** that the water pump, air pump, and ventilation pump are on by feeling them.
  1. Hit **'G'** for go and while it's cutting, **WATCH THE CUTTING. HIT THE STOP BUTTON IF ANYTHING GOES WRONG.**
  1. Move the head out of the way of your material by homing the laser head by hitting **'H'**.
  1. Yay! You cut a part. Rinse, lather, repeat.
@@ -88,7 +100,7 @@ The laser cutter is at 0,0 where + is off to the right and - if off to left, but
 
 # TODO
 
- - Write Raster mode setup
+ - Explain modes and setup
  - Write Z axis table SOP
  - Things that go wrong
  - Maintenance
