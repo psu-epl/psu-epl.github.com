@@ -5,6 +5,7 @@
 * Flush cut dike
 * Screw extractor kit
 * Counter-sink drill bits
+* Ignition wrenches
 
 ## Office supplies
 * <del>Post-it notes</del>
@@ -27,15 +28,16 @@
 * Iris modular plastic drawers
 
 ## Room and infrastructure improvements
-* Door jamb
+* <del>Door jamb</del>
 * Plug strips (outlets aligned parallel to strip to be compatible with Ikea task lights?)
 * Fan(s?)
 * Extra fire extinguisher for laser
 * 220V extension cord for reflow oven
 
 ## Chemicals
-* Lock-tite (for laser-cutter alignment screws)
+* <del>Lock-tite (for laser-cutter alignment screws)</del>
 * <del>Acrylic cement and applicator syringe</del>
+* More syringe applicators
 
 ## Library
 
