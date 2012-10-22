@@ -7,6 +7,7 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 
 - The [[administrative roles|epl-roles]] of the lab.
 - [[Lab policies|epl-policies]]
+- [[Safety Protocols]]
 - More here!
 
 
