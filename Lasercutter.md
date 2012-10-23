@@ -124,11 +124,11 @@ You can import a grey-scale bitmap image as your project. Be sure to set the DPI
  1. **Choose** your image file (.bmp)
     - image
  1. If your bitmap has greyscale data it is clipped by default. The B/W Threshold slider in the control panel controls what level is the difference between black and white
-    - image imported
+    - ![Imported raster image](images/raster_1.png)
  1. If you desire greyscale you have to pick a **dithering** scheme
     - **Simple Dither** makes dots further apart for lighter and closer together for darker
     - **Halftone Dither** Attempts to use a halftone algorithm to space the dots
-    - example
+    - ![imported raster image dithered](images/raster_2.png)
  1. Set **Raster Power** and **Raster Speed** for your material
  1. Follow above directions for placing and testing the perimeter and running the laser
 
@@ -149,7 +149,7 @@ You can import a grey-scale bitmap image as your project. Be sure to set the DPI
  1. Check that the file imported everything
     - It sometimes chokes on large or complicated paths. Repeat import until it works.
  1. In the control panel a **Vector Layer** will have been created for each color it detects
-    - image
+    - ![imported vector job](images/retina_job.png)
  1. Set the desired settings for each layer
     - **Layer**: The color of line
     - **Order**: When the laser will cut this line. Useful for cutting inside details before cutting out an outline
