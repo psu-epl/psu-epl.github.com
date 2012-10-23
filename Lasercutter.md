@@ -122,7 +122,8 @@ You can import a grey-scale bitmap image as your project. Be sure to set the DPI
 
  1. In Retina Engrave choose **File > Open File or Project**
  1. **Choose** your image file (.bmp)
-    - image
+    - Example Image:
+    - ![kittens!!!](images/kitten.jpg)
  1. If your bitmap has greyscale data it is clipped by default. The B/W Threshold slider in the control panel controls what level is the difference between black and white
     - ![Imported raster image](images/raster_1.png)
  1. If you desire greyscale you have to pick a **dithering** scheme
