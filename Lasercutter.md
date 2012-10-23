@@ -71,14 +71,21 @@ Here is how to cut something in the either of the two different modes:
  1. **Turn key on** laser cutter to turn on laser cutter. If that doesn't turn it on, rotate the stop button until it snaps out.
  1. Wait for laser cutter to boot and get an IP address (shown on the LCD front panel).
  1. Start up **RetinaEngrave3D** by clicking on the desktop icon 
+    - ![Retina Engrave 3D icon](images/retina_icon.png)
  1. Press **'H'** to home the laserhead. You'll get "0 0 0" for your current position and "Connected" and "Homed" in the status bar.
- 1. **Open the file** you've designed
- 1. File > **Print**
- 1. Select **"Full Spectrum Engineering Driver"**.
+
+#### Retina Engrave Toolbar:
+![Retina Engrave Toolbar](images/retina_header_icons_labeled.png)
+
+ 1. **Open the file** you've designed in the design software of your choice (or just a pdf or whatever)
+ 1. File > **Print** 
+ 1. Select **"Full Spectrum Engineering Driver"**
+    - ![Print to laser cutter](images/laser_print.png)
+    - If you have trouble printing with a message like "bounding box image invalid" try setting the paper to C size: ![c size paper settings](images/laser_paper_settings.png)
  1. Click OK, Print and then **wait**.
  1. Inside RetinaEngrave3D set the layer order, speed, power, repeat and vector current. See [[material database]] and/or the test pieces for setting these levels.
 
-### Cutting
+## Using Retina Engrave
 
 **IMPORTANT READ THIS CAREFULLY**
 
@@ -88,8 +95,10 @@ The laser cutter is at 0,0 where + is off to the right and - if off to left, but
 
 **TL;DR: YOU WILL HURT THE LASER CUTTER BY ENTERING POSITIVE 'MOVE TO' VALUES**
 
- 1. **Put in your material** in laser cutter wherever you want.
- 1. Use the arrow keys on the PC's keyboard to **move the lasercutter head to the upper left corner** of where you want to cut. It's got a red laser so you can see exactly where it's going to start.
+## Getting Ready To Cut
+
+ 1. **Put your material** in laser cutter wherever you like. 
+ 1. Use the arrow keys on the PC's keyboard to **move the lasercutter head to the UPPER LEFT corner** of where you want to cut. It's got a red laser so you can see exactly where it's going to start.
  1. **Test the outline** of your image to make sure it fits on your material. Hit the 'P' key (for _Perimeter Steps_) once per side and watch where the laser goes. Adjust your material or head appropriately. Make sure that the laser head is back in the upper left hand corner of your piece (on the screen, the red dot should be in the upper left at (0,0).
  1. **Turn on water pump, air pump, and ventilator** are on by turning on the power strip.
  1. **Verify** that the water pump, air pump, and ventilation pump are on by feeling them.
