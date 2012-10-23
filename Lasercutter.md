@@ -2,6 +2,8 @@
 
 # Full Spectrum Laser Pro24x12
 
+![The PSU-EPL laser](http://psu-epl.github.com/laser/full_spectrum.jpg)
+
 How to use the laser cutter:
 
 ## Theory of Operation
@@ -75,6 +77,7 @@ Here is how to cut something in the either of the two different modes:
  1. Press **'H'** to home the laserhead. You'll get "0 0 0" for your current position and "Connected" and "Homed" in the status bar.
 
 #### Retina Engrave Toolbar:
+
 ![Retina Engrave Toolbar](images/retina_header_icons_labeled.png)
 
  1. **Open the file** you've designed in the design software of your choice (or just a pdf or whatever)
@@ -97,19 +100,76 @@ The laser cutter is at 0,0 where + is off to the right and - if off to left, but
 
 ## Getting Ready To Cut
 
- 1. **Put your material** in laser cutter wherever you like. 
- 1. Use the arrow keys on the PC's keyboard to **move the lasercutter head to the UPPER LEFT corner** of where you want to cut. It's got a red laser so you can see exactly where it's going to start.
- 1. **Test the outline** of your image to make sure it fits on your material. Hit the 'P' key (for _Perimeter Steps_) once per side and watch where the laser goes. Adjust your material or head appropriately. Make sure that the laser head is back in the upper left hand corner of your piece (on the screen, the red dot should be in the upper left at (0,0).
- 1. **Turn on water pump, air pump, and ventilator** are on by turning on the power strip.
- 1. **Verify** that the water pump, air pump, and ventilation pump are on by feeling them.
+ 1. **Put your material** in laser cutter wherever you like.
+ 1. Use the arrow keys on the PC's keyboard to **move the lasercutter head to the UPPER LEFT corner** of where you want to cut. It's got a red laser so you can see exactly where it's going to start
+ 1. **Test the outline** of your image to make sure it fits on your material. Hit the 'P' key (for _Perimeter Steps_) once per side and watch where the laser goes. Adjust your material or head appropriately. Make sure that the laser head is back in the upper left hand corner of your piece (on the screen, the red dot should be in the upper left at (0,0)
+ 1. **Set the focus** using the focus tool. Use Page Up and Page Down keys to move the Z Table
+ 1. **Turn on water pump, air pump, and ventilator** are on by turning on the power strip
+ 1. **Verify** that the water pump, air pump, and ventilation pump are on by feeling them
  1. Hit **'G'** for go and while it's cutting, **WATCH THE CUTTING. HIT THE STOP BUTTON IF ANYTHING GOES WRONG.**
- 1. Move the head out of the way of your material by homing the laser head by hitting **'H'**.
- 1. Yay! You cut a part. Rinse, lather, repeat.
+ 1. Move the head out of the way of your material by homing the laser head by hitting **'H'**
+ 1. Yay! You cut a part. Rinse, lather, repeat
 
+***
+
+# Laser Settings Detail
+
+## Raster Mode
+
+### From Image
+
+You can import a grey-scale bitmap image as your project. Be sure to set the DPI of the bitmap file in your image program to get the correct size of the final piece.
+
+ 1. In Retina Engrave choose **File > Open File or Project**
+ 1. **Choose** your image file (.bmp)
+    - image
+ 1. If your bitmap has greyscale data it is clipped by default. The B/W Threshold slider in the control panel controls what level is the difference between black and white
+    - image imported
+ 1. If you desire greyscale you have to pick a **dithering** scheme
+    - **Simple Dither** makes dots further apart for lighter and closer together for darker
+    - **Halftone Dither** Attempts to use a halftone algorithm to space the dots
+    - example
+ 1. Set **Raster Power** and **Raster Speed** for your material
+ 1. Follow above directions for placing and testing the perimeter and running the laser
+
+### From printer
+
+ 1. In your graphics software get your job ready for printing
+    - Size should be respected from your drawing tool's geometry
+ 1. Follow the above directions for printing a file to Retina Engrave
+    - Note: make sure "Ignore Raster" is NOT checked in Import Options in the Control Panel
+ 1. Follow the above directions setting the dither or black/white cutoff value
+ 1. Set **Raster Power** and **Raster Speed** for your material
+ 1. Follow above directions for placing and testing the perimeter and running the laser
+
+## Vector Mode
+
+ 1. In your graphics software get your job ready for printing
+ 1. See above directions for printing to Retina Engrave
+ 1. Check that the file imported everything
+    - It sometimes chokes on large or complicated paths. Repeat import until it works.
+ 1. In the control panel a **Vector Layer** will have been created for each color it detects
+    - image
+ 1. Set the desired settings for each layer
+    - **Layer**: The color of line
+    - **Order**: When the laser will cut this line. Useful for cutting inside details before cutting out an outline
+    - **Speed**: Speed of laser head during cut
+    - **Power**: The PWM power of the laser during cut
+    - **Repeat**: How many times to make pass over this cut. Set 0 to ignore a color
+    - **Contained Objects First**: If checked it will try to cut lines inside closed shapes first. Does not seem to work currently
+
+ 1. See above directions for placing material and running laser
+ 1. Run job
+
+
+## Raster then Vector (both in one job)
+
+If you want to, say etch words in the top of a panel, then cut out a part and not have to run two jobs (and therefore not have to do alignment between runs) you can choose to run raster then vector in the same job.
+
+ 1. In your graphics software get your job ready for printing
 
 # TODO
 
- - Explain modes and setup
  - Write Z axis table SOP
  - Things that go wrong
  - Maintenance
