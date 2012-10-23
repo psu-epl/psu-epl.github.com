@@ -168,6 +168,14 @@ You can import a grey-scale bitmap image as your project. Be sure to set the DPI
 If you want to, say etch words in the top of a panel, then cut out a part and not have to run two jobs (and therefore not have to do alignment between runs) you can choose to run raster then vector in the same job.
 
  1. In your graphics software get your job ready for printing
+ 1. Be sure to have the part you want rastered in black and cut lines in a lighter color like yellow
+ 1. In the raster tab set the B/W Threshold so no cut lines show in the raster view
+ 1. Set raster power and speed
+ 1. In the vector tab set the speed and power for your cut lines
+ 1. Be sure to set the black layer to repeat: 0. This will ignore the black since it will be rastered
+ 1. Follow the above directions for placing and running the laser
+ 1. Select **Raster then Vector** from the laser mode drop down
+ 1. Run job
 
 # TODO
 
