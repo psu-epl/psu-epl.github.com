@@ -1,8 +1,8 @@
-Materials:
+***
 
 # Acrylic
 
-**Method**: Samples of clear acrylic were focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe. 
+**Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe. 
 
 <table>
  <thead>
@@ -22,12 +22,15 @@ Materials:
 
 # Bamboo Plywood
 
+**Method**: Samples of bamboo plywood placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe.
+
 <table>
  <thead>
   <tr><th>Thickness [mm]</th><th>Cut Speed (at 100% power)</th><th>Kerf (mm)</th></tr>
  </thead>
  <tbody>
-  <tr><td> ?</td><td>?%</td><td>?</td></tr>
+  <tr><td>2.87</td><td>90%</td><td>0.3 &ndash; 0.5</td></tr>
+  <tr><td>6.08</td><td>35%</td><td>0.3 &ndash; 1.0</td></tr>
  </tbody>
 </table>
 
