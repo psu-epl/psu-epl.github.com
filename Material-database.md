@@ -1,6 +1,6 @@
 ***
 
-# Acrylic
+# Acrylic (Plexiglass, PMMA)
 
 **Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe. 
 
@@ -52,6 +52,29 @@ The fit curve is found to be:
 
 ***
 
+# Kapton (polyimide flim)
+
+**Method**: Sheet of kapton film was placed on bed and focused. A series of tests of various powers and speeds were performed. 
+
+<table>
+ <thead>
+  <tr><th>Thickness [mil]</th><th>Raster Power</th><th>Raster Speed</th><th>Remarks</th></tr>
+ </thead>
+ <tbody>
+  <tr><td>2</td><td>50%</td><td>40%</td><td>Slightly narrow in Y axis. Good cut.</td></tr>
+ </tbody>
+</table>
+
+**Notes:** can mark, but not cut at 50% speed and ~25% power.
+
+#### Calibration
+
+The kapton is considered next to its source file.
+
+![Cut kapton next to source for calibration](images/calibratded_polyimide.png)
+
+***
+
 # Paper
 
 ## 40 lb Card Stock
@@ -60,10 +83,8 @@ The fit curve is found to be:
  - 100% pwm
  - 70% speed
 
-
 ***
  - office paper
- - card stock
  - cardboard
  - chipboard
  - kapton
