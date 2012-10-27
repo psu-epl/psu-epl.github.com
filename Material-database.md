@@ -18,6 +18,16 @@
  </tbody>
 </table>
 
+#### Chart
+
+The above experimental values were charted and found that cut power was roughly exponential with thickness.
+
+![Acrylic cut power as a function of material thickness](images/EPL_acrylic_cut_power.png)
+
+The fit curve is found to be:
+
+![power = 168.216 e^(0.3607 thickness)](images/acrylic_math_fit.png)
+
 ***
 
 # Bamboo Plywood
