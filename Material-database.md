@@ -44,6 +44,12 @@ The fit curve is found to be:
  </tbody>
 </table>
 
+#### Raster:
+
+**Method**: Bamboo was placed on the bed and focused to the surface height. A series of 1/4 inch squares were cut at 500 dpi and varying powers/speeds. Gradients were also created for different dpis and halftoning methods.
+
+![Bamboo laser raster guide](images/raster_key_bamboo.png)
+
 ***
 
 # Paper
