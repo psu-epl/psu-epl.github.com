@@ -61,7 +61,7 @@ The fit curve is found to be:
   <tr><th>Thickness [mil]</th><th>Raster Power</th><th>Raster Speed</th><th>Remarks</th></tr>
  </thead>
  <tbody>
-  <tr><td>2</td><td>50%</td><td>40%</td><td>Slightly narrow in Y axis. Good cut.</td></tr>
+  <tr><td>2</td><td>50%</td><td>40%</td><td>Slightly narrow in Y axis. A little too big. Set B/W set point to 005 for smaller cut</td></tr>
  </tbody>
 </table>
 
