@@ -27,7 +27,7 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - LPKF S63 Printed Circuit Board Router
 - [[Soldering Equipment|solderingequipment]]
 - ?? solder paste stencil frame
-- ?? reflow oven
+- [[Torch T200N+ reflow oven|Reflow Oven SOP]]
 - Misc Hand tools
 - [[Things to get]]
 - [[3D Scanning|3Dscanning]]
