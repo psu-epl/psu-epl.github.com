@@ -23,7 +23,7 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 ## Equipment
 
 - [[Full Spectrum Laser Pro24x12|lasercutter]]
-- Stratisys Mojo 3D printer (FDM)
+- [[Stratisys Mojo 3D printer (FDM)|Mojo 3D Printer SOP]]
 - LPKF S63 Printed Circuit Board Router
 - [[Soldering Equipment|solderingequipment]]
 - ?? solder paste stencil frame
