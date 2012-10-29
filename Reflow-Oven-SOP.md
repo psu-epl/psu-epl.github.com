@@ -13,7 +13,9 @@
   4. Hit "Save" in the Parameter Settings "Control" section towards the bottom (not the one on the right)
   5. Close the connection to the oven using the "Close COM" button on the right side
   6. Close the window using the "OK Return" button on the right side
-4. Back in the main window, connect to the oven using the "Open COM" button in the upper left
+4. Back in the main window, prepare to reflow
+  1. In the pull-down menu in the upper right of the plot area, select "Temerature Curve".  This setting cannot be changed once connected to the oven!  "Temperature Curve" will plot the oven's temperature sensor.  "Actual Curve" will plot the external thermocouple plugged into the front of the oven.  This thermocouple can be taped to your board using kapton tape to measure the actual board temperature during reflow.  If done, make sure the thermal couple wire does not get pinched in the door slides.
+  2. Connect to the oven using the "Open COM" button in the upper left
 5. Setup the exhaust fan
   1. Position the right-side solder-bench exhaust fan flexi-tube over the oven's exhaust port (back side of the oven, lower center)
   2. Turn on the exhaust fan using the switch on the lower left side of the white box under the solder bench
