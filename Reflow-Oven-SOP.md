@@ -27,7 +27,7 @@
   1. Push the "Begin Check" button on the toolbar in the main window.  If a pop-up fails to appear, try pushing and holding the "Begin Check" button for a second.
   2. Verify the peak temperature in the pop-up is correct for your chosen profile (250C for leaded; 260C for PbFree) and hit OK if correct.  If not, try canceling, and redo the "Begin Check".  If still not right, try opening the the "Meter Setting" window, verify the max temperature in the profile is correct, hit "Save" in the "Control" section at the bottom of the window, and close the window using the "OK Return" button.
   3. Verify the temperature displayed on the oven (red, upper number) is climbing.
-  4. The plot in the main window should also show the temperature increase and represents the desired and actual oven temperature.  The two should track very closely.
+  4. The plot in the main window should also show the temperature increase, provided "Temperature Curve" was selected in the pull-down menu in the upper right of the plot area prior to connecting to the oven.
   5. The reflow cycle has begun and the oven will beep for a few seconds once peak temperature has been reached.
 8. Completing the reflow cycle.
   1. After peak temperature is reached and the alarm sounds, wait until the oven has cooled back down until ~80C
