@@ -87,6 +87,11 @@ The kapton is considered next to its source file.
  - 100% pwm
  - 70% speed
 
+## 1/8 inch Corrugated Cardboard
+
+ - 35% current
+ - 100% pwm
+ - 80 % speed
 ***
  - office paper
  - cardboard
