@@ -92,11 +92,11 @@ The kapton is considered next to its source file.
  - 35% current
  - 100% pwm
  - 80 % speed
+
 ***
+
  - office paper
- - cardboard
  - chipboard
  - kapton
-  - 2 mil
   - 5 mil
  - plywood
