@@ -21,13 +21,15 @@ enclosure.
 
 
 ### Lab Equipment
- - [Full Spectrum Laser Pro24x12](/laser "Full Spectrum Laser Cutter")
- - [Stratisys Mojo 3D printer (FDM)](/mojo "Stratisys Mijo 3D Printer")
- - [LPKF S63 Printed Circuit Board Router](/lpkf "LPKF Circuit Board Router")
+ - Full Spectrum 80w Laser Cutter
+ - Stratisys Mojo 3D printer (FDM)
+ - LPKF S63 Printed Circuit Board Router
  - **Soldering Equipment**
    - Hakko Soldering stations with various tips, vaccum and hot air
-   - [Beijing Torch Co. T200N Desk Reflow Oven](/reflow "Beijing Torch Co. T200N Desk Reflow Oven")
+   - Beijing Torch Co. T200N Desk Reflow Oven
  - Misc Hand tools
+
+Read about all of our equipment and policies on our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki").
 
 ## Lab Access
 
