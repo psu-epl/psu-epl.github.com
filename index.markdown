@@ -38,9 +38,7 @@ way to join!
 
 ## Calendar
 
-<div width="500">
-<iframe style=" border-width:0 " width="500" height="450" frameborder="0" scrolling="no"></iframe>
-</div>
+<iframe></iframe>
 
 ### Test
 
