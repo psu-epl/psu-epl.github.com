@@ -16,6 +16,7 @@
 
 ## Other tools
 * Laminator
+* USB microscope camera
 
 ## Things to keep clean and organized
 * Brush for LPKF
@@ -33,6 +34,12 @@
 * Fan(s?)
 * Extra fire extinguisher for laser
 * 220V extension cord for reflow oven
+* Shop air distribution (using the LPKF compressor)
+ * Regulator
+ * Quick release connectors
+ * Hoses
+ * Connectors
+
 
 ## Chemicals
 * <del>Lock-tite (for laser-cutter alignment screws)</del>
