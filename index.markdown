@@ -38,5 +38,5 @@ way to join!
 
 ## Calendar
 
-<iframe src="https://www.google.com/calendar/embed?title=PSU%20Schedule&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=epl.pdx%40gmail.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.google.com/calendar/embed?title=EPL%20Schedule&amp;showCalendars=0&amp;mode=WEEK&amp;height=450&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=epl.pdx%40gmail.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="615" height="450" frameborder="0" scrolling="no"></iframe>
 
