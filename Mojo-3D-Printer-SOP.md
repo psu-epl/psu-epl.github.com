@@ -27,6 +27,30 @@
  2.	Raft front edge should be flush with metal build platform
 6.	Click the “Print” button in the Mojo Control Panel
 
+## Cleaning
+1.	All prints will use some amount of support material.  Depending on the design, it may be easy enough to manually separate the support from the model, otherwise it's best to use the bath.
+1.	If your parts are small, install the white plate into the bottom to keep the parts from getting sucked down into the stirrer. (Normally this would be done before adding water and the cleaning tablet.  How should we do this since we are not replacing the bath water with each cleaning cycle?)
+1.	Push the button on the top of the Wavewash support removal bath.  An LED in the button should illuminate, the magnetic stirrer should activate, and the bath will begin to heat up.  It's best to start the process before adding your part to allow the bath to heat up.
+1.	Depending on your design and how thick the support material has been built up, it may take a few hours to completely dissolve the support material.  The wavewash will run for an 8 hour cycle and automatically stop.
+1.	Stop the Wavewash (if it hasn't automatically stopped yet) to stop the vortex created by the stirrer from sucking your parts down to the bottom.
+1.	Use the tongs to remove your parts and visually verify the support material has all been removed.  If not, then put your parts back in and start the Wavewash again.
+1.	Place your parts in the rinse bucket, and rinse them off thoroughly with tap water in the bathroom sink.
+
+## Maintenance
+
+### Print and support material replacement
+1. TBD (It's pretty simple though!)
+
+### Wavewash bath replacement
+1.	Dump out the old bath water in the bathroom sink.  The solution is supposedly safe enough to do this.
+2.	Rinse out the carafe and refill with water.
+3.	Install the carafe back onto the Wavewash.
+4.	Start the Wavewash to heat the bath up.
+5.	Add a cleaning tablet
+6.	Wait for tablet to dissolve before adding parts
+
+
+
 ## Tips
 
 ### Model preparation
