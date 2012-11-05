@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 title: Portland State University Electronics Prototyping Lab
 ---
 
@@ -35,11 +35,3 @@ Read about all of our equipment and policies on our [wiki](https://github.com/ps
 
 Right now we're invitation only, but in the future there will be a
 way to join!
-
-## Calendar
-
-<iframe></iframe>
-
-### Test
-
-item
