@@ -10,6 +10,8 @@ students (and eventually community members) to be able to walk in with an idea
 and CAD files and walk out with a fully functioning piece of electronics in an
 enclosure.
 
+For more information see our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki").
+
 --------------------------------------------------------------------------------
 
 ### Lab Timeline
