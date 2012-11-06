@@ -14,7 +14,7 @@
   <tr><td> 2.85</td><td>60%</td><td>0.2 &ndash; 0.5</td></tr>
   <tr><td> 4.50</td><td>30%</td><td>0.2 &ndash; 1.0</td></tr>
   <tr><td> 5.80</td><td>20%</td><td>0.2 &ndash; 1.0</td></tr>
-  <tr><td>12.13</td><td> 1%</td><td>0.5 &ndash; 2.0</td></tr>
+  <tr><td>12.13</td><td> 5%</td><td>0.5 &ndash; 2.0</td></tr>
  </tbody>
 </table>
 
