@@ -66,6 +66,7 @@ The fit curve is found to be:
  </thead>
  <tbody>
   <tr><td>2</td><td>50%</td><td>40%</td><td>Slightly narrow in X axis. A little too big. Set B/W set point to 005 for smaller cut, still measured at about 1 mil too large in the X and 3 to 4 mils too large in the Y</td></tr>
+<tr><td>5</td><td>75%</td><td>25%</td><td>Still a little too big. Set B/W set point to 005</td></tr>
  </tbody>
 </table>
 
