@@ -38,7 +38,7 @@
 4. Load a temperature profile
   1. Open the profile using the "Open" button on the right side
     - ![open profile](images/Torch_MeterSetting_Open.png)
-  2. Select the LeadedProfile.html or PbFreeProfile for leaded or lead-free solder paste reflow, respectively.
+  2. Select the LeadedProfile.html or PbFreeProfile for leaded or lead-free solder paste reflow, respectively. These files can be found in `C:\Profiles\`
 5. Load the "Parameter Settings" from the oven
   1. Connect to the machine using the "Connect" button on the right side
     - ![open profile](images/Torch_MeterSetting_Connect.png)
