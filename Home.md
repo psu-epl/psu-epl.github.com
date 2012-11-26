@@ -61,6 +61,7 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - Rami Alshafi
 - Pat Nystrom
 - Monty Goodson
+- Scott Dixon
 - Other staff who have FAB building access
 
 ## Meeting notes
