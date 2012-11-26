@@ -13,6 +13,7 @@
   1. Hit the "Get" button in the "Control" section on the bottom of the screen.  This will take a few seconds.
   1. Hit the "AutoCount" towards the top of the "Parameter Settings" section
   1. Hit "Save" in the Parameter Settings "Control" section towards the bottom (not the one on the right)
+  1. Hit "Write" in the right side of the window.  You will see it changing the black text to red in the meter settings on the left.  Wait for it to finish.
   1. Close the connection to the oven using the "Close COM" button on the right side
 1. Close the window using the "OK Return" button on the right side
 1. In the pull-down menu in the upper right of the plot area, select "Temerature Curve".
@@ -48,7 +49,8 @@
     - ![open profile](images/Torch_MeterSetting_AutoCount.png)
   4. Hit "Save" in the Parameter Settings "Control" section towards the bottom (not the one on the right)
     - ![open profile](images/Torch_MeterSetting_Save.png)
-  5. Close the connection to the oven using the "Close COM" button on the right side
+  5. Hit "Write" in the right side of the screen.  You should see the black meter settings (on the left) go to red as they load into the machine. 
+  6. Close the connection to the oven using the "Close COM" button on the right side
     - ![open profile](images/Torch_MeterSetting_CloseCom.png)
   6. Close the window using the "OK Return" button on the right side
     - ![open profile](images/Torch_MeterSetting_OkReturn.png)
