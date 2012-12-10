@@ -1,3 +1,10 @@
+##Kapton Film
+
+* Kaptonsource.com
+ * 3 Mil by 12" by 36 yard roll
+ * PC533FILM-12000-36
+ * $315.00 + shipping
+
 ## Acrylic
 
 * Port Plastics
