@@ -4,7 +4,15 @@ Steps to produce a PCB:
 * Turn on the S63
 * Start the LPKF CircuitPro software
 * Select the job type
+    For two-sided boards, use DoubleSided_NoTHP.cbf
 * Import Gerber/Excellon data
+    * Select File | Import ... (or hit Ctrl-I)
+    * Navigate to the folder containing your Gerber and Excellon data. For a two-sided board, you need 4 files:
+        * Top Gerber
+        * Bottom Gerber
+        * Board Outline Gerber
+        * Excellon Drill Data
+            The Gerber files should be in RS-274X format, which means that each file contains the aperture list for that file, as opposed to plain RS-274, which requires separate aperture files. All modern PCB design packages can export RS-274X.
     * assign layers
     * check Excellon scale
 * Add fiducials
