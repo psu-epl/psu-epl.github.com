@@ -1,5 +1,9 @@
 ## LPKF S63 Circuit Board Plotter
 Steps to produce a PCB:
+* Login to controller PC
+* Turn on the S63
+* Start the LPKF CircuitPro software
+* Select the job type
 * Import Gerber/Excellon data
     * assign layers
     * check Excellon scale
