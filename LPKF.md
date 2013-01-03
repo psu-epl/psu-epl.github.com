@@ -12,6 +12,7 @@ Steps to produce a PCB:
         * Bottom Gerber
         * Board Outline Gerber
         * Excellon Drill Data
+
             The Gerber files should be in RS-274X format, which means that each file contains the aperture list for that file, as opposed to plain RS-274, which requires separate aperture files. All modern PCB design packages can export RS-274X.
     * assign layers
     * check Excellon scale
