@@ -2,6 +2,7 @@
 Steps to produce a PCB:
 * Login to controller PC
 * Turn on the S63
+    Open the cover. The power switch is on the bottom right front corner.
 * Start the LPKF CircuitPro software
 * Select the job type
     For two-sided boards, use DoubleSided_NoTHP.cbf
@@ -15,6 +16,7 @@ Steps to produce a PCB:
 
             The Gerber files should be in RS-274X format, which means that each file contains the aperture list for that file, as opposed to plain RS-274, which requires separate aperture files. All modern PCB design packages can export RS-274X.
     * assign layers
+        The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to TopLayer, BottomLayer, BoardOutline, and DrillUnplated, respectively.
     * check Excellon scale
 * Add fiducials
     Fiducials are holes used to align the blank during processing, typically when the board is flipped to do the second side. There are two ways to do fiducials:
