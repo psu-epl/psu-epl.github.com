@@ -19,6 +19,16 @@ Steps to produce a PCB:
 
         The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to TopLayer, BottomLayer, BoardOutline, and DrillUnplated, respectively.
     * check Excellon scale
+
+        The Excellon format is ambiguous regarding scale; the software must be told how the data was generated. The options which must be set are:
+
+        * Unit (inches or millimeters)
+        * Values (set to Absolute, not relative)
+        * Leading/Trailing zero supression (Omit Leading/Omit Trailing)
+        * Digits (where the decimal place is implied; this is determined by the output settings of the PCB CAD software)
+
+        When these things are set properly, the picture of the board will have holes which appear in the correct places relative to the Gerber drawings.
+
 * Add fiducials
     Fiducials are holes used to align the blank during processing, typically when the board is flipped to do the second side. There are two ways to do fiducials:
     * Use existing holes
