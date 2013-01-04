@@ -21,9 +21,11 @@ Steps to produce a PCB:
 
     * assign layers
 
-        The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to TopLayer, BottomLayer, BoardOutline, and DrillUnplated, respectively.
+        The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to TopLayer, BottomLayer, BoardOutline, and DrillUnplated, respectively. DrillUnplated is the Excellon layer. If you have other layers, you can ignore them.
 
-    * check Excellon scale
+    * verify preview
+
+        Click on each layer and make sure the preview looks sane. If your drills are messed up, you'll need to set the import parameters manually.
 
         The Excellon format is ambiguous regarding scale; the software must be told how the data was generated. The options which must be set are:
 
@@ -33,6 +35,8 @@ Steps to produce a PCB:
         * Digits (where the decimal place is implied; this is determined by the output settings of the PCB CAD software)
 
         When these things are set properly, the picture of the board will have holes which appear in the correct places relative to the Gerber drawings.
+
+        If everything looks sane, hit 'OK'.
 
 * Add fiducials
 
