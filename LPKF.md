@@ -52,10 +52,11 @@ Steps to produce a PCB:
 
     Most of the options controlling how the board will be milled are set here. More soon, but the important one are:
 
-        * Isolation type - controls how much copper will be removed around your features. This selection will greatly affect the run time and bit usage of a board. The most economical setting is Basic. Only one channel (typically 8 mil or .2mm) will be cut around each feature. A Basic board will be a bit harder to solder because the single isolation channels are fairly easy to accidentally bridge. The next level, Basic Pads Double, helps some by isolating an extra channel around all flashed apertures. Typically, pads and vias are flashed, which means the places you'll be soldering will have a bit more room around them. The next level, Partial Rubout, will remove copper from the defined rubout regions. This is an expensive operation, so it is typically only used for boards which have RF or galvanic isolation features which the remaining copper would cause a problem. Finally, Full Rubout will remove all extra copper from the board, leaving only your features.
+    * Isolation type - controls how much copper will be removed around your features. This selection will greatly affect the run time and bit usage of a board. The most economical setting is Basic. Only one channel (typically 8 mil or .2mm) will be cut around each feature. A Basic board will be a bit harder to solder because the single isolation channels are fairly easy to accidentally bridge. The next level, Basic Pads Double, helps some by isolating an extra channel around all flashed apertures. Typically, pads and vias are flashed, which means the places you'll be soldering will have a bit more room around them. The next level, Partial Rubout, will remove copper from the defined rubout regions. This is an expensive operation, so it is typically only used for boards which have RF or galvanic isolation features which the remaining copper would cause a problem. Finally, Full Rubout will remove all extra copper from the board, leaving only your features.
 
-            Another P
+        Another P
 
+    * Routing Type
 
             
 
