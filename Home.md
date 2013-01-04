@@ -43,10 +43,26 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - Official rules and regs
 - Badgenista stuff
 
-## Membership
+## Use of the Lab
 
-1. Get a Github account
-1. Ask a EPL Manager to get you in
+### Normal everyday lab users
+
+1. Check out our [[schedule|http://psu-epl.github.com]] and come in during any office hour for training.
+1. Sign the waiver form.
+1. Get yourself trained on a piece of equipment.
+1. Come in and use the equipment whenever an EPL Manager has office hours.
+1. Go to (3).
+
+### Becoming a lab manager
+
+1. Get trained on **all** equipment.
+1. Get three current managers to sponsor you.
+1. Ask the EPL Administrators to become a manager. It's not at all guaranteed that you will.
+1. Once you're OK'd:
+   1. Get a Github account
+   1. Ask to have your MCECS login be added to all EPL PCs.
+   1. Ask to be put on the manager's list and have the Google Calendar shared with you.
+   1. Swear the oath of fealty. Ha! Kidding. But, seriously, get trained on manager SOPs.
 
 ## Admin
 
