@@ -70,25 +70,49 @@ Steps to produce a PCB:
 
     The default cutting tool used to separate the board is a 2mm milling bit. There are at least two good reasons to change this to a 1 mm contour router (it wastes less blank material, and it damages the backing material less). This can be changed by selecting 'Show Details' and choosing the 1mm contour router from the drop down list on the right.
             
-     Once all your options are set, hit 'start' and the software will calculate the toolpaths. Check the warnings very carefully! Ignore only the warning about pockets. Hit 'close' when all is good.
+     Once all your options are set, hit 'start' and the software will calculate the toolpaths. Check the warnings very carefully! Ignore only the warning about pockets. Hit 'close' when all is good. 
+
+     Click on machine view and verify that the color coded tool paths look about right. To see which tool is which, see: Check Tool Magazine below. 
+
+* Check Tool Magazine
+
+    Open Edit > Tool Magazine. Under the list of required tools, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine. IMPORTANT: DO NOT CHANGE POSITIONS 1, 2, OR 3. EVER. EVER EVER. 
+
+    In the tool magazine dialog, choose one of the unused (no green check mark or says NONE) slots and use the dropdown menu to select the first tool that you need. Then open the machine cover and carefully remove/replace the tool in that position using the blue tool changing thingy. Repeat as necessary. 
+
+    Click 'OK'. You shouldn't need to recalculate the toolpaths. 
 
 * Physically Mount Material
+    * Select a PCB blank
+
+   Choose some vaguely planar untwisted blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will want some PCB ribbing around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
+
     * Prepare backing surface
 
-    This is **really important**: the white backing material must be as smooth and flat as possible. This machine has no idea where the material surface is, beyond what the user tells it. That is, it thinks it knows the height of the top of your blank, but it assumes it is a perfect plane. If it deviates even by 2 mils (.05mm), isolation **will not work**. So, with the blank not mounted, run your fingers over the surface of the backing material and feel for any bumps or debris. If you feel any, blow off the debris or use the razor blade tool to remove the bumps. Bumps occur because drills and routing bits grind out and lift backing material. This is especially noticeable in the routed grooves where a PCB was separated from the blank.
+    This is **really important**: the white backing material must be as smooth and flat as possible. This machine has no idea where the material surface is, beyond what the user tells it. That is, it thinks it knows the height of the top of your blank, but it assumes it is a perfect plane. If it deviates even by 2 mils (.05mm), isolation **will not work**. So, with the PCB blank not mounted, run your fingers over the surface of the white backing material and feel for any bumps or debris. If you feel any, blow off the debris or use the razor blade tool to remove the bumps. Bumps occur because drills and routing bits grind out and lift backing material. This is especially noticeable in the routed grooves where a PCB was separated from the blank. It's a good idea to run the razor blade over the surface even if you can't feel any bumps. Lift the white backing material out and check the backside too. 
 
-    The vacuum table will not sufficiently hold a board for routing. You must put masking tape along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient.
+    Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put masking tape along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
 
 * Edit Material Settings
 
-    * Set material thickness
+    * Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
 
-* Edit pattern placement on blank
+* Edit pattern placement on the PCB blank
 
-    From the machining view, right-click and select 'Placement'. The design artwork should get a heavy line about it, with a rotation handle on the top. It can then be dragged to the desired location on the blank. Make sure that wherever you place it that the black shroud will not encounter tape or other obstacles, and is completely on the blank. You can check this by selecting the 'Mouse Cursor' mode in the left control panel, visible in the machining view. It's a bit awkward; if you have the 'Mouse Cursor' mode selected, then click on the graphic view, the head will move to that location. But if you are in Placement Mode, moving the design about, the head will also move to wherever you release the drag, which typically will not be in the corner of your design. The best approach is to de-select 'Mouse Cursor' mode to move your design, and re-select it to check the location.
+    Place the head in the lower left hand corner of where you want the board to be routed on the PCB Blank. In the machining view, select the 'Mouse Cursor' mode in the left control panel. It's a bit awkward; if you have the 'Mouse Cursor' mode selected you can click anywhere to move the head to that location. The purpose of this exercise is to make sure the black collar around the bit will never go off the board or hit blue tape. De-select the 'Mouse Cursor' mode.
 
+    In the machining view, right-click on the artwork and select 'Placement'. The design artwork should get a heavy line around it with a rotation handle on the top. Then click and drag the artwork's lower left-hand corner to the location of the head (which should be the appropriate place on the board). 
+
+    Now reselect 'Mouse Cursor' and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
 * Run Process
+
+    Select Machining > Process All. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit 'OK'.
+    The Material Settings dialog will come up but you've already done that too. Hit 'Continue'.
+    The Placement dialog will come up but you've already done that too. Hit 'Continue'. 
+    You'll be prompted to save. Go ahead, why not. 
+    The machine should happily do its thing. 
+
 * Check Isolation
 * Flip Material
     * Prepare backing surface
