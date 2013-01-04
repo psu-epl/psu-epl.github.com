@@ -2,9 +2,11 @@
 Steps to produce a PCB:
 * Login to controller PC
 * Turn on the S63
+
     Open the cover. The power switch is on the bottom right front corner.
 * Start the LPKF CircuitPro software
 * Select the job type
+
     For two-sided boards, use DoubleSided_NoTHP.cbf
 * Import Gerber/Excellon data
     * Select File | Import ... (or hit Ctrl-I)
