@@ -123,9 +123,14 @@ Steps to produce a PCB:
 
     There will be one more dialog to 'Confirm the Focus Height'. Follow the instructions and make your selection.  
 
-    * Prepare backing surface
+* Prepare backing surface
 
-    Again, check and re-plane the backing if necessary.
+    Again, check and re-plane the backing if necessary. Follow dialogs and run process again. The head will automatically find the fiducials with its camera and align itself. 
 
-* De-burr back of blank
-* Run Process
+* Remove the board
+
+     When finished, use the sandpaper and/or razor blade to debur the board. Check to be sure all the traces are isolated. Use a pair of dikes to cut the surface of the tabs, then a razor blade to separate the board from the PCB material. Use a file to smooth the edges. 
+
+* Safely exit and shut down the machine
+
+     Click File > Exit. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
