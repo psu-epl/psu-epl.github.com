@@ -114,7 +114,15 @@ Steps to produce a PCB:
     The machine should happily do its thing. 
 
 * Check Isolation
+
+     Before going on, check that the traces are actually isolated by the router bit. Check all four corners of the board. Use the loop and a lamp. Use razor blade and/or sandpaper to make it smooth to the touch.
+
 * Flip Material
+
+    Remove the tape and flip the material. Make sure the white backing material is smooth before you lay down the PCB material. The back edge of the PCB should end up at the front of the table. Tape the left and right sides again, use the razor blade and/or sandpaper to make the top of the material smooth, and wipe away any debris. Close the lid and click 'OK' on the FlipMaterial dialog. 
+
+    There will be one more dialog to 'Confirm the Focus Height'. Follow the instructions and make your selection.  
+
     * Prepare backing surface
 
     Again, check and re-plane the backing if necessary.
