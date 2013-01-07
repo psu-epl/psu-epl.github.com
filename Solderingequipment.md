@@ -12,3 +12,4 @@
 
 ## Using the equipment
 
+- The station on the right side of the bench currently has an FM-206 three port base unit.  There are two FM-2027 soldering irons, an FM-2027 desoldering tool and an FM-2022 parallel remover tool which can be attached to the base unit.  Note that not all of the ports on the FM-206 are the same.  In particular, the FM-2022 can only run off the the middle port (port 2).  
