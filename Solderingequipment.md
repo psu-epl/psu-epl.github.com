@@ -14,4 +14,7 @@
 
 - The station on the right side of the bench currently has an FM-206 three port base unit.  There are two FM-2027 soldering irons, an FM-2027 desoldering tool and an FM-2022 parallel remover tool which can be attached to the base unit.  Note that not all of the ports on the FM-206 are the same.  In particular, the FM-2022 can only run off the the middle port (port 2).  
 
-- 
+- To change settings on any of the ports on the FM-206, hold down the button above the port until you get a menu.  Rotate the knob to make changes and push the knob to make selections.
+
+- It is possible to change the tips on the FR-2027 soldering irons without turning them off and waiting for them to cool down.  However, it takes a bit of care since the tips will be hot.  Press on the two black clips to release the green tip holder.  Then pull the holder and tip off the iron.  Then you can push the tip part way out of the holder by pushing on the cold end (**not** the tip end).  Don't push the tip all the way out.  You want to expose enough of the cold end of the tip to be able to grip it and remove it completely from the holder.  Then put the hot tip in the tip storage holder and install a new tip by pushing it into the tip holder and installing tip and holder onto the iron.
+
