@@ -27,7 +27,7 @@
 - [[Full Spectrum Laser Pro24x12|lasercutter]]
 - [[Stratisys Mojo 3D printer (FDM)|Mojo 3D Printer SOP]]
 - [[LPKF S63 Printed Circuit Board Router|LPKF]]
-- [[Soldering Equipment|solderingequipment]]
+- [[Soldering Equipment|Soldering Equipment]]
 - ?? solder paste stencil frame
 - [[Torch T200N+ reflow oven|Reflow Oven SOP]]
 - Misc Hand tools
