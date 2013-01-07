@@ -52,7 +52,7 @@
 
 - Soldering is primarily a manual skill which improves with repetition and experience.  We have scrap boards you can use to practice on.
 
--  For an introduction (or refresher) on soldering, check out the ["Soldering is Easy"](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and ["SMT Soldering. It's Easier Than You Think"](https://docs.google.com/file/d/0B1Q2XTPf2Q8xRjNiU3hGeVhER0E/edit) pamphlets.  Or watch [this](https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2) three part video.  The [videos](http://www.youtube.com/user/paceworldwide)
+-  For an introduction (or refresher) on soldering, check out the ["Soldering is Easy"](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and ["SMT Soldering. It's Easier Than You Think"](https://docs.google.com/file/d/0B1Q2XTPf2Q8xRjNiU3hGeVhER0E/edit) pamphlets.  Or watch [this](https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2) three part video.  The [videos](http://www.youtube.com/user/paceworldwide) from Pace are also good although getting little old.
 
 - If you are having trouble, ask for help.  Sometimes a simple trick or two can make a huge difference.
 
