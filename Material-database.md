@@ -43,8 +43,8 @@ The fit curve is found to be:
   <tr><th>Thickness [mm]</th><th>Cut Speed (at 100% power)</th><th>Kerf (mm)</th></tr>
  </thead>
  <tbody>
-  <tr><td>2.87</td><td>90%</td><td>0.3 &ndash; 0.5</td></tr>
-  <tr><td>6.08</td><td>35%</td><td>0.3 &ndash; 1.0</td></tr>
+  <tr><td>2.87</td><td>80%</td><td>0.3 &ndash; 0.5</td></tr>
+  <tr><td>6.08</td><td>18%</td><td>0.3 &ndash; 1.0</td></tr>
  </tbody>
 </table>
 
