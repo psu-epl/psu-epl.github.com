@@ -14,6 +14,8 @@
 
 ## Using the equipment
 
+- The manuals for all the Hakko equipment are available online [here](https://doc.hakko.com/top.php?_gs=on&l=en).  Hardcopies are also available in the EPL.
+
 - The station on the right side of the bench currently has an FM-206 three port base unit.  There are two FM-2027 soldering irons, an FM-2027 desoldering tool and an FM-2022 parallel remover tool which can be attached to the base unit.  Note that not all of the ports on the FM-206 are the same.  In particular, the FM-2022 can only run off the the middle port (port 2).  
 
 - To change settings on any of the ports on the FM-206, hold down the button above the port until you get a menu.  Rotate the knob to make changes and push the knob to make selections.
@@ -50,7 +52,7 @@
 
 - Soldering is primarily a manual skill which improves with repetition and experience.  We have scrap boards you can use to practice on.
 
--  For an introduction (or refresher) on soldering, check out the ["Soldering is Easy"](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and ["SMT Soldering. It's Easier Than You Think"](https://docs.google.com/file/d/0B1Q2XTPf2Q8xRjNiU3hGeVhER0E/edit) pamphlets.  Or watch [this](https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2) three part video.
+-  For an introduction (or refresher) on soldering, check out the ["Soldering is Easy"](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and ["SMT Soldering. It's Easier Than You Think"](https://docs.google.com/file/d/0B1Q2XTPf2Q8xRjNiU3hGeVhER0E/edit) pamphlets.  Or watch [this](https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2) three part video.  The [videos](http://www.youtube.com/user/paceworldwide)
 
 - If you are having trouble, ask for help.  Sometimes a simple trick or two can make a huge difference.
 
