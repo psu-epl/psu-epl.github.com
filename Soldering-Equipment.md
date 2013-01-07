@@ -30,7 +30,7 @@
 
  - Be sure to adjust the separation between the eyepieces to match your eyes.
 
- - If you are having trouble focusing, first use the normal focus adjustment to focus with your right eye.  Then focus for your left eye by rotating the left eyepiece.
+ - If you are having trouble focusing, first use the normal focus adjustment to focus with your left eye.  Then focus for your right eye by rotating the right eyepiece.
 
  - Because of the narrow field of view, it is easy to loose track of the position the soldering iron tip when working under the microscope.  Therefore, it is easy to burn yourself or something on your board.  If you can't see the iron tip, take your eyes away from the eyepieces and move the tip into position by looking directly at it.
 
