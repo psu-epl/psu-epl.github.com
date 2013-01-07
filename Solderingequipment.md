@@ -18,3 +18,7 @@
 
 - It is possible to change the tips on the FR-2027 soldering irons without turning them off and waiting for them to cool down.  However, it takes a bit of care since the tips will be hot.  Press on the two black clips to release the green tip holder.  Then pull the holder and tip off the iron.  Then you can push the tip part way out of the holder by pushing on the cold end (**not** the tip end).  Don't push the tip all the way out.  You want to expose enough of the cold end of the tip to be able to grip it and remove it completely from the holder.  Then put the hot tip in the tip storage holder and install a new tip by pushing it into the tip holder and installing tip and holder onto the iron.
 
+- The center station contains a stereo microscope with illuminator.  If you haven't used a stereo microscope before, here are a few tips:
+ -- You don't need to press your eyes onto the eyepieces.  Hold them off slightly.
+ -- You can use your glasses if you prefer.  Just roll the rubber eyepieces back in that case.
+ -- Be sure to adjust the separation between the eyepieces to match your eyes.
