@@ -25,7 +25,7 @@
 ## Equipment
 
 - [[Full Spectrum Laser Pro24x12|lasercutter]]
-- [[Stratisys Mojo 3D printer (FDM)|Mojo 3D Printer SOP]]
+- [[Stratasys Mojo 3D printer (FDM)|Mojo 3D Printer SOP]]
 - [[LPKF S63 Printed Circuit Board Router|LPKF]]
 - [[Soldering Equipment|Soldering Equipment]]
 - ?? solder paste stencil frame
