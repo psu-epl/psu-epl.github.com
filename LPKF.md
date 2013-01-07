@@ -43,7 +43,7 @@ You should design your PCBs for the LPKF with the following rules:
    - 13.7, 15.8, 19.7, 23.6, 27.6, 31.5, 35.4, 39, 47.2, 55.1, 59.1, 63, 70.9 , 78.7, 118.1 mils
 4. Board outline will routed with a 2.0 mm end mill.
 
-### Hacking your way to Plated Through Holes
+## Hacking your way to Plated Through Holes
 
 There are three ways to get plated through holes:
 
