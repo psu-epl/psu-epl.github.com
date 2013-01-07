@@ -1,0 +1,30 @@
+### As a professor, do I get automatic access to the lab?
+
+Because you can kill, maim, or hurt anyone just like everyone else, you MUST be trained on the equipment in order to use it. Let us explicitly yell a little bit here:  EVEN IF YOU HAVE CARD ACCESS TO THE LAB, YOU MAY NOT USE THE EQUIPMENT UNTIL YOU ARE PROPERLY TRAINED. FURTHER, YOU MAY NOT BE IN THE EPL ALONE UNLESS YOU ARE AN EPL MANAGER. Thanks for understanding this.
+
+### Can I get trained on the equipment?
+
+Heck yes! Just check out our schedule and come in and get trained when you can!
+
+### Can I become a lab manager?
+
+Heck yes! Once you're trained on all the equipment, we'd be happy to have you be a manager assuming that makes sense.
+
+### Can I use the EPL for a class?
+
+Kind of? We don't want you to *require* students to use the lab. the EPL is *not* meant to be a "class lab", like the Capstone lab, or the microwave lab, where students must go to do their lab work. But it *is* a student resource, so encouraging your students to use the lab for their projects is just fine. But we'd much rather have the students making their own decisions: for example, if a commercial PCB is better than a rapid prototyping PCB (which it often is).
+
+### What's the quickest way to get my students familiar with the lab?
+
+For small classes (< 15 people), please arrange for a guided tour of the lab. For larger classes, please arrange for an EPL manager to come and explain how the lab works and what our capabilities are.
+
+### I only want to use <some machine>, can I just have the class come in and use it at some particular time?
+
+Maybe? You must coordinate it with the lab managers. Please do **not** come in randomly with a class during office hours and expect us to be able to help you. The problem here is that our rapid prototyping tools are, well, not that rapid. They take a LOT of time, and it's unlikely we could do anything on any one machine for a whole class in less than an entire day. Or for some machines, less than a week.
+
+### I have <an underused piece of equipment>, do you want it?
+
+Probably! Let Phillip or Andrew know, and we'll let you know. We're quite anxious to build up the available equipment list, and the EPL makes an excellent place to put equipment where it really gets used.
+
+
+
