@@ -1,10 +1,57 @@
-The LPKF is...
+The LPKF S63 is small computer-controlled milling machine that is meant to mill blank printed circuit boards (PCBs).
 
 # BEFORE YOU GET STARTED
 
-It's absolutely **critical** you understand the capabilities and many limits of the LPKF S63 PCB router before you try and make your board on it. In fact, you'll have to design your board *differently* if you use the LPKF as opposed to commercial fabrication.
+It's absolutely **critical** you understand the capabilities and many limits of the LPKF S63 PCB router before you try and make your board on it. In fact, you'll have to design your board *differently* if you use the LPKF as opposed to commercial fabrication. So listen up.
 
-So, [[read this first|is-the-lpkf-right-for-you]].
+## Differences between LPKF and Standard PCB Manufacturing
+
+The PCBs the LPKF makes are different than manufactured PCBs in three important ways:
+
+1. **Your traces are only isolated:** Standard PCB manufacturers use chemicals to etch away all the copper on a blank PCB you don't specify. With the LPKF, it cuts a 0.2 mm (0.008 inch) line around each of your traces, thus isolating each individual trace, but it doesn't remove the copper outside of this isolation because it takes forever and eats through the routing bits quickly. If you really need to remove copper, you should have your PCBs professionally manufactured.
+
+2. **There is no solder mask:** Standard PCB manufacturers lay on a thin epoxy layer over the areas of your PCB that you don't want to solder. This makes soldering *much* easier, since your solder can't short to adjacent copper since it's protected by the (usually green colored) epoxy. With the LPKF, there's no solder mask, so it's very easy to make shorts to adjacent traces (usually ground) if you're not careful.
+
+3. **There are no through hole vias:** This is the most important problem with the LPKF. Standard PCB manufacturers plate through the holes they drill so that the top and bottom layers are connected. The LPKF can't do this. This means you have to route your boards very, very differently than you regularly do.
+
+## Making the decision between the two
+
+You should absolutely use a PCB manufacturer if you:
+
+- Need > 2 layers or trace/space rules less than 20/20 um (8/8 mils)
+- Need solder mask.
+- Need to have all of your copper removed.
+- Need more than about 2 copies of your board (unless your board is very small).
+- Need less than 8/8 trace/space rules.
+- You already have a board designed that was made to the specs of PCB manufacturer and you haven't modified them.
+
+You should use the LPKF if:
+
+- You're making a simple 1- to 2-layer prototype board to test something quickly.
+- You can stand to have copper everywhere.
+- Your design rules are greater than 200/200 um (8/8 mils).
+- You've carefully thought about the lack of plated through holes.
+
+## LPKF Design Rules
+
+You should design your PCBs for the LPKF with the following rules:
+
+1. >= 200/200 um (8/8 mils) trace/space.
+2. Minimum drill diameter is 0.35 mm (13.7 mil).
+3. Available drills are:
+   - 0.35, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.00, 1.2, 1.4, 1.5, 1.6, 1.8, 2.0, 3.0 mm
+   - 13.7, 15.8, 19.7, 23.6, 27.6, 31.5, 35.4, 39, 47.2, 55.1, 59.1, 63, 70.9 , 78.7, 118.1 mils
+4. Board outline will routed with a 2.0 mm end mill.
+
+### Hacking your way to Plated Through Holes
+
+There are three ways to get plated through holes:
+
+1. **Solder the component lead on both sides:** For example, DIPs and through-hole resistors can be soldered on both sides of the board and make "conductive vias". WARNING! You can't always do this. For example, most 0.1" headers have plastic on the top layer, and you can't solder under that. So be careful if you're counting on this.
+
+2. LPKF has a "conductive rivet" set. You literally use a center punch to drive a copper rivet into your board. There are 4 sizes. TODO: RIVET PAGE.
+
+3. The Nystrom method. Named after our own Pat Nystrom, the Nystrom Method is fast, fairly parallel, and makes some pretty sweet conductive vias. Essentially, you crush a slightly-too-long 30 gauge wire in a 350 um drill hole and it ends up touching both sides of the board. TODO: NYSTROM METHOD PAGE.
 
 # Using the LPKF S63 Circuit Board Plotter
 
