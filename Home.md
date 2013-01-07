@@ -12,7 +12,7 @@
 - [[Lab policies|epl-policies]]
 - [[EPL Safety Protocols|safety-protocols]]
 - [[Some example projects made in the EPL!|example-projects]]
-- [[Info for Our Illustrious Professors!]]
+- [[Info for our illustrious faculty and Staff|PSU-Faculty-and-Staff-FAQs]]
 
 ## Lab Timeline
 
