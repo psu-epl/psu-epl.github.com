@@ -10,9 +10,7 @@ students (and eventually community members) to be able to walk in with an idea
 and CAD files and walk out with a fully functioning piece of electronics in an
 enclosure.
 
-We're currently stuck in a small room in the basement of the Fourth Avenue Building, specifically FAB 60-10.
-
-For more information see our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki").
+For ALL other information, **please see our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
 ### Lab Timeline
 
@@ -20,7 +18,6 @@ For more information see our [wiki](https://github.com/psu-epl/psu-epl.github.co
  1. Phase II - MCECS students only on (current)
  1. Phase III - All PSU students on 2013/04/01
  1. Phase IV - Open to public summer 2013
-
 
 ### Lab Equipment
 
