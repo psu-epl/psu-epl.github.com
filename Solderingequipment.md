@@ -32,4 +32,12 @@
 
  - You may be surprised to find how much more precise your hand motions are when working under a microscope.  This seems to be due to enhanced visual feedback.
 
-- 
+- The left side station contains a FR-830 board preheater and a FR-803B hot air rework station.  This equipment can remove a chip from a board and also be used to reflow solder chips back on.  The basic procedure is to use the preheater to warm the board from below and then use the FR-803B with its vacuum pickup to heat the solder to melting and pull the chip off.  
+
+ - First fit an appropriate sized rubber tip onto the pickup tool.  Clamp the board under the pickup tool and over the preheater.  Line the pickup tip over the chip you want to extract.
+
+ - Use the preheater to bring the board up to temperature via a gradual heating profile.
+
+ -  Turn on the FR-803B hot air and melt the solder.  Then turn on the vacuum, lower the extraction tip and pull off the chip.
+
+ - Then turn the preheater off and let it go through its cool down cycle before removing the board.
