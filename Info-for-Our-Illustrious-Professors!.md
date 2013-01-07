@@ -1,6 +1,6 @@
 ### As a professor, do I get automatic access to the lab?
 
-No. Just like everyone else in the lab, you could accidentally kill, maim, or hurt someone if you don't have the proper training. You MUST be trained on the equipment in order to use it. 
+No. Just like everyone else in the lab, you could accidentally kill, maim, or hurt someone if you don't have the proper training. You *must* be trained on the equipment in order to use it. 
 
 For Due Diligence, let us yell a little bit here:  EVEN IF YOU HAVE CARD ACCESS TO THE LAB, YOU MAY NOT USE THE EQUIPMENT UNTIL YOU ARE PROPERLY TRAINED. FURTHER, YOU MAY NOT BE IN THE EPL ALONE UNLESS YOU ARE AN EPL MANAGER. 
 
@@ -16,7 +16,7 @@ Heck yes! Once you're trained on all the equipment, we'd be happy to have you be
 
 ### Can I use the EPL for a class?
 
-Kind of? We don't want you to *require* students to use the lab. the EPL is *not* meant to be a "class lab", like the Capstone lab, or the microwave lab, where students must go to do their lab work. But it *is* a student resource, so encouraging your students to use the lab for their projects is just fine. But we'd much rather have the students making their own decisions: for example, if a commercial PCB is better than a rapid prototyping PCB (which it often is).
+Kind of? We don't want you to *require* students to use the lab. The EPL is not meant to be a "class lab", like the Capstone lab, or the microwave lab, where students must go to do their lab work. But it *is* a student resource, so encouraging your students to use the lab for their projects is just fine. But we'd much rather have the students making their own decisions: for example, they should be the ones who decide if they can rapid prototype a PCB, or if they should send it off for manufacturing.
 
 ### What's the quickest way to get my students familiar with the lab?
 
@@ -24,7 +24,11 @@ For small classes (< 15 people), please arrange for a guided tour of the lab. Fo
 
 ### I only want to use `some machine`, can I just have the class come in and use it at some particular time?
 
-Maybe? You must coordinate it with the lab managers. Please do **not** come in randomly with a class during office hours and expect us to be able to help you. The problem here is that our rapid prototyping tools are, well, not that rapid. They take a LOT of time, and it's unlikely we could do anything on any one machine for a whole class in less than an entire day. Or for some machines, less than a week.
+Maybe? You must coordinate it with the lab managers. The problem here is that our rapid prototyping tools are, well, not that rapid. Most take time to run, and so it's unlikely we could do anything on any one machine for a whole class in less than an entire day. Or for some machines, in less than a week.
+
+### You should really have `this piece of equipment`!
+
+We'd love to know that! Please let Phillip or Andrew know, and we'll put it on our "to get" list.
 
 ### I have `an underused piece of equipment`, do you want it?
 
