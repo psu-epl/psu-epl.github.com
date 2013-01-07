@@ -48,5 +48,14 @@
 
 - Soldering is primarily a manual skill which improves with repetition and experience.  We have scrap boards you can use to practice on.
 
--  For an introduction (or refresher) on soldering, check out the ["Soldering is Easy"](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and ["SMT Soldering. It's Easier Than You Think"](https://docs.google.com/file/d/0B1Q2XTPf2Q8xRjNiU3hGeVhER0E/edit) pamphlets.  Or watch [this](https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2)
+-  For an introduction (or refresher) on soldering, check out the ["Soldering is Easy"](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and ["SMT Soldering. It's Easier Than You Think"](https://docs.google.com/file/d/0B1Q2XTPf2Q8xRjNiU3hGeVhER0E/edit) pamphlets.  Or watch [this](https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2) three part video.
 
+- Good soldering should be quick.  If you are taking too much time, you risk damaging components or the PCB.  Stop and reconsider your approach.  
+
+- Consider good heat transfer.  If you are having a hard time getting solder to flow, don't automatically turn up the temperature.  Often a better approach is to use a different tip.  Use a larger tip or a tip with a flat face instead of a small conical tip.  Small tips have little heat capacity and also little contact area with the work.  Also, it is often useful to melt a small amount of solder between the work and the iron tip in order to create a bridge which transfers heat more efficiently.
+
+- If you are having a hard time removing a solder bridge, either with an iron or with solder wick, add more flux.  You can even add extra flux directly to solder wick to make it work better.  There is seldom such a thing as too much flux!
+
+- Soldering usually seems to take at least three hands.  Make it easier by holding the board with a mechanical device or a couple of blobs of blue tack.  Blue tack or Kapton tape is also helpful in temporarily holding components while soldering.
+
+- Learn to "drag solder" component leads.  It is much faster once you learn it.  Ask for instructions or check this short [video](http://www.youtube.com/watch?v=wUyetZ5RtPs)
