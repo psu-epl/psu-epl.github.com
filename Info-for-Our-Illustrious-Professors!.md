@@ -22,11 +22,11 @@ Kind of? We don't want you to *require* students to use the lab. the EPL is *not
 
 For small classes (< 15 people), please arrange for a guided tour of the lab. For larger classes, please arrange for an EPL manager to come and explain how the lab works and what our capabilities are.
 
-### I only want to use <some machine>, can I just have the class come in and use it at some particular time?
+### I only want to use `some machine`, can I just have the class come in and use it at some particular time?
 
 Maybe? You must coordinate it with the lab managers. Please do **not** come in randomly with a class during office hours and expect us to be able to help you. The problem here is that our rapid prototyping tools are, well, not that rapid. They take a LOT of time, and it's unlikely we could do anything on any one machine for a whole class in less than an entire day. Or for some machines, less than a week.
 
-### I have <an underused piece of equipment>, do you want it?
+### I have `an underused piece of equipment`, do you want it?
 
 Probably! Let Phillip or Andrew know, and we'll let you know. We're quite anxious to build up the available equipment list, and the EPL makes an excellent place to put equipment where it really gets used.
 
