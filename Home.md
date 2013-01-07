@@ -1,6 +1,6 @@
 # Portland State University Electronics Prototyping Laboratory
 
-The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for students (and eventually community members) to be able to walk in with an idea and CAD files and walk out with a fully functioning piece of electronics in an enclosure. 
+The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for students (and eventually community members) to be able to walk in with an idea and CAD files and walk out with a fully functioning piece of electronics in an enclosure.
 
 
 ## EPL Information
@@ -10,15 +10,15 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - [[EPL Safety Protocols|safety-protocols]]
 - [[Some example projects made in the EPL!|example-projects]]
 - More here!
-
+- For [[PSU professors|prof_info]]!
 
 ## Lab Timeline
 
-1. Phase I -   Invitation only (current)
-1. Phase II -  MCECS students only on 2012/11/1
-1. Phase III - All PSU students on 2013/01/07
-1. Phase IV -  Open to public on 2013/04/01
-1. Phase V -   World domination sometime Summer 2014
+1. Phase I -   Invitation only (DONE)
+1. Phase II -  MCECS students only (CURRENT)
+1. Phase III - All PSU students on 2013/04/01
+1. Phase IV -  Open to public sometime summer 2013
+1. Phase V -   World domination sometime fall 2013
 
 
 ## Equipment
@@ -34,14 +34,10 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 - [[3D Scanning|3Dscanning]]
 
 ## Materials / Consumables
+
 - [[Material Costs]]
 - [[Material Properties|Material database]]
 - [[Material / Consumable Sources|Material sources database]]
-
-## Lists:
-
-- Official rules and regs
-- Badgenista stuff
 
 ## Use of the Lab
 
@@ -55,30 +51,12 @@ The EPL is a lab for rapidly prototyping *electronics* projects. It is meant for
 
 ### Becoming a lab manager
 
-1. Get trained on **all** equipment.
+1. Get trained on **all** the equipment.
 1. Get three current managers to sponsor you.
-1. Ask the EPL Administrators to become a manager. It's not at all guaranteed that you will.
+1. Ask the EPL Administrators to become a manager. Sorry, we can't guarantee that you will definitely become a manager, but we'll try to make it work!
 1. Once you're OK'd:
-   1. Get a Github account
-   1. Ask to have your MCECS login be added to all EPL PCs.
-   1. Ask to be put on the manager's list and have the Google Calendar shared with you.
-   1. Swear the oath of fealty. Ha! Kidding. But, seriously, get trained on manager SOPs.
-
-## Admin
-
-- TBD?
-
-## Badge Access
-
-- Andrew Greenberg
-- Nathan Bergey
-- Phillip Wong
-- Chris Clark
-- Rami Alshafi
-- Pat Nystrom
-- Monty Goodson
-- Scott Dixon
-- Other staff who have FAB building access
+   - Get a Github account, get logins on the EPL PCs, get on the mailing list, get on the shared google calendar, swear to the oath of fealty... Ha! Kidding! .. and get trained on manager SOPs.
+1. Put in weekly office hours. We're serious about this: if you're an EPL manager, part of the deal is that you put in office hours.
 
 ## Meeting notes
 
