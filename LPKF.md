@@ -1,4 +1,11 @@
-## LPKF S63 Circuit Board Plotter
+# BEFORE YOU GET STARTED
+
+It's absolutely **critical** you understand the capabilities and many limits of the LPKF S63 PCB router before you try and make your board on it. In fact, you'll have to design your board *differently* if you use the LPKF as opposed to commercial fabrication.
+
+So, [[read this first|is-the-lpkf-right-for-you]].
+
+#  LPKF S63 Circuit Board Plotter
+
 Steps to produce a PCB:
 * Login to controller PC
 * Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
