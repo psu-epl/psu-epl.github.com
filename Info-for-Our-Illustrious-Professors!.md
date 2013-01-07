@@ -1,6 +1,10 @@
 ### As a professor, do I get automatic access to the lab?
 
-Because you can kill, maim, or hurt anyone just like everyone else, you MUST be trained on the equipment in order to use it. Let us explicitly yell a little bit here:  EVEN IF YOU HAVE CARD ACCESS TO THE LAB, YOU MAY NOT USE THE EQUIPMENT UNTIL YOU ARE PROPERLY TRAINED. FURTHER, YOU MAY NOT BE IN THE EPL ALONE UNLESS YOU ARE AN EPL MANAGER. Thanks for understanding this.
+No. Just like everyone else in the lab, you could accidentally kill, maim, or hurt someone if you don't have the proper training. You MUST be trained on the equipment in order to use it. 
+
+For Due Diligence, let us yell a little bit here:  EVEN IF YOU HAVE CARD ACCESS TO THE LAB, YOU MAY NOT USE THE EQUIPMENT UNTIL YOU ARE PROPERLY TRAINED. FURTHER, YOU MAY NOT BE IN THE EPL ALONE UNLESS YOU ARE AN EPL MANAGER. 
+
+Thanks for understanding this.
 
 ### Can I get trained on the equipment?
 
