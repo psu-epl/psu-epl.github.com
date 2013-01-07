@@ -44,3 +44,9 @@
 
  - To solder a chip using the hot air station, it is probably best to place solder paste and the chip under the microscope and then use the preheater and hot air to solder it on.
 
+## General Soldering Hints
+
+- Soldering is primarily a manual skill which improves with repetition and experience.  We have scrap boards you can use to practice on.
+
+-  For an introduction (or refresher) on soldering, check out the 
+
