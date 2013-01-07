@@ -1,3 +1,4 @@
+The LPKF is...
 
 # BEFORE YOU GET STARTED
 
