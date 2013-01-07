@@ -39,6 +39,11 @@
   * 503-620-4960
   * 15230 SW Sequoia Pkwy, Tigard, OR 97224
 
+## Mojo Supplies
+
+* Order them directly from the StrataSys Store: <http://shop.stratasys.com/>
+* Recycling of used packs is free: <http://www.stratasys.com/Help/Recycle/Recycle-UPS.aspx>
+
 ## PCB stock
 * EBay
   * [PCB Depot](http://stores.ebay.com/PCB-Depot?_trksid=p2047675.l2563)
