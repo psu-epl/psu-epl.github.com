@@ -6,7 +6,7 @@ It's absolutely **critical** you understand the capabilities and many limits of 
 
 So, [[read this first|is-the-lpkf-right-for-you]].
 
-#  LPKF S63 Circuit Board Plotter
+# Using the LPKF S63 Circuit Board Plotter
 
 Steps to produce a PCB:
 * Login to controller PC
