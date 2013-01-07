@@ -49,7 +49,7 @@ There are three ways to get plated through holes:
 
 1. **Solder the component lead on both sides:** For example, DIPs and through-hole resistors can be soldered on both sides of the board and make "conductive vias". WARNING! You can't always do this. For example, most 0.1" headers have plastic on the top layer, and you can't solder under that. So be careful if you're counting on this.
 
-2. LPKF has a "conductive rivet" set. You literally use a center punch to drive a copper rivet into your board. There are 4 sizes to choose from, more information is [[here|easycontact]].
+2. LPKF has a "conductive rivet" set. You literally use a center punch to drive a copper rivet into your board. There are 4 sizes to choose from, and [[here's more information|Using-LPKF's-Easycontac-Rivet-System]].
 
 3. The Nystrom method. Named after our own Pat Nystrom, the Nystrom Method is fast, fairly parallel, and makes some pretty sweet conductive vias. Essentially, you crush a slightly-too-long 30 gauge wire in a 350 um drill hole and it ends up touching both sides of the board. TODO: NYSTROM METHOD PAGE.
 
