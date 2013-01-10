@@ -10,7 +10,7 @@ Once your PCB is milled with the correct via geometry, the steps to making aweso
 
 3. Place the PCB, shims down, on the metal base plate. The plate should be larger than your PCB. The EPL has a large piece of iron plate for this purpose.
 
-4. (Optional) Connect a continuity beeper, one terminal to the metal base plate, and the other to the 28 ga. wire spool. To do this, unwind about a foot of 28 ga. wire and clip the continuity tester to the wire near the spool. By doing this, you can easily tell when pushing wires through the PCB via holes when they're really all the way through.
+4. (Optional) Connect a continuity beeper, one terminal to the metal base plate, and the other to the 28 ga. wire spool. To do this, unwind about a foot of 28 ga. wire and clip the continuity tester to the wire near the spool. By doing this, you can easily tell when pushing wires through the PCB via holes when they're really all the way through (since the wire will touch the metal base plate.)
 
 5. Insert wire into each via. This is the most critical step, and the one it will take a bit of practice to get right. The 28 ga. wire just fits into the .35mm drill hole, and must be pushed all the way through the board. If you are right-handed, using your left hand to push the wire through while holding dikes in your right hand works well. When the wire is pushed through the board (if you're using the continuity beeper, it will beep when the wire touches the base plate), use the dikes to clip it almost flush with the board. This is the part which can vary the most, depending on the dikes you're using (most won't clip exactly flush) and the way you hold and use them. Ideally, you should leave 3 to 5 mils on top of the board after the wire is clipped.
 
