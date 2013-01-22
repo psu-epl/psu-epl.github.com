@@ -38,10 +38,10 @@ Double check:
  - Pumps
  - Lid
 
+Raster mode, 1000dpi
 
 Hit go
 
-
-
+Clean up with IPA
 
 
