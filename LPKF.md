@@ -63,9 +63,13 @@ Steps to produce a PCB:
 
     For two-sided boards, use DoubleSided_NoTHP.cbf
 
+* You may have to manually connect the software to the LPKF.
+
+    Choose "Machining | Connect" from the menu. The connection process takes a bit of time.
+
 * Import Gerber/Excellon data
 
-    * Select File | Import ... (or hit Ctrl-I)
+    * Select "File | Import ..." (or hit Ctrl-I)
     * Navigate to the folder containing your Gerber and Excellon data. For a two-sided board, you need 4 files:
 
         * Top Gerber
