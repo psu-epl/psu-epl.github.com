@@ -80,6 +80,16 @@ The kapton is considered next to its source file.
 
 ***
 
+# Parchment Paper (used for solder paste stencils)
+
+ - Vector Mode
+ - 25% speed
+ - 1% power
+ - 2 passes
+ - 24% vector current
+
+***
+
 # Paper
 
 ## 40 lb Card Stock
