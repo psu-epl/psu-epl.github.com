@@ -5,10 +5,12 @@ title: Portland State University Electronics Prototyping Lab
 
 ## The PSU Electronics Prototyping Lab (EPL)
 
-The EPL is a lab for rapidly prototyping _electronics_ projects. It is meant for
+![The EPL](/images/lab_panorama.png)
+
+The EPL is a lab for rapidly prototyping electronics projects. It is meant for
 students (and eventually community members) to be able to walk in with an idea
 and CAD files and walk out with a fully functioning piece of electronics in an
-enclosure. For an introductory video on the lab, **[click here](http://youtu.be/P7JFAv6JM00 "YouTube")**.
+enclosure. **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
 
 For ALL other information, **please see our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
@@ -21,12 +23,12 @@ For ALL other information, **please see our [wiki](https://github.com/psu-epl/ps
 
 ### Lab Equipment
 
-- Full Spectrum 80w Laser Cutter
-- Stratisys Mojo 3D printer (FDM)
-- LPKF S63 Printed Circuit Board Router
+- [Full Spectrum 80w Laser Cutter](https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter)
+- [Stratisys Mojo 3D printer (FDM)](https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP)
+- [LPKF S63 Printed Circuit Board Router](https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF)
 - Soldering Equipment
    - Hakko Soldering stations with various tips, vaccum and hot air
-   - Beijing Torch Co. T200N Desk Reflow Oven
+   - [Beijing Torch Co. T200N Desk Reflow Oven](https://github.com/psu-epl/psu-epl.github.com/wiki/Reflow-Oven-SOP)
 - Misc Hand tools
 
 Read about all of our equipment and policies on our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki").
