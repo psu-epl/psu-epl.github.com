@@ -56,9 +56,10 @@
 
 1. Get trained on **all** the equipment.
 1. Get three current managers to sponsor you.
-1. Ask the EPL Administrators to become a manager. Sorry, we can't guarantee that you will definitely become a manager, but we'll try to make it work!
-1. Once you're stamped with approval: Get a Github account, get logins on the EPL PCs, get on the mailing list, get on the shared google calendar, swear to the oath of fealty (Kidding!) and get trained on manager SOPs.
+1. Ask the EPL Administrators to become a manager. We'll verify with your sponsors, and make sure you have no vetos. Sorry, we can't guarantee that you will definitely become a manager, but we'll try to make it work!
+1. Once you're stamped with approval: Get a Github account, get on the mailing list, get on the shared google calendar, swear to the oath of fealty (Kidding!) and get trained on manager SOPs.
 1. Put in weekly office hours (we're serious about this: if you're an EPL manager, part of the deal is that you put in office hours).
+1. Take on a EPL manager project... something to improve the lab.
 
 ## Meeting notes
 
