@@ -7,6 +7,7 @@
 **Who:** We're only open to PSU MCECS students and professors right now, but we're actively looking for community mentors as well. We're trying to open to community members by this summer.
 
 ![The PSU EPL](images/lab_panorama.png)
+![Retina Engrave Toolbar](images/retina_header_icons_labeled.png)
 
 ## Detailed EPL Information
 
