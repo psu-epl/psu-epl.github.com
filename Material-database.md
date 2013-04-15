@@ -90,6 +90,21 @@ The kapton is considered next to its source file.
 
 ***
 
+# Paper Stencil Mask
+
+Prepare circuit board with solder mask. Use rubber cement to glue down a piece of plain office paper. 
+
+Run laser at
+
+ - **Raster Mode**
+ - 1000 DPI
+ - 35% Power
+ - 80% Speed
+
+Then paint through the holes. Let dry then lift off paper.
+
+***
+
 # Paper
 
 ## 40 lb Card Stock
