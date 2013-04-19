@@ -165,6 +165,15 @@ Steps to produce a PCB:
 
     Now reselect 'Mouse Cursor' and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
+* Check cut width
+
+   * Edit > Tool Magazine
+   * Check the blue check box next to 0.2 mm Universal Cutter
+   * Click on the "Check Milling Width..." button below.
+   * Click on the screen behind the dialog to move the yellow box to a place where the milling can be done on your PCB. MAKE SURE THERE ARE NO OTHER MILLING WIDTH CHECK LINES AROUND - if it chooses the wrong one, you're hosed.
+   * Click OK. It'll mill the line and check it.
+   * Accept the correction if it looks sane. 
+
 * Run Process
 
     Select Machining > Process All. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit 'OK'.
@@ -194,3 +203,4 @@ Steps to produce a PCB:
 * Safely exit and shut down the machine
 
      Click File > Exit. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
+
