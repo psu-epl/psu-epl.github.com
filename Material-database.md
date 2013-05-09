@@ -86,7 +86,7 @@ The kapton is considered next to its source file.
  - 25% speed
  - 1% power
  - 2 passes
- - 24% vector current
+ - 24% vector current (Note: for very fine pitch use, 21% vector current produced better results)
 
 ***
 
