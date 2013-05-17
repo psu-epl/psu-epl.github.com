@@ -8,3 +8,5 @@ The LPKF S63 is small computer-controlled milling machine that is meant to mill 
 * [[Troubleshooting]] - When Things Go Wrong.
 
 ----
+
+* [[LPKF materials ordering]] - Bits, PCB materials, etc.
