@@ -1,3 +1,5 @@
+Info on things to order for the LPKF S63 PCB router.
+
 # BITS!!
 
 When ordering bits from [Think and Tinker](http://precisebits.com/), **please be SURE to select "Ringed" and let them know in the order it should be ringed for the LPKF S63**.
