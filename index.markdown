@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: default
 title: Portland State University Electronics Prototyping Lab
 ---
 
@@ -14,12 +14,12 @@ enclosure. **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM0
 
 For ALL other information, **please see our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
-### Lab Timeline
 
- 1. Phase I - Invitation only (done)
- 1. Phase II - MCECS students only on (current)
- 1. Phase III - All PSU students on 2013/04/01
- 1. Phase IV - Open to public summer 2013
+### Lab Status
+
+The lab is currently open to all PSU students and staff, and to community members
+by invitation only. We hope to be more fully open to the public in Fall 2013.
+
 
 ### Lab Equipment
 
@@ -32,4 +32,17 @@ For ALL other information, **please see our [wiki](https://github.com/psu-epl/ps
 - Misc Hand tools
 
 Read about all of our equipment and policies on our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki").
+
+
+### Using the Lab
+
+Come on in during office hours (see calendar below) and we'll train you on the equipment. 
+Then you can come in during any office hours and use the equipment. If you're trained on
+all the equipment and you have time to volunteer office hours, then it's possible to become
+a lab manager and get 24 hour access.
+
+
+### Lab Calendar
+
+{% include calendar.html %}
 
