@@ -6,22 +6,6 @@
 
 **Who:** We're only open to PSU MCECS students and professors right now, but we're actively looking for community mentors as well. We're trying to open to community members by this summer.
 
-## Detailed EPL Information
-
-- The [[administrative roles|epl-roles]] of the lab.
-- [[Lab policies|epl-policies]]
-- [[EPL Safety Protocols|safety-protocols]]
-- [[Some example projects made in the EPL!|example-projects]]
-- [[Info for our illustrious faculty and Staff|PSU-Faculty-and-Staff-FAQs]]
-
-## Lab Timeline
-
-1. Phase I -   Invitation only (DONE)
-1. Phase II -  MCECS students only (CURRENT)
-1. Phase III - All PSU students on 2013/04/01
-1. Phase IV -  Open to public sometime summer 2013
-1. Phase V -   World domination sometime fall 2013
-
 ## Equipment
 
 - [[Full Spectrum Engineering Laser Pro24x12|lasercutter]]
@@ -39,6 +23,22 @@
 - [[Material Costs]]
 - [[Material Properties|Material database]]
 - [[Material / Consumable Sources|Material sources database]]
+
+## Detailed EPL Information
+
+- The [[administrative roles|epl-roles]] of the lab.
+- [[Lab policies|epl-policies]]
+- [[EPL Safety Protocols|safety-protocols]]
+- [[Some example projects made in the EPL!|example-projects]]
+- [[Info for our illustrious faculty and Staff|PSU-Faculty-and-Staff-FAQs]]
+
+## Lab Timeline
+
+1. Phase I -   Invitation only (DONE)
+1. Phase II -  MCECS students only (DONE)
+1. Phase III - All PSU students on 2013/04/01 (CURRENT)
+1. Phase IV -  Open to public sometime summer 2013
+1. Phase V -   World domination sometime fall 2013
 
 ## Use of the Lab
 
