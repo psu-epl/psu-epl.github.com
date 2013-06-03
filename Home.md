@@ -6,8 +6,6 @@
 
 **Who:** We're only open to PSU MCECS students and professors right now, but we're actively looking for community mentors as well. We're trying to open to community members by this summer.
 
-![The PSU EPL](wiki/images/lab_panorama.png)
-
 ## Detailed EPL Information
 
 - The [[administrative roles|epl-roles]] of the lab.
