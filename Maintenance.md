@@ -26,3 +26,23 @@ LPKF maintenance SOPS
 - Slip in a tool into the collet, make sure it slides in easily and falls right out. It should be a smooth, mostly frictionless fit.
 - You're good to go!
 
+# Changing the tool bar/holder
+
+- Get the Head to the idle position (in the back).
+- Unscrew all 10 screws on the top of the tool bar using a Torx 10. You'll need a 1/4 inch wrench as well, in order to get under the camera.
+- Pull the hole thing apart, noting position and orientation (especially of the ramp, which has the tall area on left and low area on right).
+- Replace the tool holders. They should be symmetrical.
+- Screw it down. Tighten, but do NOT over-tighten, the screws
+- Turn on the LPKF and put it into service mode.
+- Go to Machining > Service > Setup Machine Dialog
+- Choose "Step 5: Teach Tool Holder Positions".
+   - It should autofocus and find the first tool holder's hole.
+   - Choose "Set Current..of first holder"
+   - It should go to the last tool holder.
+   - Choose "Set Current..of last holder"
+   - It'll automatically find all 15 tool holder positions.
+   - Choose "Save and close"
+- Choose "Step 6: Check Tool Holder Positions"
+   - Put in tools in locations 1, 7, 15.
+   - Try each holder. NOTE that there is no position "0".
+
