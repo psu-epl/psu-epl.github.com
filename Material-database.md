@@ -102,10 +102,8 @@ Can be purchased online here: http://www.gravostore.com/
  - 50% power (current)
  - 100% PWM
 
-
-Insert Pictures Here!!!
-
-
+![Etched Black-on-White Gravoply Laser](images/gravoply_laser1.jpg)
+![Etched Black-on-White Gravoply Laser](images/gravoply_laser2.jpg)
 
 ***
 
