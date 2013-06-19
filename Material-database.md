@@ -78,6 +78,35 @@ The kapton is considered next to its source file.
 
 ![Cut kapton next to source for calibration](images/calibratded_polyimide.png)
 
+
+***
+
+# Gravoply Laser
+
+Gravoply Laser is a 2-layer bonded acrylic, with a top layer that is etched away to reveal the bottom layer. This is useful for signage, machine UI panels, labels and a variety of other applications.
+
+Product Details: http://www.gravograph.com/english/engraving-products/gravoply_laser.php
+
+Can be purchased online here: http://www.gravostore.com/
+
+
+### Etching 1.3mm Gravoply Laser
+
+ - 80% Speed
+ - 25% power (current)
+ - 500 DPI
+
+### Cutting 1.3mm Gravoply Laser
+
+ - 80% speed
+ - 50% power (current)
+ - 100% PWM
+
+
+Insert Pictures Here!!!
+
+
+
 ***
 
 # Parchment Paper (used for solder paste stencils)
@@ -102,6 +131,7 @@ Run laser at
  - 80% Speed
 
 Then paint through the holes. Let dry then lift off paper.
+
 
 ***
 
