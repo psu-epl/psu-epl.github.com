@@ -20,9 +20,7 @@ For ALL other information, **please see our [wiki](https://github.com/psu-epl/ps
 The lab is currently open to all PSU students and staff, and to community members
 by invitation only. We hope to be more fully open to the public in Fall 2013.
 
-**Status Update:** The LPKF cicuit board router is currently away for maintenance.
-We are unable to route boards for the next few weeks.
-
+**Status Update:** The LPKF Is back in the lab! 
 
 ### Lab Equipment
 
