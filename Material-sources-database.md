@@ -76,3 +76,11 @@
 * [LPKF](http://www.lpkfusa.com/Store/pages/list.aspx?cat=11&cid=11)
   * [V-tip bits](http://www.lpkfusa.com/Store/pages/list.aspx?cat=11/42&cid=42)
     * LPKF 0.2mm Universal Mill: ($180/10)
+
+## HP LaserJet CM1415fnw
+
+- Cyan toner cartridge: CE321A
+- Magenta toner cartridge: CE323A
+- Yellow toner cartridge: CE322A
+- Black toner cartridge: CE320A
+
