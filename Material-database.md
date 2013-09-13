@@ -111,9 +111,21 @@ Can be purchased online here: http://www.gravostore.com/
 
  - Vector Mode
  - 25% speed
- - 1% power
- - 2 passes
- - 24% vector current (Note: for very fine pitch use, 21% vector current produced better results)
+ - 8% power
+ - 1 pass
+ - 21% vector current (Note: for very fine pitch use, 21% vector current produced better results)
+
+***
+
+# Magazine Paper Stencil Mask (3.5mil heavy advertising page)
+
+ Pad size shrink 0.15mm
+
+ - Vector Mode
+ - 20% speed
+ - 15% power
+ - 1 pass
+ - 21% vector current
 
 ***
 
