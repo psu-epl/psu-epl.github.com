@@ -117,9 +117,9 @@ Can be purchased online here: http://www.gravostore.com/
 
 ***
 
-# Magazine Paper Stencil Mask (3.5mil heavy advertising page)
+# Magazine Paper Solder Mask (3.5mil heavy advertising page)
 
- Pad size shrink 0.15mm
+ Pad size shrink 0.22mm
 
  - Vector Mode
  - 20% speed
