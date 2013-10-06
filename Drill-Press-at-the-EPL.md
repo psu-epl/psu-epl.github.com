@@ -28,4 +28,4 @@ want to change the bottom belt position.
 
 # Manual
 
-[[User's_Manual|docs/central-machinery-1016B-manual.pdf]]
+We have the manual somewhere, but I don't know how to make this wiki attach it.
