@@ -1,8 +1,3 @@
----
-layout: default
-title: Drill Press at the EPL
----
-
 # Drill Press
 
 The EPL has a Central Machinery 10" 12-speed drill
