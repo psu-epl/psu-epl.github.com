@@ -28,4 +28,4 @@ want to change the bottom belt position.
 
 # Manual
 
-[[User's_Manual|drillpress/central-machinery-1016B-manual.pdf]]
+[[User's_Manual|docs/central-machinery-1016B-manual.pdf]]
