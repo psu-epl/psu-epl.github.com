@@ -1,20 +1,23 @@
-##Kapton Film
+# Laser Cutter
 
-* Kaptonsource.com
- * 3 Mil by 12" by 36 yard roll
- * PC533FILM-12000-36
- * $315.00 + shipping
+### Kapton Film
 
-## Bamboo
+Used for solder stencils, sort of not as good as paper.
 
-- Revolution Bamboo
-   - 1300 SE Grand Ave, Portland, OR, (503) 914-6262, http://bamboorevolution.com/
-- 1 full 4' x 8' sheet cut to a 4x6 array of 12 x 16 inches
+* Vendor: Kapton Source <http://Kaptonsource.com/>
+  * 3 Mil by 12" by 36 yard roll
+  * PC533FILM-12000-36
+  * $315.00 + shipping
+
+### Bamboo
+
+- Vendor: Revolution Bamboo <http://bamboorevolution.com/>
+   - 1300 SE Grand Ave, Portland, OR, (503) 914-6262
+- Order full sheets of 4' x 8' cut to a 4x6 array of around 12 x 16 inches
 - 1/8 inch
 - 1/4 inch
 
-
-## Acrylic
+### Acrylic
 
 ### Port Plastics (our preferred source)
 - Contact
