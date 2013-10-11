@@ -2,15 +2,20 @@ Info on things to order for the LPKF S63 PCB router.
 
 # BITS!!
 
-When ordering bits from [Think and Tinker](http://precisebits.com/), **please be SURE to select "Ringed" and let them know in the order it should be ringed for the LPKF S63**. Also, they come in packages of 10, so go ahead and order 10 of each, we'll use them :)
+NOTE: When ordering bits from [Think and Tinker](http://precisebits.com/), **please be SURE to select "Ringed" and let them know in the order it should be ringed for the LPKF S63**.
 
-### Isolation bits ("Universal cutters")
+## Isolation bits ("Universal cutters")
 
-LPKF has a "0.1 mm microcutter" and a "0.2 mm universal cutter". Both of these are simply engraving bits.
+We tried T&T cutter bits, but it didn't work well on the LPKF. So we purchase directly through LPKF.
 
-* Link: <http://precisebits.com/products/carbidebits/scoreengrave.asp>
-* EM2E8-0625-60VC - 60 degree ZrN coated 2-flute engraving bit (cuts deeper, better for some substrates/designs): recommended for "universal cutter" replacement
-* EM2E8-0625-90VC - 90 degree ZrN coated 2-flute engraving bit, alternative
+- **0.1 mm microcutter**
+   - [Part #: 100890-4 "Milling Bit .01 - 0.15 mm (4-6 mil) w/ orange ring"](http://www.lpkfusa.com/Store/pages/ProductDetail.aspx?cat=11%2f43&cid=43&pid=211)
+   - Fine Line Tool/Micro Cutter is used for milling printed circuit board isolation tracks of 4 - 6 mils. 100% Carbide, 60 degree tip, 1.42" (36 mm) overall length. Orange Distance Rings included.
+   - Price: $215.00, 10 per pack 
+- **0.2 mm universal cutter**
+   - [Part #: 101010-4 "Milling Bit 0.2 - 0.3 mm (8-12 mil) w/ orange ring"](http://www.lpkfusa.com/Store/pages/ProductDetail.aspx?cat=11%2f43&cid=43&pid=210)
+   - Universal Milling Tool is used for milling printed circuit board isolation tracks of 8 - 12 mils. 100% Carbide, 90 degree tip, 1.42" (36 mm) overall length. Orange Distance Rings included.
+   - Price: $185.00, 10 per pack
 
 
 ### Drills ("Spiral drills")
@@ -53,3 +58,13 @@ LPKF has a "0.1 mm microcutter" and a "0.2 mm universal cutter". Both of these a
 * MN208-1181-022F - 3mm stub end mill (Note: not in the LPKF starter kit)
 
 Note that the LPKF starter kit also has "1.0 mm (39 mil) Long End Mill" and "2.0 mm (79 mil) Long End Mill". This is for "pocket routing", their weird 2.5D routing thing. We can ignore these, since we're really just doing PCBs.
+
+
+
+# TEMP INFO
+
+
+* Link: <http://precisebits.com/products/carbidebits/scoreengrave.asp>
+* EM2E8-0625-60VC - 60 degree ZrN coated 2-flute engraving bit (cuts deeper, better for some substrates/designs): recommended for "universal cutter" replacement
+* EM2E8-0625-90VC - 90 degree ZrN coated 2-flute engraving bit, alternative
+
