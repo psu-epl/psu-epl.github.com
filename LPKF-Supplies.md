@@ -57,7 +57,7 @@ We tried T&T cutter bits, but it didn't work well on the LPKF. So we purchase di
 * MN208-0787-020F - 2mm stub end mill
 * MN208-1181-022F - 3mm stub end mill (Note: not in the LPKF starter kit)
 
-# Misc
+## Bit notes
 
 - The LPKF starter kit also has "1.0 mm (39 mil) Long End Mill" and "2.0 mm (79 mil) Long End Mill". This is for "pocket routing", their weird 2.5D routing thing. We can ignore these, since we're just doing PCBs.
 - The cutter bits we tried were the:
@@ -65,3 +65,10 @@ We tried T&T cutter bits, but it didn't work well on the LPKF. So we purchase di
    - EM2E8-0625-90VC - 90 degree ZrN coated 2-flute engraving bit, alternative
 
 
+
+
+# Substrates
+
+- [Part #: 116099 "Air Permeable Material for "S" Series Vacuum Table"](http://www.lpkfusa.com/Store/pages/ProductDetail.aspx?cat=6%2f27&cid=27&pid=209)
+- White Air Permeable backing material for the LPKF ProtoMat® "S" class machines with a vacuum table. 4 Pack.
+- Price: $150.00, for 4
