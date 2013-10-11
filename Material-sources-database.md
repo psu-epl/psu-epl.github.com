@@ -108,3 +108,13 @@ We can also recycle packs for free: <http://www.stratasys.com/Help/Recycle/Recyc
 - Magenta toner cartridge: CE323A
 - Yellow toner cartridge: CE322A
 - Black toner cartridge: CE320A
+
+# Soldering Station
+
+- Thin solder wick: ITW Chemtronics 10ft of SOLDER-WICK NO-CLEAN .030" # 60-1-10 (DK 60-1-10-ND)
+- Wide solder wick: ITW Chemtronics 10ft of SOLDER-WICK NO-CLEAN .110" # 60-4-10 (DK 60-4-10-ND)
+- Flux pen: Kester Solder Formula 951 No Clean # 83-1000-0951 (DK KE1804-ND)
+- Aggressive flux pen: MG Chemicals PEN RA ROSIN FLUX .34OZ W/TIP 835-P (DK 473-1033-ND)
+- Solder: Kester SOLDER NO-CLEAN 28AWG 63/37 1LB #24-6337-8806 (DK KE1405-ND)
+- 
+
