@@ -70,9 +70,10 @@ We order everything directly from Mojo at <http://shop.stratasys.com/>
 
 We can also recycle packs for free: <http://www.stratasys.com/Help/Recycle/Recycle-UPS.aspx>
 
-# LPKF
+# PCB Router
 
-## PCB stock
+## PCB stock ("bare boards")
+
 * EBay
   * [PCB Depot](http://stores.ebay.com/PCB-Depot?_trksid=p2047675.l2563)
    * Unlike other PCB stock stores on EBay, these guys have a pull-down selection for different options, rather than having to wade through multiple listings.
@@ -90,7 +91,8 @@ We can also recycle packs for free: <http://www.stratasys.com/Help/Recycle/Recyc
    * 1 oz Double Sided 1/16" (0.062"), $7.70/ea. when 10+ are ordered.
    * Most IEEE store parts are ordered from here so shipping is negligible.
  
-## LPKF 
+## LPKF S63
+
 * [Think & Tinker LTD](http://www.thinktink.com)
    * [V-tip bits](http://www.thinktink.com/products/Mechanical_Etching_Bits.asp)
       * LPKF 0.2mm Universal Mill replacement: EM2E8-0625-90V: 90deg 0.005" tip ($10.84)
