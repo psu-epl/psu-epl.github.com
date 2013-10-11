@@ -11,7 +11,7 @@
 - [[Full Spectrum Engineering Laser Pro24x12|lasercutter]]
 - [[Stratasys Mojo 3D printer (FDM)|Mojo 3D Printer SOP]]
 - [[LPKF S63 Printed Circuit Board Router|LPKF]]
-- [[AccurateCNC A406 Printed Circuit Bouard Router|A406]]
+- [[AccurateCNC A406 Printed Circuit Board Router|A406]]
 - [[Soldering Equipment|Soldering Equipment]]
 - [[Torch T200N+ reflow oven|Reflow Oven SOP]]
 - Misc Hand tools
