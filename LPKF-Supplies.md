@@ -6,9 +6,13 @@ NOTE: When ordering bits from [Think and Tinker](http://precisebits.com/), **ple
 
 ## Isolation bits ("Universal cutters")
 
+Notes:
+
 - These are the "V" cutters that isolate traces.
 - We tried T&T cutter bits, but it didn't work well on the LPKF. So we purchase directly through LPKF.
 - Buying packs of 10 makes sense, since we do go through these.
+
+Bits:
 
 - **0.1 mm microcutter**
    - [Part #: 100890-4 "Milling Bit .01 - 0.15 mm (4-6 mil) w/ orange ring"](http://www.lpkfusa.com/Store/pages/ProductDetail.aspx?cat=11%2f43&cid=43&pid=211)
@@ -22,9 +26,13 @@ NOTE: When ordering bits from [Think and Tinker](http://precisebits.com/), **ple
 
 ## Drills ("Spiral drills")
 
+Notes:
+
 * Get every other 0.1 mm value. Fewer parts to stock, and practically speaking, being off by 0.0039" never matters.
 * Usually order packs of 5 since drills tend to last.
 * Link: <http://precisebits.com/products/carbidebits/drills.asp?tsPT=metric&tsPC=9>
+
+Bits:
 
 * DC208-M035-023D - 0.35 mm (for Nystrom vias, and we use that for 0.4 mm too)
 * DC208-M050-036D - 0.50 mm drill
@@ -46,10 +54,14 @@ NOTE: When ordering bits from [Think and Tinker](http://precisebits.com/), **ple
 
 ## Router bits ("Contour routers")
 
+Notes:
+
 - Bits that cut out the boards.
 - Purchase these in qty 10, they might break so we want them around.
 - We used to order 2.0 mm in the past, but the 1 mm are just as good and waste less copper. They may break more often, we'll see.
 - Link: <http://precisebits.com/products/carbidebits/fcrouter.asp>
+
+Bits:
 
 - RCC08-0394-026F - 1mm fish-tail chip breaker
 
@@ -58,6 +70,8 @@ NOTE: When ordering bits from [Think and Tinker](http://precisebits.com/), **ple
 - Bits that remove wide swaths of copper.
 - Purchase these in qty 5, they tend to last.
 - Link: <http://precisebits.com/products/carbidebits/precisebit-stub.asp>
+
+Bits:
 
 * MN208-0160-002FS - 0.4 mm stub end mill
 * MN208-0313-005F - 0.8 mm stub end mill
