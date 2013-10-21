@@ -67,6 +67,8 @@ Bits:
 
 ## End Mills
 
+Notes:
+
 - Bits that remove wide swaths of copper.
 - Purchase these in qty 5, they tend to last.
 - Link: <http://precisebits.com/products/carbidebits/precisebit-stub.asp>
