@@ -38,15 +38,10 @@ The fit curve is found to be:
 
 **Method**: Samples of bamboo plywood placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe.
 
-<table>
- <thead>
-  <tr><th>Thickness [mm]</th><th>Cut Speed (at 100% power)</th><th>Kerf (mm)</th></tr>
- </thead>
- <tbody>
-  <tr><td>2.87</td><td>80%</td><td>0.3 &ndash; 0.5</td></tr>
-  <tr><td>6.08</td><td>18%</td><td>0.3 &ndash; 1.0</td></tr>
- </tbody>
-</table>
+Thickness [mm] | Cut Speed (at 100% power)
+ ------------- | -------------------------
+      3.17     |  60%
+      6.53     |  28%
 
 #### Raster:
 
