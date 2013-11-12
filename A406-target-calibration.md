@@ -1,8 +1,9 @@
-
-Your target needs to be calibrated. There is access to this function
+Your target needs to be calibrated. We're so, so, sorry. There are support groups for this sort of thing.
 
 0. Get ready.
-   - Put in a router tool. It's the most robust tool we have.
+   - Put in a router bit, which has the best tip for this test.
+     - Choose ATC (automatic tool change) control panel.
+     - Choose the tool that you want by choosing the blue "THXX" button and then "Get Tool".
    - Put in a PCB of some standard height.
 1. Determine the layer stack height (backing + PCB)
    - Hit the "spindle follow mouse button"
@@ -30,5 +31,5 @@ Your target needs to be calibrated. There is access to this function
    - Right click within the camera within the camera and choose "Tool test at camera position".
    - Then enter a penetration depth of something ridiculously light: 0.1 mils.
    - It'll try to route a cross. But at 0.1 mils, it should really only scratch the surface. Maybe even just have a few points of contents.
-   - Then do another one at 1.5 mils, which is a standard penetration depth, and should do it.
+   - Then do another one at around 1.9 mils, which is a standard penetration depth, and after a bit of scotch brite, should look good.
 
