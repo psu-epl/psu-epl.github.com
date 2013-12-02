@@ -1,5 +1,3 @@
-## Torch T200N+ Reflow Oven Standard Operating Procedure
-
 # Overview
 
 The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature controlled oven used for soldering PCBs that use solder paste and surface mount parts. Essentially, you put solder paste on your PCB, you drop your components on the paste, put it in the oven, let it bring your board up to soldering temperatures, let it cool off, and voila, you have a soldered board.
