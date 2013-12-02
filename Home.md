@@ -13,7 +13,7 @@
 - [[LPKF S63 Printed Circuit Board Router|LPKF]]
 - [[AccurateCNC A406 Printed Circuit Board Router|A406]]
 - [[Soldering Equipment|Soldering Equipment]]
-- [[Torch T200N+ reflow oven|Reflow Oven SOP]]
+- [[Torch T200N+ reflow oven|Torch T200N Reflow Oven]]
 - Misc Hand tools
 - [[Things to get]]
 - [[3D Scanning|3Dscanning]]
