@@ -25,7 +25,7 @@ The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature 
    1. Monitor the red temperature graph - it should basically mirror the green set points.
 1. When the peak temperature is hit, and the temperature starts coming down, twist the latch on the left of the oven, remove the latch, and crack open oven's lid. Hold the lid open until your board is safely under 150 deg C. Then just leave the lid cracked open while the whole thing cools down.
 1. When the temperature is less than about 50 deg C, your board is cool enough to move and pick up - the internal temperature of the oven is displayed in red on the front of the oven:
-    - !(images/Torch_ovenClosed_70C.JPG)
+    - ![](images/Torch_ovenClosed_70C.JPG)
 1. Close up the lid and twist the latch shut.
 1. Open the oven door using the red "Drawer in/out" button
 1. Remove your board.
