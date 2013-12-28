@@ -8,6 +8,7 @@ We have a [Full Spectrum Laser Professional Series CO2 20x12 Laser with RetinaEn
 
 - It's an 80W CO2 laser that uses an invisible far infrared beam for cutting.
 - It does a good job cutting through things with carbon in it, e.g., paper, cardboard, bamboo, wood, and acrylic... even up to 0.25 inch bamboo and 0.5 inch acrylic. ABS is possible, but discouraged because of the terrible fumes (even worse than acrylic).
+   - We have sheets of Acrylic and Bamboo on hand for sale if you need them.
 - Cutting materials that contain Chlorine are NOT allowed, like PVC. 
 - It will not cut metals. And it won't do much to non-anodized Aluminum or Copper.
 - It can mark some metals, especially anodized Aluminum and sometimes steel.
