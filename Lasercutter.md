@@ -1,10 +1,19 @@
-***
-
-# Full Spectrum Laser Pro24x12
+# Full Spectrum Professional Series CO2 20x12 Laser
 
 ![The PSU-EPL laser](http://psu-epl.github.com/laser/full_spectrum.jpg)
 
-How to use the laser cutter:
+## Overview
+
+We have a [Full Spectrum Laser Professional Series CO2 20x12 Laser with RetinaEngrave 3D](http://fslaser.com/products/lasers/pro-series/20x12-laser-engraver). Here are some quick facts:
+
+- It's an 80W CO2 laser that uses an invisible far infrared beam for cutting.
+- It does a good job cutting through things with carbon in it, e.g., paper, cardboard, bamboo, wood, and acrylic... even up to 0.25 inch bamboo and 0.5 inch acrylic. ABS is possible, but discouraged because of the terrible fumes (even worse than acrylic).
+- Cutting materials that contain Chlorine are NOT allowed, like PVC. 
+- It will not cut metals. And it won't do much to non-anodized Aluminum or Copper.
+- It can mark some metals, especially anodized Aluminum and sometimes steel.
+- It theoretically has a 20 x 12 inch working capacity... but we never push it for more than about 18 x 11 inch just because it's very hard to align the very edges of the material, and the mirror head can hit the rails if you're a little misaligned.
+- It acts like a regular Windows printer: you simply print to it from any standard Windows program that can run on PC that runs the Lasercutter.
+- Popular programs to print from in the EPL: InkScape, Gerbv (for solder paste stencils), SolidWorks, Acrobat Reader (for PDFs), Word.
 
 ## Theory of Operation
 
