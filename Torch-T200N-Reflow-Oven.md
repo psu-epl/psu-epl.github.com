@@ -40,8 +40,8 @@ Same as above, just select the other reflow profile
 
 Reflow profiles are usually customized for each type of board and honed by years of experience working at a SMT contract manufacturer. Although not completely clueless, we don't have anywhere near that kind of experience. The generic reflow profile we created came from the following sources:
 
-- [Berex RF IC's Reflow Soldering Guide](www.berex.com/Products/Documents/Guides/BeRex-Reflow_Soldering_Guide_for_Surface_Mount_Device.pdf)
-- [Chipquik SMD291AX datasheet](http://media.digikey.com/pdf/Data%20Sheets/Chip%20Quik%20PDFs/SMD291AX(10).pdf)
+- [Berex RF IC's Reflow Soldering Guide](http://www.berex.com/Products/Documents/Guides/BeRex-Reflow_Soldering_Guide_for_Surface_Mount_Device.pdf)
+- [Chipquik SMD291AX datasheet](http://media.digikey.com/pdf/Data%20Sheets/Chip%20Quik%20PDFs/SMD291AX(10\).pdf)
 
 ... and were shaped by the idea of soaking at a temperature that activates flux but doesn't reflow, and then a quick spike to soldering temperature and then a rapid cool down. Our oven has a maximum temperature rise, so we follow that as closely as possible. In terms of final cool down, we don't have N2 cooling, so all we can do is crack the oven top and let external air cool it down faster.
 
