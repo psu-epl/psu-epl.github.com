@@ -7,7 +7,10 @@
 **Who:** Because of our limited size and resources, the EPL is currently only open to PSU students, faculty and staff. That said, we're actively looking for community mentors as well, so please contact us if you're an engineer in industry and are interested in helping out with the coolest lab, ever.
 
 **How:** Here's how you use the lab: 1) read the writeup and directions on the piece of equipment you want to get trained on, 2) during office hours, go get trained on that equipment. Once you've been trained, you can come in during any office hours and use that equipment. Once you've been trained on all the equipment, you're eligible to become a PSU manager, and get card key access!
- 
+
+## [Schedule](https://www.google.com/calendar/embed?src=epl.pdx%40gmail.com&ctz=America/Los_Angeles)
+
+See our [google calendar](https://www.google.com/calendar/embed?src=epl.pdx%40gmail.com&ctz=America/Los_Angeles). A live view of the calendar is on the window display in the lab, and on our [home page](http://psu-epl.github.io/)
 ## Equipment
 
 *Remember, please read about the equipment BEFORE coming in and getting trained on it!*
