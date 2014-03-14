@@ -1,5 +1,13 @@
 # Laser Cutter
 
+- Full Spectrum Laser SN 07/11/8350-639
+
+## Airfilter
+
+- BOFA International Ltd: http://www.bofaamericas.com / 618-205-5007
+- Filter # A1030055 + Prefilter # A1030056
+ 
+
 ## Kapton Film
 
 Used for solder stencils, sort of not as good as paper.
