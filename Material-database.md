@@ -4,19 +4,19 @@
 
 **Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe. 
 
-<table>
- <thead>
-  <tr><th>Thickness [mm]</th><th>Cut Speed (at 100% power)</th><th>Kerf (mm)</th></tr>
- </thead>
- <tbody>
-  <tr><td> 1.60</td><td>90%</td><td>0.2 &ndash; 0.4</td></tr>
-  <tr><td> 2.34</td><td>80%</td><td>0.2 &ndash; 0.4</td></tr>
-  <tr><td> 2.85</td><td>60%</td><td>0.2 &ndash; 0.5</td></tr>
-  <tr><td> 4.50</td><td>30%</td><td>0.2 &ndash; 1.0</td></tr>
-  <tr><td> 5.80</td><td>20%</td><td>0.2 &ndash; 1.0</td></tr>
-  <tr><td>12.13</td><td> 5%</td><td>0.5 &ndash; 2.0</td></tr>
- </tbody>
-</table>
+Thickness mm (in) | Cut Speed (at 100% power) | Kerf mm
+ ---------------- | ------------------------- | -------
+    1.587 (1/16") |            91%            | 0.2 &ndash; 0.4
+    1.60          |            90%            | 0.2 &ndash; 0.4
+    2.34          |            80%            | 0.2 &ndash; 0.4
+    2.85          |            60%            | 0.2 &ndash; 0.5
+    3.175 (1/8")  |            43%            | 0.2 &ndash;
+    4.50          |            30%            | 0.2 &ndash; 1.0
+    4.76 (3/16")  |            28%            | 0.2 &ndash; 1.0
+    5.80          |            20%            | 0.2 &ndash; 1.0
+    6.35 (1/4")   |            17%            | 0.2 &ndash; 1.0
+   7.9375 (5/16") |             8%            | 0.5 &ndash;
+   12.13          |             5%            | 0.5 &ndash; 2.0
 
 #### Chart
 
@@ -38,10 +38,11 @@ The fit curve is found to be:
 
 **Method**: Samples of bamboo plywood placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe.
 
-Thickness [mm] | Cut Speed (at 100% power)
- ------------- | -------------------------
-      3.17     |  60%
-      6.53     |  28%
+Thickness mm (in) | Cut Speed (at 100% power)
+ ---------------- | -------------------------
+     1.59 (1/16") |  80ish??%
+     3.17 (1/8")  |  60%
+     6.35 (1/4")  |  28%
 
 #### Raster:
 
@@ -87,15 +88,17 @@ Can be purchased online here: http://www.gravostore.com/
 
 ### Etching 1.3mm Gravoply Laser
 
+ - Raster Mode
  - 80% Speed
- - 25% power (current)
+ - 25% "Power" (current)
  - 500 DPI
 
 ### Cutting 1.3mm Gravoply Laser
 
+ - Vector Mode
  - 80% speed
- - 50% power (current)
- - 100% PWM
+ - 50% "Power" (current)
+ - 100% "Vector Current" (PWM)
 
 ![Etched Black-on-White Gravoply Laser](images/gravoply_laser1.jpg)
 ![Etched Black-on-White Gravoply Laser](images/gravoply_laser2.jpg)
@@ -108,7 +111,7 @@ Can be purchased online here: http://www.gravostore.com/
  - 25% speed
  - 8% power
  - 1 pass
- - 21% vector current (Note: for very fine pitch use, 21% vector current produced better results)
+ - 21% vector current
 
 ***
 
@@ -144,15 +147,15 @@ Then paint through the holes. Let dry then lift off paper.
 
 ## 40 lb Card Stock
 
- - 1% current
- - 100% pwm
- - 70% speed
+ - 1% "Power" (current)
+ - 100% "Vector current" (PWM)
+ - 70% Speed
 
 ## 1/8 inch Corrugated Cardboard
 
- - 35% current
- - 100% pwm
- - 80 % speed
+ - 35% "Power" (current)
+ - 100% "Vector current" (PWM)
+ - 80% Speed
 
 ***
 
