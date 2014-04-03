@@ -112,6 +112,7 @@ Steps to produce a PCB:
 
 
 * Check cut width
+
 This step may not be necessary. If neither the material thickness nor the bit has been changed since the last job, the milling width will probably be fine. If it appears wrong (either leaving rough cut edges, or wrong isolation width, or both), the first thing to check is the bit. To do this, remove the bit from the tool magazine using the bit removal tool (the blue cylindrical thing which is stuck magnetically to the shelf support.) Look at it under the microscope under maximum zoom. If the straight V cutting edges look at all dented, the bit is finished. After the bit is verified/changed, if the milling width is still wrong, then do the following:
    * Edit > Tool Magazine
    * Check the blue check box next to 0.2 mm Universal Cutter
