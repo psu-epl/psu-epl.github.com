@@ -32,6 +32,10 @@ The fit curve is found to be:
 
 100% Speed, 10% power for marklines?
 
+### Partial Cuts
+
+It is possible to cut channels by varying the laser power and focus. 80% power gives v-shaped channel about halfway through 1/8" acrylic when the laser is moved up a little bit from focused. This will be better characterized later. There is a picture on the iPad showing a test cut, but I don't know how to get pictures off of it yet.
+
 ***
 
 # Bamboo Plywood
