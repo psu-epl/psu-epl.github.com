@@ -38,11 +38,11 @@ It is possible to cut channels by varying the laser power and focus. 80% power g
 
 ![40,60,80,80,60,40% power at two different focus depths](images/acrylicChannel.jpg)
 
-Several channels were cut in 1/8" acrylic with 59mm and 60mm focus depth, and the approximate depths and widths were measured using calipers. I wouldn't trust these values too far.
+Several channels were cut in 1/8" acrylic with 59mm, 60mm, and 61mm focus depth, and the approximate depths and widths were measured using calipers. I wouldn't trust these values too far.
 
 Cut Speed | Cut Power | Depth (mm) | Width (mm) | Depth (mm) | Width (mm) | Depth (mm) | Width (mm)
  -------- | --------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- 
-          |           | 59mm Focus |            | 60mm Focus |            | 61mm Focus |
+          |           | 59mm       |            | 60mm       |            | 61mm       |
     80%   |    100%   |   2.26     |   0.50     |    1.73    |   0.44     |    1.82    |   0.62
    100%   |    100%   |   2.13     |   0.50     |    1.50    |   0.42     |    1.71    |   0.60
    100%   |     80%   |   2.05     |   0.50     |    1.25    |   0.42     |    1.51    |   0.60
