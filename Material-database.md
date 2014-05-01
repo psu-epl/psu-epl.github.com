@@ -38,6 +38,19 @@ It is possible to cut channels by varying the laser power and focus. 80% power g
 
 ![40,60,80,80,60,40% power at two different focus depths](images/acrylicChannel.jpg)
 
+Several channels were cut in 1/8" acrylic with 59mm and 60mm focus depth, and the approximate depths and widths were measured using calipers.
+
+59mm Focus Depth:
+
+Cut Speed | Cut Power | Channel Depth (mm) | Channel Depth (mm)
+ -------- | --------- | ------------------ | ------------------
+    80%   |    100%   |        2.26        |       0.50
+   100%   |    100%   |        2.13        |       0.50
+   100%   |     80%   |        2.05        |       0.50
+   100%   |     60%   |        1.71        |       0.47
+   100%   |     40%   |        1.47        |       0.45
+   100%   |     20%   |        1.13        |       0.42
+
 ***
 
 # Bamboo Plywood
