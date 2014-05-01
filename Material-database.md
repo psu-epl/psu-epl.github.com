@@ -38,10 +38,6 @@ It is possible to cut channels by varying the laser power and focus. 80% power g
 
 ![40,60,80,80,60,40% power at two different focus depths](images/acrylicChannel.jpg)
 
-Cut Speed | Cut Power | Channel Depth | Channel Width
-------------------------------------------------------
-More coming
-
 ***
 
 # Bamboo Plywood
