@@ -20,7 +20,7 @@ Cut Speed | Cut Power | Depth (mm) | Width (mm) | Depth (mm) | Width (mm) | Dept
 
 Sometimes it may be desirable (e.g. for aesthetic reasons) to create parts and slots that fit together snugly without using more robust techniques like T-slots. The laser cutter isn't capable of creating precise square corners, but it can be used to create parts that fit together nicely as long as they don't have to provide very high stability.
 
-![Test slots in 1/4" acrylic](images/acrylicSlots.jpg)
+![Test slots in 1/4" acrylic](images/acrylicSlot.jpg)
 
 Two pieces of 20x10mm 1/8" acrylic were cut at 43% and 30% speed and 100% power. Several test slots were cut into a piece of 1/4" acrylic at different speeds and with different dimensions (see test board), and the 1/8" pieces were inserted to test fit. The test board and 1/8" pieces are above the laser printer. The best fits were achieved with:
 
