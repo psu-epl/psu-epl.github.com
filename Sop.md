@@ -51,6 +51,8 @@ Steps to produce a PCB:
 
         To use existing holes, select them by clicking the first one, then shift-clicking the others you wish to use. 3 holes is optimal. They need not be the same size, but they should have a few millimeters of blank board space around them. If this isn't true, then the machine may accidentally select another hole nearby as it's searching for the real fiducial. When all of the desired holes are selected, right-click on one and choose 'Copy objects to layer' and select 'Fiducial'.
 
+        Note: If the hole is larger than the camera's field of view (about .1"), then the LPKF will spend a long time searching for the hole using a spiral search pattern. It will occasionally identify the hole's boundary and find the center, but will typically not choose the center correctly when it finishes. It would be best to use holes that are small enough to fit within the camera's field of view.
+
         If using existing holes, the 'Drill Fiducial' process step can be skipped (because the holes will already be drilled in the normal drill step.)
 
     * Add dedicated holes
