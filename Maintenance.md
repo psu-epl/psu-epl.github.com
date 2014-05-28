@@ -4,6 +4,7 @@ LPKF maintenance SOPS
 
 - TBD
 - Put the used bit in the "bad tool" area or throw it out.
+- Close the Lid, check the box next to the tool, and press the "discard tool" to reset durability.
 - Email the managers list if we get low on that particular tool.
 
 # Maintaining the tool clamp
