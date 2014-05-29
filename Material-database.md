@@ -108,7 +108,7 @@ Can be purchased online here: http://www.gravostore.com/
 
  - Raster Mode
  - 80% Speed
- - 25% "Power" (current)
+ - 25% -- 35% "Power" (current)
  - 500 DPI
 
 ### Cutting 1.3mm Gravoply Laser
