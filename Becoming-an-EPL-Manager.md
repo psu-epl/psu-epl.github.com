@@ -10,6 +10,6 @@ Here's how becoming a manager works:
 
 2. You need to get 3 current managers to sponsor you to become a manager. They will have to send the EPL administrator (currently Andrew) an email saying that they support you becoming a manager.
 
-3. The admin will email the current manager group and let everyone know you're about to become a new manager. Any current manager can veto someone trying to become a manager. This may sound arbitrary, but it's not: it's specifically to prevent people who aren't good with other people or with equipment from becoming managers. Becoming a manager is a big responsibility and means contributing to the community, and some people simply aren't ready for that yet.
+3. The admin will email the current manager group and let everyone know you're about to become a new manager. Any current manager can veto someone trying to become a manager. This may sound arbitrary, but it's not: it's specifically to prevent people who aren't good with other people or with equipment from becoming managers. Becoming a manager is a big responsibility and means keeping people safe, being responsible, and contributing to the community. Some people just aren't ready for that yet.
 
 4. Finally, once all this happens, the admin will meet with you and go over becoming a manager (takes about an hour). 
