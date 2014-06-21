@@ -13,7 +13,7 @@ The PSU EPL is located on the lower level of the PSU Fourth Avenue Building (FAB
 
 It's easy to use the equipment in this lab. Here's what you do:
 
-1. Go to our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "wiki") and read the instructions on the equipment you want to use.
+1. Go to our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "wiki")** and read the instructions on the equipment you want to use.
 2. Check the calendar (below) for office hours.
 3. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
 4. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility.
@@ -22,7 +22,9 @@ It's easy to use the equipment in this lab. Here's what you do:
 
 ### Lab Status
 
-The lab is currently open to all PSU students and staff, and to community members by invitation only. We hope to move to a new, larger space this summer and be open by this Fall 2014 term.
+The lab is currently open this summer to all PSU students and staff, and to community members by invitation only. 
+
+We hope to move to a new, larger space this summer and be open by this Fall 2014 term, so there will be a period of time, probably in late August, early September, where the lab will be closed during the move.
 
 ### Lab Equipment
 
@@ -35,7 +37,7 @@ The lab is currently open to all PSU students and staff, and to community member
    - [Beijing Torch Co. T200N Desk Reflow Oven](https://github.com/psu-epl/psu-epl.github.com/wiki/Reflow-Oven-SOP)
 - Misc Hand tools
 
-Read about all of our equipment and policies on our [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki").
+Read about all of our equipment and policies on our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
 ### Lab Calendar
 
