@@ -3,6 +3,8 @@ EPL managers get 24 card key access to the EPL, which is fun. However, there's r
 - Managers must put in > 1 hour per week of open EPL time. Usually this means a single 2 hour block of time each week, but we're flexible.
 - A manager's most important responsibility is to keep the people and equipment safe.
 - After safety, the next responsibility is to train other people on the equipment during their open lab time. This means managers must be good with people, like teaching, and of course understand all of the equipment enough to be able to teach others how to use it.
+- Managers are also expected to improve the lab as they can. Improving SOPs, building new tools using our equipment, or something to improve the place or processes for the lab.
+- As a manager you will constantly be introducing the lab to new people, and even be asked to give a short presentation on the lab (< 5 min) for tour groups that often come through the EPL.
 
 Here's how becoming a manager works:
 
