@@ -1,1 +1,0 @@
-Take the Gerber file of the paste layer and open it using Gerbv. Export to a PNG. Open in Inkscape, maybe. Do stuff. Print.
