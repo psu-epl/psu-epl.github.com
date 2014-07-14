@@ -4,6 +4,4 @@ Go to process CAM jobs in eagleCAD and set the output device as GERBER_RS274X, a
 
 Open the gerber tcream layer you just created in gerbv. Then export this layer as a .SVG file for cutting on the laser cutter.
 
-Follow standard laser cutter operations, and use the settings for the stencil material being used (parchment paper/kapton).
-
-Tape kapton/parchment paper securely to the top of an acrylic sheet for cutting.
+Follow standard laser cutter operations, and use the settings for the stencil material being used (parchment paper/kapton). Make sure to tape the paper/kapton down onto an acrylic sheet, as it is light and will blow away if not secured. 
