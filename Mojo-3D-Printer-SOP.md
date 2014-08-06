@@ -55,7 +55,7 @@
 
 ### Build Raft Selection
 
-#### There is a Kapton coated build raft that is reusable, However there is a build size restriction.  Any model that is printed on the Kapton build raft must fit inside a 1x1x1 inch cube.
+There is a Kapton coated build raft that is reusable, However there is a build size restriction.  Any model that is printed on the Kapton build raft must fit inside a 1x1x1 inch cube.
 
 ### Model preparation
 
