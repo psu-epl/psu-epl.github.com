@@ -22,9 +22,12 @@
 3.	If your part is not displayed, and the printer is not currently printing another job, click the “Select part” button and select your part.
 4.	Verify there is enough model and support material left to complete your job
  1.	The model and support material bar graphs should be green
-5.	Load build raft into printer
- 1.	Align clips on bottom of raft with holes in metal build platform and push into printer until the raft clicks into place
- 2.	Raft front edge should be flush with metal build platform
+5.      Select the appropriate build raft
+  1.    If your part will fit inside a 1 inch cube then there is a reusable Kapton build raft that may be used.  However there may be some warping around the bottom edge of your part.
+  2.    Any parts that are larger than a 1 inch cube must use the standard non-reusable build raft.
+6.	Load build raft into printer
+  1.	Align clips on bottom of raft with holes in metal build platform and push into printer until the raft clicks into place
+  2.	Raft front edge should be flush with metal build platform
 6.	Click the “Print” button in the Mojo Control Panel
 
 ## Cleaning
@@ -52,10 +55,6 @@
 
 
 ## Tips
-
-### Build Raft Selection
-
-There is a Kapton coated build raft that is reusable, However there is a build size restriction.  Any model that is printed on the Kapton build raft must fit inside a 1x1x1 inch cube.
 
 ### Model preparation
 
