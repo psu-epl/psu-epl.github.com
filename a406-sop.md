@@ -75,7 +75,22 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - "Left Control + right mouse click" move an area outside of your artwork on an unused part of the PCB material.
 - Zoom into the camera area.
 - In the camera area, right click and choose "Tool test at camera position".
-- 
+- Click OK at the suggested penetration depth (2.4 mils).
+- Hit Control-Space to focus the camera.
+- Make sure it's around 7-9 mils.
+   - Click on the "0.001" button in the movement area in the upper left part of the screen.
+   - Move the red cross hairs to one edge of the calibration mark. Then count the number of times you need to move the camera using the arrow buttons in order to measure the width of the cut.
+- If it's not a good penetration depth, then continue doing calibration cuts at different depths until you find a good one. The calibration mark should be very clean, no smeared coppers and no "bright outlines" around the edge of the copper (which is actually burs). You should be able to run your fingers over it and feel nothing at all - if you feel a bump, that's a burr, which is bad. You should probably increase your depth and/or change your bit.
+- Once you find a good depth, then:
+   - Click on "ATC Control Panel" button
+   - In the bottom section, in the Project Tools list, enter in the depth you found in the insulate tool's "Depth" column entry box.
+
+## Go!
+
+- Zoom out to see your artwork.
+- In the "Program" drop down list in the upper right corner of the screen, choose "Entire Top".
+   - "*" entries in this list are groups of phases.
+- Choose "RUN(GO)"
 
 
 
