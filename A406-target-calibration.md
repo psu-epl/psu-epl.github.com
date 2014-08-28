@@ -17,9 +17,9 @@ Whenever you test the depth of your cut, and you have to adjust the penetration 
 1. It'll try and route the cross, and then go back to the camera view. Refocus by using control-space if necessary. You should have a calibration mark that is just really faint scratches on the surface.
    - If there's no calibration mark, then you'll need to keep doing "Tool test at camera position" and make the penetration depth larger and larger until you just barely scratch the surface. An uneven scratch is just fine - you really want to just barely mark the surface.
    - If you have a calibration mark that's too deep at 0.1 mils, then you'll need to use negative values in the penetration depth. 
-1. IF AND ONLY IF the you have a penetration depth that is not 0.1 mils -- in other words, you have to enter in a different value into the penetration depth -- then correct the target depth.
+1. IF AND ONLY IF the you have a penetration depth that is not 0.1 mils -- in other words, you have to enter in a different value into the penetration depth -- then save the correction to the target depth.
    - In CNC mode, push and hold the "Left Control" and "left shift" keys and select "CNC" menu.
    - You will find more options: choose "Target button calibration".
-   - Enter in the *negative* of the value of the penetration depth you had to enter in order to get the light scratched in calibration target.
+   - Enter in the value of the penetration depth you had to enter in order to get the light scratched in calibration target (this is usually positive but can be a negative value).
    - Choose Save
 4. Now test it. Do another "tool test at camera position" at 0.1 mils penetration depth. If everything has gone right, it'll scratch the surface just like above.
