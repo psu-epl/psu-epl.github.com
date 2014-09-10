@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Portland State University Electronics Prototyping Lab
 ---
 
