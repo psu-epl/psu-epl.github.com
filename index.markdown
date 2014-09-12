@@ -3,28 +3,32 @@ layout: base
 title: Portland State University Electronics Prototyping Lab
 ---
 
-![The EPL](/images/lab_panorama.png)
 
-The EPL is a lab for rapidly prototyping electronics projects. It is meant for students (and eventually community members) to be able to walk in with an idea and CAD files, and walk out with a fully functioning piece of electronics in an enclosure. **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
+![The EPL](/images/lab_panorama.jpg)
 
-The PSU EPL is located on the lower level of the PSU Fourth Avenue Building (FAB) at 1900 SW 4th Avenue in room FAB 60-10. Our phone number is 503-725-2879.
 
-### Using the Lab
+## The EPL
 
-It's easy to use the equipment in this lab. Here's what you do:
+The EPL is a lab for rapidly prototyping electronics projects. It is meant for
+students (and eventually community members) to be able to walk in with an idea
+and CAD files, and walk out with a fully functioning piece of electronics in
+an enclosure.
+**[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
 
-1. Go to our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "wiki")** and read the instructions on the equipment you want to use.
-2. Check the calendar (below) for office hours.
-3. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
-4. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility.
+The PSU EPL is located on the lower level of the PSU Fourth Avenue Building
+(FAB) at 1900 SW 4th Avenue in room FAB 60-10. Our phone number is
+503-725-2879.
 
-**For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
-### Lab Status
 
-The lab is currently open this summer to all PSU students and staff, and to community members by invitation only. 
+## Lab Status
 
-We hope to move to a new, larger space this summer and be open by this Fall 2014 term, so there will be a period of time, probably in late August, early September, where the lab will be closed during the move.
+The lab is currently to all PSU students and staff, and to community members by
+invitation only. 
+
+We are moving to a much larger space in the beginning of the fall 2014 term!
+
+
 
 ### Lab Equipment
 
@@ -38,6 +42,21 @@ We hope to move to a new, larger space this summer and be open by this Fall 2014
 - Misc Hand tools
 
 Read about all of our equipment and policies on our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
+
+
+
+## Using the Lab
+
+It's easy! Here's what you do:
+
+ 1. Go to our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "wiki")** and read the instructions on the equipment you want to use.
+ 1. Check the calendar (below) for office hours.
+ 1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
+ 1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility.
+
+
+**For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
+
 
 ### Lab Calendar
 

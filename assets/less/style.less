@@ -1,5 +1,8 @@
 @import "bootstrap.less";
 @footer-height:     100px;
+@psu-light-green:   #6a7f10;
+@psu-dark-green:    #363f09;
+@psu-red:           #a33f1f;
 
 // Sticky Footer
 html, body, .wrapper { height: 100%; margin: 0; padding: 0; }
@@ -8,8 +11,47 @@ body > .wrapper { height: auto; min-height: 100%; }
 #footer { clear: both; position: relative; z-index: 10; height: @footer-height; margin-top: -@footer-height; }
 
 // Base Colours
-#header-wrap {
-    background: #ccc;
-    border-bottom: 1px solid #c8c8c8;
+#header {
+    background: @psu-dark-green;
+    background: -moz-linear-gradient(-45deg, @psu-dark-green 0%, @psu-light-green 33%, @psu-dark-green 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,@psu-dark-green), color-stop(33%,@psu-light-green), color-stop(100%,@psu-dark-green));
+    background: -webkit-linear-gradient(-45deg, @psu-dark-green 0%, @psu-light-green 33%, @psu-dark-green 100%);
+    background: -o-linear-gradient(-45deg, @psu-dark-green 0%, @psu-light-green 33%, @psu-dark-green 100%);
+    background: -ms-linear-gradient(-45deg,  @psu-dark-green 0%, @psu-light-green 33%, @psu-dark-green 100%);
+    background: linear-gradient(135deg, @psu-dark-green 0%, @psu-light-green 33%, @psu-dark-green 100%);
+    border-bottom: 3px solid @psu-light-green;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#footer {
+    background: #eee;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
 }
 
+#header .brand {
+    .container();
+}
+.brand h1 {
+    text-shadow: 1px 1px 2px #444;
+}
+.brand p {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    color: #d8d8d8;
+    word-spacing: 0.15em;
+}
+.brand a {
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+}
+
+#content { .container(); }
+#content img { .img-responsive(); }
+
+.site-info { .container(); }
+.totop { .pull-right(); }
