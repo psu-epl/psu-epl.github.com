@@ -1,0 +1,24 @@
+  - name: LPKF PCB Router
+    img: protomat-s63.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF
+    up: false
+
+  - name: A406 PCB Router
+    img: A406.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/a406-sop
+    up: true
+
+  - name: Stratasys Mojo 3D Printer
+    img: mojo.png
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
+    up: true
+
+  - name: Full Spectrum Pro CO2 Laser Cutter
+    img: prolf20x12.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
+    up: true
+
+  - name: T200N Desktop Solder Oven
+    img: torch.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Reflow-Oven-SOP
+    up: true

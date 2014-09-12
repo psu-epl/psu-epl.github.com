@@ -29,17 +29,9 @@ invitation only.
 We are moving to a much larger space in the beginning of the fall 2014 term!
 
 
-
 ### Lab Equipment
 
-- [Full Spectrum 80w Laser Cutter](https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter)
-- [Stratisys Mojo 3D printer (FDM)](https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP)
-- [LPKF S63 Printed Circuit Board Router](https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF)
-- [Drill Press](https://github.com/psu-epl/psu-epl.github.com/wiki/drillpress)
-- Soldering Equipment
-   - Hakko Soldering stations with various tips, vaccum and hot air
-   - [Beijing Torch Co. T200N Desk Reflow Oven](https://github.com/psu-epl/psu-epl.github.com/wiki/Reflow-Oven-SOP)
-- Misc Hand tools
+{% include machines.html %}
 
 Read about all of our equipment and policies on our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 

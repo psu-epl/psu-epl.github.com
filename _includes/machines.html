@@ -1,0 +1,14 @@
+<div class="machine-list">
+
+    {% for machine in site.data.machines %}
+      <div class="machine {% if machine.up != true %}down{% endif %}">
+       <a href="{{ machine.sop }}">
+        <img src="/images/{{ machine.img }}">
+        <p>
+          {{ machine.name }}
+        </p>
+      </a>
+      </div>
+    {% endfor %}
+
+</div>

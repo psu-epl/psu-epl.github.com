@@ -55,3 +55,20 @@ body > .wrapper { height: auto; min-height: 100%; }
 
 .site-info { .container(); }
 .totop { .pull-right(); }
+
+.machine-list { .row(); }
+.machine {
+    .make-sm-column(5);
+    .make-lg-column(2);
+    margin-bottom: 1.0em;
+}
+.machine img {
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.machine.down { background: #d44; }
+.machine.down img { opacity: 0.7; }
+.machine.down:after {
+    content: "This machine is currently down.";
+}
