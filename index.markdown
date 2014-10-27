@@ -26,7 +26,8 @@ The PSU EPL is located on the lower level of the PSU Fourth Avenue Building
 The lab is currently to all PSU students and staff, and to community members by
 invitation only. 
 
-We are moving to a much larger space in the beginning of the fall 2014 term.
+**The EPL will move to FAB 84 Friday October 31st**. The lab will be closed
+Thursday and Friday.
 
 
 ### Lab Equipment
