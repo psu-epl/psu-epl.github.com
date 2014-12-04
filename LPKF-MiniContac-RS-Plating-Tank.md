@@ -24,6 +24,13 @@ All of this means that there might be cases where plating a board is too much tr
 
 The plated PCB process consists of these steps:
 
+* check tank levels
+    1. The left-most two tanks are for cleaning and degreasing the board. Each tank has a fill indicator on its left wall. These two tanks share a cover plate. Make sure the other two tanks are covered and remove the left-most cover plate. If the fluid levels are below the fill indicator, add distilled water to top them off, then replace the cover over both tanks. Never, ever use tap water in any of the tanks - it will wreck them instantly. 
+    2. The third tank is the activator and is the most sensitive to contamination. Only ever take the cover off this tank when the other tanks are covered. If the activator level is low, add more from the extra bottles of Aktivator 310. Use the funnel to help not spill this expensive stuff anywhere. Rinse the funnel with distilled water and make sure it's absolutely dry (use compressed air) before pouring the Aktivator 310 through it.
+    4. The fourth tank must be checked for CuSO4 crystals on the walls and corners. The procedure for removing these and putting them back into the bath is not yet known and will be detailed here later.
+    
+* Turn on the plating tank. The switch is on the back right side near the bottom. This will pre-heat the first cleaning tank. It should be at least 50C before cleaning your board.
+
 * cutting the blank to the minimum size required
     Copper is going to be plated onto all of the copper, not just the holes. Plating current is proportional to the area of copper being plated, and you wouldn't want to plate a blank more than once (because the copper quickly becomes too thick to route isolation channels into), so you want to start with a blank which is only as large as necessary.
 
@@ -35,9 +42,10 @@ The plated PCB process consists of these steps:
 * drilling the board
     use any PCB milling machine to drill all of the component holes and vias. Make sure you have at least two good fiducial holes for alignment (on the LPKF you should specifically place fiducials; on the A406, you can use any two well-separated holes, including vias)
 
-* check tank levels
-    1. The left-most two tanks are for cleaning and degreasing the board. Each tank has a fill indicator on its left wall. These two tanks share a cover plate. Make sure the other two tanks are covered and remove the left-most cover plate. If the fluid levels are below the fill indicator, add distilled water to top them off, then replace the cover over both tanks. Never, ever use tap water in any of the tanks - it will wreck them instantly. 
-    2. The third tank is the activator and is the most sensitive to contamination. Only ever take the cover off this tank when the other tanks are covered. If the activator level is low, add more from the extra bottles of Aktivator 310. Use the funnel to help not spill this expensive stuff anywhere. Rinse the funnel with distilled water and make sure it's absolutely dry (use compressed air) before pouring the Aktivator 310 through it.
-    4. The fourth tank must be checked for CuSO4 crystals on the walls and corners. The procedure for removing these and putting them back into the bath is not yet known and will be detailed here later.
-    
+* pre-clean the blank
+    Shine up the board on both sides using Scotch-Bright pad or fine sandpaper. Scotch-Bright will remove less copper and leave a better finish. Rinse under tap water in the sink and blow dry with compressed air.
+
+* Mount the board in the non-metallic board holder (it's pretty obvious - loosen the screws, put the board all the way into the slots in the posts, and tighten the screws.)
+
+* Remove the left-most tank cover and put the board into the first tank. When placing the board into any of the tanks, you want to dislodge any air bubbles from the surface and especially from the holes. The procedure is to secure the far end of the holder and tap the near end several times on the frame beside the pin, then finally secure the holder over the pin.
 
