@@ -49,3 +49,8 @@ The plated PCB process consists of these steps:
 
 * Remove the left-most tank cover and put the board into the first tank. When placing the board into any of the tanks, you want to dislodge any air bubbles from the surface and especially from the holes. The procedure is to secure the far end of the holder and tap the near end several times on the frame beside the pin, then finally secure the holder over the pin.
 
+* Check that the thermometer says >= 50C; if not, wait for it to reach working temperature.
+
+* The machine should boot with Profile 1 set as default. Check that this is true by looking at the LCD upper right corner. It should say 'Prof. 1'. If it doesn't, use the 4 arrow keys to select it. The interface is pretty clunky, but basically the right arrow is 'enter' and the left is 'escape'. 
+
+* Select 'Phases', 'Phase 1', and 'Start'. The agitator should begin oscillating, moving the board back and forth in the cleaner. This step takes about 65 minutes and does not need to be attended. This might be a good time to laser-cut your stencil, organize the parts kit, write some code, or have a coffee.
