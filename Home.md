@@ -2,7 +2,7 @@
 
 **What:** The EPL is a lab for rapidly prototyping *electronics* projects. With a motto of "bits to atoms", the EPL is here to allow you walk in with PCB and 3D CAD files and walk out with a fully functioning piece of electronics in an enclosure.
 
-**Where:** We're located in room 60-10 in the basement of PSU's Fourth Avenue Building ("FAB", 1900 SW 4th Avenue).
+**Where:** We're located in room 84-20 in the basement of PSU's Fourth Avenue Building ("FAB", 1900 SW 4th Avenue).
 
 **Who:** Because of our limited size and resources, the EPL is currently only open to PSU students, faculty and staff. That said, we're actively looking for community mentors as well, so please contact us if you're an engineer in industry and are interested in helping out with the coolest lab, ever.
 
