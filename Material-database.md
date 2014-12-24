@@ -16,7 +16,7 @@ Thickness mm (in) | Cut Speed (at 100% power) | Kerf mm
     5.80          |            20%            | 0.2 &ndash; 1.0
     6.35 (1/4")   |            17%            | 0.2 &ndash; 1.0
    7.9375 (5/16") |             8%            | 0.5 &ndash;
-   12.13          |             5%            | 0.5 &ndash; 2.0
+   12.13          |     12%, or 25% 2-pass    | 0.5 &ndash; 2.0
 
 #### Chart
 
