@@ -16,18 +16,15 @@ an enclosure.
 **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
 
 The PSU EPL is located on the lower level of the PSU Fourth Avenue Building
-(FAB) at 1900 SW 4th Avenue in room FAB 60-10. Our phone number is
+(FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
 503-725-2879.
 
 
 
 ## Lab Status
 
-The lab is currently to all PSU students and staff, and to community members by
-invitation only. 
-
-**The EPL will move to FAB 84 Friday October 31st**. The lab will be closed
-Thursday and Friday.
+The lab is currently to all PSU students and staff, and to the greater Portland community members by
+invitation only.
 
 
 ### Lab Equipment
@@ -41,7 +38,7 @@ Read about all of our equipment and policies on our **[wiki](https://github.com/
 
 
 
-## Using the Lab
+## Using the Labs
 
 It's easy! Here's what you do:
 
