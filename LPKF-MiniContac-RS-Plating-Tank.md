@@ -39,8 +39,14 @@ The plated PCB process consists of these steps:
     1. The blank's x dimension must be at least 6.5". This is because the clamp screws on the board holder can't hold a narrower board.
     2. The y dimension must hold the PCB, plus a border of about 0.7", plus another .2" on the top. The board clamps from the top and there's .5" of airspace above the liquid, and the board must be taped down on the routing machine and the head can't hit the tape.
 
+* Calculating the plating current
+
+   1. Take the dimensions of your blank, in mm.
+   2. Go to page 41 of the plating tank manual and calculate the plating tank current for your sized blank. Write this down.
+
 * drilling the board
     use any PCB milling machine to drill all of the component holes and vias. Make sure you have at least two good fiducial holes for alignment (on the LPKF you should specifically place fiducials; on the A406, you can use any two well-separated holes, including vias)
+
 
 ## STEP 1: Clean board in Solution #1 
 
@@ -71,6 +77,7 @@ The plated PCB process consists of these steps:
 
 * Select "Phase 2" and "Start". Phase 2 takes 5 minutes.
 
+
 ### STEP 3: Prep the board for Solution #3 ("Aktivator 310")
 
 * Like previously, rinse off the board with hot tap water for 30 seconds. Shake off the excess water.
@@ -78,6 +85,7 @@ The plated PCB process consists of these steps:
 * Take the spray bottle of distilled water, and thoroughly spray your board and the plastic holder with the distilled water. You want to rinse off all of the tap water with the distilled water.
 
 * Carefully and thoroughly use the air gun to dry off the board. Make sure you dry out the holes, the plastic holder, everything.
+
 
 ### Step 4. Solution #3
 
@@ -93,18 +101,63 @@ The plated PCB process consists of these steps:
 
 * NOW wait 15 minutes until it's done.
 
+
 ### Step 5: Pre PCB for drying and bake dry
 
-* Clean off the blue squeegee using the distilled water and air gun to dry it.
+* Clean off the blue squeegee using the distilled water and air gun to dry it. Also clean off 3 or 4 aluminum shims.
 
 * Lift up the circuit board 45 degrees, and gently squeegee the excess Aktivator 310 back into the bath. Doesn't have to be perfect.
 
 * Put a paper towel on the ground, and GENTLY blow off the excess Activator onto a paper towel. DON'T TOUCH IT, no one knows what's in it.
 
-* The board will look like crap. That's fine, it doesn't have to be clean.
+* The board will look like crap. That's fine, it doesn't have to look clean.
 
-* Put the board into the pre-heated oven for 5 minutes.
+* REMEMBER: DO NOT EVER TOUCH THE BOARD IN ANY LOCATION WITH YOUR BARE HANDS. We don't want any junk eventually going into the plating tank.
 
-### Step 5. Solution #4 (Copper plating tank)
+* Put the aluminum shims in the oven.
 
-* Take the baked board and 
+* Put the board on the shims in the oven, and let bake for 5 minutes. 
+
+* Take this time to put the cover onto Solution #3 tank.
+
+### STEP 6: Calculate the plating current
+
+Refer to page 
+
+### Step 7. Solution #4 (Copper plating tank)
+
+* Stop the oven, open the drawer, and let the board cool down until it's like 50 deg C.
+
+* REMEMBER: DO NOT EVER TOUCH THE BOARD IN ANY LOCATION WITH YOUR BARE HANDS. We don't want any junk eventually going into the plating tank.
+
+* Put the board in the plating tank copper electrode holder.
+
+* Plug the electrode cable into the side of the plating tank.
+
+* Take the plating tank cover off and put the board into the plating tank.
+
+* Choose "Phase 4" and "Change" and set the "Current" to whatever you calculated in the prep phase above. Go back to the Phase 4 manu, and choose "Start".
+
+* Wait for 15 minutes (there won't be an alarm). Choose "Pause". Carefully take the board out and make sure the sides and holes are being plated correctly. The PCB should look really pretty - kind of Salmon colored, and it should cover everything (edges of the board, holes, and even the flat board itself).
+
+* Choose "Start" to resume the plating, and wait for the rest of the total 90 minutes. 
+
+### Step 8. Finish up.
+
+* Unplug the electrode cord from the tank.
+
+* Remove the board, let it drip into the tank.
+
+* Walk it over to the sink and rinse it off.
+
+* Unscrew the board from the electrode.
+
+* Don't forget to recover the plating tank.
+
+* Turn off the tank.
+
+* Finally, clean up and organize the mess you made.
+
+### Step 9. Continue routing your board.
+
+* You're done! Go route that board.
