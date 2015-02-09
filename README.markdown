@@ -5,9 +5,13 @@ At the _Center For Interconnected Devices_ at Portland State University.
 ## [psu-epl.github.io](http://psu-epl.github.io)
 
 
-For in depth documentation and discussion use the
-[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki).
+For in depth documentation and discussion use the wiki:
 
+## [Wiki](https://github.com/psu-epl/psu-epl.github.com/wiki).
+
+Paying for a part? User our [credit card system](https://github.com/psu-epl/psu-epl.github.com/wiki/Checkout):
+
+## [commerce.cashnet.com/ecei](https://commerce.cashnet.com/ecei)
 
 ### How to update the site:
 
