@@ -1,3 +1,3 @@
-exclude:    ['README.markdown', 'Makefile', 'assets/less', 'assets/vendor/bootstrap']
-timezone:   America/Los_Angeles
-
+exclude:  ['README.markdown', 'Makefile', 'assets/less', 'assets/vendor/bootstrap']
+timezone: America/Los_Angeles
+markdown: kramdown

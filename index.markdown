@@ -7,15 +7,15 @@ title: Portland State University Electronics Prototyping Lab
 ![The EPL](/images/lab_panorama.jpg)
 
 
-## The EPL
+## The Prototyping Lab
 
-The EPL is a lab for rapidly prototyping electronics projects. It is meant for
-students (and eventually community members) to be able to walk in with an idea
-and CAD files, and walk out with a fully functioning piece of electronics in
-an enclosure.
+The L.I.D. is a lab for rapidly prototyping electronics projects. It is meant for
+students and the community to be able to walk in with an idea and walk out with a
+fully functioning prototype.
+
 **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
 
-The PSU EPL is located on the lower level of the PSU Fourth Avenue Building
+The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 (FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
 503-725-2879.
 
@@ -29,7 +29,7 @@ invitation only.
 
 ### Lab Equipment
 
-Here is the list of equipment and thier current status. Sometimes machines
+Here is the list of equipment and their current status. Sometimes machines
 break, which will be noted here:
 
 {% include machines.html %}
