@@ -38,7 +38,7 @@ The plated PCB process consists of these steps:
 
 Use these guidelines to size your blank:
 
- 1. The blank's x dimension must be at least 6.5". This is because the clamp screws on the board holder can't hold a narrower board.
+ 1. The blank's x dimension must be at least 6.5". This is because the clamp screws on the board holder can't hold a narrower board. Maximum: 9"
  1. The y dimension must hold the PCB, with about 1 inch on top to make room for the holder and the airspace above the liquid.
 
 * Calculating the plating current
