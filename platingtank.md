@@ -1,2 +1,0 @@
-# Plating Tank SOP
-
