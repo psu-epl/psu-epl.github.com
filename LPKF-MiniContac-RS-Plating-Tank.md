@@ -34,10 +34,12 @@ The plated PCB process consists of these steps:
 * cutting the blank to the minimum size required
     Copper is going to be plated onto all of the copper, not just the holes. Plating current is proportional to the area of copper being plated, and you wouldn't want to plate a blank more than once (because the copper quickly becomes too thick to route isolation channels into), so you want to start with a blank which is only as large as necessary.
 
-    Use these guidelines to size your blank:
+### Board Sizing
+
+Use these guidelines to size your blank:
 
     1. The blank's x dimension must be at least 6.5". This is because the clamp screws on the board holder can't hold a narrower board.
-    2. The y dimension must hold the PCB, plus a border of about 0.7", plus another .2" on the top. The board clamps from the top and there's .5" of airspace above the liquid, and the board must be taped down on the routing machine and the head can't hit the tape.
+    2. The y dimension must hold the PCB, with about 1 inch on top to make room for the holder and the airspace above the liquid.
 
 * Calculating the plating current
 
