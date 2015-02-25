@@ -104,6 +104,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Choose two holes on your board to be fiducials. It's good if they're medium sized - not larger than like a few millimeters. Small holes are OK, probably, too. You want the holes to be in the opposite corners of the board, to make the registration as accurate as possible. One note: you can't have the fiducials be too close to the tool holder, because the head can't move that far towards the front of the machine.
 - Put the acetate circly thingy with the arrows ("Hole Finder Tool") on top of your first fiducial hole you chose.
 - Choose "Entire (Bottom)*" from the "Program:" drop down in the upper right hand corner.
+- Right click in the CAM area and choose "Fiducial Registration Mode."
 - Move head to the first fiducial hole by clicking "Camera follows mouse" button and control-right click.
 - Focus the video using control-space bar.
 - Zoom into your fiducial hole following the arrows.
@@ -122,6 +123,5 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - At this point, we recommend doing another tool depth test just to make sure everything is OK (see above)
 - Choose "RUN(GO)" and it'll do the bottom of your board.
  
-
 
 
