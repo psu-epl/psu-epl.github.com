@@ -21,7 +21,6 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 1. Go to the CAM view by clicking the "CNC" button.
 1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button).
-1. Check that the photoplot resolution is set to 4,000. If it isn't, type in 4000 in the edit box. You must do this before you import any files. The reason is that if you have artwork which is truly 8/8 mil and try to isolate to 8 mil, the software will detect spacing violations (which means it thinks it can't get the 8 mil bit through an 8 mil space). This is partially due to discretization error and can be minimized by selecting 4000 pixels/inch.
 1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory. You should see a list of files in the left column.
 1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers:
    - Top copper 
