@@ -23,11 +23,16 @@ See our [google calendar](https://www.google.com/calendar/embed?src=epl.pdx%40gm
 - [[Torch T200N+ reflow oven|Torch T200N Reflow Oven]]
 - Misc Hand tools, including drill press, saws, etc.
 
+## Procedures
+
+- [[How to make a solder mask|Solder-Masks-for-your-PCB]]
+
 ## Materials / Consumables
 
 - [[Material Costs]]
 - [[Material Properties|Material database]]
 - [[Material / Consumable Sources|Material sources database]]
+
 
 ## Detailed EPL Information
 
