@@ -19,6 +19,7 @@ See our [google calendar](https://www.google.com/calendar/embed?src=epl.pdx%40gm
 - [[Full Spectrum Engineering Laser Pro24x12|lasercutter]]
 - [[LPKF S63 Printed Circuit Board Router|LPKF]]
 - [[AccurateCNC A406 Printed Circuit Board Router|A406]]
+- [[LPKF MiniContact-RS plating tank|LPKF-MiniContac-RS-Plating-Tank]]
 - [[Soldering Equipment|Soldering Equipment]]
 - [[Torch T200N+ reflow oven|Torch T200N Reflow Oven]]
 - Misc Hand tools, including drill press, saws, etc.
