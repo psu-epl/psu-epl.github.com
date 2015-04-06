@@ -142,7 +142,9 @@ Refer to page
 
 * Wait for 15 minutes (there won't be an alarm). Choose "Pause". Carefully take the board out and make sure the sides and holes are being plated correctly. The PCB should look really pretty - kind of Salmon colored, and it should cover everything (edges of the board, holes, and even the flat board itself).
 
-* Choose "Start" to resume the plating, and wait for the rest of the total 90 minutes. 
+* Choose "Start" to resume the plating.
+
+* At the 45 minute marker, the alarm will go off and prompt you to rotate the board. to do this carefully remove the PCB from the tank, flip the holder around and place it back onto the guide pins.
 
 ### Step 8. Finish up.
 
@@ -158,7 +160,7 @@ Refer to page
 
 * Turn off the tank.
 
-* Finally, clean up and organize the mess you made.
+* Finally, clean up and organize the mess you made on the counter with a damp cloth.
 
 ### Step 9. Continue routing your board.
 
