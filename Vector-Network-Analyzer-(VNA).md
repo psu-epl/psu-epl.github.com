@@ -13,8 +13,9 @@
 7. carefully remove the rubber SMA protectors from the VNA and coax cables and place them in a safe spot so they won't get lost.
 8. touch the ends of the coax cables to discharge any built up energy and then screw one end into port one by hand, use the calibrated tension wrench to torque the SMA connector the rest of the way. stop when the tension wrench clicks.
 9. for a 2 port measurement repeat steps 7 and 8 for port 2.
-10. for a 2 port measurement press Display, DUAL|QUAD SETUP, and then DUAL CHAN to turn both ports on. for a single port measurement skip this step.
-11. For best results let the VNA worm up for 30min prior to calibrating.
+10. for a 2 port measurement press Display, DUAL|QUAD SETUP, and then DUAL CHAN to turn both ports on. For a single port measurement skip this step.
+11. For best results let the VNA worm up for 30min prior to calibrating.<br>
+
 ## Calibrating the VNA.
 1. Press the Cal soft key.
 2. press the CAL KIT soft key.
@@ -29,4 +30,4 @@
 11. Press DONE soft key.
 
 ### Full 2 Port Calibration
-
+todo: finish the last 200E6 steps
