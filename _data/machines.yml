@@ -20,5 +20,5 @@
 
   - name: T200N Desktop Solder Oven
     img: torch.jpg
-    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Reflow-Oven-SOP
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
     up: true
