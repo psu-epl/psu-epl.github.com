@@ -133,6 +133,16 @@ Can be purchased online here: http://www.gravostore.com/
 
 ***
 
+# Marker Paper (user for solder paste stencils)
+
+ - Vector Mode
+ - 40% speed
+ - 10% power
+ - 1 pass
+ - 20% vector current
+
+***
+
 # Magazine Paper Solder Mask (3.5mil heavy advertising page)
 
  Pad size shrink 0.22mm
