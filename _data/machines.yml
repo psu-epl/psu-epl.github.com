@@ -1,7 +1,7 @@
   - name: LPKF PCB Router
     img: protomat-s63.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF
-    up: true
+    up: false
 
   - name: A406 PCB Router
     img: A406.jpg
