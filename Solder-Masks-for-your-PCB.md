@@ -1,4 +1,71 @@
-# Giving your Board Solder Mask 
+# Giving your Board Solder Mask
+
+## SOP For ZnO Paste
+
+ - Materials
+    - Circuit Specialties dry film solder mask via eBay
+    - Laminator
+    - ZnO paste UV resist
+    - Degreaser (remember, water sticks to the board when it's clean)
+    - Sodium Carbonate
+    - Glass tray
+    - Toothbrush
+    - Gloves
+
+
+ 1. Turn on laminator to let it warm up about 30 minutes
+
+#### Making Stencils:
+
+ 1. Export just the 
+
+## Work:
+
+ 1. Line up stencil on a small board
+ 1. Spray degreaser on board over the sink and use toothbrush to clean up
+ 1. Rinse well with water
+ 1. Dry off really well
+ 1. _Note: Do the film steps away from floresent lights, in the side room with the lights off if possible_
+ 1. Cut out a section of mask oversize by a few millimeters
+ 1. Place film on board
+    - Take off adhesive (dull side)
+    - Peal off film
+    - lay down without wrinkles
+ 1. Trim off excces
+ 1. Run through laminator twice, once in each directon
+ 1. Chuck the board up
+ 1. line up the stencil
+ 1. lay on loads of ZnO
+ 1. squeegy it down
+ 1. lift stencil
+ 1. place in UV light for about 2:00 minutes
+ 1. Let rest for 5:00 minutes
+
+
+#### Develop
+
+ 1. In a tray mixup 1/4 in of hot water and teaspoon on Na<sub>2</sub>CO<sub>3</sub>
+ 1. Take board out
+ 1. Lift off protective film on top
+ 1. Drop into developer
+ 1. Swirl for a few seconds (it changes color!)
+ 1. Use toothbrush to scrape off uncured parts
+ 1. rinse off everything
+ 1. Inspect under microscope (at this point you can remove some bits by hand)
+
+#### Harden
+
+ 1. Place back in the UV cure for anther 5:00 minutes
+ 1. **DONE!**
+
+#### Clean up
+
+ 1. Dump Na<sub>2</sub>CO<sub>3</sub>
+ 1. Put away materials, make sure film is light sealed
+
+
+## SOP For Inkjet Printer
+
 
 - Materials
    - Circuit Specialties dry film solder mask via eBay
@@ -15,8 +82,7 @@
    - UV System
       - Exposure frame - ? 
       - "Thermal Spa" UV curing for Nails station (off of Amazon)
-   
-### SOP
+
 
 - Turn on the laminator and let it head up.
 - Print to PDF from EAGLE -- mirror top, solid, black, 1:1
