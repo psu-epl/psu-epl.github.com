@@ -43,32 +43,35 @@
 
 ## Generate Toolpath
 
-Most of the options controlling how the board will be milled are set here. 
+Most of the options controlling how the board will be milled are set here.
+
  1. Open **Toolpath > Technology Dialog.**
 
-    
+#### Set **Isolation type**
 
-    More soon, but the important one are:
+controls how much copper will be removed around your features.
 
-    * Isolation type - controls how much copper will be removed around your features. This selection will greatly affect the run time and bit usage of a board. The most economical setting is Basic. Only one channel (typically 8 mil or .2mm) will be cut around each feature. A Basic board will be a bit harder to solder because the single isolation channels are fairly easy to accidentally bridge. The next level, Basic Pads Double, helps some by isolating an extra channel around all flashed apertures. Typically, pads and vias are flashed, which means the places you'll be soldering will have a bit more room around them. The next level, Partial Rubout, will remove copper from the defined rubout regions. This is an expensive operation, so it is typically only used for boards which have RF or galvanic isolation features which the remaining copper would cause a problem. Finally, Full Rubout will remove all extra copper from the board, leaving only your features. Change which isolation type you want by clicking the left and right triangles.
+ - Select **Show Details**.
+    - If your board does not have spacing closer than 8 mil, **un-check the Micro Cutter**
 
-        After selecting the isolation level, select 'Show Details'. If your board does not have spacing closer than 8 mil (.2mm), un-check the Micro Cutter .1mm tool in the tool list. If you don't do this, thousands of superfluous vectors will be generated using that tool, which is not required for your board. If you do have finer spacing, you'll have to leave it enabled and endure a very long run time. The Micro Cutter also wears quickly, so should be avoided if possible. 
+#### Routing Type
 
-    * Routing Type
+ - Select **Show Details**.
+    - Use the **1mm contour router bit**
 
-    This option controls how your board will be separated from the blank. You can choose any style of tabs you like. The option with a single tab in the middle of each edge works well ('Edge Gap'). Change which routing type you want by clicking the left and right triangles.
+#### Extra
 
-    The default cutting tool used to separate the board is a 2mm milling bit. There are at least two good reasons to change this to a 1 mm contour router (it wastes less blank material, and it damages the backing material less). This can be changed by selecting 'Show Details' and choosing the 1mm contour router from the drop down list on the right.
-            
-     Once all your options are set, hit 'start' and the software will calculate the toolpaths. Check the warnings very carefully! Ignore only the warning about pockets. Hit 'close' when all is good. 
+Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 
-     Click on machine view and verify that the color coded tool paths look about right. To see which tool is which, see: Check Tool Magazine below. 
 
-* Check Tool Magazine
+---------------------------------------------------------------------------------------------------------
 
-    Open Edit > Tool Magazine. Under the list of required tools, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine. IMPORTANT: DO NOT CHANGE POSITIONS 1, 2, OR 3. EVER. EVER EVER. 
 
-    In the tool magazine dialog, choose one of the unused (no green check mark or says NONE) slots and use the dropdown menu to select the first tool that you need. Then open the machine cover and carefully remove/replace the tool in that position using the blue tool changing thingy. Repeat as necessary. 
+## Setup Machine To Cut
+
+ 1. Check Tool Magazine
+
+    Open Edit > Tool Magazine. Under the list of required tools, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
 
     Click 'OK'. You shouldn't need to recalculate the toolpaths. 
 
