@@ -1,69 +1,52 @@
 # Using the LPKF S63 Circuit Board Plotter
 
-Steps to produce a PCB:
-* Login to controller PC
-* Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
-* Start the LPKF CircuitPro software
-* Select the job type
+## Before You Start
 
-    For two-sided boards, use DoubleSided_NoTHP.cbf
+ 1. Login to controller PC
+ 1. Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
+ 1. Start the LPKF CircuitPro software
+ 1. Select the job type
+    - Single Sided: `single_sided`
+    - 2 layer (no plating): `double_sided_NoTHP`
+    - 2 layer (platting machine): `double_sided_GalvonicTHP`
 
-* You may have to manually connect the software to the LPKF.
 
-    Choose "Machining | Connect" from the menu. The connection process takes a bit of time.
+-----------------------------------------------------------------------------------------------
 
-* Import Gerber/Excellon data
 
-    * Select "File | Import ..." (or hit Ctrl-I)
-    * Navigate to the folder containing your Gerber and Excellon data. For a two-sided board, you need 4 files:
+## Import Files
 
+ 1. Select **File | Import ...**
+    - Navigate to the folder containing your files. For a two-sided board, you need 4 files:
         * Top Gerber
         * Bottom Gerber
         * Board Outline Gerber
         * Excellon Drill Data
+ 1. **Assign layers**
 
-            The Gerber files should be in RS-274X format, which means that each file contains the aperture list for that file, as opposed to plain RS-274, which requires separate aperture files. All modern PCB design packages can export RS-274X.
+    The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to:
+    - TopLayer
+    - BottomLayer
+    - BoardOutline
+    - DrillUnplated (or DrillPlated if plating)
+ 1. Add **Fiducials** 
 
-    * assign layers
+    Fiducials are holes used to align the blank during processing, typically when the board is flipped to do the second side. You should use three or more fiducials, usually located near the corners of the board.
 
-        The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to TopLayer, BottomLayer, BoardOutline, and DrillUnplated, respectively. DrillUnplated is the Excellon layer. If you have other layers, you can ignore them.
+    1. **Insert | Fiducial | Fiducial...**
+       - Click on the points where you would like the fiducial holes to be.
+       - Choose **close**
 
-    * verify preview
 
-        Click on each layer and make sure the preview looks sane. If your drills are messed up, you'll need to set the import parameters manually.
+---------------------------------------------------------------------------------------------------------
 
-        The Excellon format is ambiguous regarding scale; the software must be told how the data was generated. The options which must be set are:
 
-        * Unit (inches or millimeters)
-        * Values (set to Absolute, not relative)
-        * Leading/Trailing zero supression (Omit Leading/Omit Trailing)
-        * Digits (where the decimal place is implied; this is determined by the output settings of the PCB CAD software)
+## Generate Toolpath
 
-        When these things are set properly, the picture of the board will have holes which appear in the correct places relative to the Gerber drawings.
+Most of the options controlling how the board will be milled are set here. 
+ 1. Open **Toolpath > Technology Dialog.**
 
-        If everything looks sane, hit 'OK'.
-
-* Add **fiducials** 
-
-    Fiducials are holes used to align the blank during processing, typically when the board is flipped to do the second side. You should use three or more fiducials, usually located near the corners of the board. There are two ways to do fiducials:
-
-    * Use existing holes
-
-        To use existing holes, select them by clicking the first one, then shift-clicking the others you wish to use. 3 holes is optimal. They need not be the same size, but they should have a few millimeters of blank board space around them. If this isn't true, then the machine may accidentally select another hole nearby as it's searching for the real fiducial. When all of the desired holes are selected, right-click on one and choose 'Copy objects to layer' and select 'Fiducial'.
-
-        Note: If the hole is larger than the camera's field of view (about .1"), then the LPKF will spend a long time searching for the hole using a spiral search pattern. It will occasionally identify the hole's boundary and find the center, but will typically not choose the center correctly when it finishes. It would be best to use holes that are small enough to fit within the camera's field of view.
-
-        If using existing holes, the 'Drill Fiducial' process step can be skipped (because the holes will already be drilled in the normal drill step.)
-
-    * Add dedicated holes
-
-        To add dedicated fiducial holes, choose Insert | Fiducial | Fiducial... This will invoke a dialog which is modeless - that is, it can be moved out of the way so the artwork is visible. Click on the points where you would like the fiducial holes to be. This is typically just outside of the outer board boundary, but can be anywhere, as long as the fiducial holes don't have other holes nearby (within a few mm.) Use 'close' instead of 'apply'. If you click 'apply' you can remove the fiducial by 'undo' or Ctrl+Z. 
-        
-* Generate Machine Codes (Insulate)
-
-    Open Toolpath > Technology Dialog. 
-
-    Most of the options controlling how the board will be milled are set here. 
+    
 
     More soon, but the important one are:
 
