@@ -127,9 +127,9 @@ Can be purchased online here: http://www.gravostore.com/
 
  - Vector Mode
  - 25% speed
- - 8% power
+ - 10% power
  - 1 pass
- - 21% vector current
+ - 20% vector current
 
 ***
 
