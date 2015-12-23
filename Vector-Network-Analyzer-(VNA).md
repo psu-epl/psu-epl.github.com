@@ -3,9 +3,9 @@
 ## table of contents
 
  * [Setting up the VNA](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-(VNA)#setting-up-the-vna)
- * [calibrating the VNA](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#calibrating-the-vna)
-    * [1-Port Calibration](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#1-port-calibration-reflections)
-    * [2-Port Calibration](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#full-2-port-calibration-reflections-and-transmissions-in-both-directions)
+ * [calibrating the VNA](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-(VNA)#calibrating-the-vna)
+    * [1-Port Calibration](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-(VNA)#1-port-calibration-reflections)
+    * [2-Port Calibration](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-(VNA)#full-2-port-calibration-reflections-and-transmissions-in-both-directions)
 
 ##Setting up the VNA
 
