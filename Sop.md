@@ -8,7 +8,7 @@
  1. Select the job type
     - Single Sided: `single_sided`
     - 2 layer (no plating): `double_sided_NoTHP`
-    - 2 layer (platting machine): `double_sided_GalvonicTHP`
+    - 2 layer (platting machine): `double_sided_GalvonicTHP` (see plating SOP)
 
 
 -----------------------------------------------------------------------------------------------
@@ -116,6 +116,8 @@ This step may not be necessary. If neither the material thickness nor the bit ha
     The Placement dialog will come up but you've already done that too. Hit 'Continue'. 
     You'll be prompted to save. Go ahead, why not. 
     The machine should happily do its thing. 
+
+* If you are plating through holes, the LPKF will drill holes first. Once all holes are drilled the material will be removed and run through the plating tank using [The Plating Tank SOP](https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank). When the plating process is finished re-mount the material with the bottom up and as close to the same position and orientation as when it was removed.
 
 * Check Isolation
 
