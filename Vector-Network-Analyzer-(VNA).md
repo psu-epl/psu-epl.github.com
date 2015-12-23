@@ -1,9 +1,14 @@
 # VNA SOP
 
 ## table of contents
-   *[calibrating the VNA]()
+
+ * [Setting up the VNA](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#setting-up-the-vna)
+ * [calibrating the VNA](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#calibrating-the-vna)
+    * [1-Port Calibration](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#1-port-calibration-reflections)
+    * [2-Port Calibration](https://github.com/psu-epl/psu-epl.github.com/wiki/Vector-Network-Analyzer-%28VNA%29/_edit#full-2-port-calibration-reflections-and-transmissions-in-both-directions)
 
 ##Setting up the VNA
+
 1. ALWAYS ware the grounding strap when using the VNA.
 2. Turn the VNA on.
 3. Set the starting frequency point by pressing the start bottom in the stimulus group than typing in the frequency on the number pad and then the frequency units located on the right side of the number pad (G,M,K,X1(Hz)).
@@ -23,11 +28,30 @@
 4. Press the 3.5mmD 85033D/E soft key
 5. Press the Cal soft key
 6. Press the CALIBRATE MENU soft key
-7. for a 1-port measurement press the S11 1-PORT soft key, for a 2-port measurement do something else.
-8. Attach the Open calibration load to the coax cable on port 1 and torque it down with the tension wrench and then press the OPEN soft key.
-9. replace the open load with the short load and press the SHORT soft key.
-10. replace the short load with the 50 ohm load and press the LOAD soft key.
-11. Press DONE soft key.
 
-### Full 2 Port Calibration
-todo: finish the last 200E6 steps
+### 1-Port Calibration (Reflections)
+1. for a 1-port measurement press the S11 1-PORT soft key.
+2. Attach the Open calibration load to the coax cable on port 1 and torque it down with the calibrated tension wrench while using a second 5/16th inch wrench to hold the calibration load steady. (**IMPORTANT:_Never twist calibration loads and hold the tension wrench at the very end!!! failure to do this can damage the center conductors and ports_**) then press the OPEN soft key.
+3. replace the open load with the short load and press the SHORT soft key.
+4. replace the short load with the 50 ohm load and press the LOAD soft key.
+5. Press DONE soft key.<br>
+You are now ready to take one port measurements.
+If the frequency window or power level ever changes the device must be re calibrated.
+
+### Full 2 Port Calibration (reflections and transmissions in both directions)
+1. press the reflections soft key
+2. Attach the Open calibration load to the coax cable on port 1 and torque it down with the calibrated tension wrench while using a second 5/16th inch wrench to hold the calibration load steady. (**IMPORTANT:_Never twist calibration loads and hold the tension wrench at the very end!!! failure to do this can damage the center conductors and ports_**) then press the OPEN soft key.
+3. replace the open load with the short load and press the SHORT soft key.
+4. replace the short load with the 50 ohm load and press the LOAD soft key.
+5. repeat steps 2-4 on port 2
+6. Press the standards done soft key
+7. press the transmission soft key
+8. attach both coax cables to the female to female connector
+9. press the "Do Both FWD + REV" soft key
+10. Press the standards done soft key
+11. press the isolation soft key
+12. press the Omit Isolation soft key
+13. press the Isolation Done Soft Key
+14.Press the Done 2-Port CAL soft key<br>
+You are now ready to take two port measurements.
+If the frequency window or power level ever changes the device must be re calibrated.
