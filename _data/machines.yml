@@ -1,3 +1,5 @@
+
+circuit:
   - name: LPKF PCB Router
     img: protomat-s63.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF
@@ -8,17 +10,35 @@
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/a406-sop
     up: true
 
+  - name: T200N Desktop Solder Oven
+    img: torch.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
+    up: true
+
+  - name: Plating Tank
+    img: Electroplating_Tank.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank
+    up: true
+
+
+proto:
   - name: Stratasys Mojo 3D Printer
     img: mojo.png
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
     up: true
+
+  - name: Ultimaker2 3D Printer
+    img: ultimaker.jpg
+    sop: https://ultimaker.com/en/support/144-printing
+    up: true
+
+  - name: Lolzbot Taz 5
+    img: TAZ_3D_Printer.jpg
+    sop: https://www.lulzbot.com/support/lulzbot-taz-5
+    up: false
 
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
     up: true
 
-  - name: T200N Desktop Solder Oven
-    img: torch.jpg
-    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
-    up: true
