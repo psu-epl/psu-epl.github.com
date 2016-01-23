@@ -140,6 +140,8 @@ Refer to page
 
 * Choose "Phase 4" and "Change" and set the "Current" to whatever you calculated in the prep phase above. Go back to the Phase 4 manu, and choose "Start".
 
+* Double check in the lower right corner of the screen that the current is actually set to what you want.
+
 * Wait for 15 minutes (there won't be an alarm). Choose "Pause". Carefully take the board out and make sure the sides and holes are being plated correctly. The PCB should look really pretty - kind of Salmon colored, and it should cover everything (edges of the board, holes, and even the flat board itself).
 
 * Choose "Start" to resume the plating.
