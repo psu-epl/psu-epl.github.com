@@ -20,6 +20,10 @@ The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 503-725-2879.
 
 
+## Lab Calendar
+
+{% include calendar.html %}
+
 
 ## Lab Status
 
@@ -51,7 +55,5 @@ It's easy! Here's what you do:
 **For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
 
-### Lab Calendar
 
-{% include calendar.html %}
 
