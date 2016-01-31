@@ -40,5 +40,5 @@ proto:
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
-    up: false
+    up: true
 
