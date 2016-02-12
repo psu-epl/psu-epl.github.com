@@ -7,29 +7,34 @@ title: Portland State University Electronics Prototyping Lab
 ![The EPL](/images/lab_panorama.jpg)
 
 
-## The EPL
+## The Prototyping Lab
 
-The EPL is a lab for rapidly prototyping electronics projects. It is meant for
-students (and eventually community members) to be able to walk in with an idea
-and CAD files, and walk out with a fully functioning piece of electronics in
-an enclosure.
+The L.I.D. is a lab for rapidly prototyping electronics projects. It is meant for
+students and the community to be able to walk in with an idea and walk out with a
+fully functioning prototype.
+
 **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
 
-The PSU EPL is located on the lower level of the PSU Fourth Avenue Building
-(FAB) at 1900 SW 4th Avenue in room FAB 60-10. Our phone number is
+The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
+(FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
 503-725-2879.
 
+
+## Lab Calendar
+
+{% include calendar.html %}
 
 
 ## Lab Status
 
-The lab is currently to all PSU students and staff, and to community members by
-invitation only. 
-
-We are moving to a much larger space in the beginning of the fall 2014 term!
+The lab is currently to all PSU students and staff, and to the greater Portland community members by
+invitation only.
 
 
 ### Lab Equipment
+
+Here is the list of equipment and their current status. Sometimes machines
+break, which will be noted here:
 
 {% include machines.html %}
 
@@ -37,7 +42,7 @@ Read about all of our equipment and policies on our **[wiki](https://github.com/
 
 
 
-## Using the Lab
+## Using the Labs
 
 It's easy! Here's what you do:
 
@@ -50,7 +55,5 @@ It's easy! Here's what you do:
 **For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
 
 
-### Lab Calendar
 
-{% include calendar.html %}
 

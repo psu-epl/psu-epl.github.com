@@ -1,7 +1,7 @@
+<h3>Circuit Board Manufacturing:</h3>
 <div class="machine-list">
-
-    {% for machine in site.data.machines %}
-      <div class="machine {% if machine.up != true %}down{% endif %}">
+    {% for machine in site.data.machines.circuit %}
+      <div class="machine {% if machine.up != true %}down{% else %}up{% endif %}">
        <a href="{{ machine.sop }}">
         <img src="/images/{{ machine.img }}">
         <p>
@@ -10,5 +10,18 @@
       </a>
       </div>
     {% endfor %}
+</div>
 
+<h3>Physical Prototyping:</h3>
+<div class="machine-list">
+    {% for machine in site.data.machines.proto %}
+      <div class="machine {% if machine.up != true %}down{% else %}up{% endif %}">
+       <a href="{{ machine.sop }}">
+        <img src="/images/{{ machine.img }}">
+        <p>
+          {{ machine.name }}
+        </p>
+      </a>
+      </div>
+    {% endfor %}
 </div>
