@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Portland State University Electronics Prototyping Lab
+title: Portland State University Laboratory for Interconnected Devices
 ---
 
 
@@ -25,21 +25,20 @@ The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 {% include calendar.html %}
 
 
-## Lab Status
-
-The lab is currently to all PSU students and staff, and to the greater Portland community members by
-invitation only.
-
-
-### Lab Equipment
+## Lab Equipment
 
 Here is the list of equipment and their current status. Sometimes machines
 break, which will be noted here:
 
 {% include machines.html %}
 
-Read about all of our equipment and policies on our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
+Read about all of our equipment and policies on our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU L.I.D. Wiki")**.
 
+
+## Lab Status
+
+The lab is currently to all PSU students and staff, and to the greater Portland community members by
+invitation only.
 
 
 ## Using the Labs
@@ -47,12 +46,12 @@ Read about all of our equipment and policies on our **[wiki](https://github.com/
 It's easy! Here's what you do:
 
  1. Go to our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "wiki")** and read the instructions on the equipment you want to use.
- 1. Check the calendar (below) for office hours.
- 1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
- 1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility.
+ 2. Check the calendar (below) for office hours.
+ 3. Come to the lab during those office hours and get trained by an L.I.D. manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
+ 4. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an L.I.D. student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. :)
 
 
-**For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU EPL Wiki")**.
+**For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU L.I.D. Wiki")**.
 
 
 
