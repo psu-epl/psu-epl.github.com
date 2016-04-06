@@ -13,7 +13,7 @@ The L.I.D. is a lab for rapidly prototyping electronics projects. It is meant fo
 students and the community to be able to walk in with an idea and walk out with a
 fully functioning prototype.
 
-**[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**.
+<!-- **[Watch an introductory video on the lab](http://youtu.be/P7JFAv6JM00 "YouTube")**. -->
 
 The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 (FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
