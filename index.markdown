@@ -2,7 +2,11 @@
 layout: base
 title: Portland State University Laboratory for Interconnected Devices
 ---
-## The Prototyping Lab
+
+
+<center>The Prototyping Lab</center>
+
+
 
 <p align="center">
   <b>Quick Links:</b><br>
