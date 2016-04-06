@@ -2,12 +2,18 @@
 layout: base
 title: Portland State University Laboratory for Interconnected Devices
 ---
+## The Prototyping Lab
 
+<p align="center">
+  <b>Quick Links:</b><br>
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager">Become a Manager</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber">RF Chamber</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a>
+  <br>
+</p>
 
 ![The L.I.D.](/images/lab_panorama.jpg)
-
-
-## The Prototyping Lab
 
 The L.I.D. is a lab for rapidly prototyping electronics projects. It is meant for
 students and the community to be able to walk in with an idea and walk out with a
@@ -18,14 +24,6 @@ fully functioning prototype.
 The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 (FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
 503-725-2879.
-<p align="center">
-  <b>Quick Links:</b><br>
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager">Become a Manager</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber">RF Chamber</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a>
-  <br><br>
-</p>
 
 ## Lab Calendar
 
