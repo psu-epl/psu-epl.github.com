@@ -4,7 +4,7 @@ title: Portland State University Laboratory for Interconnected Devices
 ---
 
 
-#The Prototyping Lab
+# The Prototyping Lab
 
 ![The L.I.D.](/images/lab_panorama.jpg)
 
@@ -57,7 +57,7 @@ It's easy! Here's what you do:
  1. Go to our **[wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "wiki")** and read the instructions on the equipment you want to use.
  2. Check the calendar (below) for office hours.
  3. Come to the lab during those office hours and get trained by an L.I.D. manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
- 4. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an L.I.D. student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. :)
+ 4. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an L.I.D. student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. Information on how to proceed here: [Becoming a Manager](https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager "Manager Training") :)
 
 
 **For more information, please see the [wiki](https://github.com/psu-epl/psu-epl.github.com/wiki "PSU L.I.D. Wiki")**.
