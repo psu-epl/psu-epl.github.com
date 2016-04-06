@@ -18,10 +18,15 @@ fully functioning prototype.
 The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 (FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
 503-725-2879.
+<p align="center">
+  <b>Quick Links:</b><br>
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager">Become a Manager</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber">RF Chamber</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a>
+  <br><br>
+</p>
 
-->Quick Links<-
-
-->[Become a Manager](https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager)    [RF Chamber](https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber)    [Student Store](https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store)    [Sponsors](https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors)<-
 ## Lab Calendar
 
 {% include calendar.html %}
