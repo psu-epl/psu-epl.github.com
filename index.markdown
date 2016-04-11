@@ -10,7 +10,7 @@ title: Portland State University Laboratory for Interconnected Devices
 
 <p align="center">
   <b>Quick Links:</b><br>
-  [[Workshops]] |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Workshops">Workshops</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber">RF Chamber</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Project-Space">Project Space</a> |
