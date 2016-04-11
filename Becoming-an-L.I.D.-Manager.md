@@ -8,7 +8,7 @@ L.I.D. managers get 24 card key access to the L.I.D., which is fun. However, the
 
 Here's how becoming a manager works:
 
-1. You need to be trained on all of the equipment that's currently being used in the lab. For example, everything but the A406 router as of 2014/06/01.
+1. You need to be trained on all of the equipment that's currently being used in the lab. You will also need to be trained in all of the store operations.  For example, everything but the A406 router as of 2014/06/01.  To review store operations please visit ___provide page link___
 
 2. You need to get 3 current managers to sponsor you to become a manager. They will have to send the L.I.D. administrator (currently Chris) an email saying that they support you becoming a manager.
 
