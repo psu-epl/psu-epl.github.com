@@ -40,7 +40,7 @@ See our [google calendar](https://www.google.com/calendar/embed?src=epl.pdx%40gm
 - [[Info for our illustrious faculty and Staff|PSU-Faculty-and-Staff-FAQs]]
 - The [[administrative roles|epl-roles]] of the lab.
 - [[Lab policies|epl-policies]]
-- [[EPL Safety Protocols|safety-protocols]]
-- [[Some example projects made in the EPL!|example-projects]]
+- [[L.I.D. Safety Protocols|safety-protocols]]
+- [[Some example projects made in the L.I.D.!|example-projects]]
 - [[Things to get]]
 - [[3D Scanning|3Dscanning]]
