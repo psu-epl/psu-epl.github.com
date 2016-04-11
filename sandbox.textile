@@ -1,2 +1,0 @@
-|_. a|_. table|_. header|
-|a|table|row|
