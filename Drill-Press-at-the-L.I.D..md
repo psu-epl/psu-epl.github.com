@@ -1,6 +1,6 @@
 # Drill Press
 
-The EPL has a Central Machinery 10" 12-speed drill
+The L.I.D. has a Central Machinery 10" 12-speed drill
 press. It's a drill press: there's not so much to say
 about it.
 
