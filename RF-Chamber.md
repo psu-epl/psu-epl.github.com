@@ -1,1 +1,1 @@
-This will contain chamber specs and test equipment
+Further testing with graphs will be needed by end of April 16th 2016
