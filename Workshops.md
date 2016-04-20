@@ -10,7 +10,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 * Familiarity with soldering tools
 * Through-hole 
 
-<p align="left">
+<p align="left"><br>
   <a href="https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form">Intermediate</a> |
   <a href="https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form">Advanced</a> 
   <br>
