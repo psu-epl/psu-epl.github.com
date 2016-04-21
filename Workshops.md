@@ -48,7 +48,7 @@ Outcome:
 
 ### Testing:
 
-**[Intro to Circuit Testing](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
+**[Intro to Circuit Testing](https://docs.google.com/a/pdx.edu/forms/d/1fx1uiF50ap_Bx9dQG1hB81Zk0g43SOweIBmC70ACPn0/viewform)**
   
 Cost: Donations Only
 
