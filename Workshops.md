@@ -36,7 +36,7 @@ Objectives:
 
 Outcome:
 
-[](**[Advanced soldering](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)**)
+[](**[Advanced soldering](https://docs.google.com/a/pdx.edu/forms/d/1fx1uiF50ap_Bx9dQG1hB81Zk0g43SOweIBmC70ACPn0/viewform)**)
 **Advanced Soldering** [](comment this or delete when workshop goes live)
 
 Cost: Not Sure Yet
