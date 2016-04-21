@@ -11,6 +11,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 **[Intro to Soldering](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
 
 Cost: $12.00
+
 Objectives:
 * Preparing board for soldering
     * Differences betweeen professional boards and prototype boards
@@ -27,12 +28,14 @@ Objectives:
 **Intermediate Soldering** [](comment this or delete when workshop goes live)
 
 Cost: Not Sure Yet
+
 Objectives:
 
 [](**[Advanced soldering](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)**)
 **Advanced Soldering** [](comment this or delete when workshop goes live)
 
 Cost: Not Sure Yet
+
 Objectives: 
 
 
@@ -41,16 +44,19 @@ Objectives:
 **[Intro to Circuit Testing](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
   
 Cost: Donations Only
+
 Objectives:
 
 [](**[Intermediate Circuit Testing](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
 **Intermediate Circuit Testing** [](comment this or delete when workshop goes live)
 
 Cost: Donations Only
+
 Objectives: 
 
 []([Advanced Circuit Testing](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form))
 **Advanced Circuit Testing** [](comment this or delete when workshop goes live)
 
 Cost: Donations Only
+
 Objectives:
