@@ -27,7 +27,7 @@ Objectives:
 
 Outcome:  You will leave with a working in-line audio amplifier for your speakers or headphones. 
 
-[](**[Intermediate Soldering](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
+[](**[Intermediate Soldering](https://docs.google.com/a/pdx.edu/forms/d/1fx1uiF50ap_Bx9dQG1hB81Zk0g43SOweIBmC70ACPn0/viewform)**)
 **Intermediate Soldering** [](comment this or delete when workshop goes live)
 
 Cost: Not Sure Yet
