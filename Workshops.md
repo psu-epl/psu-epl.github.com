@@ -71,14 +71,14 @@ Objectives:
 Outcome:  You will understand the measurements you can take and how they are useful.  You will also know why some measurements are informative but may be flawed.  
 
 
-[](**[Intermediate Circuit Testing](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
+[](**[Intermediate Circuit Testing](https://docs.google.com/a/pdx.edu/forms/d/1yalsAhJ_5NpEb8k0pBzpTgqrTmSvf1QCjOPLnOq_lWk/viewform)**)
 **Intermediate Circuit Testing** [](comment this or delete when workshop goes live)
 
 Cost: Donations Only
 
 Objectives: 
 
-[]([Advanced Circuit Testing](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form))
+[]([Advanced Circuit Testing](https://docs.google.com/a/pdx.edu/forms/d/1yalsAhJ_5NpEb8k0pBzpTgqrTmSvf1QCjOPLnOq_lWk/viewform))
 **Advanced Circuit Testing** [](comment this or delete when workshop goes live)
 
 Cost: Donations Only
