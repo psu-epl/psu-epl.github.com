@@ -23,6 +23,7 @@ Objectives:
 * When and when not to use Flux
 * Properly cleaning board using Ultrasonic Cleaner
 * Checking board for shorted traces
+* Properly taking care of your soldering tools.  
 
 [](**[Intermediate Soldering](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
 **Intermediate Soldering** [](comment this or delete when workshop goes live)
@@ -39,13 +40,28 @@ Cost: Not Sure Yet
 Objectives: 
 
 
-### Testing
+### Testing:
 
 **[Intro to Circuit Testing](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
   
 Cost: Donations Only
 
 Objectives:
+
+* Learn how to use:
+    * Function Generator
+    * DMM
+    * Oscilloscope
+    * Power Supply
+* Using these Devices you will learn about:
+    * Differential measurements
+    * Continuity
+    * Diode Test
+    * Impedance
+    * XY Mode
+    * FFT Spectrum
+* Circuits will be provided for this lab and instructor will give detailed instructions on how and where to take measurements.  
+
 
 [](**[Intermediate Circuit Testing](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
 **Intermediate Circuit Testing** [](comment this or delete when workshop goes live)
