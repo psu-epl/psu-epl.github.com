@@ -1,6 +1,6 @@
-# Electronics Prototyping Lab
+# Lab for Interconnected Devices
 
-At the _Center For Interconnected Devices_ at Portland State University.
+At the _Lab for Interconnected Devices_ at Portland State University.
 
 ## [psu-epl.github.io](http://psu-epl.github.io)
 
