@@ -20,12 +20,17 @@ To sign up please click the link for the workshop you are looking for and fill o
 * Properly cleaning board using Ultrasonic Cleaner
 * Checking board for shorted traces
 
-<p align="left">
-  <a href="https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form">Intermediate Soldering</a> </p>
+[Intermediate Soldering](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)
 
-<p align="left">
-  <a href="https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form">Advanced Soldering</a> </p>
-  
+<b>Cost:</b> Not Sure Yet
+
+<b>Objectives:</b>
+
+[Advanced soldering](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)
+
+<b>Cost:</b> Not Sure Yet
+
+<b>Objectives:</b> 
 
 
 <p align="left">
