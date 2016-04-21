@@ -6,6 +6,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 [Intro to Soldering](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)
 
+<b>Cost:</b> $12.00
 <b>Objectives:</b>
 * Preparing board for soldering
     * Differences betweeen professional boards and prototype boards
