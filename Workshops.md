@@ -25,6 +25,8 @@ Objectives:
 * Checking board for shorted traces
 * Properly taking care of your soldering tools.  
 
+Outcome:  You will leave with a working in-line audio amplifier for your speakers or headphones. 
+
 [](**[Intermediate Soldering](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
 **Intermediate Soldering** [](comment this or delete when workshop goes live)
 
@@ -32,12 +34,16 @@ Cost: Not Sure Yet
 
 Objectives:
 
+Outcome:
+
 [](**[Advanced soldering](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)**)
 **Advanced Soldering** [](comment this or delete when workshop goes live)
 
 Cost: Not Sure Yet
 
 Objectives: 
+
+Outcome:
 
 
 ### Testing:
@@ -61,6 +67,8 @@ Objectives:
     * XY Mode
     * FFT Spectrum
 * Circuits will be provided for this lab and instructor will give detailed instructions on how and where to take measurements.  
+
+Outcome:  You will understand the measurements you can take and how they are useful.  You will also know why some measurements are informative but may be flawed.  
 
 
 [](**[Intermediate Circuit Testing](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
