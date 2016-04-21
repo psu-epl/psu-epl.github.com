@@ -12,6 +12,7 @@ To sign up please click the link for the workshop you are looking for and fill o
     * Preliminary board check
 * Soldering with Through-hole components
 * Soldering with Surface Mount components (0805)
+* Wire to Board Soldering
 * Desoldering using Solder-Wick
 * When and when not to use Flux
 * Properly cleaning board using Ultrasonic Cleaner
