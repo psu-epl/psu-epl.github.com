@@ -1,14 +1,18 @@
+[](To make any links live follow this formatting:
+["Title of Link"](Link)
+)
+
 To sign up please click the link for the workshop you are looking for and fill out the form.  Each workshop is capped at 10 participants.  So it is first come first serve.  Meeting locations will be emailed out to the email you chose in the form 2 days before the workshop and then the day before the workshops.  All workshops will be hosted on Saturdays and will be either in the Fourth Avenue Building (1900 SW 4th Ave) or the Engineering Building (1930 SW 4th Ave).  Any further questions please email <lid@pdx.edu>
 
 ## Hard Skills
 
 ### Soldering:
 
-[Intro to Soldering](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)
+**[Intro to Soldering](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
 
-<b>Cost:</b> $12.00
+Cost: $12.00
 
-<b>Objectives:</b>
+Objectives:
 * Preparing board for soldering
     * Differences betweeen professional boards and prototype boards
     * Preliminary board check
@@ -20,35 +24,39 @@ To sign up please click the link for the workshop you are looking for and fill o
 * Properly cleaning board using Ultrasonic Cleaner
 * Checking board for shorted traces
 
-[Intermediate Soldering](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)
+[](**[Intermediate Soldering](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
+**Intermediate Soldering** [](comment this or delete when workshop goes live)
 
-<b>Cost:</b> Not Sure Yet
+Cost: Not Sure Yet
 
-<b>Objectives:</b>
+Objectives:
 
-[Advanced soldering](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)
+[](**[Advanced soldering](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)**)
+**Advanced Soldering** [](comment this or delete when workshop goes live)
 
-<b>Cost:</b> Not Sure Yet
+Cost: Not Sure Yet
 
-<b>Objectives:</b> 
+Objectives: 
 
 
 ### Testing
 
-[Intro to Circuit Testing](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)
+**[Intro to Circuit Testing](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
   
-<b>Cost:</b> Donations Only
+Cost: Donations Only
 
-<b>Objectives:</b> 
+Objectives:
 
-[Intermediate Circuit Testing](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)
+[](**[Intermediate Circuit Testing](https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form)**)
+**Intermediate Circuit Testing** [](comment this or delete when workshop goes live)
 
-<b>Cost:</b> Donations Only
+Cost: Donations Only
 
-<b>Objectives:</b> 
+Objectives: 
 
-[Advanced Circuit Testing](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form)
+[]([Advanced Circuit Testing](https://docs.google.com/forms/d/1F2Vi0Zanwu-Xg0Rop456lxvzkojYpnrLrhOLsyCfVls/viewform?usp=send_form))
+**Advanced Circuit Testing** [](comment this or delete when workshop goes live)
 
-<b>Cost:</b> Donations Only
+Cost: Donations Only
 
-<b>Objectives:</b> 
+Objectives:
