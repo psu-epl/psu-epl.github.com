@@ -2,13 +2,19 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 ## Hard Skills
 
-<b>Soldering:</b>
-<p align="left">
-  <a href="https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form">Intro to Soldering</a> </p>
+### Soldering:
 
-###Objectives:
-*Familiarity with soldering tools
-*Through-hole 
+[Intro to Soldering](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)
+<b>Objectives:</b>
+* Preparing board for soldering
+    * Differences betweeen professional boards and prototype boards
+    * Preliminary board check
+* Soldering with Through-hole components
+* Soldering with Surface Mount components (0805)
+* Desoldering using Solder-Wick
+* When and when not to use Flux
+* Properly cleaning board using Ultrasonic Cleaner
+* Checking board for shorted traces
 
 <p align="left">
   <a href="https://docs.google.com/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform?usp=send_form">Intermediate Soldering</a> </p>
