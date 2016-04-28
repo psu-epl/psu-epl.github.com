@@ -8,7 +8,7 @@ circuit:
   - name: A406 PCB Router
     img: A406.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/a406-sop
-    up: false
+    up: true
 
   - name: T200N Desktop Solder Oven
     img: torch.jpg
