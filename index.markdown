@@ -32,7 +32,7 @@ The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 
 ## Lab Calendar
 
-{% include calendar.html %}
+{% include calendar_lab.html %}
 
 
 ## Lab Equipment
