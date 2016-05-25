@@ -6,6 +6,38 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 ## Hard Skills
 
+###Software: 
+
+[](**[Intermediate Circuit Testing](https://docs.google.com/a/pdx.edu/forms/d/1yalsAhJ_5NpEb8k0pBzpTgqrTmSvf1QCjOPLnOq_lWk/viewform)**)
+**Intermediate Circuit Testing** [](comment this or delete when workshop goes live)
+
+Cost: Donations Only
+
+Objectives: 
+
+[]([Intro to KiCAD](https://docs.google.com/a/pdx.edu/forms/d/1NqQocyWuhxk0pj_jTsWhFvMnmeMwicBxHlcDnYSgR-E/viewform))
+
+*Cost: Donations Only
+
+Objectives:
+*Introduction to Schematics and PCBs
+*How to start a new project
+*How to make a new schematic
+*Drawing a schematic
+*Organizing the schematic parts libraries
+*Adding a new component to the schematics part library
+*Checking the schematic
+*Assigning footprints
+*Footprint library organization and management
+*Adding a new footprint to the libraries
+*Generating a new PCB board design
+*Placement of parts
+*Simple routing of traces
+*Checking the PCB design
+*Generating output files for production
+
+
+
 ### Soldering:
 
 **[Intro to Soldering](https://docs.google.com/forms/d/1IS-XLif4VmlFMcx-erP73_9ocsrlIxmJXUkPCWGgzTQ/viewform?usp=send_form)**
