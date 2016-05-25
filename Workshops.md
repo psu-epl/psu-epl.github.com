@@ -2,7 +2,6 @@
 ["Title of Link"](Link)
 )
 ## Workshop Schedule:
-
 {% include calendar_labws.html %}
 
 
