@@ -8,7 +8,7 @@ circuit:
   - name: A406 PCB Router
     img: A406.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/a406-sop
-    up: false
+    up: true
 
   - name: T200N Desktop Solder Oven
     img: torch.jpg
@@ -30,7 +30,7 @@ proto:
   - name: Ultimaker2 3D Printer
     img: ultimaker.jpg
     sop: https://ultimaker.com/en/support/144-printing
-    up: false
+    up: true
 
   - name: Lolzbot Taz 5
     img: TAZ_3D_Printer.jpg
