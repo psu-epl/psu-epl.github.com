@@ -12,6 +12,20 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 ### Software:
 
+#### 2D Cad Software:
+
+**Intro to Altium**
+
+-Coming Soon (Summer 2016)
+
+**Intermediate Altium**
+
+-Coming Soon (Fall 2016)
+
+**Advanced Altium**
+
+-Coming Soon (Fall 2016)
+
 **[Intro to KiCAD](https://docs.google.com/a/pdx.edu/forms/d/1NqQocyWuhxk0pj_jTsWhFvMnmeMwicBxHlcDnYSgR-E/viewform)**
 
 Cost: Donations only 
@@ -34,6 +48,41 @@ Objectives:
 * Generating output files for production
 
 Outcome:  Files ready to be printed on any of the two PCB router machines. 
+
+**Intermediate Ki-Cad
+
+-Coming Soon (End of Summer 2016)
+
+**Advanced Ki-Cad
+
+-Coming Soon (Fall 2016)
+
+#### 3D Cad Software:
+
+**Intro to Solidworks**
+
+-Coming Soon (Summer 2016)
+
+**Intermediate Solidworks**
+
+-Coming Soon (End of Summer 2016)
+
+**Advanced Solidworks**
+
+-Coming Soon (Fall 2016)
+
+**Intro to OnShape**
+
+-Coming Soon (Summer 2016)
+
+**Intermediate OnShape**
+
+-Coming Soon (Fall 2016)
+
+**Advanced OnShape**
+
+-Coming Soon (End of Fall 2016)
+
 
 ### Soldering:
 
