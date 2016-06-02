@@ -49,11 +49,11 @@ Objectives:
 
 Outcome:  Files ready to be printed on any of the two PCB router machines. 
 
-**Intermediate Ki-Cad
+**Intermediate Ki-Cad**
 
 -Coming Soon (End of Summer 2016)
 
-**Advanced Ki-Cad
+**Advanced Ki-Cad**
 
 -Coming Soon (Fall 2016)
 
