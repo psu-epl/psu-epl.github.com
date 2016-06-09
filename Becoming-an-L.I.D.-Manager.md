@@ -16,4 +16,4 @@ Here's how becoming a manager works:
 
 4. Finally, once all this happens, the admin will meet with you and go over becoming a manager (takes about an hour).
 
-5. After 6 months you can apply to become a paid manager.  The instructions to do this are here:  
+5. After 6 months you can apply to become a paid manager.  The instructions to do this are here: [Getting Paid](https://github.com/psu-epl/epl-managers-private/wiki/Getting-paid-as-a-Student-Manager) 
