@@ -18,7 +18,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 |Software |                                                         Intro                                                         | Intermediate |  Advanced  |
 |:---------------:|:---------------------------------------------------------------------------------------------------------------------:|:------------:|:----------:|
-| KiCAD | **[Intro to KiCAD](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)** |   Fall 2016  | Fall 2016  |
+| KiCAD | **[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)** |   Fall 2016  | Fall 2016  |
 | EagleCAD | Fall 2016 |  Fall 2016   | Fall 2016  |
 | Altium   | Fall 2016 |  Fall 2016   | Fall 2016  |
 
@@ -41,7 +41,10 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 |                 |    Intro    | Intermediate |  Advanced  |
 |:---------------:|:-----------:|:------------:|:----------:|
-| Circuit Testing | **[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intro)** |   Fall 2016  | Fall 2016  |
+| Circuit Testing | **[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intro)** |**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intermediate-coming-fall-2016)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#advanced-coming-fall-2016)**|
+
+
+
 
 
 
