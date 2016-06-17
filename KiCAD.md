@@ -20,3 +20,11 @@ Objectives:
 * Generating output files for production
 
 Outcome:  Files ready to be printed on any of the two PCB router machines. 
+
+#### Intermediate KiCAD 
+
+Coming Fall 2016
+
+#### Advanced KiCAD 
+
+Coming Fall 2016 
