@@ -20,4 +20,3 @@ Outcome:  You will leave with a working in-line audio amplifier for your speaker
 [](**[Intermediate Soldering](https://docs.google.com/a/pdx.edu/forms/d/1OJ-QdR-m-IoBkpHX8NEEv9BMLgh1l4CMEo0rQkFKDXY/viewform)**)
 **Intermediate Soldering** [](comment this or delete when workshop goes live)
 
-Cost: Not Sure Yet
