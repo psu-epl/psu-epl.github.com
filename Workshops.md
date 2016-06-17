@@ -18,8 +18,8 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 |Software |                                                         Intro                                                         | Intermediate |  Advanced  |
 |:---------------:|:---------------------------------------------------------------------------------------------------------------------:|:------------:|:----------:|
-| KiCAD | **[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)** |   Fall 2016  | Fall 2016  |
-| EagleCAD | Fall 2016 |  Fall 2016   | Fall 2016  |
+| KiCAD |**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD#intermediate-kicad)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD#advanced-kicad)**|
+| EagleCAD |**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intro)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intermediate)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#advanced)**|
 | Altium   | Fall 2016 |  Fall 2016   | Fall 2016  |
 
 
@@ -43,12 +43,5 @@ To sign up please click the link for the workshop you are looking for and fill o
 |:---------------:|:-----------:|:------------:|:----------:|
 | Circuit Testing | **[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intro)** |**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intermediate-coming-fall-2016)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#advanced-coming-fall-2016)**|
 
-
-
-**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intro6)**
-
-**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intermediate-coming-fall-2016)**
-
-**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#advanced-coming-fall-2016)**
 
 
