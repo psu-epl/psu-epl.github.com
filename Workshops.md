@@ -27,8 +27,8 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 |   Software  |    Intro    | Intermediate |      Advanced     |
 |:-----------:|:-----------:|:------------:|:-----------------:|
-| Solidworks  | Summer 2016 |   Fall 2016  |     Fall 2016     |
-|   Onshape   | Summer 2016 |  Fall 2016   | End of Fall 2016  |
+| Solidworks  |**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intro6)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intermediate-coming-fall-2016)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#advanced-coming-fall-2016)**|
+|   Onshape   |**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Onshape-Workshop#intro-summer-2016)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Onshape-Workshop#intermediate-coming-fall-2016)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Onshape-Workshop#advanced-coming-end-of-fall-2016)**|
 
 
 #### Soldering:
@@ -45,10 +45,10 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 
 
-**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intro)**
+**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intro6)**
 
-**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intermediate-soldering)**
+**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intermediate-coming-fall-2016)**
 
-**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#advanced-soldering)**
+**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#advanced-coming-fall-2016)**
 
 
