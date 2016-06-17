@@ -1,11 +1,11 @@
-#### Intro to Eagle CAD
+#### Intro
 
 Coming Fall 2016
 
-#### Intermediate Eagle CAD 
+#### Intermediate 
 
 Coming Fall 2016 
 
-#### Advanced Eagle CAD
+#### Advanced 
 
 Coming end of Fall 2016 
