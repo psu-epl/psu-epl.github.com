@@ -41,7 +41,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 |                 |    Intro    | Intermediate |  Advanced  |
 |:---------------:|:-----------:|:------------:|:----------:|
-| Circuit Testing | Summer 2016 |   Fall 2016  | Fall 2016  |
+| Circuit Testing | **[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intro)** |   Fall 2016  | Fall 2016  |
 
 
 
