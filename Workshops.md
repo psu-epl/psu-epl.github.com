@@ -12,14 +12,15 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 ### Software:
 
-### 2D CAD 
+#### 2D CAD 
 
 
 
 |Software |                                                         Intro                                                         | Intermediate |  Advanced  |
 |:---------------:|:---------------------------------------------------------------------------------------------------------------------:|:------------:|:----------:|
-|      KiCAD      | **[Intro to KiCAD](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)** |   Fall 2016  | Fall 2016  |
-|    EagleCAD     |                                                       Fall 2016                                                       |  Fall 2016   | Fall 2016  |
+| KiCAD | **[Intro to KiCAD](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)** |   Fall 2016  | Fall 2016  |
+| EagleCAD | Fall 2016 |  Fall 2016   | Fall 2016  |
+| Altium   | Fall 2016 |  Fall 2016   | Fall 2016  |
 
 
 #### 3D Cad Software:
@@ -30,13 +31,13 @@ To sign up please click the link for the workshop you are looking for and fill o
 |   Onshape   | Summer 2016 |  Fall 2016   | End of Fall 2016  |
 
 
-### Soldering:
+#### Soldering:
 
 |           |    Intro    | Intermediate |  Advanced  |
 |:---------:|:-----------:|:------------:|:----------:|
 | Soldering | Summer 2016 |   Fall 2016  | Fall 2016  |
 
-### Testing:
+#### Testing:
 
 |                 |    Intro    | Intermediate |  Advanced  |
 |:---------------:|:-----------:|:------------:|:----------:|
