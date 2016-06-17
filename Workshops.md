@@ -12,9 +12,11 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 ### Software:
 
+### 2D CAD 
 
 
-| 2D CAD Software |                                                         Intro                                                         | Intermediate |  Advanced  |
+
+|Software |                                                         Intro                                                         | Intermediate |  Advanced  |
 |:---------------:|:---------------------------------------------------------------------------------------------------------------------:|:------------:|:----------:|
 |      KiCAD      | **[Intro to KiCAD](https://docs.google.com/a/pdx.edu/forms/d/1NqQocyWuhxk0pj_jTsWhFvMnmeMwicBxHlcDnYSgR-E/viewform)** |   Fall 2016  | Fall 2016  |
 |    EagleCAD     |                                                       Fall 2016                                                       |  Fall 2016   | Fall 2016  |
