@@ -12,19 +12,13 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 ### Software:
 
-#### 2D Cad Software:
 
-**Intro to Altium**
 
--Coming Soon (Summer 2016)
+| 2D CAD Software |                                                         Intro                                                         | Intermediate |  Advanced  |
+|:---------------:|:---------------------------------------------------------------------------------------------------------------------:|:------------:|:----------:|
+|      KiCAD      | **[Intro to KiCAD](https://docs.google.com/a/pdx.edu/forms/d/1NqQocyWuhxk0pj_jTsWhFvMnmeMwicBxHlcDnYSgR-E/viewform)** |   Fall 2016  | Fall 2016  |
+|    EagleCAD     |                                                       Fall 2016                                                       |  Fall 2016   | Fall 2016  |
 
-**Intermediate Altium**
-
--Coming Soon (Fall 2016)
-
-**Advanced Altium**
-
--Coming Soon (Fall 2016)
 
 **[Intro to KiCAD](https://docs.google.com/a/pdx.edu/forms/d/1NqQocyWuhxk0pj_jTsWhFvMnmeMwicBxHlcDnYSgR-E/viewform)**
 
@@ -49,13 +43,6 @@ Objectives:
 
 Outcome:  Files ready to be printed on any of the two PCB router machines. 
 
-**Intermediate Ki-Cad**
-
--Coming Soon (End of Summer 2016)
-
-**Advanced Ki-Cad**
-
--Coming Soon (Fall 2016)
 
 #### 3D Cad Software:
 
