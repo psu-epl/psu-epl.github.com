@@ -35,7 +35,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 |           |    Intro    | Intermediate |  Advanced  |
 |:---------:|:-----------:|:------------:|:----------:|
-| Soldering | Summer 2016 |   Fall 2016  | Fall 2016  |
+| Soldering |**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intro)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intermediate-soldering)**|**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#advanced-soldering)**|
 
 #### Testing:
 
@@ -45,8 +45,10 @@ To sign up please click the link for the workshop you are looking for and fill o
 
 
 
+**[Summer 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intro)**
 
+**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intermediate-soldering)**
 
-
+**[Fall 2016](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#advanced-soldering)**
 
 
