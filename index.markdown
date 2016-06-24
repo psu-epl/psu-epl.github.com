@@ -30,6 +30,8 @@ The L.I.D. is located on the lower level of the PSU Fourth Avenue Building
 (FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. Our phone number is
 503-725-2879.
 
+If you would like to donate to the lab to help us further our antics and growth please follow this link (As a note we are a 501c3 and your donation is tax deductible!!): **[Donate Here](https://cconn.foundation.pdx.edu/ccon/new_gift.do?action=newGift&giving_page_id=240)**
+
 ## Lab Calendar
 
 {% include calendar_lab.html %}
