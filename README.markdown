@@ -9,9 +9,6 @@ For in depth documentation and discussion use the wiki:
 
 ## [Wiki](https://github.com/psu-epl/psu-epl.github.com/wiki).
 
-Paying for a part? User our [credit card system](https://github.com/psu-epl/psu-epl.github.com/wiki/Checkout):
-
-## [commerce.cashnet.com/ecei](https://commerce.cashnet.com/ecei)
 
 ### How to update the site:
 
