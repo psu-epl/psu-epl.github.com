@@ -1,6 +1,9 @@
 # Money for materials? #
 ## Soldering Station ##
-- $1.00 per table per day (means you pay $1.00 to use all tools on a given table for the day)
+- $1.00 per day
+
+## Reflow Oven ##
+- $2.50 per job / includes solder paste 
 
 ## Mojo/3D Printer ##
 - $6.00 per cubic inch for all material
@@ -10,7 +13,7 @@
 - Glow in the Dark Filament - $2.00 per meter
 - Carbon Fiber embedded Filament - $3.00 per meter
 
-## Circuit Board Router ##
+## Circuit Board Routers ##
 - $5.00 per job for either router plus cost of materials
 
 ## Laser Cutter ##
