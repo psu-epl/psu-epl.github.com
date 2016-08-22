@@ -31,7 +31,7 @@ See our [google calendar](https://www.google.com/calendar/embed?src=epl.pdx%40gm
 
 ## Materials / Consumables
 
-- [[Material Costs]]
+- [[Material Costs|Material Prices]]
 - [[Material Properties|Material database]]
 - [[Material / Consumable Sources|Material sources database]]
 
