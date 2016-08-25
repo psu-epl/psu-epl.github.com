@@ -35,7 +35,7 @@ proto:
   - name: Lolzbot Taz 5
     img: TAZ_3D_Printer.jpg
     sop: https://www.lulzbot.com/support/lulzbot-taz-5
-    up: false 
+    up: true 
 
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.jpg
