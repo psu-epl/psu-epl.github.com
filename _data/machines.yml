@@ -18,14 +18,14 @@ circuit:
   - name: Plating Tank
     img: Electroplating_Tank.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank
-    up: false
+    up: true
 
 
 proto:
   - name: Stratasys Mojo 3D Printer
     img: mojo.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
-    up: false
+    up: true
 
   - name: Ultimaker2 3D Printer
     img: ultimaker.jpg
