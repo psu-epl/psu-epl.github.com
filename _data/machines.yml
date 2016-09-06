@@ -13,7 +13,7 @@ circuit:
   - name: T200N Desktop Solder Oven
     img: torch.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
-    up: false
+    up: true
 
   - name: Plating Tank
     img: Electroplating_Tank.jpg
