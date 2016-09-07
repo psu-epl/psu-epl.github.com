@@ -9,7 +9,7 @@ Note that you MUST ask Think and Tinker to "ring" these bits for the A406.
 Notes:
 
 - New Tools can be added from ATC Control Panel in CNC mode.  Global/Default settings can be set in CAM mode under "Setup."
-- Link:[Tutorial]<http://precisebits.com/tutorials/pcb_mech_etch.htm>[Tutorial]
+- [Tutorial]http://precisebits.com/tutorials/pcb_mech_etch.htm
 - V-Tip Max Plunge rate is 25 IPM  
 
 
