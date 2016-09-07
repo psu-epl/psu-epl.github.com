@@ -4,6 +4,12 @@ Materials needed for the **AccurateCNC A406 PCB router**.
 
 Note that you MUST ask Think and Tinker to "ring" these bits for the A406.
 
+# Tool Settings
+
+New Tools can be added from ATC Control Panel in CNC mode.  Global/Default settings can be set in CAM mode under "Setup."
+Note: V-Tip Max Plunge rate is 25 IPM  
+
+
 ## Drills
 
 Notes:
