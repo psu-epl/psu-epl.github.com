@@ -1,7 +1,7 @@
 To all of our sponsors:  Thank you!!!! 
 ***  
 <div class="floated_img"> 
-<a href="https://www.microsoft.com/en-us/"><img src="http://www.rcsglobal.com/wp-content/uploads/2015/02/Microsoft-Logo.jpg" height="95" width="319" ></a></div>
+<a href="https://www.microsoft.com/en-us/"><img src="http://www.rcsglobal.com/wp-content/uploads/2015/02/Microsoft-Logo.jpg" height="95" width="319" ></a></div>  
 <div class="floated_img">
 <a href="http://www.hakko.com"><img src="http://www.hakko.com.sg/wp-content/themes/hakko/img/logo.jpg" height="67" width="319" ></a></div>  
 <div class="floated_img"> 
