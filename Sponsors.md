@@ -9,4 +9,17 @@ To all of our sponsors:
 <div class="floated_img"> 
 <a href="http://www.jaguarlandrover.com/gl/en/"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQeFFUk0BKhqo6WFu9Fdq3aG00eYqmXDC-RgZscEjMrbfAWy_ppxg" height="216" width="319"></a></div>  
 
-***
+***  
+
+Groups that we sponsor:  
+
+***  
+<a href="http://www.hardwaremassive.com"><img src="https://hardwaremassive.com/sites/default/files/site_branding/header_logo/hardwaremassive_header_logo.svg" height="90" width="319"></a>  
+
+<a href="http://www.pdxmakers.com"><img src="http://www.pdxmakers.com/images/pdxmakersLogo_header_short.png"></a>(PDX Makers)  
+
+<a href="http://www.pdxmakerweek.com"><img src="http://photos1.meetupstatic.com/photos/event/5/4/7/f/600_453441631.jpeg"></a>  
+ 
+
+
+#[ThingPDX](http://www.meetup.com/ThingPDX/)
