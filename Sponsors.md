@@ -1,4 +1,6 @@
-To all of our sponsors:  Thank you!!!! 
+To all of our sponsors:  
+
+#Thank you!!!! 
 ***  
 <div class="floated_img"> 
 <a href="https://www.microsoft.com/en-us/"><img src="http://www.rcsglobal.com/wp-content/uploads/2015/02/Microsoft-Logo.jpg" align=height="95" width="319" ></a></div>  
