@@ -8,7 +8,8 @@ To all of our sponsors:
 
 <a href="http://www.hakko.com"><img src="http://www.hakko.com.sg/wp-content/themes/hakko/img/logo.jpg" align="middle" height="135" width="640" ></a>  
 <br><br>
-<a href="http://www.jaguarlandrover.com/gl/en/"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQeFFUk0BKhqo6WFu9Fdq3aG00eYqmXDC-RgZscEjMrbfAWy_ppxg" align="middle" height="432" width="640"></a>  # ### ## # 
+
+<a href="http://www.jaguarlandrover.com/gl/en/"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQeFFUk0BKhqo6WFu9Fdq3aG00eYqmXDC-RgZscEjMrbfAWy_ppxg" align="middle" height="432" width="640"></a>
 <br><br>
 ***  
 <br><br><br><br>
