@@ -43,5 +43,4 @@ See our [google calendar](https://www.google.com/calendar/embed?src=epl.pdx%40gm
 - [[Lab policies|epl-policies]]
 - [[L.I.D. Safety Protocols|safety-protocols]]
 - [[Some example projects made in the L.I.D.!|example-projects]]
-- [[Things to get]]
 - [[3D Scanning|3Dscanning]]
