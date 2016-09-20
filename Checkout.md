@@ -6,7 +6,7 @@ the end of your work for the day so you can pay for everything all at once.
 
 To pay, point a web browser at:
 
-
+[Check-Out] (http://commerce.cashnet.com/ecei). 
 
 Which will list all of the items we charge for.
 
