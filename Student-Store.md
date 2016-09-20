@@ -1,3 +1,5 @@
+Would you like to [[Checkout]]
+
 All of our store stuff is needed:
 
 *Parts Lists
