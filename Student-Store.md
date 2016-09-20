@@ -1,9 +1,8 @@
-Would you like to [[Checkout]]
+Do you just need to pay for your stuff?  Go to [[Checkout]]
 
-All of our store stuff is needed:
+General Prices:
 
 *Parts Lists
 *uProcessor Lists
-*Link to Cashnet
 *Link to Store Operations (Manager's Only)
 *Link to Locker Database (View Only)
