@@ -7,7 +7,7 @@ General Prices:
 
 
 
-*Parts Lists
-*uProcessor Lists
-*Link to Store Operations (Manager's Only)
-*Link to Locker Database (View Only)
+* Parts Lists
+* uProcessor Lists
+* Link to Store Operations (Manager's Only)
+* Link to Locker Database (View Only)
