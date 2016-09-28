@@ -1,1 +1,7 @@
-Further testing with graphs will be needed by end of April 16th 2016
+# Specifications:
+
+# Images:
+
+# Equipment:
+
+# Prices:
