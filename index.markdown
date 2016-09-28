@@ -12,10 +12,10 @@ title: Portland State University Laboratory for Interconnected Devices
   <b>Quick Links:</b><br>
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Workshops">Workshops</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber">RF Chamber</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store and Lockers </a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Project-Space">Project Space</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager">Become a Manager</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Locker-Database">Locker Database</a> |
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/3D-Printers">3D print your Part</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a> |
   <a href="https://github.com/psu-epl/epl-managers-private/wiki">Managers Only</a> 
   <br>
