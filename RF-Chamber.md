@@ -1,4 +1,4 @@
-The RF Chamber is located on the 4th floor of the Engineering Building at PSU (1930 SW 4th Ave.) in room . Here we can help take preliminary measurements before official emc tests are made, measure radiation pattern of antennas, and make acoustic measurement. 
+The RF Chamber is located on the 4th floor of the Engineering Building at PSU (1930 SW 4th Ave.) in room . Here we can help take preliminary measurements before official emc tests are made, measure radiation pattern of antennas, and make acoustic measurements. 
 
 ## Specifications:
 Room Size: 18' X 14' X 8' ()
