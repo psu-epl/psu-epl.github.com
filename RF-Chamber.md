@@ -25,11 +25,14 @@ Personal project/Commercial project: $15/hr
 ## Booking:
 Booking is done through email. Please email email.address@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
 
+
 Please format the subject line of your request email like this: Request: Your Name - Project Name
+
 Please format the subject line of general questions like this: Question: Your Name - Short description of question
 
 
 Requests made less than three days in advance can only request time after M/W/F 12:30PM to 7:00PM, T/Tr 12:30PM to 4:00PM.
+
 Requests made with three or more days in advance can request time M/W/F 9:00AM to 7:00PM, T/Tr 9:00AM to 4:00PM.
 
 
