@@ -16,7 +16,8 @@ title: Portland State University Laboratory for Interconnected Devices
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Project-Space">Project Space</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager">Become a Manager</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/3D-Printers">3D print your Part</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a><br>  
+  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a> 
+  <br>  
   <a href="https://github.com/psu-epl/epl-managers-private/wiki">Managers Only</a> 
   <br>
 </p>
