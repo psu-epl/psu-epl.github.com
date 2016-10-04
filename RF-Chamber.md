@@ -26,15 +26,15 @@ Spectrum Analyzer:
 *Tektronix [SA2600](http://www.tek.com/sites/tek.com/files/media/media/resources/37W_23237_5.pdf)
 
 Power Supplies:
-*Kenwood DC Power Supply [PD36-20A](http://www.transcat.com/media/pdf/6522e-a.pdf)
-*Topward Electric [TPS-4000D](http://www.topward.com/data/TPS-4000.pdf)
+* Kenwood DC Power Supply [PD36-20A](http://www.transcat.com/media/pdf/6522e-a.pdf)
+* Topward Electric [TPS-4000D](http://www.topward.com/data/TPS-4000.pdf)
 
 Oscilloscope:
-*Tektronix [2236](http://exodus.poly.edu/~kurt/manuals/manuals/Tektronix/TEK%202236A%20Operation%20Only.pdf)
+* Tektronix [2236](http://exodus.poly.edu/~kurt/manuals/manuals/Tektronix/TEK%202236A%20Operation%20Only.pdf)
 Misc:
-*Schaffner Magnetic Field Generator [MFO6501](http://www.teseq.us/products/accessories/MFO-6501.php)
-*Power Line decoupling network
-*
+* Schaffner Magnetic Field Generator [MFO6501](http://www.teseq.us/products/accessories/MFO-6501.php)
+* Two Power Line decoupling networks
+
 
 ## Prices:
 Student working on class project: Free
@@ -45,13 +45,13 @@ Personal project/Commercial project: $15/hr
 Booking is done through email. Please email email.address@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
 
 
-Please format the subject line of your request email like this: Request: 
+Please format the subject line of your request email like this: 
 
-Your Name - Project Name
+Request: Your Name - Project Name
 
-Please format the subject line of general questions like this: Question: 
+Please format the subject line of general questions like this: 
 
-Your Name - Short description of question
+Question: Your Name - Short description of question
 
 
 Requests made less than three days in advance can only request time after M/W/F 12:30PM to 7:00PM, T/Tr 12:30PM to 4:00PM.
