@@ -40,7 +40,7 @@ Misc:
 ## Prices:
 Student working on class project: Free
 
-Personal project/Commercial project: $15/hr
+Personal/Commercial/Grant Funded project: $15/hr
 
 ## Booking:
 Booking is done through email. Please email email.address@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
