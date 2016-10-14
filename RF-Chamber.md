@@ -43,7 +43,7 @@ Student working on class project: Free
 Personal/Commercial/Grant Funded project: $15/hr
 
 ## Booking:
-Booking is done through email. Please email email.address@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
+Booking is done through email. Please email lidchamb@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
 
 
 Please format the subject line of your request email like this: 
