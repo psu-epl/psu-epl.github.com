@@ -10,6 +10,7 @@
 To sign up please click the link for the workshop you are looking for and fill out the form.  Each workshop is capped at 10 participants.  So it is first come first serve.  Meeting locations will be emailed out to the email you chose in the form 2 days before the workshop and then the day before the workshops.  All workshops will be hosted on Saturdays and will be either in the Fourth Avenue Building (1900 SW 4th Ave) or the Engineering Building (1930 SW 4th Ave).  Any further questions please email <lidworks@pdx.edu>
 
 ## Fall Term 2016 Workshop Weekend (November 5th):
+|:---------------:|:---------------------------------------------------------------------------------------------------------------------:|:------------:|:----------:|
 | KiCAD |**[Intro](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)**|**[Intermediate](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD#intermediate-kicad)**|
 | EagleCAD |**[Intro](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intro)**|**[Intermediate](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intermediate)**|
 | Solidworks  |**[Intro](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intro6)**|**[Intermediate](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intermediate-coming-fall-2016)**|
