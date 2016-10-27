@@ -12,11 +12,11 @@ To sign up please click the link for the workshop you are looking for and fill o
 ## Fall Term 2016 Workshop Weekend (November 5th):
 |Title|Intro|Intermediate|
 |:---------------:|:------------------------:|:---------:|
-| KiCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-kicad-tickets-28612343289)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD#intermediate-kicad)**|
-| EagleCAD |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intro)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intermediate)**|
-| Solidworks  |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intro6)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intermediate-coming-fall-2016)**|
-| Soldering |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intro)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intermediate-soldering)**|
-| Circuit Testing | **[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intro)** |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Circuit-Testing#intermediate-coming-fall-2016)**|
+| KiCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-kicad-tickets-28612343289)**|**[Sign up](https://www.eventbrite.com/e/intermediate-ki-cad-tickets-28612553919)**|
+| EagleCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-eagle-cad-tickets-28611075497)**|**[Sign up](https://www.eventbrite.com/e/intermediate-eagle-cad-tickets-28611615111)**|
+| Solidworks  |**[Sign up](https://www.eventbrite.com/e/intro-to-solidworks-tickets-28612913996)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldiworks-tickets-28789756938)**|
+| Soldering |**[Sign up](hhttps://www.eventbrite.com/e/intro-to-soldering-tickets-28789936475)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldering-tickets-28790106985)**|
+| Circuit Testing | **[Sign up](https://www.eventbrite.com/e/intro-to-circuit-testing-tickets-28849432429)** |**[Sign up](https://www.eventbrite.com/e/intermediate-circuit-testing-tickets-28849471546)**|
 
 ## Hard Skills
 
