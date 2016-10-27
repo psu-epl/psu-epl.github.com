@@ -15,7 +15,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 | KiCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-kicad-tickets-28612343289)**|**[Sign up](https://www.eventbrite.com/e/intermediate-ki-cad-tickets-28612553919)**|
 | EagleCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-eagle-cad-tickets-28611075497)**|**[Sign up](https://www.eventbrite.com/e/intermediate-eagle-cad-tickets-28611615111)**|
 | Solidworks  |**[Sign up](https://www.eventbrite.com/e/intro-to-solidworks-tickets-28612913996)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldiworks-tickets-28789756938)**|
-| Soldering |**[Sign up](hhttps://www.eventbrite.com/e/intro-to-soldering-tickets-28789936475)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldering-tickets-28790106985)**|
+| Soldering |**[Sign up](https://www.eventbrite.com/e/intro-to-soldering-tickets-28789936475)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldering-tickets-28790106985)**|
 | Circuit Testing | **[Sign up](https://www.eventbrite.com/e/intro-to-circuit-testing-tickets-28849432429)** |**[Sign up](https://www.eventbrite.com/e/intermediate-circuit-testing-tickets-28849471546)**|
 
 ## Hard Skills
