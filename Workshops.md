@@ -12,7 +12,7 @@ To sign up please click the link for the workshop you are looking for and fill o
 ## Fall Term 2016 Workshop Weekend (November 5th):
 |Title|Intro|Intermediate|
 |:---------------:|:------------------------:|:---------:|
-| KiCAD |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD#intermediate-kicad)**|
+| KiCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-kicad-tickets-28612343289)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/KiCAD#intermediate-kicad)**|
 | EagleCAD |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intro)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Eagle-CAD#intermediate)**|
 | Solidworks  |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intro6)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/SolidWorks#intermediate-coming-fall-2016)**|
 | Soldering |**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intro)**|**[Sign up](https://github.com/psu-epl/psu-epl.github.com/wiki/Soldering-Workshop#intermediate-soldering)**|
