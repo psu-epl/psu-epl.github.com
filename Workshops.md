@@ -18,11 +18,11 @@ To sign up please click the link for the workshop you are looking for and fill o
 | Soldering |**[Sign up](https://www.eventbrite.com/e/intro-to-soldering-tickets-28789936475)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldering-tickets-28790106985)**|
 | Circuit Testing | **[Sign up](https://www.eventbrite.com/e/intro-to-circuit-testing-tickets-28849432429)** |**[Sign up](https://www.eventbrite.com/e/intermediate-circuit-testing-tickets-28849471546)**|
 
-//## Hard Skills
+<>## Hard Skills
 
-//### Software:
+<>### Software:
 
-//#### 2D CAD 
+<>#### 2D CAD 
 
 
 
