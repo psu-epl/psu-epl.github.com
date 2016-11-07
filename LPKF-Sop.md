@@ -52,7 +52,7 @@ Most of the options controlling how the board will be milled are set here.
 controls how much copper will be removed around your features.
 
  - Select **Show Details**.
-    - If your board does not have spacing closer than 8 mil, **un-check the Micro Cutter**
+    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter**
 
 #### Routing Type
 
