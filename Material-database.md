@@ -6,11 +6,11 @@
 
 Thickness mm (in) |       Laser Settings      | Kerf mm
  ---------------- | ------------------------- | -------
-    1.587 (1/16") |  Power: 40%  Speed: 100%  | 0.2 &ndash; 0.4
-    3.175 (1/8")  |  Power: 50%  Speed: 75%   | 0.2 &ndash;
-    4.76 (3/16")  |  Not Available Yet        | 0.2 &ndash; 1.0
-    6.35 (1/4")   |  Power: 40%  Speed: 25%   | 0.2 &ndash; 1.0
-    12.7 (1/2")   |(2-Pass) Power: 40%  Speed: 20% | 0.5 &ndash; 2.0
+    1.587 (1/16") |  Power: 40%  Speed: 100%  | 0.09
+    3.175 (1/8")  |  Power: 50%  Speed: 75%   | 0.07
+    4.76 (3/16")  |  Not Available Yet        | 0.15
+    6.35 (1/4")   |  Power: 40%  Speed: 25%   |
+    12.7 (1/2")   |(2-Pass) Power: 40%  Speed: 20% | 0.15
 
 #### Chart
 
