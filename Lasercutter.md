@@ -2,6 +2,8 @@
 
 ![The PSU-EPL laser](http://psu-epl.github.com/laser/full_spectrum.jpg)
 
+**See the [[material database]] for help with settings.**
+
 ## Overview
 
 We have a [Full Spectrum Laser Professional Series CO2 20x12 Laser with RetinaEngrave 3D](http://fslaser.com/products/lasers/pro-series/20x12-laser-engraver). Here are some quick facts:
