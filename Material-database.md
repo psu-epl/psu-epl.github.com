@@ -2,7 +2,7 @@
 
 # Acrylic (Plexiglass, PMMA)
 
-**Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to the surface of the material. Half inch sq Kerfs were measured by using digital calipers.
+**Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to the surface of the material. Half inch squares were cut out of the material using different combinations of laser power and speed, and the setting shown below were determined by the cutout with the least about of damage done to the remaining material. Kerfs were measured by using digital calipers.
 
 Thickness mm (in) |       Laser Settings      | Kerf mm
  ---------------- | ------------------------- | -------
@@ -10,7 +10,7 @@ Thickness mm (in) |       Laser Settings      | Kerf mm
     3.175 (1/8")  |  Power: 50%  Speed: 75%   | 0.2 &ndash;
     4.76 (3/16")  |  Not Available Yet        | 0.2 &ndash; 1.0
     6.35 (1/4")   |  Power: 40%  Speed: 25%   | 0.2 &ndash; 1.0
-    12.7 (1/2")   |(2Pass) Power: 40%  Speed: 20% | 0.5 &ndash; 2.0
+    12.7 (1/2")   |(2-Pass) Power: 40%  Speed: 20% | 0.5 &ndash; 2.0
 
 #### Chart
 
