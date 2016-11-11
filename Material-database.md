@@ -2,21 +2,15 @@
 
 # Acrylic (Plexiglass, PMMA)
 
-**Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to roughly half their thickness using the 58 mm focus key. One inch cut lines were made at 100% current and 100% power with the speed reduced until a clean cut was made. Kerfs were estimated using the graduated loupe. 
+**Method**: Samples of clear acrylic placed in the center of the cut bed and the laser was focused to the surface of the material. Half inch sq Kerfs were measured by using digital calipers.
 
-Thickness mm (in) | Cut Speed (at 100% power) | Kerf mm
+Thickness mm (in) |       Laser Settings      | Kerf mm
  ---------------- | ------------------------- | -------
-    1.587 (1/16") |            91%            | 0.2 &ndash; 0.4
-    1.60          |            90%            | 0.2 &ndash; 0.4
-    2.34          |            80%            | 0.2 &ndash; 0.4
-    2.85          |            60%            | 0.2 &ndash; 0.5
-    3.175 (1/8")  |            43%            | 0.2 &ndash;
-    4.50          |            30%            | 0.2 &ndash; 1.0
-    4.76 (3/16")  |            28%            | 0.2 &ndash; 1.0
-    5.80          |            20%            | 0.2 &ndash; 1.0
-    6.35 (1/4")   |            17%            | 0.2 &ndash; 1.0
-   7.9375 (5/16") |             8%            | 0.5 &ndash;
-   12.13          |     12%, or 25% 2-pass    | 0.5 &ndash; 2.0
+    1.587 (1/16") |  Power: 40%  Speed: 100%  | 0.2 &ndash; 0.4
+    3.175 (1/8")  |  Power: 50%  Speed: 75%   | 0.2 &ndash;
+    4.76 (3/16")  |  Not Available Yet        | 0.2 &ndash; 1.0
+    6.35 (1/4")   |  Power: 40%  Speed: 25%   | 0.2 &ndash; 1.0
+    12.7 (1/2")   |(2Pass) Power:40% Speed:20%| 0.5 &ndash; 2.0
 
 #### Chart
 
