@@ -30,7 +30,7 @@ proto:
   - name: Ultimaker2 3D Printer
     img: ultimaker.jpg
     sop: https://ultimaker.com/en/support/144-printing
-    up: true
+    up: false
 
   - name: Lolzbot Taz 5
     img: TAZ_3D_Printer.jpg
@@ -40,5 +40,5 @@ proto:
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
-    up: false
+    up: true
 
