@@ -20,7 +20,7 @@ This guide will provide a step-by-step instruction on how to retrieve Gerber fil
 The Top Bottom and Outline will make up three of the four board files needed to run a job in the LID.
 ### Drill Files
 * Open the CAM processor as above (if you're still there then great!)
-* Open the job excellon.cam (this should be located in the same folder as your gerber274x.com file): File > Open > Job.  This should open the _Generate Drill data_ tab in the CAM processor window.
+* Open the job __excellon.cam__ (this should be located in the same folder as your gerber274x.com file): __File__ > __Open__ > __Job__.  This should open the _Generate Drill data_ tab in the CAM processor window.
 * As before specify the file location and make certain __Drills__ and __Holes__ are highlighted.
 * Click __Process Job__ or __Process Section__ to generate the file.a
 
