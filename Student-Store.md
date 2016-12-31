@@ -1,6 +1,6 @@
 Would you like to see the <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Locker-Database">Locker Database</a>?
 
-Would you like to see what we have available in our <a href="https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/edit?usp=sharing">Student Store</a>?
+Would you like to see what we have available in our Student Store?
 
 Do you just need to pay for your stuff?  Go to [[Checkout]]
 
