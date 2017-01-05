@@ -21,7 +21,7 @@ circuit:
     up: true
 
 
-proto:
+3Dproto:
   - name: Stratasys Mojo 3D Printer
     img: mojo.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
@@ -37,11 +37,6 @@ proto:
     sop: https://www.lulzbot.com/support/lulzbot-taz-5
     up: false
 
-  - name: Full Spectrum Pro CO2 Laser Cutter
-    img: prolf20x12.jpg
-    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
-    up: true
-    
   - name: Formlabs 2
     img: Formlabs2.JPG
     sop: https://formlabs.com/support/printers/form-2/uploading-and-confirming-print/
@@ -52,3 +47,14 @@ proto:
     sop: https://ultimaker.com/en/resources/23119-using-cura
     up: true
 
+
+2Dproto:
+  - name: Full Spectrum Pro CO2 Laser Cutter
+    img: prolf20x12.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
+    up: true
+    
+  - name: Little Machine Shop 3990
+    img: littlemachine3990.JPG
+    sop: http://littlemachineshop.com/gallery/ug/3990%20Mini%20Mill%20Users%20Guide.pdf
+    up: false
