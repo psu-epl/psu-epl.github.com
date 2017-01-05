@@ -41,4 +41,14 @@ proto:
     img: prolf20x12.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
     up: true
+    
+  - name: Formlabs 2
+    img: Formlabs2.JPG
+    sop: https://formlabs.com/support/printers/form-2/uploading-and-confirming-print/
+    up: true
+    
+  - name: Ultimaker 3
+    img: Ultimaker3.JPG
+    sop: https://ultimaker.com/en/resources/23119-using-cura
+    up: true
 
