@@ -27,7 +27,7 @@ circuit:
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
     up: true
 
-  - name: Ultimaker2 3D Printer
+  - name: Ultimaker 2 3D Printer
     img: ultimaker.jpg
     sop: https://ultimaker.com/en/support/144-printing
     up: false
