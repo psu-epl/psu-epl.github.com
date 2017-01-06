@@ -23,7 +23,7 @@ circuit:
 
 3Dproto:
   - name: Stratasys Mojo 3D Printer
-    img: mojo.jpg
+    img: mojo.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
     up: true
 
@@ -33,7 +33,7 @@ circuit:
     up: false
 
   - name: Lolzbot Taz 5
-    img: TAZ_3D_Printer.jpg
+    img: TAZ_3D_Printer.JPG
     sop: https://www.lulzbot.com/support/lulzbot-taz-5
     up: false
 
@@ -50,7 +50,7 @@ circuit:
 
 2Dproto:
   - name: Full Spectrum Pro CO2 Laser Cutter
-    img: prolf20x12.jpg
+    img: prolf20x12.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
     up: true
     
