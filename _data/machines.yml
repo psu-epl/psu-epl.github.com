@@ -33,28 +33,28 @@ circuit:
     up: false
     
   - name: Ultimaker3 Extended 3D Printer
-    img: Ultimaker-Extended-3.jpg
+    img: Ultimaker3.JPG
     sop: ~ Coming Soon ~
     up: True
     
   - name: FormLabs Form2
-    img: Form-2.jpg
+    img: Formlabs2.JPG
     sop: ~ Coming Soon ~
     up: True
     
   - name: Lolzbot Taz 5
-    img: TAZ_3D_Printer.jpg
+    img: TAZ_3D_Printer.JPG
     sop: https://www.lulzbot.com/support/lulzbot-taz-5
     up: false
     
 2Dproto:
   - name: Full Spectrum Pro CO2 Laser Cutter
-    img: prolf20x12.jpg
+    img: prolf20x12.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
     up: true
     
   - name: Little Machine Shop
-    img: "Coming Soon"
+    img: littlemachine3990.JPG
     sop: "Coming Soon"
     up: false
 
