@@ -23,7 +23,7 @@ circuit:
 
 3Dproto:
   - name: Stratasys Mojo 3D Printer
-    img: mojo.jpg
+    img: mojo.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
     up: true
 
