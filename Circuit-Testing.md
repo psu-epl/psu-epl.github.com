@@ -1,6 +1,6 @@
 #### Intro 
 
-**[Intro to Circuit Testing](https://docs.google.com/a/pdx.edu/forms/d/1fx1uiF50ap_Bx9dQG1hB81Zk0g43SOweIBmC70ACPn0/viewform)**
+**[Intro to Circuit Testing](https://www.eventbrite.com/e/intro-to-circuit-testing-tickets-31488624323)**
   
 Cost: Donations Only
 
@@ -22,7 +22,12 @@ Objectives:
 
 Outcome:  You will understand the measurements you can take and how they are useful.  You will also know why some measurements are informative but may be flawed.  
 
-#### Intermediate (Coming Fall 2016)
+#### Intermediate 
+
+**[Intermediate Circuit Testing](https://www.eventbrite.com/e/intermediate-circuit-testing-tickets-31454574479)**
+  
+Cost: Donations Only
+
+Description in progress!
 
 
-#### Advanced (Coming Fall 2016) 
