@@ -47,7 +47,7 @@ Cut Speed | Cut Power | Depth (mm) | Width (mm) | Depth (mm) | Width (mm) | Dept
 ***
 # Balsa
 
-Thickness mm (in) | Cut speed (at 100% power
+Thickness mm (in) | Cut speed (at 100% power)
 ------------------|--------------------------
      6.35 (1/4")  |  100%
 
