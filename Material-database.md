@@ -45,7 +45,7 @@ Cut Speed | Cut Power | Depth (mm) | Width (mm) | Depth (mm) | Width (mm) | Dept
    100%   |     20%   |   1.13     |   0.42     |    0.56    |   0.27     |    0.75    |   0.53
 
 ***
-# Balsa
+# Balsa wood
 
 Thickness mm (in) | Cut speed (at 100% power)
 ------------------|--------------------------
