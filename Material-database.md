@@ -45,6 +45,12 @@ Cut Speed | Cut Power | Depth (mm) | Width (mm) | Depth (mm) | Width (mm) | Dept
    100%   |     20%   |   1.13     |   0.42     |    0.56    |   0.27     |    0.75    |   0.53
 
 ***
+# Balsa
+
+Thickness mm (in) | Cut speed (at 100% power
+------------------|--------------------------
+     6.35 (1/4")  |  100%
+
 
 # Bamboo Plywood
 
