@@ -17,6 +17,8 @@ To sign up please click the link for the workshop you are looking for and sign u
 | Solidworks  |**[Sign up](https://www.eventbrite.com/e/intro-to-solidworks-tickets-28612913996)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldiworks-tickets-28789756938)**|
 | Soldering |**[Sign up](https://www.eventbrite.com/e/intro-to-soldering-tickets-31488429741)**|**[Sign up](https://www.eventbrite.com/e/intermediate-soldering-tickets-31454481200)**|
 | Circuit Testing | **[Sign up](https://www.eventbrite.com/e/intro-to-circuit-testing-tickets-31488624323)** |**[Sign up](https://www.eventbrite.com/e/intermediate-circuit-testing-tickets-31454574479)**|
+| Raspberry Pi |**[Sign up](https://www.eventbrite.com/e/raspberry-pi-tickets-31644028140)**|
+| Scrum | **[Sign up](https://www.eventbrite.com/e/intro-to-scrum-tickets-31644250806)** |
 
 
 
