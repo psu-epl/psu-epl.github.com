@@ -17,7 +17,7 @@ Signal Generators:
 * R&S [SMV03](https://www.rohde-schwarz.com/us/product/smv03-productstartpage_63493-7563.html)
 
 Spectrum Analyzer:
-*Tektronix [SA2600](http://www.tek.com/sites/tek.com/files/media/media/resources/37W_23237_5.pdf)
+* Tektronix [SA2600](http://www.tek.com/sites/tek.com/files/media/media/resources/37W_23237_5.pdf)
 
 Power Supplies:
 * Kenwood DC Power Supply [PD36-20A](http://www.transcat.com/media/pdf/6522e-a.pdf)
