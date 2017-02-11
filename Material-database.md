@@ -124,10 +124,10 @@ Can be purchased online here: http://www.gravostore.com/
 ***
 
 # Parchment Paper (used for solder paste stencils)
-#### Vector:
+#### Raster:
 Cut Speed | Cut Power | Vector current | Kerf mm |   Half Kerf
 --------- | --------- | -------------- | ------- | --------------
-   25%    |    10%    |      28%       |   0.25  | 0.125mm (5mil)
+ 80-100%  |    15%    |      28%       |   0.25  | 0.125mm (5mil)
 
 ***
 
