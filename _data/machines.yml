@@ -29,12 +29,12 @@ circuit:
 
   - name: Ultimaker2 3D Printer
     img: ultimaker.jpg
-    sop: https://ultimaker.com/en/support/144-printing
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
     up: false
     
   - name: Ultimaker3 Extended 3D Printer
     img: Ultimaker3.JPG
-    sop: ~ Coming Soon ~
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
     up: True
     
   - name: FormLabs Form2
