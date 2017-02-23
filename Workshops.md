@@ -15,7 +15,7 @@ To sign up please click the link for the workshop you are looking for and sign u
 | KiCAD |**[Sign up]()**|**[Sign up]()**|
 | EagleCAD |**[Sign up]()**|**[Sign up]()**|
 | Solidworks  |**[Sign up]()**|**[Sign up]()**|
-| Soldering |**[Sign up])**|**[Sign up]()**|
+| Soldering |**[Sign up]**|**[Sign up]()**|
 | Circuit Testing | **[Sign up]()** |**[Sign up]()**|
 | Raspberry Pi |**[Sign up]()**|
 | Scrum | **[Sign up]()** |
