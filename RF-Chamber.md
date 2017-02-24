@@ -34,7 +34,7 @@ Misc:
 ## Prices:
 Student working on class project: Free
 
-Personal/Commercial/Grant Funded project: $20/hr
+Personal/Commercial/Grant Funded project: $100 minimum (covers the first 4 hours), then 25$/hr for additional time.
 
 ## Booking:
 Booking is done through email. Please email lidchamb@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
