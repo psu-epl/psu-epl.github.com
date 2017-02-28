@@ -30,7 +30,7 @@ circuit:
   - name: Ultimaker2 3D Printer
     img: ultimaker.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
-    up: false
+    up: true
     
   - name: Ultimaker3 Extended 3D Printer
     img: Ultimaker3.JPG
