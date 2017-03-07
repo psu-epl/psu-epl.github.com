@@ -17,7 +17,7 @@
 
 ## Function Generators
 * Tektronix FG 503 3MHz
-* Tektronix AFG320
+* Tektronix AFG320 16MHz
 
 ## Power Supplies
 * Tektronix PS503A
