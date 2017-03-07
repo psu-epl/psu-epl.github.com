@@ -1,5 +1,3 @@
-# Test & Measurement Equipment
-
 ## Oscilloscopes
 * Tektronix TDS684A 1GHz
 * Tektronix TDS3034 300MHz
