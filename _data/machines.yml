@@ -20,6 +20,10 @@ circuit:
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank
     up: true
 
+  - name: Test and Measurement
+    img: test_equipment.jpg
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/test_equipment
+    up: true
 
 3Dproto:
   - name: Stratasys Mojo 3D Printer
