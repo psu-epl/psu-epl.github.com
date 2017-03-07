@@ -63,7 +63,7 @@ circuit:
     up: false
         
   - name: K40 Laser Cutter
-    img: K40Laser.JPG
+    img: K40Laser.jpg
     sop: "Coming Soon"
     up: false
 
