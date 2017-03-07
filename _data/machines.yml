@@ -21,7 +21,7 @@ circuit:
     up: true
 
   - name: Test and Measurement
-    img: test_equipment.jpg
+    img: test_equipment.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Test-Equipment
     up: true
 
