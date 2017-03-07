@@ -22,7 +22,7 @@ circuit:
 
   - name: Test and Measurement
     img: test_equipment.jpg
-    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/test_equipment
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Test-Equipment
     up: true
 
 3Dproto:
