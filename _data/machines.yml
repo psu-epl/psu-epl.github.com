@@ -55,7 +55,7 @@ circuit:
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
-    up: true
+    up: false
     
   - name: Little Machine Shop
     img: littlemachine3990.JPG
