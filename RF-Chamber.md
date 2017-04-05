@@ -49,9 +49,5 @@ Please format the subject line of general questions like this:
 Question: Your Name - Short description of question
 
 
-Requests made less than three days in advance can only request time after M/W/F 12:30PM to 7:00PM, T/Tr 12:30PM to 4:00PM.
-
-Requests made with three or more days in advance can request time M/W/F 9:00AM to 7:00PM, T/Tr 9:00AM to 4:00PM.
-
 
 
