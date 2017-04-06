@@ -59,16 +59,16 @@ circuit:
     
   - name: Little Machine Shop Mill
     img: littlemachine3990.JPG
-    sop: "Coming Soon"
+    sop: http://littlemachineshop.com/gallery/ug/3900%20Mini%20Mill%20Users%20Guide.pdf
     up: false
         
   - name: K40 Laser Cutter
     img: K40Laser.jpg
-    sop: "Coming Soon"
+    sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
     up: false
     
     name: High Torque Bench Lathe
     img: htbl.jpg
-    sop: "Coming Soon"
+    sop: http://littlemachineshop.com/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf
     up: false
 
