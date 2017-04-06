@@ -68,7 +68,7 @@ circuit:
     up: false
     
     name: High Torque Bench Lathe
-    img: htkbl.jpg
+    img: htbl.jpg
     sop: "Coming Soon"
     up: false
 
