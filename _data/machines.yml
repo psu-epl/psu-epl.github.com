@@ -57,13 +57,18 @@ circuit:
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
     up: false
     
-  - name: Little Machine Shop
+  - name: Little Machine Shop Mill
     img: littlemachine3990.JPG
     sop: "Coming Soon"
     up: false
         
   - name: K40 Laser Cutter
     img: K40Laser.jpg
+    sop: "Coming Soon"
+    up: false
+    
+    name: High Torque Bench Lathe
+    img: htkbl.jpg
     sop: "Coming Soon"
     up: false
 
