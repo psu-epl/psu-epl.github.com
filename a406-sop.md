@@ -40,7 +40,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Set the "Insulate" setting to your board trace/space setting. E.g., if your board is 8/8, choose 8 mils.  The "Insulate"
    - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings.
    - Do not cut unless this says 6.2 or 6.3 (unless you really know what you are doing).  Otherwise you risk destroying your board.
-   - If you must play with the settings [consult the oracle](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings) for current best settings before continuing.
+   - If you must play with the tools [consult the oracle](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings) for current best settings before continuing.
 
 ## Assign Project Tools
 
