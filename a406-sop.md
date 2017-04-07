@@ -1,5 +1,7 @@
 [Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf)
 
+[A406 Tool Settings](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings)
+
 # About the A406
 
 The A406 claims to be able to do:
