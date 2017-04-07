@@ -37,8 +37,10 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Setting the insulation width
 
-- Set the "Insulate" setting to your board trace/space setting. E.g., if your board is 8/8, choose 8 mils.
+- Set the "Insulate" setting to your board trace/space setting. E.g., if your board is 8/8, choose 8 mils.  The "Insulate"
    - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings.
+   - Do not cut unless this says 6.2 or 6.3 (unless you really know what you are doing).  Otherwise you risk destroying your board.
+   - If you must play with the settings [consult the oracle](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings) for current best settings before continuing.
 
 ## Assign Project Tools
 
@@ -46,6 +48,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
    - The text in the button should be red because your tools aren't assigned. Blue text means you're good to go.
 - Any tool that doesn't have a blue "TH" button to its left will need to be assigned a tool.
 - Double click on that tool and select the tool from the dialog that appears. Only relevant tools will appear in that dialog (in other words, only isolation tools for isolation tools, etc).
+- Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards.
 - When you click on the first of your drill tools, a new selection dialog will pop up because... because.
    - Click on "Apply default router tool" in order to use the 0.8 mm router bit for larger holes.
    - Double click on the button to the left of any drill that still needs to be assigned and assign that drill a drill.
@@ -66,6 +69,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Add your breakout tabs.
    - Hover over the outline of your board where you want the tabs
    - Hit Ctrl-T. You should see a red "X" and broken line in your outline.
+   - It is easiest to remove your board if you only use two breakout tabs opposite each other.
 - Click on "CNC" to go to CNC mode.
 - Click on the "Spindle follows mouse" button.
 - Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your artwork. This will make sure that you don't go off your material when you're routing the opposite corner. In other words, make sure your artwork actually fits.
