@@ -12,7 +12,5 @@ General Prices:
 
 
 Stuff to do still:
-* Parts Lists
 * uProcessor Lists
 * Link to Store Operations (Manager's Only)
-* Link to Locker Database (View Only)
