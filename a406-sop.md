@@ -75,7 +75,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 - Click on "CNC" to go to CNC mode.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ProjToolsAlert.png)
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CNCATC.png)
 
 - Click on the "Camera follows mouse" button.
 
@@ -123,7 +123,13 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - "Left Control + right mouse click" move an area outside of your artwork on an unused part of the PCB material.
 - Zoom into the camera area.
 - In the camera area, right click and choose "Tool test at camera position".
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ToolTestMenu.png)
+
 - Click OK at the suggested penetration depth (2.4 mils).
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ToolPenetrationDepth.png)
+
 - Hit Control-Space to focus the camera.
 - Make sure it's around 7-9 mils.
    - Click on the "0.001" button in the movement area in the upper left part of the screen.
@@ -131,7 +137,12 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - If it's not a good penetration depth, then continue doing calibration cuts at different depths until you find a good one. The calibration mark should be very clean, no smeared coppers and no "bright outlines" around the edge of the copper (which is actually burs). You should be able to run your fingers over it and feel nothing at all - if you feel a bump, that's a burr, which is bad. You should probably increase your depth and/or change your bit.
 - Once you find a good depth, then:
    - Click on "ATC Control Panel" button
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CNCATC.png)
+
    - In the bottom section, in the Project Tools list, enter in the depth you found in the insulate tool's "Depth" column entry box.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ATCControl.png)
 
 ## Go!
 
@@ -140,9 +151,14 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
    - "*" entries in this list are groups of phases.
 - Choose "RUN(GO)"
 
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/RunGo.png)
+
 ## Flip the board
 
 - Hit "Park" to get the head out of the way.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/Park.png)
+
 - Remove your PCB.
 - Flip your board over. Doesn't actually matter how you flip it, but we recommend flipping the edge that is towards you away from you.
 - IMPORTANT: deburr the the new surface. All of the drills will have little burrs that will cause the bottom layer to not route correctly. Use a razor blade, and gently sand it when you're done.
@@ -153,6 +169,9 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Put the acetate circly thingy with the arrows ("Hole Finder Tool") on top of your first fiducial hole you chose.
 - Choose "Entire (Bottom)*" from the "Program:" drop down in the upper right hand corner.
 - Right click in the CAM area and choose "Fiducial Registration Mode."
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialRegMenu.png)
+
 - Move head to the first fiducial hole by clicking "Camera follows mouse" button and control-right click.
 - Focus the video using control-space bar.
 - Zoom into your fiducial hole following the arrows.
@@ -160,16 +179,24 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Right click in the CNC window and choose "Fiducial Registration Mode"
 - Go find the hole in your artwork that corresponds to this hole. Zoom WAY into the hole, center the mouse cursor right in the center of the cross hair in the hole, and right click and choose "Move to Camera Position (Fiducial 1)". 
 - Now the yellow cross hair of the hole should be exactly in the center of the camera target circles.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialCamPos1.png)
+
 - Put the hole finder tool over your second fiducial point.
 - Use ctrl-right click to center the camera over the hole. Ctrl-space to focus.
 - Center the camera EXACTLY over the second fiducial hole, using the movement arrows at the "1 step" resolution.
 - Find the hole in your artwork, and zoom in on that hole.
 - Put the mouse cursor in the exact middle of the yellow hole marker, right click, and choose "Rotate to camera position (fiducial 2)".
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialCamPos2.png)
+
 - Now all of the yellow hole markers in your artwork should line up with the actual holes on your board.
 - You can go back and forth between holes at this point to optimize the fit, but don't go nuts here.
 - That's it, your registered.
 - At this point, we recommend doing another tool depth test just to make sure everything is OK (see above)
 - Choose "RUN(GO)" and it'll do the bottom of your board.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/RunGoBot.png)
  
 
 
