@@ -81,6 +81,10 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraFollowMouse.png)
 
+- You are now controlling the machine by camera location.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraFollowMouseClarify.png)
+
 - Hold down the "left Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your artwork.  You can sight in exactly where you want you start cutting by using the translucent centering sheet.
 - Make sure the foot around the tool is solidly on the PCB material, and not on tape, or overhanging the board, or whatnot.
    - You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps.
@@ -114,6 +118,10 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Click on the "Spindle follows mouse" button.
 
 ![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SpindleFollowsMouse.png)
+
+- You are now controlling the machine spindle position.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SpindleFollowsMouseClarify.png)
 
 - Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your artwork. This will make sure that you don't go off your material when you're routing the opposite corner. In other words, make sure your artwork actually fits.
 
