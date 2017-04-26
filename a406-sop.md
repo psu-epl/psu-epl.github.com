@@ -23,6 +23,9 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 1. Go to the CAM view by clicking the "CNC" button.
 1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button).
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ImportMenu.png)
+
 1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory. You should see a list of files in the left column.
 1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers:
    - Top copper 
@@ -35,19 +38,33 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
    - Don't forget to import an outline (mechanical) layer to define the cutout boundary.
 1. Once all your layers have been mapped, click the 'Import' button on the upper right.
 
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/AssignLayers.png)
+
 ## Setting the insulation width
 
 - Set the "Insulate" setting to your board trace/space setting. E.g., if your board is 8/8, choose 8 mils.  The "Insulate"
    - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings.
-   - Do not cut unless this says 6.2 or 6.3 (unless you really know what you are doing).  Otherwise you risk destroying your board.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/InsulSetting.png)   
+
    - If you must play with the tools [consult the oracle](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings) for current best settings before continuing.
 
 ## Assign Project Tools
 
 - Click on "Project Tools". 
    - The text in the button should be red because your tools aren't assigned. Blue text means you're good to go.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ProjToolsAlert.png)
+
 - Any tool that doesn't have a blue "TH" button to its left will need to be assigned a tool.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ProjToolsMenu.png)
+
 - Double click on that tool and select the tool from the dialog that appears. Only relevant tools will appear in that dialog (in other words, only isolation tools for isolation tools, etc).
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ToolTable.png)
+
+
 - Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards.
 - When you click on the first of your drill tools, a new selection dialog will pop up because... because.
    - Click on "Apply default router tool" in order to use the 0.8 mm router bit for larger holes.
@@ -57,21 +74,47 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 ## Position artwork on blank
 
 - Click on "CNC" to go to CNC mode.
-- Click on the "Spindle follows mouse" button.
-- Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the upper left hand corner of your PCB material.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ProjToolsAlert.png)
+
+- Click on the "Camera follows mouse" button.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraFollowMouse.png)
+
+- Hold down the "left Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your artwork.  You can sight in exactly where you want you start cutting by using the translucent centering sheet.
 - Make sure the foot around the tool is solidly on the PCB material, and not on tape, or overhanging the board, or whatnot.
    - You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps.
-- Right click and choose "Add Thumbtack at Spindle Position".
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/StepSizeJog.png)
+
+- Right click and choose "Add Thumbtack at Camera Position".
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraThumbtack.png)
+
 - Click on "CNC" to back to CAM view.
 - Choose the "Select/move/clone" button (looks like a cursor arrow)
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SelectMenu.png)
+
 - Select your artwork by click and dragging a selection box around it.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SelectMove.png)
+
 - Left click and hold to drag your board to the thumbtack, which in this view looks like a small yellow cross.
+
 - Add your breakout tabs.
    - Hover over the outline of your board where you want the tabs
    - Hit Ctrl-T. You should see a red "X" and broken line in your outline.
    - It is easiest to remove your board if you only use two breakout tabs opposite each other.
+   - Alternatively you can right click and select 
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/BreakoutTab.png)
+
 - Click on "CNC" to go to CNC mode.
 - Click on the "Spindle follows mouse" button.
+
+![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SpindleFollowsMouse.png)
+
 - Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your artwork. This will make sure that you don't go off your material when you're routing the opposite corner. In other words, make sure your artwork actually fits.
 
 ## Check cut depth
