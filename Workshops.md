@@ -6,7 +6,7 @@
 
 To sign up please click the link for the workshop you are looking for and sign up through eventbrite.  Each workshop is capped at from 10 - 25 participants.  So it is first come first serve. All workshops will be hosted during the weekend and will either be in the Fourth Avenue Building (1900 SW 4th Ave) or the Engineering Building (1930 SW 4th Ave).  Any further questions please email <lidworks@pdx.edu>
 
-## Winter Term 2017 Workshop Weekend (April 29th and 30th):
+## Spring Term 2017 Workshop Weekend (April 29th and 30th):
 |Title|Intro|Intermediate|
 |:---------------:|:------------------------:|:---------:|
 | KiCAD |**[Sign up](https://www.eventbrite.com/e/intro-to-kicad-tickets-33780421149)**|**[Sign up](https://www.eventbrite.com/e/intermediate-ki-cad-tickets-33780452242)**|
