@@ -13,10 +13,8 @@ Here's how becoming a manager works:
 
 2. You need to be trained on all of the equipment that's currently being used in the lab. You will also need to be trained in all of the store operations. You have approximately 30 days from your application date to train on all of the equipment.  
 
-2. You need to get 3 current manager to sponsor you to become a manager. They will have to send the L.I.D. administrator (currently Chris @ lid@pdx.edu) an email saying that they support you becoming a manager.
+2. The admin will email the current manager group and let everyone know you're about to become a new manager. Any current manager can veto someone trying to become a manager. This may sound arbitrary, but it's not: it's specifically to prevent people who aren't good with other people or with equipment from becoming managers. Becoming a manager is a big responsibility and means keeping people safe, being responsible, and contributing to the community. Some people just aren't ready for that yet.
 
-3. The admin will email the current manager group and let everyone know you're about to become a new manager. Any current manager can veto someone trying to become a manager. This may sound arbitrary, but it's not: it's specifically to prevent people who aren't good with other people or with equipment from becoming managers. Becoming a manager is a big responsibility and means keeping people safe, being responsible, and contributing to the community. Some people just aren't ready for that yet.
+3. Finally, once all this happens, the admin will meet with you and go over becoming a manager (takes about an hour).
 
-4. Finally, once all this happens, the admin will meet with you and go over becoming a manager (takes about an hour).
-
-5. After 6 months you can apply to become a paid manager.  The instructions to do this are here: [Getting Paid](https://github.com/psu-epl/epl-managers-private/wiki/Getting-paid-as-a-Student-Manager) 
+4. After 6 months you can apply to become a paid manager.  The instructions to do this are here: [Getting Paid](https://github.com/psu-epl/epl-managers-private/wiki/Getting-paid-as-a-Student-Manager) 
