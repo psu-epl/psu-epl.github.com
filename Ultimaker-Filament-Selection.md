@@ -55,10 +55,10 @@ Pale Gold: $1/Meter
 Special Filaments: 
 
 White: $2/Meter
-*Polycarbonate
+* Polycarbonate
 
 Transparent: $2/Meter
-*Nylon 
+* Nylon 
 
 Carbon Fiber: $3/Meter
 * XT-CF20
