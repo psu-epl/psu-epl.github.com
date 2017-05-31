@@ -1,69 +1,35 @@
-Ultimaker Filaments:
 
-Neon Yellow: $1/Meter
-* PLA/PHA
+| Ultimaker Filaments:| Material      | Price | 
+| -------------       | ------------- | ------------- | 
+| Neon Yellow | PLA/PHA  | $1/Meter |
+| Translucent  | PLA  | $1/Meter |
+| Deep Sea Blue | PLA  | $1/Meter |
+| Red  | PLA  | $1/Meter |
+| White | Flex TPC  | $1/Meter |
+| Translucent Red  | PLA  | $1/Meter |
+| Silver Metallic | PLA  | $1/Meter |
+| Green  | PLA/PHA  | $1/Meter |
+| Dark Blue | PLA  | $1/Meter |
+| Yellow Green | PLA  | $1/Meter |
+| Blueish White | PLA/PHA  | $1/Meter |
+| Warm Red  | PLA/PHA  | $1/Meter |
+| Dutch Orange | PLA/PHA  | $1/Meter |
+| Violet Transparent  | PLA  | $1/Meter |
+| Fluorescent Pink | PLA/PHA  | $1/Meter |
+| Pale Gold | PLA/PHA  | $1/Meter |
+| Blueish White | PLA/PHA  | $1/Meter |
+| Warm Red  | PLA/PHA  | $1/Meter |
 
-Translucent: $1/Meter
-* PLA
 
-Deep Sea Blue: $1/Meter
-* PLA
 
-Red: $1/Meter
-* PLA
-
-White: $1/Meter
-* Flex TPC
-
-Translucent Red: $1/Meter
-* PLA
-
-Silver Metallic: $1/Meter
-* PLA
-
-Green: $1/Meter
-* PLA/PHA
-
-Dark Blue: $1/Meter
-* PLA
- 
-Yellow Green: $1/Meter
-* PLA
-
-Blueish White: $1/Meter
-* PLA/PHA
-
-Warm Red: $1/Meter
-* PLA/PHA
-
-Dutch Orange: $1/Meter
-* PLA/PHA
-
- 
-Violet Transparent: $1/Meter
-* PLA
-
-Fluorescent Pink: $1/Meter
-* PLA/PHA
-
-Pale Gold: $1/Meter
-* PLA/PHA
+| Special Ultimaker Filaments:| Material      | Price | 
+| -------------       | ------------- | ------------- | 
+| White | Polycarbonate  | $2/Meter |
+| Transparent  | Nylon| $2/Meter |
+| Carbon Fiber | XT-CF20 | $3/Meter |
+| Glow in the Dark | PLA/PHA  | $2/Meter |
 
 
 
 
-Special Filaments: 
 
-White: $2/Meter
-* Polycarbonate
-
-Transparent: $2/Meter
-* Nylon 
-
-Carbon Fiber: $3/Meter
-* XT-CF20
- 
-Glow in the Dark: $2/Meter
-* PLA/PHA
-
- 
