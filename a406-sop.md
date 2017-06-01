@@ -176,7 +176,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Choose two holes on your board to be fiducials. It's good if they're medium sized - not larger than like a few millimeters. Small holes are OK, probably, too. You want the holes to be in the opposite corners of the board, to make the registration as accurate as possible. One note: you can't have the fiducials be too close to the tool holder, because the head can't move that far towards the front of the machine.
 - Put the acetate circly thingy with the arrows ("Hole Finder Tool") on top of your first fiducial hole you chose.
 - Choose "Entire (Bottom)*" from the "Program:" drop down in the upper right hand corner.
-- Right click in the CAM area and choose "Fiducial Registration Mode."
+- Click "camera follows mouse" button and then right click in the workspace area and choose "Fiducial Registration Mode" from the drop-down menu.
 
 ![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialRegMenu.png)
 
