@@ -2,6 +2,8 @@
 
 [A406 Tool Settings](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings)
 
+[Debugging](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Debugging)
+
 # About the A406
 
 The A406 claims to be able to do:
