@@ -1,10 +1,10 @@
 ---
 layout: base
-title: Portland State University Jaguar-Landrover Laboratory for Interconnected Devices
+title: Portland State University Jaguar Land Rover Laboratory for Interconnected Devices
 ---
 
 
-# The Jaguar-Landrover Laboratory for Interconnected Devices
+# The Jaguar Land Rover Laboratory for Interconnected Devices
 
 ![The L.I.D.](/images/lab_panorama.jpg)
 
