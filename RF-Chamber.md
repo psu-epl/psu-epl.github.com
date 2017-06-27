@@ -18,6 +18,7 @@ Signal Generators:
 
 Spectrum Analyzer:
 * Tektronix [SA2600](http://www.tek.com/sites/tek.com/files/media/media/resources/37W_23237_5.pdf)
+* Rohde & Schwarz [FSIQ26](https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/f/fsiq/fsiq_02e.pdf)
 
 Power Supplies:
 * Kenwood DC Power Supply [PD36-20A](http://www.transcat.com/media/pdf/6522e-a.pdf)
