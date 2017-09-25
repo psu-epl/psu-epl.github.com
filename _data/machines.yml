@@ -8,7 +8,7 @@ circuit:
   - name: A406 PCB Router
     img: A406.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/a406-sop
-    up: false
+    up: true
 
   - name: T200N Desktop Solder Oven
     img: torch.jpg
@@ -23,7 +23,7 @@ circuit:
   - name: Test and Measurement
     img: test_equipment.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Test-Equipment
-    up: false
+    up: true
 
 3Dproto:
   - name: Stratasys Mojo 3D Printer
@@ -34,7 +34,7 @@ circuit:
   - name: Ultimaker2 3D Printer
     img: ultimaker.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
-    up: false
+    up: true
     
   - name: Ultimaker3 Extended 3D Printer
     img: Ultimaker3.JPG
@@ -54,12 +54,12 @@ circuit:
   - name: Little Machine Shop Mill
     img: littlemachine3990.JPG
     sop: http://littlemachineshop.com/gallery/ug/3900%20Mini%20Mill%20Users%20Guide.pdf
-    up: false
+    up: true
        
   - name: High Torque Bench Lathe
     img: htbl.jpg
     sop: http://littlemachineshop.com/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf
-    up: false
+    up: true
 
 2Dproto:
   - name: Full Spectrum Pro CO2 Laser Cutter
