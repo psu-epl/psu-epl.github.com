@@ -2,7 +2,7 @@ E.P.L. managers get 24 card key access to the E.P.L., which is fun. However, the
 
 - A manager's most important responsibility is to keep the people and equipment safe.
 
-- Responsibilities for a Volunteer​ ​Manager​:
+Responsibilities for a Volunteer​ ​Manager​:
 1. Train students on machines in the lab
 1. Assist students in the student store
    1. Lockers
