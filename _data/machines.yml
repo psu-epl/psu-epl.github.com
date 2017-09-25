@@ -15,11 +15,6 @@ circuit:
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
     up: false
 
-  - name: Plating Tank
-    img: Electroplating_Tank.jpg
-    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank
-    up: false
-
   - name: Test and Measurement
     img: test_equipment.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Test-Equipment
@@ -36,7 +31,7 @@ circuit:
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
     up: true
     
-  - name: Ultimaker3 Extended 3D Printer
+  - name: Ultimaker3 Extended 3D Printer (x2)
     img: Ultimaker3.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
     up: True
@@ -45,11 +40,6 @@ circuit:
     img: Formlabs2.JPG
     sop: ~ Coming Soon ~
     up: True
-    
-  - name: Lolzbot Taz 5
-    img: TAZ_3D_Printer.JPG
-    sop: https://www.lulzbot.com/support/lulzbot-taz-5
-    up: false
     
   - name: Little Machine Shop Mill
     img: littlemachine3990.JPG
