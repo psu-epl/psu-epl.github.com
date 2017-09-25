@@ -1,11 +1,20 @@
 E.P.L. managers get 24 card key access to the E.P.L., which is fun. However, there are responsibilities that come with the position, and some hoops to jump through. Here's what you need to know:
 
 - A manager's most important responsibility is to keep the people and equipment safe.
-- After safety, the next responsibility is to train other people on the equipment during their open lab time. This means managers must be good with people, like teaching, and of course understand all of the equipment enough to be able to teach others how to use it.  This means that managers will have to be constantly using the equipment and going through the S.O.P's to get a good feel for the equipment, as a manager you will be expected to know the equipment and be able to train others without much assistance. 
-- Managers are also expected to improve the lab as they can. Improving SOPs, building new tools using our equipment, or something to improve the place or processes for the lab.
-- Managers must put in at least 2 hours per week of open E.P.L. time. Usually, this means a single 2-hour block of time each week, but we're flexible.
-- Volunteer managers will be asked to do a term or multi-term project to upgrade the lab.  These projects will help the managers understand more and also have some distinguishable "thing" that they worked on while working in the lab. This term project, while mandatory, will encumber about 1 hour per week at most.  
-- As a manager, you will constantly be introducing the lab to new people, and even be asked to give a short presentation on the lab (< 5 min) for tour groups that often come through the E.P.L.
+
+- Responsibilities for a Volunteer​ ​Manager​:
+1. Train students on machines in the lab
+1. Assist students in the student store
+1. 1. Lockers
+1. 2. Any parts required
+1. 3. User documentation
+1. Put together any lab kits or assist in any way in regards to preparation for the following
+1. term as directed by either the Maintenance director (role defined below) or Store director
+1. (role defined below).
+1. Must sign PSU volunteer paperwork
+1. Must attend 1 manager meeting a month (meetings are every other week).
+1. 2 hours a week throughout the term worked between open and close hours (currently 9
+1. AM to 7 PM). Not required to volunteer during breaks.
 
 Here's how becoming a manager works:
 
