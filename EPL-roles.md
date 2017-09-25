@@ -1,7 +1,7 @@
 ## Formal Roles in the EPL
 
 - *EPL administrators*
-   - Final decision making authority and responsibility (Nathan, Phillip).
+   - Final decision making authority and responsibility (Chris, Phillip).
 - *EPL managers*
    - Trained on all machines, 24 hour badge access, some decision making abilities.
 - *EPL users*
@@ -13,14 +13,13 @@
  
 EPL visitors given tours may be escorted through the lab but they may not touch any equipment, and tours may not be given while equipment is in use.
 
-Anybody wishing to use any of the tools or even view tools in operation must sign the “EPL Liability Waiver”, which promotes them to EPL Users. This document will be kept in a secured out-of-room location (Phillip’s office?) and a scanned version will be kept on the wiki.
+Anybody wishing to use any of the tools or even view tools in operation must sign the “EPL Liability Waiver”, which promotes them to EPL Users. This document will be kept in a secured out-of-room location and a scanned version will be kept on the wiki.
 
 EPL users must have training in order to use a tool. This includes:
  
 - Pre-usage reading of documentation and SOPs
 - Supervised instruction by a lab manager on use of the machine.
 - Supervised first operation of the machine.
-- Possibly: skills demonstration and/or written quiz.
 - After these 3-4 steps, the user is given clearance to use this particular tool by an EPL Manager. The clearance is recorded on paper and on the wiki.
 
 EPL managers are “superusers” who get 24 hour badge access and are responsible for the lab itself. To become a manager, a user must:
