@@ -9,12 +9,11 @@ Responsibilities for a Volunteer​ ​Manager​:
    2. Any parts required
    3. User documentation
 1. Put together any lab kits or assist in any way in regards to preparation for the following
-1. term as directed by either the Maintenance director (role defined below) or Store director
-1. (role defined below).
+   term as directed by either the Maintenance director or Store director.
 1. Must sign PSU volunteer paperwork
 1. Must attend 1 manager meeting a month (meetings are every other week).
 1. 2 hours a week throughout the term worked between open and close hours (currently 9
-1. AM to 7 PM). Not required to volunteer during breaks.
+   AM to 7 PM). Not required to volunteer during breaks.
 
 Here's how becoming a manager works:
 
