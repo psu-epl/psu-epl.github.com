@@ -5,9 +5,9 @@ E.P.L. managers get 24 card key access to the E.P.L., which is fun. However, the
 - Responsibilities for a Volunteer​ ​Manager​:
 1. Train students on machines in the lab
 1. Assist students in the student store
-1. 1. Lockers
-1. 2. Any parts required
-1. 3. User documentation
+   1. Lockers
+   2. Any parts required
+   3. User documentation
 1. Put together any lab kits or assist in any way in regards to preparation for the following
 1. term as directed by either the Maintenance director (role defined below) or Store director
 1. (role defined below).
