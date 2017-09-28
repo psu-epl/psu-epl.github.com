@@ -7,4 +7,4 @@ The best resource for this is by using the Ultimaker2 website and all of the inf
 Follow instructions at:
 [Ultimaker 2+](https://ultimaker.com/en/resources/16955-changing-filament)
 
-Ultimaker prints are $1/meter
+Ultimaker prints are $1.50/meter
