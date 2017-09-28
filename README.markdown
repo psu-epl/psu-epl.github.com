@@ -17,6 +17,6 @@ Edit `index.markdown` to change the wording on the front page.
 
 ### Machine Status
 
-Is something broken? Report it! Just edit `_data/machines.yml` and where is
+Is something broken? Report it! Just edit `_data/machines.yml` and where it
 says `up: true` change it to `up: false`, or vise versa. Commit the change
 and that's it! The front page will always reflect the status in this file.
