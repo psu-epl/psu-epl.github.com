@@ -38,7 +38,7 @@ circuit:
     
   - name: FormLabs Form2
     img: Formlabs2.JPG
-    sop: ~ Coming Soon ~
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Formlabs-Form-2
     up: True
     
   - name: Little Machine Shop Mill
