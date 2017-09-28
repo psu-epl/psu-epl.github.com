@@ -54,7 +54,7 @@ circuit:
 2Dproto:
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.JPG
-    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Lasercutter
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Full-Spectrum-Laser-cutter
     up: false
 
   - name: K40 Laser Cutter
