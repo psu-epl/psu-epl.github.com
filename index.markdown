@@ -13,7 +13,6 @@ title: Portland State University Electronics Prototyping Lab
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Workshops">Workshops</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/RF-Chamber">RF Chamber</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Student-Store">Student Store and Lockers</a> |
-  <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Project-Space">Project Space</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Becoming-an-L.I.D.-Manager">Become a Manager</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/3D-Printers">3D print your Part</a> |
   <a href="https://github.com/psu-epl/psu-epl.github.com/wiki/Sponsors">Sponsors</a> 
