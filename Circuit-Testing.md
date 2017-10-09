@@ -1,9 +1,5 @@
 #### Intro 
 
-**[Intro to Circuit Testing](https://www.eventbrite.com/e/intro-to-circuit-testing-tickets-31488624323)**
-  
-Cost: Donations Only
-
 Objectives:
 
 * Learn how to use:
@@ -22,12 +18,6 @@ Objectives:
 
 Outcome:  You will understand the measurements you can take and how they are useful.  You will also know why some measurements are informative but may be flawed.  
 
-#### Intermediate 
 
-**[Intermediate Circuit Testing](https://www.eventbrite.com/e/intermediate-circuit-testing-tickets-31454574479)**
-  
-Cost: Donations Only
-
-Description in progress!
 
 
