@@ -3,7 +3,7 @@ circuit:
   - name: LPKF PCB Router
     img: protomat-s63.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF
-    up: false
+    up: true
 
   - name: A406 PCB Router
     img: A406.jpg
@@ -13,7 +13,7 @@ circuit:
   - name: T200N Desktop Solder Oven
     img: torch.jpg
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
-    up: false
+    up: true
 
   - name: Test and Measurement
     img: test_equipment.JPG
@@ -52,6 +52,11 @@ circuit:
     up: true
 
 2Dproto:
+- name: QD-1390 Laser Cutter
+    img: QD1390LaserCutter.JPG
+    sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
+    up: false
+    
   - name: Full Spectrum Pro CO2 Laser Cutter
     img: prolf20x12.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Full-Spectrum-Laser-cutter
@@ -62,8 +67,5 @@ circuit:
     sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
     up: false
     
-  - name: QD-1390 Laser Cutter
-    img: QD1390LaserCutter.JPG
-    sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
-    up: false
+  
 
