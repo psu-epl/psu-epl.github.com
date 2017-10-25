@@ -43,7 +43,7 @@ circuit:
     
   - name: Little Machine Shop Mill
     img: littlemachine3990.JPG
-    sop: http://littlemachineshop.com/gallery/ug/3900%20Mini%20Mill%20Users%20Guide.pdf
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Little-Machine-Shop:-3-axis-manual-mill
     up: true
        
   - name: High Torque Bench Lathe
