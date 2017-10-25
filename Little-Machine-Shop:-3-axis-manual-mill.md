@@ -1,3 +1,5 @@
+## Manual:
+[Here](http://littlemachineshop.com/gallery/ug/3900%20Mini%20Mill%20Users%20Guide.pdf)
 
 ## Safety:
 **Always wear safety glasses when performing ANY operation on the machine tools. Make sure that long hair is tied up and that any dangling clothing/jewelery is removed. Closed toes shoes are required at all times in the machine tool area. Never use machine tools if you are alone in the lab.**
