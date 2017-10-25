@@ -30,7 +30,7 @@ Choosing an appropriate machining speed is critical for the safe and effective o
 	
 **Feed rate:** is the linear speed with which you are going to move the tool across the material. For manual machines this is more ambiguous as it is determined by the speed with which the operator turns the controls of the machine while performing machining operations.
 	
-%Place a machining speed chart here (Also on the wall near the machines)%
+[HERE](https://littlemachineshop.com/reference/cuttingspeeds.php) is a chart of feed rates and cutting speeds put out by the manufacturer of this machine. feel free to use their built in calculators to figure out the appropriate settings for the machine.
 	
 ## Machine Operation:
 
