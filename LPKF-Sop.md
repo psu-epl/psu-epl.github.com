@@ -50,6 +50,10 @@ Most of the options controlling how the board will be milled are set here.
 
  1. Open **Toolpath > Technology Dialog.**
 
+#### Edit **Material Settings**
+
+    - Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
+
 #### Set **Isolation type**
 
 controls how much copper will be removed around your features.
@@ -88,10 +92,6 @@ Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
     This is **really important**: the white backing material must be as smooth and flat as possible. This machine has no idea where the material surface is, beyond what the user tells it. That is, it thinks it knows the height of the top of your blank, but it assumes it is a perfect plane. If it deviates even by 2 mils (.05mm), isolation **will not work**. So, with the PCB blank not mounted, run your fingers over the surface of the white backing material and feel for any bumps or debris. If you feel any, blow off the debris or use the razor blade tool to remove the bumps. Bumps occur because drills and routing bits grind out and lift backing material. This is especially noticeable in the routed grooves where a PCB was separated from the blank. It's a good idea to run the razor blade over the surface even if you can't feel any bumps. Lift the white backing material out and check the backside too. 
 
     Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put masking tape along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
-
-* Edit Material Settings
-
-    * Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
 
 * Edit pattern placement on the PCB blank
 
