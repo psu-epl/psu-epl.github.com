@@ -52,7 +52,7 @@ Most of the options controlling how the board will be milled are set here.
 
 #### Edit **Material Settings**
 
-    - Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
+ - Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
 
 #### Set **Isolation type**
 
