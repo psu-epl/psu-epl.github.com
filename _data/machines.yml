@@ -52,7 +52,7 @@ circuit:
     up: true
 
 2Dproto:
-- name: QD-1390 Laser Cutter
+  - name: QD-1390 Laser Cutter
     img: QD1390LaserCutter.JPG
     sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
     up: true
