@@ -85,7 +85,7 @@ Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 * Physically Mount Material
     * Select a PCB blank
 
-   Choose some vaguely planar untwisted blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will want some PCB ribbing around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
+   Choose some vaguely planar untwisted blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will want some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
 
     * Prepare backing surface
 
