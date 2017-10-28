@@ -1,12 +1,14 @@
-QD-1390 Laser Cutter
+# QD-1390 Laser Cutter
 
-# General Notes:
+[Operating Manual](https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf)
+
+## General Notes:
 
 * This laser cutter will work with DXF vector files (for cutting and rastering) and image files (rastering only).
 
 * Do not cut PVC or Vinyl on this cutter as it can release harmful smoke.
 
-## Safety:
+### Safety:
 
 * IR beams are invisible but very damaging. Never run the laser with hood up, and always wear eye protection.
 
@@ -16,7 +18,7 @@ QD-1390 Laser Cutter
 
 * Make sure the fire extinguisher is nearby.
 
-# Prepping the Laser 
+## Prepping the Laser 
 
 <Add Images>
 
@@ -26,7 +28,7 @@ QD-1390 Laser Cutter
 
     1. It may sound an alarm for a few seconds but it should go away quickly.
 
-# Preparing your Job 
+## Preparing your Job 
 
 <Add Images>
 
@@ -48,19 +50,19 @@ QD-1390 Laser Cutter
 
         3. Your vector image is scaled way too small. Select your vector shapes, and check the width and length in the upper left corner (not the x and y values, that is the position of your piece). Note that it is in millimeters, also. The program has a tendency to take your inch dimensions and just turn them into millimeters (not convert, just changes it, ex. 6 inches becomes 6 mm). You can fix this by highlighting all of your shapes, and converting your dimensions in inches into millimeters and entering that in for your job’s height and width.
 
-## Cut Power and Speed or Rastering
+### Cut Power and Speed or Rastering
 
 Image files (.jpg, .png, etc.) will **always** raster, meaning it will not cut. It will just etch the image onto the material. If you want to cut, you need to add vector shapes which can be done directly in RDWorks using the shape and line tools.
 
 Different materials and thicknesses will require different laser powers or speeds to cut through the material.
 
-### Material Cut Settings
+#### Material Cut Settings
 
 Below you can find some examples of cuts made in various materials.
 
 <Add images>
 
-### Changing Cut Setting in RDWorks
+#### Changing Cut Setting in RDWorks
 
 In the upper right hand corner of RDWorks you should see a small window that will probably have a single black block followed by cut and speed settings. It is possible to use different cuts and speeds for different parts of your job by using different "colors" to identify different layers on your piece.
 
@@ -90,7 +92,7 @@ Any vector you change to this color will have those cut settings.
 
 Alternatively, if you just want to use the same cut settings throughout your job, just change the single black layer that is there by default and directly edit the settings there.
 
-## Aligning and Testing
+### Aligning and Testing
 
 1. When you think your job is ready in RDWorks, open the hood (make sure the IR laser switch is **still** OFF--the red laser is just to help you see where the laser will start) and place your material under the laser head.
 
@@ -104,7 +106,7 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 4. Once you are sure that the laser will stay on your piece it’s time to start cutting.
 
-## Final Prep
+### Final Prep
 
 1. Before turning on the beam for cutting, turn on the air filter to the left of the laser. The switch is behind it.
 
@@ -120,7 +122,7 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 Note: Do NOT leave your laser job unattended. Monitor it constantly in case a fire happens. If it does, press the red emergency stop knob on the machine to stop the job. 
 
-# Finishing Up
+## Finishing Up
 
 1. Once your job is finished, turn the "Laser" switch on the side of the cutter off.
 
