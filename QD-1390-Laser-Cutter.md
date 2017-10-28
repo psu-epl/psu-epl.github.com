@@ -92,7 +92,7 @@ Any vector you change to this color will have those cut settings.
 
 Alternatively, if you just want to use the same cut settings throughout your job, just change the single black layer that is there by default and directly edit the settings there.
 
-### Aligning and Testing
+## Aligning, Focusing, and Testing
 
 1. When you think your job is ready in RDWorks, open the hood (make sure the IR laser switch is **still** OFF--the red laser is just to help you see where the laser will start) and place your material under the laser head.
 
