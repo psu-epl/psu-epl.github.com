@@ -41,6 +41,7 @@ circuit:
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Formlabs-Form-2
     up: True
     
+2Dproto:
   - name: Little Machine Shop Mill
     img: littlemachine3990.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Little-Machine-Shop:-3-axis-manual-mill
@@ -50,8 +51,7 @@ circuit:
     img: htbl.jpg
     sop: http://littlemachineshop.com/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf
     up: true
-
-2Dproto:
+    
   - name: QD-1390 Laser Cutter
     img: QD1390LaserCutter.JPG
     sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
