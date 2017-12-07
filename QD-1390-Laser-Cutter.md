@@ -2,8 +2,6 @@
 
 [Operating Manual](https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf)
 
-QD-1390 Laser Cutter
-
 # General Notes:
 
 * This laser cutter will work with DXF vector files (for cutting and rastering) and image files (rastering only).
