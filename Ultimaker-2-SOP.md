@@ -54,7 +54,9 @@ Support Density: This is the infill density for supports. Just like infill densi
 
 ## Preparing the Print
 Click “Prepare” in the bottom-right corner of the menu.
+
 ![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Ulti2SOP%20Prepare.png)
+
 **Finally,** when you are ready to go, plug in the SD card reader into your computer. 
 
 
