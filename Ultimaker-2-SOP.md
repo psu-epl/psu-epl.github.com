@@ -19,3 +19,20 @@ Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers 
 [Insert Pic]
 - You can change the part’s orientation by using the toolbox on the left. 
 [Insert Pic]
+- Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X axis, green is the Y axis, blue is the Z axis. [Insert Pic]
+- Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z axis.  
+Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts, so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders). 
+-Insert Pic
+##Print Settings
+
+#Recommended mode
+
+Once all your parts are arranged on the bed and you are ready to print, head over to the toolbar on the right for your print settings. “Recommended” mode is a simpler view which allows you to control only infill percentage, support placement, and whether or not to include a raft for better build plate adhesion. 
+
+[Insert Pic]
+
+To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print it is set to “Low Quality.” 
+
+#Custom Mode
+
+
