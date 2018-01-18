@@ -14,3 +14,8 @@ Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers 
 Open up Cura. 
 Import your part into Cura using File>Open File
 You can also drag and drop the files into Cura using the file explorer. 
+[Insert Pic]
+You will need to make sure your part is oriented correctly. Here, the part has overhangs. Since the part will be built from the bottom up, overhangs will make your part anywhere between difficult and impossible to print. Overhangs are depicted in red. 
+[Insert Pic]
+You can change the part’s orientation by using the toolbox on the left. 
+[Insert Pic]
