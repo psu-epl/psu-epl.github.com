@@ -40,7 +40,7 @@ To change the print quality, select the dropdown on the top of the toolbar. This
 
 You can adjust your infill settings using the dialog box. More infill produces a stronger part, but uses more filament and takes more time. Less infill will print faster but the part will be weaker.
 
-##Supports
+## Supports
 
 Supports are done through a menu on the right side of the interface. For the Ultimaker 2, you merely have to check the box and you will have access to the following settings: 
 [insert pic] 
@@ -51,6 +51,10 @@ The Ultimaker 2 has only one extruder, so the support material will be the same 
 - _Support Overhang Angle_: The minimal angle from the build plate at which supports will be generated. Decreasing this number will generate more supports, because more angles will be considered overhangs. 
 Support Density: This is the infill density for supports. Just like infill density for your part, increasing it will make your support stronger but the print will take longer and will use more filament. 
 - _Support Horizontal Expansion_: This setting will make your support larger. If the overhanging portion of your part is very small, you may want to increase this setting to make sure it has support. 
+
+## Preparing the Print
+Click “Prepare” in the bottom-right corner of the menu. [insert pic]
+**Finally,** when you are ready to go, plug in the SD card reader into your computer. 
 
 
 
