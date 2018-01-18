@@ -34,5 +34,26 @@ Once all your parts are arranged on the bed and you are ready to print, head ove
 To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print it is set to “Low Quality.” 
 
 ## Custom Mode
+[insert pic]
+
+## Infill Density
+
+You can adjust your infill settings using the dialog box. More infill produces a stronger part, but uses more filament and takes more time. Less infill will print faster but the part will be weaker.
+
+##Supports
+
+Supports are done through a menu on the right side of the interface. For the Ultimaker 2, you merely have to check the box and you will have access to the following settings: 
+[insert pic] 
+
+The Ultimaker 2 has only one extruder, so the support material will be the same material as your part. 
+
+- _Support Placement_: Choose where you want to place your supports. Choose “Touching Buildplate” if you only want to generate support material from the build plate. Choose “Everywhere” if you want to generate support material anywhere there is an overhang, even if that overhang is over your part.  
+- _Support Overhang Angle_: The minimal angle from the build plate at which supports will be generated. Decreasing this number will generate more supports, because more angles will be considered overhangs. 
+Support Density: This is the infill density for supports. Just like infill density for your part, increasing it will make your support stronger but the print will take longer and will use more filament. 
+- _Support Horizontal Expansion_: This setting will make your support larger. If the overhanging portion of your part is very small, you may want to increase this setting to make sure it has support. 
+
+
+
+
 
 
