@@ -6,7 +6,7 @@ title: Portland State University Electronics Prototyping Lab
 
 # The Electronics Prototyping Lab
 
-![The E.P.L](/images/lab_panorama1.jpg)
+![The E.P.L](/images/lab_panorama1.JPG)
 
 <p align="center">
   <b>Quick Links:</b><br>
