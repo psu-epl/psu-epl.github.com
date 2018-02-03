@@ -50,7 +50,7 @@ Read about all of our equipment and policies on our **[wiki](https://github.com/
 
 ## Lab Status
 
-The lab is currently to all PSU students and staff, and to greater Portland community members by
+The lab is currently open to all PSU students and staff, and to greater Portland community members by
 invitation only.
 
 
