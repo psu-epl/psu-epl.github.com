@@ -37,7 +37,7 @@ circuit:
     up: True
     
   - name: FormLabs Form2
-    img: Formlabs2.JPG
+    img: Form 2/Formlabs2.JPG
     sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Formlabs-Form-2
     up: True
     
