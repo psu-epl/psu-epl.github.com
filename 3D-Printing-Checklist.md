@@ -1,5 +1,6 @@
 ---
 title: 3D Printing Checklist
+date: \today
 fontsize: 12pt
 documentclass: article
 classoption: twocolumn
