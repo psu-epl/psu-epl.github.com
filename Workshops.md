@@ -19,12 +19,12 @@ To sign up, visit our [Eventbrite page](https://www.eventbrite.com/o/portland-st
 We use a variety of rooms in the both the Engineering Building and the Fourth Avenue Building. Due to scheduling constraints, we don't always know where we'll be until a shortly before the workshops. Therefore, we'll make sure to post room assignments on the day of the event so you know where to go! In addition, when we have rooms confirmed, we'll post them here. So feel free to refer back to this page a few days before your workshop.
 
 #### Room Assignments
-- **Saturday 1/27**
+- **Saturday 4/21**
 - EagleCAD Workshop -- EB 93
 - Raspberry Pi Workshop -- EB 95
 - Solidworks Workshop -- EB 325 W
 
-- **Sunday 1/28**
+- **Sunday 4/22**
 - Soldering Workshop -- EB 95
 - Git Workshop -- EB 325 W
 - Circuit Testing Workshop -- FAB 60-01
