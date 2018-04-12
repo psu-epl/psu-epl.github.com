@@ -25,6 +25,7 @@ We use a variety of rooms in the both the Engineering Building and the Fourth Av
 - Git Workshop -- EB 92
 - Circuit Testing Workshop -- FAB 60-01
 
+
 - **Sunday 4/22**
 - Soldering Workshop -- EB 95
 - Arduino Workshop -- EB 92
