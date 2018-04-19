@@ -21,13 +21,13 @@ We use a variety of rooms in the both the Engineering Building and the Fourth Av
 #### Room Assignments
 - **Saturday 4/21**
 - EagleCAD Workshop -- EB 93
-- Solidworks Workshop -- EB 325 W
-- Git Workshop -- EB 92
+- Solidworks Workshop -- EB 325
+- Git Workshop -- EB 95
 - Circuit Testing Workshop -- FAB 60-01
 
 
 - **Sunday 4/22**
-- Soldering Workshop -- EB 95
+- Soldering Workshop -- EPL
 - Arduino Workshop -- EB 92
-- Raspberry Pi Workshop -- EB 93
-- KiCAD Workshop -- EB
+- Raspberry Pi Workshop -- EB 95
+- KiCAD Workshop -- EPL Conference Room
