@@ -9,11 +9,11 @@ If you have a board designed in EagleCAD that you would like to create a solder 
 ### Exporting from EAGLE
 1. Download [cream-dxf.ulp](https://github.com/SWITCHSCIENCE/ssci-eagle-public/raw/master/cream-dxf.ulp) to your EAGLE ulp folder.
 2. Open the board file in Eagle.
-3. Type "run cream-dxf.ulp" into the command line. (the DXF exporter above).
+3. Type "run cream-dxf.ulp" into the command line.
 4. Apply the following settings:
-* Uncheck "Cut two times..."
-* Leave "Cut off corners..." unchecked.
-* Leave shrink width at 0.05 mm, or alter if you would like.
+    * Uncheck "Cut two times..."
+    * Leave "Cut off corners..." unchecked.
+    * Leave shrink width at 0.05 mm, or alter if you would like.
 5. Click Run.
 
 This will generate *filename-tcream.dxf* and *filename-bcream.dxf* files in the folder containing your board (.brd) file. These can be imported either to LaserWeb for this laser, or to RDWorks for the big laser.
