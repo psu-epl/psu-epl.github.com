@@ -64,8 +64,8 @@ circuit:
 
   - name: K40 Laser Cutter
     img: K40Laser.jpg
-    sop: https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf
-    up: True
+    sop: https://github.com/psu-epl/psu-epl.github.com/wiki/K-40-Mini-Laser
+    up: false
     
   
 
