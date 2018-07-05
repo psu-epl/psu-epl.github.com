@@ -1,17 +1,26 @@
----
-title: K-40 (Mini Laser) SOP
-author: 
-date: 
-
----
-
 # K-40 (Mini Laser) SOP
 
 ## Before You Start:
 
-### Design
+This laser is primarily used to cut solder stencils to apply solder paste to routed or printed boards for use with surface mount components and the reflow oven.
 
-Designing for a Laser Cutter (link external)
+If you have a board designed in EagleCAD that you would like to create a solder stencil for, follow the instructions below.
+
+### Exporting from EAGLE
+1. Download [cream-dxf.ulp](https://github.com/SWITCHSCIENCE/ssci-eagle-public/raw/master/cream-dxf.ulp) to your EAGLE ulp folder.
+2. Open the board file in Eagle.
+3. Type "run cream-dxf.ulp" into the command line.
+4. Apply the following settings:
+    * Uncheck "Cut two times..."
+    * Leave "Cut off corners..." unchecked.
+    * Leave shrink width at 0.05 mm, or alter if you would like.
+5. Click Run.
+
+This will generate *filename-tcream.dxf* and *filename-bcream.dxf* files in the folder containing your board (.brd) file. These can be imported either to LaserWeb for this laser, or to RDWorks for the big laser.
+
+### Other Designs
+
+LaserWeb only sometimes takes DXFs if they are in R12 format which is an older format that most vector graphics software can no longer export. It is recommended to use .svg files which can be produced by most vector graphics software such as Adobe Illustrator or Inkscape.
 
 ### File Prep for KD-40
 
@@ -24,33 +33,33 @@ need to have design files prepared to be interpretable by LaserWeb.
 ### Startup Procedure
 
 1.  Ensure CW-3000 Industrial Chiller is turned on and green Normal indicator lit.  
-    ![](images/K-40MiniLaserSOPWIP/media/image19.jpg){width="4.673611111111111in" height="3.5052088801399823in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image19.jpg)
 
 2.  Ensure Hakko Fume Extractor System Model HJ3100 is turned on.  
-    ![](images/K-40MiniLaserSOPWIP/media/image20.jpg){width="4.692708880139983in" height="3.5168339895013125in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image20.jpg)
 
 3.  Turn on K-40 main power switch  
-    ![](images/K-40MiniLaserSOPWIP/media/image8.jpg){width="4.6875in" height="3.5156255468066493in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image8.jpg)
 
 4.  Ensure K-40 Laser Switch is depressed. It can be a little hard to
     tell whether this one is depressed or not, but it works like a
     ballpoint pen. Give it a click or two, and you should be able to
     feel the difference. Picture included to help.  
-    ![](images/K-40MiniLaserSOPWIP/media/image22.png){width="4.77127624671916in" height="1.796875546806649in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image22.png)
 
 5.  Ensure you are logged into the control computer. Username will be
     eploven and password will be Fire-Hamster (case sensitive).  
-    ![](images/K-40MiniLaserSOPWIP/media/image25.jpg){width="5.145833333333333in" height="3.8593755468066493in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image25.jpg)
 
 6.  Ensure LaserWeb is open. Double click the shortcut on the control computer.  
-    ![](images/K-40MiniLaserSOPWIP/media/image23.png){width="5.451403105861767in"    height="4.359375546806649in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image23.png)
 
 7.  Connect LaswerWeb to the machine: Click on Comms on the left side
     and open the Machine Connection tab. Make sure the settings are
     correct (“MACHINE CONNECTION” should be set to USB, “USB / SERIAL
     PORT” should be set to “Uberclock LLC (...) @COM10”, and “BAUDRATE”
     should be set to “115200”. Finally, click the connect button.  
-    ![](images/K-40MiniLaserSOPWIP/media/image17.png){width="5.057292213473316in"    height="3.9231200787401574in"}
+    ![](images/K-40MiniLaserSOPWIP/media/image17.png)
 
 8.  Now you are ready for material prep.
 
