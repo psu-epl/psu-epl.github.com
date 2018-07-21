@@ -3,14 +3,22 @@ title: A406 SOP
 layout: doc
 author:
 date:
+numbering: true
 
 ---
 
-[Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf)
+{% comment %}
+----- An Explanation of the ToC -----
+The `## Table of Contents` just provides a section heading (h2) for the ToC.
+The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it from the ToC.
+`1. Table of Contents` is a dummy unordered list for the next line to operate on.
+`{:toc}` turns the previous unordered list into a ToC.
+{% endcomment %}
 
-[A406 Tool Settings](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings)
-
-[Debugging](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Debugging)
+## Table of Contents
+{:.no_toc}
+1. Table of Contents
+{:toc}
 
 # About the A406
 
@@ -20,6 +28,13 @@ The A406 claims to be able to do:
 - 8/8 mils using the 90 degree v-tip.
 
 Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly (for some definition of friendly), but the system is still remarkably flaky given how much we paid for it.
+
+[Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf)
+
+[A406 Tool Settings](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings)
+
+[Debugging](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Debugging)
+
 
 # Using the A406
 
