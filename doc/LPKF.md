@@ -1,3 +1,10 @@
+---
+title: LPKF
+author: 
+date: 
+
+---
+
 The LPKF S63 is small computer-controlled milling machine that is meant to mill blank printed circuit boards (PCBs).
 
 * [[Before you get started]] - you MUST read this before using the LPKF

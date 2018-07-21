@@ -1,3 +1,10 @@
+---
+title: Soldering Equipment
+author: 
+date: 
+
+---
+
 # EPL Soldering and Rework Station
 
 ## Policies

@@ -1,3 +1,10 @@
+---
+title: LPKF Troubleshooting
+author: 
+date: 
+
+---
+
 ## CircuitPro is asking me to use a tool we don't have!
 
 Then you have to tell it that we don't have that tool. Makes sense, right? If only it was obvious where to do this.

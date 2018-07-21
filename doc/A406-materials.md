@@ -1,3 +1,10 @@
+---
+title: A406 Materials
+author:
+date:
+
+---
+
 Materials needed for the **AccurateCNC A406 PCB router**.
 
 # Bits

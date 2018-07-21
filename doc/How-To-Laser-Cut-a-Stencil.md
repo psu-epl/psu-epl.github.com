@@ -1,3 +1,9 @@
+---
+title: How to Laser Cut a Stencil
+author: 
+date: 
+
+---
 A quick note about Kerf: kerf is the edge-to-edge gap left behind after cutting any material.  This can be measured by cutting a straight line, placing the material under the microscope with the calibration slide as a ruler and counting the larger 0.1mm graduation marks.  For cutting out PCB pads, we care about where the center of the laser beam should be in order for the edge of cut to align with the edge of the pad.  So we want the material specific center-to-edge or half kerf measurement to plug into our CAD software.
 
 If you haven't done this before, try parchment paper.  It is cheap, easy and works really well.  When setting up a jig for "printing" your solder paste with a parchment paper stencil, use Kapton tape to hold the top edge of the stencil.  Painters tape (blue tape) will not hold parchment paper securely.

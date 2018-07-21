@@ -1,3 +1,10 @@
+---
+title: A406 Debugging
+author:
+date:
+
+---
+
 ### Improper tool length error.
 If you are getting this error that means that the tool you are trying to use is out of the allowed tolerance for the A406.  The ring length measurement is made from the back of the plastic ring to the tip of the bit.
 

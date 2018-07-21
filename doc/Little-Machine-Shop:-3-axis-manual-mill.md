@@ -1,3 +1,10 @@
+---
+title: Little Machine Ship 3-axis Manual Mill
+author: 
+date: 
+
+---
+
 ## Manual:
 [Here](http://littlemachineshop.com/gallery/ug/3900%20Mini%20Mill%20Users%20Guide.pdf)
 

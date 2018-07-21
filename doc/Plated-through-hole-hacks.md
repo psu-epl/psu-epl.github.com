@@ -1,3 +1,10 @@
+---
+title: Plated Through-hole Hacks
+author: 
+date: 
+
+---
+
 There are three ways to hack your way into plated through holes:
 
 1. **Solder the component lead on both sides:** For example, DIPs and through-hole resistors can be soldered on both sides of the board and make "conductive vias". WARNING! You can't always do this. For example, most 0.1" headers have plastic on the top layer, and you can't solder under that. So be careful if you're counting on this.

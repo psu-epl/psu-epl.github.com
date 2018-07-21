@@ -1,3 +1,9 @@
+---
+title: Full Spectrum Laser Cutter
+author: 
+date: 
+
+---
 # Full Spectrum Professional Series CO2 20x12 Laser
 
 ![The PSU-EPL laser](http://psu-epl.github.com/laser/full_spectrum.jpg)

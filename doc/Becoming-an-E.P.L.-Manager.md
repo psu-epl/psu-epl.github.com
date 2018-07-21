@@ -1,3 +1,10 @@
+---
+title: Becoming an EPL Manager
+author:
+date:
+
+---
+
 E.P.L. managers get 24 card key access to the E.P.L., which is fun. However, there are responsibilities that come with the position, and some hoops to jump through. Here's what you need to know:
 
 - A manager's most important responsibility is to keep the people and equipment safe.

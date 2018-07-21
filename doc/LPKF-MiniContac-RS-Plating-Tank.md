@@ -1,3 +1,10 @@
+---
+title: LPKF MiniContac RS Plating Tank
+author: 
+date: 
+
+---
+
 # About the Plating Tank
 
 The plating tank allows you to plate copper onto the component holes and vias of your PCB.

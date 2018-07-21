@@ -1,3 +1,10 @@
+---
+title: Solder Masks for your PCB
+author: 
+date: 
+
+---
+
 # Giving your Board Solder Mask
 
 ## SOP For ZnO Paste

@@ -1,3 +1,10 @@
+---
+title: Nystrom Vias
+author: 
+date: 
+
+---
+
 Using the Nystrom Method of making vias in milled PCBs
 
 The first step of the process is to choose the right geometry for your vias during board design. The hole size is very critical - .35mm or 14 mil (0.014") is the correct size for the drill. The pad can be made as small as 25 mil, but 30 is more comfortable. These sizes are comparable to 'production' via geometries on 'normal' boards. Smaller vias tend to cost extra because the drill hole and/or the annular ring must be made smaller to get a smaller via.

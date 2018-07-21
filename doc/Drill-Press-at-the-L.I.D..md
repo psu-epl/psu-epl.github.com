@@ -1,3 +1,10 @@
+---
+title: Drill Press
+author:
+date:
+
+---
+
 # Drill Press
 
 The L.I.D. has a Central Machinery 10" 12-speed drill

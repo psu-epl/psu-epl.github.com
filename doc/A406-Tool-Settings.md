@@ -1,3 +1,10 @@
+---
+title: A406 Tool Settings
+author:
+date:
+
+---
+
 
 ### [v60 V-Tip Engraving Bit](http://www.precisebits.com/products/carbidebits/scoreengrave.asp)
    - Diameter 6.2 mils

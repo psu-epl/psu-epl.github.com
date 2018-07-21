@@ -1,3 +1,10 @@
+---
+title: Sponsors
+author: 
+date: 
+
+---
+
 To all of our sponsors:  
 
 #Thank you!!!! 

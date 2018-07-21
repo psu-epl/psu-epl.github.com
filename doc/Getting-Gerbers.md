@@ -1,3 +1,9 @@
+---
+title: Getting Gerber Files
+author: 
+date: 
+
+---
 # Eagle
 ## Getting Gerbers and Drill Files
 This guide will provide a step-by-step instruction on how to retrieve Gerber files from EagleCAD.  First it might be useful to describe what a Gerber is and why we need it.  Very simply put: a gerber file is a standardized instruction used by most manufacturers to define 2D board layers.  Each Gerber will represent one visible layer on your board and you might need different Gerbers for different jobs.  Think of a gerber as a set of instructions for a CNC machine and each instruction is specific to that particular layer.  For prototyping in the LID we will mostly be dealing with four 4 layers:  Top, Bottom, Dimension and Drills.

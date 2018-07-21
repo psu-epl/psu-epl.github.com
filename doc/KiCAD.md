@@ -1,3 +1,9 @@
+---
+title: KiCAD
+author: 
+date: 
+
+---
 #### Intro 
 **[Intro to KiCAD](https://docs.google.com/a/pdx.edu/forms/d/1NqQocyWuhxk0pj_jTsWhFvMnmeMwicBxHlcDnYSgR-E/viewform)**
 

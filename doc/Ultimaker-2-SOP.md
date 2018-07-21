@@ -1,3 +1,10 @@
+---
+title: Ultimaker 2 SOP
+author: 
+date: 
+
+---
+
 [Link to Ultimaker 2 user manual]( https://ultimaker.com/en/resources/16955-changing-filament)
 
 # About the Ultimaker 2

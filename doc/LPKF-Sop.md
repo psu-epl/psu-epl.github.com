@@ -1,3 +1,10 @@
+---
+title: LPKF SOP
+author: 
+date: 
+
+---
+
 # Using the LPKF S63 Circuit Board Plotter
 
 ## Before You Start

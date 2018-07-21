@@ -1,3 +1,10 @@
+---
+title: Make a Stencil
+author: 
+date: 
+
+---
+
 Get Gerber file
 
 Open in Gerbv

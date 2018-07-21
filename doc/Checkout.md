@@ -1,3 +1,10 @@
+---
+title: Checkout
+author:
+date:
+
+---
+
 # Checkout: Paying for the lab
 
 We charge lab users a small fee for using the machines to help pay for the

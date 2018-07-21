@@ -1,3 +1,10 @@
+---
+title: Mojo 3D Printer SOP
+author: 
+date: 
+
+---
+
 # Mojo 3D Printer Standard Operating Procedures
 ## Preparing model to print
 1.	Open the “Mojo Print Wizard”

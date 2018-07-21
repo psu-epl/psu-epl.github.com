@@ -1,3 +1,10 @@
+---
+title: A406 Target Calibration
+author:
+date:
+
+---
+
 Whenever you test the depth of your cut, and you have to adjust the penetration depth less than 2 mils or greater than 3 mils for a standard V cutter, then your target needs to be calibrated. We're so, so, sorry. There are support groups for this sort of thing.
 
 0. Get ready.

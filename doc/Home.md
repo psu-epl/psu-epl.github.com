@@ -1,3 +1,9 @@
+---
+title: Home
+author: 
+date: 
+
+---
 # PSU Electronics Prototyping Lab
 
 **What:** The E.P.L is a lab for rapidly prototyping *electronics* projects. With a motto of "bits to atoms", the E.P.L is here to allow you walk in with PCB and 3D CAD files and walk out with a fully functioning piece of electronics in an enclosure.

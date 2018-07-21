@@ -1,3 +1,10 @@
+---
+title: PSU Faculty and Staff FAQs
+author: 
+date: 
+
+---
+
 ### As Faculty/Staff, do I get automatic access to the lab?
 
 Unfortunately, no. Just like everyone else in the lab, you could accidentally kill, maim, or hurt someone if you don't have the proper training. You *must* be trained on the equipment in order to use it. 

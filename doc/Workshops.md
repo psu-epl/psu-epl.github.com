@@ -1,3 +1,10 @@
+---
+title: Workshops
+author: 
+date: 
+
+---
+
 [//]: # (To make any links live follow this formatting:
 ["Title of Link"](Link)
 

@@ -1,4 +1,9 @@
-***
+---
+title: EPL Policies
+author: 
+date: 
+
+---
 
 # Electronics Prototyping Lab policies (DRAFT)
 

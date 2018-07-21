@@ -1,3 +1,10 @@
+---
+title: "LPKF: Design Rules"
+author:
+date:
+
+---
+
 ## Design Rules
 
 You should design your PCBs for the LPKF with the following **design rules**:

@@ -1,3 +1,10 @@
+---
+title: Material Prices
+author: 
+date: 
+
+---
+
 # Money for materials? #
 ## Soldering Station ##
 - $1.00 per day

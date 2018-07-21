@@ -1,3 +1,10 @@
+---
+title: QD 1390 Laser Cutter
+author: 
+date: 
+
+---
+
 # QD-1390 Laser Cutter
 
 [Operating Manual](https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf)

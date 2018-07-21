@@ -1,3 +1,10 @@
+---
+title: Silhouette Cameo
+author: 
+date: 
+
+---
+
 # Silhouette Cameo
 The Silhouette Cameo is a craft focused cutting plotter.
 

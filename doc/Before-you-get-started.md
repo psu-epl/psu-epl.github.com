@@ -1,3 +1,10 @@
+---
+title: "LPKF: Before You Get Started"
+author:
+date:
+
+---
+
 It's absolutely **critical** you understand the capabilities and many limits of the LPKF S63 PCB router before you try and make your board on it. In fact, you'll have to design your board *differently* if you use the LPKF as opposed to commercial fabrication. So listen up.
 
 ## Differences between LPKF and Standard PCB Manufacturing

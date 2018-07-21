@@ -1,3 +1,10 @@
+---
+title: Test Equipment
+author: 
+date: 
+
+---
+
 ## Oscilloscopes
 * Tektronix TDS684A 1GHz
 * Tektronix TDS3034 300MHz

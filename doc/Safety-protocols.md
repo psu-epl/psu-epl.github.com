@@ -1,3 +1,10 @@
+---
+title: Safety protocols
+author: 
+date: 
+
+---
+
 ## EMERGENCY SAFETY PROTOCOLS - SERIOUS INJURY, FIRE, ETC.
 
 - Contact PSU Safety immediately. (See bright yellow card posted in the lab)
