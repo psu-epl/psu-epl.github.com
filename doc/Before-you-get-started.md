@@ -1,5 +1,6 @@
 ---
 title: "LPKF: Before You Get Started"
+layout: doc
 author:
 date:
 

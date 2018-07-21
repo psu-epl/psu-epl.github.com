@@ -1,5 +1,6 @@
 ---
 title: Ultimaker 2 SOP
+layout: doc
 author: 
 date: 
 

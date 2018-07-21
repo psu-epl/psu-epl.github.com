@@ -1,5 +1,6 @@
 ---
 title: Material Database
+layout: doc
 author: 
 date: 
 

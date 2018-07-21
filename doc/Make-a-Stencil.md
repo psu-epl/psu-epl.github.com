@@ -1,5 +1,6 @@
 ---
 title: Make a Stencil
+layout: doc
 author: 
 date: 
 

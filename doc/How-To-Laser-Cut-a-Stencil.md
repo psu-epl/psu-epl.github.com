@@ -1,5 +1,6 @@
 ---
 title: How to Laser Cut a Stencil
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: LPKF SOP
+layout: doc
 author: 
 date: 
 

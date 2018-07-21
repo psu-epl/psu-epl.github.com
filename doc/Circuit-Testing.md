@@ -1,5 +1,6 @@
 ---
 title: Circuit Testing
+layout: doc
 author:
 date:
 

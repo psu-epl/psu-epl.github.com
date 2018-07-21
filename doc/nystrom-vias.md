@@ -1,5 +1,6 @@
 ---
 title: Nystrom Vias
+layout: doc
 author: 
 date: 
 

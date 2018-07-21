@@ -1,5 +1,6 @@
 ---
-title:
+title: 3D Printers
+layout: doc
 author:
 date:
 

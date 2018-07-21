@@ -1,5 +1,6 @@
 ---
 title: Becoming an EPL Manager
+layout: doc
 author:
 date:
 

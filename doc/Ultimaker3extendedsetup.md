@@ -1,5 +1,6 @@
 ---
 title: Ultimaker 3 Extended Setup
+layout: doc
 author: 
 date: 
 

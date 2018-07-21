@@ -1,5 +1,6 @@
 ---
 title: A406 Target Calibration
+layout: doc
 author:
 date:
 

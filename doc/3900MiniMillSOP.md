@@ -1,5 +1,6 @@
 ---
 title: 3900 Mini Mill SOP
+layout: doc
 author: 
 date: 
 

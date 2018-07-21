@@ -1,5 +1,6 @@
 ---
 title: Torch T200N Reflow Oven
+layout: doc
 author: 
 date: 
 

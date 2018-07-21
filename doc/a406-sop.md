@@ -1,5 +1,6 @@
 ---
 title: A406 SOP
+layout: doc
 author:
 date:
 

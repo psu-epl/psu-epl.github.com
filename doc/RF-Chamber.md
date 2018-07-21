@@ -1,5 +1,6 @@
 ---
 title: RF Chamber
+layout: doc
 author: 
 date: 
 

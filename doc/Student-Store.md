@@ -1,5 +1,6 @@
 ---
 title: Student Store
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: Mojo 3D Printer SOP
+layout: doc
 author: 
 date: 
 

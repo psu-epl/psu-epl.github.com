@@ -1,5 +1,6 @@
 ---
 title: Safety protocols
+layout: doc
 author: 
 date: 
 

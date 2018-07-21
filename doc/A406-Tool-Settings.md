@@ -1,5 +1,6 @@
 ---
 title: A406 Tool Settings
+layout: doc
 author:
 date:
 

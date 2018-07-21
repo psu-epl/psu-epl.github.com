@@ -1,5 +1,6 @@
 ---
 title: "LPKF: Maintenance SOPs"
+layout: doc
 author: 
 date: 
 

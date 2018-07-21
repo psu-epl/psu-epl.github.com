@@ -1,5 +1,6 @@
 ---
 title: Soldering Workshop
+layout: doc
 author: 
 date: 
 

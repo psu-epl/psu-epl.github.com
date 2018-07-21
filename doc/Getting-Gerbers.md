@@ -1,5 +1,6 @@
 ---
 title: Getting Gerber Files
+layout: doc
 author: 
 date: 
 

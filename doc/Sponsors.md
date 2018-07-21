@@ -1,5 +1,6 @@
 ---
 title: Sponsors
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: Onshape Workshop
+layout: doc
 author: 
 date: 
 

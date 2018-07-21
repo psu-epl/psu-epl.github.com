@@ -1,5 +1,6 @@
 ---
 title: A406 Debugging
+layout: doc
 author:
 date:
 

@@ -1,5 +1,6 @@
 ---
 title: QD 1390 Laser Cutter
+layout: doc
 author: 
 date: 
 

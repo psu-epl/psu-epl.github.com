@@ -1,5 +1,6 @@
 ---
 title: EPL Policies
+layout: doc
 author: 
 date: 
 

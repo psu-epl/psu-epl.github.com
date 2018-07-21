@@ -1,5 +1,6 @@
 ---
 title: Full Spectrum Laser Cutter
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: LPKF Troubleshooting
+layout: doc
 author: 
 date: 
 

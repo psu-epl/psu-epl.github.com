@@ -1,5 +1,6 @@
 ---
 title: LPKF Supplies
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: Vector Network Analyzer (VNA)
+layout: doc
 author: 
 date: 
 

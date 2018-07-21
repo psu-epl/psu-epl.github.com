@@ -1,5 +1,6 @@
 ---
 title: Eagle CAD
+layout: doc
 author:
 date:
 

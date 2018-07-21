@@ -1,5 +1,6 @@
 ---
 title: PSU Faculty and Staff FAQs
+layout: doc
 author: 
 date: 
 

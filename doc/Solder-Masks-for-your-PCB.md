@@ -1,5 +1,6 @@
 ---
 title: Solder Masks for your PCB
+layout: doc
 author: 
 date: 
 

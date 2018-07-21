@@ -1,5 +1,6 @@
 ---
 title: Drill Press
+layout: doc
 author:
 date:
 

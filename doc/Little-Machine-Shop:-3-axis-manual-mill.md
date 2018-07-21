@@ -1,5 +1,6 @@
 ---
 title: Little Machine Ship 3-axis Manual Mill
+layout: doc
 author: 
 date: 
 

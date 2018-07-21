@@ -1,5 +1,6 @@
 ---
 title: LPKF
+layout: doc
 author: 
 date: 
 

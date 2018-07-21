@@ -1,5 +1,6 @@
 ---
 title: 3D Printing Checklist
+layout: doc
 date: \today
 fontsize: 12pt
 documentclass: article

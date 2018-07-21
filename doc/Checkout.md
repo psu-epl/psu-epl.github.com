@@ -1,5 +1,6 @@
 ---
 title: Checkout
+layout: doc
 author:
 date:
 

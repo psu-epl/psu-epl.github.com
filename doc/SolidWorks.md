@@ -1,5 +1,6 @@
 ---
 title: SolidWorks
+layout: doc
 author: 
 date: 
 

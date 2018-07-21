@@ -1,5 +1,6 @@
 ---
 title: Material Prices
+layout: doc
 author: 
 date: 
 

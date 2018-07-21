@@ -1,5 +1,6 @@
 ---
 title: Test Equipment
+layout: doc
 author: 
 date: 
 

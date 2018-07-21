@@ -1,5 +1,6 @@
 ---
 title: Formlabs Form2
+layout: doc
 author: 
 date: 
 

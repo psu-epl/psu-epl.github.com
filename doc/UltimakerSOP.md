@@ -1,5 +1,6 @@
 ---
 title: UltimakerSOP
+layout: doc
 author: 
 date: 
 

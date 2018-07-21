@@ -1,5 +1,6 @@
 ---
 title: Soldering Equipment
+layout: doc
 author: 
 date: 
 

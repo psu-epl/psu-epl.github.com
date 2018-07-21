@@ -1,5 +1,6 @@
 ---
 title: Silhouette Cameo
+layout: doc
 author: 
 date: 
 

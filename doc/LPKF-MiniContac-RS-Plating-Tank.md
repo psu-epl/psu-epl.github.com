@@ -1,5 +1,6 @@
 ---
 title: LPKF MiniContac RS Plating Tank
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: Locker Database
+layout: doc
 author: 
 date: 
 

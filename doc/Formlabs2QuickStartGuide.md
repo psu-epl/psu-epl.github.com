@@ -1,5 +1,6 @@
 ---
 title: Formlabs2 Quick Start Guide
+layout: doc
 author: 
 date: 
 

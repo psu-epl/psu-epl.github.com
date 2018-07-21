@@ -1,5 +1,6 @@
 ---
 title: Workshops
+layout: doc
 author: 
 date: 
 

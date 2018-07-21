@@ -1,5 +1,6 @@
 ---
 title: "LPKF: Design Rules"
+layout: doc
 author:
 date:
 

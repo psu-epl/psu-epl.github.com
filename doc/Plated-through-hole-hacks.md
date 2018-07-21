@@ -1,5 +1,6 @@
 ---
 title: Plated Through-hole Hacks
+layout: doc
 author: 
 date: 
 

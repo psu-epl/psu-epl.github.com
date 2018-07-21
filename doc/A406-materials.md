@@ -1,5 +1,6 @@
 ---
 title: A406 Materials
+layout: doc
 author:
 date:
 

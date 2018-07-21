@@ -1,5 +1,6 @@
 ---
 title: K-40 Mini Laser SOP
+layout: doc
 author: 
 date: 
 

@@ -1,5 +1,6 @@
 ---
 title: Using LPKF's Easycontac Rivet System
+layout: doc
 author: 
 date: 
 

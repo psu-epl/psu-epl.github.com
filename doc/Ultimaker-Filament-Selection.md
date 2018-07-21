@@ -1,5 +1,6 @@
 ---
 title: Ultimaker Filament Selection
+layout: doc
 author: 
 date: 
 
