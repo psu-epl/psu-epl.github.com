@@ -35,20 +35,23 @@
         <table width=100% style="margin-left: auto; margin-right: auto;">
           <tr>
             <th>
-              <!-- left column-->
-              <a class="home" href="{{ site.url }}">EPL Home</a>
-              <br/>
-              <a href="{{ site.url }}/doc">Lab Documentation</a>
-              <br/>
-              <a href="https://github.com/psu-epl">GitHub Organization</a>
+              <div align="left">
+                <!-- left column-->
+                <a href="#">Back to top</a>
+                <br/>
+                <a class="home" href="{{ site.url }}">EPL Home</a>
+                <br/>
+                <a href="https://github.com/psu-epl">GitHub Organization</a>
+	      </div>
             </th>
             <th>
-              <div align="right" width=40%>
+              <div align="right">
                 <!-- right column-->
-                <a class="totop" href="#">Back to top</a>
+                <a href="{{ site.url }}/doc">Lab Documentation</a>
                 <br/>
+		<a href="{{ site.url }}/doc/contributing">Style Guide</a>
                 <br/>
-                <a href="https://github.com/psu-epl/psu-epl.github.com/edit/master/{{ page.path }}">Edit This Page</a>
+                <a href="https://github.com/psu-epl/psu-epl.github.com/edit/master/{{ page.path }}">Edit this Page</a>
               </div>
             </th>
           </tr>

@@ -7,7 +7,8 @@ sidebar: toc
 
 ---
 
-Can't find what you're looking for? Try the [site list](siteList).
+Can't find what you're looking for? Try the [site list](siteList).  
+If you'd like to contribute to this documentation, [read this](contributing).
 
 # [Equipment](equip)
 This page links to the documentation you *must read* before being trained on a given piece of equipment.

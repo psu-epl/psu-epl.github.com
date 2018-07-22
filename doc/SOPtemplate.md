@@ -59,4 +59,4 @@ Explain how to reset the work station for the next user.
 # Tips and Tricks
 List some sections describing advaned techniques.
 
-## How to Brew Coffee with this Machine
+## How to Make Tea with this Machine

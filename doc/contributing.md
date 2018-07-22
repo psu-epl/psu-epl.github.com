@@ -28,8 +28,8 @@ All of the actual content is in [Markdown] files (`.md` or sometimes `.markdown`
 
 # Content Changes
 Managers are able to make changes to this site [through the GitHub repo.][repo]
-You can edit these relatively easily through a browser, 
-though it's preferred that big changes (particularly multi-file changes) be done locally through Git.
+You can edit these relatively easily through a browser by clicking the "Edit this Page" link [at the bottom of a page](#footer).
+However, it's preferred that big changes (particularly multi-file changes) be done locally through Git.
 Check out the [Markdown] syntax, if it's not familiar to you.
 Each page also requires a [YAML] header with a title and layout, which you should be able to figure out by looking at an existing page.
 
@@ -59,9 +59,17 @@ For distant relative links, you may find it convenient to take advantage of Jeky
 ### SOPs
 Below is a template for how the Markdown of an SOP should [look](SOPtemplate.html). Pictures and concrete examples are always preferred.
 
-```
+```markdown
 {% include SOPtemplate.md %}
 ```
+
+## Organization
+Every directory gets an `index.md`. 
+It's okay if that's the only file in that directory, but it must link to all the other files in that directory.
+(That includes the indices of the subdirectories.)
+`index.md` is also what other files should generally point to. 
+To link from `doc/policies/foo.md` to `doc/equip/misc/index.md`, you'd use a link like this:
+`[Click here to go to misc.](../equip/misc)`
 
 # Structural Changes
 GitHub Pages automatically builds the Markdown content into HTML pages using [Jekyll], a [Ruby] library.
