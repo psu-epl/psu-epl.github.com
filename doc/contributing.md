@@ -11,17 +11,23 @@ layout: doc
 * ToC
 {:toc}
 
-{% comment %}
------ An Explanation of the ToC -----
-The `## Table of Contents` just provides a section heading (h2) for the ToC.
-The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it from the ToC.
-`* Table of Contents` is a dummy unordered list for the next line to operate on.
-`{:toc}` turns the previous unordered list into a ToC.
-{% endcomment %}
+# About this Site
+This site is hosted through [GitHub Pages][GH Pages] using [Jekyll], 
+to make things easier for managers to edit than HTML and cleaner than a GitHub wiki.
+All of the actual content is in [Markdown] files (`.md` or sometimes `.markdown`) on the site's GitHub [repo].
+
+## Useful Links
+- [repo]
+- [Jekyll] website
+- [Ruby] website
+- [Markdown] syntax
+- [YAML] website
+- [machine status] file
+- [GH Pages] website
+- [LESS] website
 
 # Content Changes
 Managers are able to make changes to this site [through the GitHub repo.][repo]
-All of the content is in [Markdown] files (`.md` or sometimes `.markdown`).
 You can edit these relatively easily through a browser, 
 though it's preferred that big changes (particularly multi-file changes) be done locally through Git.
 Check out the [Markdown] syntax, if it's not familiar to you.
@@ -43,61 +49,10 @@ The contents of each heading should fit on a single screen (less than 40 lines),
 All YAML headings must contain a title. Level 1 headings are not titles.
 
 ### SOPs
-Here's a template for how the Markdown of an SOP should look. Pictures and concrete examples are always preferred.
+Below is a template for how the Markdown of an SOP should [look](SOPtemplate.html). Pictures and concrete examples are always preferred.
 
 ```
----
-title: Coffee Maker SOP
-layout: doc
-author: "Alice Barnicle, Charles Dunkirk"
-date: 2069-04-20
----
-
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
-A ToC is optional, but preferred for longer documents.
-Simply paste the above code into the document.
-See this document's source for an explanation.
-
-# About this Machine
-![](relative/linkTo/aPictureOf/theMachineOrProcess.jpg)
-<a short description of what this machine's good for plus its advantages, disadvantages, and quirks>
-
-## Useful Links
-- [manufacturer website](https://notanactualaddress.foo)
-- You can find the manual [here](manual.pdf).
-- <more links to manufacturer docs, calculators, outside tutorials, etc.>  
-It's preferred that critical documents like manuals, TDSs, and MSDSs be kept in the repo when possible/allowed.
-
-## Machine Safety
-<notes about possible hazards and the necessary procedures and equipment to avoid them>
-Make it clear that the user is responsible for their own safety 
-and that of the people around them while using this tool.
-
-## How to Get Help
-<a list of which documents, websites, people, or mailing lists should be consulted in case of problems>
-
-# Using this Machine
-These sections describe the standard usage and common pitfalls.
-
-## Setup
-<how to check that the machine is okay to use>
-<make the machine ready to use>
-
-## Operation
-<how to actually *do the thing*>
-
-## Shutdown
-<how to safely shut down the machine>
-
-## Cleanup
-<how to reset the work station for the next user>
-
-# Tips and Tricks
-<some sections describing advaned techniques>
-## How to Brew Coffee with this Machine
+{% include SOPtemplate.md %}
 ```
 
 # Structural Changes
@@ -139,9 +94,34 @@ You should *never* commit anything in the `_site` directory.
 (It's ignored by the `.gitignore`, so this should be hard to do by accident anyway.)
 GitHub Pages will automatically re-render the site when changes are pushed to the `master` branch.
 
+## Styling 
+The site's CSS is built via [LESS CSS][LESS] from `assets/less/style.less`.
+The resulting CSS is already in the repo, so you don't need to worry about it unless you're changing it.
+If you do need to change it, you'll need the `less` gem installed:
+
+```
+sudo gem install less
+```
+
+This should give you access to the `lessc` command.
+
+You'll also need to get the submodule that contains the theme that serves as a basis for the styling:
+
+```
+git submodule init
+git submodule update
+```
+
+This will clone the repo that provides that styling.
+
+Run `make theme` or `make themedev` to build the CSS.
+(`make theme` compresses the CSS by removing whitespace. Currently, it tries to use a deprecated option to `lessc`. There isn't much reason to update it going forward though.)
+
 [repo]: https://github.com/psu-epl/psu-epl.github.com/
 [Jekyll]: https://jekyllrb.com/
 [Ruby]: https://www.ruby-lang.org/en/
 [Markdown]: https://daringfireball.net/projects/markdown/syntax
 [YAML]: http://yaml.org/
 [machine status]: https://github.com/psu-epl/psu-epl.github.com/blob/master/_data/machines.yml
+[GH Pages]: https://pages.github.com/
+[LESS]: http://lesscss.org/
