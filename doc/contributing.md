@@ -47,6 +47,14 @@ Documents should be structured hierarchically with descriptive headings.
 Headings should be done with pound signs, rather than dashes, to avoid ambiguity.
 The contents of each heading should fit on a single screen (less than 40 lines), not counting images.
 All YAML headings must contain a title. Level 1 headings are not titles.
+Media for any documents should go in the `doc/images` directory.
+Supplementary documents, like a manufacturer manual, should go in the same directory as the associated document (the SOP in the case of a manual).
+Relative links should be used whenever possible. (`![](images/kitten.jpg)` for example.)
+Absolute links should only be used when linking outside of {{ site.url }}.
+For distant relative links, you may find it convenient to take advantage of Jekyll:
+```
+{% raw %}{{ site.url }}/some/weird/subdirectories{% endraw %}
+```
 
 ### SOPs
 Below is a template for how the Markdown of an SOP should [look](SOPtemplate.html). Pictures and concrete examples are always preferred.
