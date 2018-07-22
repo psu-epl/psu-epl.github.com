@@ -92,6 +92,8 @@ The necessary commands are already set up in the Makefile,
 so you can simply run `make preview` and visit the address it tells you in a browser.
 This is usually `localhost:4000`. (Literally paste `localhost:4000` into your address bar.) 
 While this command is running, any file you change will be automatically rebuilt in the site.
+It can be very helpful to keep the terminal running this command visible, since it will call out any errors
+or instances of files that couldn't be found, such as broken image links.
 Remember to refresh the page in your browser to see these changes.
 If you don't have `make`, running `jekyll serve --watch` is equivalent.
 
