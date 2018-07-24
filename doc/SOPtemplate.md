@@ -21,7 +21,7 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 {% endcomment %}
 
 # About this Machine
-![B&W picture of a kitten](images/kitten.jpg)
+![picture of the machine](images/kitten.jpg)
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
 
 ## Useful Links
