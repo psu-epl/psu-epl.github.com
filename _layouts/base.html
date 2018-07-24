@@ -41,6 +41,12 @@
                 <br/>
                 <a class="home" href="{{ site.url }}">EPL Home</a>
                 <br/>
+		<!-- This is gory af, but it works, lol. -->
+		{% unless page.url == '/' %}
+		  {% assign pagePath = page.url | split: '/' %}
+                  <a href="{% for dir in pagePath %}{% unless forloop.first %}/{% endunless %}{% unless forloop.last %}{{ dir }}{% endunless %}{% endfor %}">Go To Parent</a>
+                  <br/>
+		{% endunless %}
                 <a href="https://github.com/psu-epl">GitHub Organization</a>
 	      </div>
             </th>
