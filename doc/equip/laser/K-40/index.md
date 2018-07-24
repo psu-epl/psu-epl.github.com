@@ -7,6 +7,11 @@ date:
 ---
 # K-40 (Mini Laser) SOP
 
+## Useful Links
+[How-To-Laser-Cut-a-Stencil](How-To-Laser-Cut-a-Stencil)  
+[K-40manual](K-40manual.pdf)  
+[Make-a-Stencil](Make-a-Stencil)  
+
 ## Before You Start:
 
 This laser is primarily used to cut solder stencils to apply solder paste to routed or printed boards for use with surface mount components and the reflow oven.

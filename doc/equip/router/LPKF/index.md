@@ -16,6 +16,16 @@ The LPKF S63 is small computer-controlled milling machine that is meant to mill 
 * [[LPKF Maintenance]] - Including changing bits, tool collet, etc.
 * [[LPKF Troubleshooting]] - When Things Go Wrong.
 
-----
 
 * [[LPKF supplies]] - Bits, PCB materials, etc.
+
+# Useful Links
+
+[Before-you-get-started](Before-you-get-started)  
+[Design-rules](Design-rules)  
+[LPKF-Maintenance](LPKF-Maintenance)  
+[LPKF-MiniContac-RS-Plating-Tank](LPKF-MiniContac-RS-Plating-Tank)  
+[LPKF-Sop](LPKF-Sop)  
+[LPKF-Supplies](LPKF-Supplies)  
+[LPKF-Troubleshooting](LPKF-Troubleshooting)  
+[Using-LPKF's-Easycontac-Rivet-System](Using-LPKF's-Easycontac-Rivet-System)  

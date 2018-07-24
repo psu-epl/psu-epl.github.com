@@ -14,6 +14,9 @@ The Ultimaker 2 3D printer is for printing solid 3D models from digital
 files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints
 only in PLA (Polyactic Acid) filament.
 
+# Useful Links
+[Ultimaker-2-SOP](Ultimaker-2-SOP)
+
 # Your STL file
 
 You will need to have your part in .stl (Stereolithographic) format.

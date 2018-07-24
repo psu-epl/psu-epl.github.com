@@ -7,7 +7,6 @@ layout: doc
 ---
 
 
-{% include machines.html %}
 
 # [Laser Cutters](laser)
 # [Machining Tools](machining)
@@ -17,3 +16,5 @@ layout: doc
 # [Soldering Equipment](solder)
 # [Testing Equipment](testing)
 # [Miscellaneous](misc)
+
+{% include machines.html %}

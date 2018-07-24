@@ -35,6 +35,12 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 
 [Debugging](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Debugging)
 
+# Useful Links
+
+[A406-Debugging](A406-Debugging)  
+[A406-materials](A406-materials)  
+[A406-target-calibration](A406-target-calibration)  
+[A406-Tool-Settings](A406-Tool-Settings)  
 
 # Using the A406
 
