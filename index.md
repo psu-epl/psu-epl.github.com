@@ -1,11 +1,9 @@
 ---
 layout: base
 title: Portland State University Electronics Prototyping Lab
-
 ---
 
 
-# The Electronics Prototyping Lab
 The EPL is a lab for rapidly prototyping electronics projects. 
 It is meant for both students and the community to be able to walk in with an idea and walk out with a fully functioning prototype.
 
@@ -14,8 +12,6 @@ Our phone number is **503-725-2879**.
 
 Please consider **[donating to the lab][donate]** to help us further our growth.
 We are a 501c3 and your donation is tax deductible! 
-
-![The EPL](/images/lab_panorama1.JPG)
 
 ## Quick Links
 [Equipment] |
@@ -53,6 +49,8 @@ break. When they do, we'll be sure to make a note of it here:
 ## Lab Status
 The lab is currently open to all PSU students and staff, and to greater Portland community members by
 invitation only.
+
+![The EPL](/images/lab_panorama1.JPG)
 
 [manager repo]: https://github.com/psu-epl/epl-managers-private/wiki
 [Equipment]: doc/equip
