@@ -8,8 +8,8 @@ layout: doc
 # [Checkout](Checkout)
 Pay for parts and machine time online.
 
-# [Material-Prices](Material-Prices)
-Pricing for machine time, materials, et cetera.
+# [Pricing](pricing)
+Pricing for machine time, materials, lockers, et cetera.
 You can also [check our spreadsheet][sheet] for in-stock items and pricing. 
 However, it's usually inaccurate. 
 
