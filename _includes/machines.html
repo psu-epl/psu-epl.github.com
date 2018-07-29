@@ -1,41 +1,15 @@
-<h3>Circuit Board Manufacturing:</h3>
-<div class="machine-list">
-    {% for machine in site.data.machines.circuit %}
-      <div class="machine {% if machine.up != true %}down{% else %}up{% endif %}">
-       <a href="{{ machine.sop }}">
-        <img src="/images/{{ machine.img }}">
-        <p>
-          {{ machine.name }}
-        </p>
-      </a>
+{% for category in site.data.machines %}
+  <h3>{{ category.title }}</h3>
+  <div class="machine-list">
+    {% for machine in category.machines %}
+      <div class="machine {% if machine.up == true %}up{% elsif machine.up == false %}down{% else %}other{% endif %}">
+        <a href="{{ machine.sop }}">
+          <img src="{{ site.url }}/images/{{ machine.img }}">
+          <p>
+            {{ machine.name }}
+          </p>
+        </a>
       </div>
     {% endfor %}
-</div>
-
-<h3>3D Prototyping:</h3>
-<div class="machine-list">
-    {% for machine in site.data.machines.3Dproto %}
-      <div class="machine {% if machine.up != true %}down{% else %}up{% endif %}">
-       <a href="{{ machine.sop }}">
-        <img src="/images/{{ machine.img }}">
-        <p>
-          {{ machine.name }}
-        </p>
-      </a>
-      </div>
-    {% endfor %}
-</div>
-
-<h3>2D Prototyping:</h3>
-<div class="machine-list">
-    {% for machine in site.data.machines.2Dproto %}
-      <div class="machine {% if machine.up != true %}down{% else %}up{% endif %}">
-       <a href="{{ machine.sop }}">
-        <img src="/images/{{ machine.img }}">
-        <p>
-          {{ machine.name }}
-        </p>
-      </a>
-      </div>
-    {% endfor %}
-</div>
+  </div>
+{% endfor %}

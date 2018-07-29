@@ -51,6 +51,7 @@ If a machine isn't ready to be used by students, it's highlighted in red.
 To change the status of a machine, go to [_data/machines.yml][machine status].
 Then, set the `up: ` field to `true` if the machine is working.
 I'm sure you can figure out what to do if it isn't working.
+Assigning any value other than `true` or `false` will display that the machine "may have issues".
 
 ## Style
 Documents should be structured hierarchically with descriptive headings.
