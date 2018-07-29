@@ -2,71 +2,119 @@
   machines:
     - name: LPKF PCB Router
       img: protomat-s63.jpg
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF
+      sop: /doc/equip/router/LPKF
       up: true
 
     - name: A406 PCB Router
       img: A406.jpg
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/a406-sop
+      sop: /doc/equip/router/A406
       up: true
 
     - name: T200N Desktop Solder Oven
       img: torch.jpg
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Torch-T200N-Reflow-Oven
+      sop: /doc/equip/solder/Torch-T200N-Reflow-Oven
       up: true
 
     - name: Test and Measurement
       img: test_equipment.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Test-Equipment
+      sop: /doc/equip/testing
       up: true
 
 - title: 3D Printers
   machines:
     - name: Stratasys Mojo 3D Printer
       img: mojo.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Mojo-3D-Printer-SOP
+      sop: /doc/equip/printer/mojo
       up: true
 
     - name: Ultimaker2 3D Printer
       img: ultimaker.jpg
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
+      sop: /doc/equip/printer/UM2
       up: asdf
       
     - name: Ultimaker3 Extended 3D Printer (x2)
       img: Ultimaker3.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Ultimaker-SOP
+      sop: /doc/equip/printer/UM3
       up: True
       
     - name: FormLabs Form2
       img: Form 2/Formlabs2.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Formlabs-Form-2
+      sop: /doc/equip/printer/form2
       up: True
 
 - title: Machining Equipment
   machines:
     - name: Little Machine Shop Mill
       img: littlemachine3990.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Little-Machine-Shop:-3-axis-manual-mill
+      sop: /doc/equip/machining/lathe
       up: true
          
     - name: Little Machine Shop Lathe
       img: htbl.jpg
-      sop: http://littlemachineshop.com/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf
+      sop: /doc/equip/machining/mill
+      up: true
+
+    - name: Drill Press
+      img: 
+      sop: /doc/equip/machining/drillPress
       up: true
 
 - title: Laser Cutters
   machines:
     - name: QD-1390 Laser Cutter
       img: QD1390LaserCutter.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/QD-1390-Laser-Cutter
+      sop: /doc/equip/laser/QD-1390
       up: true
       
     - name: Full Spectrum Pro CO2 Laser Cutter
       img: prolf20x12.JPG
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/Full-Spectrum-Laser-cutter
+      sop: /doc/equip/laser/fullSpectrum
       up: false
 
     - name: K40 Laser Cutter
       img: K40Laser.jpg
-      sop: https://github.com/psu-epl/psu-epl.github.com/wiki/K-40-Mini-Laser
+      sop: /doc/equip/laser/K-40
       up: true
+
+- title: Shop and Hand Tools
+  machines:
+    - name: Angle Grinder
+      img: 
+      sop:
+      up: true
+
+    - name: Saws-All
+      img: 
+      sop:
+      up: true
+
+    - name: Belt Sander
+      img: 
+      sop:
+      up: true
+
+    - name: Bench Grinder
+      img: 
+      sop:
+      up: true
+
+    - name: Scroll Saw
+      img: 
+      sop:
+      up: true
+
+    - name: Miter Saw
+      img: 
+      sop:
+      up: false
+
+    - name: Rotary Tool
+      img: 
+      sop:
+      up: true
+
+    - name: Arbor Press
+      img: 
+      sop:
+      up: true
+
