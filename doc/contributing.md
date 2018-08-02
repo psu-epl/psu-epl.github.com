@@ -51,6 +51,7 @@ If a machine isn't ready to be used by students, it's highlighted in red.
 To change the status of a machine, go to [_data/machines.yml][machine status].
 Then, set the `up: ` field to `true` if the machine is working.
 I'm sure you can figure out what to do if it isn't working.
+Assigning any value other than `true` or `false` will display that the machine "may have issues".
 
 ## Style
 Documents should be structured hierarchically with descriptive headings.
@@ -76,7 +77,7 @@ While you *can* put HTML directly in Markdown files, this is strongly discourage
 In most cases, HTML is unnecessary and badly hurts readability and maintainability.
 
 ### SOPs
-Below is a template for how the Markdown of an SOP should [look](SOPtemplate.html). Pictures and concrete examples are always preferred.
+Below is a template for how the Markdown of an SOP should look. Pictures and concrete examples are always preferred.
 
 ```markdown
 {% include SOPtemplate.md %}

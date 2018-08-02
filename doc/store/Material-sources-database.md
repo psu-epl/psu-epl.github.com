@@ -3,27 +3,23 @@ title: Material Sources Database
 layout: doc
 author: 
 date: 
-
 ---
 
 # Laser Cutter
-
 - Full Spectrum Laser SN 07/11/8350-639
 
 ## Airfilter
-
 - BOFA International Ltd: http://www.bofaamericas.com / 618-205-5007
 - Filter # A1030055 + Prefilter # A1030056
  
 
 ## Kapton Film
-
 Used for solder stencils, sort of not as good as paper.
 
-* Vendor: Kapton Source <http://Kaptonsource.com/>
-  * 3 Mil by 12" by 36 yard roll
-  * PC533FILM-12000-36
-  * $315.00 + shipping
+- Vendor: Kapton Source <http://Kaptonsource.com/>
+  - 3 Mil by 12" by 36 yard roll
+  - PC533FILM-12000-36
+  - $315.00 + shipping
 
 ## Bamboo
 

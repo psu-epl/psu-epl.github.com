@@ -1,4 +1,4 @@
-exclude:  ['README.markdown', 'Makefile', 'assets/less', 'assets/vendor/bootstrap']
+exclude:  ['README.md', 'Makefile', 'assets/less', 'assets/vendor/bootstrap', 'indexTemplate.md']
 timezone: America/Los_Angeles
 markdown: kramdown
 kramdown:
