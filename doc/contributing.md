@@ -77,7 +77,7 @@ While you *can* put HTML directly in Markdown files, this is strongly discourage
 In most cases, HTML is unnecessary and badly hurts readability and maintainability.
 
 ### SOPs
-Below is a template for how the Markdown of an SOP should [look](SOPtemplate.html). Pictures and concrete examples are always preferred.
+Below is a template for how the Markdown of an SOP should look. Pictures and concrete examples are always preferred.
 
 ```markdown
 {% include SOPtemplate.md %}
