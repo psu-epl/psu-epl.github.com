@@ -1,3 +1,8 @@
 exclude:  ['README.markdown', 'Makefile', 'assets/less', 'assets/vendor/bootstrap']
 timezone: America/Los_Angeles
 markdown: kramdown
+kramdown:
+  toc_levels: "1,2,3,4,5"
+plugins:
+  - jekyll-sitemap
+  - jemoji
