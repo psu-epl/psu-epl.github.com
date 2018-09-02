@@ -55,7 +55,7 @@
       up: true
 
     - name: Drill Press
-      img: 
+      img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
       up: true
 
@@ -79,7 +79,7 @@
 - title: Shop and Hand Tools
   machines:
     - name: Angle Grinder
-      img: 
+      img: doc/equip/shop/img/angleGrinder.jpg
       sop:
       up: true
 
@@ -89,32 +89,32 @@
       up: true
 
     - name: Belt Sander
-      img: 
+      img: doc/equip/shop/img/beltSander.jpg
       sop:
       up: true
 
     - name: Bench Grinder
-      img: 
+      img: doc/equip/shop/img/benchGrinder.jpg
       sop:
       up: true
 
     - name: Scroll Saw
-      img: 
+      img: doc/equip/shop/img/scrollSaw.jpg
       sop:
       up: true
 
     - name: Miter Saw
-      img: 
+      img: doc/equip/shop/img/miterSaw.jpg
       sop:
-      up: false
+      up: true
 
     - name: Rotary Tool
-      img: 
+      img: doc/equip/shop/img/rotaryTool.jpg
       sop:
       up: true
 
     - name: Arbor Press
-      img: 
+      img: doc/equip/shop/img/arborPress.jpg
       sop:
       up: true
 
