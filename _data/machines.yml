@@ -1,57 +1,57 @@
 - title: Circuit Board Manufacturing
   machines:
     - name: LPKF PCB Router
-      img: protomat-s63.jpg
+      img: images/protomat-s63.jpg
       sop: /doc/equip/router/LPKF
       up: true
 
     - name: A406 PCB Router
-      img: A406.jpg
+      img: images/A406.jpg
       sop: /doc/equip/router/A406
       up: true
 
     - name: T200N Desktop Solder Oven
-      img: torch.jpg
+      img: images/torch.jpg
       sop: /doc/equip/solder/Torch-T200N-Reflow-Oven
       up: true
 
     - name: Test and Measurement
-      img: test_equipment.JPG
+      img: images/test_equipment.JPG
       sop: /doc/equip/testing
       up: true
 
 - title: 3D Printers
   machines:
     - name: Stratasys Mojo 3D Printer
-      img: mojo.JPG
+      img: images/mojo.JPG
       sop: /doc/equip/printer/mojo
       up: true
 
     - name: Ultimaker2 3D Printer
-      img: ultimaker.jpg
+      img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
       up: asdf
       
     - name: Ultimaker3 Extended 3D Printer (x2)
-      img: Ultimaker3.JPG
+      img: images/Ultimaker3.JPG
       sop: /doc/equip/printer/UM3
       up: True
       
     - name: FormLabs Form2
-      img: Form 2/Formlabs2.JPG
+      img: images/Form 2/Formlabs2.JPG
       sop: /doc/equip/printer/form2
       up: True
 
 - title: Machining Equipment
   machines:
     - name: Little Machine Shop Mill
-      img: littlemachine3990.JPG
-      sop: /doc/equip/machining/lathe
+      img: doc/equip/machining/mill/littlemachine3990.JPG
+      sop: /doc/equip/machining/mill
       up: true
          
     - name: Little Machine Shop Lathe
-      img: htbl.jpg
-      sop: /doc/equip/machining/mill
+      img: images/htbl.jpg
+      sop: /doc/equip/machining/lathe
       up: true
 
     - name: Drill Press
@@ -62,17 +62,17 @@
 - title: Laser Cutters
   machines:
     - name: QD-1390 Laser Cutter
-      img: QD1390LaserCutter.JPG
+      img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
       up: true
       
     - name: Full Spectrum Pro CO2 Laser Cutter
-      img: prolf20x12.JPG
+      img: images/prolf20x12.JPG
       sop: /doc/equip/laser/fullSpectrum
       up: false
 
     - name: K40 Laser Cutter
-      img: K40Laser.jpg
+      img: images/K40Laser.jpg
       sop: /doc/equip/laser/K-40
       up: true
 
