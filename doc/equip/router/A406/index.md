@@ -31,9 +31,9 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 
 [Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf)
 
-[A406 Tool Settings](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings)
+[A406 Tool Settings](A406-Tool-Settings.html)
 
-[Debugging](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Debugging)
+[Debugging](A406-Debugging.html)
 
 # Useful Links
 
@@ -55,7 +55,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 1. Go to the CAM view by clicking the "CNC" button.
 1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button).
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ImportMenu.png)
+![](img/ImportMenu.png)
 
 1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory. You should see a list of files in the left column.
 1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers:
@@ -69,14 +69,14 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
    - Don't forget to import an outline (mechanical) layer to define the cutout boundary.
 1. Once all your layers have been mapped, click the 'Import' button on the upper right.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/AssignLayers.png)
+![](img/AssignLayers.png)
 
 ## Setting the insulation width
 
 - Set the "Insulate" setting to your board trace/space setting. E.g., if your board is 8/8, choose 8 mils.  The "Insulate"
    - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/InsulSetting.png)   
+![](img/InsulSetting.png)   
 
    - If you must play with the tools [consult the oracle](https://github.com/psu-epl/psu-epl.github.com/wiki/A406-Tool-Settings) for current best settings before continuing.
 
@@ -85,15 +85,15 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Click on "Project Tools". 
    - The text in the button should be red because your tools aren't assigned. Blue text means you're good to go.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ProjToolsAlert.png)
+![](img/ProjToolsAlert.png)
 
 - Any tool that doesn't have a blue "TH" button to its left will need to be assigned a tool.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ProjToolsMenu.png)
+![](img/ProjToolsMenu.png)
 
 - Double click on that tool and select the tool from the dialog that appears. Only relevant tools will appear in that dialog (in other words, only isolation tools for isolation tools, etc).
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ToolTable.png)
+![](img/ToolTable.png)
 
 
 - Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards.
@@ -106,34 +106,34 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 - Click on "CNC" to go to CNC mode.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CNCATC.png)
+![](img/CNCATC.png)
 
 - Click on the "Camera follows mouse" button.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraFollowMouse.png)
+![](img/CameraFollowMouse.png)
 
 - You are now controlling the machine by camera location.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraFollowMouseClarify.png)
+![](img/CameraFollowMouseClarify.png)
 
 - Hold down the "left Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your artwork.  You can sight in exactly where you want you start cutting by using the translucent centering sheet.
 - Make sure the foot around the tool is solidly on the PCB material, and not on tape, or overhanging the board, or whatnot.
    - You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/StepSizeJog.png)
+![](img/StepSizeJog.png)
 
 - Right click and choose "Add Thumbtack at Camera Position".
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CameraThumbtack.png)
+![](img/CameraThumbtack.png)
 
 - Click on "CNC" to back to CAM view.
 - Choose the "Select/move/clone" button (looks like a cursor arrow)
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SelectMenu.png)
+![](img/SelectMenu.png)
 
 - Select your artwork by click and dragging a selection box around it.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SelectMove.png)
+![](img/SelectMove.png)
 
 - Left click and hold to drag your board to the thumbtack, which in this view looks like a small yellow cross.
 
@@ -143,16 +143,16 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
    - It is easiest to remove your board if you only use two breakout tabs opposite each other.
    - Alternatively you can right click and select 
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/BreakoutTab.png)
+![](img/BreakoutTab.png)
 
 - Click on "CNC" to go to CNC mode.
 - Click on the "Spindle follows mouse" button.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SpindleFollowsMouse.png)
+![](img/SpindleFollowsMouse.png)
 
 - You are now controlling the machine spindle position.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/SpindleFollowsMouseClarify.png)
+![](img/SpindleFollowsMouseClarify.png)
 
 - Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your artwork. This will make sure that you don't go off your material when you're routing the opposite corner. In other words, make sure your artwork actually fits.
 
@@ -163,11 +163,11 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Zoom into the camera area.
 - In the camera area, right click and choose "Tool test at camera position".
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ToolTestMenu.png)
+![](img/ToolTestMenu.png)
 
 - Click OK at the suggested penetration depth (2.4 mils).
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ToolPenetrationDepth.png)
+![](img/ToolPenetrationDepth.png)
 
 - Hit Control-Space to focus the camera.
 - Make sure it's around 7-9 mils.
@@ -177,11 +177,11 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Once you find a good depth, then:
    - Click on "ATC Control Panel" button
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/CNCATC.png)
+![](img/CNCATC.png)
 
    - In the bottom section, in the Project Tools list, enter in the depth you found in the insulate tool's "Depth" column entry box.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/ATCControl.png)
+![](img/ATCControl.png)
 
 ## Go!
 
@@ -190,13 +190,13 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
    - "*" entries in this list are groups of phases.
 - Choose "RUN(GO)"
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/RunGo.png)
+![](img/RunGo.png)
 
 ## Flip the board
 
 - Hit "Park" to get the head out of the way.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/Park.png)
+![](img/Park.png)
 
 - Remove your PCB.
 - Flip your board over. Doesn't actually matter how you flip it, but we recommend flipping the edge that is towards you away from you.
@@ -209,7 +209,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Choose "Entire (Bottom)*" from the "Program:" drop down in the upper right hand corner.
 - Click "camera follows mouse" button and then right click in the workspace area and choose "Fiducial Registration Mode" from the drop-down menu.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialRegMenu.png)
+![](img/FiducialRegMenu.png)
 
 - Move head to the first fiducial hole by clicking "Camera follows mouse" button and control-right click.
 - Focus the video using control-space bar.
@@ -219,7 +219,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Go find the hole in your artwork that corresponds to this hole. Zoom WAY into the hole, center the mouse cursor right in the center of the cross hair in the hole, and right click and choose "Move to Camera Position (Fiducial 1)". 
 - Now the yellow cross hair of the hole should be exactly in the center of the camera target circles.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialCamPos1.png)
+![](img/FiducialCamPos1.png)
 
 - Put the hole finder tool over your second fiducial point.
 - Use ctrl-right click to center the camera over the hole. Ctrl-space to focus.
@@ -227,7 +227,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Find the hole in your artwork, and zoom in on that hole.
 - Put the mouse cursor in the exact middle of the yellow hole marker, right click, and choose "Rotate to camera position (fiducial 2)".
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/FiducialCamPos2.png)
+![](img/FiducialCamPos2.png)
 
 - Now all of the yellow hole markers in your artwork should line up with the actual holes on your board.
 - You can go back and forth between holes at this point to optimize the fit, but don't go nuts here.
@@ -235,7 +235,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - At this point, we recommend doing another tool depth test just to make sure everything is OK (see above)
 - Choose "RUN(GO)" and it'll do the bottom of your board.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/a406/RunGoBot.png)
+![](img/RunGoBot.png)
  
 
 
