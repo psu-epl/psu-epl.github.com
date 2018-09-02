@@ -13,7 +13,7 @@ Our phone number is **503-725-2879**.
 Please consider **[donating to the lab][donate]** to help us further our growth.
 We are a 501c3 and your donation is tax deductible! 
 
-## Quick Links
+# Quick Links
 [Equipment] |
 [Circuit Store and Lockers] |
 [Lab Policies] |
@@ -24,29 +24,29 @@ We are a 501c3 and your donation is tax deductible!
 [Managers Only][manager repo] |
 [Sponsors] 
 
-## Using the Labs
+# Using the Labs
 
 It's easy! Here's what you do:
 
- 1. Go to our [documentation](doc) and read the instructions on the equipment you want to use.
+ 1. Go to our [**documentation**](doc) and read the instructions on the equipment you want to use.
  1. Check the calendar (below) for office hours.
  1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
  1. Pay for parts, materials, and equipment time [online][checkout].
  1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. Information on how to proceed here: [Becoming a Manager][Become a Manager] :)
 
-## Documentation
-To learn more about the EPL, check out [the documentation on our machines, policies, services, and more](doc).
+# Documentation
+To learn more about the EPL, check out [the **documentation** on our machines, policies, services, and more](doc).
 
-## Lab Calendar
+# Lab Calendar
 {% include calendar_lab.html %}
 
-## Lab Equipment
+# Lab Equipment
 Here is the list of equipment and its current status. Sometimes machines
 break. When they do, we'll be sure to make a note of it here:
 
 {% include machines.html %}
 
-## Lab Status
+# Lab Status
 The lab is currently open to all PSU students and staff, and to greater Portland community members by
 invitation only.
 
