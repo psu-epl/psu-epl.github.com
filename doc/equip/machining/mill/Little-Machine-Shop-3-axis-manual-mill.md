@@ -20,15 +20,15 @@ Tooling in the US is almost exclusively in imperial units. This is because it is
 	
 ### Fixturing:
 	
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/vise.jpg)
+![](img/vise.jpg)
 
 Make sure that your stock is securely fastened in the vise such that you can complete the intended operation without moving the part and without crashing the tooling into the vise.
 ### Tooling:
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/end_mill.jpg)
+![](img/end_mill.jpg)
 **End Mills:** End mills are the work horse of manual milling. They come in a variety of sizes and shapes 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/drill_bits.jpg)
+![](img/drill_bits.jpg)
 **Drill Bits** Drill bits are just like every other drill bit ever. Please keep machine tool drills separate from other drill bits in the lab.
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/edge_finder.jpg)
+![](img/edge_finder.jpg)
 **Edge finder** This tool is used to set the origin of your working surface.
 
 	
@@ -47,11 +47,11 @@ Choosing an appropriate machining speed is critical for the safe and effective o
 Once your material is securely fastened in the attached vise. install the desired tool by removing the black plastic cap from the top of the machine to reveal the locking screw. select the appropriate sized collet to hold your tool and insert the tool into your selected collet, tool should fit snugly into the collet without being hard to slide in or out. Place the tool and collet into the tool holder, making sure to align the keyway on the collet with the key inside the tool holder, and tighten the locking screw with your fingers to make sure that it is not cross threaded.
 ** WARNING:** Tools may be extremely sharp. When inserting the tool into to tool holder grip the tool by the base of the collet to avoid cutting your hand.
 	
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/insert.jpg)
+![](img/insert.jpg)
 	
 Power on the machine by pressing the green power button located on the left side of the control panel, pictured below. The green power light on the front of the control panel should come on.
 	
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/control.jpg)
+![](img/control.jpg)
 	
 Select the spindle speed from the above chart and set the correct speed using the knob on the control panel.
 **Caution:** it is not advisable to exceed 1500 RPM on this machine.
@@ -60,7 +60,7 @@ Select the spindle speed from the above chart and set the correct speed using th
 	
 Manual machines are controlled by turning dials which control the X, Y and Z axis movement of the tool. The location and details of these dials are described in detail below.
 	
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/mill/label.PNG)
+![](img/label.PNG)
 	
 The Z-axis can be controled at both fine and coarse incriments. Switch to the fine control by pushing the coarse control handle (pictured above) until the drive teeth have completely engaged. The fine control will now turn smoothly.
 	
