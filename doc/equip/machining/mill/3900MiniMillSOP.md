@@ -3,7 +3,6 @@ title: 3900 Mini Mill SOP
 layout: doc
 author: 
 date: 
-
 ---
 
 # Manual
@@ -22,14 +21,14 @@ in the lab.
 ## Machine component description
 
 ## Fixturing
-![](images/3900MiniMillSOP/media/image3.jpg){width="6.5in" height="4.875in"}
+![](img/image3.jpg){width="6.5in" height="4.875in"}
 
 Make sure that your stock is securely fastened in the vise such that you
 can complete the intended operation without moving the part and without
 crashing the tooling into the vise.
 
 ## Tooling
-![](images/3900MiniMillSOP/media/image12.jpg){width="6.5in" height="4.875in"}
+![](img/image12.jpg){width="6.5in" height="4.875in"}
 
 ### A note about tooling
 
@@ -40,12 +39,12 @@ imperial units than to switch to metric.
 ### End Mills
 End mills are the work horse of manual
 milling. They come in a variety of sizes and shapes.  
-![](images/3900MiniMillSOP/media/image6.jpg){width="6.5in" height="4.875in"}  
+![](img/image6.jpg){width="6.5in" height="4.875in"}  
 
 ### Drill Bits
 Drill bits are just like every other drill bit ever. 
 Please keep machine tool drills separate from other drill bits in the lab.  
-![](images/3900MiniMillSOP/media/image11.jpg){width="6.5in" height="4.875in"}  
+![](img/image11.jpg){width="6.5in" height="4.875in"}  
 Edge finder This tool is used to set the origin of your working surface.
 
 ## Machining speeds
@@ -82,13 +81,13 @@ threaded. \*\* WARNING:\*\* Tools may be extremely sharp. When inserting
 the tool into to tool holder grip the tool by the base of the collet to
 avoid cutting your hand.
 
-![](images/3900MiniMillSOP/media/image13.jpg){width="6.5in" height="4.875in"}
+![](img/image13.jpg){width="6.5in" height="4.875in"}
 
 Power on the machine by pressing the green power button located on the
 left side of the control panel, pictured below. The green power light on
 the front of the control panel should come on.
 
-![](images/3900MiniMillSOP/media/image14.jpg){width="6.5in" height="4.875in"}
+![](img/image14.jpg){width="6.5in" height="4.875in"}
 
 Select the spindle speed from the above chart and set the correct speed
 using the knob on the control panel. Caution: it is not advisable to
@@ -100,7 +99,7 @@ Manual machines are controlled by turning dials which control the X, Y
 and Z axis movement of the tool. The location and details of these dials
 are described in detail below.
 
-![](images/3900MiniMillSOP/media/image4.png){width="6.5in" height="4.82in"}
+![](img/image4.png){width="6.5in" height="4.82in"}
 
 The Z-axis can be controled at both fine and coarse incriments. Switch
 to the fine control by pushing the coarse control handle (pictured

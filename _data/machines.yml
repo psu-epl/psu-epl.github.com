@@ -38,14 +38,14 @@
       up: True
       
     - name: FormLabs Form2
-      img: images/Form 2/Formlabs2.JPG
+      img: doc/equip/printer/form2/img/Formlabs2.JPG
       sop: /doc/equip/printer/form2
       up: True
 
 - title: Machining Equipment
   machines:
     - name: Little Machine Shop Mill
-      img: doc/equip/machining/mill/littlemachine3990.JPG
+      img: doc/equip/machining/mill/img/littlemachine3990.JPG
       sop: /doc/equip/machining/mill
       up: true
          
