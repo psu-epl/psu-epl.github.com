@@ -22,28 +22,28 @@ Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers 
 - Open up Cura. 
 - Import your part into Cura using File>Open File
 - You can also drag and drop the files into Cura using the file explorer. 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Cura1.PNG)
+![](img/Cura1.PNG)
 - You will need to make sure your part is oriented correctly. Here, the part has overhangs. Since the part will be built from the bottom up, overhangs will make your part anywhere between difficult and impossible to print. Overhangs are depicted in red. 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Cura2.PNG)
+![](img/Cura2.PNG)
 - You can change the part’s orientation by using the toolbox on the left. 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/RotateTool.PNG)
+![](img/RotateTool.PNG)
 - Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X axis, green is the Y axis, blue is the Z axis. 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Rotate%20Handles.PNG)
+![](img/Rotate%20Handles.PNG)
 - Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z axis.  
 Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts, so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders). 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Ulti2SOP%20dropdown.png)
+![](img/Ulti2SOP%20dropdown.png)
 # Print Settings
 
 ## Recommended mode
 
 Once all your parts are arranged on the bed and you are ready to print, head over to the toolbar on the right for your print settings. “Recommended” mode is a simpler view which allows you to control only infill percentage, support placement, and whether or not to include a raft for better build plate adhesion. 
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Quality%20Toolbar.PNG)
+![](img/Quality%20Toolbar.PNG)
 
 To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print it is set to “Low Quality.” 
 
 ## Custom Mode
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/AdvancedQualityToolbar.PNG)
+![](img/AdvancedQualityToolbar.PNG)
 ## Infill Density
 
 You can adjust your infill settings using the dialog box. More infill produces a stronger part, but uses more filament and takes more time. Less infill will print faster but the part will be weaker.
@@ -51,7 +51,7 @@ You can adjust your infill settings using the dialog box. More infill produces a
 ## Supports
 
 Supports are done through a menu on the right side of the interface. For the Ultimaker 2, you merely have to check the box and you will have access to the following settings: 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Ulti2SOP%20support.png)
+![](img/Ulti2SOP%20support.png)
 
 The Ultimaker 2 has only one extruder, so the support material will be the same material as your part. 
 
@@ -63,7 +63,7 @@ Support Density: This is the infill density for supports. Just like infill densi
 ## Preparing the Print
 Click “Prepare” in the bottom-right corner of the menu.
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/U2/Ulti2SOP%20Prepare.png)
+![](img/Ulti2SOP%20Prepare.png)
 
 **Finally,** when you are ready to go, plug in the SD card reader into your computer. 
 
