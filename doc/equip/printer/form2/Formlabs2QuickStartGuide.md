@@ -7,7 +7,7 @@ date:
 ---
 
 # Formlabs 2 Quick Start Guide
-![](images/Formlabs2QuickStartGuide/media/image25.jpg){width="6.5in" height="5.042in"}
+![](img/image25.jpg){width="6.5in" height="5.042in"}
 Welcome to the EPL! We’re excited you’re getting started with
 the Formlabs 3D printer. This guide will provide a walkthrough
 for how to safely and efficiently use the Formlabs 3D printer so
@@ -25,7 +25,7 @@ email us at [EPL@pdx.edu](mailto:EPL@pdx.edu).
 3.  Start the FormLabs PreForm software to load and prepare your 3D model for printing
 4.  Refer to step 9 on this SOP for preparing your print job with the PreForm Software
 
-![](images/Formlabs2QuickStartGuide/media/image35.jpg){width="6.389306649168854in" height="7.671875546806649in"}
+![](img/image35.jpg){width="6.389306649168854in" height="7.671875546806649in"}
 
 ## Printer Components
 
@@ -52,25 +52,25 @@ email us at [EPL@pdx.edu](mailto:EPL@pdx.edu).
 
 __It is important to note that the resin tank is paired with a specific material, please make sure that you are using the correct resin tank for the material you wish to use.__
 
-![](images/Formlabs2QuickStartGuide/media/image26.jpg){width="3.0052919947506562in" height="4.661458880139983in"}
+![](img/image26.jpg){width="3.0052919947506562in" height="4.661458880139983in"}
 
 Remove the tank lid and align the four small feet of the resin tank with the corresponding holes in the tank carrier; push forward into place.
 
 ### Lock Wiper
 
-![](images/Formlabs2QuickStartGuide/media/image39.jpg){width="5.755208880139983in" height="5.755208880139983in"}
+![](img/image39.jpg){width="5.755208880139983in" height="5.755208880139983in"}
 
 Ensuring the wiper is straight, align the foot of the wiper with the corresponding hole and push forward, snapping it into place.
 
 ### Insert Build Platform
 
-![](images/Formlabs2QuickStartGuide/media/image36.jpg){width="5.557292213473316in" height="5.557292213473316in"}
+![](img/image36.jpg){width="5.557292213473316in" height="5.557292213473316in"}
 
 Align the build platform with the platform carrier and push it into place, locking the handle down to secure.
 
 ### Insert Resin Cartridge
 
-![](images/Formlabs2QuickStartGuide/media/image30.jpg){width="5.671875546806649in" height="5.671875546806649in"}
+![](img/image30.jpg){width="5.671875546806649in" height="5.671875546806649in"}
 
 Align the cartridge with the opening in the back of the printer. Push down until it sits securely. Be sure to remove the orange valve cover from the underside and press open the cap before starting a print, so that your resin tank fills correctly.
 
@@ -78,7 +78,7 @@ Align the cartridge with the opening in the back of the printer. Push down until
 
 ### Download PreForm
 
-![](images/Formlabs2QuickStartGuide/media/image29.jpg){width="6.5in" height="6.5in"}
+![](img/image29.jpg){width="6.5in" height="6.5in"}
 
 Visit the product page to download the latest version of our software
 PreForm.
@@ -90,7 +90,7 @@ print.
 
 ### Prepare File for Print
 
-![](images/Formlabs2QuickStartGuide/media/image42.jpg){width="6.5in" height="6.5in"}
+![](img/image42.jpg){width="6.5in" height="6.5in"}
 
 Open your STL or OBJ files. Most parts print better when support at an
 angle. For automatic set-up, use PreForm tools to “orient all,”
@@ -103,7 +103,7 @@ dialogue.
 
 ### Confirm Print on Printer
 
-![](images/Formlabs2QuickStartGuide/media/image38.jpg){width="6.5in" height="6.5in"}
+![](img/image38.jpg){width="6.5in" height="6.5in"}
 
 You will see your file uploading to the print queue on your printer's
 touchscreen. Select the file name and confirm the print by pushing the
@@ -111,7 +111,7 @@ button on your printer.
 
 ### Pre-Print Checks
 
-![](images/Formlabs2QuickStartGuide/media/image40.jpg){width="6.5in" height="6.5in"}
+![](img/image40.jpg){width="6.5in" height="6.5in"}
 
 Before printing, the resin tank will fill and heat up to around 35° C.
 Once the tank is full, your print will automatically start.
@@ -120,7 +120,7 @@ Once the tank is full, your print will automatically start.
 
 ### Remove the Build Platform
 
-![](images/Formlabs2QuickStartGuide/media/image23.jpg){width="6.5in" height="6.5in"}
+![](img/image23.jpg){width="6.5in" height="6.5in"}
 
 When your print is finished, wear gloves to remove the build platform.
 Turn the platform over to prevent dripping while transferring to the
@@ -128,7 +128,7 @@ finish kit. Make sure to close the printer cover.
 
 ### 13. Remove Your Print
 
-![](images/Formlabs2QuickStartGuide/media/image27.jpg){width="6.5in"
+![](img/image27.jpg){width="6.5in"
 height="6.5in"}
 
 Attach the build platform to the jig and slide the removal tool under
@@ -140,7 +140,7 @@ the build platform plate.
 
 ### 14. Wash Your Print
 
-![](images/Formlabs2QuickStartGuide/media/image32.jpg){width="6.5in"
+![](img/image32.jpg){width="6.5in"
 height="6.5in"}
 
 To automate the washing process, [*Form Wash agitates the alcohol bath
@@ -157,7 +157,7 @@ will help your IPA last longer.
 
 ### Finish Your Print
 
-![](images/Formlabs2QuickStartGuide/media/image16.jpg){width="6.5in" height="6.5in"}
+![](img/image16.jpg){width="6.5in" height="6.5in"}
 
 Once dry, use the flush cutters to remove supports from your print. You
 can sand support marks and polish your parts for a clean finish. You may
@@ -176,8 +176,8 @@ will help track resin consumption to automatically refill a low resin
 tank or provide usage data to determine the right time to replace a used
 tank.  
 
-![](images/Formlabs2QuickStartGuide/media/image17.jpg){width="3.6406255468066493in" height="2.423889982502187in"}  
-![](images/Formlabs2QuickStartGuide/media/image41.jpg){width="4.307292213473316in" height="2.752123797025372in"}
+![](img/image17.jpg){width="3.6406255468066493in" height="2.423889982502187in"}  
+![](img/image41.jpg){width="4.307292213473316in" height="2.752123797025372in"}
 
 ## Inserting a Resin Cartridge
 
@@ -188,7 +188,7 @@ resin is well-mixed.
 
 ### Remove the Valve Cover
 
-![](images/Formlabs2QuickStartGuide/media/image37.jpg){width="6.5in" height="4.333333333333333in"}
+![](img/image37.jpg){width="6.5in" height="4.333333333333333in"}
 
 Remove the protective orange valve cover from the underside of the
 cartridge. Consider storing the cover to protect the valve during
@@ -210,7 +210,7 @@ with the printer.
 
 ### Open the Vent Cap
 
-![](images/Formlabs2QuickStartGuide/media/image24.jpg){width="6.5in" height="4.333333333333333in"}
+![](img/image24.jpg){width="6.5in" height="4.333333333333333in"}
 
 Be sure to press open the vent cap before starting a print, so that your
 resin tank fills correctly.
@@ -228,7 +228,7 @@ a print starts and maintain the level of resin in the tank during the
 print. Once the cartridge is empty and cannot dispense additional resin,
 the print will pause with a *message on the touchscreen.*
 
-![](images/Formlabs2QuickStartGuide/media/image31.png){width="6.5in" height="3.6805555555555554in"}
+![](img/image31.png){width="6.5in" height="3.6805555555555554in"}
 
 ## Removing a Resin Cartridge
 
@@ -236,7 +236,7 @@ When changing resin types, always change both the tank and cartridge.
 
 ### Close the Vent Cap
 
-![](images/Formlabs2QuickStartGuide/media/image28.jpg){width="6.5in" height="4.333333333333333in"}
+![](img/image28.jpg){width="6.5in" height="4.333333333333333in"}
 
 ### Remove Cartridge from Printer
 
@@ -259,7 +259,7 @@ Confirm the type of resin and layer height before sending a FORM file to
 the Form 2. To start the upload process, select the orange printer icon
 in the PreForm toolbar.
 
-![](images/Formlabs2QuickStartGuide/media/image22.png){width="6.5in" height="4.861111111111111in"}
+![](img/image22.png){width="6.5in" height="4.861111111111111in"}
 
 If the orange icon is not available, the printer may not be properly
 connected to the same local network. Check to see that you do not have

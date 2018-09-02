@@ -7,7 +7,7 @@ date:
 ---
  # Formlabs 2 Quick Start Guide  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Cover_image.PNG)
+![](img/Cover_image.PNG)
 
 Welcome to the EPL! We’re excited you’re getting started with
 the Formlabs 3D printer. This guide will provide a walkthrough
@@ -18,7 +18,7 @@ email us at EPL@pdx.edu.
 
 ## Printer Components:  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Component_descriptions.PNG)
+![](img/Component_descriptions.PNG)
 
 1. **Cartridge:**
 This is the container that stores the resin. There is a vent opening on the top, similar to a shampoo bottle that will need to be open during printing. There are several different types of resins that the Formlabs can print with. The printer needs to know which kind of resin is being used, so it will prompt you to confirm before printing. This information can be found on the cartridge label. (for example FLGPCL04)
@@ -41,32 +41,32 @@ These are used to make sure that the Resin Tank is level and each layer of your 
 ### 1. Insert Resin Tank with Wiper  
 It is important to note that the resin tank is paired with a specific material, please make sure that you are using the correct resin tank for the material you wish to use.  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Tank_insert.PNG)
+![](img/Tank_insert.PNG)
 
 Remove the tank lid and align the four small feet of the resin tank with the corresponding holes in the tank carrier; push forward into place.  
 
 ### 2. Lock Wiper  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Wiper_insert.PNG)  
+![](img/Wiper_insert.PNG)  
 
 Ensuring the wiper is straight, align the foot of the wiper with the corresponding hole and push forward, snapping it into place.  
 
 ### 3. Insert Build Platform  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Platform_insert.PNG)  
+![](img/Platform_insert.PNG)  
 
 Align the build platform with the platform carrier and push it into place, locking the handle down to secure.  
 
 ### 4. Insert Resin Cartridge  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Cartridge_insert.PNG)  
+![](img/Cartridge_insert.PNG)  
 
 Align the cartridge with the opening in the back of the printer. Push down until it sits securely. Be sure to remove the orange valve cover from the underside and press open the cap before starting a print, so that your resin tank fills correctly.  
 
 ## Printing:
 Begin by opening the PreForm software located in the start menu on the workstation near the formlabs machine.  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Preform_steps.PNG)
+![](img/Preform_steps.PNG)
 
 Open your STL or OBJ files. Most parts print better when support at an angle. For automatic set-up, use PreForm tools to “orient all,” “generate all,” and “layout all.” PreForm will do these steps in sequence if you select “One Click Print.”
 Confirm your print's material and layer height, then click the orange print icon. Select which printer to upload the file to from the printer dialogue.  
@@ -75,7 +75,7 @@ Confirm your print's material and layer height, then click the orange print icon
 
 You will see your file uploading to the print queue on your printer's touchscreen. Select the file name and confirm the print by pushing the button on your printer.  
 
-![](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/Form%202/Printer_confirm.PNG) 
+![](img/Printer_confirm.PNG) 
 
 
 

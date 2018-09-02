@@ -37,7 +37,7 @@ returning it.
 -   Install the accompanying cable cover over the NFC cable. Align topof the cover first to the spool holder then gently snap thelocking tabs into place.  
 -   Return the machine to the upright position and remove the packingmaterial from around the build plate area.  
 -   Open the front build plate locking tabs by rotating  
-![](images/Ultimaker3extendedsetup/media/image2.gif){width="0.23958333333333334in"height="0.125in"}  
+![](img/90deg.gif){width="0.23958333333333334in"height="0.125in"}  
 away from the center of the build area.  
 -   Remove any fingerprints from the build plate glass using a drymicrofiber cloth.  
 -   Insert build plate glass into the back locking tabs gently pressingon the front edge of the glass to align the glass with the edgesof the build plate heater.  

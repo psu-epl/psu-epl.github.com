@@ -22,7 +22,7 @@ date:
 
 * It’s good practice to keep the IR laser switched **off** until you are sure you are ready for cutting. 
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_0.png)
+![image alt text](img/image_0.png)
 
 * Make sure the fire extinguisher is nearby.
 
@@ -30,13 +30,13 @@ date:
 
 1. Turn the key on the top of the laser to the on position.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_1.png)
+![image alt text](img/image_1.png)
 
 2. Turn on the water chiller to the right of the laser. This step is important so the laser doesn’t overheat.
 
     1. It may sound an alarm for a few seconds but it should go away quickly.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_2.png)
+![image alt text](img/image_2.png)
 
 # Preparing your Job 
 
@@ -50,7 +50,7 @@ date:
 
         1. You can import most vector files and images, but a safe bet is to use DXF vector files.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_3.png)
+![image alt text](img/image_3.png)
 
 4. Check your job.
 
@@ -72,11 +72,11 @@ Below you can find some examples of cuts made in various materials.
 
 #### 1/16" Clear Acrylic
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_4.png)
+![image alt text](img/image_4.png)
 
 #### 1/16" Bamboo
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_5.png)
+![image alt text](img/image_5.png)
 
 ### Changing Cut Setting in RDWorks
 
@@ -86,17 +86,17 @@ In the upper right hand corner of RDWorks you should see a small window that wil
 
 1. Click on the vector you wish to edit the cut settings for.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_6.png)
+![image alt text](img/image_6.png)
 
 2. Click on one of the colors at the bottom of the software to change it. The shape should change to that color and a new color and item should appear in your layer window in the upper right hand window.
 
     1. Note: The color only identifies the layer of the vector.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_7.png)
+![image alt text](img/image_7.png)
 
 3. Double click on the layer you wish to edit in the upper right-hand window.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_8.png)
+![image alt text](img/image_8.png)
 
 4. In the dialog box that pops up, edit the speed of laser to your desired settings.
 
@@ -124,13 +124,13 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
     2. *Note: Be careful to not over-tighten the focusing knob!*
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_9.png)
+![image alt text](img/image_9.png)
 
 3. Close the hood, and click "Start" in the laser control on RDWorks (lower right hand menu).
 
     3. Since the IR laser shouldn’t be on yet, it will not burn your piece. This is just to make sure that the laser will stay on your piece and not cut off of it (which may damage the laser bed).
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_10.png)
+![image alt text](img/image_10.png)
 
 4. Once you are sure that the laser will stay on your piece it’s time to start cutting.
 
@@ -138,7 +138,7 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 1. Before turning on the beam for cutting, turn on the air filter to the left of the laser. The switch is behind it.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_11.png)
+![image alt text](img/image_11.png)
 
 2. Then turn on the green air compressor to the right of the machine by pushing the red switch into the down position.
 
@@ -146,15 +146,15 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
     2. The air pressure in the line should not be more than 5 psi. Adjust the pressure using the knob to the right of the switch and read the pressure off of the right gauge.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_12.png)
+![image alt text](img/image_12.png)
 
 3. Press the "Laser" switch on the side of the cutter into the on position, turning on the IR laser.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_13.png)
+![image alt text](img/image_13.png)
 
 4. Press start on RDWorks to start the cutting job.
 
-![image alt text](https://github.com/psu-epl/psu-epl.github.com/blob/master/images/qd1390/image_14.png)
+![image alt text](img/image_14.png)
 
 ## While the laser is Running
 
