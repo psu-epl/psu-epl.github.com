@@ -81,3 +81,39 @@ body > .wrapper { height: auto; min-height: 100%; }
 .machine.other:after {
     content: "This machine may have issues.";
 }
+
+// Tables
+// This is just jenked together from the bootstrap theme.
+// It works but it could probably be cleaner.
+// I don't actually understand LESS, lol. -- Joe
+table {
+  background-color: @table-bg;
+  > tbody > tr:nth-child(odd) {
+    > td,
+    > th {
+      background-color: @table-bg-accent;
+    }
+  }
+  border: 1px solid @table-border-color;
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border: 1px solid @table-border-color;
+        padding: @table-cell-padding;
+        line-height: @line-height-base;
+      }
+    }
+  }
+  > thead > tr {
+    > th,
+    > td {
+      border-bottom-width: 2px;
+    }
+  }
+}
+th {
+  text-align: center;
+}
