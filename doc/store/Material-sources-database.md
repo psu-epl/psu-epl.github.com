@@ -4,6 +4,8 @@ layout: doc
 author: 
 date: 
 ---
+{% comment %}
+{% endcomment %}
 
 # Laser Cutter
 - Full Spectrum Laser SN 07/11/8350-639
@@ -129,3 +131,13 @@ We can also recycle packs for free: <http://www.stratasys.com/Help/Recycle/Recyc
 - Aggressive flux pen: MG Chemicals PEN RA ROSIN FLUX .34OZ W/TIP 835-P (DK 473-1033-ND)
 - Solder: Kester SOLDER NO-CLEAN 28AWG 63/37 1LB #24-6337-8806 (DK KE1405-ND)
 
+# Machining Tooling
+- These are reliable suppliers for stock material with local stores:
+	- [Metal Supermarkets](https://www.metalsupermarkets.com/)
+	- [Tap Plastics](https://www.tapplastics.com/)
+- These are all solid choices for purchasing tooling:
+	- [McMaster-Carr](https://www.mcmaster.com/#)
+	- [MSCDirect](https://www.mscdirect.com/)
+	- [2linc](http://www.2linc.com/)
+	- [eBay](https://www.ebay.com/)
+	- [Amazon](https://www.amazon.com/)
