@@ -26,8 +26,8 @@ The A406 claims to be able to do:
 
 - 6/6 mils using the 60 degree "V-tip" (routing bit, or "universal cutting tools" in LPKF land).
 - 8/8 mils using the 90 degree v-tip.
+Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly, but still has a few issues. 
 
-Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly (for some definition of friendly), but the system is still remarkably flaky given how much we paid for it.
 
 [Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf)
 
@@ -40,34 +40,37 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 [A406-Debugging](A406-Debugging)  
 [A406-materials](A406-materials)  
 [A406-target-calibration](A406-target-calibration)  
-[A406-Tool-Settings](A406-Tool-Settings)  
+[A406-Tool-Settings](A406-Tool-Settings)
+[A406-Tool-Change](A406-Tool-Change)   
 
 # Using the A406
 
-The A406 does not have a safety cover. Its steppers are very strong. Before turning on the machine or performing any operation, make sure the table area is clear of obstacles. Resist the temptation to place anything besides the pcb blank on the work area of the machine. Most importantly, **keep your hands away from the working area whenever the head is moving!**
+The A406 does not have a safety cover. Its steppers are very strong. Before turning on the machine or performing any operation, make sure the table area is clear of obstacles. Resist the temptation to place anything besides the pcb blank on the work area of the machine. Most importantly, **keep your hands away from the working area whenever the head is moving!** 
 
-1. Turn on the machine. The power switch is located just above the power cord entry on the left rear of the machine.
-1. Start the PhCNC software There are two 'views', CAM and CNC. Toggle between them by clicking on the "CNC" button on the top of screen. 
-1. The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initiated emergency stop. Click the emergency stop button. A dialog will appear. Choose 'Yes' to home the machine.
+1. Turn on the machine. The power switch is located just above the power cord entry on the left rear of the machine. 
+1. Turn on the air compressor for the collette.  
+1. Start the PhCNC software There are two 'views', CAM and CNC. Toggle between them by clicking on the "CNC" button on the top of screen.  
+1. The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initiated emergency stop. While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear. Choose 'Yes' to home the machine. 
 
 ## Import Your CAD files
 
-1. Go to the CAM view by clicking the "CNC" button.
-1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button).
+1. Go to the CAM view by clicking the "CNC" button. 
+1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button). 
 
-![](img/ImportMenu.png)
+![](img/ImportMenu.png) 
 
-1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory. You should see a list of files in the left column.
-1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers:
-   - Top copper 
-   - Bottom copper (if applicable)
-   - Outline
-   - Drills
-1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right.
-   - The Gerber interpreter is automatic. 
-   - Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side. If you are lucky, the default decimal places and zero suppression settings will 'just work'. The software will draw the drill holes as yellow dots on your artwork. Look carefully and see if the holes seem to be in the right places. If they aren't, you'll need to double-click on the drill layer in the upper right pane and edit the settings. 
-   - Don't forget to import an outline (mechanical) layer to define the cutout boundary.
-1. Once all your layers have been mapped, click the 'Import' button on the upper right.
+1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory. You should see a list of files in the left column. 
+1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers: 
+  - Top copper  
+  - Bottom copper (if applicable) 
+  - Outline (Mech) 
+  - Drills 
+1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. 
+  - The Gerber interpreter is automatic.  
+  - Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side. If you are lucky, the default decimal places and zero suppression settings will 'just work'. The software will draw the drill holes as yellow dots on your artwork. Look carefully and see if the holes seem to be in the right places. If they aren't, you'll need to double-click on the drill layer in the upper right pane and edit the settings.  
+  - Don't forget to import an outline (mechanical) layer to define the cutout boundary. 
+  - Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD.  
+1. Once all your layers have been mapped, click the 'Import' button on the upper right. 
 
 ![](img/AssignLayers.png)
 
@@ -83,7 +86,9 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 ## Assign Project Tools
 
 - Click on "Project Tools". 
-   - The text in the button should be red because your tools aren't assigned. Blue text means you're good to go.
+   - Next you will need to assign tools. The Project Tools button on the top will likely have red text, because tools havent been assigned for the job. The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them. The best practice is to choose a tool that is slightly smaller than the width of the cut needed- and the following dialogs will help you through that process. 
+
+ - The text in the button should be red because your tools aren't assigned. Blue text means you're good to go.
 
 ![](img/ProjToolsAlert.png)
 
@@ -96,13 +101,17 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 ![](img/ToolTable.png)
 
 
-- Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards.
-- When you click on the first of your drill tools, a new selection dialog will pop up because... because.
-   - Click on "Apply default router tool" in order to use the 0.8 mm router bit for larger holes.
-   - Double click on the button to the left of any drill that still needs to be assigned and assign that drill a drill.
-   - Sometimes you choose a drill that has a different diameter than what you want. That's fine, you can even have multiple sizes in your file just use one drill.
+
+- Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
+- When you click on the first of your drill tools, a new selection dialog will pop up. 
+  - Click on "Apply default router tool" in order to use the 0.8 mm router bit for larger holes. 
+  - After doing this, close the dialog box, and the text will become blue, and your tool is now selected. 
+  - Double click on the button to the left of any drill that still needs to be   - assigned and assign that drill a drill. 
+- Sometimes you choose a drill that has a different diameter than what you want. As long as it is smaller than the hole size you need, the software will plot the path needed to give you the correctly-size hole.
 
 ## Position artwork on blank
+
+Now you will need to choose where on the board you will start the routing process. By default the artwork will be in the center of the board, but that might not be the best place to start drilling. You will also have to consider that the A406 cannot actually use the entire workspace, because it locks up when it moves too close to any edge, forcing you to hit emergency stop twice to home it. Make sure your artwork is positioned correctly to avoid these pitfalls.  
 
 - Click on "CNC" to go to CNC mode.
 
@@ -154,7 +163,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ![](img/SpindleFollowsMouseClarify.png)
 
-- Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your artwork. This will make sure that you don't go off your material when you're routing the opposite corner. In other words, make sure your artwork actually fits.
+- Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your artwork. This will make sure that you don't go off your material when you're routing the opposite corner. If your board is too small or ill-positioned, the camera will go off the edge. Youll need to reposition the artwork or get a larger board if so. This is to make sure your artwork fits your board.
 
 ## Check cut depth
 
@@ -169,13 +178,13 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ![](img/ToolPenetrationDepth.png)
 
-- Hit Control-Space to focus the camera.
-- Make sure it's around 7-9 mils.
-   - Click on the "0.001" button in the movement area in the upper left part of the screen.
-   - Move the red cross hairs to one edge of the calibration mark. Then count the number of times you need to move the camera using the arrow buttons in order to measure the width of the cut.
-- If it's not a good penetration depth, then continue doing calibration cuts at different depths until you find a good one. The calibration mark should be very clean, no smeared coppers and no "bright outlines" around the edge of the copper (which is actually burs). You should be able to run your fingers over it and feel nothing at all - if you feel a bump, that's a burr, which is bad. You should probably increase your depth and/or change your bit.
-- Once you find a good depth, then:
-   - Click on "ATC Control Panel" button
+- Hit Control-Space to focus the camera. 
+- Make sure it's around 7-9 mils. 
+  - Click on the "0.001" button in the movement area in the upper left part of the screen. 
+  - Move the red cross hairs to one edge of the calibration mark. Then count the number of times you need to move the camera using the arrow buttons in order to measure the width of the cut. 
+- If it's not a good penetration depth, then continue doing calibration cuts at different depths until you find a good one. The calibration mark should be very clean, no smeared coppers and no "bright outlines" around the edge of the copper (which is actually burs). You should be able to run your fingers over it and feel nothing at all - if you feel a bump, that's a burr, which is bad. You should probably increase your depth and/or change your bit. 
+- Once you find a good depth, then: 
+- Click on "ATC Control Panel" button
 
 ![](img/CNCATC.png)
 
@@ -204,10 +213,10 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Register your flipped board
 
-- Choose two holes on your board to be fiducials. It's good if they're medium sized - not larger than like a few millimeters. Small holes are OK, probably, too. You want the holes to be in the opposite corners of the board, to make the registration as accurate as possible. One note: you can't have the fiducials be too close to the tool holder, because the head can't move that far towards the front of the machine.
-- Put the acetate circly thingy with the arrows ("Hole Finder Tool") on top of your first fiducial hole you chose.
-- Choose "Entire (Bottom)*" from the "Program:" drop down in the upper right hand corner.
-- Click "camera follows mouse" button and then right click in the workspace area and choose "Fiducial Registration Mode" from the drop-down menu.
+- Choose two holes on your board to be fiducials. It's good if they're medium sized - not larger than like a few millimeters. Small holes are OK, probably, too. You want the holes to be in the opposite corners of the board, to make the registration as accurate as possible. One note: you can't have the fiducials be too close to the tool holder, because the head can't move that far towards the front of the machine. 
+- Put the acetate circly thingy with the arrows ("Hole Finder Tool") on top of your first fiducial hole you chose. 
+- Choose "Entire (Bottom)*" from the "Program:" drop down in the upper right hand corner. 
+- Click "camera follows mouse" button and then right click in the workspace area and choose "Fiducial Registration Mode" from the drop-down menu. 
 
 ![](img/FiducialRegMenu.png)
 
@@ -229,11 +238,11 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ![](img/FiducialCamPos2.png)
 
-- Now all of the yellow hole markers in your artwork should line up with the actual holes on your board.
-- You can go back and forth between holes at this point to optimize the fit, but don't go nuts here.
-- That's it, your registered.
-- At this point, we recommend doing another tool depth test just to make sure everything is OK (see above)
-- Choose "RUN(GO)" and it'll do the bottom of your board.
+- Now all of the yellow hole markers in your artwork should line up with the actual holes on your board. 
+- You can go back and forth between holes at this point to optimize the fit, but don't go nuts here. 
+- That's it, your registered. 
+- At this point, we recommend doing another tool depth test just to make sure everything is OK (see above) 
+- Choose "RUN(GO)" and it'll do the bottom of your board. 
 
 ![](img/RunGoBot.png)
  
