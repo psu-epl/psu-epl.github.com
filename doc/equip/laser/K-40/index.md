@@ -39,33 +39,33 @@ The KD-40 uses LaserWeb as its control software. LaserWeb only sometimes takes D
 ### Startup Procedure
 
 1.  Ensure CW-3000 Industrial Chiller is turned on and green Normal indicator lit.  
-    ![](img/image19.jpg)
+    ![](img/image19.jpg){:width="600px"}
 
 2.  Ensure Hakko Fume Extractor System Model HJ3100 is turned on.  
-    ![](img/image20.jpg)
+    ![](img/image20.jpg){:width="600px"}
 
 3.  Turn on K-40 main power switch  
-    ![](img/image8.jpg)
+    ![](img/image8.jpg){:width="600px"}
 
 4.  Ensure K-40 Laser Switch is depressed. It can be a little hard to
     tell whether this one is depressed or not, but it works like a
     ballpoint pen. Give it a click or two, and you should be able to
     feel the difference. Picture included to help.  
-    ![](img/image22.png)
+    ![](img/image22.png){:width="600px"}
 
 5.  Ensure you are logged into the control computer. Username will be
     eploven and password will be Fire-Hamster (case sensitive).  
-    ![](img/image25.jpg)
+    ![](img/image25.jpg){:width="600px"}
 
 6.  Ensure LaserWeb is open. Double click the shortcut on the control computer.  
-    ![](img/image23.png)
+    ![](img/image23.png){:width="600px"}
 
 7.  Connect LaswerWeb to the machine: Click on Comms on the left side
     and open the Machine Connection tab. Make sure the settings are
     correct (“MACHINE CONNECTION” should be set to USB, “USB / SERIAL
     PORT” should be set to “Uberclock LLC (...) @COM10”, and “BAUDRATE”
     should be set to “115200”. Finally, click the connect button.  
-    ![](img/image17.png)
+    ![](img/image17.png){:width="600px"}
 
 8.  Now you are ready for material prep.
 
@@ -79,18 +79,18 @@ The KD-40 uses LaserWeb as its control software. LaserWeb only sometimes takes D
     cuttable by the K-40 is only (32cm, 22cm),
 
 2.  Lift the hood of the laser cutter.  
-    ![](img/image9.jpg){width="4.909722222222222in"    height="3.682292213473316in"}
+    ![](img/image9.jpg){:width="600px"}
 
 3.  Inside there will likely already be a small piece of cardboard.
     **Leave this in the cutter! Its purpose is to cover a large hole in the bottom of the cutting area!**  
-    ![](img/image24.jpg){width="5.576388888888889in"    height="4.182292213473316in"}
+    ![](img/image24.jpg){:width="600px"}
 
 4.  Place your material in the cutting area, on top of the preexisting cardboard backer if present. 
     It is safe to (gently) move the laser head manually if necessary.  
-    ![](img/image26.jpg){width="5.506944444444445in"    height="4.130208880139983in"}
+    ![](img/image26.jpg){:width="600px"}
 
 5.  Close the laser cutter hood.  
-    ![](img/image18.jpg){width="5.301964129483815in"    height="3.9739588801399823in"}
+    ![](img/image18.jpg){:width="600px"}
 
 6.  You are now ready to calibrate & home the laser cutter.
 
@@ -101,16 +101,16 @@ The KD-40 uses LaserWeb as its control software. LaserWeb only sometimes takes D
     section is open. Using the topmost dropdown, select “k40” if it is
     not selected already. Then, click the apply
     button.  
-    ![](img/image16.png){width="5.453125546806649in"    height="3.320813648293963in"}
+    ![](img/image16.png){:width="600px"}
 
 2.  After you click apply, you’ll need to say “OK” to the popup asking
     you to confirm settings
     overwrite  
-    ![](img/image14.png){width="6.5in"    height="3.9583333333333335in"}
+    ![](img/image14.png){:width="600px"}
 
 3.  You are now ready to do “Workspace” Prep.
 
-##“Workspace” Prep
+## “Workspace” Prep
 
 ### What is a workspace in LaserWeb?
 
