@@ -32,7 +32,7 @@ This will generate *filename-tcream.dxf* and *filename-bcream.dxf* files in the 
 
 ### Other Designs
 
-The KD-40 uses LaserWeb as its control software. LaserWeb only sometimes takes DXFs if they are in R12 format which is an older format that most vector graphics software can no longer export. It is recommended to use .svg files which can be produced by most vector graphics software such as Adobe Illustrator or Inkscape.
+The KD-40 uses LaserWeb as its control software. LaserWeb only sometimes takes DXFs if they are in R12 format which is an older format that most vector graphics software can no longer export. It is recommended to use .svg files which can be produced by most vector graphics software such as Adobe Illustrator or Inkscape. Alternatively, you can use Blender to import newer dxf files, clean them up, and then export them in the older format.
 
 ## Safety & Laser Startup
 
@@ -176,6 +176,8 @@ Now that you have been introduced to the nuances of LaserWeb, we can return to o
 	Supported Raster File Types: .png, .jpg, .jpeg, .bmp;
 	
 	(Advanced: Supported Machine Code File Types:.gcode, .g, .gc, .nc, .tap)
+	
+	[Here is the example dxf we use in this SOP](epl_outline.dxf)
 
 3.  Now that you have added a document, you will see something akin to the following: 
 
