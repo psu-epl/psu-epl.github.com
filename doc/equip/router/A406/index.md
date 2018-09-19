@@ -37,11 +37,12 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 
 # Useful Links
 
-[A406-Debugging](A406-Debugging)  
-[A406-materials](A406-materials)  
-[A406-target-calibration](A406-target-calibration)  
-[A406-Tool-Settings](A406-Tool-Settings)
-[A406-Tool-Change](A406-Tool-Change)   
+[A406-Debugging](A406-Debugging.html)  
+[A406-materials](A406-materials.html)  
+[A406-target-calibration](A406-target-calibration.html)  
+[A406-Tool-Settings](A406-Tool-Settings.html)  
+[A406-Tool-Change](A406-Tool-Change.html)   
+
 
 # Using the A406
 
