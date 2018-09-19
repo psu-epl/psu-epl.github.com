@@ -123,6 +123,13 @@ You can check the `_config.yml` file for a list of enabled plugins.
 Note that if you're wanting to enable more plugins, 
 [only those used by GitHub Pages][supported plugins] will work in the published site.
 
+In particular, we currently use the following plugins:
+```
+	sudo gem install jekyll-sitemap
+	sudo gem install jemoji
+```
+
+
 ### Running Jekyll
 The necessary commands are already set up in the Makefile, 
 so you can simply run `make preview` and visit the address it tells you in a browser.
@@ -147,7 +154,7 @@ The resulting CSS is already in the repo, so you don't need to worry about it un
 If you do need to change it, you'll need the `less` gem installed:
 
 ```
-sudo gem install less
+	sudo gem install less
 ```
 
 This should give you access to the `lessc` command.
@@ -155,8 +162,8 @@ This should give you access to the `lessc` command.
 You'll also need to get the submodule that contains the theme that serves as a basis for the styling:
 
 ```
-git submodule init
-git submodule update
+	git submodule init
+	git submodule update
 ```
 
 This will clone the repo that provides that styling.
