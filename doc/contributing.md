@@ -40,6 +40,7 @@ All of the actual content is in [Markdown] files (`.md` or sometimes `.markdown`
 Managers are able to make changes to this site [through the GitHub repo.][repo]
 You can edit these relatively easily through a browser by clicking the "Edit this Page" link [at the bottom of a page](#footer).
 However, it's preferred that big changes (particularly multi-file changes) be done locally through Git (outside the scope of this guide).
+If you're making changes locally, _please use a **text editor**_ and *not* a word processor!
 Check out the [Markdown] syntax, if it's not familiar to you.
 
 Non-managers can still contribute through issues and pull requests.

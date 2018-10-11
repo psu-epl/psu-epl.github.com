@@ -30,12 +30,12 @@
     - name: Ultimaker2 3D Printer
       img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
-      up: asdf
+      up: other
       
     - name: Ultimaker3 Extended 3D Printer (x2)
       img: images/Ultimaker3.JPG
       sop: /doc/equip/printer/UM3
-      up: True
+      up: other
       
     - name: FormLabs Form2
       img: doc/equip/printer/form2/img/Formlabs2.JPG
@@ -64,7 +64,7 @@
     - name: QD-1390 Laser Cutter
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
-      up: true
+      up: false
       
     - name: Full Spectrum Pro CO2 Laser Cutter
       img: images/prolf20x12.JPG
