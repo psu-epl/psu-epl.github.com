@@ -3,7 +3,6 @@ title: Torch T200N Reflow Oven
 layout: doc
 author: 
 date: 
-
 ---
 
 # Overview
@@ -15,9 +14,9 @@ The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature 
 # Reflow SOP for LEADED solder paste
 
 1. Switch on the oven (switch on back, upper right corner).
-1. Turn on the soldering exhaust fan, located under the soldering table.
+1. Turn on the exhaust fan, located next to the oven.
    - ![](img/Soldering_exhaustFan_on.JPG)
-1. Verify that one of the black exhaust fan tubes is placed next to the oven's vent on the back side of the oven.
+1. Verify that one of the exhaust fan tubes is placed on the oven's vent on the back side.
    - ![](img/Torch_exhaustSetup.JPG)
 1. Make sure the latch on the left side is closed so the lid is securely down.
 1. Open the oven door using the red "Drawer in/out" button
@@ -25,7 +24,7 @@ The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature 
 1. Carefully put your board on the tray, centered on the tray.
 1. Close the oven door using the red "Drawer in/out" button
    - **CAREFUL!** Don't let anything pinched, this thing will happily squash fingers.
-1. Launch oven control software ("Pat's reflow controller").
+1. Launch oven control software ("PyTorch").
 1. Make sure the 'leaded-profile.prfl' is loaded. You can load other profiles if you want, but of course you need to know what you're doing or you'll, uh, "torch" your board.
 1. Hit "Start".
    1. Monitor the red temperature graph - it should basically mirror the green set points.
