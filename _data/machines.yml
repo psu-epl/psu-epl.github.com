@@ -3,7 +3,7 @@
     - name: LPKF PCB Router
       img: images/protomat-s63.jpg
       sop: /doc/equip/router/LPKF
-      up: false
+      up: true
 
     - name: A406 PCB Router
       img: images/A406.jpg
