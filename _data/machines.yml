@@ -43,7 +43,7 @@
       up: True
 
     - name: Shining 3D Scanner
-      img: images/shining3D.JPG
+      img: images/shining3D.jpeg
       sop: /doc/equip/printer/shining3D
       up: true
 
