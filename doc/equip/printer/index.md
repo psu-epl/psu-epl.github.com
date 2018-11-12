@@ -30,3 +30,4 @@ For Filament selection, type, and price please refer to: https://github.com/psu-
 
 ## [Ultimaker 3](UM3)
 
+## [shining3D](Shining 3D Scanner)
