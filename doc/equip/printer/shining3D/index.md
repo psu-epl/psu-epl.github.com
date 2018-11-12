@@ -1,8 +1,8 @@
 ---
 title: Shining 3D SOP
 layout: doc
-author: 
-date: 
+author: austinjoseph
+date: 11/12/2018
 
 ---
 
