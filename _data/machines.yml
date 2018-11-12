@@ -42,6 +42,11 @@
       sop: /doc/equip/printer/form2
       up: True
 
+    - name: Shining 3D Scanner
+      img: images/shining3D.JPG
+      sop: /doc/equip/printer/shining3D
+      up: true
+
 - title: Machining Equipment
   machines:
     - name: Little Machine Shop Mill
