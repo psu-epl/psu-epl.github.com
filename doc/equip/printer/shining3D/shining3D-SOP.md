@@ -10,4 +10,4 @@ The EPL has a Shining3D EinScan-SP Desktop 3D Scanner. It is able to scan a volu
   
 ## Reference Material
 
-[Quick Start Guide](https://www.filepicker.io/api/file/bdUjgsOBTEaa70QNEqni?signature=c19076a0cb76e614fd86e4a0a32de38cfe18fc3e352321755a03af41beb3a35a&policy=eyJoYW5kbGUiOiJiZFVqZ3NPQlRFYWE3MFFORXFuaSIsImV4cGlyeSI6MTU0Mjc2MTU3NH0= "Getting Started with EinScan-SP")
+[Quick Start Guide](https://www.filepicker.io/api/file/bdUjgsOBTEaa70QNEqni?signature=c19076a0cb76e614fd86e4a0a32de38cfe18fc3e352321755a03af41beb3a35a&policy=eyJoYW5kbGUiOiJiZFVqZ3NPQlRFYWE3MFFORXFuaSIsImV4cGlyeSI6MTU0Mjc2MTU3NH0= "Getting Started with EinScan-SP") The majority of the material in this SOP is copied from this guide.
