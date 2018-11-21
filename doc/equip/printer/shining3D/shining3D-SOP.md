@@ -1,4 +1,13 @@
-This is an alpha version of the SOP.
+---
+title: Shining 3D SOP
+layout: doc
+author: armaanhammer
+date: 11/20/2018
+note: This is an alpha version of the SOP.
+
+---
+
+
 
 
 ## Getting Started
