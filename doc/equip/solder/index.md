@@ -12,3 +12,4 @@ date:
 [Soldering-Equipment](Soldering-Equipment)  
 [Solder-Masks-for-your-PCB](Solder-Masks-for-your-PCB)  
 [Torch-T200N-Reflow-Oven](oven)  
+[stencil-printer](stencil printer)
