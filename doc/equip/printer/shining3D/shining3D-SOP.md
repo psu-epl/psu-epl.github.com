@@ -18,7 +18,7 @@ See this document's source for an explanation.
 
 
 # About this Machine
-![picture of the machine](images/kitten.jpg)
+![picture of the machine]("img/shining 3D image 1.png")
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
 
 The EPL has a Shining3D EinScan-SP Desktop 3D Scanner. It is able to scan a volume between 30×30×30 mm and 200×200×200mm automatically on the turntable, or 1200 ×1200×1200mm manually using a fixed mount.
