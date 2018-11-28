@@ -1,6 +1,9 @@
-Cutting Solder Stencils for an Eagle Designed Board
+# Cutting Solder Stencils for an Eagle Designed Board
 
-# Part 1. Exporting the DXF File
+### Useful Links
+[K-40manual](K-40manual.pdf)
+
+## Part 1. Exporting the DXF File
 
 **Requirements**
 
@@ -8,7 +11,7 @@ Cutting Solder Stencils for an Eagle Designed Board
 * Eagle Board (.brd) file
 * Parchment Paper
 
-## Exporting from EAGLE
+### Exporting from EAGLE
 
 Copy [cream-dxf.ulp](https://github.com/SWITCHSCIENCE/ssci-eagle-public/raw/master/cream-dxf.ulp) to your EAGLE ulp folder.
 
