@@ -9,7 +9,7 @@ note: This is an alpha version of the SOP.
 
 
 ## Table of Contents
-{:.no_toc}
+< {:.no_toc} >
 * ToC
 {:toc}
 A ToC is optional, but preferred for longer documents.
