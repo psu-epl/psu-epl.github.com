@@ -5,20 +5,16 @@ Cutting Solder Stencils for an Eagle Designed Board
 **Requirements**
 
 * EagleCAD
-
 * Eagle Board (.brd) file
-
 * Parchment Paper
 
 ## Exporting from EAGLE
 
 Copy [cream-dxf.ulp](https://github.com/SWITCHSCIENCE/ssci-eagle-public/raw/master/cream-dxf.ulp) to your EAGLE ulp folder.
 
-    1. Right click the link above and click "Save Link As".
-
-    2. ULP Folder Location is in  "My Documents/eagle/ulps" for Eagle 9.1.1 and above
-
-    3. For older versions of Eagle, it’s located in your Eagle folder in "C:/Program Files/eagle/ulp" or where-ever you installed Eagle.
+1. Right click the link above and click "Save Link As".
+2. ULP Folder Location is in  "My Documents/eagle/ulps" for Eagle 9.1.1 and above
+3. For older versions of Eagle, it’s located in your Eagle folder in "C:/Program Files/eagle/ulp" or where-ever you installed Eagle.
 
 To export DXF files for top and bottom surface-mount pads (cream layers):
 
@@ -28,19 +24,16 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
 ![](img1/image_0.png)
 
-    * Uncheck "Cut two times..."
-
-    * (Leave "Cut off corners..." unchecked.)
-
-    * (Leave shrink width at 0.05 mm, or alter as you see fit.)
-
-    * Click Run.
+* Uncheck "Cut two times..."
+* (Leave "Cut off corners..." unchecked.)
+* (Leave shrink width at 0.05 mm, or alter as you see fit.)
+* Click Run.
 
 ![](img1/image_1.png)
 
 1. This will generate filename-tcream.dxf and filename-bcream.dxf files in the folder containing your filename.brd file.
 
-    1. Note: DXF files do not typically encode units. This DXF exporter assumes millimeters.
+    a. Note: DXF files do not typically encode units. This DXF exporter assumes millimeters.
 
 2. Save these DXF files to a flash drive and take them to the K-40 Laser Cutter Computer
 
@@ -80,7 +73,7 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
 3. Place the board into the K-40 Laser bed
 
-    1. It is also a good idea to tape down the board to keep it from moving.
+    a. It is also a good idea to tape down the board to keep it from moving.
 
 ![](img1/image_8.png)
 
@@ -96,7 +89,7 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
 ![](img1/image_11.png)
 
-    2. Ensure that the laser switch is in the "Off" position for now.
+   a. Ensure that the laser switch is in the "Off" position for now.
 
 <table>
   <tr>
@@ -156,11 +149,11 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
 10. If the laser doesn’t cut, go back to the Files tab and reduce the "Cut Rate". If the paper is burning too much (your holes will be too large), increase the cut rate.
 
-    1. Note: Remember to click "Generate" after doing this or the changes won’t apply!
+    a. Note: Remember to click "Generate" after doing this or the changes won’t apply!
 
 11. Move to a fresh piece of parchment paper if needed and run the job again.
 
-    2. Should you ever need to abort a job that is in progress, you will need to click "Abort Job" and then “Clear Alarm” to be able to start cutting again.
+    a. Should you ever need to abort a job that is in progress, you will need to click "Abort Job" and then “Clear Alarm” to be able to start cutting again.
 
 ![](img1/image_23.png)
 
