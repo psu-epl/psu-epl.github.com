@@ -94,7 +94,7 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
    a. Ensure that the laser switch is in the "Off" position for now.
 
-    ![](img/image_22.png)
+    ![](img/image22.png)
 
    b. Ensure that the current regulation is set to the appropriate value.
 
