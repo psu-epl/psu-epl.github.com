@@ -79,11 +79,11 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
 4. Turn on the CW-3000 Industrial Chiller
 
-![](img/image_0.jpg){:width="600px"}
+![](img/image_19.jpg){:width="600px"}
 
 5. Turn on the Hakko Fume Extraction System
 
-![](img/image_1.jpg){:width="600px"}
+![](img/image_20.jpg){:width="600px"}
 
 6. Turn on the K-40 laser.
 
