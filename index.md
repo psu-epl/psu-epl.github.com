@@ -10,19 +10,8 @@ It is meant for both students and the community to be able to walk in with an id
 The EPL is located on the lower level of the PSU Fourth Avenue Building (FAB) at 1900 SW 4th Avenue in room **FAB 84-20**. 
 Our phone number is **503-725-2879**.
 
-Please consider **[donating to the lab][donate]** to help us further our growth.
+Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! 
-
-# Quick Links
-[Equipment] |
-[Circuit Store and Lockers] |
-[Lab Policies] |
-[RF Chamber] |
-[3D Print Your Part] |
-[Workshops] |
-[Become a Manager] |
-[Managers Only][manager repo] |
-[Sponsors] 
 
 # Using the Labs
 
@@ -35,14 +24,26 @@ It's easy! Here's what you do:
  1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. Information on how to proceed here: [Becoming a Manager][Become a Manager] :)
 
 # Documentation
-To learn more about the EPL, check out [the **documentation** on our machines, policies, services, and more](doc).
+Read [the **documentation** on our machines, policies, services, and more](doc) to learn about the EPL.
+
+Here are some links to commonly visited pages:  
+[Equipment],
+[Checkout],
+[Lab Policies],
+[3D Print Your Part],
+[Workshops],
+[Become a Manager],
+[Managers Only][manager repo],
+[Sponsors] 
+
 
 # Lab Calendar
 {% include calendar_lab.html %}
 
 # Lab Equipment
 Here is the list of equipment and its current status. Sometimes machines
-break. When they do, we'll be sure to make a note of it here:
+break. When they do, we'll be sure to make a note of it here.
+Click on a machine to jump to its documentation.
 
 {% include machines.html %}
 

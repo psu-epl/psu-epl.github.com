@@ -12,7 +12,7 @@
 
     - name: T200N Desktop Solder Oven
       img: images/torch.jpg
-      sop: /doc/equip/solder/Torch-T200N-Reflow-Oven
+      sop: /doc/equip/solder/oven
       up: true
 
     - name: Test and Measurement

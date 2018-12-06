@@ -12,7 +12,7 @@ date: 2018-09-01
 
 
 # About this Machine
-![picture of the machine](littlemachine3990.JPG)
+![picture of the machine](img/littlemachine3990.JPG)
 This is the Little Machine Shop HiTorque Mini Mill 3900. 
 
 This machine is good for making precise cuts at right angles, drilling holes, and creating flat surfaces.
@@ -87,7 +87,7 @@ Confirm that the following conditions are met.
 ## Operation
 
 ### Fixturing
-![vise installed on the table with the vise wrench attached](vise.jpg)
+![vise installed on the table with the vise wrench attached](img/vise.jpg)
 
 Make sure that your stock is securely fastened in the vise such that you can complete the intended operation without moving the part and without crashing the tooling into the vise.
 
@@ -145,7 +145,7 @@ If you find any, apply oil to a towel and wipe on a thin layer.
 Return the tool and collet to the appropriate boxes.
 
 ### Milling
-![](end_mill.jpg)
+![](img/end_mill.jpg)
 End mills are the work horse of manual milling. They come in a variety of sizes and shapes.
 
 _Only two flute cutters_ may be used with aluminum and copper. 
@@ -158,7 +158,7 @@ See the [manual] for more information.
 TODO: stuff about DoC, speeds and feeds
 
 #### Climb Milling
-![](conventionalVsClimbMilling.png)
+![](img/conventionalVsClimbMilling.png)
 It's important to pay attention to whether or not you're using conventional or climb milling.
 When climb milling, the cutter has a tendency to pull itself deeper into the cut.
 If your setup is not rigid enough, this can result in a __sudden and catastrophic failure!__
@@ -169,7 +169,7 @@ If it's still not obvious, __you shouldn't be using climb milling__!
 Climb milling is generally only a problem with metals, but keep it in mind when machining plastics.
 
 ### Drilling
-![](drill_bits.jpg)
+![](img/drill_bits.jpg)
 Drill bits are just like every other drill bit ever. Please keep machine tool drills separate from other drill bits in the lab.
 
 ### Locating Features
