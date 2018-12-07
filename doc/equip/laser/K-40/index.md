@@ -1,7 +1,15 @@
+---
+date:
+title: K-40 Laser Stencil Cutter
+layout: doc
+author:
+---
+
 # Cutting Solder Stencils for an Eagle Designed Board
 
 ### Useful Links
-[K-40manual](K-40manual.pdf)
+[K-40manual](K-40manual.pdf)  
+[old K-40 SOP](index_old.html)
 
 ## Part 1. Exporting the DXF File
 
