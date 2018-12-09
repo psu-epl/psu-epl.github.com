@@ -26,6 +26,7 @@ The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature 
    - **CAREFUL!** Don't let anything pinched, this thing will happily squash fingers.
 1. Launch oven control software ("PyTorch").
 1. Make sure the 'leaded-profile.prfl' is loaded. You can load other profiles if you want, but of course you need to know what you're doing or you'll, uh, "torch" your board.
+1. Select COM 7, if prompted.
 1. Hit "Start".
    1. Monitor the red temperature graph - it should basically mirror the green set points.
 1. When the peak temperature is hit, and the temperature starts coming down, twist the latch on the left of the oven, remove the latch, and crack open oven's lid. Hold the lid open until your board is safely under 150 deg C. Then just leave the lid cracked open while the whole thing cools down.
