@@ -25,9 +25,7 @@ The EPL has a Shining3D EinScan-SP Desktop 3D Scanner. It is able to scan a volu
 
 ## Useful Links
 - [manufacturer website](https://www.einscan.com/einscan-se-sp)
-- 
-[Quick Start Guide](https://www.filepicker.io/api/file/bdUjgsOBTEaa70QNEqni?signature=c19076a0cb76e614fd86e4a0a32de38cfe18fc3e352321755a03af41beb3a35a&policy=eyJoYW5kbGUiOiJiZFVqZ3NPQlRFYWE3MFFORXFuaSIsImV4cGlyeSI6MTU0Mjc2MTU3NH0= "Getting Started with EinScan-SP") - The majority of the material in this SOP is copied from this guide.
-- You can find the manual [here](manual.pdf).
+- [Quick Start Guide]("EinScan-SP Quick Guide-compressed.pdf") - The majority of the material in this SOP is copied from this guide.
 - more links to manufacturer docs, calculators, outside tutorials, etc.  
 It's preferred that critical documents like manuals, TDSs, and MSDSs be kept in the repo when possible/allowed.
 Markdown contains a feature to define a bunch of named links at the bottom of your document.
