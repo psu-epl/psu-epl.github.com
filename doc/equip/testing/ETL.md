@@ -1,8 +1,8 @@
 ---
 title: EPL Environmental Testing Lab
 layout: doc
-author: 
-date: 
+author: Jennifer Jordan
+date: 1/4/2018
 
 ---
 
