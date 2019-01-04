@@ -130,6 +130,6 @@
       sop: /doc/equip/testing/RF-Chamber
       up: true
     - name: Environmental Testing Lab
-      img: 
+      img: images/ETL-freezer.JPG
       sop: /doc/equip/testing/ETL
       up: true
