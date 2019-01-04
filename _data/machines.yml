@@ -127,9 +127,9 @@
   machines:
     - name: RF Chamber
       img: 
-      sop: doc/equip/testing/RF-Chamber
+      sop: /doc/equip/testing/RF-Chamber
       up: true
     - name: Environmental Testing Lab
       img: 
-      sop: doc/equip/testing/ETL
+      sop: /doc/equip/testing/ETL
       up: true
