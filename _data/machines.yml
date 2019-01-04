@@ -122,4 +122,13 @@
       img: doc/equip/shop/img/arborPress.jpg
       sop:
       up: true
-
+      
+- title: EPL Testing Labs
+    - name: RF Chamber
+      img: 
+      sop: doc/equip/testing/RF-Chamber
+      up: true
+    - name: Environmental Testing Lab
+      img: 
+      sop: doc/equip/testing/ETL
+      up: true
