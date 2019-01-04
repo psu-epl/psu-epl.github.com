@@ -1,22 +1,21 @@
 ---
-title: Safety protocols
+title: Safety Protocols
 layout: doc
 author: 
 date: 
-
 ---
+![PSU emergency procedures]({{ site.url }}/images/psuSafety.jpg)
 
-## EMERGENCY SAFETY PROTOCOLS - SERIOUS INJURY, FIRE, ETC.
+## Emergency Safety Protocols - Serious Injury, Fire, Etc.
+- See the bright yellow card in the lab. (above)
+- Contact PSU Safety immediately. (dial 5-4404 on the lab phone)
+- Contact an EPL Lab Administrator.
 
-- Contact PSU Safety immediately. (See bright yellow card posted in the lab)
-- Contact an E.P.L. Lab Administrator
-
-## NON-EMERGENCY SAFETY PROTOCOLS (Non-serious injury)
-
-- Contact an E.P.L. Lab Administrator immediately
-   - Phillip Wong
-   - Nathan Bergey
+## Non-emergency Safety Protocols (Non-serious injury)
+- Contact an EPL Lab Administrator immediately
+	- Chris Clark
+	- Phillip Wong
+	- Andrew Greenberg
 
 ## Safety Procedures
-
-- Each machine has its own 
+- [Each machine has its own]({{ site.url }}/doc/equip).
