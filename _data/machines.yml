@@ -124,6 +124,7 @@
       up: true
       
 - title: EPL Testing Labs
+  machines:
     - name: RF Chamber
       img: 
       sop: doc/equip/testing/RF-Chamber
