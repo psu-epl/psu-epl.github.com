@@ -1,0 +1,6 @@
+- title: ETL Equipment
+  machines:
+    - name: Thin Film Depositor
+      img: images/ETL-depositor.jpg
+      sop: 
+      up: true
