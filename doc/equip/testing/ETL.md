@@ -36,11 +36,11 @@ Oscilloscope:
 * ...
 
 Misc:
-* Atomic Force Mircoscope, qscope 250 quesant:
-* Blue M Stabil-therm Gravity Oven:
-* Hummer II Technics:
-* Olympus BHM Microscope:
-* Digital Ultrasonic Cleaner Isonic 2.1 Qt:
+* Atomic Force Mircoscope, qscope 250 quesant: [quesant](https://www.hydrogen.uni-wuppertal.de/en/research/laborausstattung/atomic-force-microscope.html)
+* Blue M Stabil-therm Gravity Oven: [stabil-therm](https://www.bmisurplus.com/products/43063-blue-m-ov-8a-stabil-therm-gravity-oven)
+* Hummer II Technics: [hummerII](https://caeonline.com/buy/sputtering-systems/anatech-technics-hummer-ii/9053245)
+* Olympus BHM Microscope: [bhm](http://www.alanwood.net/downloads/olympus-bh-bhm-instructions.pdf)
+* Digital Ultrasonic Cleaner Isonic 2.1 Qt: [isonic](http://www.ultrasonic-cleaners.info/isonic/isonic-ultrasonic-cleaner-p4810-2-1qt-2-l-with-1000-ml-single-beaker-holder-set-for-diy-liposomal-vitamin-c/)
 
 
 ## Prices:
