@@ -1,6 +1,10 @@
-![alt text](https://user-images.githubusercontent.com/33878769/50576984-cde2d900-0dd2-11e9-8117-1c2e21f85c7d.png)
+---
+title: Helmholtz Cage
+layout: doc
+author: Jennifer Jordan
+date: 1/4/2018
 
-# OreSat Helmholtz Cage: Standard Operating Procedure
+---
 
 ## General Notes:
 
