@@ -126,7 +126,7 @@
 - title: EPL Testing Labs
   machines:
     - name: RF Chamber
-      img: 
+      img: psu-epl.github.com/RF-Chamber.JPG
       sop: /doc/equip/testing/RF-Chamber
       up: true
     - name: Environmental Testing Lab
