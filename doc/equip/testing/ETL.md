@@ -14,7 +14,7 @@ This page is currently being updated.
 ## Equipment:
 * Thermal Vacuum Chamber: 
 * Thin-Film Depositor: 
-* Helmholtz Cage: [SOP](http://psu-epl.github.com/doc/equip/testing/ETL/helmholtz-cage.md)
+* Helmholtz Cage: [SOP]({{ site.url }}/doc/equip/testing/ETL/helmholtz-cage)
 * Watlow Environmental Chamber:
 
 Signal Generators: 
