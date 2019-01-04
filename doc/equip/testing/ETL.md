@@ -6,12 +6,12 @@ date:
 
 ---
 
-The Environmental Testing Lab is located in the basement of the Engineering Building at PSU (1900 SW 4th Ave.) in room FAB-60. Here we can help with various environmental testing and data collection.
+The Environmental Testing Lab is located in the basement of the Engineering Building at PSU (1900 SW 4th Ave.) in room FAB60-12. Here we can help with various environmental testing and data collection.
 
 ## Specifications:
 
 ## Equipment:
-* Thermal Vacuum Chamber: 
+* Thermal Vacuum Chamber: Thin-Film Depositor: 
 * Helmholtz Cage: 
 
 Signal Generators: 
@@ -21,13 +21,24 @@ Spectrum Analyzer:
 * ...
 
 Power Supplies:
-* ...
+* BK Precision 8512 600W Programmable DC Electronic Load:
+* Keithley 228A Voltage/Current Source:
+Heathkit ip-2718 Tri-power supply
+* Keithley 6430 Sub-Femtoamp Remote sourcemeter
+* Keithley 2182 nanovoltmeter
+* Keithley 2400 SoruceMeter
+* Keithley 2420 3A Sourcemeter
 
 Oscilloscope:
 * ...
 
 Misc:
-* ...
+* Atomic Force Mircoscope, qscope 250 quesant:
+* Blue M Stabil-therm Gravity Oven:
+* Hummer II Technics:
+* Olympus BHM Microscope:
+* Watlow Environmental Chamber:
+* Digital Ultrasonic Cleaner Isonic 2.1 Qt:
 
 
 ## Prices:
