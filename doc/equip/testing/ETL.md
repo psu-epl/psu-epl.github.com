@@ -27,10 +27,10 @@ Power Supplies:
 * BK Precision 8512 600W Programmable DC Electronic Load: [8512](https://www.bkprecision.com/products/dc-electronic-loads/8512-600-w-500-v-programmable-dc-electronic-load.html)
 * Keithley 228A Voltage/Current Source: [228A](https://www.artisantg.com/TestMeasurement/63854/Keithley_228_228A_Programmable_Voltage_Current_Source)
 * Heathkit ip-2718 Tri-power supply: [IP-2718](https://archive.org/details/HeathkitIP2718TriPowerSupply)
-* Keithley 6430 Sub-Femtoamp Remote sourcemeter:
-* Keithley 2182 nanovoltmeter:
-* Keithley 2400 SoruceMeter:
-* Keithley 2420 3A Sourcemeter:
+* Keithley 6430 Sub-Femtoamp Remote sourcemeter: [6430](https://www.tek.com/low-level-sensitive-and-specialty-instruments/high-resistance-low-current-electrometers-series-650-0)
+* Keithley 2182 nanovoltmeter: [2182](https://www.testequity.com/documents/pdf/keithley/2182A.pdf)
+* Keithley 2400 SoruceMeter: [2400](https://www.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter)
+* Keithley 2420 3A Sourcemeter: [2420](https://www.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter-manual-1)
 
 Oscilloscope:
 * ...
