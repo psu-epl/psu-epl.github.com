@@ -1,5 +1,5 @@
 ---
-title: ETL
+title: EPL Environmental Testing Lab
 layout: doc
 author: 
 date: 
@@ -12,8 +12,9 @@ The Environmental Testing Lab is located in the basement of the Engineering Buil
 This page is currently being updated.
 
 ## Equipment:
-* Thermal Vacuum Chamber: Thin-Film Depositor: 
-* Helmholtz Cage: 
+* Thermal Vacuum Chamber: 
+* Thin-Film Depositor: 
+* Helmholtz Cage: [SOP](psu-epl.github.com/doc/equip/testing/helmholtz-cage.md)
 * Watlow Environmental Chamber:
 
 Signal Generators: 
@@ -23,9 +24,9 @@ Spectrum Analyzer:
 * ...
 
 Power Supplies:
-* BK Precision 8512 600W Programmable DC Electronic Load:
-* Keithley 228A Voltage/Current Source:
-* Heathkit ip-2718 Tri-power supply:
+* BK Precision 8512 600W Programmable DC Electronic Load: [8512](https://www.bkprecision.com/products/dc-electronic-loads/8512-600-w-500-v-programmable-dc-electronic-load.html)
+* Keithley 228A Voltage/Current Source: [228A](https://www.artisantg.com/TestMeasurement/63854/Keithley_228_228A_Programmable_Voltage_Current_Source)
+* Heathkit ip-2718 Tri-power supply: [IP-2718](https://archive.org/details/HeathkitIP2718TriPowerSupply)
 * Keithley 6430 Sub-Femtoamp Remote sourcemeter:
 * Keithley 2182 nanovoltmeter:
 * Keithley 2400 SoruceMeter:
