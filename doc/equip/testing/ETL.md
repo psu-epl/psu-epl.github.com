@@ -12,7 +12,7 @@ The Environmental Testing Lab is located in the basement of the Engineering Buil
 This page is currently being updated.
 
 ## Equipment:
-{% include etlequipment.html %}
+{% include etlmachines.html %}
 * Thermal Vacuum Chamber: 
 * Thin-Film Depositor: 
 * Helmholtz Cage: [SOP]({{ site.url }}/doc/equip/testing/ETL/helmholtz-cage)
