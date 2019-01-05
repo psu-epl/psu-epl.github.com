@@ -20,6 +20,33 @@
       sop: /doc/equip/testing/ETL/watlow-environmental-chamber/index
       up: false
 
+- title: Misc
+  machines:
+    - name: Atomic Force Mircoscope, qscope 250 quesant
+      img: images/ETL-quesant.jpg
+      sop: /doc/equip/testing/ETL/atomic-force-microscope/index
+      up: true
+      
+    - name: Blue M Stabil-therm Gravity Oven
+      img: images/ETL-gravity-oven.jpg
+      sop: /doc/equip/testing/ETL/gravity-oven/index
+      up: true
+      
+    - name: Hummer II Technics
+      img: images/ETL-hummer.jpg
+      sop: /doc/equip/testing/ETL/hummer2/index
+      up: other
+      
+    - name: Olympus BHM Microscope
+      img: 
+      sop: /doc/equip/testing/ETL/bhm-microscope/index
+      up: true
+      
+    - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
+      img: 
+      sop: /doc/equip/testing/ETL/isonic-cleaner/index
+      up: true
+      
 - title: Power Supplies
   machines:
     - name: BK Precision 8512 600W Programmable DC Electronic Load
@@ -55,31 +82,4 @@
     - name: Keithley 2420 3A Sourcemeter
       img: 
       sop: 
-      up: true
-
-- title: Misc
-  machines:
-    - name: Atomic Force Mircoscope, qscope 250 quesant
-      img: images/ETL-quesant.jpg
-      sop: /doc/equip/testing/ETL/atomic-force-microscope/index
-      up: true
-      
-    - name: Blue M Stabil-therm Gravity Oven
-      img: images/ETL-gravity-oven.jpg
-      sop: /doc/equip/testing/ETL/gravity-oven/index
-      up: true
-      
-    - name: Hummer II Technics
-      img: images/ETL-hummer.jpg
-      sop: /doc/equip/testing/ETL/hummer2/index
-      up: other
-      
-    - name: Olympus BHM Microscope
-      img: 
-      sop: /doc/equip/testing/ETL/bhm-microscope/index
-      up: true
-      
-    - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
-      img: 
-      sop: /doc/equip/testing/ETL/isonic-cleaner/index
       up: true
