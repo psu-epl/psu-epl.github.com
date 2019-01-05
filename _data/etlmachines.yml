@@ -1,7 +1,7 @@
 - title: Testing Chambers
   machines:
     - name: Thermal Vacuum Chamber
-      img: 
+      img: images/placeholder.png
       sop: /doc/equip/testing/ETL/thermal-vacuum/index
       up: false
       
@@ -38,48 +38,48 @@
       up: other
       
     - name: Olympus BHM Microscope
-      img: 
+      img: images/placeholder.png
       sop: /doc/equip/testing/ETL/bhm-microscope/index
       up: true
       
     - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
-      img: 
+      img: images/placeholder.png
       sop: /doc/equip/testing/ETL/isonic-cleaner/index
       up: true
       
 - title: Power Supplies
   machines:
     - name: BK Precision 8512 600W Programmable DC Electronic Load
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
       
     - name: Keithley 228A Voltage/Current Source
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
       
     - name: Heathkit ip-2718 Tri-power supply
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
       
     - name: Keithley 6430 Sub-Femtoamp Remote sourcemeter
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
       
     - name: Keithley 2182 nanovoltmeter
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
       
     - name: Keithley 2400 SoruceMeter
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
       
     - name: Keithley 2420 3A Sourcemeter
-      img: 
+      img: images/placeholder.png
       sop: 
       up: true
