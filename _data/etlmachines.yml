@@ -12,7 +12,7 @@
       
     - name: Helmholtz Cage
       img: images/ETL-helmholtz.jpg
-      sop: 
+      sop: /doc/equip/testing/ETL/helmholtz-cage
       up: true
       
     - name: Watlow Environmental Chamber
