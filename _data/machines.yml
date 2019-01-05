@@ -131,5 +131,5 @@
       up: true
     - name: Environmental Testing Lab
       img: images/ETL-freezer.jpg
-      sop: /doc/equip/testing/ETL
+      sop: /doc/equip/testing/ETL/index
       up: true
