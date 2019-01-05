@@ -24,62 +24,62 @@
   machines:
     - name: BK Precision 8512 600W Programmable DC Electronic Load
       img: 
-      sop: (https://www.bkprecision.com/products/dc-electronic-loads/8512-600-w-500-v-programmable-dc-electronic-load.html)
+      sop: https://www.bkprecision.com/products/dc-electronic-loads/8512-600-w-500-v-programmable-dc-electronic-load.html
       up: true
       
     - name: Keithley 228A Voltage/Current Source
       img: 
-      sop: (https://www.artisantg.com/TestMeasurement/63854/Keithley_228_228A_Programmable_Voltage_Current_Source)
+      sop: https://www.artisantg.com/TestMeasurement/63854/Keithley_228_228A_Programmable_Voltage_Current_Source
       up: true
       
     - name: Heathkit ip-2718 Tri-power supply
       img: 
-      sop: (https://archive.org/details/HeathkitIP2718TriPowerSupply)
+      sop: https://archive.org/details/HeathkitIP2718TriPowerSupply
       up: true
       
     - name: Keithley 6430 Sub-Femtoamp Remote sourcemeter
       img: 
-      sop: (https://www.tek.com/low-level-sensitive-and-specialty-instruments/high-resistance-low-current-electrometers-series-650-0)
+      sop: https://www.tek.com/low-level-sensitive-and-specialty-instruments/high-resistance-low-current-electrometers-series-650-0
       up: true
       
     - name: Keithley 2182 nanovoltmeter
       img: 
-      sop: (https://www.testequity.com/documents/pdf/keithley/2182A.pdf)
+      sop: https://www.testequity.com/documents/pdf/keithley/2182A.pdf
       up: true
       
     - name: Keithley 2400 SoruceMeter
       img: 
-      sop: (https://www.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter)
+      sop: https://www.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter
       up: true
       
     - name: Keithley 2420 3A Sourcemeter
       img: 
-      sop: (https://www.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter-manual-1)
+      sop: https://www.tek.com/keithley-source-measure-units/keithley-smu-2400-series-sourcemeter-manual-1
       up: true
 
 - title: Power Supplies
   machines:
     - name: Atomic Force Mircoscope, qscope 250 quesant
       img: images/ETL-quesant.jpg
-      sop: (https://www.hydrogen.uni-wuppertal.de/en/research/laborausstattung/atomic-force-microscope.html)
+      sop: https://www.hydrogen.uni-wuppertal.de/en/research/laborausstattung/atomic-force-microscope.html
       up: true
       
     - name: Blue M Stabil-therm Gravity Oven
       img: images/ETL-gravity-oven.jpg
-      sop: (https://www.bmisurplus.com/products/43063-blue-m-ov-8a-stabil-therm-gravity-oven)
+      sop: https://www.bmisurplus.com/products/43063-blue-m-ov-8a-stabil-therm-gravity-oven
       up: true
       
     - name: Hummer II Technics
       img: images/ETL-hummer.jpg
-      sop: (https://caeonline.com/buy/sputtering-systems/anatech-technics-hummer-ii/9053245)
+      sop: https://caeonline.com/buy/sputtering-systems/anatech-technics-hummer-ii/9053245
       up: true
       
     - name: Olympus BHM Microscope
       img: 
-      sop: (http://www.alanwood.net/downloads/olympus-bh-bhm-instructions.pdf)
+      sop: http://www.alanwood.net/downloads/olympus-bh-bhm-instructions.pdf
       up: true
       
     - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
       img: 
-      sop: (http://www.ultrasonic-cleaners.info/isonic/isonic-ultrasonic-cleaner-p4810-2-1qt-2-l-with-1000-ml-single-beaker-holder-set-for-diy-liposomal-vitamin-c/)
+      sop: http://www.ultrasonic-cleaners.info/isonic/isonic-ultrasonic-cleaner-p4810-2-1qt-2-l-with-1000-ml-single-beaker-holder-set-for-diy-liposomal-vitamin-c/
       up: true
