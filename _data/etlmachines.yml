@@ -8,7 +8,7 @@
     - name: Thin Film Depositor
       img: images/ETL-depositor.jpg
       sop: /doc/equip/testing/ETL/thin-film-depositor/index
-      up: other
+      up: true
       
     - name: Helmholtz Cage
       img: images/ETL-helmholtz.jpg
@@ -62,12 +62,12 @@
     - name: Atomic Force Mircoscope, qscope 250 quesant
       img: images/ETL-quesant.jpg
       sop: /doc/equip/testing/ETL/atomic-force-microscope/index
-      up: other
+      up: true
       
     - name: Blue M Stabil-therm Gravity Oven
       img: images/ETL-gravity-oven.jpg
       sop: /doc/equip/testing/ETL/gravity-oven/index
-      up: other
+      up: true
       
     - name: Hummer II Technics
       img: images/ETL-hummer.jpg
@@ -77,7 +77,7 @@
     - name: Olympus BHM Microscope
       img: 
       sop: /doc/equip/testing/ETL/bhm-microscope/index
-      up: other
+      up: true
       
     - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
       img: 
