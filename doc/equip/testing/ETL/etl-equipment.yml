@@ -9,7 +9,7 @@
       sop: 
       up: true
     - name: Helmholtz Cage
-      img: 
+      img: images/ETL-helmholtz.jpg
       sop: 
       up: true    
     - name: Watlow Environmental Chamber
@@ -51,15 +51,15 @@
 - title: Power Supplies
   machines:
     - name: Atomic Force Mircoscope, qscope 250 quesant
-      img: 
+      img: images/ETL-quesant.jpg
       sop: [quesant](https://www.hydrogen.uni-wuppertal.de/en/research/laborausstattung/atomic-force-microscope.html)
       up: true
     - name: Blue M Stabil-therm Gravity Oven
-      img: 
+      img: images/ETL-gravity-oven.jpg
       sop: [stabil-therm](https://www.bmisurplus.com/products/43063-blue-m-ov-8a-stabil-therm-gravity-oven)
       up: true
     - name: Hummer II Technics
-      img: 
+      img: images/ETL-hummer.jpg
       sop: [hummerII](https://caeonline.com/buy/sputtering-systems/anatech-technics-hummer-ii/9053245)
       up: true
     - name: Olympus BHM Microscope
