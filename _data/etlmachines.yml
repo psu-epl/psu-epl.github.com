@@ -63,7 +63,9 @@
       img: images/placeholder.png
       sop: 
       up: true
-      
+
+- title: Testing Equipment
+  machines: 
     - name: Keithley 6430 Sub-Femtoamp Remote sourcemeter
       img: images/placeholder.png
       sop: 
@@ -74,7 +76,7 @@
       sop: 
       up: true
       
-    - name: Keithley 2400 SoruceMeter
+    - name: Keithley 2400 Sourcemeter
       img: images/placeholder.png
       sop: 
       up: true
