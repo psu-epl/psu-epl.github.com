@@ -13,6 +13,9 @@ This page is currently being updated.
 
 ## Equipment:
 
+{% include etlmachines.html %}
+
+
 * Thermal Vacuum Chamber: 
 * Thin-Film Depositor: 
 * Helmholtz Cage: [SOP]({{ site.url }}/doc/equip/testing/ETL/helmholtz-cage)
@@ -48,8 +51,6 @@ Misc:
 Student working on class project: TBD
 
 Personal/Commercial/Grant Funded project: TDB
-
-{% include etlmachines.html %}
 
 ## Booking:
 TBD
