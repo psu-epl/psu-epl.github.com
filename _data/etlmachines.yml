@@ -6,12 +6,12 @@
       up: false
       
     - name: Thin Film Depositor
-      img: images/ETL-depositor.jpg
+      img: images/depositor.JPG
       sop: /doc/equip/testing/ETL/thin-film-depositor/index
       up: true
       
     - name: Helmholtz Cage
-      img: images/ETL-helmholtz.jpg
+      img: images/helmholtz.png
       sop: /doc/equip/testing/ETL/helmholtz/index
       up: other
       
