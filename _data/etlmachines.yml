@@ -16,7 +16,7 @@
       up: other
       
     - name: Watlow Environmental Chamber
-      img: 
+      img: images/watlowchamber.jpg
       sop: /doc/equip/testing/ETL/watlow-environmental-chamber/index
       up: false
 
