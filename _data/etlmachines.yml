@@ -3,22 +3,22 @@
     - name: Thermal Vacuum Chamber
       img: 
       sop: /doc/equip/testing/ETL/thermal-vacuum/index
-      up: true
+      up: false
       
     - name: Thin Film Depositor
       img: images/ETL-depositor.jpg
       sop: /doc/equip/testing/ETL/thin-film-depositor/index
-      up: true
+      up: other
       
     - name: Helmholtz Cage
       img: images/ETL-helmholtz.jpg
       sop: /doc/equip/testing/ETL/helmholtz/index
-      up: true
+      up: other
       
     - name: Watlow Environmental Chamber
       img: 
       sop: /doc/equip/testing/ETL/watlow-environmental-chamber/index
-      up: true
+      up: false
 
 - title: Power Supplies
   machines:
@@ -62,22 +62,22 @@
     - name: Atomic Force Mircoscope, qscope 250 quesant
       img: images/ETL-quesant.jpg
       sop: /doc/equip/testing/ETL/atomic-force-microscope/index
-      up: true
+      up: other
       
     - name: Blue M Stabil-therm Gravity Oven
       img: images/ETL-gravity-oven.jpg
       sop: /doc/equip/testing/ETL/gravity-oven/index
-      up: true
+      up: other
       
     - name: Hummer II Technics
       img: images/ETL-hummer.jpg
       sop: /doc/equip/testing/ETL/hummer2/index
-      up: true
+      up: other
       
     - name: Olympus BHM Microscope
       img: 
       sop: /doc/equip/testing/ETL/bhm-microscope/index
-      up: true
+      up: other
       
     - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
       img: 
