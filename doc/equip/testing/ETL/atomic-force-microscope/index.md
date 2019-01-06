@@ -25,7 +25,7 @@ Applications Include:
 * Investigations on semiconductor quantum dots
 
 ## Useful Links
-- Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies has misc resources on this microscope. 
+- Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. 
 <!--- You can find the manual [here](manual.pdf).-->
 
 ## Machine Safety
