@@ -7,25 +7,31 @@ date:
 ---
 
 ## General Notes:
-SOP Under Construction
+**SOP Under Construction**
+Modes: contact, intermittent, magnetic force microscopy
+Resolution: 4 nm.
+Liquid scan
+Variable temperature of the sample (20°- 250° C)
 
-<!--- # About this Machine
-Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
+# About this Machine
+Applications Include:
+* Investigations on thin films
+* Investigations on biological samples
+* Studies on holograms
+* Investigations on polymers
+* Investigations on metal surfaces
+* Characterization of semiconductor surfaces
+* Studies on dielectrics surfaces
+* Investigations on semiconductor quantum dots
 
 ## Useful Links
-- [manufacturer website](https://notanactualaddress.foo)
-- You can find the manual [here](manual.pdf).
-- more links to manufacturer docs, calculators, outside tutorials, etc.  
-It's preferred that critical documents like manuals, TDSs, and MSDSs be kept in the repo when possible/allowed.
-Markdown contains a feature to define a bunch of named links at the bottom of your document.
-This can make it easier to create your "useful links" list and to refer to them throughout the document.
+- Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies has misc resources on this microscope. 
+<!--- You can find the manual [here](manual.pdf).-->
 
 ## Machine Safety
-Include notes about possible hazards and the necessary procedures and equipment to avoid them.
-Make it clear that the user is responsible for their own safety 
-and that of the people around them while using this tool.
+This instrument holds a suspended slab of granite and microscope. The granite and microscope must remain balanced. The granite slab which the microscope is mounted on is very heavy, *do not move the microscope or the table it is on*! Moving this microscope and/or the table can cause failed suspension of the instrument which can result in instrument damage and personal injury.
 
-## How to Get Help
+<!---## How to Get Help
 Include a list of which documents, websites, people, or mailing lists should be consulted in case of problems.
 
 # Using this Machine
@@ -45,5 +51,4 @@ Explain how to safely shut down the machine.
 Explain how to reset the work station for the next user.
 
 # Tips and Tricks
-List some sections describing advaned techniques. 
--->
+List some sections describing advaned techniques. --->
