@@ -13,6 +13,16 @@ Our phone number is **503-725-2879**.
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! 
 
+Here are some links to commonly visited pages:  
+[Equipment],
+[Checkout],
+[Lab Policies],
+[3D Print Your Part],
+[Workshops],
+[Become a Manager],
+[Managers Only][manager repo],
+[Sponsors] 
+
 # Using the Labs
 
 It's easy! Here's what you do:
@@ -26,15 +36,7 @@ It's easy! Here's what you do:
 # Documentation
 Read [the **documentation** on our machines, policies, services, and more](doc) to learn about the EPL.
 
-Here are some links to commonly visited pages:  
-[Equipment],
-[Checkout],
-[Lab Policies],
-[3D Print Your Part],
-[Workshops],
-[Become a Manager],
-[Managers Only][manager repo],
-[Sponsors] 
+Here are our other lab spaces, [RF-Chamber](/doc/equip/testing/RF-Chamber.md) & [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
 
 
 # Lab Calendar
