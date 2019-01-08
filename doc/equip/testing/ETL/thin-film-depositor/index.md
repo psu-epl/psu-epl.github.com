@@ -9,6 +9,9 @@ date:
 ## General Notes:
 SOP Under Construction
 
+## Useful Links
+- [Thin Film Deposition Reference and Guide/Common Material Densities and Z-ratios/Metal Evap.](https://cleanroom.byu.edu/TFE_materials)
+
 <!--- # About this Machine
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
 
