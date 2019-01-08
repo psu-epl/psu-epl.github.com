@@ -9,8 +9,8 @@ date: 1/7/2019
 ## General Notes:
 **SOP Under Construction**.
 
-The Keithley 2400 SourceMeter instrument is a complete, single-channel DC parametric tester. 
-The 2400 includes a tightly coupled source/measure engine which minimizes test station development, set-up, nd maintenance time. 
+The Keithley 2400-series SourceMeter instrument are complete, single-channel DC parametric testers. 
+The 2400-series instruments include a tightly coupled source/measure engine which minimizes test station development, set-up, nd maintenance time. 
 
 ## About this Machine
 
