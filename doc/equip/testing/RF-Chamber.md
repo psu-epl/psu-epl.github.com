@@ -16,7 +16,7 @@ Room Size: 18' X 14' X 8'
 Absorbing Cones: There are two types of RF absorbent cones in the lab. The cones on the floor are from Cuming Microwave (PN: [C-RAM SFC-12](https://www.cumingmicrowave.com/pdf/390-Anechoic%20Chamber%20Mat'ls/390-1%20C-RAM%20SFC.pdf)) and the cones on the walls are from ETS-Lindgren (PN:[EHP-12PCL](http://www.ets-lindgren.com/pdf/absorber.pdf)). Minimum specified frequency is 1GHz and reflectivity at 1GHz is -35dB for each type of panel. Although these cones are for RF applications, they are also fairly effective for sound.
 
 ## Images:
-<img src="/images/RF1.jpg" width="250px"><img src="/images/RF2.jpg" width="250px"><img src="/images/RF3.jpg" width="250px">
+<img src="/images/RF2.jpg" width="250px">
 
 ## Equipment:
 Antennas:
