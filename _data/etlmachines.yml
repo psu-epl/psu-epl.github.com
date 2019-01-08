@@ -44,14 +44,14 @@
       
     - name: Digital Ultrasonic Cleaner Isonic 2.1 Qt
       img: images/ETL_Isonic.jpg
-      sop: /doc/equip/testing/ETL/isonic-cleaner/index
+      sop: /doc/equip/testing/ETL/isonic-cleaner/
       up: true
       
 - title: Power Supplies
   machines:
     - name: BK Precision 8512 600W Programmable DC Electronic Load
       img: images/ETL_testing.jpg
-      sop: /doc/equip/testing/ETL/BK8512
+      sop: /doc/equip/testing/ETL/BK8512/
       up: true
       
     - name: Keithley 228A Voltage/Current Source
@@ -68,20 +68,20 @@
   machines: 
     - name: Keithley 6430 Sub-Femtoamp Remote sourcemeter
       img: images/ETL_testing2.jpg
-      sop: /doc/equip/testing/ETL/keithley6430/index.md
+      sop: /doc/equip/testing/ETL/keithley6430/
       up: true
       
     - name: Keithley 2182 nanovoltmeter
       img: images/ETL_testing2.jpg
-      sop: /doc/equip/testing/ETL/keithley2182/index.md
+      sop: /doc/equip/testing/ETL/keithley2182/
       up: true
       
     - name: Keithley 2400 Sourcemeter
       img: images/ETL_testing2.jpg
-      sop: /doc/equip/testing/ETL/keithley2400/index.md
+      sop: /doc/equip/testing/ETL/keithley2400/
       up: true
       
     - name: Keithley 2420 3A Sourcemeter
       img: images/ETL_testing2.jpg
-      sop: /doc/equip/testing/ETL/keithley2400/index.md
+      sop: /doc/equip/testing/ETL/keithley2400/
       up: true
