@@ -9,6 +9,9 @@ date:
 ## General Notes:
 SOP Under Construction
 
+## Using this Machine
+Please refer to the Operation and Maintenance Manual for Hummer II. This manual is stored in the ETL.
+
 <!--- # About this Machine
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
 
