@@ -9,7 +9,7 @@ date: 1/7/2019
 ## General Notes:
 **SOP Under Construction**
 
-Keithley 6430: The four-quadrant sourcing plus measurement sensitivity down to sub-femtoamp and micro-volt levels. Remote PreAmp design minimizes cable and noise effects that reduce measurement accuracy. Measures currents with 400aA (400*10^-18) sensitivity. Allows measuring resistance with either the constant-voltage or constant-current method. Measures resistances from 1 micro-ohm to >1 Tera-ohm.
+Keithley 6430: The four-quadrant sourcing plus measurement sensitivity down to sub-femtoamp and micro-volt levels. Remote PreAmp design minimizes cable and noise effects that reduce measurement accuracy. Measures currents with 400aA (400 * 10^-18) sensitivity. Allows measuring resistance with either the constant-voltage or constant-current method. Measures resistances from 1 micro-ohm to >1 Tera-ohm.
 
 ## About this Machine
 Applications include,
@@ -37,15 +37,10 @@ Applications include,
 ## Useful Links
 - [LabTracer Software Download](https://www.tek.com/source-measure-units/2400-software/labtracer-29-unsupported).
 
-<!---
+## Using this Machine
+Please refer to the Keithley Instruction Manual and Product Overview booklet. Both are stored in the ETL.
 
-## Useful Links
-- [manufacturer website](https://notanactualaddress.foo)
-- You can find the manual [here](manual.pdf).
-- more links to manufacturer docs, calculators, outside tutorials, etc.  
-It's preferred that critical documents like manuals, TDSs, and MSDSs be kept in the repo when possible/allowed.
-Markdown contains a feature to define a bunch of named links at the bottom of your document.
-This can make it easier to create your "useful links" list and to refer to them throughout the document.
+<!---
 
 ## Machine Safety
 Include notes about possible hazards and the necessary procedures and equipment to avoid them.
