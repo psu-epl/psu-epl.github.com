@@ -13,7 +13,7 @@
     - name: Helmholtz Cage
       img: images/helmholtz.png
       sop: /doc/equip/testing/ETL/helmholtz/index
-      up: other
+      up: true
       
     - name: Watlow Environmental Chamber
       img: images/watlowchamber.jpg
@@ -35,7 +35,7 @@
     - name: Hummer II Technics
       img: images/ETL_Hummer2.jpg
       sop: /doc/equip/testing/ETL/hummer2/index
-      up: other
+      up: true
       
     - name: Olympus BHM Microscope
       img: images/ETL_OlympusMicroscope.jpg
