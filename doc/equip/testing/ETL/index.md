@@ -6,15 +6,15 @@ date: 1/4/2018
 
 ---
 
-The Environmental Testing Lab is located in the basement of the Engineering Building at PSU (1900 SW 4th Ave.) in room FAB60-12. Here we can help with various environmental testing and data collection.
-
 ## Specifications:
-This page is currently being updated.
+
+The Environmental Testing Lab is located in the basement of the Engineering Building at PSU (1900 SW 4th Ave.) in room FAB60-12. Here we can help with various environmental testing and data collection.
 
 ## Equipment:
 
 {% include etlmachines.html %}
 
+<!---
 
 * Thermal Vacuum Chamber: 
 * Thin-Film Depositor: 
@@ -46,14 +46,16 @@ Misc:
 * Olympus BHM Microscope: [bhm](http://www.alanwood.net/downloads/olympus-bh-bhm-instructions.pdf)
 * Digital Ultrasonic Cleaner Isonic 2.1 Qt: [isonic](http://www.ultrasonic-cleaners.info/isonic/isonic-ultrasonic-cleaner-p4810-2-1qt-2-l-with-1000-ml-single-beaker-holder-set-for-diy-liposomal-vitamin-c/)
 
+--->
 
 ## Prices:
 Student working on class project: TBD
 
-Personal/Commercial/Grant Funded project: TDB
+Personal/Commercial/Grant Funded project: TBD
 
 ## Booking:
-TBD
+TBD; The lab is currently being set up and SOPs are being developed.
+
 <!---
 Booking is done through email. Please email lid@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
 Please format the subject line of your request email like this: 
