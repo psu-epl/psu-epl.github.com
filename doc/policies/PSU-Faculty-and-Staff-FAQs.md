@@ -45,7 +45,11 @@ We'd love to know that! Please let Phillip, Andrew, or Chris know, and we'll put
 Probably! Let Phillip, Andrew, or Chris know, and we'll let you know. 
 We're quite anxious to build up the available equipment list, and the EPL makes an excellent place to put equipment where it really gets used.
 
-### My graduate/URMP/whatever student needs to buy something my lab. How do?
-If you tell Chris your PSU index, we can charge that. 
-Otherwise, have them purchase it and then reimburse them.
+### My graduate/URMP/REU/UTEAP/whatever student needs to buy something my lab. How do?
+The student will do the following.
 
+- Fill out the Google form on one of the checkout machines.
+- Chris will send them an email saying they’re approved to get the item/service.
+- They show a manager that email and *only then* will the manager let them start the print, take the part, or whatever.
+
+Otherwise, have them purchase it and then reimburse them.

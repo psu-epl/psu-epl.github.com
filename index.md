@@ -13,6 +13,8 @@ Our phone number is **503-725-2879**.
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! 
 
+__[Our workshops are happening January 19th and 20th! Sign up and learn useful things!][Eventbrite]__
+
 Here are some links to commonly visited pages:  
 [Equipment],
 [Checkout],
@@ -66,3 +68,4 @@ invitation only.
 [Sponsors]: doc/policies/Sponsors
 [checkout]: https://commerce.cashnet.com/ecei
 [donate]: https://cconn.foundation.pdx.edu/ccon/new_gift.do?action=newGift&giving_page_id=240
+[Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
