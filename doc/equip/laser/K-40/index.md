@@ -57,13 +57,13 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
     ![](img1/image_2.png)
 
-3. Find the DXF file you’ve created from Eagle. (You may choose either tcream or bcream depending on which you want to do first.)
+3. Find the DXF file you’ve created from Eagle on your computer and open it up in the browser window that pops up. (You may choose either tcream or bcream depending on which you want to do first.)
 
     ![](img1/image_3.png)
 
     ![](img1/image_4.png)
 
-4. Drag the document from the Documents section to the GCODE section.
+4. Drag the file from the **Documents** section to the **GCODE** section.
 
     ![](img1/image_5.png)
 
