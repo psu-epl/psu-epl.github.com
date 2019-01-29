@@ -22,6 +22,12 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 
 # About the A406 
 
+**What do you need to start a job?**
+- 3 gerber files (bottom, top, and outline) \*
+- 1 excellon file (for drill holes) \*
+- A copper PCB blank (can be purchased from the EPL)
+\*If you need help exporting gerber and excellon files from your Eagle board file, follow the instructions [here](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files).
+
 The A406 claims to be able to do: 
 
 - 6/6 mils using the 60 degree "V-tip" (routing bit, or "universal cutting tools" in LPKF land). 
@@ -39,6 +45,7 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 
 # Useful Links 
 
+[Exporting Gerber and Excellon Files from Eagle](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files)
 [A406-Debugging](A406-Debugging)   
 [A406-materials](A406-materials)   
 [A406-target-calibration](A406-target-calibration)   
