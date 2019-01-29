@@ -20,15 +20,17 @@ author:
 * Parchment Paper
 
 ### Exporting from EAGLE
-####Installing cream-dxf.ulp####
-**NOTE:** If doing this in the EPL, you can skip straight to "Exporting DXF File from board file".
+**Installing cream-dxf.ulp**
+
+*NOTE: If doing this in the EPL, you can skip straight to "Exporting DXF File from board file".*
 Copy [cream-dxf.ulp](https://github.com/SWITCHSCIENCE/ssci-eagle-public/raw/master/cream-dxf.ulp) to your EAGLE ulp folder.
 
 1. Right click the link above and click "Save Link As".
 2. ULP Folder Location is in  "My Documents/eagle/ulps" for Eagle 9.1.1 and above
 3. For older versions of Eagle, it’s located in your Eagle folder in "C:/Program Files/eagle/ulp" or where-ever you installed Eagle.
 
-####Exporting DXF File from board file####
+**Exporting DXF File from board file**
+
 To export DXF files for top and bottom surface-mount pads (cream layers):
 1. Open the board file.
 2. File/Run ULP -> cream-dxf.ulp (the DXF exporter above). (or type ‘run cream-dxf.ulp’ into the command line)
