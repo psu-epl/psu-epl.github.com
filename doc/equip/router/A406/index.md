@@ -26,6 +26,7 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 - 3 gerber files (bottom, top, and outline) \*
 - 1 excellon file (for drill holes) \*
 - A copper PCB blank (can be purchased from the EPL)
+
 \*If you need help exporting gerber and excellon files from your Eagle board file, follow the instructions [here](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files).
 
 The A406 claims to be able to do: 
