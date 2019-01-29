@@ -115,7 +115,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 - Double click on that tool. A dialog will appear similar to the one shown above that lists the tools that still need to be assigned.  
 - Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear like the one below, showing you which tools you can assign. 
-  - The best practice is to choose a tool that is slightly smaller than the width of the cut needed- and the following dialogs will help you through that process. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
+  - The best practice is to choose a tool that is slightly smaller than the width of the cut needed. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
 
 ![](img/ToolTable.png)
 
