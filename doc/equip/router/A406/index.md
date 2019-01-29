@@ -122,7 +122,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 - Click "Select" and move onto the next tool needing assignment. Once all tools have been assigned, close the Drill Tool Table and then the Project Tools window.
 
 *Other Notes:*  
-- Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
+If you need to assign insulation tools, use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
    
 
 ## Position artwork on blank 
