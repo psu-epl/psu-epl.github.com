@@ -76,13 +76,9 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 3. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer.
 
 - The Gerber interpreter is automatic.  
-
-- Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side. 
-
-  - If you are lucky, the default decimal places and zero suppression settings will 'just work'. The software will draw the drill holes as yellow dots on your artwork. Look carefully and see if the holes seem to be in the right places. If they aren't, you'll need to double-click on the drill layer in the upper right pane and edit the settings.
-
-- Don't forget to import an outline (mechanical) layer to define the cutout boundary. 
-
+- Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side.  
+  - If you are lucky, the default decimal places and zero suppression settings will 'just work'. The software will draw the drill holes as yellow dots on your artwork. Look carefully and see if the holes seem to be in the right places. If they aren't, you'll need to double-click on the drill layer in the upper right pane and edit the settings.  
+- Don't forget to import an outline (mechanical) layer to define the cutout boundary.  
 - Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD.  
 
 4. Once all your layers have been mapped, click the 'Import' button on the upper right. 
@@ -108,13 +104,13 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ![](img/ProjToolsAlert.png) 
 
-- Any tool that doesn't have a blue "TH" button to its left will need to be assigned a tool. 
+- Any tool that **doesn't have** a blue "TH" button to its left will need to be assigned a tool. 
 
 ![](img/ProjToolsMenu.png) 
 
-- Double click on that tool and select the tool from the dialog that appears. Only relevant tools will appear in that dialog (in other words, only isolation tools for isolation tools, etc). 
+- Double click on that tool. A dialog will appear that lists the tools that still need to be assigned. Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear showing you which tools you can assign. Only relevant tools will appear in that dialog (in other words, only isolation tools for isolation tools, etc). 
 
-![](img/ToolTable.png) 
+![](img/DrillToolTable.png) 
 
 
 - Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
