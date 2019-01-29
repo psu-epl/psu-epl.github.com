@@ -36,10 +36,10 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 \*If you need help exporting gerber and excellon files from your Eagle board file, follow the instructions [here](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files).
 
 
-[Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf) 
-[A406 Tool Settings](A406-Tool-Settings) 
-[Debugging](A406-Debugging)
-[Tool Change](A406-Tool-Change) 
+[Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf)   
+[A406 Tool Settings](A406-Tool-Settings)   
+[Debugging](A406-Debugging)   
+[Tool Change](A406-Tool-Change)   
 
 # Useful Links 
 
