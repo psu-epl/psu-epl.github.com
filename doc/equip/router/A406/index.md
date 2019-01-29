@@ -21,6 +21,12 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 {:toc} 
 
 # About the A406 
+The A406 claims to be able to do: 
+
+- 6/6 mils using the 60 degree "V-tip" (routing bit, or "universal cutting tools" in LPKF land). 
+- 8/8 mils using the 90 degree v-tip. 
+
+Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly, but still has a few issues. 
 
 **What do you need to start a job?**
 - 3 gerber files (bottom, top, and outline) \*
@@ -29,19 +35,10 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 
 \*If you need help exporting gerber and excellon files from your Eagle board file, follow the instructions [here](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files).
 
-The A406 claims to be able to do: 
-
-- 6/6 mils using the 60 degree "V-tip" (routing bit, or "universal cutting tools" in LPKF land). 
-- 8/8 mils using the 90 degree v-tip. 
-
-Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly, but still has a few issues. 
 
 [Link to A406 Users Manual](http://www.accuratecnc.com/PhCNC_download_files/PhCNC%20User's%20Manual%20EN.pdf) 
-
 [A406 Tool Settings](A406-Tool-Settings) 
-
 [Debugging](A406-Debugging)
-
 [Tool Change](A406-Tool-Change) 
 
 # Useful Links 
