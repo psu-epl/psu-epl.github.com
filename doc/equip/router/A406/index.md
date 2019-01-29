@@ -68,12 +68,12 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 ![](img/ImportMenu.png) 
 
 1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory and press "OK" when you are in the correct directoy. You should see a list of files appear in the left column. 
-1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers: 
+2. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers: 
   - Top copper  
   - Bottom copper (if applicable) 
   - Outline (Mech) 
   - Drills 
-1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer.
+3. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer.
 
 - The Gerber interpreter is automatic.  
 
@@ -85,14 +85,15 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 - Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD.  
 
-1. Once all your layers have been mapped, click the 'Import' button on the upper right. 
+4. Once all your layers have been mapped, click the 'Import' button on the upper right. 
 
 ![](img/AssignLayers.png) 
 
 ## Setting the insulation width 
 
-- Set the "Insulate" setting to your board trace/space setting. E.g., if your board is 8/8, choose 8 mils.   
-  - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings. 
+- Set the "Insulate" setting to your board trace/space settings that you designed on your CAD software. E.g., if your board was designed to have 8 mil traces and 8 mil spaces, choose 8 mils for the insulation setting.   
+  - Do this by clicking the Insulate button, and in the window that pops up, edit the "diameter (d)" field to match the approriate value in inches. e.g. If you want your trace spacing to be 8 mils, type in 0.0080 in the field.  
+  - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings. These pop up if your insulation settings are larger than you designed them to be on your PCB.
 
 ![](img/InsulSetting.png)    
 
