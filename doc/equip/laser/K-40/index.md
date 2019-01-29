@@ -43,7 +43,7 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
     ![](img1/image_1.png)
 
-1. This will generate filename-tcream.dxf and filename-bcream.dxf files in the folder containing your filename.brd file.
+1. This will generate filename-tcream.dxf and filename-bcream.dxf files in the folder containing your filename.brd file. The tcream file is the top stencil, and the bcream file is the bottom stencil for two layer boards.
 
     a. Note: DXF files do not typically encode units. This DXF exporter assumes millimeters.
 
@@ -57,7 +57,7 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
     ![](img1/image_2.png)
 
-3. Find the DXF file you’ve created from Eagle.
+3. Find the DXF file you’ve created from Eagle. (You may choose either tcream or bcream depending on which you want to do first.)
 
     ![](img1/image_3.png)
 
