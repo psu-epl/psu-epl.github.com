@@ -23,12 +23,15 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 # About the A406 
 The A406 claims to be able to do: 
 
-- 6/6 mils using the 60 degree "V-tip" (routing bit, or "universal cutting tools" in LPKF land). 
+- 6/6 mils using the 60 degree "V-tip" (routing bit, or "universal cutting tools" in LPKF land). \*
 - 8/8 mils using the 90 degree v-tip. 
+
+\* A 6/6 board means that the trace width and spacing between traces are each 6 mils. An 8/8 board means that the trace/space widths are each 8 mils.
 
 Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly, but still has a few issues. 
 
 **What do you need to start a job?**
+- A 6/6 mil or 8/8 mil PCB design (see "About the A406" for more details about what this means).
 - 2-3 gerber files (top, outline, and bottom if board is two layers) \*
 - 1 excellon file (for drill holes) \*
 - A copper PCB blank (can be purchased from the EPL - sold double and single sided)
@@ -87,7 +90,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Setting the insulation width 
 
-- Set the "Insulate" setting to your board trace/space settings that you designed on your CAD software. E.g., if your board was designed to have 8 mil traces and 8 mil spaces, choose 8 mils for the insulation setting.   
+- Set the "Insulate" setting to your board trace/space settings that you designed on your CAD software. E.g., if your board was designed to have 8 mil traces and 8 mil spaces (an 8/8 board), choose 8 mils for the insulation setting.   
   - Do this by clicking the Insulate button, and in the window that pops up, edit the "diameter (d)" field to match the approriate value in inches. e.g. If you want your trace spacing to be 8 mils, type in 0.0080 in the field.  
   - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings. These pop up if your insulation settings are larger than you designed them to be on your PCB.
 
@@ -98,27 +101,28 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Assign Project Tools 
 
-- Click on "Project Tools".  
-  - Next you will need to assign tools. The Project Tools button on the top will likely have red text, because tools havent been assigned for the job. The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them. The best practice is to choose a tool that is slightly smaller than the width of the cut needed- and the following dialogs will help you through that process. 
-
+- Click on "Project Tools". 
 
 ![](img/ProjToolsAlert.png) 
 
-- Any tool that **doesn't have** a blue "TH" button to its left will need to be assigned a tool. 
+  - Next you will need to assign tools. The Project Tools button on the top will likely have red text, because tools havent been assigned for the job. The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them.
 
 ![](img/ProjToolsMenu.png) 
 
-- Double click on that tool. A dialog will appear that lists the tools that still need to be assigned. Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear showing you which tools you can assign. Only relevant tools will appear in that dialog (in other words, only isolation tools for isolation tools, etc). 
+- Any tool that **doesn't have** a blue "TH" button to its left will need to be assigned a tool. 
 
 ![](img/DrillToolTable.png) 
 
+- Double click on that tool. A dialog will appear similar to the one shown above that lists the tools that still need to be assigned.  
+- Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear like the one below, showing you which tools you can assign. 
+  - The best practice is to choose a tool that is slightly smaller than the width of the cut needed- and the following dialogs will help you through that process. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
 
+![](img/ToolTable.png)
+
+- Click "Select" and move onto the next tool needing assignment. Once all tools have been assigned, close the Drill Tool Table and then the Project Tools window.
+
+*Other Notes:*  
 - Generally use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
-- When you click on the first of your drill tools, a new selection dialog will pop up. 
-  - Click on "Apply default router tool" in order to use the 0.8 mm router bit for larger holes. 
-  - After doing this, close the dialog box, and the text will become blue, and your tool is now selected. 
-  - Double click on the button to the left of any drill that still needs to be   - assigned and assign that drill a drill. 
-  - Sometimes you choose a drill that has a different diameter than what you want. As long as it is smaller than the hole size you need, the software will plot the path needed to give you the correctly-size hole.  
    
 
 ## Position artwork on blank 
