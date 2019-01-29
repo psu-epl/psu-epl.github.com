@@ -29,9 +29,9 @@ The A406 claims to be able to do:
 Why should you use the A406 over the LPKF? If you need more manual control over the process, if you're a little bit more of a power PCB person, then according to our experience, you should get better results from the A406. The LPKF software is more user friendly, but still has a few issues. 
 
 **What do you need to start a job?**
-- 3 gerber files (bottom, top, and outline) \*
+- 2-3 gerber files (top, outline, and bottom if board is two layers) \*
 - 1 excellon file (for drill holes) \*
-- A copper PCB blank (can be purchased from the EPL)
+- A copper PCB blank (can be purchased from the EPL - sold double and single sided)
 
 \*If you need help exporting gerber and excellon files from your Eagle board file, follow the instructions [here](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files).
 
@@ -62,20 +62,21 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Import Your CAD files 
 
-1. Go to the CAM view by clicking the "CNC" button. 
+1. Go to the CAM view by clicking the "CNC" button at the top. *Note: If it says "CAM" you are already in CAM view.*
 1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button). 
 
 ![](img/ImportMenu.png) 
 
-1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory. You should see a list of files in the left column. 
+1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory and press "OK" when you are in the correct directoy. You should see a list of files appear in the left column. 
 1. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers: 
   - Top copper  
   - Bottom copper (if applicable) 
   - Outline (Mech) 
   - Drills 
-1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. 
+1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer.
   - The Gerber interpreter is automatic.  
-  - Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side. If you are lucky, the default decimal places and zero suppression settings will 'just work'. The software will draw the drill holes as yellow dots on your artwork. Look carefully and see if the holes seem to be in the right places. If they aren't, you'll need to double-click on the drill layer in the upper right pane and edit the settings.  
+  - Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side. 
+  ..-If you are lucky, the default decimal places and zero suppression settings will 'just work'. The software will draw the drill holes as yellow dots on your artwork. Look carefully and see if the holes seem to be in the right places. If they aren't, you'll need to double-click on the drill layer in the upper right pane and edit the settings.  
   - Don't forget to import an outline (mechanical) layer to define the cutout boundary. 
   - Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD.  
 1. Once all your layers have been mapped, click the 'Import' button on the upper right. 
