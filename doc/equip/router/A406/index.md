@@ -68,9 +68,9 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 1. Go to the CAM view by clicking the "CNC" button at the top. *Note: If it says "CAM" you are already in CAM view.*
 1. Import your artwork by selecting File -> Import Gerber & Drill (GV) or clicking on the "Import" button (the left top button). 
 
-![](img/ImportMenu.png) 
+![](img/ImportMenu.png)
 
-1. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory and press "OK" when you are in the correct directoy. You should see a list of files appear in the left column. 
+3. Use the 'Select' button on the upper left to navigate to your Gerber/Excellon file directory and press "OK" when you are in the correct directoy. You should see a list of files appear in the left column. 
 2. Files on the left must be 'mapped' for the import process. You will need three or four files depending on if your board is one or two layers: 
   - Top copper  
   - Bottom copper (if applicable) 
