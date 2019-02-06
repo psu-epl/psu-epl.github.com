@@ -93,39 +93,38 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Setting the insulation width 
 
-- Set the "Insulate" setting to your board trace/space settings that you designed on your CAD software. E.g., if your board was designed to have 8 mil traces and 8 mil spaces (an 8/8 board), choose 8 mils for the insulation setting.   
-  - Do this by clicking the Insulate button, and in the window that pops up, edit the "diameter (d)" field to match the approriate value in inches. e.g. If you want your trace spacing to be 8 mils, type in 0.0080 in the field.  
-  - If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings. These pop up if your insulation settings are larger than you designed them to be on your PCB.
+1. Set the "Insulate" setting to your board trace/space settings that you designed on your CAD software. E.g., if your board was designed to have 8 mil traces and 8 mil spaces (an 8/8 board), choose 8 mils for the insulation setting.   
+	- Do this by clicking the Insulate button, and in the window that pops up, edit the "diameter (d)" field to match the approriate value in inches. e.g. If you want your trace spacing to be 8 mils, type in 0.0080 in the field.  
+	- If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don't have any warnings. These pop up if your insulation settings are larger than you designed them to be on your PCB.
 
-![](img/InsulSetting.png)    
+		![](img/InsulSetting.png)    
 
-  - If you must play with the tools [consult the oracle](A406-Tool-Settings) for current best settings before continuing. 
-  - If you need to change or replace tools, [consult the tool change guide] (A406-Tool-Change).
+- If you must play with the tools [consult the oracle](A406-Tool-Settings) for current best settings before continuing. 
+- If you need to change or replace tools, [consult the tool change guide] (A406-Tool-Change).
 
 ## Assign Project Tools 
 
-- Click on "Project Tools". 
+1. Click on "Project Tools". 
+	![](img/ProjToolsAlert.png) 
 
-![](img/ProjToolsAlert.png) 
+	- Next you will need to assign tools. The Project Tools button on the top will likely have red text, because tools havent been assigned for the job. The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them.
 
-  - Next you will need to assign tools. The Project Tools button on the top will likely have red text, because tools havent been assigned for the job. The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them.
+	![](img/ProjToolsMenu.png) 
 
-![](img/ProjToolsMenu.png) 
+1. Any tool that **doesn't have** a blue "TH" button to its left will need to be assigned a tool. 
 
-- Any tool that **doesn't have** a blue "TH" button to its left will need to be assigned a tool. 
+	![](img/DrillToolTable.png) 
 
-![](img/DrillToolTable.png) 
+1. Double click on that tool. A dialog will appear similar to the one shown above that lists the tools that still need to be assigned.  
+1. Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear like the one below, showing you which tools you can assign. 
+	- The best practice is to choose a tool that is slightly smaller than the width of the cut needed. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
 
-- Double click on that tool. A dialog will appear similar to the one shown above that lists the tools that still need to be assigned.  
-- Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear like the one below, showing you which tools you can assign. 
-  - The best practice is to choose a tool that is slightly smaller than the width of the cut needed. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
+	![](img/ToolTable.png)
 
-![](img/ToolTable.png)
-
-- Click "Select" and move onto the next tool needing assignment. Once all tools have been assigned, close the Drill Tool Table and then the Project Tools window.
+1. Click "Select" and move onto the next tool needing assignment. Once all tools have been assigned, close the Drill Tool Table and then the Project Tools window.
 
 *Other Notes:*  
-If you need to assign insulation tools, use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
+- If you need to assign insulation tools, use v60 V-Tip for 6/6 boards and v90 for 8/8 boards. 
    
 
 ## Position artwork on blank 
