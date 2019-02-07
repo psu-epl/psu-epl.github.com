@@ -58,14 +58,21 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 The A406 does not have a safety cover. Its steppers are very strong. Before turning on the machine or performing any operation, make sure the table area is clear of obstacles. Resist the temptation to place anything besides the pcb blank on the work area of the machine. Most importantly, **keep your hands away from the working area whenever the head is moving!** 
 
 1. Turn on the machine. The power switch is located just above the power cord entry on the left rear of the machine. 
-1. Turn on the air compressor for the collette.  
+1. Turn on the air compressor for the collet.  
 1. Start the PhCNC software There are two 'views', CAM and CNC. Toggle between them by clicking on the "CNC" button on the top of screen.  
-1. The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initiated emergency stop. While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear. Choose 'Yes' to home the machine. 
+1. The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initi¬¬ated emergency stop. While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear similar to the one shown below.
+
+	![](img/EmergencyStop.png)
+
+1. Choose 'Yes' to home the machine. 
 
 
 ## Import Your CAD files 
 
-1. Go to the CAM view by clicking the "CNC" button at the top. *Note: If it says "CAM" you are already in CAM view.*
+1. Go to the CAM view by clicking the "CNC" button at the top. 
+*Notes: 
+	* If it says "CAM" you are already in CAM view.
+	* When in CAM view you are able to select ‘import Gerber & Drill’ under ‘file’, when in CNC mode you are unable.*
 
 	![](img/a406_cam_view.png)
 
@@ -79,7 +86,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
   - Bottom copper (if applicable) 
   - Outline (Mech) 
   - Drills 
-1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer.
+1. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer. A dialog will appear similar to the one shown below. `NOTE to SOP maintainers: insert relvant screenshot here.`
 
 	- The Gerber interpreter is automatic.  
 	- Excellon data is trickier. When you select your drill file, you will have the option of 'Top' or 'Bottom'. This means you can drill holes from the top or bottom layer. Always choose 'Top', because PhCNC's natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side.  
@@ -89,7 +96,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 1. Once all your layers have been mapped, click the 'Import' button on the upper right. 
 
-	![](img/AssignLayers.png) 
+	[![](img/AssignLayers.png)](img/AssignLayers.png) (click for higher res.)
 
 ## Setting the insulation width 
 
