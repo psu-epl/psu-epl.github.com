@@ -32,7 +32,7 @@ date:
         * Bottom Gerber
         * Board Outline Gerber
         * Excellion Drill Data
- 1. **Assign layers**
+ 2. **Assign layers**
 
     The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to:
     - TopLayer
@@ -63,11 +63,11 @@ Most of the options controlling how the board will be milled are set here.
 
  1. Open **Toolpath > Technology Dialog.**
 
-#### Edit **Material Settings**
+#### Edit **Global Processing Settings**
 
  - Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
 
-#### Set **Isolation type**
+#### Set **Insulate**
 
 Controls how much copper will be removed around your features, generally one click to the right is sufficient.
 
@@ -75,22 +75,24 @@ Controls how much copper will be removed around your features, generally one cli
     - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter** in the Available Tools section menu.
 #### **Contour Routing**
  - If adding Breakout Tabs, this is where you set their position
-    - Be sure to keep tabs off of corners and usually having 2 will do the job. You can change amount and position by clicking on the left and right arrows below the pictures.
+    - Be sure to keep tabs off of corners and usually having 2 will do the job. You can change amount and position by clicking on the left and right arrows below the pictures. Best option is horizontal or vertical.
+ - Select **Show Details**
+    - In the "Tool" Dropdown Menu, select the **1mm contour router bit**
+    - Select **Hide Details**
 
-#### Routing Type
-
- - Select **Show Details**.
-    - Use the **1mm contour router bit**
-
-#### Extra
+#### Removing Processes
 
 Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
+You probably are not using pockets
+
+#### Select **Start** to begin generating the toolpath
+ - A window will pop up with computation results. If they look okay, select **Close**
 
 
 ---------------------------------------------------------------------------------------------------------
 
 
-## Setup Machine To Cut
+## **Setup Machine** To Cut
 
  1. Check Tool Magazine
 
@@ -102,12 +104,12 @@ Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 
     Click 'OK'. You shouldn't need to recalculate the toolpaths. 
 
-* Physically Mount Material
+2. Physically Mount Material
     * Select a PCB blank
 
    Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
 
-    * Prepare backing surface
+3. Prepare backing surface
 
     This is **really important**: the white backing material must be as smooth and flat as possible. This machine has no idea where the material surface is, beyond what the user tells it. That is, it thinks it knows the height of the top of your blank, but it assumes it is a perfect plane. If it deviates even by 2 mils (.05mm), isolation **will not work**. So, with the PCB blank not mounted, run your fingers over the surface of the white backing material and feel for any bumps or debris. If you feel any, blow off the debris or use the razor blade tool to remove the bumps. Bumps occur because drills and routing bits grind out and lift backing material. This is especially noticeable in the routed grooves where a PCB was separated from the blank. It's a good idea to run the razor blade over the surface even if you can't feel any bumps. Lift the white backing material out and check the backside too. 
 
