@@ -115,7 +115,7 @@ You probably are not using pockets
 
     Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put masking tape along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
 
-* Edit pattern placement on the PCB blank
+4. Edit pattern placement on the PCB blank
 
     Find the blank spot where you plan to place the board and in the machining view, select the 'Mouse Cursor' mode in the left control panel. When you have the 'Mouse Cursor' mode selected you can click anywhere on the  to move the head to that location. The purpose of this exercise is to make sure the black collar around the bit will never go off the board or hit blue tape. De-select the 'Mouse Cursor' mode.
 
@@ -124,7 +124,7 @@ You probably are not using pockets
     Now reselect 'Mouse Cursor' and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
 
-* Check cut width
+5. Check cut width
 
 This step may not be necessary. If neither the material thickness nor the bit has been changed since the last job, the milling width will probably be fine. If it appears wrong (either leaving rough cut edges, or wrong isolation width, or both), the first thing to check is the bit. To do this, remove the bit from the tool magazine using the bit removal tool (the blue cylindrical thing which is stuck magnetically to the shelf support.) Look at it under the microscope under maximum zoom. If the straight V cutting edges look at all dented, the bit is finished. After the bit is verified/changed, if the milling width is still wrong, then do the following:
    * Edit > Tool Magazine
@@ -134,7 +134,7 @@ This step may not be necessary. If neither the material thickness nor the bit ha
    * Click OK. It'll mill the line and check it.
    * Accept the correction if it looks sane. 
 
-* Run Process
+6. Run Process
 
     Select Machining > Process All. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit 'OK'.
     The Material Settings dialog will come up but you've already done that too. Hit 'Continue'.
@@ -148,21 +148,21 @@ This step may not be necessary. If neither the material thickness nor the bit ha
 
      Before going on, check that the traces are actually isolated by the router bit. Check all four corners of the board. Use the loop and a lamp. Use razor blade and/or sandpaper to make it smooth to the touch.
 
-* Flip Material
+7. Flip Material
 
     Remove the tape and flip the material. Make sure the white backing material is smooth before you lay down the PCB material. The back edge of the PCB should end up at the front of the table. Tape the left and right sides again, use the razor blade and/or sandpaper to make the top of the material smooth, and wipe away any debris. Close the lid and click 'OK' on the FlipMaterial dialog. 
 
     There will be one more dialog to 'Confirm the Focus Height'. Follow the instructions and make your selection.  
 
-* Prepare backing surface
+8. Prepare backing surface
 
     Again, check and re-plane the backing if necessary. Follow dialogs and run process again. The head will automatically find the fiducials with its camera and align itself. 
 
-* Remove the board
+9. Remove the board
 
      When finished, use the sandpaper and/or razor blade to debur the board. Check to be sure all the traces are isolated. Use a pair of dikes to cut the surface of the tabs, then a razor blade to separate the board from the PCB material. Use a file to smooth the edges. 
 
-* Safely exit and shut down the machine
+10. Safely exit and shut down the machine
 
      Click File > Exit. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
 
