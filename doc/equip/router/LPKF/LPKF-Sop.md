@@ -16,7 +16,7 @@ date:
  1. Select the job type
     - Single Sided: `single_sided`
     - 2 layer (no plating): `double_sided_NoTHP`
-    - 2 layer (platting machine): `double_sided_GalvonicTHP` (see plating SOP)
+    - 2 layer (plating machine): `double_sided_GalvonicTHP` (see plating SOP)
 
 
 -----------------------------------------------------------------------------------------------
@@ -26,12 +26,12 @@ date:
 
 (Refer to https://github.com/psu-epl/psu-epl.github.com/wiki/Design-rules for generating Gerber files.)
 
- 1. Select **File | Import ...**
+ 1. Select **File --> Import ...**
     - Navigate to the folder containing your files. For a two-sided board, you need 4 files:
         * Top Gerber
         * Bottom Gerber
         * Board Outline Gerber
-        * Excellon Drill Data
+        * Excellion Drill Data
  1. **Assign layers**
 
     The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to:
@@ -46,11 +46,12 @@ If you run into trouble assigning layers in a file gen, try editing the gerber f
 
 ## Add **Fiducials**
 
-Fiducials are holes used to align the blank during processing, typically when the board is flipped to do the second side. You should use three or more fiducials, usually located near the corners of the board.
+Fiducials are holes used to align the blank during processing, typically when the board is flipped onto its second side. You should use three or more fiducials, usually located near the corners of the board.
 
 1. **Insert > Fiducial > Fiducial...**
     - Click on the points where you would like the fiducial holes to be.
-    - Choose **close**
+    - Choose **Close**
+    - Choosing **Apply** will simply add another fiducial in a random spot near the board
 
 
 ---------------------------------------------------------------------------------------------------------
@@ -68,10 +69,13 @@ Most of the options controlling how the board will be milled are set here.
 
 #### Set **Isolation type**
 
-controls how much copper will be removed around your features.
+Controls how much copper will be removed around your features, generally one click to the right is sufficient.
 
  - Select **Show Details**.
-    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter**
+    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter** in the Available Tools section menu.
+#### **Contour Routing**
+ - If adding Breakout Tabs, this is where you set their position
+    - Be sure to keep tabs off of corners and usually having 2 will do the job. You can change amount and position by clicking on the left and right arrows below the pictures.
 
 #### Routing Type
 
@@ -90,7 +94,9 @@ Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 
  1. Check Tool Magazine
 
-    Open Edit > Tool Magazine. Under the list of required tools, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
+    Open Edit > Tool Magazine. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
+    In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
+    Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
 
 (Trouble shooting tip: If the router throws a connection error, be sure the lid to the LPKF is closed, then go to Machining > Connect... if errors come up, alert the manager on duty)
 
@@ -99,7 +105,7 @@ Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 * Physically Mount Material
     * Select a PCB blank
 
-   Choose some vaguely planar untwisted blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will want some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
+   Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
 
     * Prepare backing surface
 
@@ -109,7 +115,7 @@ Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 
 * Edit pattern placement on the PCB blank
 
-    Place the head in the lower left hand corner of where you want the board to be routed on the PCB Blank. In the machining view, select the 'Mouse Cursor' mode in the left control panel. It's a bit awkward; if you have the 'Mouse Cursor' mode selected you can click anywhere to move the head to that location. The purpose of this exercise is to make sure the black collar around the bit will never go off the board or hit blue tape. De-select the 'Mouse Cursor' mode.
+    Find the blank spot where you plan to place the board and in the machining view, select the 'Mouse Cursor' mode in the left control panel. When you have the 'Mouse Cursor' mode selected you can click anywhere on the  to move the head to that location. The purpose of this exercise is to make sure the black collar around the bit will never go off the board or hit blue tape. De-select the 'Mouse Cursor' mode.
 
     In the machining view, right-click on the artwork and select 'Placement'. The design artwork should get a heavy line around it with a rotation handle on the top. Then click and drag the artwork's lower left-hand corner to the location of the head (which should be the appropriate place on the board). 
 
