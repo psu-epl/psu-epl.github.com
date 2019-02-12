@@ -61,7 +61,7 @@ Fiducials are holes used to align the blank during processing, typically when th
 
 Most of the options controlling how the board will be milled are set here.
 
- 1. Open **Toolpath > Technology Dialog.**
+ - Open **Toolpath > Technology Dialog.**
 
 #### Edit **Global Processing Settings**
 
