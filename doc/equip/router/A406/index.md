@@ -117,17 +117,17 @@ Other Notes:
 	![](img/ProjToolsAlert.png) 
 
 1. Next you will need to assign tools. The Project Tools button on the top will likely have red text, because tools havent been assigned for the job. 
-	*Note: The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them.
+	*Note: The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them.*
 
 	![](img/ProjToolsMenu.png) 
 
-1. Any tool that **doesn't have** a blue "TH" button to its left will need to be assigned a tool.
+1. Any tool that **doesn't have** a blue "TH ##" button to its left will need to be assigned a tool.
 1. Double click on that tool. A dialog will appear similar to the one shown below that lists the tools that still need to be assigned. 
 
 	![](img/DrillToolTable.png) 
 
 1. Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear like the one below, showing you which tools you can assign. 
-	*Note: The best practice is to choose a tool that is slightly smaller than the width of the cut needed. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
+	*Note: The best practice is to choose a tool that is slightly smaller than the width of the cut needed. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135" which is less than the maximum diameter specificed. If you can't find a good matching tool choose the closest size you can as long as it is below the maximum diameter.*
 
 	![](img/ToolTable.png)
 
@@ -142,19 +142,23 @@ Other Notes:
 Now you will need to choose where on the board you will start the routing process. By default the artwork will be in the center of the board, but that might not be the best place to start drilling. You will also have to consider that the A406 cannot actually use the entire workspace, because it locks up when it moves too close to any edge, forcing you to hit emergency stop twice to home it. Make sure your artwork is positioned correctly to avoid these pitfalls.  
 
 
-- Click on "CNC" to go to CNC mode. 
+1. Click on "CNC" to go to CNC mode. 
 
 ![](img/CNCATC.png) 
 
-- Click on the "Camera follows mouse" button. 
+1. Click on the "Camera follows mouse" button. 
 
-![](img/CameraFollowMouse.png) 
+![](img/CameraFollowMouse.png)
 
-- You are now controlling the machine by camera location. 
+
+1.
+
+
+1. You are now controlling the machine by camera location. 
 
 ![](img/CameraFollowMouseClarify.png) 
 
-- Hold down the "left Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your artwork.  You can sight in exactly where you want you start cutting by using the translucent centering sheet. 
+1. Hold down the "left Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your artwork.  You can sight in exactly where you want you start cutting by using the translucent centering sheet. 
 - Make sure the foot around the tool is solidly on the PCB material, and not on tape, or overhanging the board, or whatnot. 
   - You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps. 
 
