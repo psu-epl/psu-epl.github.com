@@ -14,7 +14,17 @@ date:
 
 * This laser cutter will work with DXF vector files (for cutting and rastering) and image files (rastering only).
 
-* Do not cut PVC or Vinyl on this cutter as it can release harmful smoke.
+
+* **Do not cut PVC or Vinyl on this cutter as it can release harmful smoke.**
+
+* CAD Programs and DXF files:
+	* Solidworks:
+		* Open the *part* you wish to cut
+		* Change the measurement system to \'mmgs\' (bottom right corner) and ensure your part has the correct dimensions in millimeters. (25.4mm/inch)
+			* The main reason for bad DXF files from SolidWorks is using a different measurement system such as IPS(Inch, pound, second) or MKS(Meter, kilogram, second).
+		* Right click the desired face you wish to create a pattern from and select "export DXF/DWG"
+		* Complete the following prompts to save the file.
+
 
 ## Safety:
 
