@@ -13,8 +13,8 @@ date:
  1. Login to controller PC
  1. Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
  1. Start the LPKF CircuitPro software
- 1. Select the job type
-    - Single Sided: `single_sided`
+ 1. Select the job type (under the templates tab)
+    - Single Sided: `single_sided_top` or `single_sided_bottom`
     - 2 layer (no plating): `double_sided_NoTHP`
     - 2 layer (plating machine): `double_sided_GalvonicTHP` (see plating SOP)
 
@@ -26,15 +26,17 @@ date:
 
 (Refer to https://github.com/psu-epl/psu-epl.github.com/wiki/Design-rules for generating Gerber files.)
 
- 1. Select **File --> Import ...**
+ 1. Select **File --> Import ...** or **CNTRL+I**
     - Navigate to the folder containing your files. For a two-sided board, you need 4 files:
         * Top Gerber
         * Bottom Gerber
         * Board Outline Gerber
         * Excellion Drill Data
- 2. **Assign layers**
+        
+ 2. Select **Assign layers**
 
-    The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. These fields should be set to:
+The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. Make sure each of the files you imported is assigned to the correct layer in this column.
+    These fields should be set to:
     - TopLayer
     - BottomLayer
     - BoardOutline
@@ -46,39 +48,43 @@ If you run into trouble assigning layers in a file gen, try editing the gerber f
 
 ## Add **Fiducials**
 
-Fiducials are holes used to align the blank during processing, typically when the board is flipped onto its second side. You should use three or more fiducials, usually located near the corners of the board.
+Fiducials are holes used to align your work piece during the routing process. These are typically needed when the board is flipped onto its second side so you can align all the drill holes. You should use three or more fiducials, and we usually want to locate them near the corners of the board. This helps align the board easier and saves space on your blank material.
 
-1. **Insert > Fiducial > Fiducial...**
-    - Click on the points where you would like the fiducial holes to be.
-    - Choose **Close**
+1. Select **Insert > Fiducial > Fiducial...**
+    - Click on the 3 or more points where you would like the fiducial holes to be.
+    - Choose **Close** (not apply)
     - Choosing **Apply** will simply add another fiducial in a random spot near the board
-
 
 ---------------------------------------------------------------------------------------------------------
 
-
 ## Generate Toolpath
 
-Most of the options controlling how the board will be milled are set here.
+Most of the options controlling how the board will be milled are set here. Let's open the Technology Dialog box so we can edit the insulation and routing settings for our board.
 
- - Open **Toolpath > Technology Dialog.**
+ - Select **Toolpath > Technology Dialog.**
 
 #### Edit **Global Processing Settings**
 
- - Set material thickness. The settings for half-ounce copper are 18 um copper thickness and 0.061 inch material thickness. Click 'OK'.
+   - Now we're going to edit the settings at the very top section of the newly opened dialog box.
+   - Let's set the material thickness. The settings for the half-ounce **FR4** copper we sell in the EPL are: **18 um copper thickness** and **0.061 inch material thickness**
 
-#### Set **Insulate**
+#### Set **Insulate** settings
 
-Controls how much copper will be removed around your features, generally one click to the right is sufficient.
+The "Insulate" settings control how much copper will be removed around your features (pads or traces). 
+   - Click the arrows to the right and left of the insulation picture to change the settings.
+   - Option 2/4 (Basic, pads double) is often the best choice.
+   - Next, Select the **Show Details** button below the insulation image.
+   - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter 0, 1mm** in the Available Tools list.
 
- - Select **Show Details**.
-    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter** in the Available Tools section menu.
 #### **Contour Routing**
- - If adding Breakout Tabs, this is where you set their position
-    - Be sure to keep tabs off of corners and usually having 2 will do the job. You can change amount and position by clicking on the left and right arrows below the pictures. Best option is horizontal or vertical.
- - Select **Show Details**
-    - In the "Tool" Dropdown Menu, select the **1mm contour router bit**
-    - Select **Hide Details**
+
+The "Contour Routing" settings control where your boards breakout tabs will be. These are needed to keep your board held in position while routing, but allowing you to easily remove or "break out" your board when it's finished.
+   - Click on the arrows to the right and left of the Contour Routing picture to change the settings.
+   - Be sure to keep tabs off of corners and usually having 2 tabs will do the job.
+   - Options 2/6 (Horizontal Gaps), 3/6 (Vertical Gaps), and 4/6 (Edge Gaps) work best.
+   - Next, select the **Show Details** button below the contour routing image.
+   - In the "Tool" Dropdown Menu, select the **contour router 1mm bit**
+   - Select **Hide Details**
 
 #### Removing Processes
 
