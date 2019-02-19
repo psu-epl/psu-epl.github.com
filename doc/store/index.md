@@ -11,7 +11,6 @@ Pay for parts and machine time online.
 # [Pricing](pricing)
 Pricing for machine time, materials, lockers, et cetera.
 You can also [check our spreadsheet][sheet] for in-stock items and pricing. 
-However, it's usually inaccurate. 
 
 # [Material-sources-database](Material-sources-database)
 The consumables we use and where to find them.
