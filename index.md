@@ -38,7 +38,7 @@ Read [the **documentation** on our machines, policies, services, and more](doc) 
 
 Here are our other lab spaces, [RF-Chamber](/doc/equip/testing/RF-Chamber.md) & [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
 
-You can also [check our spreadsheet][https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?] for in-stock items and pricing. 
+You can also [check our spreadsheet](https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?) for in-stock items and pricing. 
 
 # Lab Calendar
 {% include calendar_lab.html %}
