@@ -179,13 +179,11 @@ Now you will need to choose where on the board you will start the routing proces
 
 ![image alt text](img/image_11.png)
 
-   * If The Emergency Stop button will be lit because the machine has not been homed.
+   * If The Emergency Stop button is lit, it is because the machine has not been homed.
 
-        * While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear similar to the one shown below.
+     * While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear similar to the one shown below. Choose ‘Yes’ to home the machine.
 
 ![image alt text](img/image_12.png)
-
-   * Choose ‘Yes’ to home the machine.
 
    * You are now controlling the machine by camera location and the PhCNC Video window will appear.
 
