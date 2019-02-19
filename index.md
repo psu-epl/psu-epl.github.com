@@ -13,8 +13,6 @@ Our phone number is **503-725-2879**.
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! 
 
-__[Our workshops are happening January 19th and 20th! Sign up and learn useful things!][Eventbrite]__
-
 Here are some links to commonly visited pages:  
 [Equipment],
 [Checkout],
