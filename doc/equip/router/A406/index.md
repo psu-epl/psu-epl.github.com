@@ -63,13 +63,13 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 3. Start the PhCNC64 software there are two ‘views’, CAM and CNC. The CAM view is where you can edit your circuit design and add features like tabs or fiducials. The CNC view allows you to see how the router will cut the board. 
 
-    1. Toggle between them by clicking on the "CNC" or “CAM” button on the top of screen.
+    * Toggle between them by clicking on the "CNC" or “CAM” button on the top of screen.
 
 ![image alt text](img/image_0.png)
 
 4. Home the machine by clicking the **Emergency Stop Button**. A dialog will appear similar to the one shown below.
 
-    1. The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initiated emergency stop. While the machine is stopped, you cannot move the camera, change tools, or park the device. 
+    * The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initiated emergency stop. While the machine is stopped, you cannot move the camera, change tools, or park the device. 
 
 ![image alt text](img/image_1.png)
 
@@ -79,7 +79,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 1. Go to the CAM view (it should say CAM at the top. If it says, CNC click the "CNC" button at the top). 
 
-    1. *Note: when in cam view you are able to select ‘import Gerber & Drill’ under ‘file’, when in CNC mode you are unable.*
+    * *Note: when in cam view you are able to select ‘import Gerber & Drill’ under ‘file’, when in CNC mode you are unable.*
 
 ![image alt text](img/image_2.png)
 
@@ -89,29 +89,29 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 3. Use the ‘Select’ button on the upper left to navigate to your Gerber/Excellon file directory and press "OK" when you are in the correct directory. You should see a list of files appear in the left column.
 
-    1. All of your gerber and excellon files MUST be in the same folder!
+    * All of your gerber and excellon files MUST be in the same folder!
 
 4. Files on the left must be ‘mapped’ for the import process. You will need three or four files depending on if your board is one or two layers:
 
-    1. Top copper
+    * Top copper
 
-    2. Bottom copper (if applicable)
+    * Bottom copper (if applicable)
 
-    3. Outline (Mech)
+    * Outline (Mech)
 
-    4. Drills
+    * Drills
 
 5. Mapping is done by selecting a filename on the left, then checking the appropriate box on the right. Map your outline file to the "Mech" layer. A dialog will appear similar to the one shown below.
 
-    1. The Gerber interpreter is automatic.
+    * The Gerber interpreter is automatic.
 
-    2. Excellon data is trickier. When you select your drill file, you will have the option of ‘Top’ or ‘Bottom’. This means you can drill holes from the top or bottom layer. Always choose ‘Top’, because PhCNC64’s natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side.
+    * Excellon data is trickier. When you select your drill file, you will have the option of ‘Top’ or ‘Bottom’. This means you can drill holes from the top or bottom layer. Always choose ‘Top’, because PhCNC64’s natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side.
 
-        1. If you are lucky, the default decimal places and zero suppression settings will ‘just work’. The software will draw the drill holes as yellow dots on your design. Look carefully and see if the holes seem to be in the right places. If they aren’t, you’ll need to double-click on the drill layer in the upper right pane and edit the settings.
+        * If you are lucky, the default decimal places and zero suppression settings will ‘just work’. The software will draw the drill holes as yellow dots on your design. Look carefully and see if the holes seem to be in the right places. If they aren’t, you’ll need to double-click on the drill layer in the upper right pane and edit the settings.
 
-    3. Don’t forget to import an outline (mechanical) layer to define the cutout boundary.
+    * Don’t forget to import an outline (mechanical) layer to define the cutout boundary.
 
-    4. Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD. 
+    * Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD. 
 
 ![image alt text](img/image_4.png)
 
@@ -179,27 +179,27 @@ Now you will need to choose where on the board you will start the routing proces
 
 ![image alt text](img/image_11.png)
 
-    1. If The Emergency Stop button will be lit because the machine has not been homed.
+    * If The Emergency Stop button will be lit because the machine has not been homed.
 
-        1. While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear similar to the one shown below.
+        * While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear similar to the one shown below.
 
 ![image alt text](img/image_12.png)
 
-        2. Choose ‘Yes’ to home the machine.
+        * Choose ‘Yes’ to home the machine.
 
-    2. You are now controlling the machine by camera location and the PhCNC Video window will appear.
+    * You are now controlling the machine by camera location and the PhCNC Video window will appear.
 
-        1. This window is a camera that will allow you to see the surface under the cutting arm.
+        * This window is a camera that will allow you to see the surface under the cutting arm.
 
 ![image alt text](img/image_13.png)
 
 3. Hold down the Left "Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your design. 
 
-    1. You can sight in exactly where you want you start cutting by using the translucent centering sheet.
+    * You can sight in exactly where you want you start cutting by using the translucent centering sheet.
 
 4. Make sure the foot around the tool is solidly on the PCB material, and not on tape, or overhanging the board, or whatnot.
 
-    1. You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps.
+    * You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps.
 
 ![image alt text](img/image_14.png)
 
@@ -211,7 +211,7 @@ Now you will need to choose where on the board you will start the routing proces
 
 7. Select the "Select/Move/Clone objects" button 
 
-    1. Looks like a cursor arrow, see photo below.
+    * Looks like a cursor arrow, see photo below.
 
 ![image alt text](img/image_16.png)
 
@@ -223,15 +223,15 @@ Now you will need to choose where on the board you will start the routing proces
 
 10. Add your breakout tabs. When the router cuts out the outline of your board, the breakout tabs will be areas that aren’t cut. These will form "tabs" which will hold your board in place. This tabs will need to be broken in order to free your board design from the copper material.
 
-    1. Hover over the outline of your board where you want the tabs
+    * Hover over the outline of your board where you want the tabs
 
-    2. Hit Ctrl-T. You should see a red "X" and broken line in your outline.
+    * Hit Ctrl-T. You should see a red "X" and broken line in your outline.
 
-        1. Try zooming in if you can see the red "X".
+        * Try zooming in if you can see the red "X".
 
-    3. It is easiest to remove your board if you only use two breakout tabs opposite each other.
+    * It is easiest to remove your board if you only use two breakout tabs opposite each other.
 
-    4. Alternatively you can right click and select the option to add a breakout tab.
+    * Alternatively you can right click and select the option to add a breakout tab.
 
 ![image alt text](img/image_18.png)
 
@@ -275,7 +275,7 @@ Now you will need to choose where on the board you will start the routing proces
 
 9. Once you find a good depth, then:
 
-    1. Click on "ATC Control Panel" button
+    * Click on "ATC Control Panel" button
 
 ![image alt text](img/image_23.png)
 
