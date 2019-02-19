@@ -71,7 +71,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
     2. The Emergency Stop button will be lit because the machine has not been homed. This is true whenever the software is started or after a user-initiated emergency stop. While the machine is stopped, you cannot move the camera, change tools, or park the device. 
 
-![image alt text](image_1.png)
+![image alt text](img/image_1.png)
 
 5. Choose ‘Yes’ to home the machine.
 
@@ -81,11 +81,11 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
     1. *Note: when in cam view you are able to select ‘import Gerber & Drill’ under ‘file’, when in CNC mode you are unable.*
 
-![image alt text](image_2.png)
+![image alt text](img/image_2.png)
 
 2. Import your circuit design by selecting "File" -> “Import Gerber & Drill…” or clicking on the Import button (the left top button).
 
-![image alt text](image_3.png)
+![image alt text](img/image_3.png)
 
 1. Use the ‘Select’ button on the upper left to navigate to your Gerber/Excellon file directory and press "OK" when you are in the correct directory. You should see a list of files appear in the left column.
 
@@ -113,7 +113,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
     9. Only one Gerber file can be used for each layer. You cannot have two files for a top layer or two files for a bottom layer. If you need to combine data from two files, you will have to do that in CAD. 
 
-![image alt text](image_4.png)
+![image alt text](img/image_4.png)
 
 1. Once all your layers have been mapped, click the ‘Import’ button on the upper right.
 
@@ -127,7 +127,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
         * If you want your trace spacing to be 8 mils, type in 0.0080 in the field. 
 
-![image alt text](image_5.png)
+![image alt text](img/image_5.png)
 
 2. If you get warnings in the lower left status bar (look out for dark pink button), keep going down 0.1 or 0.2 mils until you don’t have any warnings. These pop up if your insulation settings are larger than you designed them to be on your PCB.
 
@@ -141,25 +141,25 @@ Other Notes:
 
 1. Click on "Project Tools". 
 
-![image alt text](image_6.png)
+![image alt text](img/image_6.png)
 
 2. Next you will need to assign tools. The "Project Tools" button on the top will likely have red text, because tools have not been assigned for the job. 
 
     * The software will automatically assign some tools, but not all. This is because the software has determined that there are multiple tools could be used to isolate the traces and needs you to choose between them.
 
-![image alt text](image_7.png)
+![image alt text](img/image_7.png)
 
 3. Any tool that **doesn’t have** a blue "TH ##" button to its left will need to be assigned a tool.
 
 4. Double click on that tool. A dialog will appear similar to the one shown below that lists the tools that still need to be assigned. 
 
-![image alt text](image_8.png)
+![image alt text](img/image_8.png)
 
 5. Click on the number labels to the side (i.e. #1, #2, and #3). Another window will appear like the one below, showing you which tools you can assign.
 
     * The best practice is to choose a tool that is slightly smaller than the width of the cut needed. For example, drill #1 has a max diameter of 0.0140", so in the dialog that pops up, you might select the tool in TH04, which has a diameter of 0.0135” which is less than the maximum diameter specified. If you can’t find a good matching tool choose the closest size you can as long as it is below the maximum diameter.
 
-![image alt text](image_9.png)
+![image alt text](img/image_9.png)
 
 1. Click "Select" and move onto the next tool needing assignment. Once all tools have been assigned, close the Drill Tool Table and then the Project Tools window.
 
@@ -173,17 +173,17 @@ Now you will need to choose where on the board you will start the routing proces
 
 1. Click on the "CNC" button. This will bring you to CNC mode.
 
-![image alt text](image_10.png)
+![image alt text](img/image_10.png)
 
 2. Click on the Camera Follows Mouse button.
 
-![image alt text](image_11.png)
+![image alt text](img/image_11.png)
 
     1. If The Emergency Stop button will be lit because the machine has not been homed.
 
         1. While the machine is stopped, you cannot move the camera, change tools, or park the device. Click the emergency stop button. A dialog will appear similar to the one shown below.
 
-![image alt text](image_12.png)
+![image alt text](img/image_12.png)
 
         2. Choose ‘Yes’ to home the machine.
 
@@ -191,7 +191,7 @@ Now you will need to choose where on the board you will start the routing proces
 
         3. This window is a camera that will allow you to see the surface under the cutting arm.
 
-![image alt text](image_13.png)
+![image alt text](img/image_13.png)
 
 3. Hold down the Left "Control" key and right-click the mouse on the CAM view to move the camera to the upper left hand corner of where you want your design. 
 
@@ -201,11 +201,11 @@ Now you will need to choose where on the board you will start the routing proces
 
     4. You can use the +/- arrow buttons in the upper left hand corner to move the head in small steps.
 
-![image alt text](image_14.png)
+![image alt text](img/image_14.png)
 
 5. Right click and choose "Add Thumbtack at Camera Position". This will be for your own reference.
 
-![image alt text](image_15.png)
+![image alt text](img/image_15.png)
 
 6. Click on "CNC" to back to CAM view.
 
@@ -213,11 +213,11 @@ Now you will need to choose where on the board you will start the routing proces
 
     5. Looks like a cursor arrow, see photo below.
 
-![image alt text](image_16.png)
+![image alt text](img/image_16.png)
 
 8. Select your design by click and dragging a selection box around it.
 
-![image alt text](image_17.png)
+![image alt text](img/image_17.png)
 
 9. Left click and hold to drag your board to the thumbtack, which in this view looks like a small yellow cross.
 
@@ -233,17 +233,17 @@ Now you will need to choose where on the board you will start the routing proces
 
     9. Alternatively you can right click and select the option to add a breakout tab.
 
-![image alt text](image_18.png)
+![image alt text](img/image_18.png)
 
 11. Click on "CNC" to go to CNC mode.
 
 12. Click on the "Spindle follows mouse" button.
 
-![image alt text](image_19.png)
+![image alt text](img/image_19.png)
 
 13. You are now controlling the machine spindle position.
 
-![image alt text](image_20.png)
+![image alt text](img/image_20.png)
 
 14. Hold down the "left Control" key and right-click the mouse on the CAM view to move the head to the lower right hand corner of your design. This will make sure that you don’t go off your material when you’re routing the opposite corner. If your board is too small or ill-positioned, the camera will go off the edge. Youll need to reposition the design or get a larger board if so. This is to make sure your design fits your board.
 
@@ -257,11 +257,11 @@ Now you will need to choose where on the board you will start the routing proces
 
 4. In the camera area, right click and choose "Tool test at camera position".
 
-![image alt text](image_21.png)
+![image alt text](img/image_21.png)
 
 5. Click OK at the suggested penetration depth (2.4 mils).
 
-![image alt text](image_22.png)
+![image alt text](img/image_22.png)
 
 6. Hit Control-Space to focus the camera.
 
@@ -277,11 +277,11 @@ Now you will need to choose where on the board you will start the routing proces
 
     3. Click on "ATC Control Panel" button
 
-![image alt text](image_23.png)
+![image alt text](img/image_23.png)
 
 10. In the bottom section, in the Project Tools list, enter in the depth you found in the insulate tool’s "Depth" column entry box.
 
-![image alt text](image_24.png)
+![image alt text](img/image_24.png)
 
 ## Go!
 
@@ -293,13 +293,13 @@ Now you will need to choose where on the board you will start the routing proces
 
 3. Choose "RUN(GO)"
 
-![image alt text](image_25.png)
+![image alt text](img/image_25.png)
 
 ## Flip the Board
 
 1. Hit "Park" to get the head out of the way.
 
-![image alt text](image_26.png)
+![image alt text](img/image_26.png)
 
 2. Remove your PCB.
 
@@ -317,7 +317,7 @@ Now you will need to choose where on the board you will start the routing proces
 
 4. Click "camera follows mouse" button and then right click in the workspace area and choose “Fiducial Registration Mode” from the drop-down menu.
 
-![image alt text](image_27.png)
+![image alt text](img/image_27.png)
 
 5. Move head to the first fiducial hole by clicking "Camera follows mouse" button and control-right click.
 
@@ -333,7 +333,7 @@ Now you will need to choose where on the board you will start the routing proces
 
 11. Now the yellow cross hair of the hole should be exactly in the center of the camera target circles.
 
-![image alt text](image_28.png)
+![image alt text](img/image_28.png)
 
 12. Put the Hole Finder tool over your second fiducial point.
 
@@ -345,7 +345,7 @@ Now you will need to choose where on the board you will start the routing proces
 
 16. Put the mouse cursor in the exact middle of the yellow hole marker, right click, and choose "Rotate to camera position (fiducial 2)".
 
-![image alt text](image_29.png)
+![image alt text](img/image_29.png)
 
 17. Now all of the yellow hole markers in your design should line up with the actual holes on your board.
 
@@ -357,4 +357,4 @@ Now you will need to choose where on the board you will start the routing proces
 
 21. Choose "RUN(GO)" and it’ll do the bottom of your board.
 
-![image alt text](image_30.png)
+![image alt text](img/image_30.png)
