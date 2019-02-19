@@ -65,7 +65,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
     1. Toggle between them by clicking on the "CNC" or “CAM” button on the top of screen.
 
-![image alt text](/img/image_0.png)
+![image alt text](img/image_0.png)
 
 4. Home the machine by clicking the **Emergency Stop Button**. A dialog will appear similar to the one shown below.
 
