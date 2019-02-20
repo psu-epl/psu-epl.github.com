@@ -30,7 +30,7 @@
     - name: Ultimaker2 3D Printer
       img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
-      up: true
+      up: false
       
     - name: Ultimaker3 Extended 3D Printer (x2)
       img: images/Ultimaker3.JPG
