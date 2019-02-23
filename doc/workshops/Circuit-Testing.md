@@ -8,6 +8,8 @@ date:
 
 #### Intro 
 
+Measure circuit function with your fingers to learn about electricity! /s 
+
 Objectives:
 
 * Learn how to use:
