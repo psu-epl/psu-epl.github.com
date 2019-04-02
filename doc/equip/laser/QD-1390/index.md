@@ -154,7 +154,7 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
     1. Air should be flowing out of the laser head continuously at this point. If it is not, check that the handle on the valve is zip-tied into the on position.
 
-    2. The air pressure in the line should not be more than 5 psi. Adjust the pressure using the knob to the right of the switch and read the pressure off of the right gauge.
+    2. The air pressure in the line should be around 10 psi. Adjust the pressure using the knob to the right of the switch and read the pressure off of the right gauge.
 
 ![image alt text](img/image_12.png)
 
