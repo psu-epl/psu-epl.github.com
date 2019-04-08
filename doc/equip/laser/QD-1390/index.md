@@ -29,6 +29,7 @@ date:
 ## Safety:
 
 * IR beams are invisible but very damaging. Never run the laser with hood up, and always wear eye protection.
+	* The orange glasses will help protect from indirect reflections from the laser, but will **NOT** protect from direct exposure. to the laser. 
 
 * It’s good practice to keep the IR laser switched **off** until you are sure you are ready for cutting. 
 
@@ -42,7 +43,7 @@ date:
 
 ![image alt text](img/image_1.png)
 
-2. Turn on the water chiller to the right of the laser. This step is important so the laser doesn’t overheat.
+2. Turn on the water chiller to the right of the laser. **This step is important so the laser doesn’t overheat.**
 
     1. It may sound an alarm for a few seconds but it should go away quickly.
 
@@ -66,9 +67,9 @@ date:
 
     2. There are several issues that can happen upon importing a vector image.:
 
-        2. The vectors are messed up, in which case you will have manually edit your job by clicking "Edit Nodes", and adding nodes to the parts you want to remove, or move. It takes practice.
+        2. If the vectors are messed up, in which case you will have manually edit your job by clicking "Edit Nodes", and adding nodes to the parts you want to remove, or move. It takes practice.
 
-        3. Your vector image is scaled way too small. Select your vector shapes, and check the width and length in the upper left corner (not the x and y values, that is the position of your piece). The program has a tendency to take inch dimensions and just turn them into millimeters (not convert, just changes it, ex. 6 inches becomes 6 mm). You can fix this by highlighting all of your shapes, and converting your dimensions in inches into millimeters (multiply each dimension by 25.4) and entering that in for the height and width.
+        3. Your vector image is scaled way too small. Select your vector shapes, and check the width and length in the upper left corner (not the x and y values, that is the position of your piece). The program has a tendency to take inch dimensions and just turn them into millimeters (not convert, just changes it, ex. 6 inches becomes 6 mm). To fix this, you should export your vector file in millimeters.  Alternatively, you can fix this by highlighting all of your shapes, and converting your dimensions in inches into millimeters (multiply each dimension by 25.4) and entering that in for the height and width.  
 
 ## Cut Power and Speed or Rastering
 
@@ -142,7 +143,7 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 ![image alt text](img/image_10.png)
 
-4. Once you are sure that the laser will stay on your piece it’s time to start cutting.
+4. Once you are sure that the laser will stay on your piece, proceed to the next step.
 
 ## Final Prep
 
@@ -170,11 +171,11 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 * Do NOT leave your job unattended. You must monitor it constantly in case of a fire and to ensure correct completion of your job.
 
-* When the laser is running, do NOT open the hood.
+* When the laser is running, do **NOT** open the hood.
 
-* It is not recommended to stare at the cutting laser light. Eye damage may occur.
+* It is not recommended to stare at the cutting laser light. Eye damage may occur (even with protection).
 
-* Eye protection is recommended.
+* Eye protection is recommended (orange safety glasses).
 
 * Press the **red emergency stop** knob on the machine to stop the job for any reason. 
 
