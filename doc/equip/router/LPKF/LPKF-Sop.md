@@ -48,9 +48,10 @@ If you run into trouble assigning layers in a file gen, try editing the gerber f
 
 ## Add **Fiducials**
 
-Fiducials are holes used to align your work piece during the routing process. These are typically needed when the board is flipped onto its second side so you can align all the drill holes. You should use three or more fiducials, and we usually want to locate them near the corners of the board. This helps align the board easier and saves space on your blank material.
+Fiducials are holes used to align your work piece during the routing process. These are typically needed when the board is flipped onto its second side so you can align all the drill holes (ie a two layer board).  You should use three or more fiducials, and we usually want to locate them near the corners of the board. This helps align the board easier and saves space on your blank material.
 
-1. Select **Insert > Fiducial > Fiducial...**
+1. Make sure you are in CAM view
+2. Select **Insert > Fiducial > Fiducial...**
     - Click on the 3 or more points where you would like the fiducial holes to be.
     - Choose **Close** (not apply)
     - Choosing **Apply** will simply add another fiducial in a random spot near the board
