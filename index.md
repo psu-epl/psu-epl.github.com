@@ -62,7 +62,7 @@ invitation only.
 [Lab Policies]: doc/policies
 [RF Chamber]: doc/equip/testing/RF-Chamber
 [3D Print Your Part]: doc/equip/printer
-[Workshops]: doc/workshops
+[Workshops]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
 [Become a Manager]: doc/policies/Becoming-an-E.P.L.-Manager
 [Sponsors]: doc/policies/Sponsors
 [checkout]: https://commerce.cashnet.com/ecei
