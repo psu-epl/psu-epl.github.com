@@ -85,7 +85,7 @@
   machines:
     - name: Soldering Equipment
       img: images/SolderingEquipment.JPG
-      sop: doc/equip/solder/Soldering-Equipment.md
+      sop: doc/equip/solder/Soldering-Equipment
       up: true
       
     - name: Angle Grinder
