@@ -83,6 +83,11 @@
 
 - title: Shop and Hand Tools
   machines:
+  - name: Soldering Equipment
+      img: doc/equip/shop/img/Soldering.jpg
+      sop: doc/equip/solder/Soldering-Equipment.md
+      up: true
+      
     - name: Angle Grinder
       img: doc/equip/shop/img/angleGrinder.jpg
       sop:
