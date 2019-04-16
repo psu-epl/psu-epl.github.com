@@ -7,7 +7,7 @@ date:
 ---
 # [Form Labs Setup (For Managers)](Formlabs2QuickStartGuide)
 
- # Formlabs 2 Quick Start Guide  
+# Formlabs 2 Quick Start Guide  
 
 ![](img/Cover_image.PNG)
 
