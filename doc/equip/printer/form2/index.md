@@ -39,32 +39,6 @@ Located next to the Touchscreen, the button is what you will use to start your p
 8. **Leveling Tool:**
 These are used to make sure that the Resin Tank is level and each layer of your print has a coating of resin. The managers in the EPL will take care of making these adjustments if they are needed.  
 
-## Prepare:  
-### 1. Insert Resin Tank with Wiper  
-It is important to note that the resin tank is paired with a specific material, please make sure that you are using the correct resin tank for the material you wish to use.  
-
-![](img/Tank_insert.PNG)
-
-Remove the tank lid and align the four small feet of the resin tank with the corresponding holes in the tank carrier; push forward into place.  
-
-### 2. Lock Wiper  
-
-![](img/Wiper_insert.PNG)  
-
-Ensuring the wiper is straight, align the foot of the wiper with the corresponding hole and push forward, snapping it into place.  
-
-### 3. Insert Build Platform  
-
-![](img/Platform_insert.PNG)  
-
-Align the build platform with the platform carrier and push it into place, locking the handle down to secure.  
-
-### 4. Insert Resin Cartridge  
-
-![](img/Cartridge_insert.PNG)  
-
-Align the cartridge with the opening in the back of the printer. Push down until it sits securely. Be sure to remove the orange valve cover from the underside and press open the cap before starting a print, so that your resin tank fills correctly.  
-
 ## Printing:
 Begin by opening the PreForm software located in the start menu on the workstation near the formlabs machine.  
 
@@ -72,6 +46,8 @@ Begin by opening the PreForm software located in the start menu on the workstati
 
 Open your STL or OBJ files. Most parts print better when support at an angle. For automatic set-up, use PreForm tools to “orient all,” “generate all,” and “layout all.” PreForm will do these steps in sequence if you select “One Click Print.”
 Confirm your print's material and layer height, then click the orange print icon. Select which printer to upload the file to from the printer dialogue.  
+
+*Save your .form file to your folder on the eplulti computer and add your print information into the queue.*
 
 ## Confirm Print on Printer:
 
