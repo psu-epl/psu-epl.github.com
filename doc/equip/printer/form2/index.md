@@ -45,6 +45,8 @@ Once you have the model set-up, check for Printability. If your model has unsupp
 
 To correct this issue click on the PreForm tool "Supports", "Edit Supports", add in support points until the red area is eliminated, and click "Apply" to save the changes.
 
+![](img/Preform_EditSupport.png)
+
 ### Finalizing Design:
 
 If there are no red/unsupported areas your print is ready!
