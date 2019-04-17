@@ -24,6 +24,9 @@ Begin by opening the PreForm software located in the start menu on the workstati
 
 ![](img/Preform_Open.png)
 
+See the basic program layout,
+
+![](img/image29.jpg)
 
 ### Importing Files:
 
@@ -49,10 +52,12 @@ To correct this issue click on the PreForm tool "Supports", "Edit Supports", add
 
 ### Finalizing Design:
 
-If there are no red/unsupported areas your print is ready!
+If there are no red/unsupported areas your print is ready! You can now view the 'Volume' of material used and the 'Print Time' on the Info Bar.
 
 ![](img/Preform_Ready.png)
 
 Finally, confirm your print's material and layer height, then click the orange print icon. Select which printer to upload the file to from the printer dialogue. Be sure to save your .form file into the queue folder.
+
+![](img/Preform_Print.png)
 
 *Remember to save your stl or obj files to your folder on the eplulti computer and add your print information into the queue.*
