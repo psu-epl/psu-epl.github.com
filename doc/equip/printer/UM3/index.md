@@ -5,8 +5,12 @@ author:
 date: 
 
 ---
+# Before you start!
+## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
 
 
-# [Ultimaker3extendedsetup](Ultimaker3extendedsetup)
+# SOP GOES HERE!
 
-# [Ultimaker-Filament-Selection](Ultimaker-Filament-Selection)
+## [Ultimaker3extendedsetup](Ultimaker3extendedsetup)
+
+## [Ultimaker-Filament-Selection](Ultimaker-Filament-Selection)

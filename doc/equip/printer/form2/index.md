@@ -7,7 +7,10 @@ date:
 ---
 # [Form Labs Setup (For Managers)](Formlabs2QuickStartGuide)
 
-# Formlabs 2 Quick Start Guide  
+# Before you start!
+## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
+
+# Formlabs 2 Quick Start Guide 
 
 ![](img/Cover_image.PNG)
 

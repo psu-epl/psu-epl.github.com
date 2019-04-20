@@ -1,14 +1,18 @@
 ---
-title: UltimakerSOP
+title: Ultimaker 2 SOP
 layout: doc
 author: 
 date: 
 
 ---
 
-[Link to Ultimaker 2 user manual](https://ultimaker.com/en/resources/16955-changing-filament)
+# Before you start!
+## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
+
 
 # About the Ultimaker 2
+
+[Link to Ultimaker 2 user manual](https://ultimaker.com/en/resources/16955-changing-filament)
 
 The Ultimaker 2 3D printer is for printing solid 3D models from digital
 files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints

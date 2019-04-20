@@ -6,6 +6,9 @@ date:
 
 ---
 
+# Before you start!
+## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
+
 # Mojo 3D Printer Standard Operating Procedures
 ## Preparing model to print
 1.	Open the “Mojo Print Wizard”

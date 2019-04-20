@@ -8,7 +8,7 @@ layout: doc
 # Machine Categories
 ## [Laser Cutters](laser)
 ## [Machining Tools](machining)
-## [3D Printers](printer)
+## [3D Printing](printer)
 ## [PCB Routers](router)
 ## [Shop and Hand Tools](shop)
 ## [Soldering Equipment](solder)
