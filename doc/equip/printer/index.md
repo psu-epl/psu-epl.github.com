@@ -19,7 +19,3 @@ layout: doc
 ### [Ultimaker 2](UM2)
 
 ### [Ultimaker 3](UM3)
-
-# Misc:
-
-### [Shining 3D Scanner](shining3D)
