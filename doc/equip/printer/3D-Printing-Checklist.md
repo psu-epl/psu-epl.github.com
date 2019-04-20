@@ -1,5 +1,5 @@
 ---
-title: 3D Printing Checklist
+title: 3D Printing Guide
 layout: doc
 date: \today
 fontsize: 12pt
@@ -15,85 +15,117 @@ output:
 
 ---
 
-# Enqueueing Parts
+### This guide is written both for Managers and for users of the EPL! Some steps apply to only one or the other.
+
+# Before you Start (Managers, Users)
+
+Do you have a 3D print you want to have made?  This guide will help you. Before you begin, you will need a few things.
+ 
+1. You will need a .stl version of your part.
+1. You will need to know the approximate dimensions of your part or widget (ie it is 2.1" at the extreme in the z axis)
+1. You should have a good idea of which printer you want to print it on, and your settings preferences (color, material type, quality, etc)
+1. **All 3D prints must be paid for before we will print them! More on this later in the guide**
+
+For material, type, and price please refer to: **LINK HERE**
+
+
+# General Procedure Overview (Managers, Users)
+In general, 3D printing at the EPL works like this
+1. Create a 3D model of your print, and export it as an .stl
+1. Get this print added to the 3D print queue.
+    * Either email the .stl file along with your preferences to lid@pdx.edu
+    * Or add the print to the queue manually
+1. Have your print sliced and priced
+	* If you are at the EPL in person, you can slice the print yourself, just have a manager calculate the resulting price. Don't forget to add the preform or gcode to the queue. The Mojo has its own software on the computer next to it.
+	* Otherwise, the managers will do this for you and inform you of the price
+1. Pay for the print and have a manager approve that you are paid
+	* If you submitted via email, you will be sent an email by the manager asking you to pay.
+	* If you are submitting in person, you will have the opportunity to pay as we add your print to the queue
+1. Your print will be printed when its turn comes
+1. When your print is done, the managers will email you to let you know, and you can drop by and pick it up.
+
+# Getting your print on the Queue via Email (Users)
+Just send an email to lid@pdx.edu. Include the following information:
 - Your name
-- Your email
+- STL file for your print (attached)
+- The material and machine you wanted printed out of / on
+- __The bounding box of the part with units! (so we get the size right)__
+- Any special requests
+
+# Adding a print to the queue manually (Managers, Users under supervision)
+For each school year, there is a folder named "Queue" on the desktop in which we keep all print files. At the time of writing, this folder is named "Queue 2018-2019".
+
+Create a folder with the name of the person requesting the print inside this queue folder. For instance, there is a folder named "Josh Goodroe" which contains all of the files that Josh Goodroe has printed during the 2018-2018 school year.
+
+Add the .stl file for the print to this folder.
+
+Create an entry at the bottom of the 3D printer queue spreadsheet, and fill out the following information:
+- Name of the person requesting print
+- Their email
 - Today's date
 - Name of STL file
-- Name of folder with the STL (should be your name)
-- Special notes
+- Name of folder with the STL (same as mentioned above)
+- Any Special notes
 - __Bounding box of the part with units!__
 - Material
 - Machine
 
-# Using the Ulitmaker 3
+**Some prints may ask for multiple copies of a single .stl file, or multiple .stl files. Comma-separate .stl files under the stl file colum to indicate the latter. Add duplication to the special notes column to indicate the former.**
 
-## Generating Gcode
-- Part is oriented with the largest flat surface down
-- Problem surfaces (highlighted red) have support material
-- Support material is checked in the print settings
-- Gcode preview (eye button -> Layers) looks reasonable
-- Supports appear in the gcode preview
-- Part sizes match the specified bounding box.
-- Add the name and location of the gcode to the queue
-- Add the cost and print time to the queue
+# Slicing and Pricing a 3D print (Managers, Users under supervision)
 
-## Starting a Print
-- Gcode looks reasonable in Cura (see previous section)
-- Build plate has a thin layer of glue
-- Spool has enough fillament
-- There are no jobs ahead of this print in the queue
-- __Make a sticky note for the print__
-	- Name of the person ordering the print
-	- Name of the gcode file
-	- Price of the print
-	- Stick in on the printer
-- __Mark it as "printing" in the queue__
+To slice and price an unpriced print in the queue, open the .stl file in the appropriate slicer. For ultimakers, this is Cura. For form labs, this is the custom PreForm software.
 
-## Removing a Print
-- Plastic is cool
-- Use something softer than glass to gently pry/peel (Fingernail, plastic, or steel. No aluminum or ceramic.)
-- Place the print _and its sticky note_ on the shelf
-- __Mark the print as "Finished" in the queue__
+Follow the guide for your printer for specific instructions on how to slice.
 
-# Using the Formlabs 2
+[See here to find the appropriate guide](/doc/equip/printer)
 
-## Generating Print Files
-- There are no large horizontal surfaces
-- There are no large-point supports in critical areas of the part
-- PreForm says the item is printable (bottom right)
-- Comment in the "manager's notes" field when you send it to the printer's queue
-- Add the cost and print time to the queue
-- __Make a sticky note for the print__
-	- Name of the person ordering the print
-	- Name of the STL files
-	- Price of the print
-	- Stick in on the _side_ printer
+When you are done, save either the G-Code (.gcode) or PreForm (.form) in the same folder as the .stl, and add this to the gcode column of the queue. 
 
-## Starting a Print
-- Build plate is empty and clean (thing on top) 
-- Tank vent is open (giant shampoo bottle thing in back)
-- __Mark as "printing" in the queue__
-- Move the sticky note to the _front_ of the printer
-	- If there's no sticky note, make one! (see previous section)
+**As a final step, have a manager calculate the price and print time using the G-Code or PreForm, add this to the price column.**
 
-## Removing a Print
-- Soak the print in the left alcohol bath
-	- Start a timer on your phone for 30 minutes
-	- Move the sticky note to the bath
-	- Indicating on the sticky note when you started the soak 
-	- Swirl the alcohol bath
-- Soak again in the right bath
-- Wash the part
-- Remove the support material (bend and pry with palms)
-- UV cure the part
-	- Start a timer (30 to 60 min)
-	- Move the sticky to the UV oven
-	- Note the start time
-- __Mark the print as "Finished" in the queue__
+# Paying for a print (Users)
 
-# Dealing with Failed Prints
+At some point, you must pay for your print. You can do this in person, or 
+[check out online](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx):
+
+**If you choose to check out online, you must forward a copy of your receipt to lid@pdx.edu, and the manager who emailed you your price**
+
+Once your print is paid for, a manager will mark it as paid, and it will officially be on the queue.
+
+# Executing a print (Managers, Trained Users under supervision)
+
+When it comes time to actually execute your print, use the generaged G-Code or Preform and follow the appropriate SOP for the printer.
+
+[See here to find the appropriate guide](/doc/equip/printer)
+
+**Mark the print as started in the queue!**
+**Write the number of the print on a sticky note and place that sticky note on the printer!!!**
+
+# Post-Processing (Managers, Trained Users under supervision)
+Some prints require post-processing. Make sure the sticky note stays with the part on whatever machine it is currently in.
+
+Mark the part as post-processing on the queue.
+
+# Finishing a print (Managers)
+When a print is done, email the person who requested the print to let them know.
+
+Move the print to the finished print shelf, **along with its sticky note.**
+
+**Mark the print as finished on the queue!**
+
+# Dealing with Failed Prints (Managers)
 - Mark it as "ERROR" in the queue
 - __Describe the failure in the "manager's notes" field__
 - Describe the failure on the sticky note
 - Email the person who ordered the print
+
+
+# Picking your print up (Users)
+Once your print is done, a manager will email you to let you know to pick it up. Simply drop by the EPL and receive your print!
+
+
+
+
+
+
