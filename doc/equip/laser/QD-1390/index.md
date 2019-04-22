@@ -30,18 +30,18 @@ date:
 
 * IR beams are invisible but very damaging. Never run the laser with hood up, and always wear eye protection.
 	* The orange glasses will help protect from indirect reflections from the laser, but will **NOT** protect from direct exposure. to the laser. 
-
+	*Orange glasses are located in the large red tool box.
 * It’s good practice to keep the IR laser switched **off** until you are sure you are ready for cutting. 
 
 ![image alt text](img/image_0.png)
-* Make sure the fire extinguisher is nearby.
+**Make sure the fire extinguisher is nearby.**
 
 # Prepping the Laser 
 
-1. Turn the key on the top of the laser to the on position.
+* Turn the key on the top of the laser to the on position.
 	<img src="img/image_1.png">
 ### **This step is important so the laser doesn’t overheat:**
-1. Turn on the water chiller to the right of the laser.
+* Turn on the water chiller to the right of the laser.
 	* It may sound an alarm for a few seconds but it should go away quickly.
 ![image alt text](img/image_2.png)
 
@@ -55,7 +55,7 @@ date:
 ![image alt text](img/image_3.png)
 1. Check your job.
     1. There are several issues that can happen upon importing a vector image.:
-		1. If the vectors are messed up, in which case you will have manually edit your job by clicking "Edit Nodes", and adding nodes to the parts you want to remove, or move. It takes practice.
+		1. If the vectors are messed up, in which case you will have to manually edit your job by clicking "Edit Nodes", and adding nodes to the parts you want to remove, or move. It takes practice.
         1. Your vector image is scaled way too small. Select your vector shapes, and check the width and length in the upper left corner (not the x and y values, that is the position of your piece). The program has a tendency to take inch dimensions and just turn them into millimeters (not convert, just changes it, ex. 6 inches becomes 6 mm). To fix this, you should export your vector file in millimeters.  Alternatively, you can fix this by highlighting all of your shapes, and converting your dimensions in inches into millimeters (multiply each dimension by 25.4) and entering that in for the height and width.  
 
 ## Cut Power and Speed or Rastering
@@ -85,16 +85,16 @@ In the upper right hand corner of RDWorks you should see a small window that wil
 1. Click on the vector you wish to edit the cut settings for.
 ![image alt text](img/image_6.png)
 2. Click on one of the colors at the bottom of the software to change it. The shape should change to that color and a new color and item should appear in your layer window in the upper right hand window.
-    1. Note: The color only identifies the layer of the vector.
+    * Note: The color only identifies the layer of the vector.
 ![image alt text](img/image_7.png)
 3. Double click on the layer you wish to edit in the upper right-hand window.
 ![image alt text](img/image_8.png)
 4. In the dialog box that pops up, edit the speed of laser to your desired settings.
 5. Edit the minimum and maximum power of the laser to your desired settings.
-    2. Usually you will just make the minimum and the maximum the same.
-    3. Sometimes it gives you the option to change two power settings. Just uncheck one of them.
+    * Usually you will just make the minimum and the maximum the same.
+    * Sometimes it gives you the option to change two power settings. Just uncheck one of them.
 6. You can change the cut type from cut (will just use the laser to etch the lines on your vector) to scan (will use the laser to ‘fill’ in your vector shape--usually used to etch opaque shapes)
-    4. Note: Scanning large images can take a very long time as opposed to cutting. If you can cut instead of scan, please do so. Also make sure you are using much lower power settings and higher speed settings for scanning.
+    * Note: Scanning large images can take a very long time as opposed to cutting. If you can cut instead of scan, please do so. Also 		    make sure you are using much lower power settings and higher speed settings for scanning.
 
 Any vector you change to this color will have those cut settings.
 
