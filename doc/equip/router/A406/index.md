@@ -77,7 +77,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
 ## Import Your CAD files
 
-1. Go to the CAM view (it should say CAM at the top. If it says, CNC click the "CNC" button at the top). 
+1. Go to the CAM view (it should say CAM at the top. If it says CNC, click the "CNC" button at the top). 
 
     * *Note: when in cam view you are able to select ‘import Gerber & Drill’ under ‘file’, when in CNC mode you are unable.*
 
