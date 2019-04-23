@@ -144,8 +144,8 @@ Alternatively, if you just want to use the same cut settings throughout your job
     1. If it didn’t you may have to change your cut settings accordingly.
 3. Clear the bed of any little pieces of material (these can cause fires if left there).
 4. If you are completely done, follow the shut-off procedure in the following sequence:
-    2. Turn off the air compressor.
-    3. Turn off the air filter.
-    4. Turn off the laser cutter by turning the key into the off position.
-    5. Wait about 10-15 minutes before turning off the water chiller.
+    1. Turn off the air compressor.
+    2. Turn off the air filter.
+    3. Turn off the laser cutter by turning the key into the off position.
+    4. Wait about 10-15 minutes before turning off the water chiller.
 5. Close RDWorks. (saving your job is optional, but recommended)
