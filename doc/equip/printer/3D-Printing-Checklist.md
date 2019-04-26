@@ -17,7 +17,7 @@ output:
 
 ### This guide is written both for Managers and for users of the EPL! Some steps apply to only one or the other.
 
-# Before you Start (Managers, Users)
+# Before You Start (Managers, Users)
 
 Do you have a 3D print you want to have made?  This guide will help you. Before you begin, you will need a few things.
  
@@ -44,7 +44,7 @@ In general, 3D printing at the EPL works like this
 1. Your print will be printed when its turn comes
 1. When your print is done, the managers will email you to let you know, and you can drop by and pick it up.
 
-# Getting your print on the Queue via Email (Users)
+# Getting Your Print on the Queue via Email (Users)
 Just send an email to lid@pdx.edu. Include the following information:
 - Your name
 - STL file for your print (attached)
@@ -52,7 +52,7 @@ Just send an email to lid@pdx.edu. Include the following information:
 - __The bounding box of the part with units! (so we get the size right)__
 - Any special requests
 
-# Adding a print to the queue manually (Managers, Users under supervision)
+# Adding a Print to the Queue Manually (Managers, Users with Supervision)
 For each school year, there is a folder named "Queue" on the desktop in which we keep all print files. At the time of writing, this folder is named "Queue 2018-2019".
 
 Create a folder with the name of the person requesting the print inside this queue folder. For instance, there is a folder named "Josh Goodroe" which contains all of the files that Josh Goodroe has printed during the 2018-2018 school year.
@@ -60,7 +60,7 @@ Create a folder with the name of the person requesting the print inside this que
 Add the .stl file for the print to this folder.
 
 Create an entry at the bottom of the 3D printer queue spreadsheet, and fill out the following information:
-- Name of the person requesting print
+- The name of the person requesting print
 - Their email
 - Today's date
 - Name of STL file
@@ -72,7 +72,7 @@ Create an entry at the bottom of the 3D printer queue spreadsheet, and fill out 
 
 **Some prints may ask for multiple copies of a single .stl file, or multiple .stl files. Comma-separate .stl files under the stl file colum to indicate the latter. Add duplication to the special notes column to indicate the former.**
 
-# Slicing and Pricing a 3D print (Managers, Users under supervision)
+# Slicing and Pricing a 3D Print (Managers, Users with Supervision)
 
 To slice and price an unpriced print in the queue, open the .stl file in the appropriate slicer. For ultimakers, this is Cura. For form labs, this is the custom PreForm software.
 
@@ -84,7 +84,7 @@ When you are done, save either the G-Code (.gcode) or PreForm (.form) in the sam
 
 **As a final step, have a manager calculate the price and print time using the G-Code or PreForm, add this to the price column.**
 
-# Paying for a print (Users)
+# Paying for a Print (Users)
 
 At some point, you must pay for your print. You can do this in person, or 
 [check out online](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx):
@@ -93,7 +93,7 @@ At some point, you must pay for your print. You can do this in person, or
 
 Once your print is paid for, a manager will mark it as paid, and it will officially be on the queue.
 
-# Executing a print (Managers, Trained Users under supervision)
+# Executing a Print (Managers, Trained Users under supervision)
 
 When it comes time to actually execute your print, use the generaged G-Code or Preform and follow the appropriate SOP for the printer.
 
@@ -102,12 +102,12 @@ When it comes time to actually execute your print, use the generaged G-Code or P
 **Mark the print as started in the queue!**
 **Write the number of the print on a sticky note and place that sticky note on the printer!!!**
 
-# Post-Processing (Managers, Trained Users under supervision)
-Some prints require post-processing. Make sure the sticky note stays with the part on whatever machine it is currently in.
+# Post-Processing (Managers, Users with Supervision)
+Some prints require post-processing.  For example, Formlab prints require an alcohol bath and UV light exposure.  If a print requires special post-processing, make sure the sticky note stays with the part on whatever machine it is currently in.  If support material needs to be trimmed, this should be done by the user, to avoid potential damage to the print.  
 
 Mark the part as post-processing on the queue.
 
-# Finishing a print (Managers)
+# Finishing a Print (Managers)
 When a print is done, email the person who requested the print to let them know.
 
 Move the print to the finished print shelf, **along with its sticky note.**
@@ -121,7 +121,7 @@ Move the print to the finished print shelf, **along with its sticky note.**
 - Email the person who ordered the print
 
 
-# Picking your print up (Users)
+# Picking Up Your Print (Users)
 Once your print is done, a manager will email you to let you know to pick it up. Simply drop by the EPL and receive your print!
 
 
