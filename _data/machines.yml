@@ -94,7 +94,7 @@
       up: true
 
     - name: Saws-All
-      img: 
+      img: doc/equip/shop/img/Sawsall.jpg
       sop:
       up: true
 
