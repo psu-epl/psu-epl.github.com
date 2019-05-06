@@ -84,7 +84,7 @@
 - title: Shop and Hand Tools
   machines:
     - name: Soldering Equipment
-      img: images/SolderingEquipment.JPG
+      img: images/SolderingEquipment.jpg
       sop: /doc/equip/solder/Soldering-Equipment
       up: true
       
