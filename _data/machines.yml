@@ -93,7 +93,7 @@
       sop:
       up: true
 
-    - name: Saws-All
+    - name: Sawzall
       img: images/Sawsall.jpg
       sop:
       up: true
