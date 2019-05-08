@@ -138,22 +138,50 @@ easy entry points.
 You may also need to use a chisel to scrape of any residual resin from
 the build platform plate.
 
-### 14. Wash Your Print
+### 14. Using Form Wash to Wash Your Print
 
-![](img/image32.jpg){width="6.5in"
-height="6.5in"}
+Note: Most of this section is taken from this page: https://support.formlabs.com/s/article/Using-Form-Wash?language=en_US
 
-To automate the washing process, [*Form Wash agitates the alcohol bath
+The Form Wash automates the washing process. It is ready for use once the wash bucket has been filled between the minimum and maximum fill lines and the hydrometer is calibrated. Choose whether to wash the part on the build platform or in the basket.
+
+#### Form Wash Controls
+
+When connected to power, the display and knob provide the primary interface to program and operate Form Wash. Rotate the knob counterclockwise or clockwise to move between items in the menu, and press the knob to select an option.
+
+![](form-wash-controls.jpg)
+
+The following options are available from the main menu on the Form Wash display:
+
+* "Start" option lowers the mount and basket and initiates the washing process.
+* “Open” option raises the mount and basket.
+* “Sleep” option lowers the mount and basket. The wash cycle will not start until “Start” is selected.
+* Time: Press the knob to select and adjust the time, indicated in minutes. [Check each material’s recommended wash time before beginning a cycle.](https://support.formlabs.com/s/article/Form-Wash-Time-Settings?language=en_US)
+
+After beginning a wash cycle, the display shows the remaining time and additional menu options. Choose “Pause” to stop the agitation and lift the platform and basket mount, while maintaining the remaining time in the wash cycle. Choose “End” to cancel the remaining time in the wash cycle while also stopping the agitation and lifting the platform and basket mount.
+
+`Wear gloves when handling parts and surfaces with IPA or uncured resin.`
+
+
+
+
+
+
+
+[*Form Wash agitates the alcohol bath
 and removes parts from the bath after a set
 time*](https://support.formlabs.com/hc/articles/115001174104).
 
+
+
+<!-- 
+![](img/image32.jpg){width="6.5in"
+height="6.5in"} 
 When using the Finish Kit, fill two rinse buckets with isopropyl alcohol
 (IPA). Keep the lids closed and keep out of the reach of children; IPA
-is flammable.
-
-Drop your print in the rinse bucket and leave for 10 minutes. Agitate
+is flammable. Drop your print in the rinse bucket and leave for 10 minutes. Agitate
 your part and repeat with the second rinse bucket. This two step process
-will help your IPA last longer.
+will help your IPA last longer
+-->
 
 ### Finish Your Print
 
