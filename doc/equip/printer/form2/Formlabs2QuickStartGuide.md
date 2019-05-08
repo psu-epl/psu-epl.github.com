@@ -3,7 +3,6 @@ title: Formlabs2 Quick Start Guide
 layout: doc
 author: whoever wrote this first, then Armaan
 date: 
-TODO: Issue #54
 
 ---
 
