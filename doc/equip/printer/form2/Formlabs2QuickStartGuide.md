@@ -4,7 +4,10 @@ layout: doc
 author: whoever wrote this first, then Armaan
 date: 
 
+TODO: check [Issue #54](https://github.com/psu-epl/psu-epl.github.com/issues/54)
+
 ---
+
 
 # Formlabs 2 Quick Start Guide
 ![](img/image25.jpg){width="6.5in" height="5.042in"}
@@ -140,7 +143,7 @@ the build platform plate.
 
 ### 14. Using Form Wash to Wash Your Print
 
-Note: Most of this section is taken from this page: https://support.formlabs.com/s/article/Using-Form-Wash?language=en_US
+`Note: Most of this section is taken from [this page](https://support.formlabs.com/s/article/Using-Form-Wash?language=en_US).`
 
 The Form Wash automates the washing process. It is ready for use once the wash bucket has been filled between the minimum and maximum fill lines and the hydrometer is calibrated. Choose whether to wash the part on the build platform or in the basket.
 
@@ -216,6 +219,7 @@ time*](https://support.formlabs.com/hc/articles/115001174104). Note: This link s
 
 
 <!-- 
+Old stuff here:
 ![](img/image32.jpg){width="6.5in"
 height="6.5in"} 
 When using the Finish Kit, fill two rinse buckets with isopropyl alcohol
