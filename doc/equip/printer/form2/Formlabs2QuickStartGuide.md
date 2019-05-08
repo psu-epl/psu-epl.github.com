@@ -3,11 +3,14 @@ title: Formlabs2 Quick Start Guide
 layout: doc
 author: whoever wrote this first, then Armaan
 date: 
-
-TODO: check [Issue #54](https://github.com/psu-epl/psu-epl.github.com/issues/54)
+TODO: Issue #54
 
 ---
 
+TODO: check [Issue #54](https://github.com/psu-epl/psu-epl.github.com/issues/54)
+
+
+---
 
 # Formlabs 2 Quick Start Guide
 ![](img/image25.jpg){width="6.5in" height="5.042in"}
