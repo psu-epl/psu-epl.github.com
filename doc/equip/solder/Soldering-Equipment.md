@@ -56,6 +56,26 @@ date:
 
  - To solder a chip using the hot air station, it is probably best to place solder paste and the chip under the microscope and then use the preheater and hot air to solder it on.
 
+## Using Metcal Soldering Machines (black ones)
+
+1. Turn on Fume Extractor (it sits on the floor in the middle of the two soldering desks), the power switch is on the back and lights up when on.
+
+1. Turn on Metcal MX-5200 using the big red button on the top of the machine and make sure the LCD output says Ready.
+
+1. Confirm which output you're using by pressing the button to the left of the LCD display; if you're using the right output, there will be a flashing white box on the right side of the display.
+
+1. Tin the tip of the soldering iron by coating the tip in solder, then get to work.
+
+1. Make sure the soldering iron is seated in its stand when not in use, never put it down on the workbench.
+
+1. When you're done soldering, clean off the tip of the iron on the sponge/steel wool contained in its stand, re-tin the tip of the iron, and return the iron to its stand.
+
+1. Turn off the Metcal.
+
+1. Turn off the Fume Extractor.
+
+1. Make to clean up your station and wash your hands when you're done.
+
 ## General Soldering Hints
 
 - Soldering is primarily a manual skill which improves with repetition and experience.  We have scrap boards you can use to practice on.
