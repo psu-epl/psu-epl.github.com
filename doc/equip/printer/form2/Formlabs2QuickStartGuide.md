@@ -165,11 +165,11 @@ After beginning a wash cycle, the display shows the remaining time and additiona
 
 Use the display and knob to raise the platform and basket mounts.
 
-![](img/form-wash-controls.jpg)
+![](img/form-wash-insert-print.gif)
 
 For convenience, install the build platform with printed parts directly in Form Wash to clean parts before removal. Align the top lip of the build platform with the arms of Form Wash’s platform mount, and fully insert to touch the back.
 
-![](img/form-wash-controls.jpg)
+![](img/form-wash-insert-build-platform.gif)
 
 > **TIP**
 >
@@ -191,7 +191,7 @@ Turn the knob to navigate the display menu and adjust the wash time. Push the kn
 
 Most resins require washing for Form Wash’s default programmed time, which is 10 minutes. [Check each material’s recommended wash time before beginning a cycle.](https://support.formlabs.com/s/article/Form-Wash-Time-Settings?language=en_US)
 
-![](img/form-wash-controls.jpg)
+![](img/form-wash-set-wash-time.gif)
 
 The wash cycle begins when the platform and basket lower. Ensure the outer lid closes. To adjust the wash cycle time, push the knob to access the display menu. The pause option will raise the platform and basket.
 
