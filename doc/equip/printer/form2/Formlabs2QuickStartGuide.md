@@ -1,7 +1,7 @@
 ---
 title: Formlabs2 Quick Start Guide
 layout: doc
-author: 
+author: whoever wrote this first, then Armaan
 date: 
 
 ---
@@ -148,7 +148,7 @@ The Form Wash automates the washing process. It is ready for use once the wash b
 
 When connected to power, the display and knob provide the primary interface to program and operate Form Wash. Rotate the knob counterclockwise or clockwise to move between items in the menu, and press the knob to select an option.
 
-![](form-wash-controls.jpg)
+![](img/form-wash-controls.jpg)
 
 The following options are available from the main menu on the Form Wash display:
 
@@ -161,15 +161,57 @@ After beginning a wash cycle, the display shows the remaining time and additiona
 
 `Wear gloves when handling parts and surfaces with IPA or uncured resin.`
 
+#### 1. Insert Print
 
+Use the display and knob to raise the platform and basket mounts.
 
+![](img/form-wash-controls.jpg)
 
+For convenience, install the build platform with printed parts directly in Form Wash to clean parts before removal. Align the top lip of the build platform with the arms of Form Wash’s platform mount, and fully insert to touch the back.
 
+![](img/form-wash-controls.jpg)
 
+> **TIP**
+>
+> For a complete wash, ensure that IPA is filled between the minimum and maximum fill lines.
+
+Whether using the build platform or basket as a wash method, the maximum single part size that can be washed in Form Wash is 14.5 × 14.5 × 17.5 cm (5.7 x 5.7 x 6.9 in).
+
+#### Alternative Wash Method
+
+Parts can also be washed in the basket, either as an alternative or in addition to the platform mount. Place parts directly in the basket after removing them from the build platform using the removal tool, scraper, or flush cutters. The basket comes installed in Form Wash. Without a build platform installed, the basket can be removed by lifting vertically from the basket mount.
+
+> **NOTE**
+>
+> Parts must be washed on the build platform and/or in the basket. Ensure parts are fully secured to the build platform when washing parts without the basket installed. Washing loose parts directly in the wash bucket - whether intentionally or accidentally - will damage printed parts, create noise, and may interfere with the agitation of IPA.
+
+#### 2. Set Wash Time
+
+Turn the knob to navigate the display menu and adjust the wash time. Push the knob to select or confirm. Wash parts for 10 minutes. Wash for additional time when using partially resin-concentrated IPA.
+
+Most resins require washing for Form Wash’s default programmed time, which is 10 minutes. [Check each material’s recommended wash time before beginning a cycle.](https://support.formlabs.com/s/article/Form-Wash-Time-Settings?language=en_US)
+
+![](img/form-wash-controls.jpg)
+
+The wash cycle begins when the platform and basket lower. Ensure the outer lid closes. To adjust the wash cycle time, push the knob to access the display menu. The pause option will raise the platform and basket.
+
+#### 3. Drain and Dry Prints
+The platform mount and basket raise automatically at the end of the wash cycle. Any IPA that drips onto the inner lid as parts dry will drain into the wash bucket. Thoroughly drain IPA from printed parts; carefully check and drain concave or hollow geometries that may hold IPA. Allow parts to dry for at least 30 minutes after washing and draining.
+
+To begin the next wash immediately, dry the parts outside of Form Wash. Take extra care with sharp objects and slippery surfaces when removing wet parts from the build platform.
+
+#### 4. Collect Prints
+Remove the build platform or parts from basket, depending on the wash method used in step 1.
+
+#### 5. Part Finishing
+After washing parts on the build platform, use the removal tool, scraper, or flush cutters to remove parts. Learn more about [part removal](https://support.formlabs.com/s/article/Form-2-Basic-Finishing-Steps?language=en_US) and preparing prints for use in Form Cure.
+
+#### Maintenance Best Practices
+Formlabs products perform best when they are well-maintained and properly cared for. As more parts are cleaned, the IPA gradually becomes more concentrated with liquid resin, reducing the effectiveness of Form Wash. As IPA evaporates, add fresh IPA to keep the fill level between the minimum and maximum lines. [Use the hydrometer to check the IPA's resin concentration](https://support.formlabs.com/s/article/Measuring-IPAs-Resin-Concentration) between cleaning cycles, and [replace IPA](https://support.formlabs.com/s/article/Replacing-IPA) as needed for the cleanest parts.
 
 [*Form Wash agitates the alcohol bath
 and removes parts from the bath after a set
-time*](https://support.formlabs.com/hc/articles/115001174104).
+time*](https://support.formlabs.com/hc/articles/115001174104). Note: This link seems to require a FormLabs account.
 
 
 
