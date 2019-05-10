@@ -23,7 +23,7 @@ author:
 **Installing cream-dxf.ulp**
 
 *NOTE: If doing this in the EPL, you can skip straight to "Exporting DXF File from board file".*
-Copy [cream-dxf.ulp](https://github.com/SWITCHSCIENCE/ssci-eagle-public/raw/master/cream-dxf.ulp) to your EAGLE ulp folder.
+Copy <a href="cream-dxf.ulp" download="cream-dxf.ulp">cream-dxf.ulp<a/> to your EAGLE ulp folder.
 
 1. Right click the link above and click "Save Link As".
 2. ULP Folder Location is in  "My Documents/eagle/ulps" for Eagle 9.1.1 and above
@@ -79,11 +79,11 @@ To export DXF files for top and bottom surface-mount pads (cream layers):
 
 1. Cut a piece of parchment paper out approximately the size of the laser bed of the K-40 laser. 
 
-2. Tape the parchment paper down with blue tape, and ensure that it is completely flat.
+2. Tape the parchment paper down to a piece of banboo or other equivalent support material with blue tape, and ensure that it is completely flat.
 
     ![](img1/image_7.png)
 
-3. Place the board into the K-40 Laser bed
+3. Place the taped paper and board into the K-40 Laser bed
 
     a. It is also a good idea to tape down the board to keep it from moving.
 
