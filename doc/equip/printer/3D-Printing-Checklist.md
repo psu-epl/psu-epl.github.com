@@ -26,7 +26,7 @@ Do you have a 3D print you want to have made?  This guide will help you. Before 
 1. You should have a good idea of which printer you want to print it on, and your settings preferences (color, material type, quality, etc)
 1. **All 3D prints must be paid for before we will print them! More on this later in the guide**
 
-For material, type, and price please refer to: **LINK HERE**
+For material, type, and price please refer to the [3D Material Guide](Printer-Materials)
 
 
 # General Procedure Overview (Managers, Users)

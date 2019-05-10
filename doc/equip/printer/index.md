@@ -9,6 +9,7 @@ layout: doc
 # How to 3D Print at the EPL:
 
 ### [3D Printing Guide](3D-Printing-Checklist)
+### [3D Printing Material Guide](Printer-Materials)
 
 # Printer-Specific Guides:
 
