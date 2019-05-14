@@ -38,15 +38,23 @@ We have four 3D printers which use FDM. The Ultimaker 2, two Ultimaker 3's, and 
 
 ## Ultimaker 2
 
-**Please fill out**
-
-## Ultimaker 3
-
-Our two Ultimakers currently sport a 0.8mm core, and use Amphora 3300 filament, which has similar behavior to PLA.
+Our Ultimaker 2 currently sports a 0.8mm core, and uses Amphora 3300 filament, which has similar behavior to PLA.
 
 Prints done in this material are much less brittle than SLA, but also less accurate, especially on account of the 0.8mmcore.
 
-In general, these prints are great for prototyping where accuracy beyond 1mm is not a major concern, and due to their flexibility can handle a wider range of load conditions.
+In general, these prints are great for prototyping where accuracy beyond 1mm is not a major concern, and due to their flexibility can handle a wide range of load conditions.
+
+However, if accuracy is a serious concern, you should use SLA or the Mojo.
+
+Ask a manager, but currently, our Amphora 3300 costs $1.25 per meter of material.
+
+## Ultimaker 3
+
+Our two Ultimaker 3's currently sport a 0.8mm core, and use Amphora 3300 filament, which has similar behavior to PLA.
+
+Prints done in this material are much less brittle than SLA, but also less accurate, especially on account of the 0.8mmcore.
+
+In general, these prints are great for prototyping where accuracy beyond 1mm is not a major concern, and due to their flexibility can handle a wider range of load conditions than our Ultimaker 2.
 
 However, if accuracy is a serious concern, you should use SLA or the Mojo.
 
