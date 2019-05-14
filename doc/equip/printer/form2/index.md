@@ -77,3 +77,29 @@ Finally, confirm your print's material and layer height, then click the orange p
 ![](img/Preform_Print.png)
 
 *Remember to save your stl or obj files to your folder on the eplulti computer and add your print information into the queue.*
+
+### Things to Remember Before You Print
+
+- Make sure the build plate is empty and clean (thing on top)
+- Make sure the tank vent is open (giant shampoo bottle thing in back)
+- Mark your print as "printing" in the queue
+- Attach a sticky note for the print to the front of the printer containing:
+    - Name of the person ordering the print
+    - Name of the STL files
+    - Price of the print
+
+### Removing a Print
+
+- Soak the print in the left alcohol bath
+	- Start a timer on your phone for 30 minutes
+	- Move the sticky note to the bath
+	- Indicating on the sticky note when you started the soak 
+	- Swirl the alcohol bath
+- Soak again in the right bath
+- Wash the part
+- Remove the support material (bend and pry with palms)
+- UV cure the part
+	- Start a timer (30 to 60 min)
+	- Move the sticky to the UV oven
+	- Note the start time
+- __Mark the print as "Finished" in the queue__
