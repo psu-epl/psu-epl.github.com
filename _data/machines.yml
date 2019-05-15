@@ -30,7 +30,7 @@
     - name: Ultimaker2 3D Printer
       img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
-      up: other
+      up: true
       
     - name: Ultimaker3 Extended 3D Printer (x2)
       img: images/Ultimaker3.JPG
@@ -63,13 +63,19 @@
       img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
       up: true
+      
+      - name: Thermocutter
+      img: images/Thermocut.jpg
+      sop: /doc/equip/misc/Thermocut/index.md
+      up: true
+      
 
 - title: Laser Cutters
   machines:
     - name: QD-1390 Laser Cutter
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
-      up: false
+      up: true
       
     - name: Full Spectrum Pro CO2 Laser Cutter
       img: images/prolf20x12.JPG
