@@ -44,7 +44,7 @@
 
     - name: Shining 3D Scanner
       img: images/shining3D.jpeg
-      sop: /doc/equip/printer/shining3D
+      sop: /doc/equip/misc/shining3D/index.md
       up: true
 
 - title: Machining Equipment
