@@ -64,7 +64,7 @@
       sop: /doc/equip/machining/drillPress
       up: true
       
-      - name: Thermocutter
+    - name: Thermocutter
       img: images/Thermocut.jpg
       sop: /doc/equip/misc/Thermocut/index.md
       up: true
