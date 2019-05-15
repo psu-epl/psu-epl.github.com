@@ -27,9 +27,9 @@ Here are some links to commonly visited pages:
 
 It's easy! Here's what you do:
 
- 1. Go to our [**documentation**](doc) and read the instructions on the equipment you want to use.
+ 1. Scroll down to our Lab Equipment and read the instructions on the equipment you want to use.
  1. Check the calendar (below) for office hours.
- 1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
+ 1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Be sure you've signed a Liability Waiver! Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
  1. Pay for parts, materials, and equipment time [online][checkout].
  1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. Information on how to proceed here: [Becoming a Manager][Become a Manager] :)
 
@@ -51,7 +51,7 @@ Click on a machine to jump to its documentation.
 {% include machines.html %}
 
 # Lab Status
-The lab is currently open to all PSU students and staff, and to greater Portland community members by
+The lab is currently open to all PSU students and staff. The lab is also open to the greater Portland community members by
 invitation only.
 
 ![The EPL](/images/lab_panorama1.JPG)
