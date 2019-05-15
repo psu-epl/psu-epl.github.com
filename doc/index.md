@@ -26,4 +26,4 @@ This page links to the documentation you *must read* before being trained on a g
 
 # [Workshops](workshops)
 Once a term, industry professionals and lab managers offer single-session workshops on various tools, programs, and techniques.
-
+View our [Eventbrite page](https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478) for upcoming events
