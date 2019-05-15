@@ -27,7 +27,7 @@ Here are some links to commonly visited pages:
 
 It's easy! Here's what you do:
 
- 1. Scroll down to our Lab Equipment and read the instructions on the equipment you want to use.
+ 1. View our [Lab Equipment](/doc/equip) and read the instructions on the equipment you want to use.
  1. Check the calendar (below) for office hours.
  1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Be sure you've signed a Liability Waiver! Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
  1. Pay for parts, materials, and equipment time [online][checkout].
