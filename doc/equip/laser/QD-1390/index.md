@@ -1,8 +1,8 @@
 ---
 title: QD 1390 Laser Cutter
 layout: doc
-author: 
-date: 
+author: Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak, Joseph Shields
+date: 2019-05-17
 
 ---
 
@@ -10,12 +10,29 @@ date:
 
 [Operating Manual](https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf)
 
+# Approved Materials
+
+|Material	|Minimum Thickness	|Maximum Thickness	|
+|---------------|----------------------:|----------------------:|
+|Acrylic	|1/16 in		|1/4 in			|
+|Bamboo		|1/32 in		|1/4 in			|
+|Cardboard	|1/32 in		|1/4 in			|
+|Masking Tape	|1 layer		|2 layers		|
+|Paper (Printer)|1 sheet (held down)	|10 sheets (held down)	|
+|Poster Board	|normal			|normal			|
+|Wood (General)	|1/8 in			|1/4 in			|
+|Wood (Ply)	|1/8 in			|1/8 in			|
+
+Ask a manager if you would like to cut any materials not listed above.
+
+MANAGERS: Absolutely no PVC nor Vinyl is to be used in the Laser Cutter under any circumstances whatsoever. Also we don't allow the use of that compacted brownish material the Architecture students use under any circumstances either.
+
 # General Notes:
 
-* This laser cutter will work with DXF vector files (for cutting and rastering) and image files (rastering only).
+* This laser cutter will work with vector \[DXF\] files (for cutting and rastering) and image \[JPEG, PNG\] files (rastering only).
 
 
-* **Do not cut PVC or Vinyl on this cutter as it can release harmful smoke.**
+* **DO NOT CUT ANY UNAPPROVED MATERIALS AS THEY CAN RELEASE NOXIOUS AND TOXIC FUMES**
 
 * CAD Programs and DXF files:
 	* Solidworks:
@@ -25,13 +42,12 @@ date:
 		* Right click the desired face you wish to create a pattern from and select "export DXF/DWG"
 		* Complete the following prompts to save the file.
 
-
 ## Safety:
 
 * IR beams are invisible but very damaging. Never run the laser with hood up, and always wear eye protection.
 	* The orange glasses will help protect from indirect reflections from the laser, but will **NOT** protect from direct exposure. to the laser. 
-	*Orange glasses are located in the large red tool box.
-* It’s good practice to keep the IR laser switched **off** until you are sure you are ready for cutting. 
+	* Orange glasses are located in the large red tool box.
+* It's good practice to keep the IR laser switched **off** until you are sure you are ready for cutting. 
 
 ![image alt text](img/image_0.png)
 **Make sure the fire extinguisher is nearby.**
