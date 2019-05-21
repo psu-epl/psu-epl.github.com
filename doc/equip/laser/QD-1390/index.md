@@ -8,8 +8,6 @@ date: 2019-05-17
 
 # QD-1390 Laser Cutter
 
-[Operating Manual](https://www.noisebridge.net/images/9/9b/FSL_40w_Hobby_Laser_Manual.pdf)
-
 # Approved Materials
 
 |Material	|Minimum Thickness	|Maximum Thickness	|
