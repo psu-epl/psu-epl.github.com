@@ -6,13 +6,17 @@ When using the Wazer wear eye protection (if running the Wazer for a long time h
 
 The user should not leave the Wazer while it is operating. 
 
+NEVER EVER EVER EVER EVER EVER EVER EVER EVER EVER EVER EVER OPEN THE COVER WHILE IT IS SET TO CUT. 
+
+If the cut stops get a manager. DO NOT TRY TO FIX THE PROBLEM YOURSELF. 
+
 Startup: 
 
 1) First, make sure the on/off valve is on. This valve is a blue valve that is underneath the metal sink. If the valve faces in the direction of the wire the valve is on. If it is perpendicular to the wire the valve is off. 
 Turn the valve so that it is in the direction of the wire if it is not in that direction already. 
 
 2) Next, fill the tank by lifting the cover for the Wazer and fill it with water until the water level is at the top surface of the cut bed. You can fill the Water with a bucket.
-  -This should not have to be done every time, only if the Wazer has not been used in a while
+  -This should not have to be done every time, only if the Wazer has not been used in a while. One should always check the water levels though.
 
 3) The next step is to level the cut bed: Leveling cut bed is critical, as it can damage the Wazer or cause cut failure. 
   -Turn off Wazer.
@@ -29,7 +33,18 @@ Turn the valve so that it is in the direction of the wire if it is not in that d
     -Fasten WAZER power cable into corresponding outlets.
     -Posititon water Sensor Alarms: (NOTE:Water sensors are not connected to WAZER and will not stop or pause any operation.)
     
- 5) Prime Plumbing is always required when doing a first-time cut or left unuttended for some time. This ensures that all the air is purged from the water lines before starting your cut. (look at prime plumbing step under Preperation on pg. 52 to finish.)
+5) Prime Plumbing is always required when doing a first-time cut or left unuttended for some time. This ensures that all the air is purged from the water lines before starting your cut. (look at prime plumbing step under Preperation on pg. 52 to finish.)
  
- 6) Insert the SD card into the SD card slot which can be found on the top right of the Wazer just to the right of the control panel. 
+6) Insert the SD card into the SD card slot which can be found on the top right of the Wazer just to the right of the control panel. [Insert picture from Images folder under Wazer Menu1.PNG]
+        -once you select the cut file you will be asked to lift the nozzle
+          -first turn the nozzle lock knob so it is losened
+          -then lift the nozzle carefully by pushing it up and then tightening the nozzle lock knob
+          -then hit OK on the control pattern which will hone the machine subsequently the nozzle will move to the top left corner of the cut bed. 
+          
+7) The next step is to fill the abrasive hopper all the way full. In order to do this pull the abrasive hopper from the left side of the wazer. Use a large cup to pur the abrasive through the two screens until you see some abrasive above the level of the screen on both sides. 
+Close the abrasive hopper and confirm you did this by selecting ok on the control panel. 
+  -Note: For long cuts you may need to add more abrasive. You can pause the cut using the built in Wazer timer; when it is paused you can add more abrasive. 
+
+8) The next step is to empty the used abrasive buckets. These are found underneath the top front panel of the Wazer
+
 
