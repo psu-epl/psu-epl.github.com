@@ -1,0 +1,57 @@
+---
+title: Mini Lathe
+layout: doc
+author: gabby reynolds
+date: 5/27/19
+
+---
+# About this Machine
+![picture of the machine](images/kitten.jpg)
+Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
+
+## Useful Links
+- [manufacturer website](https://littlemachineshop.com/products/product_view.php?ProductID=3540)
+- You can find the manual [here](https://littlemachineshop.com/images/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf).
+
+## Machine Safety
+Read the manual and this SOP completely before operating the lathe.
+Remember that you are responsible for your own safety and the safety of those near you when operating the lathe.
+
+- Always wear safety glasses when performing ANY operation on the machine tools. Your prescription glasses are *not* safety glasses!
+- Make sure that long hair is tied up and that any dangling clothing/jewelry is removed, including gloves. 
+- Closed toes shoes are required at all times in the machine tool area. 
+- Never use machine tools if you are alone in the lab.
+- Never leave a running machine unattended.
+
+Clamp tools securely, cutting forces are significant and can turn improperly clamped work pieces into projectiles.
+Just because *you* are unable to jiggle the workpiece doesn't mean the machine will be unable to.
+
+# Using this Machine
+These sections describe the standard usage and common pitfalls.
+
+## Setup
+Confirm that the following conditions are met.
+- The power is off. (red switch)
+- The cover over the chuck is down.
+- There is nothing already present in the chuck.
+- The table is clean and clear of debris.
+
+## Operating
+
+insert pic of lathe motor controls
+
+To power up the lathe:
+   1. Turn the E-stop button to the right to ensure that it is in the on position.
+  2. Press the top half of the power switch.
+  3. The green power indicator lights and the spindle speed readout illuminates.
+
+To start the lathe:
+  1. Press the green Start button.
+  2. Press a direction control button if the spindle is not turning the direction you want.
+  3. Use the speed control buttons to adjust the spindle speed.
+
+## Shutdown
+Explain how to safely shut down the machine.
+
+## Cleanup
+Explain how to reset the work station for the next user.
