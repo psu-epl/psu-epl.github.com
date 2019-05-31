@@ -6,8 +6,23 @@ date:
 
 ---
 # Full Spectrum Professional Series CO2 20x12 Laser
+# Approved Materials
 
-![The PSU-EPL laser](http://psu-epl.github.com/laser/full_spectrum.jpg)
+|Material	|Minimum Thickness	|Maximum Thickness	|
+|---------------|----------------------:|----------------------:|
+|Acrylic	|1/16 in		|1/4 in			|
+|Bamboo		|1/32 in		|1/4 in			|
+|Cardboard	|1/32 in		|1/4 in			|
+|Masking Tape	|1 layer		|2 layers		|
+|Paper (Printer)|1 sheet (held down)	|10 sheets (held down)	|
+|Poster Board	|normal			|normal			|
+|Wood (General)	|1/8 in			|1/4 in			|
+|Wood (Ply)	|1/8 in			|1/8 in			|
+
+Ask a manager if you would like to cut any materials not listed above.
+
+MANAGERS: Absolutely no PVC nor Vinyl is to be used in the Laser Cutter under any circumstances whatsoever. Also we don't allow the use of that compacted brownish material the Architecture students use under any circumstances either.
+
 
 **See the [[material database]] for help with settings.**
 
