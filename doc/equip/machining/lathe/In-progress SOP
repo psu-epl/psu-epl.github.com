@@ -9,6 +9,13 @@ date: 5/27/19
 ![picture of the machine](images/kitten.jpg)
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
 
+- The lathe is great for cutting metal and wax work pieces
+- Utilizes carbide and diamond cutting tips to shave up to 1/1000 of an inch of material at a time
+- Manual adjustment of cutting angles allows for tapered cuts 
+- This lathe *does not* cut wood - requires a completely separate set-up
+- 
+
+
 ## Useful Links
 - [manufacturer website](https://littlemachineshop.com/products/product_view.php?ProductID=3540)
 - You can find the manual [here](https://littlemachineshop.com/images/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf).
@@ -41,7 +48,7 @@ Confirm that the following conditions are met.
 insert pic of lathe motor controls
 
 To power up the lathe:
-   1. Turn the E-stop button to the right to ensure that it is in the on position.
+  1. Turn the E-stop button to the right to ensure that it is in the on position.
   2. Press the top half of the power switch.
   3. The green power indicator lights and the spindle speed readout illuminates.
 
@@ -54,4 +61,6 @@ To start the lathe:
 Explain how to safely shut down the machine.
 
 ## Cleanup
-Explain how to reset the work station for the next user.
+- Take a brush to dust off the metal scraps
+- Take the shop vac and vacuum all of the metal scraps from machining
+- Properly recycle any unwanted metal in the correct bin
