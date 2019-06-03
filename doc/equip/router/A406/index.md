@@ -33,7 +33,7 @@ Why should you use the A406 over the LPKF? If you need more manual control over 
 **What do you need to start a job?**
 - A 6/6 mil or 8/8 mil PCB design (see "About the A406" for more details about what this means).
 - 2-3 gerber files (top, outline, and bottom if board is two layers) \*
-- 1 excellon file (for drill holes) \*
+- 1 excellon(.xln) file (for drill holes) \*
 - A copper PCB blank (can be purchased from the EPL - sold double and single sided)
 
 \*If you need help exporting gerber and excellon files from your Eagle board file, follow the instructions [here](https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files).
@@ -107,7 +107,7 @@ The A406 does not have a safety cover. Its steppers are very strong. Before turn
 
     * Excellon data is trickier. When you select your drill file, you will have the option of ‘Top’ or ‘Bottom’. This means you can drill holes from the top or bottom layer. Always choose ‘Top’, because PhCNC64’s natural processing order does the top of the board first, and if holes are drilled on the first side processed, they can be used as fiducials to align the second side.
 
-        * If you are lucky, the default decimal places and zero suppression settings will ‘just work’. The software will draw the drill holes as yellow dots on your design. Look carefully and see if the holes seem to be in the right places. If they aren’t, you’ll need to double-click on the drill layer in the upper right pane and edit the settings.
+        * If you are lucky, the default decimal places and zero suppression settings will ‘just work’. The software will draw the drill holes as yellow dots on your design. Look carefully and see if the holes seem to be in the right places. If they aren’t, you’ll need to double-click on the drill layer in the upper right pane and edit the settings.  You may need to play with the settings to get it to work.
 
     * Don’t forget to import an outline (mechanical) layer to define the cutout boundary.
 
@@ -149,7 +149,7 @@ Other Notes:
 
 ![image alt text](img/image_7.png)
 
-3. Any tool that **doesn’t have** a blue "TH ##" button to its left will need to be assigned a tool.
+3. Any tool that **does not have** a blue "TH ##" button to its left will need to be assigned a tool.
 
 4. Double click on that tool. A dialog will appear similar to the one shown below that lists the tools that still need to be assigned. 
 
@@ -353,6 +353,8 @@ Now you will need to choose where on the board you will start the routing proces
 
 20. At this point, we recommend doing another tool depth test just to make sure everything is OK (see above)
 
-21. Choose "RUN(GO)" and it’ll do the bottom of your board.
+21. Where it says "program" in the top right, make sure that "bottom" is selected
+
+22. Choose "RUN(GO)" and it’ll do the bottom of your board.
 
 ![image alt text](img/image_30.png)
