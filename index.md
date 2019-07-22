@@ -15,13 +15,14 @@ We are a 501c3 and your donation is tax deductible!
 
 Here are some links to commonly visited pages:  
 [Equipment],
+[Store Inventory](https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?),
 [Checkout],
 [Lab Policies],
 [3D Print Your Part],
 [Workshops],
 [Become a Manager],
 [Managers Only][manager repo],
-[Sponsors] 
+[Sponsors]
 
 # Using the Labs
 
