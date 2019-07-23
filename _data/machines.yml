@@ -44,7 +44,7 @@
 
     - name: Shining 3D Scanner
       img: images/shining3D.jpeg
-      sop: /doc/equip/misc/shining3D/index.md
+      sop: /doc/equip/misc/shining3D
       up: true
 
 - title: Machining Equipment
@@ -96,40 +96,40 @@
       
     - name: Angle Grinder
       img: doc/equip/shop/img/angleGrinder.jpg
-      sop: /doc/equip/shop/angleGrinder/index.md
+      sop: /doc/equip/shop/angleGrinder
       up: true
 
     - name: Sawzall
       img: images/Sawsall.jpg
-      sop: /doc/equip/shop/sawzall/index.md
+      sop: /doc/equip/shop/sawzall
       up: true
 
     - name: Belt Sander
       img: doc/equip/shop/img/beltSander.jpg
-      sop: /doc/equip/shop/beltSander/index.md
+      sop: /doc/equip/shop/beltSander
       up: true
 
     - name: Bench Grinder
       img: doc/equip/shop/img/benchGrinder.jpg
-      sop: /doc/equip/shop/benchGrinder/index.md
+      sop: /doc/equip/shop/benchGrinder
       up: true
 
     - name: Scroll Saw
       img: doc/equip/shop/img/scrollSaw.jpg
-      sop: /doc/equip/shop/scrollSaw/index.md
+      sop: /doc/equip/shop/scrollSaw
       up: true
 
     - name: Miter Saw
       img: doc/equip/shop/img/miterSaw.jpg
-      sop: /doc/equip/shop/miterSaw/index.md
+      sop: /doc/equip/shop/miterSaw
       up: true
 
     - name: Rotary Tool
       img: doc/equip/shop/img/rotaryTool.jpg
-      sop: /doc/equip/shop/rotaryTool/index.md
+      sop: /doc/equip/shop/rotaryTool
       up: true
 
     - name: Arbor Press
       img: doc/equip/shop/img/arborPress.jpg
-      sop: /doc/equip/shop/arborPress/index.md
+      sop: /doc/equip/shop/arborPress
       up: true
