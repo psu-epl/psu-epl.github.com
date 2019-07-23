@@ -43,8 +43,8 @@ Read the **documentation** on our machines, policies, services, and more to lear
 - [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
 
 ### [Circuit Store](/doc/store/index.md)
-- [Pay](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx) for parts and machine use
-- View our [inventory & pricing](https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?)
+- [Pay][checkout] for parts and machine use
+- View our [inventory & pricing][inventory] and [lab fees](/doc/store/pricing.md)
 
 ### [Lab Policies](/doc/policies/index.md)
 - [Emergency](/doc/policies/Safety-protocols) procedures
@@ -53,7 +53,7 @@ Read the **documentation** on our machines, policies, services, and more to lear
 
 ### [Workshops](/doc/workshops/index.md)
 Once a term, industry professionals and lab managers offer single-session workshops on various tools, programs, and techniques.
-View our [Eventbrite page](https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478) for upcoming events
+View our [Eventbrite page][Eventbrite] for upcoming events
 
 # Lab Calendar
 {% include calendar_lab.html %}
@@ -86,3 +86,5 @@ If you'd like to contribute to this documentation, [read this](/doc/contributing
 [checkout]: https://commerce.cashnet.com/ecei
 [donate]: https://cconn.foundation.pdx.edu/ccon/new_gift.do?action=newGift&giving_page_id=240
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
+[inventory]: https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?
+
