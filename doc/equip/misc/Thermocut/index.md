@@ -1,29 +1,46 @@
 ---
-title: Thermocut
+title: Hot Wire Cutter THERMOCUT 115/E
 layout: doc
-author: 
-date: 
+author: Jennifer Jordan
+date: 23 July 2019
 
 ---
 
-# Hot Wire Cutter THERMOCUT 115/E
+# About this Machine
+Cuts Styrofoam and thermoplastic materials fast! The working surface is of Alu Cobond compound. This eases the pushing of work pieces. A printed grid and protractor are applied to the base.
 
-Cuts Styrofoam and thermoplastic materials fast! For hobbyists, architects, designers and artists.
+The large table with 15 11/32" x 11" (390 x 280mm) ensures smooth and easy movement of the work piece. The printed grid and protractor assist with division and cutting. The solid aluminum overarm has a 13 3/4" (350mm) throat and offers 5 1/2" (140mm) in height. The holder and wire coil (one spool of wire 98ft., 0.008" diameter is included) may be shifted and adjusted along the overarm to enable miter cutting.
 
-The working surface is of Alu Cobond compound. This eases the pushing of work pieces. A printed grid and protractor are applied to the base.
+![thermocut](/images/Thermocut.jpg)
 
-The large table with 15 11/32" x 11" (390 x 280mm) ensures smooth and easy movement of the work piece. The printed grid and protractor assist with division and cutting. 
-The solid aluminum overarm has a 13 3/4" (350mm) throat and offers 5 1/2" (140mm) in height. The holder and wire coil (one spool of wire 98ft., 0.008" diameter is included) may be shifted and adjusted along the overarm to enable miter cutting. 
-An LED indicates operation and thus reminds you not to touch the hot wire to prevent burnt fingers (the wire heats to maximum in less than 1 second).
+## Useful Links
+- [manufacturer website](https://www.proxxon.com/us/)
 
-Note:
-The correct temperature, being material and thickness dependent, is learned from experience. Profiles are ideally cut at lower temperatures and while applying less cutting force.
+## Machine Safety
+- The machine wire heats to the maximum temperature in less than 1 second! Do not touch the hot wire! An LED indicates when the machine is powered on.
+- This product, when used for cutting, can produce fumes or gases be sure to use this machine in a well ventilated area and/or wear a dust mask.
 
-WARNING: 
-This product, when used for cutting, can produce fumes or gases, which can contain chemicals known to the State of California to cause cancer and birth defects or other reproductive harm.
+## How to Get Help
+Ask a Manager for help if you have any questions.
 
-# Technical data:
+# Using this Machine
+These sections describe the standard usage and common pitfalls.
 
+## Setup
+Make sure the wire is clean and the working surface is clear before plugging in and powering on.
+
+## Operation
+When you are ready to begin cutting flip on the switch to heat the wire and adjust the temperature to meet your project requirements. You may adjust the arm in various ways to act as a guide for cutting.
+
+The correct temperature, being material and thickness dependent, is learned from experience. Profiles are ideally cut at lower temperatures and while applying less cutting force. 
+
+## Shutdown
+Make sure to flip off the power switch before unplugging.
+
+## Cleanup
+Ensure that the wire is cooled down before cleaning up! Wipe down the working surface and wire.
+
+# Tips and Tricks
 Cutting wire temperature	210 - 390 °F (100 - 200 °C)
 
 Transformer secondary max.	10V at 1.0A
