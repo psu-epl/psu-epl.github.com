@@ -17,9 +17,6 @@ miscellaneous important things
 ## [EPL Roles](EPL-roles)
 how people are grouped by permissions and responsibilities
 
-## [Locker Database][locker database]
-a list of who has which lockers 
-
 ## [PSU Faculty and Staff FAQs](PSU-Faculty-and-Staff-FAQs)
 useful information for faculty members
 
