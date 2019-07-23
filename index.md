@@ -43,13 +43,12 @@ Read the **documentation** on our machines, policies, services, and more to lear
 - [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
 
 ### [Circuit Store](/doc/store/index.md)
-- Pay for parts and machine use
+- [Pay](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx) for parts and machine use
 - View our [inventory & pricing](https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?)
 
 ### [Lab Policies](/doc/policies/index.md)
-- Emergency procedures
-- How to be a manager
-- Service pricing
+- [Emergency](/doc/policies/Safety-protocols) procedures
+- How to [be a manager]((/doc/policies/Becoming-an-E.P.L.-Manager.md)
 - Other administrative things
 
 ### [Workshops](/doc/workshops/index.md)
