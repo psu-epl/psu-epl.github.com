@@ -1,7 +1,10 @@
 ---
 date:
-title: K-40 Laser Stencil Cutter
+title: Lathe 
 layout: doc
 author:
+
 ---
-# Lathe
+# Lathe SOP
+
+In Progress
