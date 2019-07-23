@@ -38,7 +38,7 @@ It's easy! Here's what you do:
 Read the **documentation** on our machines, policies, services, and more to learn about the EPL.
 
 ### [Equipment](/doc/equip/index.md)
-- EPL, [this page links to the documentation you *must read* before being trained on a given piece of equipment](/doc/equip/index.md)
+- EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/index.md)
 - [RF-Chamber](/doc/equip/testing/RF-Chamber.md)
 - [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
 
@@ -48,7 +48,7 @@ Read the **documentation** on our machines, policies, services, and more to lear
 
 ### [Lab Policies](/doc/policies/index.md)
 - [Emergency](/doc/policies/Safety-protocols) procedures
-- How to [be a manager]((/doc/policies/Becoming-an-E.P.L.-Manager.md)
+- How to [be a manager](/doc/policies/Becoming-an-E.P.L.-Manager.md)
 - Other administrative things
 
 ### [Workshops](/doc/workshops/index.md)
