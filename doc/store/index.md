@@ -1,25 +1,19 @@
 ---
 title: Circuit Store
-author:
-date:
+author: Jennifer Jordan
+date: 23 July 2019
 layout: doc
+
 ---
 
-# [Checkout](Checkout)
+# [Checkout](http://commerce.cashnet.com/ecei)
 Pay for parts and machine time online.
 
-# [Pricing](pricing)
+# [Lab Fees](pricing)
 Pricing for machine time, materials, lockers, et cetera.
-You can also [check our spreadsheet][sheet] for in-stock items and pricing. 
+
+# [Inventory](https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?)
+EPL Store in-stock items and pricing. 
 
 # [Material-sources-database](Material-sources-database)
 The consumables we use and where to find them.
-
-{% comment %}
-Stuff to do still:
-* uProcessor Lists ??
-* Link to Store Operations (Manager's Only)
-{% endcomment %}
-
-
-[sheet]: https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?
