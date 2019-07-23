@@ -96,40 +96,40 @@
       
     - name: Angle Grinder
       img: doc/equip/shop/img/angleGrinder.jpg
-      sop:
+      sop: /doc/equip/shop/angleGrinder/index.md
       up: true
 
     - name: Sawzall
       img: images/Sawsall.jpg
-      sop:
+      sop: /doc/equip/shop/sawzall/index.md
       up: true
 
     - name: Belt Sander
       img: doc/equip/shop/img/beltSander.jpg
-      sop:
+      sop: /doc/equip/shop/beltSander/index.md
       up: true
 
     - name: Bench Grinder
       img: doc/equip/shop/img/benchGrinder.jpg
-      sop:
+      sop: /doc/equip/shop/benchGrinder/index.md
       up: true
 
     - name: Scroll Saw
       img: doc/equip/shop/img/scrollSaw.jpg
-      sop:
+      sop: /doc/equip/shop/scrollSaw/index.md
       up: true
 
     - name: Miter Saw
       img: doc/equip/shop/img/miterSaw.jpg
-      sop:
+      sop: /doc/equip/shop/miterSaw/index.md
       up: true
 
     - name: Rotary Tool
       img: doc/equip/shop/img/rotaryTool.jpg
-      sop:
+      sop: /doc/equip/shop/rotaryTool/index.md
       up: true
 
     - name: Arbor Press
       img: doc/equip/shop/img/arborPress.jpg
-      sop:
+      sop: /doc/equip/shop/arborPress/index.md
       up: true
