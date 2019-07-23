@@ -10,15 +10,10 @@ author: Jennifer Jordan
 
 # About this Machine
 ![angleGrinder](/doc/equip/shop/img/angleGrinder.jpg)
-Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
+This angle grinder is a versatile handheld tool that can grind metal and cut tile, stucco and pavers, rout out mortar, plus it can sand, polish and sharpen. The different attachements allow you do preform different tasks. Know your tool before you use it!
 
 ## Useful Links
-- [manufacturer website](https://notanactualaddress.foo)
-- You can find the manual [here](manual.pdf).
-- more links to manufacturer docs, calculators, outside tutorials, etc.  
-It's preferred that critical documents like manuals, TDSs, and MSDSs be kept in the repo when possible/allowed.
-Markdown contains a feature to define a bunch of named links at the bottom of your document.
-This can make it easier to create your "useful links" list and to refer to them throughout the document.
+
 
 ## Machine Safety
 **This is for your own safety and the safety of those around you!**
@@ -36,7 +31,7 @@ Be aware of flying sparks and broken discs! Always hold the grinder so that spar
 Improperly clamped workpieces can be grabbed by the angle grinder and ejected at high speed. Just because you are unable to jiggle the workpiece doesn’t mean the machine will be unable to.
 
 ## How to Get Help
-Include a list of which documents, websites, people, or mailing lists should be consulted in case of problems.
+Ask a Manager if you have any questions!
 
 # Using this Machine
 These sections describe the standard usage and common pitfalls.
@@ -61,6 +56,4 @@ Also, clean up after yourself!
 - Do not lift or drag angle griders by the cord.
 
 # Tips and Tricks
-List some sections describing advaned techniques.
 
-## How to Make Tea with this Machine
