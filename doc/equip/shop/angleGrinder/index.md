@@ -8,9 +8,10 @@ author: Jennifer Jordan
 
 # Angle Grinder
 
+
 # About this Machine
+This angle grinder is a versatile handheld tool that can grind metal and cut tile, stucco and pavers, rout out mortar, plus it can sand, polish and sharpen. The different attachements allow you do perform different tasks. Know your tool before you use it!
 ![angleGrinder](/doc/equip/shop/img/angleGrinder.jpg)
-This angle grinder is a versatile handheld tool that can grind metal and cut tile, stucco and pavers, rout out mortar, plus it can sand, polish and sharpen. The different attachements allow you do preform different tasks. Know your tool before you use it!
 
 ## Useful Links
 
@@ -26,9 +27,9 @@ This angle grinder is a versatile handheld tool that can grind metal and cut til
 - Keep fingers, hands, and power cords clear of the grinding disc. 
 - Never make adjustments while the angle grinder is running. 
 
-Be aware of flying sparks and broken discs! Always hold the grinder so that sparks fly away from you, other people, and flammable materials. The discs can shatter, ejecting themselves at high speed; this risk can be reduced if you refrain from using heavy pressure!
+*Be aware of flying sparks and broken discs!* Always hold the grinder so that sparks fly away from you, other people, and flammable materials. The discs can shatter, ejecting themselves at high speed; this risk can be reduced if you refrain from using heavy pressure!
 
-Improperly clamped workpieces can be grabbed by the angle grinder and ejected at high speed. Just because you are unable to jiggle the workpiece doesn’t mean the machine will be unable to.
+*Improperly clamped workpieces can be grabbed by the angle grinder and ejected at high speed.* Just because you are unable to jiggle the workpiece doesn’t mean the machine will be unable to.
 
 ## How to Get Help
 Ask a Manager if you have any questions!
@@ -41,19 +42,17 @@ These sections describe the standard usage and common pitfalls.
 - Inspect the grinding disc for damage. Do not use damaged discs!
 - Secure and support the work piece using clamps, bench vices, etc. 
 
-## Operation
-- Do not leave the angle grinder running and only use the grinder when it is in your hands. 
-- Allow the angle grinder to reach operating speed before applying to work piece & increase the load gradually. 
-- Do not touch the work piece immediately after grinding operation as it may be extremely hot. 
+## Operation 
+Choose a disc that is the best fit for your project. There are sanding disks, abrasive grinding disks (to cut steel), polishing pads, wire brush wheels (used to remove excess material like rust or paint) and diamond blade cut off disks (used to cut hard surfaces such as tile). Disks measure between 4 and 7 inches, with 4.5 inches being most people’s preference.
+
+When you are ready to begin, secure the piece you are working on into place (clamps work well). Power on the angle grinder. The disk must be spinning before you apply it steadily to your working surface. Be sure you allow the angle grinder to reach operating speed before applying to work piece and increase the load gradually. Your grasp should be firm so that you have full control of the direction in which the angle grinder is moving. Remember, do not leave the angle grinder running and only use the grinder when it is in your hands. 
+
+When you are done, gently lift the angle grinder, shut off the power, and set the angle grinder down in a safe place. Do not touch your work piece immediately after grinding operation as it may be extremely hot.
 
 ## Shutdown
 Turn off and unplug the angle grinder and make sure the disk is still in good condition after usage. Remember to not touch the work piece immediately after grinding operation as it may be extremely hot. 
 
-Also, clean up after yourself!
-
 ## Cleanup
 - Grinder must be turned off *and unplugged* when being cleaned, adjusted, maintained, or repaired. 
 - Do not lift or drag angle griders by the cord.
-
-# Tips and Tricks
-
+- Clean up your workstation!
