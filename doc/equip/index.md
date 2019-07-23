@@ -6,13 +6,15 @@ layout: doc
 ---
 
 # Machine Categories
-## [Laser Cutters](laser)
-## [Machining Tools](machining)
-## [3D Printing](printer)
-## [PCB Routers](router)
-## [Shop and Hand Tools](shop)
-## [Soldering Equipment](solder)
-## [Testing Equipment](testing)
-## [Miscellaneous](misc)
+
+- ### [Laser Cutters](laser)
+- ### [Machining Tools](machining)
+- ### [3D Printing](printer)
+- ### [PCB Routers](router)
+- ### [Shop and Hand Tools](shop)
+- ### [Soldering Equipment](solder)
+- ### [Testing Equipment](testing)
+- ### [Miscellaneous](misc)
+
 # Machine Statuses
 {% include machines.html %}
