@@ -1,6 +1,6 @@
 ---
 date:
-title: K-40 Laser Stencil Cutter
+title: Angle Grinder
 layout: doc
 author:
 
