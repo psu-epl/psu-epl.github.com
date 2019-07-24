@@ -40,7 +40,7 @@ In general, 3D printing at the EPL works like this
     * Either email the .stl file along with your preferences to lid@pdx.edu
     * Or add the print to the queue manually
 1. Have your print sliced and priced
-	* If you are at the EPL in person, you can slice the print yourself, just have a manager calculate the resulting price. Don't forget to add the preform or gcode to the queue. The Mojo has its own software on the computer next to it.
+	* If you are at the EPL in person, you can slice the print yourself, just have a manager calculate the resulting price. Don't forget to add the .gcode to the queue.
 	* Otherwise, the managers will do this for you and inform you of the price
 1. Pay for the print and have a manager approve that you are paid
 	* If you submitted via email, you will be sent an email by the manager asking you to pay.
@@ -53,10 +53,63 @@ You will need to have your part in .stl (Stereolithographic) format. Most CAD pr
 
 Some CAD programs offer to export in mm scale even when the part is designed in inches, but this sometimes doesn’t work and the part will appear extremely small on the print bed. To eliminate headaches, design your part in millimeters.
 
-## Using Cura
+## Operation
+Only Managers are allowed to start prints, change filament, and adjust settings. How to [become a Manager](doc/policies/Becoming-an-E.P.L.-Manager.md)!
+
+### Getting Your Print on the Queue via Email
+Just send an email to lid@pdx.edu. Include the following information:
+- Your name
+- STL file for your print (attached) and .gcode file (if applicable)
+- State that you would like to use the UM2 (Ultimaker 2)
+- The PLA material color you would like your part printed with (availability varies)
+-- Note: [3D Material Guide](Printer-Materials)
+- __The bounding box of the part with units! (so we get the size right)__
+- Any special requests (multiple copies, etc.)
+
+A Manager should confirm and respond with a price quote, any follow-up questions, and/or the PLA material color availability.
+
+### Adding a Print to the Queue Manually
+
+**Ask a Manager for assistance. Managers must supervise you if you are adding a print to the queue manually.**
+
+For each school year, there is a folder named "Queue" on the desktop in which we keep all print files. At the time of writing, this folder is named "Queue 2019-2020".
+
+Create a folder with the name of the person requesting the print inside this queue folder. For instance, there is a folder named "Josh Goodroe" which contains all of the files that Josh Goodroe has printed during the 2019-2020 school year.
+
+Add the .stl file for the print to your folder.
+
+Create an entry at the bottom of the 3D printer queue spreadsheet, and fill out the following information:
+- The name of the person requesting print
+- Their email
+- Today's date
+- Name of STL file
+- Name of folder with the STL (same as mentioned above)
+- Any Special notes
+- __Bounding box of the part with units!__
+- Material
+- Machine
+
+Some prints may ask for multiple copies of a single .stl file, or multiple .stl files. Comma-separate .stl files under the stl file colum to indicate the latter. Add duplication to the special notes column to indicate the former.
+
+**As a final step, have a manager calculate the price and print time using the G-Code or PreForm, add this to the price column. You must pay for your print before we will print it!**
+
+#### Paying for a Print
+
+You are required to pay for your print before we will print it. You can do this in person, or 
+[check out online](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx):
+
+**If you choose to check out online, you must forward a copy of your receipt to lid@pdx.edu, and the manager who emailed you your price**
+
+Once your print is paid for, a manager will mark it as paid, and it will officially be on the queue.
+
+#### Picking Up Your Print
+Once your print is done, a manager will email you to let you know to pick it up. Simply drop by the EPL and receive your print! 
+
+
+# Using Cura
 Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers and export them as toolpaths. If you are setting up your own print be sure to keep your .stl file and .gcode file for the Managers to review. There are some troubleshooting techniques that the Managers are equipped with to prevent printing errors! **Note: Always have a Manager review your part!** If needed, ask a Manager for assistance using Cura. 
 
-### Arranging your part
+## Arranging your part
 Open up Cura.
 
 Import your part into Cura using File/Open File
@@ -97,11 +150,11 @@ To change the print quality, select the dropdown on the top of the toolbar. This
 
 ![](img/image8.png){width="4.895833333333333in"height="8.614583333333334in"}
 
-##### Infill Density
+#### Infill Density
 
 You can adjust your infill settings using the dialog box. More infill produces a stronger part, but uses more filament and takes more time. Less infill will print faster but the part will be weaker.
 
-##### Supports
+#### Supports
 
 Supports are done through a menu on the right side of the interface. For the Ultimaker 2, you merely have to check the box and you will have access to the following settings:
 
@@ -124,54 +177,3 @@ Click “Prepare” in the bottom-right corner of the menu.
 ![](img/image16.png){width="4.458333333333333in"height="1.1770833333333333in"}
 
 This will create a .gcode file which only the Ultimaker 2 will read.
-
-## Operation
-Only Managers are allowed to start prints, change filament, and adjust settings. How to [become a Manager](doc/policies/Becoming-an-E.P.L.-Manager.md)!
-
-# Getting Your Print on the Queue via Email
-Just send an email to lid@pdx.edu. Include the following information:
-- Your name
-- STL file for your print (attached) and .gcode file (if applicable)
-- State that you would like to use the UM2 (Ultimaker 2)
-- The PLA material color you would like your part printed with (availability varies)
--- Note: [3D Material Guide](Printer-Materials)
-- __The bounding box of the part with units! (so we get the size right)__
-- Any special requests (multiple copies, etc.)
-
-A Manager should confirm and respond with a price quote, any follow-up questions, and/or the PLA material color availability.
-
-# Adding a Print to the Queue Manually
-Ask a Manager for assistance. Managers must supervise you if you are adding a print to the queue manually.
-
-For each school year, there is a folder named "Queue" on the desktop in which we keep all print files. At the time of writing, this folder is named "Queue 2019-2020".
-
-Create a folder with the name of the person requesting the print inside this queue folder. For instance, there is a folder named "Josh Goodroe" which contains all of the files that Josh Goodroe has printed during the 2019-2020 school year.
-
-Add the .stl file for the print to your folder.
-
-Create an entry at the bottom of the 3D printer queue spreadsheet, and fill out the following information:
-- The name of the person requesting print
-- Their email
-- Today's date
-- Name of STL file
-- Name of folder with the STL (same as mentioned above)
-- Any Special notes
-- __Bounding box of the part with units!__
-- Material
-- Machine
-
-Some prints may ask for multiple copies of a single .stl file, or multiple .stl files. Comma-separate .stl files under the stl file colum to indicate the latter. Add duplication to the special notes column to indicate the former.
-
-**As a final step, have a manager calculate the price and print time using the G-Code or PreForm, add this to the price column. You must pay for your print before we will print it!**
-
-# Paying for a Print (Users)
-
-You are required to pay for your print before we will print it. You can do this in person, or 
-[check out online](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx):
-
-**If you choose to check out online, you must forward a copy of your receipt to lid@pdx.edu, and the manager who emailed you your price**
-
-Once your print is paid for, a manager will mark it as paid, and it will officially be on the queue.
-
-# Picking Up Your Print (Users)
-Once your print is done, a manager will email you to let you know to pick it up. Simply drop by the EPL and receive your print! 
