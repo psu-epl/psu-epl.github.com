@@ -26,7 +26,7 @@ This machine is broken into the following parts,
 
 ![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg)
 
-![arborPressParts](/doc/equip/shop/img/arborPressParts.jpg)
+![arborPressParts](/doc/equip/shop/arborPress/arborPressParts.jpg)
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
