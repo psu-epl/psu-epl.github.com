@@ -12,7 +12,9 @@ date: 25 July 2019
 {:toc}
 
 # About this Machine
-This variable-speed scroll saw cuts curves and designs quickly and precisely. This versatile scroll saw has a tilting table for making precise bevel cuts. This scroll saw has a cast iron base for less vibration and variable speed control for working with a wide range of materials.
+This 16 inch variable-speed scroll saw cuts curves and designs quickly and precisely. This versatile scroll saw has a tilting table for making precise bevel cuts. This scroll saw has a cast iron base for less vibration and variable speed control for working with a wide range of materials.
+
+![scrollSaw](/doc/equip/shop/scrollSaw/scrollSaw.jpg)
 
 ## Useful Links
 - [manufacturer website](https://www.centralmachinerysales.com)
