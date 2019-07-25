@@ -9,7 +9,11 @@ author: Jennifer Jordan
 
 # About this Machine
 The arbor press is designed for riveting, swaging, bending, punching, and flattening. The arbor press can be used to press on or remove close-fitting bearings and bushings. 
+
 ![arborPress](/doc/equip/shop/img/arborPress.jpg)
+
+## Useful Links
+- You can find the manual [here](/doc/equip/shop/arborPress/arborPressManual.pdf)
 
 ## Machine Safety
 - Do not overload the arbor press by using extension (cheater) bars.
@@ -22,43 +26,7 @@ This machine is broken into the following parts,
 
 ![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg)
 
-Index     Part No.        Description           Qty
-
-1..........AP0-01.............Base .......................... 1 
-
-2..........AP0-06.............Anvil........................... 1 
-
-3..........AP0-16.............Spring Pin 6x16.......... 1 
-
-4..........AP0-02.............Ram........................... 1 
-
-5..........AP0-5-1............Cap............................ 2 
-
-6..........AP0-6-1............Handle ....................... 1 
-
-7..........TS-1482051 .....Bolt, Hex M6x25......... 4 
-
-8..........TS-1550041 .....Washer M6................. 4 
-
-9..........TS-1482051 .....Bolt, Hex M6x25......... 2 
-
-10........TS-1482061 .....Bolt, Hex M6x30......... 2 
-
-11 ........ TS-1540041 ..... Nut, Hex M6 ............... 4 
-
-12........AP0-12.............Plate .......................... 1 
-
-13........TS-1523011 .....SHSS M6x6 ............... 1 
-
-14........AP0-10.............Pinion Retainer........... 1 
-
-15........TS-1482021 .....Bolt, Hex M6x12......... 1 
-
-16........AP0-03.............Pinion......................... 1 
-
-17........AP0-05.............Knob .......................... 1 
-
-18........TS-2361061 .....Lock Washer M6 ........ 4
+![arborPressParts](/doc/equip/shop/img/arborPressParts.jpg)
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
@@ -83,3 +51,9 @@ General Maintenance & Troubleshooting:
 1. Periodically lubricate the arbor press with a light machine oil.
 1. Periodically check the ram for side-to-side and front-to-back play. If the play is excessive, loosen the hex nuts (11) and adjust (tighten) the screws (10 on side, 9 in front) just enough to eliminate the excess play. Tighten them equally to assure even contact with the ram (4).
 1. Once the play is eliminated, hold the screw (10 or 9) in position and tighten the hex nut (11). Check to make sure the amount of play is acceptable.
+
+# Maintenance (Manager's Only)
+- Periodically lubricate the arbor press with a light machine oil.
+- Wipe off or vacuum the accumulated debris and dust after using the arbor press.
+- Periodically check the ram for side-to-side and front-to-back play. If the play is excessive, loosen the hex nuts (11) and adjust (tighten) the screws (10 on side, 9 in front) just enough to eliminate the excess play. Tighten them equally to assure even contact with the ram (4).
+- Once the play is eliminated, hold the screw (10 or 9) in position and tighten the hex nut (11). Check to make sure the amount of play is acceptable.
