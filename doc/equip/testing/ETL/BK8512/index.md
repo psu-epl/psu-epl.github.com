@@ -30,29 +30,31 @@ The loads can operate in CC, CV, CR or CP mode while voltage/current or resistan
 - You can find the manual [here](https://www.bkprecision.com/products/dc-electronic-loads/8512-600-w-500-v-programmable-dc-electronic-load.html).
 
 ## Machine Safety
-Include notes about possible hazards and the necessary procedures and equipment to avoid them.
-Make it clear that the user is responsible for their own safety 
-and that of the people around them while using this tool.
+DO NOT OPERATE THE INSTRUMENT IN AN EXPLOSIVE ATMOSPHERE OR IN THE PRESENCE OF FUMES OR FLAMMABLE GASES.
+
+KEEP AWAY FROM LIVE CIRCUITS.
+
+Operating personnel must not remove instrument covers. Component replacement and internal adjustments must be made only by qualified service personnel. Do not replace components with the power cable connected. Under certain conditions, dangerous voltages may exist even with the power cable removed. To avoid injuries always disconnect power, discharge circuits and capacitors, and remove external voltage sources before touching components.
+
+DO NOT SERVICE OR ADJUST ALONE.
 
 ## How to Get Help
-Include a list of which documents, websites, people, or mailing lists should be consulted in case of problems.
+[Please view the pdf manual](/doc/equip/testing/ETL/BK8512/85xx_manual.pdf)
 
 # Using this Machine
 These sections describe the standard usage and common pitfalls.
 
 ## Setup
-Describe how to check that the machine is okay to use.
-Describe make the machine ready to use.
+[Please view the pdf manual](/doc/equip/testing/ETL/BK8512/85xx_manual.pdf)
 
 ## Operation
-Show how to actually *do the thing*.
+[Please view the pdf manual](/doc/equip/testing/ETL/BK8512/85xx_manual.pdf)
 
 ## Shutdown
-Explain how to safely shut down the machine.
+[Please view the pdf manual](/doc/equip/testing/ETL/BK8512/85xx_manual.pdf)
 
 ## Cleanup
-Explain how to reset the work station for the next user.
+Remove all wires and/or testing cables when you are done using this piece of equipment. Please clean up your workstation.
 
 # Tips and Tricks
-List some sections describing advaned techniques. 
--->
+N/A
