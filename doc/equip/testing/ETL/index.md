@@ -2,19 +2,20 @@
 title: EPL Environmental Testing Lab
 layout: doc
 author: Jennifer Jordan
-date: 1/4/2018
+date: 25 July 2019
 
 ---
 
 ## Specifications:
 
-The Environmental Testing Lab is located in the basement of the Engineering Building at PSU (1900 SW 4th Ave.) in room FAB60-12. Here we can help with various environmental testing and data collection.
+The Environmental Testing Lab is located in the basement of the Engineering Building at PSU (1900 SW 4th Ave.) in room FAB60-12. The ETL is a separate lab space managed by the EPL with an emphasis on environmental testing and data collection.
 
 ## Equipment:
 
 {% include etlmachines.html %}
 
 <!---
+# NOTES FOR FUTURE EDITS
 
 * Thermal Vacuum Chamber: 
 * Thin-Film Depositor: 
@@ -45,6 +46,8 @@ Misc:
 * Hummer II Technics: [hummerII](https://caeonline.com/buy/sputtering-systems/anatech-technics-hummer-ii/9053245)
 * Olympus BHM Microscope: [bhm](http://www.alanwood.net/downloads/olympus-bh-bhm-instructions.pdf)
 * Digital Ultrasonic Cleaner Isonic 2.1 Qt: [isonic](http://www.ultrasonic-cleaners.info/isonic/isonic-ultrasonic-cleaner-p4810-2-1qt-2-l-with-1000-ml-single-beaker-holder-set-for-diy-liposomal-vitamin-c/)
+
+# END NOTES FOR FUTURE EDITS
 
 --->
 
