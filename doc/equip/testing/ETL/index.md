@@ -61,6 +61,6 @@ If you would like to arrange a booking please email lid@pdx.edu to schedule time
 
 **Please keep in mind that this lab is currently being set up and SOPs are still being developed. At this time, we may not be able to process your request for booking this space. Send us an email and we will let you know what we can do.**
 
-Please format the subject line of your request email like this: "Request: Your Name - Project Name"
+Please format the subject line of your request email like this: "ETL Request: Your Name - Project Name"
 
-Please format the subject line of general questions like this: "Question: Your Name - Short description of question"
+Please format the subject line of general questions like this: "ETL Question: Your Name - Short description of question"
