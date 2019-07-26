@@ -1,8 +1,8 @@
 ---
 title: Test Equipment
 layout: doc
-author: 
-date: 
+author: Joe Shields, Jennifer Jordan
+date: 25 July 2019
 
 ---
 
@@ -19,7 +19,7 @@ date:
 * DM504A
 
 ## VNA
-* HP 8753E 30kHz-6GHz
+* HP 8753E 30kHz-6GHz: View the SOP [here](/doc/equip/testing/VNA)
 
 ## Function Generators
 * Tektronix FG 503 3MHz
@@ -35,6 +35,8 @@ date:
 
 ## LCR Meter
 * GenRad 1657
+
+## [RF Chamber](/doc/equip/testing/RF-Chamber)
 
 ## [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
 
