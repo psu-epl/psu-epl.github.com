@@ -26,7 +26,7 @@ Applications Include:
 
 ## Useful Links
 - Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. 
-You can find the features, technical data, and specifications [here](Q250.pdf).
+You can find the features, technical data, and specifications [here](/doc/equip/testing/ETL/atomic-force-microscope/Q250.pdf).
 
 ## Machine Safety
 This instrument holds a suspended slab of granite and microscope. The granite and microscope must remain balanced. The granite slab which the microscope is mounted on is very heavy, *do not move the microscope or the table it is on*! Moving this microscope and/or the table can cause failed suspension of the instrument which can result in instrument damage and personal injury.
