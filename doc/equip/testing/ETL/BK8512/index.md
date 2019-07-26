@@ -28,6 +28,7 @@ The loads can operate in CC, CV, CR or CP mode while voltage/current or resistan
 ## Useful Links
 - [manufacturer website](https://www.bkprecision.com)
 - You can find the manual [here](https://www.bkprecision.com/products/dc-electronic-loads/8512-600-w-500-v-programmable-dc-electronic-load.html).
+- You can find the Datasheet [here](/doc/equip/testing/ETL/BK8512/85xx_datasheet.pdf)
 
 ## Machine Safety
 DO NOT OPERATE THE INSTRUMENT IN AN EXPLOSIVE ATMOSPHERE OR IN THE PRESENCE OF FUMES OR FLAMMABLE GASES.
