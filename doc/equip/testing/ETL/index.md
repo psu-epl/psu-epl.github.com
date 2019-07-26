@@ -54,12 +54,10 @@ Student working on class project: TBD
 Personal/Commercial/Grant Funded project: TBD
 
 ## Booking:
-TBD; The lab is currently being set up and SOPs are being developed.
+If you would like to arrange a booking please email lid@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
 
-<!---
-Booking is done through email. Please email lid@pdx.edu to schedule time and provide as much information as possible about what you would like to test and if you will be bringing any equipment with you. 
-Please format the subject line of your request email like this: 
-Request: Your Name - Project Name
-Please format the subject line of general questions like this: 
-Question: Your Name - Short description of question)
--->
+**Please keep in mind that this lab is currently being set up and SOPs are still being developed. At this time, we may not be able to process your request for booking this space. Send us an email and we will let you know what we can do.**
+
+Please format the subject line of your request email like this: "Request: Your Name - Project Name"
+
+Please format the subject line of general questions like this: "Question: Your Name - Short description of question"
