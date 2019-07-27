@@ -2,16 +2,9 @@
 title: Quesant Atomic Force Microscope; qscope 250
 layout: doc
 author: Jennifer Jordan
-date: 1/5/2018
+date: 27 July 2019
 
 ---
-
-## General Notes:
-**SOP Under Construction**
-Modes: contact, intermittent, magnetic force microscopy
-Resolution: 4 nm.
-Liquid scan
-Variable temperature of the sample (20°- 250° C)
 
 # About this Machine
 Applications Include:
@@ -24,18 +17,32 @@ Applications Include:
 * Studies on dielectrics surfaces
 * Investigations on semiconductor quantum dots
 
+![q250](/images/ETL_AtomicForce.jpg)
+
 ## Useful Links
-- Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. 
+Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. 
+
 You can find the features, technical data, and specifications [here](/doc/equip/testing/ETL/atomic-force-microscope/Q250.pdf).
 
 ## Machine Safety
-This instrument holds a suspended slab of granite and microscope. The granite and microscope must remain balanced. The granite slab which the microscope is mounted on is very heavy, *do not move the microscope or the table it is on*! Moving this microscope and/or the table can cause failed suspension of the instrument which can result in instrument damage and personal injury.
+This microscope is placed on a suspended slab of granite. The granite and microscope must remain balanced. The granite slab is very heavy, **do not move the microscope or the table it is on!** 
+
+Moving this microscope and/or the table can cause failed suspension of the instrument which can result in instrument damage and personal injury.
 
 <!---## How to Get Help
 Include a list of which documents, websites, people, or mailing lists should be consulted in case of problems.
 
 # Using this Machine
 These sections describe the standard usage and common pitfalls.
+
+
+Modes: contact, intermittent, magnetic force microscopy
+
+Resolution: 4 nm.
+
+Liquid scan
+
+Variable temperature of the sample (20°- 250° C)
 
 ## Setup
 Describe how to check that the machine is okay to use.
