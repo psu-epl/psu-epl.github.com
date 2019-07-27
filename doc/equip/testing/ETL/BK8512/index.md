@@ -23,7 +23,7 @@ The loads can operate in CC, CV, CR or CP mode while voltage/current or resistan
 - Remote voltage sensing to compensate for the effect of voltage drop in wires
 
 ## Useful Links
-- [manufacturer website](https://www.bkprecision.com)
+- [Manufacturer Website](https://www.bkprecision.com)
 - You can find the manual [here](/doc/equip/testing/ETL/BK8512/85xx_manual.pdf).
 - You can find the Datasheet [here](/doc/equip/testing/ETL/BK8512/85xx_datasheet.pdf)
 
