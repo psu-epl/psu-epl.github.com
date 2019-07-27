@@ -14,7 +14,7 @@ date: 27 July 2019
 # About this Machine
 The Olympus System Microscope for reflected light Model BHM consists of a modular, building-block system of various components and interchangeable accessories, as shown below. A wide variety of combinations, standard or optional, is available according to your requirements. 
 
-![bhmDiagram](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram.jpg)
+<img src="/doc/equip/testing/ETL/bhm-microscope/bhmDiagram.jpg" width="600">
 
 ## Useful Links
 - [Manufacturer Website](https://www.olympus-lifescience.com/en/)
@@ -34,11 +34,11 @@ These sections describe the standard usage and common pitfalls.
 ## Setup
 Below outlines the function of the various components.
 
-![bhmDiagram2](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram3.jpg)
+<img src="/doc/equip/testing/ETL/bhm-microscope/bhmDiagram3.jpg" width="500">
 
-![bhmDiagram3](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram4.jpg)
+<img src="/doc/equip/testing/ETL/bhm-microscope/bhmDiagram4.jpg" width="500">
 
-![bhmDiagram4](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram5.jpg)
+<img src="/doc/equip/testing/ETL/bhm-microscope/bhmDiagram5.jpg" width="500">
 
 To use this microscope you will need to decide which objectives (*aka lenses*) and which eyepieces would be best for your project. Refer to this [Optical Data Chart](/doc/equip/testing/ETL/bhm-microscope/bhmTable.jpg) as needed.
 
@@ -107,8 +107,7 @@ Remove your specimen from the mechanical stage and clean up your workspace. If y
 
 Assembly (Manager's Only): For assembly, the picture below illustrates the sequential procedure. The numbers indicate the order of assebmly of various components. Remove dust caps before mounting components. Take care to keep all glass surfaces clean, and avoid scratching the glass surfaces. 
 
-![bhmDiagram2](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram2.jpg)
-
+<img src="/doc/equip/testing/ETL/bhm-microscope/bhmDiagram2.jpg" width="500">
 
 ## Troubleshooting
 
