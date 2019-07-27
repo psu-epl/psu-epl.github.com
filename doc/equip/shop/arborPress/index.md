@@ -24,9 +24,9 @@ Ask a Manager if you have any questions.
 # Using this Machine
 This machine is broken into the following parts,
 
-![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg){width="2.3541666666666665in"}
+![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg){width="2in" height="4in"}
 
-![arborPressParts](/doc/equip/shop/arborPress/arborPressParts.jpg){width="2.3541666666666665in"}
+![arborPressParts](/doc/equip/shop/arborPress/arborPressParts.jpg){width="2in" height="5in"}
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
