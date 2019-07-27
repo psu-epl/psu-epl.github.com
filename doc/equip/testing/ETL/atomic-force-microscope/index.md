@@ -17,7 +17,7 @@ Applications Include:
 * Studies on dielectrics surfaces
 * Investigations on semiconductor quantum dots
 
-![csm_afm1_1b86391e1b](csm_afm1_1b86391e1b.jpg)
+![q250](/images/ETL_AtomicForce.jpg)
 
 ## Useful Links
 Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. 
