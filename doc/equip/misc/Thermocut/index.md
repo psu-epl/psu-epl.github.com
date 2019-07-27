@@ -11,7 +11,7 @@ Cuts Styrofoam and thermoplastic materials fast! The working surface is of Alu C
 
 The large table with 15 11/32" x 11" (390 x 280mm) ensures smooth and easy movement of the work piece. The printed grid and protractor assist with division and cutting. The solid aluminum overarm has a 13 3/4" (350mm) throat and offers 5 1/2" (140mm) in height. The holder and wire coil (one spool of wire 98ft., 0.008" diameter is included) may be shifted and adjusted along the overarm to enable miter cutting.
 
-![thermocut](/images/Thermocut.jpg)
+<img src="/images/Thermocut.jpg" width="700">
 
 ## Useful Links
 - [manufacturer website](https://www.proxxon.com/us/)
