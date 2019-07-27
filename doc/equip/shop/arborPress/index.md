@@ -24,9 +24,9 @@ Ask a Manager if you have any questions.
 # Using this Machine
 This machine is broken into the following parts,
 
-![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg)
+![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg){width="2.3541666666666665in"}
 
-![arborPressParts](/doc/equip/shop/arborPress/arborPressParts.jpg)
+![arborPressParts](/doc/equip/shop/arborPress/arborPressParts.jpg){width="2.3541666666666665in"}
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
@@ -46,14 +46,8 @@ The ram has a flat surface on one end and a hole on the other end. The hole is u
 ## Cleanup
 1. Wipe off or vacuum the accumulated debris and dust after using the arbor press.
 
-# Tips and Tricks
-General Maintenance & Troubleshooting: 
-1. Periodically lubricate the arbor press with a light machine oil.
-1. Periodically check the ram for side-to-side and front-to-back play. If the play is excessive, loosen the hex nuts (11) and adjust (tighten) the screws (10 on side, 9 in front) just enough to eliminate the excess play. Tighten them equally to assure even contact with the ram (4).
-1. Once the play is eliminated, hold the screw (10 or 9) in position and tighten the hex nut (11). Check to make sure the amount of play is acceptable.
-
 # Maintenance (Manager's Only)
-- Periodically lubricate the arbor press with a light machine oil.
-- Wipe off or vacuum the accumulated debris and dust after using the arbor press.
-- Periodically check the ram for side-to-side and front-to-back play. If the play is excessive, loosen the hex nuts (11) and adjust (tighten) the screws (10 on side, 9 in front) just enough to eliminate the excess play. Tighten them equally to assure even contact with the ram (4).
-- Once the play is eliminated, hold the screw (10 or 9) in position and tighten the hex nut (11). Check to make sure the amount of play is acceptable.
+1 Periodically lubricate the arbor press with a light machine oil.
+1 Wipe off or vacuum the accumulated debris and dust after using the arbor press.
+1 Periodically check the ram for side-to-side and front-to-back play. If the play is excessive, loosen the hex nuts (11) and adjust (tighten) the screws (10 on side, 9 in front) just enough to eliminate the excess play. Tighten them equally to assure even contact with the ram (4).
+1 Once the play is eliminated, hold the screw (10 or 9) in position and tighten the hex nut (11). Check to make sure the amount of play is acceptable.
