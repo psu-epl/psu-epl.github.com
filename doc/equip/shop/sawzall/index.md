@@ -37,7 +37,7 @@ Ask a Manager if you have any questions!
 # Using this Machine
 This saw has a lock button and a power switch trigger. The lock button is located on the handle above the switch trigger. You must depress the lock button in order to pull the switch trigger, the lock resets each time the trigger is released.
 
-![sawzallDiagram](/doc/equip/shop/sawzall/sawzallDiagram.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallDiagram.jpg" width="400">
 
 ## Setup
 Disconnect the battery pack from the tool before making any adjustments or changing blades. Make sure the tool is in the off or locked position before inserting the battery pack! If you notice misalignment, blade breakage, or any other damage find a Manager to ensure the tool is safe to use. If you need to replace a blade make sure the tool is off with the battery pack removed before changing. There are several types of blades in the machine tool area, make sure you are using the correct one for the Sawzall. If in doubt, ask a Manager!
@@ -48,11 +48,12 @@ Use clamps or other practical ways to secure and support your work piece; using 
 - Remove the battery pack.
 - Use a 5mm hex tool to loosen the blade clamp screw enough to permit the saw blade to be inserted between the blade clamp and saw bar. Note: It is never necessary to remove the blade clamp screw from the blade clamp when installing or removing the blade.
 
-![sawzallBlade](/doc/equip/shop/sawzall/sawzallBlade.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallBlade.jpg" width="300">
+
 - Align the hole in the shank of the blade and blade clamp with the pin in the saw bar, then seat both on the pin in the saw bar.
 - Tighten the blade clamp screw securely. Do not overtighten the screw.
 
-![sawzallBlade](/doc/equip/shop/sawzall/sawzallBlade2.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallBlade2.jpg" width="300">
 
 ### To change the position of the base assembly (guard)
 - Remove the battery pack.
@@ -60,12 +61,12 @@ Use clamps or other practical ways to secure and support your work piece; using 
 - Reposition the base assembly to the desired position.
 - Retighten the set screw. Do not overtighten the screw.
 
-![sawzallBase](/doc/equip/shop/sawzall/sawzallBase.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallBase.jpg" width="300">
 
 ## Operation
 
 ### For General Cutting (wood products, masonite, plastics, or drywall)
-![sawzallGeneralCutting](/doc/equip/shop/sawzall/sawzallGeneralCutting.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallGeneralCutting.jpg" width="300">
 
 Once you are ready to begin your project hold the saw firmly in front of and clearly away from you. Make sure the saw blade is clear of any foreign material. Be sure your work piece is secured (with clamps *not hands*) before cutting.
 
@@ -76,7 +77,7 @@ Place the base assembly (guard) against the work piece, then move the blade into
 Do not force the tool, be patient when cutting through your work piece. Let the blade and saw do the work for you! Use of excessive pressure causes bending and twisting of the blade and may result in injury. If you see any instability in your work piece, *immediately* turn off the Sawzall and adjust the clamps to reduce risks.
 
 ### For Plunge Cutting (cutting out openings in wood products, masonite, plastics, or drywall)
-![sawzallPlunge](/doc/equip/shop/sawzall/sawzallPlunge.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallPlunge.jpg" width="300">
 
 Once you are ready to begin your project hold the saw firmly in front of and clearly away from you. Make sure the saw blade is clear of any foreign material. Be sure your work piece is secured (with clamps *not hands*) before cutting.
 
@@ -87,7 +88,7 @@ Once the saw blade is at full cutting speed, slowly tilt it downward until the t
 Do not force the tool, be patient when cutting through your work piece. Let the blade and saw do the work for you! Use of excessive pressure causes bending and twisting of the blade and may result in injury. If you see any instability in your work piece, *immediately* turn off the Sawzall and adjust the clamps to reduce risks.
 
 ### For Metal Cutting (sheet steel, pipe, steel rods, aluminum, brass, or copper)
-![sawzallMetal](/doc/equip/shop/sawzall/sawzallMetal.jpg)
+<img src="/doc/equip/shop/sawzall/sawzallMetal.jpg" width="300">
 
 Once you are ready to begin your project hold the saw firmly in front of and clearly away from you. Make sure the saw blade is clear of any foreign material.
 
