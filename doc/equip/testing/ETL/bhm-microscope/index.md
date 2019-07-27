@@ -16,14 +16,6 @@ The Olympus System Microscope for reflected light Model BHM consists of a modula
 
 ![bhmDiagram](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram.jpg)
 
-
-
-
-Stages
-Observation Tube
-Focusing Adjustment
-Troubleshooting
-
 ## Useful Links
 - [Manufacturer Website](https://www.olympus-lifescience.com/en/)
 - You can find the manual [here](/doc/equip/testing/ETL/bhm-microscope/olympus-bh-bhm-instructions.pdf).
@@ -32,7 +24,6 @@ Troubleshooting
 - Do not switch the tungsten bulb on at high intensity.
 - Using this machine for long periods of time can create eye strain. 
 - Do not loosen the tension adjustment ring too much because the stage drops and the find adjustment knobs slip easily.
-- 
 
 ## How to Get Help
 Ask an ETL Manager if you have any questions.
@@ -48,6 +39,22 @@ Below outlines the function of the various components.
 ![bhmDiagram3](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram4.jpg)
 
 ![bhmDiagram4](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram5.jpg)
+
+To use this microscope you will need to decide which objectives (*aka lenses*) and which eyepieces would be best for your project. Refer to this [Optical Data Chart](/doc/equip/testing/ETL/bhm-microscope/bhmTable.jpg) as needed.
+
+### Objectives (lenses)
+There are two types of Olympus objectives: Achromats and Plan Achromats. The achromats are most popular for general use and are corrected for chromatic aberration. The plan achromats are recommended for visual observation of a large field and photomicrography of flat objects; these are capable of producing a flat image to the edge of the field. 
+
+For immersion objectives use Olympus immersion oil. To utilize the full numerical aperture of an immersion objective, the objective and specimen are immerse. Care should be taken to prevent oil bubbles from forming in the oil film between the specimen and the objective. After use, carefully wipe off the immersion oil deposited on the top lens surface of the objective with gauze moistened with xylene. Take care not to immerse objectives other than immersion objectives. 
+
+There are a few special objectives. Long working distance objectives provide a longer working distance as compared to a standard objective of equal power. Differential interference contrast objectives are strain-free objectives of high N.A. that can be used for brightfield and differential interference contrast methods. 
+
+### Eyepieces
+The eyepieces available for this microscope are computed to correct the slight residual errors left uncorrected in the objectives and are designed to further magnify the primary image from the objective, limiting the field as views by the eye. The three eyepieces available are the widefield eyepiece, the compensating eyepiece, and the photo eyepiece. 
+
+- Widefield eyepiece: a color corrected and flat, wide field; high eyepoint, convenient for observers wearing eyeglasses.
+- Compensating eyepiece: corrected for chromatic aberration and astigmatism. For use with high power objectives. 
+- Photo eyepiece: for photomicrographic use. Fully corrected for field flatness in combination with all Olympus objectives. 
 
 ## Operation
 1. Place a specimen on the mechanical stage. 
@@ -94,13 +101,11 @@ The light path options are as follows,
 1. Switch off the transformer.
 
 ## Cleanup
-Remove your specimen from the mechanical stage and clean up your workspace.
+Remove your specimen from the mechanical stage and clean up your workspace. If you used immersion oil, carefully wipe off the immersion oil deposited on the top lens surface of the objective with gauze moistened with xylene (if there is no xylene just use lens cleaning paper or a cotton swab). 
 
 # Tips and Tricks
 
-Assembly (Manager's Only):
-
-For assembly, the picture below illustrates the sequential procedure. The numbers indicate the order of assebmly of various components. Remove dust caps before mounting components. Take care to keep all glass surfaces clean, and avoid scratching the glass surfaces. 
+Assembly (Manager's Only): For assembly, the picture below illustrates the sequential procedure. The numbers indicate the order of assebmly of various components. Remove dust caps before mounting components. Take care to keep all glass surfaces clean, and avoid scratching the glass surfaces. 
 
 ![bhmDiagram2](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram2.jpg)
 
@@ -136,7 +141,7 @@ For assembly, the picture below illustrates the sequential procedure. The number
 - When the objectives are changed but they are not parfocal. 
   - The mechanical tube length adjustment rings on the observation tube may not be correctly adjusted. Try to readjust the rings. 
 
-### Electric System 
+### Electric System Troubleshooting
 - The light flickers and the intensity is varying. 
   - The filament of the bulb may be burning out. Try replacing the bulb.
   - There may be a loose electrical connection. Secure the power connections. (Make sure it is unplugged before adjusting power wires.)
@@ -146,7 +151,7 @@ For assembly, the picture below illustrates the sequential procedure. The number
 - New bulbs are burning out.
   - The main voltage may be too high. Try to use a tungsten bulb under 6V as well as possible or try to use a high intensity light source, such as a halogen illuminator.
 
-### Focusing 
+### Focusing Troubleshooting
 - Coarse adjustment is too tight. 
   - The tension adjustment ring may be over-tightened. Try to loosen the adjustment ring. 
   - You may be trying to raise the stage passing over the upper focusing limit imposed by the engaged pre-focusing lever. Try unlocking the pre-focusing lever. 
@@ -158,13 +163,13 @@ For assembly, the picture below illustrates the sequential procedure. The number
 - The stage cannot be lowered to the lower limit. 
   - The stage may be locked higher than the focusing position. Try loosening the stage height locking lever, lower the stage to a proper height, and then lock the lever. 
 
-### Observation Tube 
+### Observation Tube Troubleshooting
 - Incomplete binocular vision.
   - The interpupillary distance may not be correctly adjusted. Try adjusting the interpupillary distance. 
   - The diopter adjustment may be incomplete. Try compling the diopter adjustment. 
   - You may be unaccustomed with bonocular vision. Prior to looking at the binocular image of the specimen, try to look the entire field of view, or look at a far away object before resuming the microscopic observation. 
 
-### Stage 
+### Stage Troubleshooting
 - The image moves easily when you touch the stage. 
   - The stage may not be correctly clamped. Try to resecure the stage. 
   - The stage height locking lever may not be tightened. Try resecuring the lever. 
