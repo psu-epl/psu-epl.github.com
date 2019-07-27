@@ -50,7 +50,7 @@
 - title: Power Supplies
   machines:
     - name: BK Precision 8512 600W Programmable DC Electronic Load
-      img: images/bk8512.JPG
+      img: images/ETL_bk8512.jpg
       sop: /doc/equip/testing/ETL/BK8512/
       up: true
       
