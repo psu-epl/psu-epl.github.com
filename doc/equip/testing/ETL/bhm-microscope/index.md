@@ -18,6 +18,7 @@ The Olympus System Microscope for reflected light Model BHM consists of a modula
 
 
 
+
 Stages
 Observation Tube
 Focusing Adjustment
@@ -30,6 +31,8 @@ Troubleshooting
 ## Machine Safety
 - Do not switch the tungsten bulb on at high intensity.
 - Using this machine for long periods of time can create eye strain. 
+- Do not loosen the tension adjustment ring too much because the stage drops and the find adjustment knobs slip easily.
+- 
 
 ## How to Get Help
 Ask an ETL Manager if you have any questions.
@@ -80,7 +83,11 @@ The light path options are as follows,
 - If the lever is pulled out all the way then you will receive 20% of light into the binocular tube and 80% into the photo tube. This is recommended for photomicrography and observation of excessively bright specimens.
 
 ### Focusing Adjustment
+**Note: Do not rotate the right and left coarse adjustment knobs in the opposite directions simultaneously.**
 
+- Tension adjustment of Coarse Adjustment Knobs: A tension adjustment ring is provided next to the right hand coarse adjustment knob. With this device the tension of the coarse adjustment is freely adjustable for either heavy or light movement, depending on your preference. However, do not loosen the tension adjustment ring too much because the stage drops and the find adjustment knobs slip easily. 
+- Automatic Pre-focusing Lever: This lever is provided to prevent possible contact between the specimen and the objective as well to simplify coarse focusing. The lever is locked after coarse focus has been accomplished. This prevents further upward travel of the stage by means of the coarse adjustment knobs, and automatically provides a limiting stop if the stage is lowered and then raised again. The automatic pre-focusing lever does not restrict fine focusing. 
+- Stage Height Locking Lever: In addition to the vertical movement of the stage by means of coarse and fine adjustments, the stage height position can be changed by means of the stage height licking lever. Maximum specimen height is 55mm with the standard objectives, and 37mm with the differential interference contrast attachment. 
 
 ## Shutdown
 1. Lower light intensity.
@@ -91,13 +98,73 @@ Remove your specimen from the mechanical stage and clean up your workspace.
 
 # Tips and Tricks
 
-## Assembly (Manager's Only)
+Assembly (Manager's Only):
+
 For assembly, the picture below illustrates the sequential procedure. The numbers indicate the order of assebmly of various components. Remove dust caps before mounting components. Take care to keep all glass surfaces clean, and avoid scratching the glass surfaces. 
 
 ![bhmDiagram2](/doc/equip/testing/ETL/bhm-microscope/bhmDiagram2.jpg)
 
-## Optical System
 
+## Troubleshooting
 
-## Light Source
+### Optical Troubleshooting
+- If the illuminator is switched on but the field of view cannot be seen
+  - The field iris diaphragm may not be opened all the way. Try to open the field diaphragm all the way to fix this issue.
+- The field of view is cut off or illuminated irregularly. 
+  - The light path selector lever may be stopped midway. Try pushing the lever all the way.
+  - The nosepiece may not be clicked into position. Try to slightly rotate the nosepiece until it clicks into position. 
+  - The bulb or lamp house may not be correctly positioned. Try to insert the bulb or lamp house all the way. 
+  - The high/low magnification selector lever of the illuminator may not be correctly positioned. Try to reposition the lever. 
+- Dust or dirt is visible in the field of view. 
+  - There may be dust or dirt on the bulb end, half mirror, specimen, eyepiece, or on the lower surface of the prism in the observation tube. Check the surfaces and clean of the dust or dirt using lens cleaning paper or cotton swabs.
+- Excessive image contrast.
+  - The aperture iris diaphragm may be stopped down excessively. Try to open the diaphragm.
+  - The high/low magnification selector lever may not be correctly positioned. Try replacing the lever position.
+  - The bulb or lamp house may not be correctly positioned. Try to push the bulb or lamp house all the way in. 
+- The image resolution is off (i.e. the image does not focus or the contrast is low).
+  - The objective may not be correctly positioned in the light path. Try to slightly rotate the nosepiece until it clicks into position.
+  - There may be dirt on the objective front lens. Try to clean the objective with lens cleaning paper or a cotton swab.
+  - The immersion objective may not have immersion oil. Try to apply the immersion oil if using an immersion objective.
+  - There may be bubbles in the immersion oil, if so try to remove the bubbles.
+  - The Olympus specified oil is not used. Make sure the specified oil is used.
+  - The specimen may not be properly illuminated. Try to adjust the illumination. 
+- The field of view is partially out of focus or the image is partly out of focus.
+  - The objective may not be correctly positioned in the light path. Try to slightly rotate the nosepiece until it clicks into position.
+  - The specimen may not be correctly positioned on the stage. Try to remove and replace the specimen on the stage and resecure it with the specimen holder. 
+  - The specimen surface may not be at the right angles with the optical axis. Try to level the specimen surface correctly with a hand press. 
+  - xThe high/low magnification selector lever may not be properly operated (or the lever may be positioned midway). Try to turn the lever all the way until it stops in position. 
+- When the objectives are changed but they are not parfocal. 
+  - The mechanical tube length adjustment rings on the observation tube may not be correctly adjusted. Try to readjust the rings. 
 
+### Electric System 
+- The light flickers and the intensity is varying. 
+  - The filament of the bulb may be burning out. Try replacing the bulb.
+  - There may be a loose electrical connection. Secure the power connections. (Make sure it is unplugged before adjusting power wires.)
+- The pilot lamp lights but the illuminator does not. 
+  - The filament of the bulb may be burning out. Try replacing the bulb.
+  - There may be a loose electrical connection. Secure the power connections. (Make sure it is unplugged before adjusting power wires.)
+- New bulbs are burning out.
+  - The main voltage may be too high. Try to use a tungsten bulb under 6V as well as possible or try to use a high intensity light source, such as a halogen illuminator.
+
+### Focusing 
+- Coarse adjustment is too tight. 
+  - The tension adjustment ring may be over-tightened. Try to loosen the adjustment ring. 
+  - You may be trying to raise the stage passing over the upper focusing limit imposed by the engaged pre-focusing lever. Try unlocking the pre-focusing lever. 
+- The stage drops and the specimen goes out of focus. 
+  - The tension adjustment ring may be too loose. Try tightening the ring. 
+- The stage cannot be raised to the upper limit of the working range. 
+  - The pre-focusing lever may be engaged in positioning the stage lower than the focusing position. Try unlocking the pre-focusing lever. 
+  - The stage height locking lever may be engaged in a position lower than the focusing range. Try unlocking the lever, raising the stage to the proper height, and then locking the lever.
+- The stage cannot be lowered to the lower limit. 
+  - The stage may be locked higher than the focusing position. Try loosening the stage height locking lever, lower the stage to a proper height, and then lock the lever. 
+
+### Observation Tube 
+- Incomplete binocular vision.
+  - The interpupillary distance may not be correctly adjusted. Try adjusting the interpupillary distance. 
+  - The diopter adjustment may be incomplete. Try compling the diopter adjustment. 
+  - You may be unaccustomed with bonocular vision. Prior to looking at the binocular image of the specimen, try to look the entire field of view, or look at a far away object before resuming the microscopic observation. 
+
+### Stage 
+- The image moves easily when you touch the stage. 
+  - The stage may not be correctly clamped. Try to resecure the stage. 
+  - The stage height locking lever may not be tightened. Try resecuring the lever. 
