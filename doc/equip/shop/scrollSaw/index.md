@@ -35,7 +35,7 @@ Ask a Manager if you have any questions!
 # Using this Machine
 The Scroll Saw can use a variety of blade widthsand thicknesses, as long as they are 5" long and have the cross pin for mounting. These are used for cutting various types of materials as listed below:
 
-![scrollSawMaterialGuide](/doc/equip/shop/scrollSaw/scrollSawMaterialGuide.jpg)
+<img src="/doc/equip/shop/scrollSawMaterialGuide.jpg" width="600">
 
 The Scroll Saw has the following parts:
 
