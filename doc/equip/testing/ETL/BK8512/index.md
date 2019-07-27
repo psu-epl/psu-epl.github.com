@@ -2,7 +2,7 @@
 title: BK Precision 8512 600W Programmable DC Electronic Load
 layout: doc
 author: Jennifer Jordan
-date: 25 July 2019
+date: 27 July 2019
 
 ---
 
@@ -21,6 +21,8 @@ The loads can operate in CC, CV, CR or CP mode while voltage/current or resistan
 - Battery testing mode to provide ampere/hour rating of battery (ending voltage level is adjustable)
 - Flexible triggering: Create trigger events by front panel keystroke, back panel TTL signal, or software.
 - Remote voltage sensing to compensate for the effect of voltage drop in wires
+
+![8512_image_1](/doc/equip/testing/ETL/BK8512/8512_image_1.jpg)
 
 ## Useful Links
 - [Manufacturer Website](https://www.bkprecision.com)
