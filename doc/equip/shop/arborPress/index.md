@@ -1,5 +1,5 @@
 ---
-date: 23 July 2019
+date: 27 July 2019
 title: Arbor Press
 layout: doc
 author: Jennifer Jordan
@@ -10,7 +10,7 @@ author: Jennifer Jordan
 # About this Machine
 The arbor press is designed for riveting, swaging, bending, punching, and flattening. The arbor press can be used to press on or remove close-fitting bearings and bushings. 
 
-![arborPress](/doc/equip/shop/img/arborPress.jpg)
+<img src="/doc/equip/shop/img/arborPress.jpg" width="300">
 
 ## Useful Links
 - You can find the manual [here](/doc/equip/shop/arborPress/arborPressManual.pdf)
@@ -24,9 +24,9 @@ Ask a Manager if you have any questions.
 # Using this Machine
 This machine is broken into the following parts,
 
-![arborPressDiagram](/doc/equip/shop/img/arborPressDiagram.jpg){width="2in" height="4in"}
+<img src="/doc/equip/shop/img/arborPressDiagram.jpg" width="500">
 
-![arborPressParts](/doc/equip/shop/arborPress/arborPressParts.jpg){width="2in" height="5in"}
+<img src="/doc/equip/shop/arborPress/arborPressParts.jpg" width="300">
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
