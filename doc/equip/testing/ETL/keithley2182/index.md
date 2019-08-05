@@ -118,13 +118,17 @@ Ask a Manager if you have any questions.
 - “CAL” Accesses calibration.
 - “TEST” Tests display annunciators and front panel keys.
 
+
 3. **Range Keys**
+
 
 - “^” Selects the next higher voltage measurement range.
 - “˅” Selects the next lower voltage measurement range.
 - “AUTO” Enables/disables autorange.
 
+
 4. **Display Annunciators**
+
 
 - “ * ” Readings being stored in buffer.
 - “↔” Indicated additional selections are available.
@@ -154,12 +158,16 @@ Ask a Manager if you have any questions.
 - “TIMER” Timer controlled scans in use.
 - “TRIG” External triggering (front panel, bus, or trigger link) selected.
 
+
 5. **Input Connector**
+
 
 - “CHANNEL 1” Measure voltage or temperature. Volts Ranges: 10mV, 100mV, 1V, 10V, and 100V.
 - “CHANNEL 2” Measure voltage or temperature. Volts Ranges: 100mV, 1V, and 10V.
 
+
 6. **Handle**
+
 
 - Pull out and rotate to desired position.
 
@@ -230,10 +238,13 @@ Most of the front panel buttons have a dual operation or function. The label on 
 
 Once your circuit is all wired up (see voltage measurement setup), you can follow the procedure below,
 
+
 1. *Select channel and function.* Press DCV1 to measure voltage on Channel 1. Press DCV2 to measure voltage on Channel 2.
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front2.jpg" width="400">
 **Insert image of front panel with red square around DCV1 and DCV2 buttons.**
+
 
 2. *Select range.* Use RANGE Up and Down keys to manually select the range. Or you can press AUTO RANGE (AUTO annunciator on) to enable auto range.
 
@@ -241,7 +252,9 @@ Once your circuit is all wired up (see voltage measurement setup), you can follo
 <img src="/doc/equip/testing/ETL/keithley2182/front3.jpg" width="400">
 **Insert image of front panel, red square around range arrows (“RANGE UP” and “RANGE DOWN”), blue square around AUTO button (“Auto Range”)**
 
+
 3. *View readings.* You can observe the voltage readings on the front panel display.
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front4.jpg" width="400">
 **Insert image of front panel with red square around the display voltage reading (“Voltage Reading”).**
@@ -250,37 +263,51 @@ Once your circuit is all wired up (see voltage measurement setup), you can follo
 
 Once your circuit is all wired up (see temperature measurement setup), you can follow the procedure below,
 
+
 1.  *Configure temperature.* Press SHIFT then TCOUPL
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front5.jpg" width="400">
 **Insert image of front panel with SHIFT and TCOUPL with red squares**
 
+
 2. Select your desired units to be degrees Celsius, Fahrenheit, or Kelvin (C, F, or K)
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front6.jpg" width="400">
 **Insert image of front panel UNITS options**
 
+
 3. Select your sensor option. Typically you will want to select “TCOUPLE” to perform temperature measurements at the thermocouple. If you want to measure the internal temperature of the 2182 instrument select “INTERNL”.
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front7.jpg" width="400">
 **Insert image of front panel SENS options**
 
+
 4. Select your TYPE. You will have the options, J, K, T, E, R, S, B, and N. This is the thermocouple type that you are using to measure the temperature. For more information on thermocouple types check out the Wikipedia article [here](https://en.wikipedia.org/wiki/Thermocouple) or view [this](http://1oomzzme3s617r8yzr8qutjk-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/WHTH_FAQ_Thermocouples_Pt1_Fig2.jpg) helpful chart.
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front8.jpg" width="400">
 **Insert image of front panel TYPE options.**
 
+
 5. Select your junction. This is referring to which of the two setups you are using to measure temperature. If you are using the internal reference junction (the first setup), you will want to select “INTERNL. If you are using the external reference junction (the second setup), you will want to select “SIM”. If you select “SIM” you will be prompted to enter the simulated reference temperature (i.e. the temperature of the ice bath).
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front9.jpg" width="400">
 **Insert image of front panel JUNC options.**
 
+
 6. *Select your channel and function.* Press TEMP1 to measure the temperature on Channel 1. Press TEMP2 to measure temperature on Channel 2.
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front10.jpg" width="400">
 **Insert image of front panel with TEMP1 & TEMP2 red squared.**
 
+
 7. *View Readings.* You can observe the temperature readings on the front panel display.
+
 
 <img src="/doc/equip/testing/ETL/keithley2182/front11.jpg" width="400">
 **Insert image of front panel with red square around the display temp reading (“Temperature Reading”).**
