@@ -35,7 +35,13 @@ Ask a Manager if you have any questions!
 # Using this Machine
 The Scroll Saw can use a variety of blade widthsand thicknesses, as long as they are 5" long and have the cross pin for mounting. These are used for cutting various types of materials as listed below:
 
-<img src="/doc/equip/shop/scrollSaw/scrollSawMaterialGuide.jpg" width="600">
+<br />
+
+| Teeth/Inch | Width | Tickness | Material cut |
+|------------|-------|----------|--------------|
+| 10 | 0.11'' | 0.02'' | Medium turns on 1/4'' to 1-3/4'' wood, soft metals, wallboard, hardboard. |
+| 15 | 0.11'' | 0.02'; | Same as above except for wood. Cuts wood from 1/8'' to 1-1/2'' thick. |
+| 18 | 0.095'' | 0.1'' | Extra thin cuts on soft woods and other materials up to 1/4''. |
 
 The Scroll Saw has the following parts:
 
@@ -142,4 +148,14 @@ Over time, if the performance of the Scroll Saw diminishes, or it stops working 
 ### Troubleshooting (Manager's Only)
 Follow this guide if the Scroll Saw develops any issues.
 
-![scrollSawTroubleshooting](/doc/equip/shop/scrollSaw/scrollSawTroubleshooting.jpg)
+| Problem | Possible Causes | Likely Solutions |
+|---------|-----------------|------------------|
+| Blades breaking | 1. Wrong Blade Tension. <br />2. Over-working blade. <br />3. Wrong blade application. <br />4. Blade twisting in wood. | 1. Adjust blade tension. <br />2. Reduce feed cut rate.<br />3. Use narrow blades for cutting this wood, wide blades for cutting thicker wood. <br />4. Avoid side pressure on blade. |
+| Motor does not run | 1. No power at outlet.<br />2. Defective power cord or plug.<br />3. Defective motor. | 1. Check power source.<br />2. Have a Manager repair or replace defective parts.<br />3. Have motor repaired or replaced by a Manager. |
+| Excessive vibration | 1. Improper Base mounting.<br />2. Unsuitable mounting surface.<br />3. Loose motor mounting. | 1. Make sure mounting hardware is secure.<br />2. The heavier the work bench, the less vibration will occur.<br />3. Check motor mounting hardware is secure. |
+| Blade not in line with arm motion | Blade holders are not aligned. | Loosen the Hex Bolts and re-align Upper and Lower Blade Holders. Tighten Hex Bolts. |
+| Tool will not start | 1. Cord not connected.<br />2. No power at outlet.<br />3. Tool's thermal reset breaker tripped (if equipped).<br />4. Internal damage or wear. (Carbon brushes or switch, for example.) | 1. Check that the cord is plugged in.<br />2. Check power at outlet. If outlet is unpowered, turn off tool, and check circuit breaker. If breaker is tripped, make sure circuit is right capacity for tool, and circuit has no other loads.<br />3. Turn off tool and allow to cool. Press reset button on tool.<br />4. Have a Manager service the tool. |
+| Tool operates slowly | Extension cord too long or wire is too small. | Eliminate use of extension cord. |
+| Performance decreases over time | 1. Accessory dull or damaged.<br />2. Carbon brushes worn or damaged. | 1. Keep cutting accessories sharp. Replace as needed.<br />2. Have qualified technician replace brushes. |
+| Excessive noise or rattling | Internal damage or wear. (Carbon brushes or bearings, for example.) | Have a Manager service the tool. |
+| Overheating | 1. Forcing machine to work too fast. <br />2. Accessory dull or damaged.<br />3. Blocked motor housing vents.<br />4. Motor being strained by long or small diameter extension cord. | 1. Allow machine to work at its own rate.<br />2. Keep cutting accessories sharp. Replace as needed.<br />3. Wear ANSI-approved safety goggles and NOISH-approved dust mask/respirator while blowing dust out of motor using compressed air.<br />4. Eliminate use of extension cord. |
