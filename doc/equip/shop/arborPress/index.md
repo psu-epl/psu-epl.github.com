@@ -26,7 +26,26 @@ This machine is broken into the following parts,
 
 <img src="/doc/equip/shop/img/arborPressDiagram.jpg" width="500">
 
-<img src="/doc/equip/shop/arborPress/arborPressParts.jpg" width="300">
+| Index | Description |
+|-------|-------------|
+| 1 | Base |
+| 2 | Anvil |
+| 3 | Spring Pin 6x16 |
+| 4 | Ram |
+| 5 | Cap |
+| 6 | Handle |
+| 7 | Bolt, Hex M6x25 |
+| 8 | Washer M6 |
+| 9 | Bolt, Hex M6x25 |
+| 10 | Bolt, Hex M6x30 |
+| 11 | Nut, Hex M6 |
+| 12 | Plate |
+| 13 | SHSS M6x6 |
+| 14 | Pinion Retainer |
+| 15 | Bolt, Hex M6x12 |
+| 16 | Pinion |
+| 17 | Knob |
+| 18 | Lock Washer M6 |
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
