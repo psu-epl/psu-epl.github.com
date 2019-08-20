@@ -38,7 +38,7 @@ If you need to operate this instrument at a higher level, please refer to the ma
 
 ## Useful Links
 - [Manufacturer Website](https://www.tek.com/keithley)
-- You can find the manual [here](manual.pdf).
+- You can find the manual [here](/doc/equip/testing/ETL/keithley2182/2182.pdf).
 - You can view the datasheet [here](/doc/equip/testing/ETL/keithley2182/KEITH_218231849.pdf)
 
 ## Machine Safety
@@ -212,6 +212,18 @@ For temperature measurements using an internal reference, connect the terminals 
 For temperature measurements using an external reference, connect the terminals, your thermocouples, and set up an ice bath as shown below.
 
 <img src="/doc/equip/testing/ETL/keithley2182/fig7.jpg" width="400">
+
+### Voltage Temperature Measurement Setup:
+
+Channel 1 should be used for voltage measurements since it supports a wider range of measurements, leaving Channel 2 to measure temperature. 
+
+For temperature measurements using an internal reference, connect the terminals and your thermocouple as seen below.
+
+<img src="/doc/equip/testing/ETL/keithley2182/volttemp1.jpg" width="400">
+
+For temperature measurements using an external reference, connect the terminals, your thermocouples, and set up an ice bath as shown below.
+
+<img src="/doc/equip/testing/ETL/keithley2182/volttemp2.jpg" width="400">
 
 ## Operation
 
