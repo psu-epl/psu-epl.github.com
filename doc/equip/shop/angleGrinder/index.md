@@ -6,19 +6,16 @@ author: Jennifer Jordan
 
 ---
 
-# Angle Grinder
-
-
 # About this Machine
 This angle grinder is a versatile handheld tool that can grind metal and cut tile, stucco and pavers, rout out mortar, plus it can sand, polish and sharpen. The different attachments allow you do perform different tasks. Know your tool before you use it!
 
 This angle grinder is a Chicago Electric (Harbor Freight) 4.5 inch model 65519.
 
-![angleGrinder](/doc/equip/shop/img/angleGrinder.jpg)
+<img src="/doc/equip/shop/img/angleGrinder.jpg" width="400">
 
 ## Useful Links
 - [Manufacturer Website](https://www.harborfreight.com/power-tools.html)
-- You can find the manual [here](anglegrindermanual.pdf). 
+- You can find the manual [here](/doc/equip/shop/angleGrinder/anglegrindermanual.pdf). 
 
 ## Machine Safety
 **This is for your own safety and the safety of those around you!**
@@ -48,7 +45,8 @@ These sections describe the standard usage and common pitfalls.
 - Secure and support the work piece using clamps, bench vices, etc. 
 
 See the diagram of the tool below, references to parts will be made to this diagram in the instructions.
-![angleGrinderAssembly](/doc/equip/shop/img/angleGrinderAssembly.jpg)
+
+<img src="/doc/equip/shop/angleGrinder/angleGrinderAssembly.jpg" width="400">
 
 ### Choosing your Accessory
 Disks measure between 4 and 7 inches, with 4.5 inches being most people’s preference.
@@ -62,23 +60,25 @@ Disks measure between 4 and 7 inches, with 4.5 inches being most people’s pref
 ### Installing the Auxiliary Handle:
 1. The Handle (51) can be installed in three different positions; on top, or on either side of the Gear Box (3).
 2. Screw the threaded end of the Handle into the selected position. Tighten securely before beginning work.
-![angleGrinderAux](/doc/equip/shop/img/angleGrinderAux.jpg)
+
+<img src="/doc/equip/shop/angleGrinder/angleGrinderAux.jpg" width="400">
 
 ### Adjusting the Guard:
 1. Depending on where the Handle is mounted; the Guard may have to be moved. Adjust the Guard (15) to the proper position for the intended operation before installing a grinding wheel or other disc.
 2. Loosen the screws in the collar of the Guard and rotate to the position desired.
-![angleGrinderGuard](/doc/equip/shop/img/angleGrinderGuard.jpg)
+
+<img src="/doc/equip/shop/angleGrinder/angleGrinderGuard.jpg" width="400">
 
 ### Installing a Grinding Wheel:
 1. Before installing a grinding wheel, review Machine Safety.
 2. Verify that the Grinding Wheel meets the following:
-	- rated to at least 10,000 RPM
-	- no larger than 4 ½ inch in diameter
-	- fitted with a 7/8 inch round arbor hole
+	- Rated to at least 10,000 RPM
+	- No larger than 4 ½ inch in diameter
+	- Titted with a 7/8 inch round arbor hole
 	- ¼ inch thick or less
-	- a type of grinding wheel suitable for surface grinding, not edge grinding
-	- clean and dry
-	- undamaged
+	- A type of grinding wheel suitable for surface grinding, not edge grinding
+	- Clean and dry
+	- Undamaged
 3. Press in and hold the Spindle Lock (1) to prevent the Spindle (17) from turning.
 4. Remove the Outer Flange (20). Keep the Inner Flange (18) in position on the Spindle.
 5. Slip the Grinding Wheel onto the Spindle with a paper gasket, or blotter, first. The blotter should be centered on the grinding wheel and the wheel and blotter should rest flat against the Inner Flange.  NOTE: The blotters help prevent grinding wheel damage and wheel slippage. Use these to prevent serious injury.
@@ -129,7 +129,7 @@ Turn off and unplug the angle grinder and make sure the disk is still in good co
 ## Ring-Test 
 A ring-test will verify that a disc is undamaged. Perform this test on the wheel (unless wheel is smaller than 4 inches or is an unusual shape) as follows:
 1. Suspend wheel using a pin or finger through the arbor hole.
-2. ![ringtest](/doc/equip/shop/img/ringtest.jpg)
+2. <img src="/doc/equip/shop/angleGrinder/ringtest.jpg" width="400">
 3. Tap the flat side of the wheel with a light non-metallic object.
 
 ## Troubleshooting
