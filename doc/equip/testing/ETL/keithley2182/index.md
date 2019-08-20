@@ -234,7 +234,6 @@ Most of the front panel buttons have a dual operation or function. The label on 
 *For example, press DCV1 to select the Channel 1 voltage measurement function. Press SHIFT then MX+B to choose the mX+b function.*
 
 <img src="/doc/equip/testing/ETL/keithley2182/front1.jpg" width="400">
-**Add picture with red square over SHIFT button (with arrow “to select a secondary function”), green squares over buttons (“primary functions”), blue squares over text above buttons (“secondary functions”)**
 
 ### Before Measuring:
 
@@ -255,21 +254,18 @@ Once your circuit is all wired up (see voltage measurement setup), you can follo
 
 
 <img src="/doc/equip/testing/ETL/keithley2182/front2.jpg" width="400">
-**Insert image of front panel with red square around DCV1 and DCV2 buttons.**
 
 
 2. *Select range.* Use RANGE Up and Down keys to manually select the range. Or you can press AUTO RANGE (AUTO annunciator on) to enable auto range.
 
 
 <img src="/doc/equip/testing/ETL/keithley2182/front3.jpg" width="400">
-**Insert image of front panel, red square around range arrows (“RANGE UP” and “RANGE DOWN”), blue square around AUTO button (“Auto Range”)**
 
 
 3. *View readings.* You can observe the voltage readings on the front panel display.
 
 
 <img src="/doc/equip/testing/ETL/keithley2182/front4.jpg" width="400">
-**Insert image of front panel with red square around the display voltage reading (“Voltage Reading”).**
 
 ### Measuring Temperatures:
 
@@ -280,7 +276,6 @@ Once your circuit is all wired up (see temperature measurement setup), you can f
 
 
 <img src="/doc/equip/testing/ETL/keithley2182/front5.jpg" width="400">
-**Insert image of front panel with SHIFT and TCOUPL with red squares**
 
 
 2. Select your desired units to be degrees Celsius, Fahrenheit, or Kelvin (C, F, or K)
@@ -315,14 +310,12 @@ Once your circuit is all wired up (see temperature measurement setup), you can f
 
 
 <img src="/doc/equip/testing/ETL/keithley2182/front10.jpg" width="400">
-**Insert image of front panel with TEMP1 & TEMP2 red squared.**
 
 
 7. *View Readings.* You can observe the temperature readings on the front panel display.
 
 
 <img src="/doc/equip/testing/ETL/keithley2182/front11.jpg" width="400">
-**Insert image of front panel with red square around the display temp reading (“Temperature Reading”).**
 
 ## Shutdown
 - Once you have completed your measurements turn off your voltage source or remove your source for temperature measurement.
