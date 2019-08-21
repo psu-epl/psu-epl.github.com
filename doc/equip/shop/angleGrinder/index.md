@@ -134,7 +134,7 @@ A ring-test will verify that a disc is undamaged. Perform this test on the wheel
 
 ## Troubleshooting
 | Problem | Possible Causes | Likely Solutions |
-| ------------- | ------------- | ------------- |
+|---------|-----------------|------------------|
 | Tool will not start | 1. No power at outlet. <br />2. Cord not connected. <br />3. Carbon Brushes may be worn or damaged. | 1. Check power at outlet. <br />2. Check that cord is plugged in. <br />3. Have Carbon Brushes replaced by a Manager. |
 | Tool operates slowly or erratically. | 1. Carbon Brushes may be worn or damanges. <br />2. Excess pressure applied to workpiece. | 1. Have the Carbon Brushes replaced by a Manager. <br />2. Decrease pressure, allow the tool to do the work. |
 | Tool does not grind, sand, or brush effectively. | 1. Disc accessory may be loose on Spindle. Check tightness of Outer Flange Arbor Nut or treaded disc accessory on Spindle. <br />2. Disc accessory may be damanged, worn, or wrong type for the material. | 1. Be sure disc accessory is of correct dimension and Outer Flange Arbor Nut is tight. <br />2. Check the condition and type of disc accessory. Use only a proper type of disc accessory which is in good condition. |
