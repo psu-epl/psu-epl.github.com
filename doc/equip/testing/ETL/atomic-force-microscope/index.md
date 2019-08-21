@@ -66,7 +66,7 @@ To set up the system perform the following procedures,
 
 2. **Assembly**: As you can see in the diagram below the components in the work area are set up as follows,
 
-<img src="/doc/equip/testing/ETL/atomic-force-microscope/img/2-1.jpg.jpg" width="400">
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/img/2-1.jpg" width="400">
 
 3. **Cable Connections**: A cable wiring diagram for the system is shown below followed by additional notes concerning the cabling. This should be all set up before you use the microscope, verify with a manager if you have any connection issues.
 
@@ -110,7 +110,7 @@ During the installation sequence it is normal to see several dialog boxes notify
 ## Operation
 Below are the outlines for the three main operations. Since each have several steps they are broken into their own pages, you will still need to follow the shutdown and cleanup steps following the operation.
 
-### [Basic Operation: Contact Imaging](doc/equip/testing/ETL/atomic-force-microscope/basic.md)
+### [Basic Operation: Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/basic.md)
 - Powering up the System
 - Selecting a Probe
 - Installing a Probe
@@ -121,7 +121,7 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample
 - Broadband Imaging
 
-### [Intermittent Contact Imaging](doc/equip/testing/ETL/atomic-force-microscope/intermittent.md)
+### [Intermittent Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/intermittent.md)
 - Overview
 - Installing a Probe 
 - Viewing the Probe in the Camera Window
@@ -132,22 +132,28 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample in Wavemode
 - BB Wavemode Imaging
 
-### [Motor Control, Camera View](doc/equip/testing/ETL/atomic-force-microscope/motorcontrol.md)
+### [Motor Control, Camera View](/doc/equip/testing/ETL/atomic-force-microscope/motorcontrol.md)
 
 ## Shutdown
-Explain how to safely shut down the machine.
+In Progress
 
 ## Cleanup
-Explain how to reset the work station for the next user.
+In Progress
 
 # Tips and Tricks
+In Progress
 
 ## More about Scanning
+In Progress
 
 ## Working with Images
+In Progress
 
 ## Image Analysis
+In Progress
 
 ## Standard System Calibration
+In Progress
 
 ## Troubleshooting
+In Progress
