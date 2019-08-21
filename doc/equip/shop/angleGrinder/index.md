@@ -133,6 +133,7 @@ A ring-test will verify that a disc is undamaged. Perform this test on the wheel
 3. Tap the flat side of the wheel with a light non-metallic object.
 
 ## Troubleshooting
+
 | Problem | Possible Causes | Likely Solutions |
 |---------|-----------------|------------------|
 | Tool will not start | 1. No power at outlet. <br />2. Cord not connected. <br />3. Carbon Brushes may be worn or damaged. | 1. Check power at outlet. <br />2. Check that cord is plugged in. <br />3. Have Carbon Brushes replaced by a Manager. |
