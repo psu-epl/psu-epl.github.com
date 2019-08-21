@@ -35,7 +35,7 @@ Functions Include:
 <img src="/images/ETL_AtomicForce.jpg" width="400">
 
 ## Useful Links
-Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. However, support for this model is discontinued. 
+- Quesant was bought by Ambios Tech which which is currently owned by [KLA-Tencor](https://www.kla-tencor.com), all three companies have misc resources on this microscope. However, support for this model is discontinued. 
 - You can find the manual [here](/doc/equip/testing/ETL/atomic-force-microscope/QScope-Manual.pdf).
 - You can find the features, technical data, and specifications [here](/doc/equip/testing/ETL/atomic-force-microscope/Q250.pdf).
 
@@ -110,7 +110,7 @@ During the installation sequence it is normal to see several dialog boxes notify
 ## Operation
 Below are the outlines for the three main operations. Since each have several steps they are broken into their own pages, you will still need to follow the shutdown and cleanup steps following the operation.
 
-### [Basic Operation: Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/basic.md)
+### [Basic Operation: Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/basic/index.md)
 - Powering up the System
 - Selecting a Probe
 - Installing a Probe
@@ -121,7 +121,7 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample
 - Broadband Imaging
 
-### [Intermittent Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/intermittent.md)
+### [Intermittent Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/intermittent/index.md)
 - Overview
 - Installing a Probe 
 - Viewing the Probe in the Camera Window
@@ -132,7 +132,7 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample in Wavemode
 - BB Wavemode Imaging
 
-### [Motor Control, Camera View](/doc/equip/testing/ETL/atomic-force-microscope/motorcontrol.md)
+### [Motor Control, Camera View](/doc/equip/testing/ETL/atomic-force-microscope/motorcontrol/index.md)
 
 ## Shutdown
 In Progress
