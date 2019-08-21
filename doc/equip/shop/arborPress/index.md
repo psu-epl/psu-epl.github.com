@@ -29,23 +29,23 @@ This machine is broken into the following parts,
 | Index | Description |
 |-------|-------------|
 | 1 | Base |
-| 2 | Anvil |
+| *2* | *Anvil* |
 | 3 | Spring Pin 6x16 |
-| 4 | Ram |
+| *4* | *Ram* |
 | 5 | Cap |
-| 6 | Handle |
+| *6* | *Handle* |
 | 7 | Bolt, Hex M6x25 |
-| 8 | Washer M6 |
+| *8* | *Washer M6* |
 | 9 | Bolt, Hex M6x25 |
-| 10 | Bolt, Hex M6x30 |
+| *10* | *Bolt, Hex M6x30* |
 | 11 | Nut, Hex M6 |
-| 12 | Plate |
+| *12* | *Plate* |
 | 13 | SHSS M6x6 |
-| 14 | Pinion Retainer |
+| *14* | *Pinion Retainer* |
 | 15 | Bolt, Hex M6x12 |
-| 16 | Pinion |
+| *16* | *Pinion* |
 | 17 | Knob |
-| 18 | Lock Washer M6 |
+| *18* | *Lock Washer M6* |
 
 ## Setup
 - Make sure the work piece is securely attached or clamped to the table.
