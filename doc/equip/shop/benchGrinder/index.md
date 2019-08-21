@@ -32,7 +32,7 @@ This machine has two grinding wheels. See the diagram below,
 - Remove adjusting keys or wrenches before turning the power tool on.
 
 ## How to Get Help
-Include a list of which documents, websites, people, or mailing lists should be consulted in case of problems.
+Ask a Manager if you have any questions.
 
 # Using this Machine
 These sections describe the standard usage and common pitfalls.
