@@ -77,31 +77,31 @@ To set up the system perform the following procedures,
 - Stage Electronics to Translation Stage: The MiniStage motorized translation stage is an option for the Q-250. If you have this option, the stage electronics connections will be to the X and Y motors on the MiniStage. For Q-400 systems the stage electronics connections will be to the R and θ motors.
 - Camera to Stage Electronics and Computer: Underneath the video camera housing are two connectors: a power input jack and a video output socket. Connect the camera’s RCA-style video output receptacle to the video input of the video card in the computer. An adapter may be necessary between the RCA cable and the video card (this will be included with your system). Connect the camera’s power jack to the Mini-DIN receptacle in the upper-left corner of the Stage Electronics box.
 
-
-4. **Software Installation**: If you wish to transfer the operation of your microscope to another computer you will have to install all the interface software for Ambios’s DSP control card and the WinTV video camera card. The full process of installing the software is outlined below. Note: The order of theses steps should not be altered. In particular, do not install the DSP card before the WinTV card is successfully installed.
-	- Install the WinTV video camera card first. Instructions are provided in the manufacturer’s booklet.
-	- After the WinTV card has been installed shut down the computer. Insert Ambios’s DSP card into an available PCI slot. Fasten the card in place. Connect the 37-pin ribbon cable from the EIU to the card.
-	- Turn on the PC. The Windows operating system will generate a message box indicating that it has detected new hardware (the DSP card) and it will request the driver software for the new hardware. This is located in the PciDsp folder of the installation disk.
+### Software
+**Software Installation**: If you wish to transfer the operation of your microscope to another computer you will have to install all the interface software for Ambios’s DSP control card and the WinTV video camera card. The full process of installing the software is outlined below. Note: The order of theses steps should not be altered. In particular, do not install the DSP card before the WinTV card is successfully installed.
+- Install the WinTV video camera card first. Instructions are provided in the manufacturer’s booklet.
+- After the WinTV card has been installed shut down the computer. Insert Ambios’s DSP card into an available PCI slot. Fasten the card in place. Connect the 37-pin ribbon cable from the EIU to the card.
+- Turn on the PC. The Windows operating system will generate a message box indicating that it has detected new hardware (the DSP card) and it will request the driver software for the new hardware. This is located in the PciDsp folder of the installation disk.
 
 Note: There are separate subfolder for the different versions of Windows: folder Win9xME is for Windows 95, 98, or ME; folder WinXP is for the XP operating system, etc. Follow the instructions given by the ReadMe.doc file within the subfolder that matches your operating system.
 
 Note: Do not select the hardware installation option to have Windows automatically search for the best driver for the DSP card. Windows invariably selects the wrong driver and fails to do the installation correctly.
-	- Execute the ScanAtomic automatic installation program autorun.exe, as outlined in Section 2.5.1.
-	- Restart the computer so that the DSP interface software will be registered into the Windows operating system.
-	- Check the computer monitor display settings. The graphics must be set to a resolution of 1024x768, 16-bit color.
-	- Turn on the EIU. Run the ScanAtomic SPM control software. Because this will be the first time the software is executed on this machine, message boxes will be displayed indicating that there is no calibration data for the scanner. Click ‘yes’ to these messages to save the default calibration data being created.
-	- Setup the hardware configuration parameter as explained in Section 2.5.5.
+- Execute the ScanAtomic automatic installation program autorun.exe, as outlined in Section 2.5.1.
+- Restart the computer so that the DSP interface software will be registered into the Windows operating system.
+- Check the computer monitor display settings. The graphics must be set to a resolution of 1024x768, 16-bit color.
+- Turn on the EIU. Run the ScanAtomic SPM control software. Because this will be the first time the software is executed on this machine, message boxes will be displayed indicating that there is no calibration data for the scanner. Click ‘yes’ to these messages to save the default calibration data being created.
+- Setup the hardware configuration parameter as explained in Section 2.5.5.
 The software should now be fully capable of controlling the microscope hardware. A simple test to find if all is well is to press the Withdraw toolbar button and see if the scanner retracts a short distance.
 
 Note: The Q-port data analysis program must be registered with Ambios before it will be enabled. Instructions for registering Q-port will be given when the program is started.
 
 
-5. **Software Upgrade**: To reinstall or upgrade the software use the CD backup copy of the software package in the ETL. The contents of the CD (excluding optional RCP source code) are as follows:
-	- A compressed file containing the ScanAtomic software to operate the microscope and the Q-port software for data analysis. <ScanAtomic.cab>
-	- A general library of SPM images. < Image_Library>
-	- A utility folder containing software to manually install the Q-Scope’s DSP interface software. <PciDsp>
-	- An automated program for installing the ScanAtomic software onto a PC running the Microsoft Windows operating system. <autorun.exe>
-	- A copy of the operator’s manual in .pdf format.
+**Software Upgrade**: To reinstall or upgrade the software use the CD backup copy of the software package in the ETL. The contents of the CD (excluding optional RCP source code) are as follows:
+- A compressed file containing the ScanAtomic software to operate the microscope and the Q-port software for data analysis. <ScanAtomic.cab>
+- A general library of SPM images. < Image_Library>
+- A utility folder containing software to manually install the Q-Scope’s DSP interface software. <PciDsp>
+- An automated program for installing the ScanAtomic software onto a PC running the Microsoft Windows operating system. <autorun.exe>
+- A copy of the operator’s manual in .pdf format.
 
 Insert the CD into the drive and let the automated installation program guide you through the process. If the automated installation program does not start by itself it can be manually initiated by double clicking on the autorun.exe file icon.
 
