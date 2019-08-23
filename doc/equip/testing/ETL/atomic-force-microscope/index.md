@@ -11,7 +11,7 @@ date: 21st August 2019
 {:toc}
 
 # About this Machine
-This machine is a Quesant Q250 Atomic Force Microscope. Unless you know about scanning probe microscopy **Please read up on the basics of what this scanner can do [here](/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/index.md).**
+This machine is a Quesant Q250 Atomic Force Microscope. Unless you know about scanning probe microscopy **Please read up on the basics of what this scanner can do [here](/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/index).**
 
 Applications Include:
 - Investigations on thin films
