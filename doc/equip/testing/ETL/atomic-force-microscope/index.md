@@ -77,6 +77,7 @@ To set up the system perform the following procedures,
 - Stage Electronics to Translation Stage: The MiniStage motorized translation stage is an option for the Q-250. If you have this option, the stage electronics connections will be to the X and Y motors on the MiniStage. For Q-400 systems the stage electronics connections will be to the R and θ motors.
 - Camera to Stage Electronics and Computer: Underneath the video camera housing are two connectors: a power input jack and a video output socket. Connect the camera’s RCA-style video output receptacle to the video input of the video card in the computer. An adapter may be necessary between the RCA cable and the video card (this will be included with your system). Connect the camera’s power jack to the Mini-DIN receptacle in the upper-left corner of the Stage Electronics box.
 
+
 4. **Software Installation**: If you wish to transfer the operation of your microscope to another computer you will have to install all the interface software for Ambios’s DSP control card and the WinTV video camera card. The full process of installing the software is outlined below. Note: The order of theses steps should not be altered. In particular, do not install the DSP card before the WinTV card is successfully installed.
 	- Install the WinTV video camera card first. Instructions are provided in the manufacturer’s booklet.
 	- After the WinTV card has been installed shut down the computer. Insert Ambios’s DSP card into an available PCI slot. Fasten the card in place. Connect the 37-pin ribbon cable from the EIU to the card.
@@ -94,6 +95,7 @@ The software should now be fully capable of controlling the microscope hardware.
 
 Note: The Q-port data analysis program must be registered with Ambios before it will be enabled. Instructions for registering Q-port will be given when the program is started.
 
+
 5. **Software Upgrade**: To reinstall or upgrade the software use the CD backup copy of the software package in the ETL. The contents of the CD (excluding optional RCP source code) are as follows:
 	- A compressed file containing the ScanAtomic software to operate the microscope and the Q-port software for data analysis. <ScanAtomic.cab>
 	- A general library of SPM images. < Image_Library>
@@ -110,7 +112,7 @@ During the installation sequence it is normal to see several dialog boxes notify
 ## Operation
 Below are the outlines for the three main operations. Since each have several steps they are broken into their own pages, you will still need to follow the shutdown and cleanup steps following the operation.
 
-### [Basic Operation: Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/basic/index.md)
+### [Basic Operation: Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/basic/index)
 - Powering up the System
 - Selecting a Probe
 - Installing a Probe
@@ -121,7 +123,7 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample
 - Broadband Imaging
 
-### [Intermittent Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/intermittent/index.md)
+### [Intermittent Contact Imaging](/doc/equip/testing/ETL/atomic-force-microscope/intermittent/index)
 - Overview
 - Installing a Probe 
 - Viewing the Probe in the Camera Window
@@ -132,7 +134,7 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample in Wavemode
 - BB Wavemode Imaging
 
-### [Motor Control, Camera View](/doc/equip/testing/ETL/atomic-force-microscope/motorcontrol/index.md)
+### [Motor Control, Camera View](/doc/equip/testing/ETL/atomic-force-microscope/motorcontrol/index)
 
 ## Shutdown
 In Progress
