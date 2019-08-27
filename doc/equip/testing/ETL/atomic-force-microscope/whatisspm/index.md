@@ -13,7 +13,7 @@ date: 21st August 2019
 The Quesant Q250 microscope uses scanning probe microscopy technology. The term ‘scanning probe microscopy’ (SPM) represents a family of surface measurement techniques. The list of acronyms for the imaging techniques which may be considered species within the SPM family is very long— STM, AFM, SCM, SFM, DFM, and so on. In the most general sense, these imaging techniques reveal information about the surface properties of materials by scanning or "rastering" the surface with a small probe. Information about the interaction of the probe with the surface is transmitted to a computer where an image of the surface is formed. This section of the manual presents a simple model of the main components found inside a scanning probe microscope and a brief introduction to how the microscope works.
 
 ## Basic Model of a Scanning Probe Microscope
-/////////////insert Figure 1-1 A basic model of the scanning probe microscope.//////////////
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/1-1.jpg" width="400">
 
 The function of the building-block components in the image above are described below.
 - The Coarse Z Movement mechanism acts as the “legs” of the instrument. It walks the probe down to the sample surface from a position several millimeters away. The Coarse Z Movement has the ability to move the probe at speeds of 100’s of microns per second to rapidly close the sample-probe gap, as well as the ability to take small slow steps with a resolution of about one-quarter of a micron to finely position the probe within the operation range of the Piezo Scanner, which is typically only a few microns.
@@ -24,13 +24,17 @@ The function of the building-block components in the image above are described b
 ## Piezo Scanner
 Because of its central role in the ‘scanning’ part of scanning probe micrososcopy, a brief overview of the principles of operation behind the piezoelectric scanner is helpful. Piezoelectric materials have the property that they can be polarized by an electric field at high temperatures, so that when a voltage is applied to the electrodes on the piezoelectric material at room temperature it can be made to expand and contract very small distances (see below). Any mechanical device of this sort is called a position transducer— a mechanical device that converts a voltage into a mechanical displacement.
 
-/////////////////////////////////insert Figure 1-2 The basic concept of how a piezoelectric transducer works. (A) Side view of a thin rectangular plate of piezo material with electrodes on the top and bottom. (B) Applying a voltage of one polarity to the electrodes causes the plate to expand horizontally. (C) Applying a voltage of the opposite polarity causes the plate to contract horizontally./////////////////////////////////////////////
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/1-2.jpg" width="400">
+
+- The basic concept of how a piezoelectric transducer works. (A) Side view of a thin rectangular plate of piezo material with electrodes on the top and bottom. (B) Applying a voltage of one polarity to the electrodes causes the plate to expand horizontally. (C) Applying a voltage of the opposite polarity causes the plate to contract horizontally.
 
 Piezoelectric material can be formed into any shape. The shape most useful for the SPM scanner is a thin walled cylinder. Imagine taking the rectangular plate in the image above and curling it into a cylinder. As indicated in the image below, applying a voltage between the electrodes on the inside and outside surfaces of the Z cylinder will make the cylinder expand or contract axially, which would move an attached probe up or down.
 
 The XY motion of the piezo scanner is obtained by splitting the inside and outside electrodes on the cylinder walls into quarter sections, as shown in the righthand side of the image below. By applying equal voltages to opposing electrode pairs with reversed voltage polarity, one side of the tube can be made to stretch and the other side contract. This bends the tube sideways. The sideways bend produces the x-axis motion of the probe. The y-axis motion is produced similarly with the other two pairs of electrodes on the XY piezo.
 
-////////////////////////insert Figure 1-3 Voltages applied to the piezo cylinders to generate scanner movement of the probe.//////////////////////////
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/1-3.jpg" width="400">
+
+- Voltages applied to the piezo cylinders to generate scanner movement of the probe.
 
 ## The Probe and Sensor Electronics
 Now let’s look at the ‘probe’ part of scanning probe microscopy. There are several mechanisms which can be used to sense the probe’s proximity to a surface. Two of the most common sensing mechanisms, STM and AFM, are described below as examples.
@@ -40,7 +44,7 @@ Historically, STM is the first of the modern scanning probe microscope technique
 
 In the STM imaging technique, a small voltage is applied to the sample, typically 10-500 mV, and then a finely sharpened tip is brought close enough to the sample to produce a measurable tunneling current between the tip and the surface (see below). Ideally the tip does not actually touch the surface when the tunneling current is established. When the tip-sample separation is of order a few Angstroms the tunneling current will be of order 1 nanoampere, and this current is amplified and converted into a sensor output signal of order 1 volt.
 
-///////////////////insert STM sensor signal generation./////////////////////////////////
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/1-4.jpg" width="400">
 
 The tunneling sensing mechanism is extremely sensitive. The sensor signal changes by about a factor of 10 for every Angstrom change in the vertical height of the probe, giving the STM imaging technique an extremely high position sensitivity. Atomic-scale resolution is readily obtained in this way.
 
@@ -50,11 +54,11 @@ STM is not an all-purpose imaging technique, however. It has the serious disadva
 ### Atomic Force Microscopy (AFM)
 The AFM imaging technique uses a microfabricated cantilever with a small sharp point protruding from its underside. The position of the probe point is measured via the deflection of a laser beam which is reflected off of the back side of the cantilever (see below). 
 
-/////////////////////////////////////insert picture from page 1-5/////////////////
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/1-5.jpg" width="400">
 
 As the cantilever moves up and down the position of the laser spot on a split-diode photodetector changes, producing top T and bottom B photocurrents in the top and bottom diodes. The difference in these currents, T-B, indicates how much the cantilever bends. 
 
-////////////////insert AFM sensor signal generation.////////////////////////
+<img src="/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/1-5a.jpg" width="400">
 
 The contact mode and intermittent-contact mode AFM imaging techniques use the T-B signal in two different ways:
 - Constant Contact
