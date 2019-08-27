@@ -3,12 +3,16 @@ title: Basic Operation: Contact Imaging
 layout: doc
 author: Jennifer Jordan
 date: 27th August 2019
+
 ---
+
 
 ## Table of Contents
 {:.no_toc}
 * ToC
 {:toc}
+
+
 
 This page serves two purposes: It provides a fairly detailed overview of the basic steps needed to image a surface and any scanning mode of the instrument, and more specifically, it explains how to image a surface in the scan modes where the probe tip remains in constant contact with the sample surface: Z Height, Broadband, and Lateral.
 
