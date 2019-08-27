@@ -134,28 +134,69 @@ Below are the outlines for the three main operations. Since each have several st
 - Scanning the Sample in Wavemode
 - BB Wavemode Imaging
 
+### [Surface Force Measurements](/doc/equip/testing/ETL/atomic-force-microscope/surfaceforce/index)
+- Overview
+- Controls
+- Measurements
+- Positioning the Probe in the Scan Area
+- Estimating the Cantilever Force Constant
+
+### [Lateral Force Imaging](/doc/equip/testing/ETL/atomic-force-microscope/lateralForce/index)
+- Intro
+- Procedure
+
+### [Phase Imaging](/doc/equip/testing/ETL/atomic-force-microscope/phaseImaging/index)
+- Intro
+- Setting the Phase Detector
+
+### [Magnetic Force Microscopy](/doc/equip/testing/ETL/atomic-force-microscope/magForce/index)
+- Magnetic Force Microscopy (MFM) Imaging Procedure
+- Optimizing MFM Images
+
+### [Electric Force Microscopy](/doc/equip/testing/ETL/atomic-force-microscope/eForce/index)
+- Intro
+- Procedure
+- Electric Force Microscopy Test (EFM)
+
+
 ### [Motor Control, Camera View](/doc/equip/testing/ETL/atomic-force-microscope/motorcontrol/index)
+- Hardware Description
+- Motor Control Software
+- Programmed Scanning
 
 ## Shutdown
-In Progress
+Always unplug the system’s electronic cables with the EIU power switched off!!!! Using the Power Control Module make sure everything is powered down and unplug the power cable.
 
 ## Cleanup
-In Progress
+Be sure to carefully remove your specimen from the microscope and clean up your workstation.
 
 # Tips and Tricks
-In Progress
+Once you’ve made your way through the scanning process you will have a lot of data to sift through, below are some helpful pages for optimizing your data and analysis images. 
 
-## More about Scanning
-In Progress
+## [Working with Images](/doc/equip/testing/ETL/atomic-force-microscope/workWithImages/index)
+- Saving and Loading Image Files
+- Image Graphics
+- Changing the Color Palette
+- Refining the Image
+- Matrix Filtering
+- Fourier Transform Filtering
+- Printing Windows
+- Exporting to Graphics Applications
+- Next/Previous Toolbar Controls
 
-## Working with Images
-In Progress
+## [Image Analysis](/doc/equip/testing/ETL/atomic-force-microscope/imageAnalysis/index)
+- Histogram Analysis
+- Dimension Analysis
+- Section Detail
+- Image Math
 
-## Image Analysis
-In Progress
+## Standard System Calibration (Managers Only!)
+For the following types of system calibration and tests refer to the PDF Manual Chapter 9, **MANAGERS ONLY**,
+- X and Y Axis Calibration
+- Z Axis Calibration
+- Image Noise Test
+- Thermal Drift Test
+- Low Frequency Noise Test
 
-## Standard System Calibration
-In Progress
-
-## Troubleshooting
-In Progress
+## Troubleshooting (Managers Only)
+For troubleshooting refer to the PDF Manual Appendix A. **MANAGERS ONLY.**
