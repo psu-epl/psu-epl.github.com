@@ -36,7 +36,6 @@ Clamp tools securely, cutting forces are significant and can turn improperly cla
 Just because *you* are unable to jiggle the workpiece doesn't mean the machine will be unable to.
 
 # Using this Machine
-These sections describe the standard usage and common pitfalls.
 When you are moving the the carriage hand wheel(large black wheel on front of the lathe) can move the tool by 0.02 inches on the
 either toward or away from the heatstock. Use this handwheel to position the carriage prior to starting and pull it towards you to
 disengage it when you're about to start.
@@ -48,7 +47,7 @@ Compound rest feed handle is used to move the tool toward or away from your work
 
 ## Setup
 Confirm that the following conditions are met.
-@@ -47,6 +54,11 @@ Confirm that the following conditions are met.
+
 
 insert pic of lathe motor controls
 
@@ -60,7 +59,6 @@ The black lever on the tailstock locks into place lift it up to lock and push it
 To power up the lathe:
   1. Turn the E-stop button to the right to ensure that it is in the on position.
   2. Press the top half of the power switch.
-@@ -58,7 +70,8 @@ To start the lathe:
   3. Use the speed control buttons to adjust the spindle speed.
 
 ## Shutdown
