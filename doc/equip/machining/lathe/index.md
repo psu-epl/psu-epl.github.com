@@ -8,14 +8,13 @@ author:
 # Lathe SOP
 ---
 # About this Machine
-![picture of the machine](images/kitten.jpg)
+![picture of the machine](img/lathe.jpg)
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
 
 - The lathe is great for cutting metal and wax work pieces
 - Utilizes carbide and diamond cutting tips to shave up to 1/1000 of an inch of material at a time
 - Manual adjustment of cutting angles allows for tapered cuts 
 - This lathe *does not* cut wood - requires a completely separate set-up
-- 
 
 
 ## Useful Links
@@ -49,7 +48,7 @@ Compound rest feed handle is used to move the tool toward or away from your work
 Confirm that the following conditions are met.
 
 
-insert pic of lathe motor controls
+![lathe motor controls](img/lathe_motor_control.png)
 
 Make sure that your stock piece is secured in the chuck 
 
