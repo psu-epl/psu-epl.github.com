@@ -7,25 +7,21 @@ date:
 ---
 
 # Using the LPKF S63 Circuit Board Plotter
-
 ![LPKF s63 picture](img/s63_lid_closed.jpg)
 
 ## Before You Start
 
  1. Login to controller PC
  2. Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
-
 ![LPKF s63 open cover](img/s63_lid_opened.jpg)
 
  3. Start the LPKF CircuitPro software
-
 ![LPKF s63 software](img/s63_software.png)
 
  4. Select the job type (under the templates tab)
     - Single Sided: `single_sided_top` or `single_sided_bottom`
     - 2 layer (no plating): `double_sided_NoTHP`
     - 2 layer (plating machine): `double_sided_GalvonicTHP` (see plating SOP)
-
 ![LPKF s63 software template](img/s63_software_template.png)
 
 -----------------------------------------------------------------------------------------------
