@@ -13,15 +13,15 @@ date:
 ## Before You Start
 
  1. Login to controller PC
- 1. Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
+ 2. Turn on the S63 (Open the cover; The power switch is on the bottom right front corner.)
 
 ![LPKF s63 open cover](img/s63_lid_opened.jpg)
 
- 1. Start the LPKF CircuitPro software
+ 3. Start the LPKF CircuitPro software
 
 ![LPKF s63 software](img/s63_software.png)
 
- 1. Select the job type (under the templates tab)
+ 4. Select the job type (under the templates tab)
     - Single Sided: `single_sided_top` or `single_sided_bottom`
     - 2 layer (no plating): `double_sided_NoTHP`
     - 2 layer (plating machine): `double_sided_GalvonicTHP` (see plating SOP)
