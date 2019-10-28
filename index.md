@@ -86,5 +86,5 @@ If you'd like to contribute to this documentation, [read this](/doc/contributing
 [checkout]: https://commerce.cashnet.com/ecei
 [donate]: https://cconn.foundation.pdx.edu/ccon/new_gift.do?action=newGift&giving_page_id=240
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
-[inventory]: https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?
+[inventory]: https://docs.google.com/spreadsheets/d/1lSQqGlqwWpIgag0SeZ1gsVLMmS5nbCwTHHkiVlZM0m0/edit?usp=sharing
 
