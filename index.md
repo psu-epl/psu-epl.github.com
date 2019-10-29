@@ -2,7 +2,7 @@
 layout: base
 title: Portland State University Electronics Prototyping Lab
 ---
-
+![The EPL](/images/lab_panorama1.JPG)
 
 The EPL is a lab for rapidly prototyping electronics projects. 
 It is meant for both students and the community to be able to walk in with an idea and walk out with a fully functioning prototype.
@@ -12,6 +12,9 @@ Our phone number is **503-725-2879**.
 
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! Email lid@pdx.edu to donate!
+
+# Lab Calendar
+{% include calendar_lab.html %}
 
 Here are some links to commonly visited pages:  
 [Equipment],
@@ -55,8 +58,7 @@ Read the **documentation** on our machines, policies, services, and more to lear
 Once a term, industry professionals and lab managers offer single-session workshops on various tools, programs, and techniques.
 View our [Eventbrite page][Eventbrite] for upcoming events
 
-# Lab Calendar
-{% include calendar_lab.html %}
+
 
 # Lab Equipment
 Here is the list of equipment and its current status. Sometimes machines
@@ -69,7 +71,7 @@ Click on a machine to jump to its documentation.
 The lab is currently open to all PSU students and staff. The lab is also open to the greater Portland community members by
 invitation only.
 
-![The EPL](/images/lab_panorama1.JPG)
+
 
 Can't find what you're looking for? Try the [site list](/doc/siteList.md).  
 If you'd like to contribute to this documentation, [read this](/doc/contributing.md).
