@@ -75,6 +75,7 @@
     - name: QD-1390 Laser Cutter
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
+      log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
       up: false
       
     - name: Full Spectrum Pro CO2 Laser Cutter

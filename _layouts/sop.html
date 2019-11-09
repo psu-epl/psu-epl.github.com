@@ -1,0 +1,40 @@
+---
+layout: base
+---
+
+<!-- Initialize a variable to keep track of whether the page title matches something in the machine list. --!>
+{% assign noname = true %} 
+
+<h1 style="font-family: serif;"> {{ page.title }} </h1>
+<hr style="height:2pt; background:darkgreen;"/>
+<!-- Look for something in the machine list with a name that matches the page title. --!>
+{% for category in site.data.machines %}
+    {% for machine in category.machines %}
+      {% if machine.name == page.title %}
+        {% assign noname = false %}
+	{% if machine.up == true %}
+	  This machine is working fine.
+	{% elsif machine.up == false %}
+	  <b>This machine is currently down!</b>
+	{% else %}
+	  This machine may have some issues.
+	{% endif %}
+	<br/>
+        {% unless machine.log == blank %}
+          <a href="{{ machine.log }}">Managers, click here for the maintenance log.</a>
+        {% endunless %}
+        <img src="{{ site.url }}/{{ machine.img }}">
+      {% endif %}
+    {% endfor %}
+{% endfor %}
+{% if noname == true %}
+{% endif %}
+
+<!--
+<div class="machine {% if machine.up == true %}up
+{% elsif machine.up == false %}down{% else %}other{% endif %}" width=100%>
+This is the colored block that says if the machine is working.
+</div>
+--!>
+
+{{ content }}

@@ -1,15 +1,20 @@
 ---
-title: QD 1390 Laser Cutter
-layout: doc
+title: "QD-1390 Laser Cutter"
+layout: sop
 author: Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak, Joseph Shields
 date: 2019-05-17
+selfie: QD1390LaserCutter.JPG
 
 ---
 
-# QD-1390 Laser Cutter
+## Table of Contents
+{:.no_toc}
+* ToC
+{:toc}
 
 # Approved Materials
 
+{:class="table table-striped"}
 |Material	|Minimum Thickness	|Maximum Thickness	|
 |---------------|----------------------:|----------------------:|
 |Acrylic	|1/16 in		|1/4 in			|
@@ -20,6 +25,7 @@ date: 2019-05-17
 |Poster Board	|normal			|normal			|
 |Wood (General)	|1/8 in			|1/4 in			|
 |Wood (Ply)	|1/8 in			|1/8 in			|
+
 
 Ask a manager if you would like to cut any materials not listed above.
 
@@ -118,15 +124,15 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 1. When you think your job is ready in RDWorks, open the hood (make sure the IR laser switch is **still** OFF) and place your material under the laser head.
     1. The green square in RDWorks is laser head start position. It will usually be positioned to the upper left of your piece. So you should place your material down so the laser head is directly above the upper left of your material.
-[](2. You will need to focus the laser for your material using the focusing tool by placing it on top of your material, and using the top adjustment grip on the laser head to loosen it and slide the entire laser head so that the tip of the laser rests slightly on the top of the focusing tool. Gently tighten the adjustment grip and remove the focusing tool before closing the hood.)
-2. Adjust the lens height so the bottom edge of the purple tape is 2 in. from the surface of the material to cut.
-    2. *Note: Be careful to not over-tighten the focusing knob!*
-![](img/image_9a.png)
+[](1. You will need to focus the laser for your material using the focusing tool by placing it on top of your material, and using the top adjustment grip on the laser head to loosen it and slide the entire laser head so that the tip of the laser rests slightly on the top of the focusing tool. Gently tighten the adjustment grip and remove the focusing tool before closing the hood.)
+1. Adjust the lens height so the bottom edge of the purple tape is 2 in. from the surface of the material to cut.
+    1. *Note: Be careful to not over-tighten the focusing knob!*
+![](img/image_9.png)
 
-3. Close the hood, and click "Start" in the laser control on RDWorks.
-    3. Since the IR laser shouldn’t be on yet, it will not burn your piece. This is just to make sure that the laser will stay on your piece and not cut off of it (which may damage the laser bed).
+1. Close the hood, and click "Start" in the laser control on RDWorks.
+    1. Since the IR laser shouldn’t be on yet, it will not burn your piece. This is just to make sure that the laser will stay on your piece and not cut off of it (which may damage the laser bed).
 ![image alt text](img/image_10.png)
-4. Once you are sure that the laser will stay on your piece, proceed to the next step.
+1. Once you are sure that the laser will stay on your piece, proceed to the next step.
 
 ## Final Prep
 

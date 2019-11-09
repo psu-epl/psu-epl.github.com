@@ -6,9 +6,14 @@
         <a href="{{ machine.sop }}">
           <img src="{{ site.url }}/{{ machine.img }}">
           <p>
-            {{ machine.name }}
+	    <b>{{ machine.name }}</b>
           </p>
         </a>
+	{% unless machine.log == blank %}
+          <p>
+	    <a href="{{ machine.log }}">Click here for the maintenance log.</a>
+          </p>
+	{% endunless %}
       </div>
     {% endfor %}
   </div>
