@@ -1,8 +1,8 @@
 ---
-title: Ultimaker 3 3D Printer
-layout: doc
-author: 
-date: 
+title: Ultimaker3 Extended 3D Printer
+layout: sop
+author: Joe Shields
+date: 2019-11-09
 
 ---
 # Before you start!

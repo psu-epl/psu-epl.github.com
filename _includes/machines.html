@@ -5,14 +5,16 @@
       <div class="machine {% if machine.up == true %}up{% elsif machine.up == false %}down{% else %}other{% endif %}">
         <a href="{{ machine.sop }}">
           <img src="{{ site.url }}/{{ machine.img }}">
-          <p>
-	    <b>{{ machine.name }}</b>
-          </p>
+	  <b>{{ machine.name }}</b>
+	  <br/>
         </a>
+	{% unless machine.nickname == blank %}
+	  nickname "{{ machine.nickname }}"
+          <br/>
+	{% endunless %}
 	{% unless machine.log == blank %}
-          <p>
-	    <a href="{{ machine.log }}">Click here for the maintenance log.</a>
-          </p>
+	  <a href="{{ machine.log }}">maintenance log link</a>
+	  <br/>
 	{% endunless %}
       </div>
     {% endfor %}

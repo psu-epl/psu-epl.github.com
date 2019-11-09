@@ -1,19 +1,33 @@
 - title: Circuit Board Manufacturing
   machines:
-    - name: LPKF PCB Router
+    - name: LPKF S63 PCB Router
       img: images/protomat-s63.jpg
       sop: /doc/equip/router/LPKF
+      log: https://drive.google.com/open?id=1dn1lqT6qjSTQcAiOyRoKjd4zqJ5IO3UAcCQ4iV2hdww
       up: true
+
+    - name: LPKF S64 PCB Router
+      img: ''
+      sop: ''
+      log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
+      up: other
 
     - name: A406 PCB Router
       img: images/A406.jpg
       sop: /doc/equip/router/A406
+      log: https://drive.google.com/open?id=1FQ2Yk2N9h-7r4D-DekRvR2kizTpJYJVYTe7bal3aU9A
       up: true
 
     - name: T200N Desktop Solder Oven
       img: images/torch.jpg
       sop: /doc/equip/solder/oven
       up: true
+
+    - name: Pick and Place Machine
+      img: ''
+      sop: ''
+      log: https://drive.google.com/open?id=1rsTGvFpD9nGbvPkbAQiWuUJSHUlgWXImFJR7efWPjzI
+      up: false
 
     - name: Test and Measurement
       img: images/test_equipment.JPG
@@ -28,18 +42,31 @@
       up: true
 
     - name: Ultimaker2 3D Printer
+      nickname: Jekyll
       img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
+      log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
       up: true
       
-    - name: Ultimaker3 Extended 3D Printer (x2)
+    - name: Ultimaker3 Extended 3D Printer
+      nickname: Harold
       img: images/Ultimaker3.JPG
       sop: /doc/equip/printer/UM3
+      log: https://drive.google.com/open?id=1Rv7u8gue2PmMjZiChcRXUE5_H8AnhcjPdVjrxjSZEjg
+      up: other
+      
+    - name: Ultimaker3 Extended 3D Printer
+      nickname: Maude
+      img: images/Ultimaker3.JPG
+      sop: /doc/equip/printer/UM3
+      log: https://drive.google.com/open?id=1j2wiCxc_EMB3Ooz6ejKgaZR8mz39dCNLOgnmJnj6fbA
       up: other
       
     - name: FormLabs Form2
+      nickname: Hyde
       img: doc/equip/printer/form2/img/Formlabs2.JPG
       sop: /doc/equip/printer/form2
+      log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
       up: True
 
     - name: Shining 3D Scanner
@@ -69,6 +96,12 @@
       sop: /doc/equip/misc/Thermocut
       up: true
       
+    - name: Wazer
+      img: ''
+      sop: ''
+      log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
+      up: true
+      
 
 - title: Laser Cutters
   machines:
@@ -82,10 +115,17 @@
       img: images/prolf20x12.JPG
       sop: /doc/equip/laser/fullSpectrum
       up: false
+      
+    - name: Full Spectrum Laser Cutter
+      img: ''
+      sop: ''
+      log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
+      up: other
 
     - name: K40 Laser Cutter
       img: images/K40Laser.jpg
       sop: /doc/equip/laser/K-40
+      log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
       up: true
 
 - title: Shop and Hand Tools

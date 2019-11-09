@@ -70,7 +70,8 @@ body > .wrapper { height: auto; min-height: 100%; }
 .machine.down { background: #d44; }
 .machine.down img { opacity: 0.7; }
 .machine.down:after {
-    content: "This machine is currently down.";
+    font-weight: bold;
+    content: "This machine is down.";
 }
 .machine.up:after {
     color: #3e3;
@@ -79,5 +80,5 @@ body > .wrapper { height: auto; min-height: 100%; }
 .machine.other { background: #bb0; }
 .machine.other img { opacity: 0.7; }
 .machine.other:after {
-    content: "This machine may have issues.";
+    content: "This machine has issues.";
 }

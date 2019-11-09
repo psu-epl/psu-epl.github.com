@@ -1,5 +1,5 @@
 ---
-title: Basic Operation: Contact Imaging
+title: 'Basic Operation: Contact Imaging'
 layout: doc
 author: Jennifer Jordan
 date: 27th August 2019

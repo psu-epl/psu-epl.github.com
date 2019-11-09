@@ -3551,7 +3551,8 @@ body > .wrapper {
   opacity: 0.7;
 }
 .machine.down:after {
-  content: "This machine is currently down.";
+  font-weight: bold;
+  content: "This machine is down.";
 }
 .machine.up:after {
   color: #3e3;
@@ -3564,5 +3565,5 @@ body > .wrapper {
   opacity: 0.7;
 }
 .machine.other:after {
-  content: "This machine may have issues.";
+  content: "This machine has issues.";
 }
