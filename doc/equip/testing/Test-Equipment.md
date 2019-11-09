@@ -38,6 +38,6 @@ date: 25 July 2019
 
 ## [RF Chamber](/doc/equip/testing/RF-Chamber)
 
-## [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
+## [Environmental Testing Lab](/doc/equip/testing/ETL/index)
 
 

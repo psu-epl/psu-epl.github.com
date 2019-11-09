@@ -20,7 +20,7 @@ It can operate on materials like aluminum and mild/unhardened steel, or anything
 (Note, if you're machining steel, you must provide your own tooling. This is to avoid excessive wear on lab cutters and drills.)
 
 This mill has manual control over three axes, with dials on X and Y, and a depth stop.
-The X and Y axes have significant [backlash](https://en.wikipedia.org/wiki/Backlash_(angineering)), which you may need to take into account if you require tight tolerances.
+The X and Y axes have significant [backlash](https://en.wikipedia.org/wiki/Backlash_(engineering)), which you may need to take into account if you require tight tolerances.
 
 "High torque" is relative. 
 For a mill, this is a very low-torque machine.

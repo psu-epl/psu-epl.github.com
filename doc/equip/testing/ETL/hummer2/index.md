@@ -12,7 +12,7 @@ date: 6th August 2019
 {:toc}
 
 # About this Machine
-~~////////////////////////////////![picture of the machine](images/kitten.jpg)~~
+~~////////////////////////////////![picture of the machine]({{ site.url }}/images/kitten.jpg)~~
 
 The HUMMER II performs sputter coating, a cold process in which ions impacting a metal source dislodge metal atoms. The atoms disperse throughout the process chamber to uniformly coat irregularly shaped specimens without thermal damage. Sputter coating produces high quality coatings whose thickness is repeatable and easily controlled. Cold, fast sputter rates require less time, giving you more time for microscope examinations. 
 
@@ -27,7 +27,7 @@ Any of these three modes can be operated in “Pulse mode” (repeated on-off pa
 
 ## Useful Links
 - [Manufacturer Website](http://anatechusa.com/hummer-sputter-systems)
-- You can find the manual ~~[here](manual.pdf).~~
+- You can find the manual... TODO: put a link here.
 - Sputtering System [Definitions](https://en.wikipedia.org/wiki/Sputtering)
 
 ## Machine Safety

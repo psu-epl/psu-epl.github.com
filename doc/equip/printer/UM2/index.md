@@ -20,7 +20,7 @@ The Ultimaker 2 3D printer is for printing solid 3D models from (.stl) digital f
 
 # Useful Links
 - [Link to Ultimaker 2 User Manual](https://ultimaker.com/en/resources/16955-changing-filament)
-- For material, type, and price please refer to the [3D Material Guide](Printer-Materials)
+- For material, type, and price please refer to the [3D Material Guide](../Printer-Materials)
 
 # Machine Safety
 The 3D printing head and the glass bed reaches high temperatures. Keep your hands clear of the Ultimaker print bed and head. Only Managers should change filament and adjust leveling settings.
@@ -37,7 +37,7 @@ You will need to have your part in .stl (Stereolithographic) format. Most CAD pr
 Some CAD programs offer to export in mm scale even when the part is designed in inches, but this sometimes doesn’t work and the part will appear extremely small on the print bed. To eliminate headaches, design your part in millimeters.
 
 ## Operation
-Only Managers are allowed to start prints, change filament, and adjust settings. How to [become a Manager](doc/policies/Becoming-an-E.P.L.-Manager.md)!
+Only Managers are allowed to start prints, change filament, and adjust settings. How to [become a manager]!
 
 # Using Cura
 Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers and export them as toolpaths. If you are setting up your own print be sure to keep your .stl file and .gcode file for the Managers to review. There are some troubleshooting techniques that the Managers are equipped with to prevent printing errors! **Note: Always have a Manager review your part!** If needed, ask a Manager for assistance using Cura. 
@@ -110,3 +110,5 @@ Click “Prepare” in the bottom-right corner of the menu.
 ![](img/image16.png){width="4.458333333333333in"height="1.1770833333333333in"}
 
 This will create a .gcode file which only the Ultimaker 2 will read.
+
+[become a manager]: {{ site.url }}/doc/policies/Becoming-an-E.P.L.-Manager

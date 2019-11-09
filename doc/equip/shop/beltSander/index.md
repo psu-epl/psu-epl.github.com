@@ -22,7 +22,7 @@ It’s typically recommended that you use the belt sander for rough and fast job
 
 ## Useful Links
 - [Manufacturer Website]( https://www.harborfreight.com)
-- You can find the manual [here](/doc/equip/shop/beltSander/94186.pdf).
+- You can find the manual [here](/doc/equip/shop/beltSander/69033.pdf).
 
 ## Machine Safety
 - Keep the guards in place.

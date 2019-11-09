@@ -35,26 +35,26 @@ It's easy! Here's what you do:
  1. Check the calendar (below) for office hours.
  1. Come to the lab during those office hours and get trained by an EPL manager on the equipment you want to use. Be sure you've signed a Liability Waiver! Once you're trained on a piece of equipment, you can come in during any office hours and use that equipment.
  1. Pay for parts, materials, and equipment time [online][checkout].
- 1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. Information on how to proceed here: [Becoming a Manager](/doc/policies/Becoming-an-E.P.L.-Manager.md) :)
+ 1. Once you've been trained on ALL the equipment, and you're willing to volunteer some hours to open the lab, you're eligible to become an EPL student manager. This gives you 24 hour card key acccess, although it does come with a lot of responsibility. Information on how to proceed here: [Becoming a Manager](/doc/policies/Becoming-an-E.P.L.-Manager) :)
 
 # Documentation
-Read the **documentation** on our machines, policies, services, and more to learn about the EPL.
+Read the [**documentation**](doc) on our machines, policies, services, and more to learn about the EPL.
 
-### [Equipment](/doc/equip/index.md)
-- EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/index.md)
-- [RF-Chamber](/doc/equip/testing/RF-Chamber.md)
-- [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
+### [Equipment](/doc/equip/)
+- EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/)
+- [RF-Chamber](/doc/equip/testing/RF-Chamber)
+- [Environmental Testing Lab](/doc/equip/testing/ETL/)
 
-### [Circuit Store](/doc/store/index.md)
+### [Circuit Store](/doc/store)
 - [Pay][checkout] for parts and machine use
-- View our [inventory & pricing][inventory] and [lab fees](/doc/store/pricing.md)
+- View our [inventory & pricing][inventory] and [lab fees](/doc/store/)
 
-### [Lab Policies](/doc/policies/index.md)
+### [Lab Policies](/doc/policies)
 - [Emergency](/doc/policies/Safety-protocols) procedures
-- How to [be a manager](/doc/policies/Becoming-an-E.P.L.-Manager.md)
+- How to [be a manager](/doc/policies/Becoming-an-E.P.L.-Manager)
 - Other administrative things
 
-### [Workshops](/doc/workshops/index.md)
+### [Workshops](/doc/workshops)
 Once a term, industry professionals and lab managers offer single-session workshops on various tools, programs, and techniques.
 View our [Eventbrite page][Eventbrite] for upcoming events
 
@@ -73,8 +73,8 @@ invitation only.
 
 
 
-Can't find what you're looking for? Try the [site list](/doc/siteList.md).  
-If you'd like to contribute to this documentation, [read this](/doc/contributing.md).
+Can't find what you're looking for? Try the [site list](/doc/siteList).  
+If you'd like to contribute to this documentation, [read this](/doc/contributing).
 
 [manager repo]: https://github.com/psu-epl/epl-managers-private/wiki
 [Equipment]: doc/equip

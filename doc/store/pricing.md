@@ -1,9 +1,11 @@
 ---
 title: Material Prices
 layout: doc
-author: 
-date: 
+author: Joe Shields
+date: 2019-11-09
 ---
+
+[Check this page for our latest inventory and pricing.][inventory]
 
 # Machine Time
 ## Soldering Station
@@ -46,3 +48,4 @@ date:
 - Lockers $10.00 a term or $20.00 for full year (4 terms Fall to end of Summer) *As a note these are the blue lockers by the Tek Lab
 
 [ECE Labs]: http://web.cecs.pdx.edu/~ecelab/
+[inventory]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRctTWgzjjFlbtDmUZ98G7og6jb6IJ1X1vd8zwDnGen3mGZxCVO0T1Jp2Iw2ze2l4Bet2ey2GKlb9wB/pubhtml

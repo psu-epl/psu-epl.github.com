@@ -7,24 +7,24 @@ sidebar: toc
 
 ---
 
-Can't find what you're looking for? Try the [site list](/doc/siteList.md).  
-If you'd like to contribute to this documentation, [read this](/doc/contributing.md).
+Can't find what you're looking for? Try the [site list](/doc/siteList).  
+If you'd like to contribute to this documentation, [read this](/doc/contributing).
 
-# [Equipment](/doc/equip/index.md)
-- EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/index.md)
-- [RF-Chamber](/doc/equip/testing/RF-Chamber.md)
-- [Environmental Testing Lab](/doc/equip/testing/ETL/index.md)
+# [Equipment](/doc/equip/)
+- EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/)
+- [RF-Chamber](/doc/equip/testing/RF-Chamber)
+- [Environmental Testing Lab](/doc/equip/testing/ETL/)
 
-# [Circuit Store](/doc/store/index.md)
+# [Circuit Store](/doc/store/)
 - [Pay][checkout] for parts and machine use
-- View our [inventory & pricing][inventory] and [lab fees](/doc/store/pricing.md)
+- View our [inventory & pricing][inventory] and [lab fees](/doc/store/pricing)
 
-# [Lab Policies](/doc/policies/index.md)
+# [Lab Policies](/doc/policies)
 - [Emergency](/doc/policies/Safety-protocols) procedures
-- How to [be a manager](/doc/policies/Becoming-an-E.P.L.-Manager.md)
+- How to [be a manager](/doc/policies/Becoming-an-E.P.L.-Manager)
 - Other administrative things
 
-# [Workshops](/doc/workshops/index.md)
+# [Workshops](/doc/workshops)
 Once a term, industry professionals and lab managers offer single-session workshops on various tools, programs, and techniques.
 View our [Eventbrite page][Eventbrite] for upcoming events
 
