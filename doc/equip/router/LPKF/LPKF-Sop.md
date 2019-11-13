@@ -91,7 +91,7 @@ The "Insulate" settings control how much copper will be removed around your feat
    - Next, Select the **Show Details** button below the insulation image.
    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter 0, 1mm** in the Available Tools list.
 
-![LPKF Set Insulate](img/set_insulate.png)
+![LPKF Set Insulate](img/set_insulate.PNG)
 
 #### **Contour Routing**
 
