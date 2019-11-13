@@ -3,7 +3,6 @@ title: "QD-1390 Laser Cutter"
 layout: sop
 author: Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak, Joseph Shields
 date: 2019-05-17
-selfie: QD1390LaserCutter.JPG
 
 ---
 

@@ -28,19 +28,19 @@ Go into CNC mode and hit *Park.* Make sure it is not in Emergency Stop mode.
 
 Next you will have to go to the ATC Control Panel 
 
-![](img/ATCControlPanel.png) 
+![](img/ATCControlPanel.PNG) 
 
 Even though you have pulled the tool, PhCNC still does not know that its tool holder slot is empty. Run *Tool Holders check.*
 
 Now you should see that the tool you pulled is blank in the list. 
 
-![](img/Emptytoolholder9.png)  
+![](img/Emptytoolholder9.PNG)  
 
 # Replace the tool
 
 Double click on the newly-empty tool. You should get a popup instructing you to change the tool. 
 
-![](img/Changetooldialog.png) 
+![](img/Changetooldialog.PNG) 
 
 The *target* button referred in this dialog is a silver button on the left side of the A406, on the edge closest to you. When you press it, you should hear the collet open. When you release it, you should hear it close. 
 
@@ -54,16 +54,16 @@ Once the tool is in place, you may have to press *Return Tool* on the ATC contro
 
 Now you will have to define the new tool in the PhCNC software. The ATC control panel should now show that your tool is *undefined.* 
 
-![](img/undefinedtool.png) 
+![](img/undefinedtool.PNG) 
 
 Double click on your undefined tool and you will get a window with several options. You should see your new tool at the bottom.
 
-![](img/Undefinedtoollist.png) 
+![](img/Undefinedtoollist.PNG) 
 
 Click on the new tool and put in its diameter, type, and operation. The rest you can leave as *default.* 
 
 Once you close the window, you should see that your tool is now defined. Congratulations, you have defined your tool! 
 
-![](img/Tooldefined.png) 
+![](img/Tooldefined.PNG) 
 
 [Index](index.html)

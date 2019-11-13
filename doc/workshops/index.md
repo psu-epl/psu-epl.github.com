@@ -39,4 +39,4 @@ If you have any questions, [please email us.][lidworks]
 ## [SolidWorks](SolidWorks)
 
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
-[lidworks]: lidworks@pdx.edu
+[lidworks]: mailto:lidworks@pdx.edu
