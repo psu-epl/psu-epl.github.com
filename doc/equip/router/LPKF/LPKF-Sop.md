@@ -13,10 +13,10 @@ date:
 
  1. Login to controller PC
  2. Turn on the S63 (Open the machine cover, the power switch is on the bottom right front corner)
-<img src="img/s63_lid_opened.jpg" width="650">
+<img src="img/s63_lid_opened.jpg" width="650" height="700">
 
  3. Close the machine cover. Then start the LPKF CircuitPro software
-<img src="img/s63_software.png" width="650" height="700">
+<img src="img/s63_software.png" width="650">
 
  4. Select the job type (under the templates tab)
     - Single Sided: `single_sided_top` or `single_sided_bottom`
