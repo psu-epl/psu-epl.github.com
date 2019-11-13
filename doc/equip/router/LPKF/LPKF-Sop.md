@@ -7,7 +7,7 @@ date:
 ---
 
 # Using the LPKF S63 Circuit Board Plotter
-![LPKF s63 picture](img/s63_lid_closed.jpg)
+![LPKF s63 picture](img/s63_lid_closed.jpg | width=200, height=200)
 
 ## Before You Start
 
