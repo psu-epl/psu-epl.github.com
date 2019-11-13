@@ -16,7 +16,7 @@ date:
 <img src="img/s63_lid_opened.jpg" width="650">
 
  3. Close the machine cover. Then start the LPKF CircuitPro software
-<img src="img/s63_software.png" width="650">
+<img src="img/s63_software.png" width="650" height="800">
 
  4. Select the job type (under the templates tab)
     - Single Sided: `single_sided_top` or `single_sided_bottom`
