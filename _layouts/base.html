@@ -44,12 +44,49 @@
 		<!-- This is gory af, but it works, lol. -->
 		{% unless page.url == '/' %}
 		  {% assign pagePath = page.url | split: '/' %}
-                  <a href="{% for dir in pagePath %}{% unless forloop.first %}/{% endunless %}{% unless forloop.last %}{{ dir }}{% endunless %}{% endfor %}">Go To Parent</a>
+                  <a href="{% for dir in pagePath %}{% unless forloop.first %}/{% endunless %}{% unless forloop.last %}{{ dir }}{% endunless %}{% endfor %}">Go To Parent Page</a>
                   <br/>
 		{% endunless %}
                 <a href="https://github.com/psu-epl">GitHub Organization</a>
 	      </div>
             </th>
+	    <th>
+	      page.path= {{ page.path }}<br/>
+              page.dir= {{ page.dir }}<br/>
+              {% for pagei in site.pages %}
+	        {% assign truncPath = pagei.dir | remove_first: page.dir %}
+		{% assign tpSplit = truncPath | split: '/' %}
+		{% assign tpsFirst = tpSplit | first %}
+		{% assign tpsLast = tpSplit | last %}
+                {% if pagei.dir == page.dir %}
+	          {% case pagei.name %}
+	            {% when "index.md" %}
+	            I found myself: {{ pagei.path }} == {{ page.path }}. <br/>
+	            {% else %}
+	            I found a sibling: {{ pagei.path }}.<br/>
+	          {% endcase %}
+		  {% elsif truncPath == blank %}
+		    truncPath is blank<br/>
+		  {% elsif tpsFirst == tpsLast and pagei.name == 'index.md' and pagei.dir != '/'%}
+		  I found a child?: {{ pagei.path }}<br>
+		  {% else %}
+		    {% comment %}
+		    truncPath: {{ truncPath }}<br/>
+		    {% endcomment %}
+                {% endif %}
+		{% assign tpSplit = truncPath | split: '/' %}
+		{% comment %}
+		tpSplit: {{ tpSplit }}<br>
+		{% assign tpsFirst = tpSplit | first %}
+		{% assign tpsLast = tpSplit | last %}
+		{% assign tps2 = tpSplit[1] %}
+		tpsFirst: {{ tpsFirst }}<br>
+		tps2: {{ tps2 }}<br>
+		tpsLast: {{ tpsLast }}<br>
+		{% endcomment %}
+              {% endfor %}
+
+	    </th>
             <th>
               <div align="right">
                 <!-- right column-->
