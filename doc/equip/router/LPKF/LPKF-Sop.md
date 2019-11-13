@@ -38,10 +38,9 @@ date:
         * Bottom Gerber
         * Board Outline Gerber
         * Excellion Drill Data
+    - Click **Open**.
 
 ![LPKF Import File](img/import_board.png)
-
-Click **Open**
 
 2. Assign layers
 
@@ -51,6 +50,7 @@ The import dialog will show a list of the four data files. There is a column lab
     - BottomLayer
     - BoardOutline
     - DrillUnplated (or DrillPlated if plating)
+Click **OK**.
 
 ![LPKF Assign Layers](img/assign_layer.png)
 
@@ -67,6 +67,8 @@ Fiducials are holes used to align your work piece during the routing process. Th
     - Click on the 3 or more points where you would like the fiducial holes to be.
     - Choose **Close** (not apply)
     - Choosing **Apply** will simply add another fiducial in a random spot near the board
+
+![LPKF Add Fiducials](img/add_fiducial.png)
 
 ---------------------------------------------------------------------------------------------------------
 
