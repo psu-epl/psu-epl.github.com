@@ -91,6 +91,8 @@ The "Insulate" settings control how much copper will be removed around your feat
    - Next, Select the **Show Details** button below the insulation image.
    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter 0, 1mm** in the Available Tools list.
 
+![LPKF Set Insulate](img/set_insulate.png)
+
 #### **Contour Routing**
 
 The "Contour Routing" settings control where your boards breakout tabs will be. These are needed to keep your board held in position while routing, but allowing you to easily remove or "break out" your board when it's finished.
@@ -98,8 +100,10 @@ The "Contour Routing" settings control where your boards breakout tabs will be. 
    - Be sure to keep tabs off of corners and usually having 2 tabs will do the job.
    - Options 2/6 (Horizontal Gaps), 3/6 (Vertical Gaps), and 4/6 (Edge Gaps) work best.
    - Next, select the **Show Details** button below the contour routing image.
-   - In the "Tool" Dropdown Menu, select the **contour router 1mm bit**
+   - In the **"Tool"** Dropdown Menu, select the **Contour Router 1mm** bit
    - Select **Hide Details**
+
+![LPKF Set Contour Routing](img/set_contour_routing.png)
 
 #### Removing Processes
 
@@ -109,9 +113,7 @@ You probably are not using pockets
 #### Select **Start** to begin generating the toolpath
  - A window will pop up with computation results. If they look okay, select **Close**
 
-
 ---------------------------------------------------------------------------------------------------------
-
 
 ## **Setup Machine** To Cut
 
