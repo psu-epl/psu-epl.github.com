@@ -13,7 +13,7 @@ date:
 
  1. Login to controller PC
  2. Turn on the S63 (Open the machine cover, the power switch is on the bottom right front corner)
-<img src="img/s63_lid_opened.jpg" width="650" height="700">
+<img src="img/s63_lid_opened.jpg" width="650" height="800">
 
  3. Close the machine cover. Then start the LPKF CircuitPro software
 <img src="img/s63_software.png" width="650">
