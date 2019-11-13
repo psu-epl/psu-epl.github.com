@@ -22,6 +22,7 @@ date:
     - Single Sided: `single_sided_top` or `single_sided_bottom`
     - 2 layer (no plating): `double_sided_NoTHP`
     - 2 layer (plating machine): `double_sided_GalvonicTHP` (see plating SOP)
+
 ![LPKF s63 software template](img/s63_software_template.png)
 
 -----------------------------------------------------------------------------------------------
@@ -37,8 +38,10 @@ date:
         * Bottom Gerber
         * Board Outline Gerber
         * Excellion Drill Data
-        
- 2. Select **Assign layers**
+
+![LPKF Import File](img/import_board.png)
+
+2. Select **Assign layers**
 
 The import dialog will show a list of the four data files. There is a column labeled 'Layer/Template' which maps each data file to a processing layer. Make sure each of the files you imported is assigned to the correct layer in this column.
     These fields should be set to:
