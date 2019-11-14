@@ -290,26 +290,26 @@ function preFromTree(tree, depthStr, isLast = true){
     // stuff for sub-hierarchies
     sublist = tree.siblings.concat(tree.children)
     newDepthStr = depthStr + padChar;
-    console.log('0 -- tree.title is: '+tree.title);
-    console.log('1 -- sublist length is: '+sublist.length);
-    console.log('1.1 -- sublist is : '+JSON.stringify(sublist));
+    // console.log('0 -- tree.title is: '+tree.title);
+    // console.log('1 -- sublist length is: '+sublist.length);
+    // console.log('1.1 -- sublist is : '+JSON.stringify(sublist));
     if (sublist.length > 0) { // check that there are actually sub-hierarchies
         for (i in sublist) {
-            console.log('2 -- sublist length is: '+sublist.length);
-            console.log('3 -- i is: '+i);
-            console.log('3.1 -- tree.title is: '+tree.title);
-            console.log('5 -- sublist[i].title is: '+sublist[i].title);
+            // console.log('2 -- sublist length is: '+sublist.length);
+            // console.log('3 -- i is: '+i);
+            // console.log('3.1 -- tree.title is: '+tree.title);
+            // console.log('5 -- sublist[i].title is: '+sublist[i].title);
             if (i == sublist.length-1) {
                 newIsLast = true;
             } else {
                 newIsLast = false;
             }
-            console.log('5.1 -- calling preForTree() on sublist[i].');
+            // console.log('5.1 -- calling preForTree() on sublist[i].');
             // write the strings for the sub-hierarchies
             str += preFromTree(sublist[i], newDepthStr, newIsLast);
         }
     }
-    console.log('6 -- tree.title is: '+tree.title);
+    // console.log('6 -- tree.title is: '+tree.title);
     return str;
 }
 
