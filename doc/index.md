@@ -4,30 +4,30 @@ layout: doc
 author: Joe Shields
 date: 2018-07-21
 sidebar: toc
-
 ---
 
-Can't find what you're looking for? Try the [site list](/doc/siteList).  
+Can't find what you're looking for? Try the [site tree](/siteTree).  
 If you'd like to contribute to this documentation, [read this](/doc/contributing).
 
-# [Equipment](/doc/equip/)
+## [Equipment](/doc/equip/)
 - EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/)
 - [RF-Chamber](/doc/equip/testing/RF-Chamber)
 - [Environmental Testing Lab](/doc/equip/testing/ETL/)
 
-# [Circuit Store](/doc/store/)
+## [Circuit Store](/doc/store/)
 - [Pay][checkout] for parts and machine use
 - View our [inventory & pricing][inventory] and [lab fees](/doc/store/pricing)
 
-# [Lab Policies](/doc/policies)
+## [Lab Policies](/doc/policies)
 - [Emergency](/doc/policies/Safety-protocols) procedures
 - How to [be a manager](/doc/policies/Becoming-an-E.P.L.-Manager)
 - Other administrative things
 
-# [Workshops](/doc/workshops)
+## [Workshops](/doc/workshops)
 Once a term, industry professionals and lab managers offer single-session workshops on various tools, programs, and techniques.
 View our [Eventbrite page][Eventbrite] for upcoming events
 
 
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
 [inventory]: https://docs.google.com/spreadsheets/d/1T6L1wMZB_uBk6gHJLCA_7ZLlcPsRINpWQgxlCC_Aa9U/pubhtml?
+[checkout]: https://commerce.cashnet.com/ecei
