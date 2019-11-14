@@ -11,13 +11,22 @@ https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-n
 --!>
 
 
+<h1>Site Tree (preformatted)</h1>
+<pre id="preTree"></pre>
+
+<h1>Site Tree (unordered list)</h1>
+<div id="ulTree"></div>
+
+<h1>the testVar using JS</h1>
+<pre id="testVar"></pre>
+
 <h1>Sample Ordered List</h1>
 <ol>
     <li>one</li>
     <li>two</li>
     <li>three</li>
     <li>four</li>
-    <li>five
+    <li><details><summary>five</summary>
         <ol>
             <li>one</li>
             <li>two</li>
@@ -27,14 +36,11 @@ https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-n
             <li>seven</li>
             <li>eight</li>
         </ol>
-        </li>
+        </details></li>
     <li>six</li>
     <li>seven</li>
     <li>eight</li>
 </ol>
-
-<h1>Site Tree (unordered list)</h1>
-<div id="ulTree"></div>
 
 <h1>the array using JS</h1>
 <pre id="arr"></pre>
@@ -45,11 +51,9 @@ https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-n
 <h1>the pages using JS</h1>
 <pre id="pages"></pre>
 
-<h1>the testVar using JS</h1>
-<pre id="testVar"></pre>
-
 <h1>Tree Object</h1>
 <pre id="treeObject"></pre>
+
 
 <script>
 console.log('hello world')
@@ -210,7 +214,7 @@ function listFromTree(tree, listType = 'ul'){
     } else {
         title = tree.title
     }
-    list += '<li><a href="'+tree.href+'">'+title+'</a>\n';
+    list += '<li><details><summary><a href="'+tree.href+'">'+title+'</a></summary>\n';
     list += '<'+listType+'>\n'
     for (i in tree.siblings){ // sublist of siblings
         list += listFromTree(tree.siblings[i], listType)
@@ -218,18 +222,71 @@ function listFromTree(tree, listType = 'ul'){
     for (i in tree.children){ // sublist of children
         list += listFromTree(tree.children[i], listType)
     }
-    list += '</'+listType+'></li>\n'
+    list += '</'+listType+'></details></li>\n'
     //list += "</"+listType+">"
     return list;
 }
 
+function preFromTree(tree, depthStr, isLast = true){
+    var str = "";
+    var depthChar = "";
+    var sublist = {};
+    var title = "";
+    var newDepthStr = "";
+    var newIsLast = null;
+    var padChar = "";
+    if (isLast == true){
+        padChar = "    ";
+    } else {
+        padChar = "│   ";
+    }
+    if (tree.title == ''){ // Untitled pages default to their source file name.
+        title = pages[tree.ind].name
+    } else {
+        title = tree.title
+    }
+    // determine the current depth char
+    if (pages[tree.ind].pageRole == "root"){
+        depthChar = "";
+    } else if (isLast){
+        depthChar = "└── ";
+    } else {
+        depthChar = "├── ";
+    }
+    str += depthStr+depthChar+'<a href="'+tree.href+'">'+title+'</a>\n';
+    sublist = tree.siblings.concat(tree.children)
+    newDepthStr = depthStr + padChar;
+    console.log('0 -- tree.title is: '+tree.title);
+    console.log('1 -- sublist length is: '+sublist.length);
+    console.log('1.1 -- sublist is : '+JSON.stringify(sublist));
+    if (sublist.length > 0) {
+        for (i in sublist) {
+            console.log('2 -- sublist length is: '+sublist.length);
+            console.log('3 -- i is: '+i);
+            console.log('3.1 -- tree.title is: '+tree.title);
+            console.log('5 -- sublist[i].title is: '+sublist[i].title);
+            if (i == sublist.length-1) {
+                newIsLast = true;
+            } else {
+                newIsLast = false;
+            }
+            console.log('5.1 -- calling preForTree() on sublist[i].');
+            str += preFromTree(sublist[i], newDepthStr, newIsLast);
+        }
+    }
+    console.log('6 -- tree.title is: '+tree.title);
+    return str;
+}
+
 siteTree = getRelations(rootIndex);
 ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
+preTree = preFromTree(siteTree, '');
 
 console.log('final site tree: ', siteTree);
-console.log('ulTree: ', ulTree);
+// console.log('ulTree: ', ulTree);
 document.getElementById("testVar").innerHTML = JSON.stringify(testVar, null, 4)
 document.getElementById("pages").innerHTML = JSON.stringify(pages, null, 4)
 document.getElementById("treeObject").innerHTML = JSON.stringify(siteTree, null, 4)
 document.getElementById("ulTree").innerHTML = ulTree
+document.getElementById("preTree").innerHTML = preTree
 </script>
