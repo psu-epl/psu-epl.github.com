@@ -11,6 +11,31 @@ https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-n
 --!>
 
 
+<h1>Sample Ordered List</h1>
+<ol>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+    <li>five
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>six</li>
+            <li>seven</li>
+            <li>eight</li>
+        </ol>
+        </li>
+    <li>six</li>
+    <li>seven</li>
+    <li>eight</li>
+</ol>
+
+<h1>Site Tree (unordered list)</h1>
+<div id="ulTree"></div>
+
 <h1>the array using JS</h1>
 <pre id="arr"></pre>
 
@@ -22,6 +47,9 @@ https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-n
 
 <h1>the testVar using JS</h1>
 <pre id="testVar"></pre>
+
+<h1>Tree Object</h1>
+<pre id="treeObject"></pre>
 
 <script>
 console.log('hello world')
@@ -57,53 +85,151 @@ var testVar = {
 
 
 
-var npages = Object.keys(pages).length;
+var npages = pages.length;
 console.log('the size of the array is '+npages);
 var indexPattern = /\/$/; // url ends with a slash
 var rootPattern = /^\/$/; // url is a single slash (root index)
 var leafParentPattern = /^\/.*\//; // a bunch of stuff with slashes on either end
 var dirs = []; // used for splitting the files/directories in a path
-var leafParentArr = ""
+var leafParentArr = []; // precursor to the parent of a leaf node; helps with an exception
+var rootIndex = null;
 
+// Loop over the pages to establish what kind of node they are and what their parent is.
 for (i=0; i < npages; i++) {
     // console.log('i is '+i+' and the page title is '+pages[i].title);
-    if (rootPattern.test(pages[i].url)){
+    if (rootPattern.test(pages[i].url)){ // the root index
         pages[i].pageRole = "root";
-    } else if (indexPattern.test(pages[i].url)){
-        pages[i].pageRole = "index";
-    } else {
-        pages[i].pageRole = "leaf";
-    }
-    switch (pages[i].pageRole) {
-    case "root":
         pages[i].parent = "/";
-        break;
-    case "index":
+        rootIndex = i;
+    } else if (indexPattern.test(pages[i].url)){ // index pages
+        pages[i].pageRole = "index";
         dirs = pages[i].dir.split("/");
         dirs.pop(); // remove the last dir
         dirs.pop(); // remove the last dir
         pages[i].parent = dirs.join("/")
-        break;
-    case "leaf":
-        console.log('page url '+ pages[i].url);
-        //dirs = pages[i].dir.split("/");
-        //dirs.pop(); // remove the last item
-        //pages[i].parent = "/" + dirs.join("/")
+    } else { // leaf pages
+        pages[i].pageRole = "leaf";
         leafParentArr = leafParentPattern.exec(pages[i].url);
         if ( leafParentArr == null ){
-            pages[i].parent = "/";
+            pages[i].parent = "/"; // exception for stuff in the root dir
         } else {
             pages[i].parent = leafParentArr[0];
         }
-        break;
-    default:
-        console.debug("There was an un-handled page role!");
     }
-    if (! /\/$/.test(pages[i].parent)){ // if it doesn't end with a slash
+    if (! /\/$/.test(pages[i].parent)){ // if it the parent doesn't end with a slash
         pages[i].parent = pages[i].parent + "/" // make it so
     }
 }
 
+// loop through the pages to determine their children/siblings
+for (i=0; i < npages; i++) {
+    // loop through the candidate children/siblings
+    for (j=0; j < npages; j++) {
+        if (pages[i].url == pages[j].parent){
+            switch (pages[j].pageRole) {
+                case "index":
+                    pages[i].children.push(j);
+                    break;
+                case "leaf":
+                    pages[i].siblings.push(j);
+                    break;
+                case "root":
+                    break;
+                default:
+                    console.debug("unexpected page role while creating child/sibling links");
+            }
+        }
+    }
+}
+
+// var siteTree = {
+//     ind: rootIndex,
+//     title: pages[rootIndex].title,
+//     href: siteUrl + pages[rootIndex].url,
+//     siblings: [],
+//     children: []
+// };
+// 
+// console.log('initialized site tree');
+// console.log(siteTree);
+
+function getRelations(i, depth = 0){
+    var node = {
+        ind: i,
+        title: pages[i].title,
+        href: siteUrl + pages[i].url,
+        depth: depth,
+        siblings: [],
+        children: []
+    };
+    if (depth > npages){
+        // We can't sensibly have more levels of recursion than there are pages.
+        console.log('recursion limit of getRelations reached ('+depth+")");
+        return node;
+    }
+    switch (pages[i].pageRole){
+        case "root":
+            // console.debug('root case');
+        case "index":
+            // console.debug('index case');
+            for (j in pages[i].siblings){
+                console.debug();
+                node.siblings.push(getRelations(pages[i].siblings[j], depth+1))
+            }
+            for (j in pages[i].children){
+                node.children.push(getRelations(pages[i].children[j], depth+1))
+            }
+            //nsiblings = Object.keys(pages[i].siblings).length;
+            //nchildren = Object.keys(pages[i].children).length;
+            // if (nsiblings > 0){
+            //     for (j=0; j < nsiblings; j++) {
+            //         node.siblings.push(getRelations(pages[i].siblings[j], depth+1));
+            //     }
+            // }
+            // if (nchildren > 0){
+            //     for (j=0; j < nchildren; j++) {
+            //         node.children.push(getRelations(pages[i].children[j], depth+1));
+            //     }
+            // }
+            break;
+        case "leaf":
+            break;
+        default:
+            console.debug('unexpected role while creating relations object');
+            console.debug('page number: ' + i);
+            console.debug('page title: ' + pages[i].title);
+    }
+    return node;
+}
+
+function listFromTree(tree, listType = 'ul'){
+    //list = "<"+listType+">\n";
+    list = ""
+    if (tree.title == ''){ // Untitled pages default to their source file name.
+        title = pages[tree.ind].name
+    } else {
+        title = tree.title
+    }
+    list += '<li><a href="'+tree.href+'">'+title+'</a>\n';
+    list += '<'+listType+'>\n'
+    for (i in tree.siblings){ // sublist of siblings
+        list += listFromTree(tree.siblings[i], listType)
+    }
+    for (i in tree.children){ // sublist of children
+        list += listFromTree(tree.children[i], listType)
+    }
+    list += '</'+listType+'></li>\n'
+    //list += "</"+listType+">"
+    return list;
+}
+
+siteTree = getRelations(rootIndex);
+ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
+
+console.log('final site tree: ', siteTree);
+console.log('ulTree: ', ulTree);
 document.getElementById("testVar").innerHTML = JSON.stringify(testVar, null, 4)
 document.getElementById("pages").innerHTML = JSON.stringify(pages, null, 4)
+document.getElementById("treeObject").innerHTML = JSON.stringify(siteTree, null, 4)
+document.getElementById("ulTree").innerHTML = ulTree
 </script>
