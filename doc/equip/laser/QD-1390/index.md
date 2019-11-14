@@ -137,13 +137,15 @@ Alternatively, if you just want to use the same cut settings throughout your job
 
 1. Before turning on the beam for cutting, turn on the air filter to the left of the laser. The switch is behind it.
 ![image alt text](img/image_11.png)
-2. Then turn on the green air compressor to the right of the machine by pushing the red switch into the down position.
+1. Then turn on the green air compressor to the right of the machine by pushing the red switch into the down position.
     1. Air should be flowing out of the laser head continuously at this point. If it is not, check that the handle on the valve is zip-tied into the on position.
-    2. The air pressure in the line should be around 10 psi. Adjust the pressure using the knob to the right of the switch and read the pressure off of the right gauge.
+    1. The air pressure in the line should be around 10 psi. Adjust the pressure using the knob to the right of the switch and read the pressure off of the right gauge.
+    1. Double check that a _gentle_ stream of air is leaving the end of the lens assembly. 
+        - If it isn't, make sure the valve on the blue air line leading to the laser is open.
 ![image alt text](img/image_12.png)
-3. Press the "Laser" switch on the side of the cutter into the on position, turning on the IR laser.
+1. Press the "Laser" switch on the side of the cutter into the on position, turning on the IR laser.
 ![image alt text](img/image_13.png)
-4. Press start on RDWorks to start the cutting job.
+1. Press start on RDWorks to start the cutting job.
 ![image alt text](img/image_14.png)
 
 ## While the laser is Running
