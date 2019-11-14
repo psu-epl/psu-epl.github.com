@@ -1,19 +1,18 @@
 ---
-title: Site Tree Using JS
+title: Site Tree
 layout: doc
 author: Joe Shields
 date: 2019-11-14
 ---
 
-<!-- 
-This may be helpful later:
-https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-navigation-using-javascript 
---!>
+<p>
+Can't find what you're looking for? Here's a tree of all the pages on this site. <br/>
+If you still can't find what you need, try <a href="https://github.com/psu-epl/psu-epl.github.com/search">searching the repo</a> or just ask a manager.
+</p>
 
-
-<h1>Site Tree (preformatted)</h1>
 <pre id="preTree"></pre>
 
+<!--
 <h1>Site Tree (unordered list)</h1>
 <div id="ulTree"></div>
 
@@ -53,6 +52,7 @@ https://stackoverflow.com/questions/39092476/sharepoint-2013-build-a-site-tree-n
 
 <h1>Tree Object</h1>
 <pre id="treeObject"></pre>
+--!>
 
 
 <script>
@@ -89,14 +89,25 @@ var testVar = {
 
 
 
-var npages = pages.length;
+var npages = pages.length; // number of pages on the site
 console.log('the size of the array is '+npages);
 var indexPattern = /\/$/; // url ends with a slash
 var rootPattern = /^\/$/; // url is a single slash (root index)
 var leafParentPattern = /^\/.*\//; // a bunch of stuff with slashes on either end
 var dirs = []; // used for splitting the files/directories in a path
 var leafParentArr = []; // precursor to the parent of a leaf node; helps with an exception
-var rootIndex = null;
+var rootIndex = null; // index of the root page
+
+// Definitions:
+// "Index" pages are pages named "index.html" which represent a directory.
+// "Leaf" pages are pages which are not an index page.
+// "Child" pages are index pages which belong to a given index page.
+// "Sibling" pages are leaf pages which share the same directory as a given index page.
+// "Parent" pages are the index pages for whichever directory contains a given page.
+// The "root" page is the index page for the root directory of the site.
+
+// A distinction is made between siblings and children for easier displaying.
+// A hierarchy is harder to read when leaves are at the bottom.
 
 // Loop over the pages to establish what kind of node they are and what their parent is.
 for (i=0; i < npages; i++) {
@@ -104,15 +115,16 @@ for (i=0; i < npages; i++) {
     if (rootPattern.test(pages[i].url)){ // the root index
         pages[i].pageRole = "root";
         pages[i].parent = "/";
-        rootIndex = i;
+        rootIndex = i; // record the index of the root page
     } else if (indexPattern.test(pages[i].url)){ // index pages
         pages[i].pageRole = "index";
         dirs = pages[i].dir.split("/");
-        dirs.pop(); // remove the last dir
+        dirs.pop(); // remove empty item at the end of the list
         dirs.pop(); // remove the last dir
         pages[i].parent = dirs.join("/")
     } else { // leaf pages
         pages[i].pageRole = "leaf";
+        // pattern-match to get the parent directory
         leafParentArr = leafParentPattern.exec(pages[i].url);
         if ( leafParentArr == null ){
             pages[i].parent = "/"; // exception for stuff in the root dir
@@ -130,6 +142,8 @@ for (i=0; i < npages; i++) {
     // loop through the candidate children/siblings
     for (j=0; j < npages; j++) {
         if (pages[i].url == pages[j].parent){
+            // if the j page is the child/sibling of the i page, 
+            // record its index in the array of i's children/siblings
             switch (pages[j].pageRole) {
                 case "index":
                     pages[i].children.push(j);
@@ -158,6 +172,10 @@ for (i=0; i < npages; i++) {
 // console.log(siteTree);
 
 function getRelations(i, depth = 0){
+    // From the flat array of pages with child/sibling relations, 
+    // recursively generate a hierarcy of pages.
+
+    // Initialize with the already-known information
     var node = {
         ind: i,
         title: pages[i].title,
@@ -176,27 +194,19 @@ function getRelations(i, depth = 0){
             // console.debug('root case');
         case "index":
             // console.debug('index case');
+            // loop over the siblings for the current page
             for (j in pages[i].siblings){
-                console.debug();
+                // add the hierarchy for this sibling to the sibling array
                 node.siblings.push(getRelations(pages[i].siblings[j], depth+1))
             }
+            // loop over the children for the current page
             for (j in pages[i].children){
+                // add the hierarchy for this child to the sibling array
                 node.children.push(getRelations(pages[i].children[j], depth+1))
             }
-            //nsiblings = Object.keys(pages[i].siblings).length;
-            //nchildren = Object.keys(pages[i].children).length;
-            // if (nsiblings > 0){
-            //     for (j=0; j < nsiblings; j++) {
-            //         node.siblings.push(getRelations(pages[i].siblings[j], depth+1));
-            //     }
-            // }
-            // if (nchildren > 0){
-            //     for (j=0; j < nchildren; j++) {
-            //         node.children.push(getRelations(pages[i].children[j], depth+1));
-            //     }
-            // }
             break;
         case "leaf":
+            // leaves do not contain any further hierarchy
             break;
         default:
             console.debug('unexpected role while creating relations object');
@@ -207,6 +217,8 @@ function getRelations(i, depth = 0){
 }
 
 function listFromTree(tree, listType = 'ul'){
+    // recursively create an HTML list from a page tree hierarchy
+
     //list = "<"+listType+">\n";
     list = ""
     if (tree.title == ''){ // Untitled pages default to their source file name.
@@ -214,7 +226,10 @@ function listFromTree(tree, listType = 'ul'){
     } else {
         title = tree.title
     }
-    list += '<li><details><summary><a href="'+tree.href+'">'+title+'</a></summary>\n';
+    // enter the current tree node as a hyperlinked item
+    list += '<li><a href="'+tree.href+'">'+title+'</a>\n';
+
+    // create a sublist for any further hierarchy
     list += '<'+listType+'>\n'
     for (i in tree.siblings){ // sublist of siblings
         list += listFromTree(tree.siblings[i], listType)
@@ -222,44 +237,63 @@ function listFromTree(tree, listType = 'ul'){
     for (i in tree.children){ // sublist of children
         list += listFromTree(tree.children[i], listType)
     }
-    list += '</'+listType+'></details></li>\n'
+
+    // close the list item
+    list += '</'+listType+'></li>\n'
     //list += "</"+listType+">"
     return list;
 }
 
 function preFromTree(tree, depthStr, isLast = true){
-    var str = "";
-    var depthChar = "";
-    var sublist = {};
-    var title = "";
-    var newDepthStr = "";
-    var newIsLast = null;
-    var padChar = "";
+    // Create a text tree from a page tree hierarchy.
+    // This assumes an equal-width typeface.
+    // This is very similar to the `tree` command in Linux.
+    // However, this groups leaves at the top, for readability.
+
+    // tree is the hierarchy tree used to generate the text tree.
+    // depthStr is a string that prepends all the lines at this hierarchy level.
+    //          It visualizes "fly-over" parent structures.
+    // isLast keeps track of whether this is the last page in sublist.
+
+    var str = ""; // string for the current hierarchy level
+    var depthChar = ""; // substring that visualizes the currenty hierarchy level
+    var sublist = {}; // concatenation of siblings and children
+    var title = ""; // title of the current page
+    var newDepthStr = ""; // the depthStr for the next lower hierarchy level
+    var newIsLast = null; // whether the next line to write is is the last page in a directory
+    var padChar = ""; // the substring used to pad after the depthStr
+
     if (isLast == true){
         padChar = "    ";
-    } else {
+    } else { // we need to "fly-over" some grand-children
         padChar = "│   ";
     }
+
     if (tree.title == ''){ // Untitled pages default to their source file name.
         title = pages[tree.ind].name
     } else {
         title = tree.title
     }
+
     // determine the current depth char
     if (pages[tree.ind].pageRole == "root"){
         depthChar = "";
     } else if (isLast){
-        depthChar = "└── ";
+        depthChar = "└── "; // visually terminate this hierarchy level
     } else {
         depthChar = "├── ";
     }
+
+    // write the string for this hierarchy level
     str += depthStr+depthChar+'<a href="'+tree.href+'">'+title+'</a>\n';
+
+    // stuff for sub-hierarchies
     sublist = tree.siblings.concat(tree.children)
     newDepthStr = depthStr + padChar;
     console.log('0 -- tree.title is: '+tree.title);
     console.log('1 -- sublist length is: '+sublist.length);
     console.log('1.1 -- sublist is : '+JSON.stringify(sublist));
-    if (sublist.length > 0) {
+    if (sublist.length > 0) { // check that there are actually sub-hierarchies
         for (i in sublist) {
             console.log('2 -- sublist length is: '+sublist.length);
             console.log('3 -- i is: '+i);
@@ -271,6 +305,7 @@ function preFromTree(tree, depthStr, isLast = true){
                 newIsLast = false;
             }
             console.log('5.1 -- calling preForTree() on sublist[i].');
+            // write the strings for the sub-hierarchies
             str += preFromTree(sublist[i], newDepthStr, newIsLast);
         }
     }
@@ -284,9 +319,10 @@ preTree = preFromTree(siteTree, '');
 
 console.log('final site tree: ', siteTree);
 // console.log('ulTree: ', ulTree);
-document.getElementById("testVar").innerHTML = JSON.stringify(testVar, null, 4)
-document.getElementById("pages").innerHTML = JSON.stringify(pages, null, 4)
-document.getElementById("treeObject").innerHTML = JSON.stringify(siteTree, null, 4)
-document.getElementById("ulTree").innerHTML = ulTree
+//document.getElementById("testVar").innerHTML = JSON.stringify(testVar, null, 4)
+//document.getElementById("pages").innerHTML = JSON.stringify(pages, null, 4)
+//document.getElementById("treeObject").innerHTML = JSON.stringify(siteTree, null, 4)
+//document.getElementById("ulTree").innerHTML = ulTree
+//
 document.getElementById("preTree").innerHTML = preTree
 </script>

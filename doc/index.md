@@ -7,7 +7,7 @@ sidebar: toc
 
 ---
 
-Can't find what you're looking for? Try the [site list](/doc/siteList).  
+Can't find what you're looking for? Try the [site tree](/doc/siteTree).  
 If you'd like to contribute to this documentation, [read this](/doc/contributing).
 
 # [Equipment](/doc/equip/)

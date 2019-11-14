@@ -73,7 +73,7 @@ invitation only.
 
 
 
-Can't find what you're looking for? Try the [site list](/doc/siteList).  
+Can't find what you're looking for? Try the [site tree](/siteTree).  
 If you'd like to contribute to this documentation, [read this](/doc/contributing).
 
 [manager repo]: https://github.com/psu-epl/epl-managers-private/wiki
