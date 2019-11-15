@@ -147,6 +147,7 @@ The laser cutter is at 0,0 where + is off to the right and - if off to left, but
 ## Adjusting Focal Length
 
 Chuck has cut out a focal length measurement tool - the FOCUS!
+
 ![Focus Tool](images/focalLengthTool.png)
 
  1. Place the material you are cutting onto the cutting bed.
