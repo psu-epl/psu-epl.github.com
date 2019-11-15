@@ -1,8 +1,8 @@
 ---
 title: Full Spectrum Laser Cutter
 layout: doc
-author: 
-date: 
+author:
+date:
 
 ---
 # Full Spectrum Professional Series CO2 20x12 Laser
@@ -33,7 +33,7 @@ We have a [Full Spectrum Laser Professional Series CO2 20x12 Laser with RetinaEn
 - It's an 80W CO2 laser that uses an invisible far infrared beam for cutting.
 - It does a good job cutting through things with carbon in it, e.g., paper, cardboard, bamboo, wood, and acrylic... even up to 0.25 inch bamboo and 0.5 inch acrylic. ABS is possible, but discouraged because of the terrible fumes (even worse than acrylic).
    - We have sheets of Acrylic and Bamboo on hand for sale if you need them.
-- Cutting materials that contain Chlorine are NOT allowed, like PVC. 
+- Cutting materials that contain Chlorine are NOT allowed, like PVC.
 - It will not cut metals. And it won't do much to non-anodized Aluminum or Copper.
 - It can mark some metals, especially anodized Aluminum and sometimes steel.
 - It theoretically has a 20 x 12 inch working capacity... but we never push it for more than about 18 x 11 inch just because it's very hard to align the very edges of the material, and the mirror head can hit the rails if you're a little misaligned.
@@ -47,7 +47,7 @@ There are two basic modes of operation:
  1. **Vector** -- draw lines, "CNC style" set of paths at various power levels. It's fast and clean looking.
  1. **Raster** -- draw "scan lines" which are pixels across the entire piece. Can only pulse on or off every pixel, so you essentially get dots. To get gray scale, use [Halftone techniques](http://en.wikipedia.org/wiki/Halftone). Slow and pixelated.
 
-In either case, setting the power level correctly is not trivial. 
+In either case, setting the power level correctly is not trivial.
 
 **See the [[material database]] for help with settings.**
 
@@ -90,7 +90,7 @@ Here is how to cut something in the either of the two different modes:
 
 ## Raster and Vector:
 
- 1. Make the Rastered part of you're project (logos, text, etc) black and the cut lines lighter colors like yellow. 
+ 1. Make the Rastered part of you're project (logos, text, etc) black and the cut lines lighter colors like yellow.
  1. Print to RetinaEngrave
  1. On the Raster tab set the B/W cutoff to a high enough value so only the black raster shows
  1. On the vector tab set the repeat of the black layer to '0' to suppress vectoring
@@ -106,7 +106,7 @@ Here is how to cut something in the either of the two different modes:
  1. **Login** to the computer
  1. **Turn key on** laser cutter to turn on laser cutter. If that doesn't turn it on, rotate the stop button until it snaps out.
  1. Wait for laser cutter to boot and get an IP address (shown on the LCD front panel).
- 1. Start up **RetinaEngrave3D** by clicking on the desktop icon 
+ 1. Start up **RetinaEngrave3D** by clicking on the desktop icon
     - ![Retina Engrave 3D icon](images/retina_icon.png)
  1. Press **'H'** to home the laserhead. You'll get "0 0 0" for your current position and "Connected" and "Homed" in the status bar.
 
@@ -115,7 +115,7 @@ Here is how to cut something in the either of the two different modes:
 ![Retina Engrave Toolbar](images/retina_header_icons_labeled.png)
 
  1. **Open the file** you've designed in the design software of your choice (or just a pdf or whatever)
- 1. File > **Print** 
+ 1. File > **Print**
  1. Select **"Full Spectrum Engineering Driver"**
     - ![Print to laser cutter](images/laser_print.png)
     - If you have trouble printing with a message like "bounding box image invalid" try setting the paper to C size: ![c size paper settings](images/laser_paper_settings.png)
@@ -137,13 +137,22 @@ The laser cutter is at 0,0 where + is off to the right and - if off to left, but
  1. **Put your material** in laser cutter wherever you like.
  1. Use the arrow keys on the PC's keyboard to **move the lasercutter head to the UPPER LEFT corner** of where you want to cut. It's got a red laser so you can see exactly where it's going to start
  1. **Test the outline** of your image to make sure it fits on your material. Hit the 'P' key (for _Perimeter Steps_) once per side and watch where the laser goes. Adjust your material or head appropriately. Make sure that the laser head is back in the upper left hand corner of your piece (on the screen, the red dot should be in the upper left at (0,0)
- 1. **Set the focus** using the focus tool. Use Page Up and Page Down keys to move the Z Table
+ 1. **Set the focus** see "Adjusting Focal Length" below
  1. **Turn on water pump, air pump, and ventilator** are on by turning on the power strip
  1. **Verify** that the water pump, air pump, and ventilation pump are on by feeling them
  1. Hit **'G'** for go and while it's cutting, **WATCH THE CUTTING. HIT THE STOP BUTTON IF ANYTHING GOES WRONG.**
  1. Move the head out of the way of your material by homing the laser head by hitting **'H'**
  1. Yay! You cut a part. Rinse, lather, repeat
 
+## Adjusting Focal Length
+
+Chuck has cut out a focal length measurement tool - the FOCUS!
+![Focus Tool](images/focusLengthTool.png)
+
+ 1. Place the material you are cutting onto the cutting bed.
+ 1. Jog the laser focusing assembly over your material.
+ 1. Put the focal length measurement tool into the focusing assembly, and loosen the focusing assembly’s z-axis lock in order to move the assembly until the measurement tool is just barely contacting your material.
+ 
 ***
 
 # Laser Settings Detail
