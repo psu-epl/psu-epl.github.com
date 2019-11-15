@@ -147,12 +147,12 @@ The laser cutter is at 0,0 where + is off to the right and - if off to left, but
 ## Adjusting Focal Length
 
 Chuck has cut out a focal length measurement tool - the FOCUS!
-![Focus Tool](images/focusLengthTool.png)
+![Focus Tool](images/focalLengthTool.png)
 
  1. Place the material you are cutting onto the cutting bed.
  1. Jog the laser focusing assembly over your material.
  1. Put the focal length measurement tool into the focusing assembly, and loosen the focusing assembly’s z-axis lock in order to move the assembly until the measurement tool is just barely contacting your material.
- 
+
 ***
 
 # Laser Settings Detail
