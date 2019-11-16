@@ -16,6 +16,7 @@ date: 2019-05-17
     - [ ] new filter
     - [ ] green box in software
     - [ ] what cutting, engraving, and rastering look like
+    - [ ] what the pause button is
 {%endcomment%}
 
 ## Table of Contents
@@ -85,25 +86,56 @@ It's never okay to cut these materials on the laser.
 - [Maker Case][makercase] and [Make a Box][makeabox] will generate great lase-able boxes for the mechanically challenged. 
 
 ## Machine Safety
-* **Make sure the fire extinguisher is nearby.**
-* IR beams are invisible but very damaging. Never run the laser with hood up, and always wear eye protection.
-	* The orange glasses will help protect from indirect reflections from the laser, but will **NOT** protect from direct exposure. to the laser. 
-	* Orange glasses are located in the large red tool box.
-* It's good practice to keep the IR laser switched **OFF** (downward "0" position) until you are sure you are ready for cutting.
-  The switch should not glow when the laser is disabled.
-  ![](img/laserDisable.png)
+This is an awesome tool that can hurt people in scary ways.
+Like most such tools, it's easy to stay safe by being conscious of the danger and following good habits.
 
 ### Dangers
+This section outlines the dangers this machine poses, who is at risk, and the best practices to stay safe. 
 
 #### Fire
+This machine can set the work piece on fire.
+This poses a risk to the people in the lab, the machine, and the engineering building.
+Fires can be avoided by using the approved materials and following the procedures in this SOP.
+
+- __Never__ leave this machine unattended while running!
+- __Always__ identify where the fire extinguisher is before using this machine.
 
 #### Lazor Beemz
+This machine uses an invisible infra-red (IR) laser for cutting 
+and a visible red laser for targeting.
+This poses a risk to __everyone in the lab__.
+Serious eye damage can be avoided by following the procedures in this SOP.
+
+- The panels and hood should __never__ be opened when the laser is enabled. 
+- Orange IR laser safety goggles should __always__ be worn when operating this machine.
+    - These only protect against indirect exposure. They are stored in the shorter red tool box.
+- Reflective objects should __never__ be placed in the chamber.
+- The laser should __only__ be enabled *immediately before* making a cut, and disabled *immediately after* that cut has finished. 
+    - The laser is disabled when this switch is in the downward "0" position. The switch should not glow in this position.  
+  ![](img/laserDisable.png)
+
+When lasing, the material is heated to extreme temperatures. 
+This produces very bright, broad spectrum light, including ultra-violet light. 
+This poses a risk to people nearby the machine.
+Eye damage can be avoided by not staring directly at the area being lased. 
 
 #### High Voltage
+{%comment%}TODO: How high is the voltage?{%endcomment%}
+The laser tube uses high voltage.
+This poses a risk to people maintaining the machine or improperly operating the machine.
+Burns and heart failure can be avoided by removing the keys from the system when maintenance is performed and by checking that the laser tube is not exposed when in use.
 
 #### Toxicity
+This machine can produce harmful smoke and vapors when cutting. 
+This poses a risk to the people in the lab and nearby rooms in the engineering building. 
+Negative health effects can be avoided by following the procedures in this document, avoiding use of materials which create harmful gasses, and properly maintaining the air filter.
+Immediately report any escaping smoke or strong smells to a manager.
+
+#### Motors
+This machine uses computer-controlled motors and does not sense how much force they're outputting. If someone or something is in its way, it will just plow through. This poses a risk to people operating the machine. Injuries can be avoided by staying clear of the X-Y gantry when it's in motion.
 
 ### Contingencies
+Here are some likely worst-cases and what to do if they happen.
 
 #### Fire
 If there is a _sustained_ fire in the chamber:
@@ -130,16 +162,34 @@ These can create momentary flames under the material.
 This is especially noticable with acrylic.
 This is normal and not a concern. 
 
-#### Crashes
-If the cutting head or the gantry crash into anything, immediately hit the E-Stop button and get a manager.
+#### Laser Exposure
+- Immediately hit the E-Stop button.
+- Inform a manager of the incident.
+- For exposure to the eyes, seek immediate medical attention. For exposure to the skin, treat it as a burn and seek medical attention if necessary.
+
+#### Electrical Shocks
+- Immediately hit the E-Stop button. 
+- Inform a manager of the incident.
+- If you experience any symptoms, seek immediate medical attention. (unconsciousness, confusion, burns, numbness, tingling, paralysis, hearing/vision/speech problems, difficulty breathing, seizures, et cetera)
 
 #### Emissions
 If you see smoke building up inside the chamber, smell/see smoke leaving the chamber, or notice a strong chemical smell:
 - Pause your job.
 - Disable the laser, using the "Laser" switch on the right.
+- Wait for the smoke/vapors to be filtered out. This can take a few minutes. Do not open the hood during this time.
 - Ask a manager to verify that the air filter system is working.
 
+#### Crashes
+If the cutting head or the gantry crash into anything, immediately hit the E-Stop button and get a manager.
+
+#### Caught Limbs, Fingers, or Hair
+Immediately hit the E-Stop button if someone's limbs, fingers, or hair are caught by the X-Y gantry.
+When the motors are unpowered, they can be moved easily.
+
+{%comment%}
 ## How to Get Help
+TODO: Link to outside resources for laser-cutting knowledge.
+{%endcomment%}
 
 # Using This Machine
 Here are the basics of operating this machine.
@@ -149,6 +199,9 @@ This laser cutter will work with [vector files][vector], like DXF, for cutting, 
 Images, like JPG and PNG, can only be [rastered][raster].
 
 ### Exporting Your Geometry
+You want your DXF to be in units of millimeters.
+
+#### Quick and Easy Box
 If you just need a box/enclosure: 
 - Go to [Maker Case][makercase]. 
 - Choose your desired dimensions.
@@ -157,13 +210,18 @@ If you just need a box/enclosure:
     - This can be fine-tuned to your material, but 0.010" is probably fine.
 - Download a DXF.
 
-* CAD Programs and DXF files:
-	* Solidworks:
-		* Open the *part* you wish to cut
-		* Change the measurement system to \'mmgs\' (bottom right corner) and ensure your part has the correct dimensions in millimeters. (25.4mm/inch)
-			* The main reason for bad DXF files from SolidWorks is using a different measurement system such as IPS(Inch, pound, second) or MKS(Meter, kilogram, second). Use your desired system to design the part but switch to mmgs afterwards to create the DXF file.
-		* Right click the desired face you wish to create a pattern from and select "export DXF/DWG"
-		* Complete the following prompts to save the file.
+#### SolidWorks
+- Open the *part* you wish to cut
+- Change the measurement system to \'mmgs\' (bottom right corner) and ensure your part has the correct dimensions in millimeters. (25.4 mm/inch)
+    - The main reason for bad DXF files from SolidWorks is using a different measurement system such as IPS(Inch, pound, second) or MKS(Meter, kilogram, second). Use your desired system to design the part but switch to mmgs afterwards to create the DXF file.
+- Right click the desired face you wish to create a pattern from and select "export DXF/DWG"
+- Complete the following prompts to save the file.
+
+#### Inkscape
+{%comment%}
+There's a trick about which spline type to use when exporting, and I don't know it off the top of my head.
+I'm also not sure if it will work if the objects are transparent or what happens with fill/stroke/patterns/clones.
+{%endcomment%}
 
 ### Importing Your Geometry
 1. Login to the computer next to the laser cutter.
@@ -175,18 +233,22 @@ If you just need a box/enclosure:
 1. Check your job.
     - There are several issues that can happen upon importing a vector image.
 		- If the vectors are messed up, in which case you will have to manually edit your job by clicking "Edit Nodes", and adding nodes to the parts you want to remove, or move. It takes practice.
+            - You may also be able to fix this by selecting a different "spline type" when exporting your DXF.
         - Your vector image is scaled way too small. 
-           Select your vector shapes, and check the width and length in the 
-           upper left corner (not the x and y values, that is the position of your piece). 
-           The program has a tendency to take inch dimensions and just turn 
-           them into millimeters (not convert, just changes it, ex. 6 inches becomes 6 mm). 
-           To fix this, you should export your vector file in millimeters. 
-           Alternatively, you can fix this by highlighting all of your shapes, 
-           and converting your dimensions in inches into millimeters 
-           (multiply each dimension by 25.4) and entering that in for the 
-           height and width. 
+            - Select your vector shapes, and check the width and length in the 
+              upper left corner (not the x and y values, that is the position of your piece). 
+              The program assumes your DXF is in millimeters. So, a 6" box would appear as 6 mm.
+              To fix this, you should export your vector file in millimeters. 
+              Alternatively, you can fix this on the fly by scaling the offending objects by a factor of __25.4__. 
 
 ## Safety Checks
+{%comment%} 
+TODO: 
+- [ ] Get a picture of this tray. 
+- [ ] Fill out this section more.
+{%endcomment%}
+1. Make sure there isn't excessive debris in the tray under the chamber.
+    - __Danger: make sure the laser is disabled before checking the tray!__
 
 ## Power and Speed Settings
 Image files (.jpg, .png, etc.) will **always** raster, meaning it will not cut. 
@@ -245,6 +307,7 @@ Below you can find some examples of cuts made in common materials.
 1. Once you are sure that the laser will stay on your piece, proceed to the next step.
 
 ## Turn Everything On
+However, do not enable the laser yet!
 
 #### Chiller On
 - Turn on the water chiller to the right of the laser.  
@@ -257,8 +320,14 @@ Below you can find some examples of cuts made in common materials.
   ![](img/onKey.png)
 
 #### Filter On
-1. Before turning on the beam for cutting, turn on the air filter to the left of the laser. The switch is behind it.
-   ![](img/filter.png){%comment%}TODO: Replace this with an up-do-date image.{%endcomment%}
+{%comment%}
+TODO: 
+- [ ] Replace this with an up-do-date image.
+    - Include the air hose in the pictre.
+{%endcomment%}
+1. Turn on the air filter fans via the power strip to the right of the machine.  
+   ![](img/filter.png)
+1. Ensure the air hose to the filter is connected to the port on the far right of the machine.
 
 #### Air On
 1. Then turn on the green air compressor to the right of the machine by pushing the red switch into the down position.
@@ -269,6 +338,7 @@ Below you can find some examples of cuts made in common materials.
           ![](img/compressor.png)
 
 ## Operation
+It's pew-pew time!
 
 ### Pre-Cut Checklist
 - __Do not proceed unless:__
@@ -276,7 +346,7 @@ Below you can find some examples of cuts made in common materials.
     1. You've been trained by an EPL manager on *this particular* machine.
     1. You've been approved by an EPL manager to use *this particular* machine.
     1. You know where the fire extinguisher is.
-    1. All of the side panels and the hood are closed.
+    1. All of the side panels, the hood, and the back panel are closed.
     1. You and anyone else monitoring the job are wearing orange IR laser safety glasses.
     1. The chiller, air filter, and air compressor are all running.
     1. The cutting head is delivering a gentle, steady stream of air.
@@ -302,22 +372,47 @@ Below you can find some examples of cuts made in common materials.
 ### Laser Disable
 1. When you job finishes, the machine will beep. Disable the laser using the switch on the right of the machine.  
    ![](img/laserDisable.png)
+
+### Post-Cut
+1. Wait for the smoke and vapors to get sucked out of the chamber. This takes anywhere from seconds to minutes, depending on how long the job was. Don't make the lab smell any more than you have to.
 1. Open the hood and check that your job cut properly. This can be done by gently pressing down on the material and observing that it moves independently from the surrounding material.
     - If it didn’t you may have to change your cut settings accordingly and/or make additional passes.
 
+# Post-Operation
+This is what you do when your cut job's done.
+
 ## Shutdown
-1. Clear the bed of any little pieces of material (these can cause fires if left there).
-1. If you are completely done, follow the shut-off procedure in the following sequence:
-    - Turn off the air compressor.
-    - Turn off the air filter.
-    - Turn off the laser cutter by turning the key into the off position.
-    - Wait about 10-15 minutes from your last cut before turning off the water chiller.
-        - However, please do not just leave it running.
+If you are completely done:
+1. Turn off the air compressor.
+1. Turn off the air filter.
+1. Turn off the laser cutter by turning the key counter-clockwise. 
+1. Wait about 10-15 minutes from your last cut before turning off the water chiller.
+    - However, please do not just leave it running.
 1. Close RDWorks. (saving your job is optional, but recommended)
 
 ## Cleanup
+1. Clear the bed of any little pieces of material. These can cause fires if left there.
+1. Empty the tray below the chamber.
+1. Either take your scrap with you. 
+    - Alternatively, break it into useful-sized pieces before leaving it in the scrap bin. 
+        - Nobody wants your 1 inch wide sticks and they clutter up the bin.
+        - Bonus points if you planned ahead and laser-cut your scaps into usable-sized pieces.
+1. Ask a manager if you forgot to clean up anything.
+1. __Don't forget to pay for your session and any material you purchased!__
 
 # Tips and Tricks
+
+## Courtesy
+Laser jobs tend to take a long time to set up, especially if you're inexperienced. 
+Double-check the callendar (on the [main page][/]) and ask the on-duty managers if you'll have time to finish.
+
+If you need to pause your job to step out for a few minutes, check that that's okay with the managers.
+Also, leave a note on your work piece. 
+Without a note, we will assume it's fine to move the material into the scrap bin.
+
+Remember that the laser is in the machine shop.
+Share the space with the other people.
+Be aware that they're using dangerout equipment and startling or bumping them could cause serious injuries!
 
 ## Focusing the Laser
 
@@ -335,6 +430,7 @@ Below you can find some examples of cuts made in common materials.
 
 {%comment%}
 # Quick Links
+{%endcomment%}
 [OEM]: http://www.qdcnc.net/product/qd1390_laser_cutting_machine
 [vector]: https://en.wikipedia.org/wiki/Vector_graphics
 [raster]: https://en.wikipedia.org/wiki/Raster_scan
@@ -343,4 +439,3 @@ Below you can find some examples of cuts made in common materials.
 []: 
 []: 
 []: 
-{%endcomment%}
