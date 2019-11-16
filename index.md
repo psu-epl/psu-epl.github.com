@@ -4,10 +4,10 @@ title: Portland State University Electronics Prototyping Lab
 ---
 ![The EPL](/images/lab_panorama1.JPG)
 
-The EPL is a lab for rapidly prototyping electronics projects. 
+The EPL is a lab for rapidly prototyping electronics projects.
 It is meant for both students and the community to be able to walk in with an idea and walk out with a fully functioning prototype.
 
-The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1900 SW 4th Avenue** in room **FAB 84-20**. 
+The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1900 SW 4th Avenue** in room **FAB 84-20**.
 Our phone number is **503-725-2879**.
 
 Please consider donating to the lab to help us further our growth.
@@ -17,11 +17,11 @@ We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:l
 1. View our [Lab Equipment](/doc/equip) and read the instructions on the equipment you want to use.
 1. Check the calendar for office hours.
 1. Come in during those hours and get trained by a manager on the equipment you want to use.  
-  - Be sure you've signed a liability waiver! 
+  - Be sure you've signed a liability waiver!
 1. Once you're trained on a something, you can come in during any office hours and use that equipment.
 1. Pay for parts, materials, and equipment time [online][checkout].
 1. When you've been trained on ALL the equipment you're eligible to become a manager.  
-  - This gives you 24 hour card key acccess, although it does come with a lot of responsibility. 
+  - This gives you 24 hour card key access, although it does come with a lot of responsibility.
   - [Click here][Become a Manager] to get started.
 
 # Lab Calendar
@@ -33,7 +33,7 @@ You can only use the lab when supervised by a manager.
 Read the [**documentation**](doc) on our machines, policies, services, and more to learn about the EPL.
 
 {%comment%}
-Insert the content of the documentation page, 
+Insert the content of the documentation page,
 rather than copying it manually, which breeds discrepancies.
 {%endcomment%}
 {% for pagei in site.pages %}
