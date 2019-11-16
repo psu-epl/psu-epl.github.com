@@ -6,11 +6,12 @@
       log: https://drive.google.com/open?id=1dn1lqT6qjSTQcAiOyRoKjd4zqJ5IO3UAcCQ4iV2hdww
       up: true
 
-    - name: LPKF S64 PCB Router
-      img: ''
-      sop: ''
-      log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
-      up: other
+    #- name: LPKF S64 PCB Router
+    #  img: ''
+    #  sop: ''
+    #  log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
+    #  up: other
+    #  no longer in use
 
     - name: A406 PCB Router
       img: images/A406.jpg
@@ -23,11 +24,12 @@
       sop: /doc/equip/solder/oven
       up: true
 
-    - name: Pick and Place Machine
-      img: ''
-      sop: ''
-      log: https://drive.google.com/open?id=1rsTGvFpD9nGbvPkbAQiWuUJSHUlgWXImFJR7efWPjzI
-      up: false
+  #  - name: Pick and Place Machine
+    #  img: ''
+    #  sop: ''
+    #  log: https://drive.google.com/open?id=1rsTGvFpD9nGbvPkbAQiWuUJSHUlgWXImFJR7efWPjzI
+    #  up: false
+    #  taken down until sop is complete
 
     - name: Test and Measurement
       img: images/test_equipment.JPG
@@ -47,21 +49,21 @@
       sop: /doc/equip/printer/UM2
       log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
       up: true
-      
+
     - name: Ultimaker3 Extended 3D Printer
       nickname: Harold
       img: images/Ultimaker3.JPG
       sop: /doc/equip/printer/UM3
       log: https://drive.google.com/open?id=1Rv7u8gue2PmMjZiChcRXUE5_H8AnhcjPdVjrxjSZEjg
       up: other
-      
+
     - name: Ultimaker3 Extended 3D Printer
       nickname: Maude
       img: images/Ultimaker3.JPG
       sop: /doc/equip/printer/UM3
       log: https://drive.google.com/open?id=1j2wiCxc_EMB3Ooz6ejKgaZR8mz39dCNLOgnmJnj6fbA
       up: other
-      
+
     - name: FormLabs Form2
       nickname: Hyde
       img: doc/equip/printer/form2/img/Formlabs2.JPG
@@ -80,7 +82,7 @@
       img: doc/equip/machining/mill/img/littlemachine3990.JPG
       sop: /doc/equip/machining/mill
       up: true
-         
+
     - name: Little Machine Shop Lathe
       img: images/htbl.jpg
       sop: /doc/equip/machining/lathe
@@ -90,18 +92,19 @@
       img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
       up: true
-      
+
     - name: Thermocutter
       img: images/Thermocut.jpg
       sop: /doc/equip/misc/Thermocut
       up: true
-      
-    - name: Wazer
-      img: ''
-      sop: ''
-      log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-      up: true
-      
+
+  #  - name: Wazer
+  #    img: ''
+  #    sop: ''
+  #    log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
+  #    up: true
+  #    taken off website until usage terms are decided and sop is complete
+
 
 - title: Laser Cutters
   machines:
@@ -110,23 +113,27 @@
       sop: /doc/equip/laser/QD-1390
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
       up: false
-      
-    - name: Full Spectrum Pro CO2 Laser Cutter
-      img: images/prolf20x12.JPG
-      sop: /doc/equip/laser/fullSpectrum
-      up: false
-      
-    - name: Full Spectrum Laser Cutter
-      img: ''
-      sop: ''
-      log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
-      up: other
 
-    - name: K40 Laser Cutter
-      img: images/K40Laser.jpg
-      sop: /doc/equip/laser/K-40
-      log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
-      up: true
+    #- name: Full Spectrum Pro CO2 Laser Cutter
+    #  img: images/prolf20x12.JPG
+    #  sop: /doc/equip/laser/fullSpectrum
+    #  up: false
+    #  not in use
+
+    #- name: Full Spectrum Laser Cutter
+      #img: ''
+      #sop: ''
+      #log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
+      #up: other
+      #taken off website until complete
+
+  #  - name: K40 Laser Cutter
+  #    img: images/K40Laser.jpg
+  #    sop: /doc/equip/laser/K-40
+  #    log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
+  #    up: true
+  #    not in use
+
 
 - title: Shop and Hand Tools
   machines:
@@ -134,7 +141,7 @@
       img: images/SolderingEquipment.jpg
       sop: /doc/equip/solder/Soldering-Equipment
       up: true
-      
+
     - name: Angle Grinder
       img: doc/equip/shop/img/angleGrinder.jpg
       sop: /doc/equip/shop/angleGrinder
