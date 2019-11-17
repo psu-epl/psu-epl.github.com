@@ -3567,3 +3567,28 @@ body > .wrapper {
 .machine.other:after {
   content: "This machine has issues.";
 }
+table {
+  background-color: transparent;
+  border: 1px solid #dddddd;
+}
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  line-height: 1.42857143;
+}
+table > thead > tr > th,
+table > thead > tr > td {
+  border-bottom-width: 2px;
+}
+th {
+  text-align: center;
+}
