@@ -114,27 +114,12 @@
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
       up: false
 
-    #- name: Full Spectrum Pro CO2 Laser Cutter
-    #  img: images/prolf20x12.JPG
-    #  sop: /doc/equip/laser/fullSpectrum
-    #  up: false
-    #  not in use
-
-    #- name: Full Spectrum Laser Cutter
-      #img: ''
-      #sop: ''
-      #log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
-      #up: other
-      #taken off website until complete
-
-  #  - name: K40 Laser Cutter
-  #    img: images/K40Laser.jpg
-  #    sop: /doc/equip/laser/K-40
-  #    log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
-  #    up: true
-  #    not in use
-
-
+    - name: Full Spectrum Laser Cutter
+      img: images/newFullSpectrum.jpg
+      sop: /doc/equip/laser/fullSpectrum
+      log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
+      up: true
+      
 - title: Shop and Hand Tools
   machines:
     - name: Soldering Equipment
