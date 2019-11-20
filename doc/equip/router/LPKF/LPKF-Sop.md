@@ -140,7 +140,7 @@ You probably are not using pockets.
 2. Physically Mount Material
 - Select a **PCB blank**
 
-Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
+    Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
 
 3. Prepare backing surface
 
@@ -148,7 +148,7 @@ Choose a flat, untwisted, blank PCB that has enough room on it for your board. I
 
     Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put **masking tape** along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
 
-<img src="img/backing_surface.JPG" width="650" height="500">
+    <img src="img/backing_surface.JPG" width="650" height="500">
 
 4. Edit pattern placement on the PCB blank
 
