@@ -111,6 +111,8 @@ The "Contour Routing" settings control where your boards breakout tabs will be. 
 Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 You probably are not using pockets.
 
+![LPKF Remove Processes](img/convert_to_toolpath.PNG)
+
 #### Select **Start** to begin generating the toolpath
  - A window will pop up with computation results. If they look okay, select **Close**.
 
