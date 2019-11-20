@@ -116,6 +116,8 @@ You probably are not using pockets.
 #### Select **Start** to begin generating the toolpath
  - A window will pop up with computation results. If they look okay, select **Close**.
 
+![LPKF Computation Results](img/computation_results.png)
+
 ---------------------------------------------------------------------------------------------------------
 
 ## **Setup Machine** To Cut
