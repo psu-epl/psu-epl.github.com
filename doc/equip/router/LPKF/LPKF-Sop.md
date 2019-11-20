@@ -138,9 +138,9 @@ You probably are not using pockets.
 - Click **OK**. You shouldn't need to recalculate the toolpaths. 
 
 2. Physically Mount Material
-    * Select a PCB blank
+- Select a **PCB blank**
 
-   Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
+Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
 
 3. Prepare backing surface
 
@@ -154,9 +154,9 @@ You probably are not using pockets.
 
     Find the blank spot where you plan to place the board and in the machining view, select the 'Mouse Cursor' mode in the left control panel. When you have the 'Mouse Cursor' mode selected you can click anywhere on the  to move the head to that location. The purpose of this exercise is to make sure the black collar around the bit will never go off the board or hit blue tape. De-select the 'Mouse Cursor' mode.
 
-    In the machining view, right-click on the artwork and select 'Placement'. The design artwork should get a heavy line around it with a rotation handle on the top. Then click and drag the artwork's lower left-hand corner to the location of the head (which should be the appropriate place on the board). 
+    In the machining view, right-click on the artwork and select **Placement**. The design artwork should get a heavy line around it with a rotation handle on the top. Then click and drag the artwork's lower left-hand corner to the location of the head (which should be the appropriate place on the board). 
 
-    Now reselect 'Mouse Cursor' and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
+    Now reselect **Mouse Cursor** and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
 
 5. Check cut width
@@ -171,9 +171,9 @@ This step may not be necessary. If neither the material thickness nor the bit ha
 
 6. Run Process
 
-    Select Machining > Process All. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit 'OK'.
-    The Material Settings dialog will come up but you've already done that too. Hit 'Continue'.
-    The Placement dialog will come up but you've already done that too. Hit 'Continue'. 
+    Select **Machining > Process All**. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit **OK**.
+    The Material Settings dialog will come up but you've already done that too. Hit **Continue**.
+    The Placement dialog will come up but you've already done that too. Hit **Continue**. 
     You'll be prompted to save. Go ahead, why not. 
     The machine should happily do its thing. 
 
@@ -199,5 +199,5 @@ This step may not be necessary. If neither the material thickness nor the bit ha
 
 10. Safely exit and shut down the machine
 
-     Click File > Exit. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
+     Click **File > Exit**. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
 
