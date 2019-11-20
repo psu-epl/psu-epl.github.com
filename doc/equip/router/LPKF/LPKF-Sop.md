@@ -127,7 +127,7 @@ You probably are not using pockets.
 
  1. Check Tool Magazine
 
-- Open Edit > Tool Magazine. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
+- Open **Edit > Tool Magazine**. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
 - In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
 - Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
 
@@ -158,6 +158,7 @@ You probably are not using pockets.
 
     Now reselect **Mouse Cursor** and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
+    ![LPKF Placement and Mouse Cursor](img/placement.png)
 
 5. Check cut width
 
