@@ -114,6 +114,9 @@ You probably are not using pockets.
 ![LPKF Remove Processes](img/convert_to_toolpath.PNG)
 
 #### Select **Start** to begin generating the toolpath
+
+![LPKF Start Computation](img/start_technology_dialog.png)
+
  - A window will pop up with computation results. If they look okay, select **Close**.
 
 ![LPKF Computation Results](img/computation_results.png)
