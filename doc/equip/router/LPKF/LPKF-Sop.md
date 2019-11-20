@@ -162,7 +162,7 @@ You probably are not using pockets.
 
 5. Check cut width
 
-This step may not be necessary. If neither the material thickness nor the bit has been changed since the last job, the milling width will probably be fine. If it appears wrong (either leaving rough cut edges, or wrong isolation width, or both), the first thing to check is the bit. To do this, remove the bit from the tool magazine using the bit removal tool (the blue cylindrical thing which is stuck magnetically to the shelf support.) Look at it under the microscope under maximum zoom. If the straight V cutting edges look at all dented, the bit is finished. After the bit is verified/changed, if the milling width is still wrong, then do the following:
+   This step may not be necessary. If neither the material thickness nor the bit has been changed since the last job, the milling width will probably be fine. If it appears wrong (either leaving rough cut edges, or wrong isolation width, or both), the first thing to check is the bit. To do this, remove the bit from the tool magazine using the bit removal tool (the blue cylindrical thing which is stuck magnetically to the shelf support.) Look at it under the microscope under maximum zoom. If the straight V cutting edges look at all dented, the bit is finished. After the bit is verified/changed, if the milling width is still wrong, then do the following:
    * Edit > Tool Magazine
    * Check the blue check box next to 0.2 mm Universal Cutter
    * Click on the "Check Milling Width..." button below.
@@ -177,6 +177,8 @@ This step may not be necessary. If neither the material thickness nor the bit ha
     The Placement dialog will come up but you've already done that too. Hit **Continue**. 
     You'll be prompted to save. Go ahead, why not. 
     The machine should happily do its thing. 
+
+![LPKF Process All](img/process_all.png)
 
 * If you are plating through holes, the LPKF will drill holes first. Once all holes are drilled the material will be removed and run through the plating tank using [The Plating Tank SOP](https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank). When the plating process is finished re-mount the material with the bottom up and as close to the same position and orientation as when it was removed.
 
