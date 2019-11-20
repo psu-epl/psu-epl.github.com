@@ -148,7 +148,7 @@ You probably are not using pockets.
 
     Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put **masking tape** along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
 
-![LPKF Backing Surface](img/backing_surface.JPG)
+<img src="img/backing_surface.JPG" width="650" height="800">
 
 4. Edit pattern placement on the PCB blank
 
