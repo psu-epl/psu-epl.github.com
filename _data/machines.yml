@@ -69,11 +69,6 @@
       log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
       up: True
 
-    - name: Shining 3D Scanner
-      img: images/shining3D.jpeg
-      sop: /doc/equip/misc/shining3D
-      up: true
-
 - title: Machining Equipment
   machines:
     - name: Little Machine Shop Mill
@@ -89,11 +84,6 @@
     - name: Drill Press
       img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
-      up: true
-      
-    - name: Thermocutter
-      img: images/Thermocut.jpg
-      sop: /doc/equip/misc/Thermocut
       up: true
       
     - name: Wazer
@@ -174,3 +164,20 @@
       img: doc/equip/shop/img/arborPress.jpg
       sop: /doc/equip/shop/arborPress
       up: true
+
+- title: Miscellaneous
+  machines:
+    - name: Thermocutter
+      img: images/Thermocut.jpg
+      sop: /doc/equip/misc/Thermocut
+      up: true
+
+    - name: Shining 3D Scanner
+      img: images/shining3D.jpeg
+      sop: /doc/equip/misc/shining3D
+      up: true
+
+    - name: Silhouette Cameo
+      img: ''
+      sop: /doc/equip/misc/cameo
+      up: other
