@@ -5,51 +5,68 @@ author:
 date:
 
 ---
-# Full Spectrum Professional Series CO2 20x12 Laser
-# Approved Materials
-
-|Material	|Minimum Thickness	|Maximum Thickness	|
-|---------------|----------------------:|----------------------:|
-|Acrylic	|1/16 in		|1/4 in			|
-|Bamboo		|1/32 in		|1/4 in			|
-|Cardboard	|1/32 in		|1/4 in			|
-|Masking Tape	|1 layer		|2 layers		|
-|Paper (Printer)|1 sheet (held down)	|10 sheets (held down)	|
-|Poster Board	|normal			|normal			|
-|Wood (General)	|1/8 in			|1/4 in			|
-|Wood (Ply)	|1/8 in			|1/8 in			|
-
-Ask a manager if you would like to cut any materials not listed above.
-
-MANAGERS: Absolutely no PVC nor Vinyl is to be used in the Laser Cutter under any circumstances whatsoever. Also we don't allow the use of that compacted brownish material the Architecture students use under any circumstances either.
-
-
-**See the [[material database]] for help with settings.**
 
 ## Overview
 
-We have a [Full Spectrum Laser Professional Series CO2 20x12 Laser with RetinaEngrave 3D](http://fslaser.com/products/lasers/pro-series/20x12-laser-engraver). Here are some quick facts:
+We have a [Wazer](https://www.wazer.com/specs). Here is a quick overview:
 
-- It's an 80W CO2 laser that uses an invisible far infrared beam for cutting.
-- It does a good job cutting through things with carbon in it, e.g., paper, cardboard, bamboo, wood, and acrylic... even up to 0.25 inch bamboo and 0.5 inch acrylic. ABS is possible, but discouraged because of the terrible fumes (even worse than acrylic).
-   - We have sheets of Acrylic and Bamboo on hand for sale if you need them.
-- Cutting materials that contain Chlorine are NOT allowed, like PVC.
-- It will not cut metals. And it won't do much to non-anodized Aluminum or Copper.
-- It can mark some metals, especially anodized Aluminum and sometimes steel.
-- It theoretically has a 20 x 12 inch working capacity... but we never push it for more than about 18 x 11 inch just because it's very hard to align the very edges of the material, and the mirror head can hit the rails if you're a little misaligned.
-- It acts like a regular Windows printer: you simply print to it from any standard Windows program that can run on PC that runs the Lasercutter.
-- Popular programs to print from in the EPL: InkScape, Gerbv (for solder paste stencils), SolidWorks, Acrobat Reader (for PDFs), Word.
+The WAZER is a table-top waterjet cutter. Waterjet cutting uses a mixture of high-pressure water and an abrasive, it has the ability to cut through many materials. The WAZER is limited only by the repository of materials that are currently available on their online Material Library. In order to set up a cut, a 2D design must be created in an outside program (Solidworks, Illustrator,  Fusion360, Inkscape,  AutoCad, Onshape, etc) and then take a DXF or SVG file and upload it to WAM which is the slicing software. WAM is browser based and its use is outlined in a separate document [HERE](https://docs.google.com/document/d/e/2PACX-1vR1dXCqtqhrKVkHyGhJJPfcSqz3ATtw6Qzo6puR2IplyjMEwYYs1ZHa1CS6VhqkCRD1tPU0lUCym6Kx/pub)
 
-## Theory of Operation
+## Anatomy
 
-There are two basic modes of operation:
+The WAZER has two main components: the main unit and the pump box. The pump box is the smaller enclosure on the right and is responsible for pressurizing the water that comes out of the building’s water system. The main unit is the larger of the two and contains the cut bed and control panel. The main unit is the only part of the WAZER that needs to be interacted with, the pump is fully controlled by the WAZER and should not be messed with.
 
- 1. **Vector** -- draw lines, "CNC style" set of paths at various power levels. It's fast and clean looking.
- 1. **Raster** -- draw "scan lines" which are pixels across the entire piece. Can only pulse on or off every pixel, so you essentially get dots. To get gray scale, use [Halftone techniques](http://en.wikipedia.org/wiki/Halftone). Slow and pixelated.
+The main unit has several parts to be aware of:
 
-In either case, setting the power level correctly is not trivial.
+<center>![Wazer Central Parts](images/wazersop1.png)</center>
 
-**See the [[material database]] for help with settings.**
+The **Abrasive Hopper** holds the garnet sand that is mixed with the pressurized water at the cutting head.
+
+The **Enclosure** holds the cutting bed, water, used abrasive and material.
+
+The **Control Panel** is the main interface through which the Wazer is operated.
+
+<center>![SD Card Slot](images/wazersop2.png)</center>
+
+The **SD Card Slot** is where cut files are uploaded to the Wazer.
+
+The **Power Switch** is located underneath on the right side.
+
+<center>![Wazer Insides One](images/wazersop3.png)</center>
+
+<center>*Wazer insides (pictured above and below)*</center>
+
+<center>![Wazer Insides Two](images/wazersop4.png)</center>
+
+<center>*Cut bed size: 12" x 18"*</center>
+
+## Operation
+
+The WAZER will not turn on unless there is a certain amount of water in the tank (about 2/3rds) but should not be attempted to run unless the water level is within ¼ inches of the top of the cut bed.
+
+In order to run, the water supply from the building’s plumbing MUST be turned on otherwise the pump box will be severely damaged.
+
+### Detailed Procedure
+
+1. **Check water levels**
+  - must be within 0.25 inches of the top of the cut bed, if not, add water manually using a large cup/container/bucket.
+
+1. **Turn on water supply**
+  - There is a sink to the left of the WAZER. Underneath there is a white valve and a blue lever switch. Make sure this switch is HORIZONTAL before continuing.
+<center>![General Water Supply Reference](images/wazersop5.png) ![Specific Water Supply Reference](images/wazersop6.png)</center>
+
+1. **Prepare abrasive system**
+  - The WAZER assumes there is approximately 35 lbs of abrasive loaded at the start of each cut, and tracks the amount of abrasive by the length of cut versus measuring the amount in the hopper. Therefore, it is imperative that the hopper is fully loaded to ensure that you will not run out of abrasive during a long cut.
+  - On the left side of the Main Unit, there is a drawer that has a bucket with two screens on top. Pull it out slowly and carefully. Remove the screens and if there is “enough” abrasive move on, otherwise take a cup and pour the abrasive through the screens (in case there are any large chunks) until there are small peaks poking above the screens.
+    - Before adding sand to the hopper, make sure there is no wet sand in the hopper. If there is wet sand in the hopper, do not attempt to remove it. Get the manager on duty (if they're trained on the wazer) to service the hopper for you, as you don't want to be responsible for causing the equipment to need to be serviced.
+
+**IMPORTANT: At no point should any abrasive material be physically added to the inside of the main tank, abrasive needs to be completely dry when it is mixed with the high pressure stream of water inside the cutting head.**
+
+<center>![Abrasive Fill Amount](images/wazersop7.png)</center>
+<center>*The above amount pictured would constitute “enough”.*</center>
+
+  - Next, back to the inside of the main unit, take off the front bucket cover by pulling up on the metal handle  and empty out any used abrasive from the collection buckets and then carefully re-insert them. Water may be poured back into the WAZER and the used abrasive then scooped out and discarded into a provided 5-gallon bucket.
+
 
 # Power and Speed settings
 
