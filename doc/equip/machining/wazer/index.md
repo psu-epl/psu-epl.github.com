@@ -50,11 +50,11 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 
 1. **Check water levels**
   - must be within 0.25 inches of the top of the cut bed, if not, add water manually using a large cup/container/bucket.
-1. **Turn on water supply**
+2. **Turn on water supply**
   - There is a sink to the left of the WAZER. Underneath there is a white valve and a blue lever switch. Make sure this switch is HORIZONTAL before continuing.
 <center><img src="images/wazersop5.jpg" alt="General Water Supply Reference" height="500" width="500"></center>
 <center><img src="images/wazersop6.jpg" alt="Specific Water Supply Reference" height="500" width="500"></center>
-1. **Prepare abrasive system**
+3. **Prepare abrasive system**
   - The WAZER assumes there is approximately 35 lbs of abrasive loaded at the start of each cut, and tracks the amount of abrasive by the length of cut versus measuring the amount in the hopper. Therefore, it is imperative that the hopper is fully loaded to ensure that you will not run out of abrasive during a long cut.
   - On the left side of the Main Unit, there is a drawer that has a bucket with two screens on top. Pull it out slowly and carefully. Remove the screens and if there is “enough” abrasive move on, otherwise take a cup and pour the abrasive through the screens (in case there are any large chunks) until there are small peaks poking above the screens.
     - Before adding sand to the hopper, make sure there is no wet sand in the hopper. If there is wet sand in the hopper, do not attempt to remove it. Get the manager on duty (if they're trained on the wazer) to service the hopper for you, as you don't want to be responsible for causing the equipment to need to be serviced.
@@ -64,7 +64,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
   - Next, back to the inside of the main unit, take off the front bucket cover by pulling up on the metal handle  and empty out any used abrasive from the collection buckets and then carefully re-insert them. Water may be poured back into the WAZER and the used abrasive then scooped out and discarded into a provided 5-gallon bucket.
 <center><img src="images/wazersop8.jpg" alt="Abrasive Filtration System" height="500" width="500"></center>
 <center><i>The buckets with the metal handles need to be carefully removed and emptied before each new cut.</i></center>
-1. **Plug the pump in**
+4. **Plug the pump in**
   - The WAZER Main Unit and Pump need to be on SEPARATE circuits. The WAZER should be connected to the wall behind it and the pump power cable will need an extension cord to the backside of the column in the middle of the room, labeled 2D2-17.
 <center><img src="images/wazersop9.jpg" alt="Wazer Outlet" height="500" width="500"></center>
 Make sure there is nothing else plugged into these outlets. Use the orange extension cord in the bottom drawer of the table that the WAZER sits on.
