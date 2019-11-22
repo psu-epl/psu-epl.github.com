@@ -18,7 +18,7 @@ The WAZER has two main components: the main unit and the pump box. The pump box 
 
 The main unit has several parts to be aware of:
 
-<center>![Wazer Central Parts](images/wazersop1.png)</center>
+<center> ![Wazer Central Parts](images/wazersop1.png) </center>
 
 The **Abrasive Hopper** holds the garnet sand that is mixed with the pressurized water at the cutting head.
 
@@ -101,7 +101,7 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
   - You are looking for a strong, mostly clear stream of water. If you can hear air hissing and the stream is white and irregular, select “HP Valve” a few more times until you achieve a strong, silent stream.
   - Replace the Abrasive Hose End, ensuring that it is fully seated, with both O-rings inside the Cutting Head
 
-<center>![Replacing Abrasive Hose End](images/wazersop13.jpg)
+<center>![Replacing Abrasive Hose End](images/wazersop13.jpg)</center>
 
 1. **Refer to the WAZER Software SOP to ensure that your cut is ready to go.**
 
