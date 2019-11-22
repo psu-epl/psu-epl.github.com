@@ -50,11 +50,9 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 
 1. **Check water levels**
   - must be within 0.25 inches of the top of the cut bed, if not, add water manually using a large cup/container/bucket.
-
 1. **Turn on water supply**
   - There is a sink to the left of the WAZER. Underneath there is a white valve and a blue lever switch. Make sure this switch is HORIZONTAL before continuing.
 <center>![General Water Supply Reference](images/wazersop5.jpg) ![Specific Water Supply Reference](images/wazersop6.jpg)</center>
-
 1. **Prepare abrasive system**
   - The WAZER assumes there is approximately 35 lbs of abrasive loaded at the start of each cut, and tracks the amount of abrasive by the length of cut versus measuring the amount in the hopper. Therefore, it is imperative that the hopper is fully loaded to ensure that you will not run out of abrasive during a long cut.
   - On the left side of the Main Unit, there is a drawer that has a bucket with two screens on top. Pull it out slowly and carefully. Remove the screens and if there is “enough” abrasive move on, otherwise take a cup and pour the abrasive through the screens (in case there are any large chunks) until there are small peaks poking above the screens.
@@ -69,7 +67,6 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 
 <center>![Abrasive Filtration System](images/wazersop8.jpg)</center>
 <center>*The buckets with the metal handles need to be carefully removed and emptied before each new cut.*</center>
-
 1. **Plug the pump in**
   - The WAZER Main Unit and Pump need to be on SEPARATE circuits. The WAZER should be connected to the wall behind it and the pump power cable will need an extension cord to the backside of the column in the middle of the room, labeled 2D2-17.
 
@@ -80,11 +77,9 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
   - Press RESET on both GFCI-breakers (attached to the power cables of both the WAZER and Pump Box), verify that there is a green light that turns on to be sure that power is supplied to each component.
 
 <center>![GFCI-breaker](images/wazersop10.jpg)</center>
-
 1. **Turn WAZER on**
   - There is a rocker switch located underneath the tank of the WAZER on the right side, near the front. The on position is when the rocker is depressed nearest the right side. At this point, the screen for the Control Panel should turn on. Refer to the first picture in the **Anatomy** section for a better idea.
   - The Pump is fully controlled by the Main Unit and has no ON/OFF switch.
-
 1. **Prime the plumbing**
   - Navigate to “Setup & Maintenance” on the Control Panel. Select “Maintenance”.
   - Remove the front bucket cover (which covers the abrasive collection buckets)
@@ -102,22 +97,16 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
   - Replace the Abrasive Hose End, ensuring that it is fully seated, with both O-rings inside the Cutting Head
 
 <center>![Replacing Abrasive Hose End](images/wazersop13.jpg)</center>
-
 1. **Refer to the WAZER Software SOP to ensure that your cut is ready to go.**
-
 1. **Insert SD Card, from the Main Menu go to “Select Cut File” and navigate to your file.**
-
 1. **Lift the Nozzle and Home the WAZER**
   - The Wazer will now take you through several steps to make sure that it is safe to use
   - Twist Nozzle Lock Knob counter-clockwise to loosen, raise the nozzle all the way up and retighten. When you press OK on the WAZER it will home the Cutting Head to the upper left-hand corner of the cut bounds that you specified when slicing your design in Wam.
-
 1. **Fasten Material**
   - This step is very important as it will help to ensure the longevity of not only the Cut Bed, but also the Cutting Head itself.
   - The Cutting Head should now be at the upper left-hand corner of where your piece will be cut out. When fastening, you want to make sure that the Cutting Head will not make contact with any screws or go off the bounds of the material. Using a piece of material that is comfortably larger than the piece you need is ideal.
   - The WAZER comes with mounting screws but if you feel you need smaller screw heads for your cut, ask a manager for help choosing alternate screws. Screws with coarse threads are ideal (wood/sheet metal screws), be sure to use at LEAST 3 and that the material cannot slide around when it is mounted.
-
 <center>![Material Mounting](images/wazersop14.png)</center>
-
 1. **Nozzle Height**
   - Remove the Nozzle Height Tool from the top of the Cutting Head.
   - Loosen the Nozzle Lock Knob, and lower the nozzle to the material, placing the Height Tool in between the nozzle and the material. There is no need to press down and the height tool should be able to slide out easily once the Nozzle is tightened.
@@ -125,12 +114,10 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
   - Press OK.
 
 <center>![Nozzle Height](images/wazersop15.jpg)</center>
-
 1. **Check Cut Extents**
   - The WAZER will give you an option to Check Cut Extents or perform a Dry Run. Perform AT LEAST one of these checks.
     - Cut Extents will give you the smallest rectangle that your piece fits into on the material
     - Dry Run will trace the entire path without releasing any water. This takes longer but is a more accurate picture of what the exact cut path is going to be.
-
 1. **Ready to Cut**
   - Once you have completed all of the above steps, you are ready to cut. Select “Cut Material” and keep an eye on the WAZER while it cuts your material.
   - Take note of the time it takes for the cut to complete and let a manager on duty know, we need to track usage for maintenance purposes.
@@ -138,7 +125,6 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
 **IMPORTANT: DO NOT, UNDER ANY CIRCUMSTANCES OPEN THE COVER OF THE WAZER WHILE IT IS SET TO CUT.**
 
 If the cut stops for any reason or throws up an error, get a manager before trying to move on and fix the problem yourself, even if the error seems minor.
-
 1. **Shutdown and Clean-up**
   - Once your cut is complete, loosen the Lock Knob and raise the Cutting Head to its maximum height.
   - Perform a Tank Cleaning Procedure by Selecting “Setup & Maintenance” from the Main Menu, going into the Maintenance Menu and selecting “Tank Cleaning Cycle.” This should take about 2 minutes.
