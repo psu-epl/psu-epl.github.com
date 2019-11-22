@@ -58,25 +58,17 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
   - The WAZER assumes there is approximately 35 lbs of abrasive loaded at the start of each cut, and tracks the amount of abrasive by the length of cut versus measuring the amount in the hopper. Therefore, it is imperative that the hopper is fully loaded to ensure that you will not run out of abrasive during a long cut.
   - On the left side of the Main Unit, there is a drawer that has a bucket with two screens on top. Pull it out slowly and carefully. Remove the screens and if there is “enough” abrasive move on, otherwise take a cup and pour the abrasive through the screens (in case there are any large chunks) until there are small peaks poking above the screens.
     - Before adding sand to the hopper, make sure there is no wet sand in the hopper. If there is wet sand in the hopper, do not attempt to remove it. Get the manager on duty (if they're trained on the wazer) to service the hopper for you, as you don't want to be responsible for causing the equipment to need to be serviced.
-
-**IMPORTANT: At no point should any abrasive material be physically added to the inside of the main tank, abrasive needs to be completely dry when it is mixed with the high pressure stream of water inside the cutting head.**
-
+  -**IMPORTANT: At no point should any abrasive material be physically added to the inside of the main tank, abrasive needs to be completely dry when it is mixed with the high pressure stream of water inside the cutting head.**
 <center><img src="images/wazersop7.jpg" alt="Abrasive Fill Amount" height="500" width="500"></center>
 <center><i>The above amount pictured would constitute “enough”.</i></center>
-
   - Next, back to the inside of the main unit, take off the front bucket cover by pulling up on the metal handle  and empty out any used abrasive from the collection buckets and then carefully re-insert them. Water may be poured back into the WAZER and the used abrasive then scooped out and discarded into a provided 5-gallon bucket.
-
 <center><img src="images/wazersop8.jpg" alt="Abrasive Filtration System" height="500" width="500"></center>
 <center><i>The buckets with the metal handles need to be carefully removed and emptied before each new cut.</i></center>
 1. **Plug the pump in**
   - The WAZER Main Unit and Pump need to be on SEPARATE circuits. The WAZER should be connected to the wall behind it and the pump power cable will need an extension cord to the backside of the column in the middle of the room, labeled 2D2-17.
-
 <center><img src="images/wazersop9.jpg" alt="Wazer Outlet" height="500" width="500"></center>
-
 Make sure there is nothing else plugged into these outlets. Use the orange extension cord in the bottom drawer of the table that the WAZER sits on.
-
   - Press RESET on both GFCI-breakers (attached to the power cables of both the WAZER and Pump Box), verify that there is a green light that turns on to be sure that power is supplied to each component.
-
 <center><img src="images/wazersop10.jpg" alt="GFCI-breaker" height="500" width="500"></center>
 1. **Turn WAZER on**
   - There is a rocker switch located underneath the tank of the WAZER on the right side, near the front. The on position is when the rocker is depressed nearest the right side. At this point, the screen for the Control Panel should turn on. Refer to the first picture in the **Anatomy** section for a better idea.
@@ -85,18 +77,13 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
   - Navigate to “Setup & Maintenance” on the Control Panel. Select “Maintenance”.
   - Remove the front bucket cover (which covers the abrasive collection buckets)
   - Select “Used Abr. Collect” and ensure that the stream of water that comes out is in a strong and steady stream. If it is not, navigate back to the “Setup & Maintenance” screen, down to “Peripheral Check” and select “LP Pump.” Let this run until the stream becomes strong and steady.
-
 <center><img src="images/wazersop11.jpg" alt="Water Flow Example" height="500" width="500"></center>
-
   - Next, in the “Setup & Maintenance” menu, select “Peripheral Check” and finally “HP Valve”
   - **IMPORTANT: Be sure to remove the Abrasive Hose End from the Cutting Head and move it somewhere that it is unlikely to get wet.**
-
 <center><img src="images/wazersop12.jpg" alt="Abrasive Hose End" height="500" width="500"></center>
-
   - Lift the Cutting Head at least ½ inch from the cutting bed, close the door, and press OK.
   - You are looking for a strong, mostly clear stream of water. If you can hear air hissing and the stream is white and irregular, select “HP Valve” a few more times until you achieve a strong, silent stream.
   - Replace the Abrasive Hose End, ensuring that it is fully seated, with both O-rings inside the Cutting Head
-
 <center><img src="images/wazersop13.jpg" alt="Replacing Abrasive Hose End" height="500" width="500"></center>
 1. **Refer to the WAZER Software SOP to ensure that your cut is ready to go.**
 1. **Insert SD Card, from the Main Menu go to “Select Cut File” and navigate to your file.**
@@ -113,7 +100,6 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
   - Loosen the Nozzle Lock Knob, and lower the nozzle to the material, placing the Height Tool in between the nozzle and the material. There is no need to press down and the height tool should be able to slide out easily once the Nozzle is tightened.
   - As long as the nozzle is set on the lip of the Height Tool and the Height Tool is set firmly on the material, you can tighten the Lock Knob and replace the Height Tool.
   - Press OK.
-
 <center><img src="images/wazersop15.jpg" alt="Nozzle Height" height="500" width="500"></center>
 1. **Check Cut Extents**
   - The WAZER will give you an option to Check Cut Extents or perform a Dry Run. Perform AT LEAST one of these checks.
@@ -122,9 +108,7 @@ Make sure there is nothing else plugged into these outlets. Use the orange exten
 1. **Ready to Cut**
   - Once you have completed all of the above steps, you are ready to cut. Select “Cut Material” and keep an eye on the WAZER while it cuts your material.
   - Take note of the time it takes for the cut to complete and let a manager on duty know, we need to track usage for maintenance purposes.
-
 **IMPORTANT: DO NOT, UNDER ANY CIRCUMSTANCES OPEN THE COVER OF THE WAZER WHILE IT IS SET TO CUT.**
-
 If the cut stops for any reason or throws up an error, get a manager before trying to move on and fix the problem yourself, even if the error seems minor.
 1. **Shutdown and Clean-up**
   - Once your cut is complete, loosen the Lock Knob and raise the Cutting Head to its maximum height.
