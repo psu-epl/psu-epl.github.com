@@ -98,11 +98,11 @@
       sop: /doc/equip/misc/Thermocut
       up: true
 
-  #  - name: Wazer
-  #    img: ''
-  #    sop: ''
-  #    log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-  #    up: true
+    - name: Wazer
+      img: ''
+      sop: /doc/equip/machining/wazer
+      log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
+      up: true
   #    taken off website until usage terms are decided and sop is complete
 
 
@@ -119,7 +119,7 @@
       sop: /doc/equip/laser/fullSpectrum
       log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
       up: true
-      
+
 - title: Shop and Hand Tools
   machines:
     - name: Soldering Equipment
