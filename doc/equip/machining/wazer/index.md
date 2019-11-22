@@ -18,7 +18,7 @@ The WAZER has two main components: the main unit and the pump box. The pump box 
 
 The main unit has several parts to be aware of:
 
-<center> ![Wazer Central Parts](images/wazersop1.png) </center>
+![Wazer Central Parts](images/wazersop1.png)
 
 The **Abrasive Hopper** holds the garnet sand that is mixed with the pressurized water at the cutting head.
 
