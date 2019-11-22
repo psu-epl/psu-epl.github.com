@@ -104,6 +104,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 
 <center><img src="images/wazersop13.jpg" alt="Replacing Abrasive Hose End" height="500" width="500"></center>
 
+
 **Step Seven: Refer to the WAZER Software SOP to ensure that your cut is ready to go.**
 
 **Step Eight: Insert SD Card, from the Main Menu go to “Select Cut File” and navigate to your file.**
@@ -129,13 +130,13 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 
 **Step Twelve: Check Cut Extents**
   - The WAZER will give you an option to Check Cut Extents or perform a Dry Run. Perform AT LEAST one of these checks.
-    - Cut Extents will give you the smallest rectangle that your piece fits into on the material
-    - Dry Run will trace the entire path without releasing any water. This takes longer but is a more accurate picture of what the exact cut path is going to be.
-    -
+  - Cut Extents will give you the smallest rectangle that your piece fits into on the material
+  - Dry Run will trace the entire path without releasing any water. This takes longer but is a more accurate picture of what the exact cut path is going to be.
+
 **Step Thirteen: Ready to Cut**
   - Once you have completed all of the above steps, you are ready to cut. Select “Cut Material” and keep an eye on the WAZER while it cuts your material.
   - Take note of the time it takes for the cut to complete and let a manager on duty know, we need to track usage for maintenance purposes.
-  -
+
 **IMPORTANT: DO NOT, UNDER ANY CIRCUMSTANCES OPEN THE COVER OF THE WAZER WHILE IT IS SET TO CUT.**
 
 If the cut stops for any reason or throws up an error, get a manager before trying to move on and fix the problem yourself, even if the error seems minor.
