@@ -111,8 +111,15 @@ The "Contour Routing" settings control where your boards breakout tabs will be. 
 Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 You probably are not using pockets.
 
+![LPKF Remove Processes](img/convert_to_toolpath.PNG)
+
 #### Select **Start** to begin generating the toolpath
+
+![LPKF Start Computation](img/start_technology_dialog.png)
+
  - A window will pop up with computation results. If they look okay, select **Close**.
+
+![LPKF Computation Results](img/computation_results.png)
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -120,37 +127,42 @@ You probably are not using pockets.
 
  1. Check Tool Magazine
 
-    Open Edit > Tool Magazine. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
-    In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
-    Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
+- Open **Edit > Tool Magazine**. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
+- In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
+- Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
 
 (Trouble shooting tip: If the router throws a connection error, be sure the lid to the LPKF is closed, then go to Machining > Connect... if errors come up, alert the manager on duty)
 
-    Click 'OK'. You shouldn't need to recalculate the toolpaths. 
+![LPKF Tool Magazine](img/tool_magazine.png)
+
+- Click **OK**. You shouldn't need to recalculate the toolpaths. 
 
 2. Physically Mount Material
-    * Select a PCB blank
+- Select a **PCB blank**
 
-   Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
+    Choose a flat, untwisted, blank PCB that has enough room on it for your board. In particular, don't forget that you may have fiducial holes outside of your board, and you will be placing some PCB ribbing (blue tape) around your board to hold it in place during routing. So, don't get to close to holes or edges in the blank. A good idea is to draw on your board where you want it to be.
 
 3. Prepare backing surface
 
-    This is **really important**: the white backing material must be as smooth and flat as possible. This machine has no idea where the material surface is, beyond what the user tells it. That is, it thinks it knows the height of the top of your blank, but it assumes it is a perfect plane. If it deviates even by 2 mils (.05mm), isolation **will not work**. So, with the PCB blank not mounted, run your fingers over the surface of the white backing material and feel for any bumps or debris. If you feel any, blow off the debris or use the razor blade tool to remove the bumps. Bumps occur because drills and routing bits grind out and lift backing material. This is especially noticeable in the routed grooves where a PCB was separated from the blank. It's a good idea to run the razor blade over the surface even if you can't feel any bumps. Lift the white backing material out and check the backside too. 
+    This is **really important**: the white backing material must be as smooth and flat as possible. This machine has no idea where the material surface is, beyond what the user tells it. That is, it thinks it knows the height of the top of your blank, but it assumes it is a perfect plane. If it deviates even by 2 mils (.05mm), isolation **will not work**. So, with the PCB blank not mounted, run your fingers over the surface of the white backing material and feel for any bumps or debris. If you feel any, blow off the debris or use the **razor blade** tool to remove the bumps. Bumps occur because drills and routing bits grind out and lift backing material. This is especially noticeable in the routed grooves where a PCB was separated from the blank. It's a good idea to run the razor blade over the surface even if you can't feel any bumps. Lift the white backing material out and check the backside too. 
 
-    Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put masking tape along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
+    Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put **masking tape** along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
+
+    <img src="img/backing_surface.JPG" width="650" height="500">
 
 4. Edit pattern placement on the PCB blank
 
     Find the blank spot where you plan to place the board and in the machining view, select the 'Mouse Cursor' mode in the left control panel. When you have the 'Mouse Cursor' mode selected you can click anywhere on the  to move the head to that location. The purpose of this exercise is to make sure the black collar around the bit will never go off the board or hit blue tape. De-select the 'Mouse Cursor' mode.
 
-    In the machining view, right-click on the artwork and select 'Placement'. The design artwork should get a heavy line around it with a rotation handle on the top. Then click and drag the artwork's lower left-hand corner to the location of the head (which should be the appropriate place on the board). 
+    In the machining view, right-click on the artwork and select **Placement**. The design artwork should get a heavy line around it with a rotation handle on the top. Then click and drag the artwork's lower left-hand corner to the location of the head (which should be the appropriate place on the board). 
 
-    Now reselect 'Mouse Cursor' and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
+    Now reselect **Mouse Cursor** and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
+    ![LPKF Placement and Mouse Cursor](img/placement.png)
 
 5. Check cut width
 
-This step may not be necessary. If neither the material thickness nor the bit has been changed since the last job, the milling width will probably be fine. If it appears wrong (either leaving rough cut edges, or wrong isolation width, or both), the first thing to check is the bit. To do this, remove the bit from the tool magazine using the bit removal tool (the blue cylindrical thing which is stuck magnetically to the shelf support.) Look at it under the microscope under maximum zoom. If the straight V cutting edges look at all dented, the bit is finished. After the bit is verified/changed, if the milling width is still wrong, then do the following:
+   This step may not be necessary. If neither the material thickness nor the bit has been changed since the last job, the milling width will probably be fine. If it appears wrong (either leaving rough cut edges, or wrong isolation width, or both), the first thing to check is the bit. To do this, remove the bit from the tool magazine using the bit removal tool (the blue cylindrical thing which is stuck magnetically to the shelf support.) Look at it under the microscope under maximum zoom. If the straight V cutting edges look at all dented, the bit is finished. After the bit is verified/changed, if the milling width is still wrong, then do the following:
    * Edit > Tool Magazine
    * Check the blue check box next to 0.2 mm Universal Cutter
    * Click on the "Check Milling Width..." button below.
@@ -160,11 +172,13 @@ This step may not be necessary. If neither the material thickness nor the bit ha
 
 6. Run Process
 
-    Select Machining > Process All. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit 'OK'.
-    The Material Settings dialog will come up but you've already done that too. Hit 'Continue'.
-    The Placement dialog will come up but you've already done that too. Hit 'Continue'. 
+    Select **Machining > Process All**. It will warn you to tape the PCB blank down but you should have already done it because you're following this awesome guide. Hit **OK**.
+    The Material Settings dialog will come up but you've already done that too. Hit **Continue**.
+    The Placement dialog will come up but you've already done that too. Hit **Continue**. 
     You'll be prompted to save. Go ahead, why not. 
     The machine should happily do its thing. 
+
+![LPKF Process All](img/process_all.png)
 
 * If you are plating through holes, the LPKF will drill holes first. Once all holes are drilled the material will be removed and run through the plating tank using [The Plating Tank SOP](https://github.com/psu-epl/psu-epl.github.com/wiki/LPKF-MiniContac-RS-Plating-Tank). When the plating process is finished re-mount the material with the bottom up and as close to the same position and orientation as when it was removed.
 
@@ -188,5 +202,5 @@ This step may not be necessary. If neither the material thickness nor the bit ha
 
 10. Safely exit and shut down the machine
 
-     Click File > Exit. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
+     Click **File > Exit**. Close the lid and allow the machine to return its head to a safe position to shut down. Once the program has exited completely, open the lid and turn the power off using the switch on the lower left-hand front side of the machine. 
 
