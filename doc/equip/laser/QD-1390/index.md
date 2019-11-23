@@ -1,7 +1,7 @@
 ---
 title: "QD-1390 Laser Cutter"
 layout: sop
-author: Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak, Joseph Shields
+author: Joe Shields, Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak
 date: 2019-05-17
 ---
 
@@ -199,7 +199,7 @@ This laser cutter will work with [vector files][vector], like DXF, for cutting, 
 Images, like JPG and PNG, can only be [rastered][raster].
 
 ### Exporting Your Geometry
-You want your DXF to be in units of millimeters.
+You want a DXF that's in units of millimeters.
 
 #### Quick and Easy Box
 If you just need a box/enclosure: 
@@ -211,16 +211,34 @@ If you just need a box/enclosure:
 - Download a DXF.
 
 #### SolidWorks
-- Open the *part* you wish to cut
-- Change the measurement system to \'mmgs\' (bottom right corner) and ensure your part has the correct dimensions in millimeters. (25.4 mm/inch)
+1. Open the *part* you wish to cut
+1. Change the measurement system to \'mmgs\' (bottom right corner) and ensure your part has the correct dimensions in millimeters. (25.4 mm/inch)
     - The main reason for bad DXF files from SolidWorks is using a different measurement system such as IPS(Inch, pound, second) or MKS(Meter, kilogram, second). Use your desired system to design the part but switch to mmgs afterwards to create the DXF file.
-- Right click the desired face you wish to create a pattern from and select "export DXF/DWG"
-- Complete the following prompts to save the file.
+1. Right click the desired face you wish to create a pattern from and select "export DXF/DWG"
+1. Complete the following prompts to save the file.
+{%comment%}
+TODO:
+- [ ] Go through the process that uses File -> Save -> (set file type to DXF) -> Ok  
+      and record that here.
+{%endcomment%}
 
 #### Inkscape
+1. Click `File` -> `Save As`.
+1. Set the file type to `Desktop Cutting Plotter (AutoCAD DXF R14) (*.dxf)`.
+1. Click `Save`.
+1. Set the export parameters. Depending on your version of Inkscape, you may get slightly different menu options here.
+    - Set the base units to `mm`.
+    - Uncheck `use ROBO-Master type of spline output`\*.
+    - Uncheck `use LWPOLYLINE type of line output`\*.
+        - \*These instructions should be confirmed through testing, as they're from Joe's memory.
+    - If you have geometry on hidden layers that you _don't_ want to cut, you'll need to select `Visible only` in `Layer export selection`.
+1. Click `Ok`.
 {%comment%}
-There's a trick about which spline type to use when exporting, and I don't know it off the top of my head.
-I'm also not sure if it will work if the objects are transparent or what happens with fill/stroke/patterns/clones.
+TODO:
+- [ ] Go through the process of creating simple geometry in Inkscape and porting it to RDWorks.  
+      There's a trick about which spline type to use when exporting, and I don't know it off the top of my head.
+- [ ] Also experiment with:
+- transparent or what happens with fill/stroke/patterns/clones.
 {%endcomment%}
 
 ### Importing Your Geometry
@@ -230,25 +248,39 @@ I'm also not sure if it will work if the objects are transparent or what happens
     - Click File -> Import
         - You can import most vector files and images, but a safe bet is to use DXF vector files.  
            {%comment%}![](img/RDWorksMenu.png)This image doesn't seem to clarify anything.{%endcomment%}
-1. Check your job.
-    - There are several issues that can happen upon importing a vector image.
-		- If the vectors are messed up, in which case you will have to manually edit your job by clicking "Edit Nodes", and adding nodes to the parts you want to remove, or move. It takes practice.
-            - You may also be able to fix this by selecting a different "spline type" when exporting your DXF.
-        - Your vector image is scaled way too small. 
-            - Select your vector shapes, and check the width and length in the 
-              upper left corner (not the x and y values, that is the position of your piece). 
-              The program assumes your DXF is in millimeters. So, a 6" box would appear as 6 mm.
-              To fix this, you should export your vector file in millimeters. 
-              Alternatively, you can fix this on the fly by scaling the offending objects by a factor of __25.4__. 
+1. Check your geometry. 
+    - Check that the paths are the correct shape. If they aren't, you have a couple options:
+        1. Go back to your CAD program and select a different "spline type" and/or "line type" when exporting.
+        1. If you can't change the spline and line types, you can manually edit the nodes in RDWorks.  
+           This is tricky and you'll likely end up with some not-quite-right geometry.
+    - Check that the bounding boxes of the paths are correct.  
+      {%comment%}TODO: Add a screenshot of where the bounding boxes are shown.{%endcomment%}
+        - Select a path and check the width and height in the upper left corner.  
+          The X and Y values are not what you want. Those are just the position of the path.
+        - Note that RDWorks displays this information in units of millimeters, not inches. (1 in = 25.4 mm)
+        - If the paths are the wrong size, go back to your CAD program and change the units to millimeters.  
+          Alternatively, you can fix this on the fly by scaling the offending paths by a factor of __25.4__. 
 
-## Safety Checks
+## Pre-Job Checklist
 {%comment%} 
 TODO: 
 - [ ] Get a picture of this tray. 
 - [ ] Fill out this section more.
 {%endcomment%}
+1. Check [the top of this page](#) or [the main EPL page](/) to see if this machine is "down" or "having issues".
+    - If the machine is down, you may not use it!
+    - If it's having issues, ask a manager what they are. 
+      You may be able to get more details on the machine's maintenance log at the top of this page.
+1. Double check with a manager that the laser, filter, and chiller are all okay to use. 
+1. Check that your material is on the [approved materials list](#materials) and __not__ the [banned materials list](#banned).
+    - If it's not on either list, ask a manager.
+1. Identify where the fire extinguisher is.
+1. Collect orange IR laser safety goggles for everyone who will be operating or monitoring the machine.
 1. Make sure there isn't excessive debris in the tray under the chamber.
     - __Danger: make sure the laser is disabled before checking the tray!__
+1. Make sure none of the side or rear maintenace panels are open.
+    - If they are, ask a manager if it's okay to close them.
+    - The panels __may not__ remain open when the laser is enabled!
 
 ## Power and Speed Settings
 Image files (.jpg, .png, etc.) will **always** raster, meaning it will not cut. 
@@ -279,10 +311,13 @@ In the upper right hand corner of RDWorks you should see a small window that wil
 
 Alternatively, if you just want to use the same cut settings throughout your job, just change the single black layer that is there by default and directly edit the settings there.
 
+You may need to develop your own cut settings for your material.
+See the [Test Cuts](#test-cuts) section for more information.
+It's __strongly recommended__ that you perform test cuts before running your job!
 
 ### Determining Settings
 It's strongly recommended that you perform some test cuts to ensure you'll get usable, desirable results.
-See the [Test Cuts](test-cuts) section for more information.
+See the [Test Cuts](#test-cuts) section for more information.
 Usually, three to six small circles are all that's needed to find acceptable settings.
 You shouldn't need to do large arrays of test cuts like the examples below.
 Below you can find some examples of cuts made in common materials.
@@ -293,18 +328,36 @@ Below you can find some examples of cuts made in common materials.
 #### 1/16" Bamboo
 ![](img/bambooTest_16th.png)
 
-## Aligning and Testing
-1. When you think your job is ready in RDWorks, open the hood (make sure the IR laser switch is **still** OFF) and place your material under the laser head.
-    1. __The green square in RDWorks corresponds to wherever the cut head is when you start your job.__ This means that the laser-bed-sized page in RDWorks _does not_ correspond to where your cuts will occur! The green square is all that maters. It will usually be positioned to the upper left of your piece. So, you usually want to place your material down so the laser head is directly above the upper left of your material.
-    {%comment%}TODO: add a picture of the green box.{%endcomment%}
-    1. You will need to focus the laser for your material using the focusing tool by placing it on top of your material, and using the top adjustment grip on the laser head to loosen it and slide the entire laser head so that the tip of the laser rests slightly on the top of the focusing tool. Gently tighten the adjustment grip and remove the focusing tool before closing the hood.)
-{%comment%}1. Adjust the lens height so the bottom edge of the purple tape is 2 in. from the surface of the material to cut.{%endcomment%}
-    1. *Note: Be careful to not over-tighten the focusing knob!*  
+## Physical Prep
+When your job is ready in RDWorks: 
+
+1. Ensure the laser is disabled by turning the switch on the right of the machine off.  
+   ![](img/laserDisable.png)
+1. Open the hood.
+1. Place your material under the laser head.
+
+### Position Your Work
+__The green square in RDWorks corresponds to wherever the cut head is when you start your job.__  
+This means that the laser-bed-sized page in RDWorks _does not_ correspond to where your cuts will occur!  
+The green square is all that maters. It will usually be positioned to the upper left of your piece. 
+So, you usually want to _place the upper left of your material directly below wherever the cut head is_.
+{%comment%}
+TODO: 
+Add a picture of the green box.  
+Also, try to add a depiction that's like 
+"See where the square and the head are? This will miss the stock entirely.".
+{%endcomment%}
+
+It's __strongly recommended__ that you also [preview your job](#previewing-your-job) before running it.
+
+### Adjust the Focus
+1. Place the focusing tool on your material.
+1. Loosen the top knurled ring.
+1. Slide the lens assembly to rest on top of the focusing tool.
+1. Gently tighten the top knurled ring to secure the lens assembly.
+    - *Do not over-tighten the focusing knob!*  
        ![](img/focusing.png)
-1. Close the hood, and click "Start" in the laser control on RDWorks.
-    1. Since the IR laser shouldn’t be on yet, it will not burn your piece. This is just to make sure that the laser will stay on your piece and not cut off of it (which may damage the laser bed).  
-      ![](img/startJob_RDW.png)
-1. Once you are sure that the laser will stay on your piece, proceed to the next step.
+1. Remove the focusing tool from the bed.
 
 ## Turn Everything On
 However, do not enable the laser yet!
@@ -345,6 +398,7 @@ It's pew-pew time!
     1. You've fully read and fully understood this SOP from start to finish.
     1. You've been trained by an EPL manager on *this particular* machine.
     1. You've been approved by an EPL manager to use *this particular* machine.
+    1. You're not using any of the [banned materials](#banned).
     1. You know where the fire extinguisher is.
     1. All of the side panels, the hood, and the back panel are closed.
     1. You and anyone else monitoring the job are wearing orange IR laser safety glasses.
@@ -353,6 +407,7 @@ It's pew-pew time!
     1. The website shows this mahchine is currently working (not "down" or "having issues").
         - This is visible [at the top of this page](#), or on [the main EPL page](/).
         - If the machine is having issues, ask a manager if it will interfere with your job. You can also find out more on the maintenance log, viewable at [the top of this page](#).
+    1. You've checked with a manager that it's okay to use this machine today.
 
 ### Laser Enable
 1. Turn the "Laser" switch on the side of the cutter __ON__ (upward "1" position).
@@ -375,7 +430,7 @@ It's pew-pew time!
 
 ### Post-Cut
 1. Wait for the smoke and vapors to get sucked out of the chamber. This takes anywhere from seconds to minutes, depending on how long the job was. Don't make the lab smell any more than you have to.
-1. Open the hood and check that your job cut properly. This can be done by gently pressing down on the material and observing that it moves independently from the surrounding material.
+1. Open the hood and [check that your job cut properly](#checking-for-complete-cuts). This can be done by gently pressing down on the material and observing that it moves independently from the surrounding material.
     - If it didn’t you may have to change your cut settings accordingly and/or make additional passes.
 
 # Post-Operation
@@ -414,13 +469,71 @@ Remember that the laser is in the machine shop.
 Share the space with the other people.
 Be aware that they're using dangerout equipment and startling or bumping them could cause serious injuries!
 
-## Focusing the Laser
+
+## Previewing Your Job
+You may want to check that the laser will stay on your piece and not stray onto the bed.
+
+1. Set any raster layers' output to "no", since these take a long time to execute.
+    - You may want to add a zero-power layer that outlines the rastered areas, if that's important to your work.
+1. Ensure the laser is disabled by flipping the "Laser" switch on the right of the machine off.  
+   ![](img/laserDisable.png)
+1. Close the hood, and click "Start" in the laser control on RDWorks.
+    - Since you disabled the laser, it will not burn your piece. 
+    - Danger: __Do not run your job with the hood open!__
+      Even if the laser is disabled, you can be seriously injured by the moving X-Y gantry.
+      You should also _never rely on a single safety measure_ like the enable/disable switch.  
+      ![](img/startJob_RDW.png)
+1. Return any raster layers' output to what it was before.
+
+If the preview is taking a long time, you may want to cancel the job and set the layers to a higher speed.
+Just don't forget to set them back to the correct speed for the final job.
 
 ## Test Cuts
+__The usual procedures for [using this machine](#using-this-machine) still apply for test cuts.__
+Treat your test cuts like any other job.
+
+1. Make a small (10 mm) square in RDWorks.
+    - A square is more useful than a circle or a line, 
+      since the machine performs slightly differently on sharp corners.
+1. Create a new layer and put the square on it.
+1. Set all the other layer's output to "no", leaving the test cut layer's output as "yes".
+1. Input some initial cut settings like `speed = 50` and `power = 50`.
+1. Position the cut head over some portion of your piece that you won't be using.
+1. Run this like a normal job. ([Observe all the usual procedures!](#using-this-machine))
+1. Make a note of your cut settings on the piece using a marker.
+1. Search through different cut settings until you get acceptable results. 
+
+Generally, high power and high speed settings yield better results. 
+However, you should use the minimum power necessary to get your desired results.
 
 ## Checking for Complete Cuts
+Remember that if you pick up your piece, you won't be able to place it back on the bed exactly where it was.
+So, you need to be able to test for complete cuts while it's still sitting on the bed.
+This is usually done by gently pressing on one of two parts that _should_ be separate and observing if they move relative to each other.
+You can also gently hold down the waste material and try to lift the part with the blade of a knife.
+
+## Inconsistent Cuts
+This laser doesn't give consistent results across the bed.
+The upper left quadrant receives the most power, while the lower right quadrant receives the least. 
+Keep this in mind when doing test cuts and positioning your piece.
+
+This is especially noticeable on large jobs which take up lots of the bed.
+The same cut settings may fully cut one portion of the work, but only engrave another portion.
+
+Additionally, very tight curves (corners and radii under about 3 mm) effectively have more aggressive cut settings, 
+since the laser is essentially "double cutting" the inside of the curve.
 
 ## Multiple Passes
+If you get incomplete cuts or barely-visible engraving and you haven't moved your piece,  
+you can try running your job again. 
+Usually, this is enough to complete the cut.
+
+If you're cutting very thick material, this is a useful technique since you might not be able to cut through in a single pass without melting or burning your material.
+It may be necessary to [adjust the lens](#adjust-the-focus) down for subsequent passes.
+
+__It's not acceptable to take multiple passes to reduce the smell produced from cutting.__
+If your job is creating an offensive smell, notify a manager immediately! 
+This may be a sign that the air filter isn't working or you're using an inappropriate material.
 
 ## Finishing and Assembly
 
