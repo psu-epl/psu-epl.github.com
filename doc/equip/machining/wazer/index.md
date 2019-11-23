@@ -105,6 +105,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 <center><img src="images/wazersop13.jpg" alt="Replacing Abrasive Hose End" height="500" width="500"></center>
 
 
+
 **Step Seven: Refer to the WAZER Software SOP to ensure that your cut is ready to go.**
 
 **Step Eight: Insert SD Card, from the Main Menu go to “Select Cut File” and navigate to your file.**
@@ -118,7 +119,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
   - The Cutting Head should now be at the upper left-hand corner of where your piece will be cut out. When fastening, you want to make sure that the Cutting Head will not make contact with any screws or go off the bounds of the material. Using a piece of material that is comfortably larger than the piece you need is ideal.
   - The WAZER comes with mounting screws but if you feel you need smaller screw heads for your cut, ask a manager for help choosing alternate screws. Screws with coarse threads are ideal (wood/sheet metal screws), be sure to use at LEAST 3 and that the material cannot slide around when it is mounted.
   -
-<center><img src="images/wazersop14.jpg" alt="Material Mounting" height="500" width="500"></center>
+<center><img src="images/wazersop14.png" alt="Material Mounting" height="500" width="500"></center>
 
 **Step Eleven: Nozzle Height**
   - Remove the Nozzle Height Tool from the top of the Cutting Head.
