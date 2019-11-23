@@ -4,10 +4,10 @@ title: Portland State University Electronics Prototyping Lab
 ---
 ![The EPL](/images/lab_panorama1.JPG)
 
-The EPL is a lab for rapidly prototyping electronics projects. 
-It is meant for both students and the community to be able to walk in with an idea and walk out with a fully functioning prototype.
+The EPL is a lab for rapidly prototyping electronics projects.
+It is meant for students to be able to walk in with an idea and walk out with a fully functioning prototype.
 
-The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1900 SW 4th Avenue** in room **FAB 84-20**. 
+The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1900 SW 4th Avenue** in room **FAB 84-20**.
 Our phone number is **503-725-2879**.
 
 Please consider donating to the lab to help us further our growth.
@@ -16,24 +16,24 @@ We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:l
 # Using the Labs
 1. View our [Lab Equipment](/doc/equip) and read the instructions on the equipment you want to use.
 1. Check the calendar for office hours.
-1. Come in during those hours and get trained by a manager on the equipment you want to use.  
-  - Be sure you've signed a liability waiver! 
+1. Come in during those hours and get trained by a manager on the equipment you want to use.
+  - Be sure you've signed a liability waiver!
 1. Once you're trained on a something, you can come in during any office hours and use that equipment.
 1. Pay for parts, materials, and equipment time [online][checkout].
-1. When you've been trained on ALL the equipment you're eligible to become a manager.  
-  - This gives you 24 hour card key acccess, although it does come with a lot of responsibility. 
+1. When you've been trained on ALL the equipment you're eligible to become a manager.
+  - This gives you 24 hour card key access, although it does come with a lot of responsibility.
   - [Click here][Become a Manager] to get started.
 
 # Lab Calendar
 This calendar tells you which managers are on-duty and when.
-You can only use the lab when supervised by a manager.  
+You can only use the lab when supervised by a manager.
 {% include calendar_lab.html %}
 
 # Documentation
 Read the [**documentation**](doc) on our machines, policies, services, and more to learn about the EPL.
 
 {%comment%}
-Insert the content of the documentation page, 
+Insert the content of the documentation page,
 rather than copying it manually, which breeds discrepancies.
 {%endcomment%}
 {% for pagei in site.pages %}
@@ -55,31 +55,29 @@ Click on a machine to jump to its documentation.
 The lab is currently open to all PSU students and staff. The lab is also open to the greater Portland community members by
 invitation only.
 
-
-
 # Frequently Visited
-Here are some links to commonly visited pages:  
-- [Equipment]  
+Here are some links to commonly visited pages:
+- [Equipment]
   The tools we have at our disposal.
-- [Store Inventory][inventory]  
+- [Store Inventory][inventory]
   Stuff we sell.
-- [Checkout]  
+- [Checkout]
   Pay for things.
-- [Lab Policies]  
+- [Lab Policies]
   The rules of the EPL.
-- [3D Print Your Part]  
+- [3D Print Your Part]
   Turn bits into atoms!
-- [Workshops]  
+- [Workshops]
   Learn how to make things.
-- [Become a Manager]  
+- [Become a Manager]
   Help other people make things!
-- [Managers Only][manager repo]  
+- [Managers Only][manager repo]
   Stuff to help you be a manager.
-- [Site Tree][tree]  
+- [Site Tree][tree]
   Everything on this website.
-- [Style Guide][style]  
+- [Style Guide][style]
   Learn how to maintain this website.
-- [Sponsors]  
+- [Sponsors]
   Cool people who give us money! ❤️💰
 
 {%comment%}

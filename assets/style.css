@@ -3526,6 +3526,8 @@ body > .wrapper {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 1.0em;
+  /* With a 200x200 px image this gives correct wrapping of machines with 'float: left' for layout */
+  height: 350px;
 }
 @media (min-width: 768px) {
   .machine {
@@ -3540,9 +3542,12 @@ body > .wrapper {
   }
 }
 .machine img {
-  height: 400px;
   margin-top: 5px;
   margin-bottom: 10px;
+  width: 200px;
+  height: 200px !important;
+  /* Disabled by img-responsive() above. If that is removed this would be more optimal. */
+  object-fit: cover;
 }
 .machine.down {
   background: #d44;

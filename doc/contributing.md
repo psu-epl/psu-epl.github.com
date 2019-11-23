@@ -158,6 +158,12 @@ If you do need to change it, you'll need the `less` gem installed:
 	sudo gem install less
 ```
 
+Alternatively you can install and use lessc through npm which is bundles with nodejs.
+
+```
+	sudo npm install -g less less-plugin-clean-css
+```
+
 This should give you access to the `lessc` command.
 
 You'll also need to get the submodule that contains the theme that serves as a basis for the styling:

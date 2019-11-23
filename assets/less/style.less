@@ -61,11 +61,17 @@ body > .wrapper { height: auto; min-height: 100%; }
     .make-sm-column(5);
     .make-lg-column(2);
     margin-bottom: 1.0em;
+	
+	/* With a 200x200 px image this gives correct wrapping of machines with 'float: left' for layout */
+	height: 350px;
 }
 .machine img {
-    height: 400px;
     margin-top: 5px;
     margin-bottom: 10px;
+	
+	width: 200px;
+	height: 200px !important; /* Disabled by img-responsive() above. If that is removed this would be more optimal. */
+	object-fit: cover;
 }
 .machine.down { background: #d44; }
 .machine.down img { opacity: 0.7; }
