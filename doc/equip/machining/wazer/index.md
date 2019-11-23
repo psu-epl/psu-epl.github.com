@@ -1,5 +1,5 @@
 ---
-title: Wazer
+title: WAZER
 layout: doc
 author:
 date:
@@ -8,7 +8,7 @@ date:
 
 ## Overview
 
-We have a [Wazer](https://www.wazer.com/specs). Here is a quick overview:
+We have a [WAZER](https://www.wazer.com/specs). Here is a quick overview:
 
 The WAZER is a table-top waterjet cutter. Waterjet cutting uses a mixture of high-pressure water and an abrasive, it has the ability to cut through many materials. The WAZER is limited only by the repository of materials that are currently available on their online Material Library. In order to set up a cut, a 2D design must be created in an outside program (Solidworks, Illustrator,  Fusion360, Inkscape,  AutoCad, Onshape, etc) and then take a DXF or SVG file and upload it to WAM which is the slicing software. WAM is browser based and its use is outlined in a separate document [HERE](https://docs.google.com/document/d/e/2PACX-1vR1dXCqtqhrKVkHyGhJJPfcSqz3ATtw6Qzo6puR2IplyjMEwYYs1ZHa1CS6VhqkCRD1tPU0lUCym6Kx/pub)
 

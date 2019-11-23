@@ -98,11 +98,11 @@
       sop: /doc/equip/misc/Thermocut
       up: true
 
-    - name: Wazer
-      img: ''
+    - name: WAZER
+      img: images/WAZER.jpg
       sop: /doc/equip/machining/wazer
       log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-      up: true
+      up: false
   #    taken off website until usage terms are decided and sop is complete
 
 
