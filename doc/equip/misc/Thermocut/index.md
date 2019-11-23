@@ -2,14 +2,16 @@
 title: Hot Wire Cutter THERMOCUT 115/E
 layout: doc
 author: Jennifer Jordan
-date: 23 July 2019
-
+date: 2019-07-23
 ---
 
 # About this Machine
 Cuts Styrofoam and thermoplastic materials fast! The working surface is of Alu Cobond compound. This eases the pushing of work pieces. A printed grid and protractor are applied to the base.
 
 The large table with 15 11/32" x 11" (390 x 280mm) ensures smooth and easy movement of the work piece. The printed grid and protractor assist with division and cutting. The solid aluminum overarm has a 13 3/4" (350mm) throat and offers 5 1/2" (140mm) in height. The holder and wire coil (one spool of wire 98ft., 0.008" diameter is included) may be shifted and adjusted along the overarm to enable miter cutting.
+ {% comment %} 
+ It looks like the wire diameter is actually 0.006", as measured.
+ {% endcomment %} 
 
 <img src="/images/Thermocut.jpg" width="700">
 
