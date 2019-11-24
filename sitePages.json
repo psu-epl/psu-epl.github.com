@@ -1,0 +1,23 @@
+---
+---
+{% comment %}
+read the site structure into a JSON object
+{% endcomment %}
+[ 
+    {%for pagei in site.pages%}  { 
+            "title": "{{pagei.title}}" ,
+            "url": "{{pagei.url}}", 
+            "dir": "{{pagei.dir}}", 
+            "path": "{{pagei.path}}", 
+            "name": "{{pagei.name}}", 
+            "layout": "{{pagei.layout}}", 
+            "author": "{{pagei.author}}", 
+            "date": "{{pagei.date}}", 
+            "pageRole": "",
+            "parent": "",
+            "children": [],
+            "siblings": []
+        }{% unless forloop.last %},{% endunless %}
+    {%endfor%}
+    ]
+

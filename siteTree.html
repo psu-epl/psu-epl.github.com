@@ -55,6 +55,7 @@ If you still can't find what you need, try <a href="https://github.com/psu-epl/p
 --!>
 
 
+<script type="text/javascript" src="functions.js"></script>
 <script>
 console.log('hello world')
 
@@ -87,17 +88,6 @@ var testVar = {
 	num: 1
 };
 
-
-
-var npages = pages.length; // number of pages on the site
-console.log('the size of the array is '+npages);
-var indexPattern = /\/$/; // url ends with a slash
-var rootPattern = /^\/$/; // url is a single slash (root index)
-var leafParentPattern = /^\/.*\//; // a bunch of stuff with slashes on either end
-var dirs = []; // used for splitting the files/directories in a path
-var leafParentArr = []; // precursor to the parent of a leaf node; helps with an exception
-var rootIndex = null; // index of the root page
-
 // Definitions:
 // "Index" pages are pages named "index.html" which represent a directory.
 // "Leaf" pages are pages which are not an index page.
@@ -109,69 +99,73 @@ var rootIndex = null; // index of the root page
 // A distinction is made between siblings and children for easier displaying.
 // A hierarchy is harder to read when leaves are at the bottom.
 
-// Loop over the pages to establish what kind of node they are and what their parent is.
-for (i=0; i < npages; i++) {
-    // console.log('i is '+i+' and the page title is '+pages[i].title);
-    if (rootPattern.test(pages[i].url)){ // the root index
-        pages[i].pageRole = "root";
-        pages[i].parent = "/";
-        rootIndex = i; // record the index of the root page
-    } else if (indexPattern.test(pages[i].url)){ // index pages
-        pages[i].pageRole = "index";
-        dirs = pages[i].dir.split("/");
-        dirs.pop(); // remove empty item at the end of the list
-        dirs.pop(); // remove the last dir
-        pages[i].parent = dirs.join("/")
-    } else { // leaf pages
-        pages[i].pageRole = "leaf";
-        // pattern-match to get the parent directory
-        leafParentArr = leafParentPattern.exec(pages[i].url);
-        if ( leafParentArr == null ){
-            pages[i].parent = "/"; // exception for stuff in the root dir
-        } else {
-            pages[i].parent = leafParentArr[0];
+linkParents = function(pages){
+    var indexPattern = /\/$/; // url ends with a slash
+    var rootPattern = /^\/$/; // url is a single slash (root index)
+    var leafParentPattern = /^\/.*\//; // a bunch of stuff with slashes on either end
+    var dirs = []; // used for splitting the files/directories in a path
+    var leafParentArr = []; // precursor to the parent of a leaf node; helps with an exception
+    var rootIndex = null; // index of the root page
+
+    // Loop over the pages to establish what kind of node they are and what their parent is.
+    for (i=0; i < pages.length; i++) {
+        // console.log('i is '+i+' and the page title is '+pages[i].title);
+        if (rootPattern.test(pages[i].url)){ // the root index
+            pages[i].pageRole = "root";
+            pages[i].parent = "/";
+            rootIndex = i; // record the index of the root page
+        } else if (indexPattern.test(pages[i].url)){ // index pages
+            pages[i].pageRole = "index";
+            dirs = pages[i].dir.split("/");
+            dirs.pop(); // remove empty item at the end of the list
+            dirs.pop(); // remove the last dir
+            pages[i].parent = dirs.join("/")
+        } else { // leaf pages
+            pages[i].pageRole = "leaf";
+            // pattern-match to get the parent directory
+            leafParentArr = leafParentPattern.exec(pages[i].url);
+            if ( leafParentArr == null ){
+                pages[i].parent = "/"; // exception for stuff in the root dir
+            } else {
+                pages[i].parent = leafParentArr[0];
+            }
+        }
+        if (! /\/$/.test(pages[i].parent)){ // if it the parent doesn't end with a slash
+            pages[i].parent = pages[i].parent + "/" // make it so
         }
     }
-    if (! /\/$/.test(pages[i].parent)){ // if it the parent doesn't end with a slash
-        pages[i].parent = pages[i].parent + "/" // make it so
-    }
+    return rootIndex;
 }
 
-// loop through the pages to determine their children/siblings
-for (i=0; i < npages; i++) {
-    // loop through the candidate children/siblings
-    for (j=0; j < npages; j++) {
-        if (pages[i].url == pages[j].parent){
-            // if the j page is the child/sibling of the i page, 
-            // record its index in the array of i's children/siblings
-            switch (pages[j].pageRole) {
-                case "index":
-                    pages[i].children.push(j);
-                    break;
-                case "leaf":
-                    pages[i].siblings.push(j);
-                    break;
-                case "root":
-                    break;
-                default:
-                    console.debug("unexpected page role while creating child/sibling links");
+linkChildren = function(pages){
+    // First, link all the parents.
+    var rootIndex = linkParents(pages);
+    // loop through the pages to determine their children/siblings
+    for (i=0; i < pages.length; i++) {
+        // loop through the candidate children/siblings
+        for (j=0; j < pages.length; j++) {
+            if (pages[i].url == pages[j].parent){
+                // if the j page is the child/sibling of the i page, 
+                // record its index in the array of i's children/siblings
+                switch (pages[j].pageRole) {
+                    case "index":
+                        pages[i].children.push(j);
+                        break;
+                    case "leaf":
+                        pages[i].siblings.push(j);
+                        break;
+                    case "root":
+                        break;
+                    default:
+                        console.debug("unexpected page role while creating child/sibling links");
+                }
             }
         }
     }
+    return rootIndex;
 }
 
-// var siteTree = {
-//     ind: rootIndex,
-//     title: pages[rootIndex].title,
-//     href: siteUrl + pages[rootIndex].url,
-//     siblings: [],
-//     children: []
-// };
-// 
-// console.log('initialized site tree');
-// console.log(siteTree);
-
-function getRelations(i, depth = 0){
+function getRelations(i, pages, depth = 0){
     // From the flat array of pages with child/sibling relations, 
     // recursively generate a hierarcy of pages.
 
@@ -184,7 +178,7 @@ function getRelations(i, depth = 0){
         siblings: [],
         children: []
     };
-    if (depth > npages){
+    if (depth > pages.length){
         // We can't sensibly have more levels of recursion than there are pages.
         console.log('recursion limit of getRelations reached ('+depth+")");
         return node;
@@ -197,12 +191,12 @@ function getRelations(i, depth = 0){
             // loop over the siblings for the current page
             for (j in pages[i].siblings){
                 // add the hierarchy for this sibling to the sibling array
-                node.siblings.push(getRelations(pages[i].siblings[j], depth+1))
+                node.siblings.push(getRelations(pages[i].siblings[j], pages, depth+1))
             }
             // loop over the children for the current page
             for (j in pages[i].children){
                 // add the hierarchy for this child to the sibling array
-                node.children.push(getRelations(pages[i].children[j], depth+1))
+                node.children.push(getRelations(pages[i].children[j], pages, depth+1))
             }
             break;
         case "leaf":
@@ -257,7 +251,7 @@ function preFromTree(tree, depthStr, isLast = true){
 
     var str = ""; // string for the current hierarchy level
     var depthChar = ""; // substring that visualizes the currenty hierarchy level
-    var sublist = {}; // concatenation of siblings and children
+    var sublist = []; // concatenation of siblings and children
     var title = ""; // title of the current page
     var newDepthStr = ""; // the depthStr for the next lower hierarchy level
     var newIsLast = null; // whether the next line to write is is the last page in a directory
@@ -290,9 +284,6 @@ function preFromTree(tree, depthStr, isLast = true){
     // stuff for sub-hierarchies
     sublist = tree.siblings.concat(tree.children)
     newDepthStr = depthStr + padChar;
-    // console.log('0 -- tree.title is: '+tree.title);
-    // console.log('1 -- sublist length is: '+sublist.length);
-    // console.log('1.1 -- sublist is : '+JSON.stringify(sublist));
     if (sublist.length > 0) { // check that there are actually sub-hierarchies
         for (i in sublist) {
             // console.log('2 -- sublist length is: '+sublist.length);
@@ -306,6 +297,14 @@ function preFromTree(tree, depthStr, isLast = true){
             }
             // console.log('5.1 -- calling preForTree() on sublist[i].');
             // write the strings for the sub-hierarchies
+            // console.log('0 -- tree.title is: '+tree.title);
+            // console.log('siblings are: ');
+            // console.log(tree.siblings);
+            // console.log('children are: ');
+            // console.log(tree.children);
+            // console.log('sublist is: ');
+            // console.log(sublist);
+            // console.log('adding sublist item '+i+' to the preformatted text');
             str += preFromTree(sublist[i], newDepthStr, newIsLast);
         }
     }
@@ -313,11 +312,97 @@ function preFromTree(tree, depthStr, isLast = true){
     return str;
 }
 
-siteTree = getRelations(rootIndex);
-ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
-preTree = preFromTree(siteTree, '');
+censorPages = function(pages, ignores, field){
+    censoredPages = [];
+    for (i in pages) {
+        page = pages[i];
+        ignoreInds = ignores.indexOf(page[field]);
+        if (ignoreInds == -1) {
+            censoredPages.push(page);
+        } else {
+            console.log('censoring '+page.url);
+        }
+    }
+    return censoredPages;
+}
 
-console.log('final site tree: ', siteTree);
+// censorByTitle = function(tree, ignores, depth = 0, maxdepth = 1000){
+//     var childrenToInclude = [];
+//     var siblingsToInclude = [];
+//     for (i in ignores) {
+//         var ignore = ignores[i];
+//         for (j in tree.children){
+//             var child = tree.children[j];
+//             if (child.title != ignore){
+//                 childrenToInclude.push(child);
+//             } else {
+//                 console.log('ignoring '+child.title);
+//             }
+//         }
+//         for (j in tree.siblings){
+//             var sib = tree.siblings[j];
+//             if (sib.title != ignore){
+//                 siblingsToInclude.push(sib);
+//             } else {
+//                 console.log('ignoring '+sib.title);
+//             }
+//         }
+//     }
+//     // censor any children that match the ignores
+//     // console.log('childrenToInclude is: ');
+//     // console.log(childrenToInclude);
+//     // console.log('siblingsToInclude is: ');
+//     // console.log(siblingsToInclude);
+//     tree.children = childrenToInclude;
+//     tree.siblings = siblingsToInclude;
+//     // console.log('tree.children is: ');
+//     // console.log(tree.children);
+//     if (tree.children.length > 0){
+//         if (depth > maxdepth){
+//             for (i in tree.children){
+//                 censorByTitle(tree.children[i], ignores, depth+1, maxdepth);
+//             }
+//         } else {
+//             console.debug('maxdepth limit of '+maxdepth+' exceeded');
+//         }
+//     }
+// }
+
+const treeIgnores = ['/sitemap.xml', '/sitePages.json', '/robots.txt', '/example.html'];
+censoredPages = censorPages(pages, treeIgnores, 'url')
+pages = censoredPages; // avoids scope fuckery with censorPages()
+var rootIndex = linkChildren(pages);
+siteTree = getRelations(rootIndex, pages);
+// censorByTitle(siteTree, ignores);
+// console.log('the censoring is completed');
+// console.log(siteTree);
+ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
+// console.log('the list has been created from the tree');
+preTree = preFromTree(siteTree, '');
+// console.log('the preformatted tree text has been created');
+
+// get some JSON using the helpers in functions.js
+// sitePages_fxn = function(sitePages, otherArgs){
+//         console.log('here is the JSON response: ')
+//         console.log(sitePages);
+//         document.getElementById("foo").innerHTML = JSON.stringify(sitePages);
+// }
+// useJson('sitePages.json', null, sitePages_fxn);
+
+// get some JSON using vanilla JS
+// var request = new XMLHttpRequest();
+// request.open('GET', 'sitePages.json', true);
+// request.onload = function() {
+//     // Sadly, it's a bit of a thing to just wait for something to finish in JS.
+//     // So, everything that requires the JSON needs to be inside this function.
+//     var jsonData = JSON.parse(this.response);
+//     console.log('here is the JSON response: ')
+//     console.log(jsonData);
+//     document.getElementById("foo").innerHTML = JSON.stringify(jsonData);
+// }
+// request.send();
+
+// console.log('final site tree: ', siteTree);
 // console.log('ulTree: ', ulTree);
 //document.getElementById("testVar").innerHTML = JSON.stringify(testVar, null, 4)
 //document.getElementById("pages").innerHTML = JSON.stringify(pages, null, 4)
