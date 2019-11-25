@@ -15,6 +15,7 @@ read the site structure into a JSON object
             "date": "{{pagei.date}}", 
             "pageRole": "",
             "parent": "",
+            "parentInd": "",
             "children": [],
             "siblings": []
         }{% unless forloop.last %},{% endunless %}

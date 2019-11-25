@@ -12,10 +12,10 @@ If you still can't find what you need, try <a href="https://github.com/psu-epl/p
 
 <pre id="preTree"></pre>
 
-<script type="text/javascript" src="functions.js"></script>
+<script type="text/javascript" src="/functions.js"></script>
 
 <script>
-console.log('hello world')
+console.log('hello world');
 
 pages_fxn = function(pages, otherArgs){
     // note: Everything requiring the `pages` object must happen inside this function.
@@ -23,8 +23,10 @@ pages_fxn = function(pages, otherArgs){
     console.log(pages); // should be a JS array of the site pages at this point
 
     // evaluate the parent/child/sibling information for each page
-    const treeIgnores = ['/sitemap.xml', '/sitePages.json', '/robots.txt', '/example.html'];
-    censoredPages = censorPages(pages, treeIgnores, 'url')
+    // const treeIgnores = ['/sitemap.xml', '/sitePages.json', '/robots.txt', '/example.html'];
+    // const treeIgnores = [ {{ site.hide | join: ', ' }} ];
+    // censoredPages = censorPages(pages, treeIgnores, 'url')
+    censoredPages = censorPages(pages);
     pages = censoredPages; // avoids scope fuckery with censorPages()
     var rootIndex = linkChildren(pages);
     console.log('pages is: ');
@@ -42,7 +44,7 @@ pages_fxn = function(pages, otherArgs){
     // insert the tree into this page
     document.getElementById("preTree").innerHTML = preTree
 }
-useJson('sitePages.json', null, pages_fxn);
+useJson('/sitePages.json', null, pages_fxn);
 
 
 // get some JSON using the helpers in functions.js

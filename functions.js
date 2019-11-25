@@ -88,6 +88,7 @@ linkChildren = function(pages){
         // loop through the candidate children/siblings
         for (j=0; j < pages.length; j++) {
             if (pages[i].url == pages[j].parent){
+                pages[j].parentInd = i;
                 // if the j page is the child/sibling of the i page, 
                 // record its index in the array of i's children/siblings
                 switch (pages[j].pageRole) {
@@ -108,11 +109,12 @@ linkChildren = function(pages){
     return rootIndex;
 }
 
-function getRelations(i, pages, depth = 0){
+function getRelations(i, pages, depth = 0, maxdepth = pages.length){
     // From the flat array of pages with child/sibling relations, 
     // recursively generate a hierarcy of pages.
 
     // Initialize with the already-known information
+    // console.log('depth is '+depth+' and max depth is '+maxdepth);
     var siteUrl = "{{site.url}}";
     var node = {
         ind:      i,
@@ -131,7 +133,7 @@ function getRelations(i, pages, depth = 0){
         pageRole: pages[i].pageRole, 
         parent:   pages[i].parent
     };
-    if (depth > pages.length){
+    if (depth > maxdepth){
         // We can't sensibly have more levels of recursion than there are pages.
         console.log('recursion limit of getRelations reached ('+depth+")");
         return node;
@@ -144,12 +146,12 @@ function getRelations(i, pages, depth = 0){
             // loop over the siblings for the current page
             for (j in pages[i].siblings){
                 // add the hierarchy for this sibling to the sibling array
-                node.siblings.push(getRelations(pages[i].siblings[j], pages, depth+1))
+                node.siblings.push(getRelations(pages[i].siblings[j], pages, depth+1, maxdepth))
             }
             // loop over the children for the current page
             for (j in pages[i].children){
                 // add the hierarchy for this child to the sibling array
-                node.children.push(getRelations(pages[i].children[j], pages, depth+1))
+                node.children.push(getRelations(pages[i].children[j], pages, depth+1, maxdepth))
             }
             break;
         case "leaf":
@@ -266,7 +268,8 @@ function preFromTree(tree, depthStr, pages_obj, isLast = true){
     return str;
 }
 
-censorPages = function(pages, ignores, field){
+censorPages = function(pages, ignores = [ "{{ site.hide | join: '", "' }}" ], field = 'url'){
+    console.log('pages to be ignored: '+ignores);
     censoredPages = [];
     for (i in pages) {
         page = pages[i];
