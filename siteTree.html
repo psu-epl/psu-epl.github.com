@@ -16,41 +16,34 @@ If you still can't find what you need, try <a href="https://github.com/psu-epl/p
 
 <script>
 console.log('hello world')
-var siteUrl = "{{site.url}}";
-var testVar = {
-	text: "example",
-	num: 1
-};
 
-// read the site structure into a JSON object
-var pages = [ 
-{%for pagei in site.pages%}  { 
-        title: "{{pagei.title}}" ,
-        url: "{{pagei.url}}", 
-        dir: "{{pagei.dir}}", 
-        path: "{{pagei.path}}", 
-        name: "{{pagei.name}}", 
-        layout: "{{pagei.layout}}", 
-        author: "{{pagei.author}}", 
-        date: "{{pagei.date}}", 
-        pageRole: "",
-        parent: "",
-        children: [],
-        siblings: []
-    }{% unless forloop.last %},{% endunless %}
-{%endfor%}
-];
-console.log('here is the page list is it comes from Liquid:');
-console.log(pages);
+pages_fxn = function(pages, otherArgs){
+    // note: Everything requiring the `pages` object must happen inside this function.
+    console.log('here is the JSON response: ')
+    console.log(pages); // should be a JS array of the site pages at this point
 
-const treeIgnores = ['/sitemap.xml', '/sitePages.json', '/robots.txt', '/example.html'];
-censoredPages = censorPages(pages, treeIgnores, 'url')
-pages = censoredPages; // avoids scope fuckery with censorPages()
-var rootIndex = linkChildren(pages);
-siteTree = getRelations(rootIndex, pages);
-ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
-preTree = preFromTree(siteTree, '');
-document.getElementById("preTree").innerHTML = preTree
+    // evaluate the parent/child/sibling information for each page
+    const treeIgnores = ['/sitemap.xml', '/sitePages.json', '/robots.txt', '/example.html'];
+    censoredPages = censorPages(pages, treeIgnores, 'url')
+    pages = censoredPages; // avoids scope fuckery with censorPages()
+    var rootIndex = linkChildren(pages);
+    console.log('pages is: ');
+    console.log(pages);
+
+    // use the parent/child/sibling relations to build a JS object with the same hierarchy as the site
+    siteTree = getRelations(rootIndex, pages);
+    console.log('siteTree is: ');
+    console.log(siteTree);
+
+    // ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
+    // create a preformatted  tree similar to the tree command in Linux
+    preTree = preFromTree(siteTree, '', {pages});
+
+    // insert the tree into this page
+    document.getElementById("preTree").innerHTML = preTree
+}
+useJson('sitePages.json', null, pages_fxn);
+
 
 // get some JSON using the helpers in functions.js
 // sitePages_fxn = function(sitePages, otherArgs){

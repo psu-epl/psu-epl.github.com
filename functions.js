@@ -1,3 +1,7 @@
+---
+---
+// The empty YAML header allows the use of LIQUID.
+
 useUrl = function(url, otherArgs, fxn) {
     // This is a wrapper for conveniently fetching the content of a URL.
     var request = new XMLHttpRequest();
@@ -109,13 +113,23 @@ function getRelations(i, pages, depth = 0){
     // recursively generate a hierarcy of pages.
 
     // Initialize with the already-known information
+    var siteUrl = "{{site.url}}";
     var node = {
-        ind: i,
-        title: pages[i].title,
-        href: siteUrl + pages[i].url,
-        depth: depth,
+        ind:      i,
+        title:    pages[i].title,
+        href:     siteUrl + pages[i].url,
+        depth:    depth,
         siblings: [],
-        children: []
+        children: [],
+        url:      pages[i].url, 
+        dir:      pages[i].dir, 
+        path:     pages[i].path, 
+        name:     pages[i].name, 
+        layout:   pages[i].layout, 
+        author:   pages[i].author, 
+        date:     pages[i].date, 
+        pageRole: pages[i].pageRole, 
+        parent:   pages[i].parent
     };
     if (depth > pages.length){
         // We can't sensibly have more levels of recursion than there are pages.
@@ -177,7 +191,7 @@ function listFromTree(tree, listType = 'ul'){
     return list;
 }
 
-function preFromTree(tree, depthStr, isLast = true){
+function preFromTree(tree, depthStr, pages_obj, isLast = true){
     // Create a text tree from a page tree hierarchy.
     // This assumes an equal-width typeface.
     // This is very similar to the `tree` command in Linux.
@@ -186,6 +200,7 @@ function preFromTree(tree, depthStr, isLast = true){
     // tree is the hierarchy tree used to generate the text tree.
     // depthStr is a string that prepends all the lines at this hierarchy level.
     //          It visualizes "fly-over" parent structures.
+    // pages_obj is the list of pages, but as an object to take advantage of pass-by-reference
     // isLast keeps track of whether this is the last page in sublist.
 
     var str = ""; // string for the current hierarchy level
@@ -203,13 +218,13 @@ function preFromTree(tree, depthStr, isLast = true){
     }
 
     if (tree.title == ''){ // Untitled pages default to their source file name.
-        title = pages[tree.ind].name
+        title = pages_obj.pages[tree.ind].name
     } else {
         title = tree.title
     }
 
     // determine the current depth char
-    if (pages[tree.ind].pageRole == "root"){
+    if (pages_obj.pages[tree.ind].pageRole == "root"){
         depthChar = "";
     } else if (isLast){
         depthChar = "└── "; // visually terminate this hierarchy level
@@ -244,7 +259,7 @@ function preFromTree(tree, depthStr, isLast = true){
             // console.log('sublist is: ');
             // console.log(sublist);
             // console.log('adding sublist item '+i+' to the preformatted text');
-            str += preFromTree(sublist[i], newDepthStr, newIsLast);
+            str += preFromTree(sublist[i], newDepthStr, pages_obj, newIsLast);
         }
     }
     // console.log('6 -- tree.title is: '+tree.title);
