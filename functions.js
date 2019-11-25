@@ -133,7 +133,7 @@ function getRelations(i, pages, depth = 0, maxdepth = pages.length){
         pageRole: pages[i].pageRole, 
         parent:   pages[i].parent
     };
-    if (depth > maxdepth){
+    if (depth >= maxdepth){
         // We can't sensibly have more levels of recursion than there are pages.
         console.log('recursion limit of getRelations reached ('+depth+")");
         return node;

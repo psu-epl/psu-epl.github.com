@@ -23,9 +23,6 @@ pages_fxn = function(pages, otherArgs){
     console.log(pages); // should be a JS array of the site pages at this point
 
     // evaluate the parent/child/sibling information for each page
-    // const treeIgnores = ['/sitemap.xml', '/sitePages.json', '/robots.txt', '/example.html'];
-    // const treeIgnores = [ {{ site.hide | join: ', ' }} ];
-    // censoredPages = censorPages(pages, treeIgnores, 'url')
     censoredPages = censorPages(pages);
     pages = censoredPages; // avoids scope fuckery with censorPages()
     var rootIndex = linkChildren(pages);

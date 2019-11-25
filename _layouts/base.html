@@ -39,20 +39,6 @@
                 <!-- left column-->
                 <a href="#">Back to top</a> <br/>
                 <a class="home" href="{{ site.url }}">EPL Home</a> <br/>
-		        <!-- This is gory af, but it works, lol. -->
-                {% assign parentRef = site.url %}
-		        {% if page.url != '/' %}
-                  {% assign pagePath = page.url | split: '/' %}
-                  {% for dir in pagePath %}
-                    {% unless forloop.first %}
-                      {% assign parentRef = parentRef | append: "/" %}
-                    {% endunless %}
-                    {% unless forloop.last %}
-                    {% assign parentRef = parentRef | append: dir %}
-                    {% endunless %}
-                  {% endfor %}
-		        {% endif %}
-                <!--<a href="{{ parentRef }}">Go To Parent Page</a><br/>--!>
                 <a href="{{ site.url }}/siteTree.html">Site Tree<a><br/>
                 <a href="https://github.com/psu-epl">GitHub Organization</a><br/>
 	      </div>
@@ -61,48 +47,6 @@
         <div align='left'>
         <pre id="footerCenterColumn"></pre>
         </div>
-          {% comment %}
-          {% for pagei in site.pages %}
-            {%comment%}remove the curent page's directory from the target page's path{%endcomment%}
-	        {% assign truncPath = pagei.dir | remove_first: page.dir %}
-
-            {%comment%}split that into individual directories{%endcomment%}
-		    {% assign tpSplit = truncPath | split: '/' %}
-
-            {%comment%}get the first and last directories in that array{%endcomment%}
-		    {% assign tpsFirst = tpSplit | first %}
-		    {% assign tpsLast = tpSplit | last %}
-
-            {% if pagei.dir == page.dir %}
-	          {% case pagei.name %}
-	            {% when "index.md" %}
-                  {%comment%} This means the target page is the current page.
-	              I found myself: {{ pagei.path }} == {{ page.path }}. <br/>
-                  {%endcomment%}
-	            {% else %}
-                  {%comment%}This is a non-index page in the same directory.{%endcomment%}
-	              I found a sibling: {{ pagei.path }}.<br/>
-	          {% endcase %}
-		    {% elsif truncPath == blank %}
-		      truncPath is blank<br/>
-		    {% elsif tpsFirst == tpsLast and pagei.name == 'index.md' and pagei.dir != '/'%}
-		      I found a child?: {{ pagei.path }}<br>
-		    {% else %}
-            {% endif %}
-		    {% assign tpSplit = truncPath | split: '/' %}
-
-		    {% comment %}
-		    tpSplit: {{ tpSplit }}<br>
-		    {% assign tpsFirst = tpSplit | first %}
-		    {% assign tpsLast = tpSplit | last %}
-		    {% assign tps2 = tpSplit[1] %}
-		    tpsFirst: {{ tpsFirst }}<br>
-		    tps2: {{ tps2 }}<br>
-		    tpsLast: {{ tpsLast }}<br>
-		    {% endcomment %}
-          {% endfor %}
-          {% endcomment %}
-
 	    </th>
             <th>
               <div align="right">
@@ -157,7 +101,7 @@ pages_fxn = function(pages, otherArgs){
     page = pages[myInd];
 
     // use the parent/child/sibling relations to build a JS object with the same hierarchy as the site
-    siteTree = getRelations(myInd, pages, depth = 0, maxdepth = 0);
+    siteTree = getRelations(myInd, pages, depth = 0, maxdepth = 1);
     console.log('siteTree is: ');
     console.log(siteTree);
 
