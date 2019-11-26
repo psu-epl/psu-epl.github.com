@@ -44,9 +44,9 @@ The **Power Switch** is located underneath on the right side.
 
 The WAZER will not turn on unless there is a certain amount of water in the tank (about 2/3rds) but should not be attempted to run unless the water level is within ¼ inches of the top of the cut bed.
 
-In order to run, the water supply from the building’s plumbing MUST be turned on otherwise the pump box will be severely damaged.
+In order to run, the water supply from the building’s plumbing **MUST** be turned on otherwise the pump box will be severely damaged.
 
-### Detailed Procedure
+#### Detailed Procedure
 
 **Step One: Check water levels**
   - must be within 0.25 inches of the top of the cut bed, if not, add water manually using a large cup/container/bucket.
@@ -73,7 +73,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 <center><i>The buckets with the metal handles need to be carefully removed and emptied before each new cut.</i></center>
 
 **Step Four: Plug the pump in**
-  - The WAZER Main Unit and Pump need to be on SEPARATE circuits. The WAZER should be connected to the wall behind it and the pump power cable will need an extension cord to the backside of the column in the middle of the room, labeled 2D2-17.
+  - The WAZER Main Unit and Pump need to be on **SEPARATE** circuits. The WAZER should be connected to the wall behind it and the pump power cable will need an extension cord to the backside of the column in the middle of the room, labeled 2D2-17.
 
 <center><img src="images/wazersop9.jpg" alt="Wazer Outlet" height="500" width="500"></center>
 
@@ -85,7 +85,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 **Step Five: Turn WAZER on**
   - There is a rocker switch located underneath the tank of the WAZER on the right side, near the front. The on position is when the rocker is depressed nearest the right side. At this point, the screen for the Control Panel should turn on. Refer to the first picture in the **Anatomy** section for a better idea.
   - The Pump is fully controlled by the Main Unit and has no ON/OFF switch.
-  -
+
 **Step Six: Prime the plumbing**
   - Navigate to “Setup & Maintenance” on the Control Panel. Select “Maintenance”.
   - Remove the front bucket cover (which covers the abrasive collection buckets)
@@ -98,6 +98,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
 **IMPORTANT: Be sure to remove the Abrasive Hose End from the Cutting Head and move it somewhere that it is unlikely to get wet.**
 
 <center><img src="images/wazersop12.jpg" alt="Abrasive Hose End" height="500" width="500"></center>
+
   - Lift the Cutting Head at least ½ inch from the cutting bed, close the door, and press OK.
   - You are looking for a strong, mostly clear stream of water. If you can hear air hissing and the stream is white and irregular, select “HP Valve” a few more times until you achieve a strong, silent stream.
   - Replace the Abrasive Hose End, ensuring that it is fully seated, with both O-rings inside the Cutting Head
@@ -118,7 +119,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
   - This step is very important as it will help to ensure the longevity of not only the Cut Bed, but also the Cutting Head itself.
   - The Cutting Head should now be at the upper left-hand corner of where your piece will be cut out. When fastening, you want to make sure that the Cutting Head will not make contact with any screws or go off the bounds of the material. Using a piece of material that is comfortably larger than the piece you need is ideal.
   - The WAZER comes with mounting screws but if you feel you need smaller screw heads for your cut, ask a manager for help choosing alternate screws. Screws with coarse threads are ideal (wood/sheet metal screws), be sure to use at LEAST 3 and that the material cannot slide around when it is mounted.
-  -
+
 <center><img src="images/wazersop14.png" alt="Material Mounting" height="500" width="500"></center>
 
 **Step Eleven: Nozzle Height**
@@ -126,7 +127,7 @@ In order to run, the water supply from the building’s plumbing MUST be turned 
   - Loosen the Nozzle Lock Knob, and lower the nozzle to the material, placing the Height Tool in between the nozzle and the material. There is no need to press down and the height tool should be able to slide out easily once the Nozzle is tightened.
   - As long as the nozzle is set on the lip of the Height Tool and the Height Tool is set firmly on the material, you can tighten the Lock Knob and replace the Height Tool.
   - Press OK.
-  -
+
 <center><img src="images/wazersop15.jpg" alt="Nozzle Height" height="500" width="500"></center>
 
 **Step Twelve: Check Cut Extents**
