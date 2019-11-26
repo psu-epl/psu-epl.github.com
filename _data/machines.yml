@@ -71,11 +71,6 @@
       log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
       up: True
 
-    - name: Shining 3D Scanner
-      img: images/shining3D.jpeg
-      sop: /doc/equip/misc/shining3D
-      up: true
-
 - title: Machining Equipment
   machines:
     - name: Little Machine Shop Mill
@@ -93,11 +88,6 @@
       sop: /doc/equip/machining/drillPress
       up: true
 
-    - name: Thermocutter
-      img: images/Thermocut.jpg
-      sop: /doc/equip/misc/Thermocut
-      up: true
-
     - name: WAZER
       img: images/WAZER.jpg
       sop: /doc/equip/machining/wazer
@@ -105,14 +95,13 @@
       up: false
   #    taken off website until usage terms are decided and sop is complete
 
-
 - title: Laser Cutters
   machines:
     - name: QD-1390 Laser Cutter
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
-      up: false
+      up: true
 
     - name: Full Spectrum Laser Cutter
       img: images/newFullSpectrum.jpg
@@ -166,3 +155,20 @@
       img: doc/equip/shop/img/arborPress.jpg
       sop: /doc/equip/shop/arborPress
       up: true
+
+- title: Miscellaneous
+  machines:
+    - name: Thermocutter
+      img: images/Thermocut.jpg
+      sop: /doc/equip/misc/Thermocut
+      up: true
+
+    - name: Shining 3D Scanner
+      img: images/shining3D.jpeg
+      sop: /doc/equip/misc/shining3D
+      up: true
+
+    - name: Silhouette Cameo
+      img: ''
+      sop: /doc/equip/misc/cameo
+      up: other

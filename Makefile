@@ -8,7 +8,7 @@ site:
 	jekyll build
 
 preview:
-	jekyll serve --watch
+	jekyll serve --watch --incremental
 
 theme:
 	lessc --clean-css $(LESS) > assets/style.css

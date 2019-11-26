@@ -37,71 +37,16 @@
             <th>
               <div align="left">
                 <!-- left column-->
-                <a href="#">Back to top</a>
-                <br/>
-                <a class="home" href="{{ site.url }}">EPL Home</a>
-                <br/>
-		        <!-- This is gory af, but it works, lol. -->
-                {% assign parentRef = site.url %}
-		        {% if page.url != '/' %}
-                  {% assign pagePath = page.url | split: '/' %}
-                  {% for dir in pagePath %}
-                    {% unless forloop.first %}
-                      {% assign parentRef = parentRef | append: "/" %}
-                    {% endunless %}
-                    {% unless forloop.last %}
-                    {% assign parentRef = parentRef | append: dir %}
-                    {% endunless %}
-                  {% endfor %}
-		        {% endif %}
-                <a href="{{ parentRef }}">Go To Parent Page</a><br/>
+                <a href="#">Back to top</a> <br/>
+                <a class="home" href="{{ site.url }}">EPL Home</a> <br/>
                 <a href="{{ site.url }}/siteTree.html">Site Tree<a><br/>
                 <a href="https://github.com/psu-epl">GitHub Organization</a><br/>
 	      </div>
             </th>
 	    <th>
-          {% comment %}
-          {% for pagei in site.pages %}
-            {%comment%}remove the curent page's directory from the target page's path{%endcomment%}
-	        {% assign truncPath = pagei.dir | remove_first: page.dir %}
-
-            {%comment%}split that into individual directories{%endcomment%}
-		    {% assign tpSplit = truncPath | split: '/' %}
-
-            {%comment%}get the first and last directories in that array{%endcomment%}
-		    {% assign tpsFirst = tpSplit | first %}
-		    {% assign tpsLast = tpSplit | last %}
-
-            {% if pagei.dir == page.dir %}
-	          {% case pagei.name %}
-	            {% when "index.md" %}
-                  {%comment%} This means the target page is the current page.
-	              I found myself: {{ pagei.path }} == {{ page.path }}. <br/>
-                  {%endcomment%}
-	            {% else %}
-                  {%comment%}This is a non-index page in the same directory.{%endcomment%}
-	              I found a sibling: {{ pagei.path }}.<br/>
-	          {% endcase %}
-		    {% elsif truncPath == blank %}
-		      truncPath is blank<br/>
-		    {% elsif tpsFirst == tpsLast and pagei.name == 'index.md' and pagei.dir != '/'%}
-		      I found a child?: {{ pagei.path }}<br>
-		    {% else %}
-            {% endif %}
-		    {% assign tpSplit = truncPath | split: '/' %}
-
-		    {% comment %}
-		    tpSplit: {{ tpSplit }}<br>
-		    {% assign tpsFirst = tpSplit | first %}
-		    {% assign tpsLast = tpSplit | last %}
-		    {% assign tps2 = tpSplit[1] %}
-		    tpsFirst: {{ tpsFirst }}<br>
-		    tps2: {{ tps2 }}<br>
-		    tpsLast: {{ tpsLast }}<br>
-		    {% endcomment %}
-          {% endfor %}
-          {% endcomment %}
-
+        <div align='left'>
+        <pre id="footerCenterColumn"></pre>
+        </div>
 	    </th>
             <th>
               <div align="right">
@@ -125,3 +70,56 @@
   </div>
 </body>
 </html>
+<script type="text/javascript" src="/functions.js"></script>
+<script>
+pages_fxn = function(pages, otherArgs){
+    // note: Everything requiring the `pages` object must happen inside this function.
+    console.log('here is the JSON response: ')
+    console.log(pages); // should be a JS array of the site pages at this point
+
+    // evaluate the parent/child/sibling information for each page
+    censoredPages = censorPages(pages)
+    pages = censoredPages; // avoids scope fuckery with censorPages()
+    var rootIndex = linkChildren(pages);
+    console.log('pages is: ');
+    console.log(pages);
+
+    // figure out which page we're on
+    var myInd = -1;
+    console.log('I think I am on {{ page.url }}.');
+    for (i in pages){
+        page = pages[i];
+        if (page.url == '{{ page.url }}' ){ // check if this is the url of the current page
+            myInd = i;
+            console.log('I found my page url: '+page.url+' at index '+myInd);
+            break;
+        }
+    }
+    if (myInd == -1){
+        console.debug('I could not find the page I am on.');
+    }
+    page = pages[myInd];
+
+    // use the parent/child/sibling relations to build a JS object with the same hierarchy as the site
+    siteTree = getRelations(myInd, pages, depth = 0, maxdepth = 1);
+    console.log('siteTree is: ');
+    console.log(siteTree);
+
+    // ulTree = '<ul>'+listFromTree(siteTree, 'ul')+'</ul>';
+    // create a preformatted  tree similar to the tree command in Linux
+    console.log('pages[myInd] is ');
+    console.log(pages[myInd]);
+    parentPage = pages[pages[myInd].parentInd];
+    var preTree = '';
+    if (page.url != '/'){
+        // preTree = '<a href="{{ parentRef }}">..</a>\n' // lol, as long as I have that info in LIQUID already...
+        preTree = '<a href='+parentPage.url+'>..</a>\n'
+    }
+    console.log('I am done with myParent.');
+    preTree += preFromTree(siteTree, '', {pages});
+
+    // insert the tree into this page
+    document.getElementById("footerCenterColumn").innerHTML = preTree
+}
+useJson('/sitePages.json', null, pages_fxn);
+</script>
