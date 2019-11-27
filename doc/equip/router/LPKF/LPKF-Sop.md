@@ -132,6 +132,8 @@ You probably are not using pockets.
     - Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
     - Click **OK**. You shouldn't need to recalculate the toolpaths.
 
+(Trouble shooting tip: If the router throws a connection error, be sure the lid to the LPKF is closed, then go to Machining > Connect... if errors come up, alert the manager on duty)
+
 ![LPKF Tool Magazine](img/tool_magazine.png) 
 
 2. Prepare backing surface
