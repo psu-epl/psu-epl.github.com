@@ -11,14 +11,15 @@ date:
 
 ## Before You Start
 
- 1. Login to controller PC
- 2. Turn on the S63 (Open the machine cover, the power switch is on the bottom right front corner)
+1. Login to controller PC
+
+2. Turn on the S63 (Open the machine cover, the power switch is on the bottom right front corner)
 <img src="img/s63_lid_opened.jpg" width="650" height="800">
 
- 3. Close the machine cover. Then start the LPKF CircuitPro software
+3. Close the machine cover. Then start the LPKF CircuitPro software
 <img src="img/s63_software.png" width="650">
 
- 4. Select the job type (under the templates tab)
+4. Select the job type (under the templates tab)
     - Single Sided: `single_sided_top` or `single_sided_bottom`
     - 2 layer (no plating): `double_sided_NoTHP`
     - 2 layer (plating machine): `double_sided_GalvonicTHP` (see plating SOP)
@@ -27,12 +28,11 @@ date:
 
 -----------------------------------------------------------------------------------------------
 
-
 ## Import Files
 
 (Refer to https://github.com/psu-epl/psu-epl.github.com/wiki/Design-rules for generating Gerber files.)
 
- 1. Select **File --> Import ...** or **Ctrl+I**
+1. Select **File --> Import ...** or **Ctrl+I**
     - Navigate to the folder containing your files. For a two-sided board, you need 4 files:
         * Top Gerber
         * Bottom Gerber
@@ -76,25 +76,25 @@ Fiducials are holes used to align your work piece during the routing process. Th
 
 Most of the options controlling how the board will be milled are set here. Let's open the Technology Dialog box so we can edit the insulation and routing settings for our board.
 
- - Select **Toolpath > Technology Dialog.**
+    - Select **Toolpath > Technology Dialog.**
 
-#### Edit **Global Processing Settings**
+1. Edit **Global Processing Settings**
 
-   - Now we're going to edit the settings at the very top section of the newly opened dialog box.
-   - Let's set the material thickness. The settings for the half-ounce **FR4** copper we sell in the EPL are: **18 um copper thickness** and **0.061 inch material thickness**
+    - Now we're going to edit the settings at the very top section of the newly opened dialog box.
+    - Let's set the material thickness. The settings for the half-ounce **FR4** copper we sell in the EPL are: **18 um copper thickness** and **0.061 inch material thickness**
 
-#### Set **Insulate** settings
+2. Set **Insulate** settings
 
 The "Insulate" settings control how much copper will be removed around your features (pads or traces). 
-   - Click the arrows to the right and left of the insulation picture to change the settings.
-   - Option 2/4 (Basic, pads double) is often the best choice.
-   - Next, Select the **Show Details** button below the insulation image.
-   - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter 0, 1mm** in the Available Tools list.
-   - Select **Hide Details**.
+    - Click the arrows to the right and left of the insulation picture to change the settings.
+    - Option 2/4 (Basic, pads double) is often the best choice.
+    - Next, Select the **Show Details** button below the insulation image.
+    - If your board does not have spacing closer than 8 mil (0.2mm), **un-check the Micro Cutter 0, 1mm** in the Available Tools list.
+    - Select **Hide Details**.
 
 ![LPKF Set Insulate](img/set_insulate.PNG)
 
-#### **Contour Routing**
+3. Edit **Contour Routing** settings
 
 The "Contour Routing" settings control where your boards breakout tabs will be. These are needed to keep your board held in position while routing, but allowing you to easily remove or "break out" your board when it's finished.
    - Click on the arrows to the right and left of the Contour Routing picture to change the settings.
@@ -106,14 +106,14 @@ The "Contour Routing" settings control where your boards breakout tabs will be. 
 
 ![LPKF Set Contour Routing](img/set_contour_routing.png)
 
-#### Removing Processes
+4. Removing Processes
 
 Uncheck steps you won't be using (Drills? Fiducials? Pockets?)
 You probably are not using pockets.
 
 ![LPKF Remove Processes](img/convert_to_toolpath.PNG)
 
-#### Select **Start** to begin generating the toolpath
+5. Select **Start** to begin generating the toolpath
 
 ![LPKF Start Computation](img/start_technology_dialog.png)
 
@@ -125,17 +125,17 @@ You probably are not using pockets.
 
 ## **Setup Machine** To Cut
 
- 1. Check Tool Magazine
+1. Check Tool Magazine
 
-- Open **Edit > Tool Magazine**. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
-- In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
-- Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
+    - Open **Edit > Tool Magazine**. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
+    - In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
+    - Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
 
-(Trouble shooting tip: If the router throws a connection error, be sure the lid to the LPKF is closed, then go to Machining > Connect... if errors come up, alert the manager on duty)
+    (Trouble shooting tip: If the router throws a connection error, be sure the lid to the LPKF is closed, then go to Machining > Connect... if errors come up, alert the manager on duty)
 
 ![LPKF Tool Magazine](img/tool_magazine.png)
 
-- Click **OK**. You shouldn't need to recalculate the toolpaths. 
+    - Click **OK**. You shouldn't need to recalculate the toolpaths. 
 
 2. Prepare backing surface
 
@@ -150,7 +150,7 @@ You probably are not using pockets.
     
     Next, attach the PCB blank to the vacuum table. The vacuum table will not sufficiently hold a board for routing, so you must put **masking tape** along at least two sides. Typically, a 6 inch strip along the left and right edges is sufficient. 
 
-    <img src="img/mounted_copper_plate.jpg" width="650" height="500">
+<img src="img/mounted_copper_plate.jpg" width="650" height="500">
 
 4. Edit pattern placement on the PCB blank
 
@@ -160,7 +160,7 @@ You probably are not using pockets.
 
     Now reselect **Mouse Cursor** and click on all four corners of the board artwork to verify that the black collar of the router stays on the board and away from tape or other obstacles. 
 
-    ![LPKF Placement and Mouse Cursor](img/placement.png)
+![LPKF Placement and Mouse Cursor](img/placement.png)
 
 5. Check cut width
 
