@@ -1,8 +1,10 @@
-# Why you’re here
+# Cutting DXFs on Retina Engrave for Full Spectrum Laser
+
+## Why you’re here
 
 So you have a DXF file that you’ve exported from SolidWorks, Fusion 360, Eagle, or some other software, and you want to cut it on the *Full Spectrum Laser*? No problem. It’s not as easy as simply importing it directly into the *RetinaEngrave software* that the *Full Spectrum Laser* uses unfortunately, but we can get there with a bit of a workaround.
 
-# What you’ll need
+## What you’ll need
 
 * RetinaEngrave Software (installed on eplaser1 computer)
 
@@ -10,7 +12,7 @@ So you have a DXF file that you’ve exported from SolidWorks, Fusion 360, Eagle
 
 * Inkscape (installed on eplaser1 computer)
 
-# Converting DXF to XPS in Inkscape
+## Converting DXF to XPS in Inkscape
 
 Open Inkscape
 
@@ -48,7 +50,7 @@ A window will pop up prompting you save the file with an extension of ".oxps". C
 
 We are done with Inkscape now. Close Inkscape.
 
-# Open XPS file in RetinaEngrave
+## Open XPS file in RetinaEngrave
 
 Open RetinaEngrave
 
