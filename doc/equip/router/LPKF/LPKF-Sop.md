@@ -76,7 +76,7 @@ Fiducials are holes used to align your work piece during the routing process. Th
 
 Most of the options controlling how the board will be milled are set here. Let's open the Technology Dialog box so we can edit the insulation and routing settings for our board.
 
-    - Select **Toolpath > Technology Dialog.**
+- Select **Toolpath > Technology Dialog.**
 
 1. Edit **Global Processing Settings**
 
@@ -130,12 +130,9 @@ You probably are not using pockets.
     - Open **Edit > Tool Magazine**. Under the list of required tools, on the left-hand side, make sure there are no red X's. If there are, you need to physically add the tools (bits) to the tool magazine in the machine.
     - In order to change a tool, there is a drawer with small boxes of bits, ask a manager for help before exchanging any tools, but when a tool is inserted or replaced, this must be registered in the software by clicking the dropdown menu for the numbered position in the Tool Magazine. Find the name of the tool that you need and be sure to place the tool in the correct slot.
     - Verify the tool is the correct size by checking the numbers on the side of the colored band along the tool.
+    - Click **OK**. You shouldn't need to recalculate the toolpaths.
 
-    (Trouble shooting tip: If the router throws a connection error, be sure the lid to the LPKF is closed, then go to Machining > Connect... if errors come up, alert the manager on duty)
-
-![LPKF Tool Magazine](img/tool_magazine.png)
-
-    - Click **OK**. You shouldn't need to recalculate the toolpaths. 
+![LPKF Tool Magazine](img/tool_magazine.png) 
 
 2. Prepare backing surface
 
