@@ -15,13 +15,13 @@ The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature 
 
 1. Switch on the oven (switch on back, upper right corner).
 1. Turn on the exhaust fan, located next to the oven.
-   - ![](img/Soldering_exhaustFan_on.JPG)
+![](img/Soldering_exhaustFan_on.JPG)
 1. Verify that one of the exhaust fan tubes is placed on the oven's vent on the back side.
-   - ![](img/Torch_exhaustSetup.JPG)
+![](img/Torch_exhaustSetup.JPG)
 1. Make sure the latch on the left side is closed so the lid is securely down.
 1. Open the oven door using the red "Drawer in/out" button
-   - ![](img/Torch_ovenOpened_70C.JPG)
-1. Carefully put your board on the tray, centered on the tray.
+![](img/Torch_ovenOpened_70C.JPG)
+6. Carefully put your board on the tray, centered on the tray.
 1. Close the oven door using the red "Drawer in/out" button
    - **CAREFUL!** Don't let anything pinched, this thing will happily squash fingers.
 1. Launch oven control software ("PyTorch").
@@ -32,7 +32,7 @@ The "Torch" reflow oven - worst name for a reflow oven, ever - is a temperature 
    1. If you do not see the red temperature graph after hitting the start button, the oven may not be connected. restart the oven and      attemp to connect to the COM port again
 1. When the peak temperature is hit, and the temperature starts coming down, twist the latch on the left of the oven, remove the latch, and crack open oven's lid. Hold the lid open until your board is safely under 150 deg C. Then just leave the lid cracked open while the whole thing cools down.
 1. When the temperature is less than about 50 deg C, your board is cool enough to move and pick up - the internal temperature of the oven is displayed in red on the front of the oven:
-    - ![](img/Torch_ovenClosed_70C.JPG)
+![](img/Torch_ovenClosed_70C.JPG)
 1. Close up the lid and twist the latch shut.
 1. Open the oven door using the red "Drawer in/out" button
 1. Remove your board.
