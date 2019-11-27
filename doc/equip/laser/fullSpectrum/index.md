@@ -6,6 +6,9 @@ date:
 
 ---
 # Full Spectrum Professional Series CO2 20x12 Laser
+## Helpful Links
+[Preparing a DXF to cut on the Full Spectrum](http://psu-epl.github.io/doc/equip/laser/fullSpectrum/cuttingDXFonRetina/)
+
 # Approved Materials
 
 |Material	|Minimum Thickness	|Maximum Thickness	|
