@@ -15,7 +15,7 @@ Short description of what this machine's good for plus its advantages, disadvant
 
 ## Useful Links
 - [manufacturer website](https://littlemachineshop.com/products/product_view.php?ProductID=3540)
-- You can find the manual [here](https://littlemachineshop.com/images/gallery/ug/3540%20Bench%20Lathe%20Users%20Guide.pdf).
+- You can find the manual [here](3540_Bench_Lathe_Users_Guide.pdf).
 
 ## Machine Safety
 Read the manual and this SOP completely before operating the lathe.
