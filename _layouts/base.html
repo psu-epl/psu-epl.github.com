@@ -45,7 +45,13 @@
             </th>
 	    <th>
         <div align='left'>
-        <pre id="footerCenterColumn"></pre>
+            <pre id="footerCenterColumn"></pre>
+        </div>
+        <div align='center'>
+            <form onsubmit="duckSearch()" action="javascript:void(0)">
+                <input id="searchField" type="text" value="" placeholder="Search via DuckDuckGo...">
+                <button type='submit'>GO</button>
+            </form>
         </div>
 	    </th>
             <th>
@@ -122,4 +128,12 @@ pages_fxn = function(pages, otherArgs){
     document.getElementById("footerCenterColumn").innerHTML = preTree
 }
 useJson('/sitePages.json', null, pages_fxn);
+
+function duckSearch() {
+    var searchField = document.getElementById("searchField");
+    if (searchField && searchField.value) {
+        var query = escape("site:{{ site.url }} " + searchField.value);
+        window.location.href = "https://duckduckgo.com/?q=" + query;
+    }
+}
 </script>
