@@ -112,7 +112,7 @@
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
-      up: true
+      up: other
 
     - name: Full Spectrum Laser Cutter
       img: images/newFullSpectrum.jpg
