@@ -12,22 +12,22 @@ layout: base
     {% for machine in category.machines %}
       {% if machine.name == page.title %}
         {% assign noname = false %}
-	<p>
-	  {% unless machine.nickname == blank %}
-	    nickname "{{ machine.nickname }}":
-	  {% endunless %}
-	  {% if machine.up == true %}
-	    This machine is working fine.
-	  {% elsif machine.up == false %}
-	    <b>This machine is currently down!</b>
-	  {% else %}
-	    This machine may have some issues.
-	  {% endif %}
-          {% unless machine.log == blank %}
-            <a href="{{ machine.log }}">Managers, click here for the maintenance log.</a>
-          {% endunless %}
-	</p>
-	{% assign machineSelfie = machine.img %}
+	    <p>
+            {% unless machine.nickname == blank %}
+                nickname: "{{ machine.nickname }}"<br/>
+            {% endunless %}
+            {% if machine.up == true %}
+                This machine is working fine.
+            {% elsif machine.up == false %}
+                <b>This machine is currently down!</b>
+            {% else %}
+                This machine may have some issues.
+            {% endif %}
+            {% unless machine.log == blank %}
+              <a href="{{ machine.log }}">Managers, click here for the maintenance log.</a>
+            {% endunless %}
+        </p>
+        {% assign machineSelfie = machine.img %}
       {% endif %}
     {% endfor %}
 {% endfor %}

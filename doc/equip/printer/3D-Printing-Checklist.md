@@ -1,6 +1,7 @@
 ---
 title: 3D Printing Guide
 layout: doc
+author: Joe Shields
 date: \today
 fontsize: 12pt
 documentclass: article
@@ -12,10 +13,9 @@ pagestyle: plain
 output:
   pdfdocument:
     latex_engine: xelatex
-
 ---
 
-### This guide is written both for Managers and for users of the EPL! Some steps apply to only one or the other.
+### This guide is written both for Managers and for users of the EPL. Some steps apply to only one or the other.
 
 # Before You Start (Managers, Users)
 

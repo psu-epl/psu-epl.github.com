@@ -1,14 +1,14 @@
 ---
-title: FormLabs 2 SLA Printer
-layout: doc
+title: Form 2 SLA Printer
+layout: sop
 author: 
 date: 
-
 ---
+
 # [Form Labs Setup (For Managers)](Formlabs2QuickStartGuide)
 
-# Before you start!
-## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
+# Before You Start
+[Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
 
 # Formlabs 2 Quick Start Guide 
 
