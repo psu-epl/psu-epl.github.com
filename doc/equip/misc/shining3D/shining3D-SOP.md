@@ -1,12 +1,11 @@
 ---
 title: Shining 3D SOP
-layout: doc
-author: "Armaan Roshani"
-date: 11/20/2018
-note: This is an alpha version of the SOP.
-
+layout: sop
+author: Armaan Roshani
+date: 2018-11-20
 ---
 
+**Note: This is an alpha version of the SOP.**
 
 ## Table of Contents
 <!-- {:.no_toc} -->
@@ -66,26 +65,10 @@ Explain how to reset the work station for the next user.
 # Tips and Tricks
 List some sections describing advaned techniques.
 
-
-
-
-
-
-
-
 ## Getting Started
 
-
-  
-
-
-
-
-
 ## Using the Scanner
-  
 
-  
 ## Reference Material
 
 [Quick Start Guide]: EinScan-SP-Quick-Guide-compressed.pdf

@@ -1,6 +1,6 @@
 ---
-title: Hot Wire Cutter THERMOCUT 115/E
-layout: doc
+title: Thermocut 115/E
+layout: sop
 author: Jennifer Jordan
 date: 2019-07-23
 ---
@@ -12,8 +12,6 @@ The large table with 15 11/32" x 11" (390 x 280mm) ensures smooth and easy movem
  {% comment %} 
  It looks like the wire diameter is actually 0.006", as measured.
  {% endcomment %} 
-
-<img src="/images/Thermocut.jpg" width="700">
 
 ## Useful Links
 - [manufacturer website](https://www.proxxon.com/us/)

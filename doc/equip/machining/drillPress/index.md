@@ -1,9 +1,8 @@
 ---
 title: Drill Press
-layout: doc
+layout: sop
 author:
-date:
-
+date: 2019-12-05
 ---
 
 # Drill Press

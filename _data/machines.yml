@@ -20,8 +20,15 @@
       up: true
 
     - name: T200N Desktop Solder Oven
+      nickname: Orang
       img: images/torch.jpg
       sop: /doc/equip/solder/oven
+      log: https://drive.google.com/open?id=12IgVs25qrH1A4t1jfN01G-PFT6XaxOnn0CgPeG3brVY
+      up: true
+
+    - name: Soldering Equipment
+      img: images/SolderingEquipment.jpg
+      sop: /doc/equip/solder/Soldering-Equipment
       up: true
 
   #  - name: Pick and Place Machine
@@ -41,6 +48,7 @@
     - name: Stratasys Mojo 3D Printer
       img: images/mojo.JPG
       sop: /doc/equip/printer/mojo
+      log: https://drive.google.com/open?id=1Pa-c1Xg9IxAz1RduAMTdo2n3MXvBVPVkdMLfOVE992Q
       up: true
 
     - name: Ultimaker2 3D Printer
@@ -48,14 +56,14 @@
       img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
       log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
-      up: true
+      up: other
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Harold
       img: images/Ultimaker3.JPG
       sop: /doc/equip/printer/UM3
       log: https://drive.google.com/open?id=1Rv7u8gue2PmMjZiChcRXUE5_H8AnhcjPdVjrxjSZEjg
-      up: other
+      up: false
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Maude
@@ -76,16 +84,19 @@
     - name: Little Machine Shop Mill
       img: doc/equip/machining/mill/img/littlemachine3990.JPG
       sop: /doc/equip/machining/mill
+      log: https://drive.google.com/open?id=15vZTalYRVWXXxLEOaYPqheybwHOPcBpW7bCR7DpcHXY
       up: true
 
     - name: Little Machine Shop Lathe
       img: images/htbl.jpg
       sop: /doc/equip/machining/lathe
+      log: https://drive.google.com/open?id=1_jLjFXUPy6IUIUrLu3-zeuXrbyrhTg6quPTVfMQmEkY
       up: true
 
     - name: Drill Press
       img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
+      log: https://drive.google.com/open?id=1zZ9TxElqa57awR_Anar17_2WOML6XUWwccMtX0apNGY
       up: true
 
     - name: WAZER
@@ -111,11 +122,6 @@
 
 - title: Shop and Hand Tools
   machines:
-    - name: Soldering Equipment
-      img: images/SolderingEquipment.jpg
-      sop: /doc/equip/solder/Soldering-Equipment
-      up: true
-
     - name: Angle Grinder
       img: doc/equip/shop/img/angleGrinder.jpg
       sop: /doc/equip/shop/angleGrinder
@@ -158,17 +164,20 @@
 
 - title: Miscellaneous
   machines:
-    - name: Thermocutter
+    - name: Thermocut 115/E
       img: images/Thermocut.jpg
       sop: /doc/equip/misc/Thermocut
+      log: https://drive.google.com/open?id=1ThNEOycO3oOycAmgoHBNHdN7wuUt3p_TZaulOMTJopQ
       up: true
 
     - name: Shining 3D Scanner
-      img: images/shining3D.jpeg
+      img: images/shining3D.jpg
       sop: /doc/equip/misc/shining3D
-      up: true
+      log: https://drive.google.com/open?id=1k206TcGVjXwMQcvdbiEdIBj58mjVJjbowkipwPHTVAs
+      up: false
 
     - name: Silhouette Cameo
-      img: ''
+      img: images/cameo.jpg
       sop: /doc/equip/misc/cameo
+      log: https://drive.google.com/open?id=1Hq_bsZNxvSJglJ_Um2DlJyZj5Id9WqOj7CcpHh3c1rY
       up: other
