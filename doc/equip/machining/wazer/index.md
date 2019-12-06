@@ -1,9 +1,8 @@
 ---
 title: WAZER
-layout: doc
+layout: sop
 author:
 date:
-
 ---
 
 ## Overview

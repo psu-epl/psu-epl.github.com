@@ -1,9 +1,8 @@
 ---
 title: Silhouette Cameo
-layout: doc
+layout: sop
 author: 
 date: 
-
 ---
 
 # Silhouette Cameo

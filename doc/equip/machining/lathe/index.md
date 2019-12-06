@@ -1,15 +1,11 @@
 ---
+title: Little Machine Shop Lathe
+layout: sop
 date:
-title: Lathe 
-layout: doc
 author:
+---
 
----
-# Lathe SOP
----
 # About this Machine
-![picture of the machine](img/lathe.jpg)
-
 Short description of what this machine's good for plus its advantages, disadvantages, and quirks
 - The lathe is great for cutting metal and wax work pieces
 - Utilizes carbide and diamond cutting tips to shave up to 1/1000 of an inch of material at a time

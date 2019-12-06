@@ -31,7 +31,9 @@ layout: base
       {% endif %}
     {% endfor %}
 {% endfor %}
-<img src="{{ site.url }}/{{ machineSelfie }}">
+{% unless machineSelfie == blank %}
+<img src="{{ site.url }}/{{ machineSelfie }}" width=600>
+{% endunless %}
 
 {% if noname == true %}
 {% endif %}
