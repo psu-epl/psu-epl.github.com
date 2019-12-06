@@ -103,7 +103,7 @@
       img: images/WAZER.jpg
       sop: /doc/equip/machining/wazer
       log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-      up: false
+      up: True
   #    taken off website until usage terms are decided and sop is complete
 
 - title: Laser Cutters
