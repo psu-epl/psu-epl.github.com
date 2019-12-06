@@ -5,14 +5,28 @@ author:
 date:
 ---
 
+## Table of Contents
+{:.no_toc}
+* ToC
+{:toc}
+
 ## Overview
 
 We have a [WAZER](https://www.wazer.com/specs). Here is a quick overview:
 
-The WAZER is a table-top waterjet cutter. Waterjet cutting uses a mixture of high-pressure water and an abrasive, it has the ability to cut through many materials. The WAZER is limited only by the repository of materials that are currently available on their online Material Library. In order to set up a cut, a 2D design must be created in an outside program (Solidworks, Illustrator,  Fusion360, Inkscape,  AutoCad, Onshape, etc) and then take a DXF or SVG file and upload it to WAM which is the slicing software. WAM is browser based and its use is outlined in a separate document [HERE](https://docs.google.com/document/d/e/2PACX-1vR1dXCqtqhrKVkHyGhJJPfcSqz3ATtw6Qzo6puR2IplyjMEwYYs1ZHa1CS6VhqkCRD1tPU0lUCym6Kx/pub)
+The WAZER is a table-top waterjet cutter. 
+Waterjet cutting uses a mixture of high-pressure water and an abrasive, it has the ability to cut through many materials. 
+The WAZER is limited only by the repository of materials that are currently available on their online Material Library. 
+In order to set up a cut, a 2D design must be created in an outside program 
+(Solidworks, Illustrator,  Fusion360, Inkscape,  AutoCad, Onshape, etc) 
+and then take a DXF or SVG file and upload it to WAM which is the slicing software. 
+WAM is browser based and its use is outlined in the [WAM Software Guide](WAMguide).
+{% comment %}
+The old Google Docs version of that guide is here:
+https://docs.google.com/document/d/e/2PACX-1vR1dXCqtqhrKVkHyGhJJPfcSqz3ATtw6Qzo6puR2IplyjMEwYYs1ZHa1CS6VhqkCRD1tPU0lUCym6Kx/pub
+{% endcomment %}
 
 ## Anatomy
-
 The WAZER has two main components: the main unit and the pump box. The pump box is the smaller enclosure on the right and is responsible for pressurizing the water that comes out of the building’s water system. The main unit is the larger of the two and contains the cut bed and control panel. The main unit is the only part of the WAZER that needs to be interacted with, the pump is fully controlled by the WAZER and should not be messed with.
 
 The main unit has several parts to be aware of:
