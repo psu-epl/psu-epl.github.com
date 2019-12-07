@@ -103,7 +103,7 @@
       img: images/WAZER.jpg
       sop: /doc/equip/machining/wazer
       log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-      up: false
+      up: True
   #    taken off website until usage terms are decided and sop is complete
 
 - title: Laser Cutters
@@ -112,13 +112,13 @@
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
-      up: true
+      up: other
 
     - name: Full Spectrum Laser Cutter
       img: images/newFullSpectrum.jpg
       sop: /doc/equip/laser/fullSpectrum
       log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
-      up: true
+      up: false
 
 - title: Shop and Hand Tools
   machines:
