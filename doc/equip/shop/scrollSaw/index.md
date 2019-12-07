@@ -3,13 +3,10 @@ title: Scroll Saw
 layout: doc
 author: Jennifer Jordan
 date: 25 July 2019
-
+date: 2019-07-25
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 This 16 inch variable-speed scroll saw cuts curves and designs quickly and precisely. This versatile scroll saw has a tilting table for making precise bevel cuts. This scroll saw has a cast iron base for less vibration and variable speed control for working with a wide range of materials.

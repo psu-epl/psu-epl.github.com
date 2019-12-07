@@ -2,14 +2,10 @@
 title: Olympus BHM Microscope
 layout: doc
 author: Jennifer Jordan
-date: 27 July 2019
-
+date: 2019-07-27
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 The Olympus System Microscope for reflected light Model BHM consists of a modular, building-block system of various components and interchangeable accessories, as shown below. A wide variety of combinations, standard or optional, is available according to your requirements. 

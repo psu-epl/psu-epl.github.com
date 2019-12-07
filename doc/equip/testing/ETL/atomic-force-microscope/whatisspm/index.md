@@ -2,13 +2,10 @@
 title: What is Scanning Probe Microscopy?
 layout: doc
 author: Jennifer Jordan
-date: 21st August 2019
+date: 2019-08-21
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 The Quesant Q250 microscope uses scanning probe microscopy technology. The term ‘scanning probe microscopy’ (SPM) represents a family of surface measurement techniques. The list of acronyms for the imaging techniques which may be considered species within the SPM family is very long— STM, AFM, SCM, SFM, DFM, and so on. In the most general sense, these imaging techniques reveal information about the surface properties of materials by scanning or "rastering" the surface with a small probe. Information about the interaction of the probe with the surface is transmitted to a computer where an image of the surface is formed. This section of the manual presents a simple model of the main components found inside a scanning probe microscope and a brief introduction to how the microscope works.
 

@@ -2,13 +2,10 @@
 title: Q250 Scanning Probe Microscope
 layout: doc
 author: Jennifer Jordan
-date: 21st August 2019
+date: 2019-08-21
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 This machine is a Quesant Q250 Atomic Force Microscope. Unless you know about scanning probe microscopy **Please read up on the basics of what this scanner can do [here](/doc/equip/testing/ETL/atomic-force-microscope/whatisspm/index).**

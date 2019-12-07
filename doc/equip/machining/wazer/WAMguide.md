@@ -5,10 +5,7 @@ date: 2019-10-25
 layout: doc
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # Overview
 - Username: EPLWazer

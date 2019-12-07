@@ -5,10 +5,7 @@ author:
 date:
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 ## Overview
 

@@ -5,11 +5,7 @@ author: Joe Shields
 date: 2018-09-01
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
-
+{% include toc.md %}
 
 # About this Machine
 ![picture of the machine](img/littlemachine3990.JPG)

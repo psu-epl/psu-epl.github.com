@@ -6,10 +6,7 @@ date: 20th August 2019
 
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 This Belt Sander is a Central Machinery (Harbor Freight) Model 69033. This machine includes both a 1 by 30 inch belt and a 5 inch disc. 

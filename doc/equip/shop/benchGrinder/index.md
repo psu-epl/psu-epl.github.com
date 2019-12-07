@@ -5,10 +5,7 @@ author: Jennifer Jordan
 date: 21st August 2019
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 This machine has two grinding wheels. See the diagram below,

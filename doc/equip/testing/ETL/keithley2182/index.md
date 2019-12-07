@@ -2,14 +2,10 @@
 title: Keithley 2182 Nanovoltmeter
 layout: doc
 author: Jennifer Jordan
-date: 5th August 2019
-
+date: 2019-08-05
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 <img src="/doc/equip/testing/ETL/keithley2182/s-l600.jpg" width="400">

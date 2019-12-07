@@ -2,13 +2,10 @@
 title: Intermittent Contact Imaging
 layout: doc
 author: Jennifer Jordan
-date: 21st August 2019
+date: 2019-08-21
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 - Overview
 - Installing a Probe 

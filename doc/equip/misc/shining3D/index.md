@@ -7,13 +7,7 @@ date: 2018-11-20
 
 **Note: This is an alpha version of the SOP.**
 
-## Table of Contents
-<!-- {:.no_toc} -->
-* ToC
-{:toc}
-A ToC is optional, but preferred for longer documents.
-Simply paste the above code into the document.
-See this document's source for an explanation.
+{% include toc.md %}
 
 
 # About this Machine

@@ -2,14 +2,10 @@
 title: Ultimaker 2 SOP
 layout: doc
 author: Jennifer Jordan
-date: 23 July 2019
-
+date: 2019-07-23
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 

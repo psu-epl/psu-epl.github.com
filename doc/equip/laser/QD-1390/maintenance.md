@@ -5,10 +5,7 @@ author: Joe Shields
 date: 
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About This Page
 Managers only!

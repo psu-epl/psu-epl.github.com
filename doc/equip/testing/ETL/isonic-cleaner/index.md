@@ -1,8 +1,11 @@
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+---
+title: ''
+layout: sop
+author: ''
+date: ''
+---
 
+{% include toc.md %}
 
 # About this Machine
 ~~///////////////////////////![picture of the machine](images/kitten.jpg)~~

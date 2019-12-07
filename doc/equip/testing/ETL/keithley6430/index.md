@@ -2,14 +2,10 @@
 title: Keithley 6430 Sub-FemtoAmp SourceMeter
 layout: doc
 author: Jennifer Jordan
-date: 6th August 2019
-
+date: 2019-08-06
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About this Machine
 ~~/////////////////////////![picture of the machine](images/kitten.jpg)~~

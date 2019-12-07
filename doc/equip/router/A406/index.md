@@ -4,7 +4,6 @@ layout: doc
 author: 
 date: 
 numbering: true 
-
 --- 
 
 {% comment %} 
@@ -15,10 +14,7 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 `{:toc}` turns the previous unordered list into a ToC. 
 {% endcomment %} 
 
-## Table of Contents 
-{:.no_toc} 
-1. Table of Contents 
-{:toc} 
+{% include toc.md %}
 
 # About the A406 
 The A406 claims to be able to do:   

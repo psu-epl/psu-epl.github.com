@@ -2,14 +2,10 @@
 title: Surface Force Measurements
 layout: doc
 author: Jennifer Jordan
-date: 27th August 2019
+date: 2019-08-27
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
-
+{% include toc.md %}
 
 Surface Force Measurements
 - Overview

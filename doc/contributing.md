@@ -3,16 +3,21 @@ title: How to Improve this Site
 author: Joe Shields
 date: 2018-07-21
 layout: doc
-
+numbersections: true
 ---
 
+{% include toc.md %}
+
+{% comment %}
+----- The new way of making a ToC -----
+Just put {% include toc.md %} wherever you want your ToC to go.
+
+----- The old way of making a ToC -----
 ## Table of Contents
 {:.no_toc}
 * ToC
 {:toc}
 
-{% comment %}
------ An Explanation of the ToC -----
 The `## Table of Contents` just provides a section heading (h2) for the ToC.
 The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it from the ToC.
 `* Table of Contents` is a dummy unordered list for the next line to operate on.
