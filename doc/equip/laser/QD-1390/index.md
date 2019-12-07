@@ -3,6 +3,7 @@ title: "QD-1390 Laser Cutter"
 layout: sop
 author: Joe Shields, Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak
 date: 2019-05-17
+numbersections: true
 ---
 
 {%comment%}
@@ -19,10 +20,7 @@ date: 2019-05-17
     - [ ] what the pause button is
 {%endcomment%}
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
 
 # About This Machine
 {%comment%}

@@ -1,4 +1,5 @@
 LESS=assets/less/style.less
+CSS=assets/style.css
 proofOpts=--allow-hash-href --assume-extension --empty-alt-ignore #--disable-external
 proofFile=proofReport.txt
 
@@ -13,7 +14,10 @@ preview:
 theme:
 	lessc --clean-css $(LESS) > assets/style.css
 
-themedev:
+themedev: # an alias for make assets/style.css
+	make $(CSS)
+
+$(CSS): $(LESS)
 	lessc $(LESS) > assets/style.css
 
 full: theme site

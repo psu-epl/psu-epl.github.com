@@ -1,0 +1,67 @@
+/* ~~~~~ Rules for numbering headings ~~~~~ */
+/* The profusity of these rules is a bit of a hack. 
+ * Ideally, IMO, headings would be nested. If that were the case, 
+ * I could use nested counters, like I do with the ordered lists.
+ * */
+body {/* initialize all the heading counters */
+    counter-reset: hc1 hc2 hc3 hc4 hc5 hc6;
+}
+h1:before {
+    /* The section symbol (\00a7) might be nice to put in front of the section numbers... */
+    content: counter(hc1) "\0000a0\2014\0000a0"; 
+    counter-increment: hc1;
+}
+.nonumber:before {
+    content: none;
+}
+h1 {
+    counter-reset: hc2;
+}
+h2:before {
+    content: counter(hc1) '.' counter(hc2) "\0000a0\2014\0000a0";
+    counter-increment: hc2;
+}
+h2 {
+    counter-reset: hc3;
+}
+h3:before {
+    content: counter(hc1) '.' counter(hc2) "." counter(hc3) "\0000a0\2014\0000a0";
+    counter-increment: hc3;
+}
+h3 {
+    counter-reset: hc4;
+}
+h4:before {
+    content: counter(hc1) '.' counter(hc2) "." counter(hc3) "." counter(hc4) "\0000a0\2014\0000a0";
+    counter-increment: hc4;
+}
+h4 {
+    counter-reset: hc5;
+}
+h5:before {
+    content: counter(hc1) '.' counter(hc2) "." counter(hc3) "." counter(hc4) "." counter(hc5) "\0000a0\2014\0000a0";
+    counter-increment: hc5;
+}
+h5 {
+    counter-reset: hc6;
+}
+h6:before {
+    content: counter(hc1) '.' counter(hc2) "." counter(hc3) "." counter(hc4) "." counter(hc5) "." counter(hc6) "\0000a0\2014\0000a0";
+    counter-increment: hc6;
+}
+
+/* ~~~~~ Rules for numbering table-of-contents lists ~~~~~ */
+ol.toc {
+    counter-reset: toc-counters;
+}
+.toc ol {
+    counter-reset: toc-counters;
+}
+
+ol.toc li{
+    list-style: none;
+}
+ol.toc li:before {
+    counter-increment: toc-counters;
+    content: counters(toc-counters, ".") "\0000a0\2014\0000a0";
+}
