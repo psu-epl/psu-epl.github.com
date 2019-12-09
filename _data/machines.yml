@@ -156,6 +156,7 @@
     - name: Miter Saw
       img: doc/equip/shop/img/miterSaw.jpg
       sop: /doc/equip/shop/miterSaw
+      log: https://drive.google.com/open?id=1Ylh9WR7LWiEglxR1u94-Bu-Z9YkpyMDikHLlFN-BlGI
       up: true
 
     - name: Rotary Tool

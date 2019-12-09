@@ -1,19 +1,28 @@
 ---
-title: Coffee Maker SOP
-layout: doc
-author: "Alice Barnicle, Charles Dunkirk"
-date: 2069-04-20
+title: Coffee Maker # If this is an SOP, the title should exactly match the name in _data/machines.yml
+layout: sop # the type of page ("base", "doc", or "sop"). Most pages are "doc" or "sop".
+author: Alice Barnicle, Charles Dunkirk # the contributors to the page
+date: 2069-04-20 # the last time this page got a major update
+numbersections: true # controls whether the section headings are numbered
 ---
 
-## Table of Contents
-{:.no_toc}
-* ToC
-{:toc}
+{% include toc.md %}
+
 A ToC is optional, but preferred for longer documents.
 Simply paste the above code into the document.
 See this document's source for an explanation.
+
 {% comment %}
------ An Explanation of the ToC -----
+----- Referencing the ToC Template -----
+There's a template for a ToC in the `_includes/toc.md` file.
+You can insert this into a document by doing
+{% include toc.md %}
+
+----- Directly Creating a ToC -----
+# Table of Contents
+{:.no_toc}
+* ToC
+{:toc}
 The `## Table of Contents` just provides a section heading (h2) for the ToC.
 The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it from the ToC.
 `* Table of Contents` is a dummy unordered list for the next line to operate on.
@@ -21,8 +30,9 @@ The `{:.no_toc}` assigns the class name `no_toc` to the header, to exclude it fr
 {% endcomment %}
 
 # About this Machine
-![picture of the machine](images/kitten.jpg)
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks
+If it's not automatically linked via the `sop` layout, you should include a picture of the machine like so:
+![picture of the machine](images/kitten.jpg)
 
 ## Useful Links
 - [manufacturer website](https://notanactualaddress.foo)
@@ -60,3 +70,14 @@ Explain how to reset the work station for the next user.
 List some sections describing advaned techniques.
 
 ## How to Make Tea with this Machine
+
+{% comment %}
+# Quick Links
+[]: 
+[]: 
+[]: 
+[]: 
+[]: 
+[]: 
+[]: 
+{% endcomment %}
