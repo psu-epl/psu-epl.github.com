@@ -120,6 +120,12 @@
       log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
       up: false
 
+    - name: K40 Laser Cutter
+      img: images/K40Laser.jpg
+      sop: /doc/equip/laser/K-40
+      log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
+      up: true
+
 - title: Shop and Hand Tools
   machines:
     - name: Angle Grinder
