@@ -5,9 +5,10 @@ author:
 date:
 ---
 
-# Full Spectrum Professional Series CO2 20x12 Laser
+# Full Spectrum Hobby Series Desktop CO2 20x12 Laser
 ## Helpful Links
 [Preparing a DXF to cut on the Full Spectrum](http://psu-epl.github.io/doc/equip/laser/fullSpectrum/cuttingDXFonRetina/)
+[Manual for the laser](https://fsl-public.s3.amazonaws.com/website/production/pdfs/H_Series_20x12_Manual.pdf)
 
 # Approved Materials
 
@@ -31,9 +32,9 @@ MANAGERS: Absolutely no PVC nor Vinyl is to be used in the Laser Cutter under an
 
 ## Overview
 
-We have a [Full Spectrum Laser Professional Series CO2 20x12 Laser with RetinaEngrave 3D](http://fslaser.com/products/lasers/pro-series/20x12-laser-engraver). Here are some quick facts:
+We have a [Full Spectrum Laser Hobby Series Desktop CO2 20x12 Laser with RetinaEngrave 3D](https://web.archive.org/web/20140203140918/http://fslaser.com/products/lasers/hobby-lasers/newhobby). Here are some quick facts:
 
-- It's an 80W CO2 laser that uses an invisible far infrared beam for cutting.
+- It's an 40W CO2 laser that uses an invisible far infrared beam for cutting.
 - It does a good job cutting through things with carbon in it, e.g., paper, cardboard, bamboo, wood, and acrylic... even up to 0.25 inch bamboo and 0.5 inch acrylic. ABS is possible, but discouraged because of the terrible fumes (even worse than acrylic).
    - We have sheets of Acrylic and Bamboo on hand for sale if you need them.
 - Cutting materials that contain Chlorine are NOT allowed, like PVC.
