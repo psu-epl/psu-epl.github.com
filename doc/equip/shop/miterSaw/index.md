@@ -21,9 +21,10 @@ Used wisely, this can be used to make nice-looking frames and boxes.
 - You can find the full manual [here][fullManual].
 
 ## Machine Safety
-This is a big spinning saw. It can easily cut off a finger or throw metal chips into people's eyes (even if you aren't cutting metal).
+This is a big spinning saw. It can easily cut off a finger or throw metal chips into people's eyes (even if you aren't cutting metal), or grab loose things.
 
 - Always wear safety glasses when working with or around this machine.
+    - Your reading glasses are not safety glasses!
 - Always keeps your hands away from the blade while using this machine.
 - Always tie back or tuck in long hair, jewelry, long sleeves, et cetera that could get caught in the blade. 
 - Never put any part of your body in the path of the blade.
@@ -56,8 +57,6 @@ TODO: List some sections describing advaned techniques.
 
 {% comment %}
 # Quick Links
-[fullManual]: https://servicenet.dewalt.com/documents/English/Instruction%20Manual/N141479,DW715.pdf
-[MFG]: https://servicenet.dewalt.com/Products/Detail?isId=true&productNumber=DW715
 []: 
 []: 
 []: 
@@ -65,3 +64,5 @@ TODO: List some sections describing advaned techniques.
 []: 
 []: 
 {% endcomment %}
+[fullManual]: https://servicenet.dewalt.com/documents/English/Instruction%20Manual/N141479,DW715.pdf
+[MFG]: https://www.dewalt.com/products/power-tools/saws/miter-saws/12-in-305-mm-singlebevel-compound-miter-saw/dw715
