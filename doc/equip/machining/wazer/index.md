@@ -18,6 +18,7 @@ In order to set up a cut, a 2D design must be created in an outside program
 (Solidworks, Illustrator,  Fusion360, Inkscape,  AutoCad, Onshape, etc) 
 and then take a DXF or SVG file and upload it to WAM which is the slicing software. 
 WAM is browser based and its use is outlined in the [WAM Software Guide](WAMguide).
+The WAZER uses a relatively constant stream of abrasive, so we charge $3.25/min of runtime.  The runtime only includes time that the actual water jet is running, and does not include stuff like set up and alignment.  WAM will tell you how long the waterjet will actually need to run for eaach cut.
 {% comment %}
 The old Google Docs version of that guide is here:
 https://docs.google.com/document/d/e/2PACX-1vR1dXCqtqhrKVkHyGhJJPfcSqz3ATtw6Qzo6puR2IplyjMEwYYs1ZHa1CS6VhqkCRD1tPU0lUCym6Kx/pub
