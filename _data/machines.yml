@@ -17,7 +17,7 @@
       img: images/A406.jpg
       sop: /doc/equip/router/A406
       log: https://drive.google.com/open?id=1FQ2Yk2N9h-7r4D-DekRvR2kizTpJYJVYTe7bal3aU9A
-      up: true
+      up: false
 
     - name: T200N Desktop Solder Oven
       nickname: Orang
