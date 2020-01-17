@@ -118,7 +118,7 @@
       img: images/newFullSpectrum.jpg
       sop: /doc/equip/laser/fullSpectrum
       log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
-      up: other
+      up: true
 
     - name: K40 Laser Cutter
       img: images/K40Laser.jpg
