@@ -11,7 +11,7 @@ date:
 The RF Chamber is located on the 4th floor of the Engineering Building at PSU (1930 SW 4th Ave.) in room 485. Here we can help take preliminary measurements before official emc tests are made, measure radiation pattern of antennas, and make acoustic measurements. 
 
 ## Specifications:
-Room Size: 18' X 14' X 8' 
+Room Size: 20' X 16' X 10' 
 
 Absorbing Cones: There are two types of RF absorbent cones in the lab. The cones on the floor are from Cuming Microwave (PN: [C-RAM SFC-12](https://www.cumingmicrowave.com/pdf/390-Anechoic%20Chamber%20Mat'ls/390-1%20C-RAM%20SFC.pdf)) and the cones on the walls are from ETS-Lindgren (PN:[EHP-12PCL](http://www.ets-lindgren.com/pdf/absorber.pdf)). Minimum specified frequency is 1GHz and reflectivity at 1GHz is -35dB for each type of panel. Although these cones are for RF applications, they are also fairly effective for sound.
 
