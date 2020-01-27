@@ -4,11 +4,12 @@
       img: images/ETL_ThermalVacuum.jpg
       sop: /doc/equip/testing/ETL/thermal-vacuum/index
       up: false
-      
-    - name: Thin Film Depositor
-      img: images/depositor.JPG
-      sop: /doc/equip/testing/ETL/thin-film-depositor/index
-      up: true
+
+#  GNL  27-Jan-2020
+#    - name: Thin Film Depositor
+#      img: images/depositor.JPG
+#      sop: /doc/equip/testing/ETL/thin-film-depositor/index
+#      up: true
       
     - name: Helmholtz Cage
       img: images/helmholtz.png
@@ -22,10 +23,12 @@
 
 - title: Misc
   machines:
-    - name: Atomic Force Mircoscope, qscope 250 quesant
-      img: images/ETL_AtomicForce.jpg
-      sop: /doc/equip/testing/ETL/atomic-force-microscope/index
-      up: true
+
+#  GNL  27-Jan-2020
+#    - name: Atomic Force Mircoscope, qscope 250 quesant
+#      img: images/ETL_AtomicForce.jpg
+#      sop: /doc/equip/testing/ETL/atomic-force-microscope/index
+#      up: true
       
     - name: Blue M Stabil-therm Gravity Oven
       img: images/ETL_BlueM.jpg
@@ -64,7 +67,7 @@
       sop: /doc/equip/testing/ETL/heathkit2718/
       up: true
 
-- title: Testing Equipment
+- title: Test Equipment
   machines: 
     - name: Keithley 6430 Sub-Femtoamp Remote sourcemeter
       img: images/ETL_testing2.jpg
