@@ -110,8 +110,13 @@ Here is how to cut something in the either of the two different modes:
  1. **Login** to the computer
  1. **Turn key on** laser cutter to turn on laser cutter. If that doesn't turn it on, rotate the stop button until it snaps out.
  1. Wait for laser cutter to boot and get an IP address (shown on the LCD front panel).
+
+ ![Specify IP Address For Connection No Connection](images/specify_IP_address_for_connection_no_connection.PNG)
+ ![Specify IP Address For Connection](images/specify_IP_address_for_connection.PNG)
+ ![Specify IP Address For Connection Dialog](images/specify_IP_address_for_connection_dialog.PNG)
+
  1. Start up **RetinaEngrave3D** by clicking on the desktop icon
-    - ![Retina Engrave 3D icon](images/retina_icon.png)
+ ![Retina Engrave 3D icon](images/retina_icon.png)
  1. Press **'H'** to home the laserhead. You'll get "0 0 0" for your current position and "Connected" and "Homed" in the status bar.
 
 #### Retina Engrave Toolbar:
