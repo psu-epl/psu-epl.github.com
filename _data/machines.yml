@@ -181,7 +181,7 @@
       img: images/shining3D.jpg
       sop: /doc/equip/misc/shining3D
       log: https://drive.google.com/open?id=1k206TcGVjXwMQcvdbiEdIBj58mjVJjbowkipwPHTVAs
-      up: false
+      up: true
 
     - name: Silhouette Cameo
       img: images/cameo.jpg
