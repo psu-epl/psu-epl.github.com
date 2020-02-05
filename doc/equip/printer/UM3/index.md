@@ -6,7 +6,7 @@ date: 2019-11-09
 
 ---
 # Before you start!
-## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Priting-Checklist)
+## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist.md)
 
 
 # SOP GOES HERE!
