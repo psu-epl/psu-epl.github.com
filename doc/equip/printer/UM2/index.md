@@ -12,7 +12,7 @@ date: 2019-07-23
 The Ultimaker 2 3D printer is for printing solid 3D models from (.stl) digital files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints only in PLA (Polyactic Acid) filament.
 
 # Before you start!
-[Read the 3D Printing Guide before you start]!(/doc/equip/printer/3D-Printing-Checklist)
+[Read the 3D Printing Guide before you start](/doc/equip/printer/3D-Printing-Checklist)!
 
 # Useful Links
 - [Link to Ultimaker 2 User Manual](https://ultimaker.com/en/resources/16955-changing-filament)
@@ -45,25 +45,25 @@ Import your part into Cura using File/Open File
 
 You can also drag and drop the files into Cura using the file explorer.
 
-![](img/image2.png){width="3.869792213473316in" height="3.299245406824147in"}
+![](img/image2.png) <!-- {width="3.869792213473316in" height="3.299245406824147in"} -->
 
 You will need to make sure your part is oriented correctly. Here, the part has overhangs. Since the part will be built from the bottom up, overhangs will make your part anywhere between difficult and impossible to print. Overhangs are depicted in red.  
 
-![](img/image18.png){width="6.5in" height="5.222222222222222in"}
+![](img/image18.png) <!-- {width="6.5in" height="5.222222222222222in"} -->
 
 You can change the part’s orientation by using the toolbox on the left.  
 
-![](img/image13.png){width="2.3541666666666665in" height="5.197916666666667in"}
+![](img/image13.png) <!-- {width="2.3541666666666665in" height="5.197916666666667in"} -->
 
 Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X axis, green is the Y axis, blue is the Z axis.
 
-![](img/image15.png){width="6.5in" height="6.138888888888889in"}
+![](img/image15.png) <!-- {width="6.5in" height="6.138888888888889in"} -->
 
 Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z axis.
 
 Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts, so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders).
 
-![](img/image14.png){width="3.3541666666666665in" height="3.7916666666666665in"}
+![](img/image14.png) <!-- {width="3.3541666666666665in" height="3.7916666666666665in"} -->
 
 ## Print Settings
 
@@ -71,13 +71,13 @@ Right-clicking on the part yields additional dialogs. You can multiply the part 
 
 Once all your parts are arranged on the bed and you are ready to print, head over to the toolbar on the right for your print settings. “Recommended” mode is a simpler view which allows you to control only infill percentage, support placement, and whether or not to include a raft for better build plate adhesion.
 
-![](img/image17.png){width="4.947916666666667in" height="7.791666666666667in"}
+![](img/image17.png) <!-- {width="4.947916666666667in" height="7.791666666666667in"} -->
 
 To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print it is set to “Low Quality.”
 
 ### Custom Mode
 
-![](img/image8.png){width="4.895833333333333in"height="8.614583333333334in"}
+![](img/image8.png) <!-- {width="4.895833333333333in"height="8.614583333333334in"} -->
 
 #### Infill Density
 
@@ -87,7 +87,7 @@ You can adjust your infill settings using the dialog box. More infill produces a
 
 Supports are done through a menu on the right side of the interface. For the Ultimaker 2, you merely have to check the box and you will have access to the following settings:
 
-![](img/image5.png){width="4.291666666666667in"height="1.6041666666666667in"}
+![](img/image5.png) <!-- {width="4.291666666666667in"height="1.6041666666666667in"} -->
 
 The Ultimaker 2 has only one extruder, so the support material will be the same material as your part.
 
@@ -103,7 +103,7 @@ Support Horizontal Expansion: This setting will make your support larger. If the
 
 Click “Prepare” in the bottom-right corner of the menu.
 
-![](img/image16.png){width="4.458333333333333in"height="1.1770833333333333in"}
+![](img/image16.png) <!-- {width="4.458333333333333in"height="1.1770833333333333in"} -->
 
 This will create a .gcode file which only the Ultimaker 2 will read.
 
