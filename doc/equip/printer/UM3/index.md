@@ -6,11 +6,10 @@ date: 2019-11-09
 
 ---
 # Before you start!
-## [Check the general 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
+## [Check the General 3D Printing Guide](/doc/equip/printer/3D-Printing-Checklist)
 
+## [Ultimaker 3 SOP](\doc\SOPUnderConstruction)
 
-# SOP GOES HERE!
+## [Ultimaker 3 Factory Setup - MANAGERS](Ultimaker3extendedsetup)
 
-## [Ultimaker3extendedsetup](Ultimaker3extendedsetup)
-
-## [Ultimaker-Filament-Selection](Ultimaker-Filament-Selection)
+## [Ultimaker Filament Selection - MANAGERS](Ultimaker-Filament-Selection)
