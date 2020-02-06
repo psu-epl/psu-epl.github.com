@@ -105,8 +105,8 @@ When it comes time to actually execute your print, use the generaged G-Code or P
 
 ##  For Ultimaker 3 - Printing Over Network
 
-- This printer now prints over network, rather than using flash drives. Follow the following steps to print over Network
-- Step 1: Ensuring you are slicing on the right profile
+- This printer now prints over network, rather than using flash drives. Follow the following steps to print over network
+- Step 1: Ensuring you are Slicing on the Right Profile
     - In the upper left corner of Cura there is a drop down menu which allows you to pick profiles for Ultimaker 2, Ultimaker 3, etc. Select "Ultimaker-001C0F" and set up your print as usual. Settings on right hand side do not need to be changed, unless you would like to select a different quality of print a.k.a layer height. Slice, and select "Print over network".
 - Step 2: Giving Permission to Print
     - On the top of Cura, there are three options: Prepare, Preview, and Monitor. Select "Monitor".
