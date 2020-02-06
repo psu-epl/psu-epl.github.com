@@ -56,7 +56,7 @@
       img: images/ultimaker.jpg
       sop: /doc/equip/printer/UM2
       log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
-      up: other
+      up: true
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Harold
@@ -112,7 +112,7 @@
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
-      up: other
+      up: false
 
     - name: Full Spectrum Laser Cutter
       img: images/newFullSpectrum.jpg
