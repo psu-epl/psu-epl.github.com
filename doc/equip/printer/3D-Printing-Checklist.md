@@ -20,7 +20,7 @@ output:
 # Before You Start (Managers, Users)
 
 Do you have a 3D print you want to have made?  This guide will help you. Before you begin, you will need a few things.
- 
+
 1. You will need a .stl version of your part.
 1. You will need to know the approximate dimensions of your part or widget (ie it is 2.1" at the extreme in the z axis)
 1. You should have a good idea of which printer you want to print it on, and your settings preferences (color, material type, quality, etc)
@@ -80,13 +80,13 @@ Follow the guide for your printer for specific instructions on how to slice.
 
 [See here to find the appropriate guide](/doc/equip/printer)
 
-When you are done, save either the G-Code (.gcode) or PreForm (.form) in the same folder as the .stl, and add this to the gcode column of the queue. 
+When you are done, save either the G-Code (.gcode) or PreForm (.form) in the same folder as the .stl, and add this to the gcode column of the queue.
 
 **As a final step, have a manager calculate the price and print time using the G-Code or PreForm, add this to the price column.**
 
 # Paying for a Print (Users)
 
-At some point, you must pay for your print. You can do this in person, or 
+At some point, you must pay for your print. You can do this in person, or
 [check out online](https://commerce.cashnet.com/cashneti/selfserve/BrowseCatalog.aspx):
 
 **If you choose to check out online, you must forward a copy of your receipt to lid@pdx.edu, and the manager who emailed you your price**
@@ -96,14 +96,24 @@ Once your print is paid for, a manager will mark it as paid, and it will officia
 # Executing a Print (Managers, Trained Users under supervision)
 
 When it comes time to actually execute your print, use the generaged G-Code or Preform and follow the appropriate SOP for the printer.
-
 [See here to find the appropriate guide](/doc/equip/printer)
-
 **Mark the print as started in the queue!**
 **Write the number of the print on a sticky note and place that sticky note on the printer!!!**
 
+# For Ultimaker 3
+# Printing Over Network
+
+- This printer now prints over network, rather than using flash drives. Follow the following steps to print over Network
+- Step 1: Ensuring you are slicing on the right profile
+    - In the upper left corner of Cura there is a drop down menu which allows you to pick profiles for Ultimaker 2, Ultimaker 3, etc. Select "Ultimaker-001C0F" and set up your print as usual. Settings on right hand side do not need to be changed, unless you would like to select a different quality of print a.k.a layer height. Slice, and select "Print over network".
+- Step 2: Giving Permission to Print
+    - On the top of Cura, there are three options: Prepare, Preview, and Monitor. Select "Monitor".
+    - Near the top of the page, there will be an image of the printer. Next to it, there is a link which says "Monitor Printer" with a little symbol of a box with an oblique arrow through it. Select "Monitor Printer". This will open the queue.
+    - There should be only your print in the queue. If there are more, select the three dots on the lower left hand side, and select "Delete Print".
+    - On the block with your prints' name on it, there will be a flag on the right hand side which has a hazard symbol with words "Action Required". Underneath of it will be an option which says "Show Details". Select this, and another window will open up. On this window, select "Override configuration and start print?". Select this, and your print will start. Make sure build plate is clean, with new glue in place.
+
 # Post-Processing (Managers, Users with Supervision)
-Some prints require post-processing.  For example, Formlab prints require an alcohol bath and UV light exposure.  If a print requires special post-processing, make sure the sticky note stays with the part on whatever machine it is currently in.  If support material needs to be trimmed, this should be done by the user, to avoid potential damage to the print.  
+Some prints require post-processing.  For example, Formlab prints require an alcohol bath and UV light exposure.  If a print requires special post-processing, make sure the sticky note stays with the part on whatever machine it is currently in.  If support material needs to be trimmed, this should be done by the user, to avoid potential damage to the print.
 
 Mark the part as post-processing on the queue.
 
@@ -123,9 +133,3 @@ Move the print to the finished print shelf, **along with its sticky note.**
 
 # Picking Up Your Print (Users)
 Once your print is done, a manager will email you to let you know to pick it up. Simply drop by the EPL and receive your print!
-
-
-
-
-
-
