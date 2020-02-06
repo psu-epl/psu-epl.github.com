@@ -96,13 +96,14 @@ Once your print is paid for, a manager will mark it as paid, and it will officia
 # Executing a Print (Managers, Trained Users under supervision)
 
 When it comes time to actually execute your print, use the generaged G-Code or Preform and follow the appropriate SOP for the printer.
+
 [See here to find the appropriate guide](/doc/equip/printer)
+
 **Mark the print as started in the queue!**
+
 **Write the number of the print on a sticky note and place that sticky note on the printer!!!**
 
-# For Ultimaker 3
-
-## Printing Over Network
+##  For Ultimaker 3 - Printing Over Network
 
 - This printer now prints over network, rather than using flash drives. Follow the following steps to print over Network
 - Step 1: Ensuring you are slicing on the right profile
