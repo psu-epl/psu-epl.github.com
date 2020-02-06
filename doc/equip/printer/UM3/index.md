@@ -14,5 +14,3 @@ date: 2019-11-09
 ## [Ultimaker3extendedsetup](Ultimaker3extendedsetup)
 
 ## [Ultimaker-Filament-Selection](Ultimaker-Filament-Selection)
-
-## [Ultimaker-Network-Connection-Instructions-IN-PROGRESS](NetworkConnectionInstructions)
