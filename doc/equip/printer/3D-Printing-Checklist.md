@@ -101,7 +101,8 @@ When it comes time to actually execute your print, use the generaged G-Code or P
 **Write the number of the print on a sticky note and place that sticky note on the printer!!!**
 
 # For Ultimaker 3
-# Printing Over Network
+
+## Printing Over Network
 
 - This printer now prints over network, rather than using flash drives. Follow the following steps to print over Network
 - Step 1: Ensuring you are slicing on the right profile
