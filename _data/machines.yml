@@ -61,14 +61,14 @@
     - name: Ultimaker3 Extended 3D Printer
       nickname: Harold
       img: images/Ultimaker3.JPG
-      sop: /doc/equip/printer/UM3
+      sop: /doc/equip/printer/UM3/Ulti3SOP
       log: https://drive.google.com/open?id=1Rv7u8gue2PmMjZiChcRXUE5_H8AnhcjPdVjrxjSZEjg
       up: false
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Maude
       img: images/Ultimaker3.JPG
-      sop: /doc/equip/printer/UM3
+      sop: /doc/equip/printer/UM3/Ulti3SOP
       log: https://drive.google.com/open?id=1j2wiCxc_EMB3Ooz6ejKgaZR8mz39dCNLOgnmJnj6fbA
       up: other
 
