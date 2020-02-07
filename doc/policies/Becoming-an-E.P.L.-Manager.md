@@ -12,7 +12,7 @@ Here's what you need to know.
 
 ## Responsibilities for Any Manager
 - __Keep people and equipment safe.__ This is a manager's most important responsibility.
-- Manage the lab for 2 hours a week between our open/close times (0900 to 1900 MTWRF). During the breaks and summer term, project and internship/job time can be used in lieu of some/all lab hours.
+- Manage the lab for 2 hours a week between our open/close times (9:00 AM to 9:00 PM Mon thru Fri). During the breaks and summer term, project and internship/job time can be used in lieu of some/all lab hours.
 - Train students on machines in the lab.
 - Run the student store.
 	- Handle locker purchases.
