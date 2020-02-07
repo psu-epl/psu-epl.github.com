@@ -1,7 +1,7 @@
 ---
 title: Ulti 3 SOP
 layout: doc
-author: Tiffani Shilts
+author: Tiffani Shilts, Armaan Roshani
 date: \today
 fontsize: 12pt
 documentclass: article
@@ -15,21 +15,22 @@ output:
     latex_engine: xelatex
 ---
 
-### This guide is written both for Managers and for users of the EPL. Some steps apply to only one or the other.
+**This guide is written both for Managers and for users of the EPL. Some steps apply to only one or the other.**
+
+[Link to Ultimaker 3 user manual](https://ultimaker.com/download/61355/Ultimaker%203%20manual%20%28EN%29.pdf) (16Mb PDF)
+
+# About the Ultimaker 3
+The Ultimaker 3 3D printer is for printing solid 3D models from digital files. It has a print bed size of x.xx cm × x.xx cm × x.xx cm. We only print on type of material at this time: Amphora 3300. 
 
 # How to murder the Ultimaker 3
 
-- Poor build plate adhesion is the #1 root cause of ultimaker failure.
-- Poor build plate adhesion leads to plastic dragging with the print head.
-- Left uncaught, this blob of material will eventually block the print core.
-- If left blocked for too long, material will flow ***backwards*** up the print core past the heat sink.
-- Once plastic gets in there, you are hosed. It is a real pain to unclog the core
-- Clogged cores lead to hate, hate leads to anger, and anger leads to a dead ultimaker
-- Improperly unclogging a core in this condition is very likely how our print cores get destroyed most of the time, they are super fragile
+## Poor build plate adhesion
+
+Poor build plate adhesion is the **#1 root cause of ultimaker failure**. It leads to a blob of material dragging with the print head, which if left uncaught will eventually block the print core. If the print core is left blocked for too long, material will flow backwards up the print core, past the heat sink. Once plastic gets in there, you are hosed. It is a real pain to unclog the core. Clogged cores lead to hate, hate leads to anger, and anger leads to a dead ultimaker. Improperly unclogging a core in this condition is *very likely* how our print cores get destroyed most of the time. They are super fragile.
 
 ## How to prevent this
 
-- There are seven key things to get right to prevent print core failure:
+There are seven key things to get right to prevent print core failure:
 1. Material settings must be accurate (improves build plate adhesion, prevents burnt material).
 2. Material must be in good condition. Right now, our black nylon is an example of POOR condition. Use Amphora 3300.
 3. Build plates should be cleaned before every print. Improves adhesion.
@@ -38,10 +39,14 @@ output:
 6. Build plate should be glued, but do not glue the whole surface. Alternating stripes of glue and no glue is best.
 7. Do not attempt to unclog a core without being trained on that specific procedure first. All of the above should prevent us from ever clogging our cores, but if this does happen, you need to be careful not to put torque in the wrong places.
 
+# Your STL file
+You will need to have your part in .stl  (Stereolithographic) format. Most CAD programs such as Solidworks can export in this format. It is preferable that the part is designed in metric and more specifically millimeters (mm), as Cura is unable to scale between inches and millimeters. 
+Some CAD programs offer to export in mm scale even when the part is designed in inches, but this sometimes doesn’t work and the part will appear extremely small on the print bed. To eliminate headaches, design your part in millimeters. 
+
 # SOP
 
 1. Check the material currently loaded in the ultimaker. For now, make sure it is Amphora 3300. Later, we'll have settings for all materials.
-2. Open Cura
+2. Open Cura. Cura (version x.xx) is the software you will use to slice your 3D model(s) into layers and export them as toolpaths. 
 3. Connect to the ultimaker. This is how cura knows which ultimaker you are going to print on, so do it first. A blue checkmark in the printers dropdown indicates you are connected.
 4. Click on the material settings tab. Then click on the custom submenu, and select Amphora 3300.
 5. On the machine profile on the right, first change the profile to "CRAZY / RESET PROFILE". Sometimes, settings get stuck. Buggy software. This helps unstuck them.
