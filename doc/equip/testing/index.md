@@ -1,18 +1,46 @@
 ---
-title: Testing Equipment
+title: Testing Labs and Equipment
 layout: doc
-author: 
-date: 
+author: Joe Shields, Jennifer Jordan, Bertrand DeChant
+revision date: 7 Feb 2020
+
+---
+## EPL Testing Labs
+
+### [RF-Chamber](rfchamber/RF-Chamber)  
+
+### [Environmental Testing Lab (ETL)](ETL) 
 
 ---
 
+## Test Equipment at the EPL
 
-# [RF-Chamber](RF-Chamber)  
+### [Oscilloscopes](oscilloscope/Oscilloscope)
+* Tektronix TDS684A 1GHz
+* Tektronix TDS3034 300MHz
+* Siglent SDS 1072CML 70MHz
 
-# [Environmental Testing Lab](ETL)  
+### [Spectrum Analyzer](spectrum/spectrum)
+* Tektronix SA2600 6GHz
 
-# [Test-Equipment](Test-Equipment)  
+### [DMM](dmm/DMM)
+* Fluke 45
+* DM504A
 
-# [VNA](VNA)
+### [VNA](vna/VNA)
+* HP 8753E 30kHz-6GHz
 
-# [Oscilloscope](Oscilloscope)
+### [Function Generators](funcgen/FunctionGenerators)
+* Tektronix FG 503 3MHz
+* Tektronix AFG320 16MHz
+
+### [Power Supplies](psupply/powerSupply)
+* Tektronix PS503A
+* Tektronix PS280
+* TekPower TP-3003D-3
+
+### [Frequency Counter](freq/freqCount)
+* HP 5335
+
+### [LCR Meter](lcr/LCR)
+* GenRad 1657

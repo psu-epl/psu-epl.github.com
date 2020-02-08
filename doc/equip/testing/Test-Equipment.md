@@ -1,8 +1,8 @@
 ---
-title: Test Equipment
+title: Testing Equipment
 layout: doc
-author: Joe Shields, Jennifer Jordan
-date: 25 July 2019
+author: Joe Shields, Jennifer Jordan, Bertrand DeChant
+revision date: 7 Feb 2020
 
 ---
 
@@ -10,6 +10,7 @@ date: 25 July 2019
 * Tektronix TDS684A 1GHz
 * Tektronix TDS3034 300MHz
 * Siglent SDS 1072CML 70MHz
+* this is another one
 
 ## Spectrum Analyzer
 * Tektronix SA2600 6GHz
