@@ -5,7 +5,7 @@ author: Joe Shields, Jennifer Jordan, Bertrand DeChant
 revision date: 7 Feb 2020
 
 ---
-## EPL Testing Labs2
+## EPL Testing Labs
 
 ### [RF-Chamber](rfchamber)  
 
