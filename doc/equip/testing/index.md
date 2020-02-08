@@ -5,9 +5,9 @@ author: Joe Shields, Jennifer Jordan, Bertrand DeChant
 revision date: 7 Feb 2020
 
 ---
-## EPL Testing Labs
+## EPL Testing Labs2
 
-### [RF-Chamber](rfchamber/RF-Chamber)  
+### [RF-Chamber](rfchamber)  
 
 ### [Environmental Testing Lab (ETL)](ETL) 
 
