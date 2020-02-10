@@ -104,7 +104,6 @@
       sop: /doc/equip/machining/wazer
       log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
       up: True
-  #    taken off website until usage terms are decided and sop is complete
 
 - title: Laser Cutters
   machines:
@@ -181,7 +180,7 @@
       img: images/shining3D.jpg
       sop: /doc/equip/misc/shining3D
       log: https://drive.google.com/open?id=1k206TcGVjXwMQcvdbiEdIBj58mjVJjbowkipwPHTVAs
-      up: true
+      up: false
 
     - name: Silhouette Cameo
       img: images/cameo.jpg
