@@ -41,30 +41,46 @@ The final step is to tighten the chuck using the chuck key. Place the chuck key 
 
 WARNING: NEVER take your hand off the chuck key when it is in the chuck. It is supremely important that you do NOT leave the chuck key in the chuck on accident! If the drill press is turned on with the chuck key in it, it will shoot the chuck key in a random direction with high speeds.
 
+## Securing Your Material
 
+Use the following tools to properly secure your material,
 
+![](/doc/equip/machining/drillPress/img/secure1.png)
 
+![](/doc/equip/machining/drillPress/img/secure2.png)
 
-For safety, make sure you are wearing eye protection. Keep
-your fingers clear and lower the bit slowly: you'd be
-surprised how easy it is to drill your finger.
+## Adjusting the Base Plate
 
-Make sure that the hole in the table is centered so that the
-drill bit will not hit it.
+Turn the following to move the base plate up or down,
 
-## Changing Speed
+![](/doc/equip/machining/drillPress/img/adjust1.png)
 
-It is rarely necessary to change the drill press speed.
+## Bringing down the drill head
 
-For safety, please unplug the drill press before changing
-the speed. Otherwise, a bumped power switch could cause you
-to be injured by a belt.
+To move the drill head rotate the following,
 
-The belt loosening mechanism (two stop thumbscrews on either
-side of the motor casing) is pretty non-functional. You will
-have to just horse the top belt off the center pulley if you
-want to change the bottom belt position.
+![](/doc/equip/machining/drillPress/img/movedrillhead.png)
+
+## Speed Configuration
+
+It is rarely necessary to change the drill press speed. However, in special cases you may need to adjust the speed of the drill if the speed isn’t appropriate for your material. For safety, unplug the drill press from the power supply to avoid a bumped power switch pulling in your finger and mangling your hands. **Unless you know what you’re doing, you may want to ask for EPL manager assistance with this process.**
+
+Open the upper enclosure.
+
+![](/doc/equip/machining/drillPress/img/speed1.png)
+
+The sticker on the inside of the lid gives you information about the appropriate drill speed for different materials of varying thicknesses.
+
+![](/doc/equip/machining/drillPress/img/speed2.png)
+
+Below is the data from this sticker.
+
+![](/doc/equip/machining/drillPress/img/speed3.png)
+
+Reference the material you wish to drill, and the approximate thickness to find the appropriate speed range.
+
+To adjust the speed, you need to move the belts into the configurations shown in the Spindle Speeds diagram. Belts can be removed by applying force upwards while manually turning the spindle with your hands.
 
 # Manual
 
-We have the manual somewhere, but I don't know how to make this wiki attach it.
+We have the physical manual somewhere in the EPL, ask a manager.
