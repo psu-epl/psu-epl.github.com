@@ -16,9 +16,9 @@ revision date: 7 Feb 2020
 ## Test Equipment at the EPL
 
 ### [Oscilloscopes](oscilloscope)
-* Tektronix TDS684A 1GHz
+* Tektronix TDS7254 2.5GHz
 * Tektronix TDS3034 300MHz
-* Siglent SDS 1072CML 70MHz
+* Tektronix TDS380 400MHz
 
 ### [Spectrum Analyzer](spectrum)
 * Tektronix SA2600 6GHz
