@@ -27,9 +27,6 @@ revision date: 7 Feb 2020
 * Fluke 45
 * DM504A
 
-### [Vector Network Analyzer (VNA)](vna)
-* HP 8753E 30kHz-6GHz
-
 ### [Function Generators](funcgen)
 * Tektronix FG 503 3MHz
 * Tektronix AFG320 16MHz

@@ -38,6 +38,9 @@ Power Supplies:
 Oscilloscope:
 * Tektronix [2236](http://exodus.poly.edu/~kurt/manuals/manuals/Tektronix/TEK%202236A%20Operation%20Only.pdf)
 
+Vector Network Analyzer (VNA)
+* Hewlett Packard [HP 8753E](hp8753e.pdf)
+
 Misc:
 * Schaffner Magnetic Field Generator [MFO6501](http://www.teseq.us/products/accessories/MFO-6501.php)
 * Two Power Line decoupling networks

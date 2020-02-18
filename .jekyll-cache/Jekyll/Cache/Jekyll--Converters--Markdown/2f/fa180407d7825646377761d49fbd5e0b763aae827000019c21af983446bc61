@@ -1,0 +1,51 @@
+I"ù<h2 id="epl-testing-labs">EPL Testing Labs</h2>
+
+<h3 id="rf-chamber"><a href="rfchamber">RF-Chamber</a></h3>
+
+<h3 id="environmental-testing-lab-etl"><a href="ETL">Environmental Testing Lab (ETL)</a></h3>
+
+<hr />
+
+<h2 id="test-equipment-at-the-epl">Test Equipment at the EPL</h2>
+
+<h3 id="oscilloscopes"><a href="oscilloscope">Oscilloscopes</a></h3>
+<ul>
+  <li>Tektronix TDS7254 2.5GHz</li>
+  <li>Tektronix TDS3034 300MHz</li>
+  <li>Tektronix TDS380 400MHz</li>
+</ul>
+
+<h3 id="spectrum-analyzer"><a href="spectrum">Spectrum Analyzer</a></h3>
+<ul>
+  <li>Tektronix SA2600 6GHz</li>
+</ul>
+
+<h3 id="dmm"><a href="dmm">DMM</a></h3>
+<ul>
+  <li>Fluke 45</li>
+  <li>DM504A</li>
+</ul>
+
+<h3 id="function-generators"><a href="funcgen">Function Generators</a></h3>
+<ul>
+  <li>Tektronix FG 503 3MHz</li>
+  <li>Tektronix AFG320 16MHz</li>
+</ul>
+
+<h3 id="power-supplies"><a href="psupply">Power Supplies</a></h3>
+<ul>
+  <li>Tektronix PS503A</li>
+  <li>Tektronix PS280</li>
+  <li>TekPower TP-3003D-3</li>
+</ul>
+
+<h3 id="frequency-counter"><a href="freq">Frequency Counter</a></h3>
+<ul>
+  <li>HP 5335</li>
+</ul>
+
+<h3 id="lcr-meter"><a href="lcr">LCR Meter</a></h3>
+<ul>
+  <li>GenRad 1657</li>
+</ul>
+:ET
