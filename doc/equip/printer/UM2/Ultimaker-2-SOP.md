@@ -9,7 +9,7 @@ date:
 [Link to Ultimaker 2 user manual]( https://ultimaker.com/en/resources/16955-changing-filament)
 
 # About the Ultimaker 2
-The Ultimaker 2 3D printer is for printing solid 3D models from digital files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints only in PLA (Polyactic Acid) filament. 
+The Ultimaker 2 3D printer is for printing solid 3D models from digital files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints only in PLA (PolyLactic Acid) filament. 
 
 # Your STL file
 You will need to have your part in .stl  (Stereolithographic) format. Most CAD programs such as Solidworks can export in this format. It is preferable that the part is designed in metric and more specifically millimeters (mm), as Cura is unable to scale between inches and millimeters. 
@@ -27,10 +27,10 @@ Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers 
 ![](img/Cura2.PNG)
 - You can change the part’s orientation by using the toolbox on the left. 
 ![](img/RotateTool.PNG)
-- Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X axis, green is the Y axis, blue is the Z axis. 
+- Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X-axis, green is the Y-axis, blue is the Z-axis. 
 ![](img/Rotate%20Handles.PNG)
-- Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z axis.  
-Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts, so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders). 
+- Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z-axis.  
+Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders). 
 ![](img/Ulti2SOP%20dropdown.png)
 # Print Settings
 
@@ -40,7 +40,7 @@ Once all your parts are arranged on the bed and you are ready to print, head ove
 
 ![](img/Quality%20Toolbar.PNG)
 
-To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print it is set to “Low Quality.” 
+To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print is set to “Low Quality.” 
 
 ## Custom Mode
 ![](img/AdvancedQualityToolbar.PNG)
@@ -56,7 +56,7 @@ Supports are done through a menu on the right side of the interface. For the Ult
 The Ultimaker 2 has only one extruder, so the support material will be the same material as your part. 
 
 - _Support Placement_: Choose where you want to place your supports. Choose “Touching Buildplate” if you only want to generate support material from the build plate. Choose “Everywhere” if you want to generate support material anywhere there is an overhang, even if that overhang is over your part.  
-- _Support Overhang Angle_: The minimal angle from the build plate at which supports will be generated. Decreasing this number will generate more supports, because more angles will be considered overhangs. 
+- _Support Overhang Angle_: The minimal angle from the build plate at which supports will be generated. Decreasing this number will generate more supports because more angles will be considered overhangs. 
 Support Density: This is the infill density for supports. Just like infill density for your part, increasing it will make your support stronger but the print will take longer and will use more filament. 
 - _Support Horizontal Expansion_: This setting will make your support larger. If the overhanging portion of your part is very small, you may want to increase this setting to make sure it has support. 
 
