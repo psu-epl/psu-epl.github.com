@@ -3,13 +3,19 @@ CSS=assets/style.css
 proofOpts=--allow-hash-href --assume-extension --empty-alt-ignore #--disable-external
 proofFile=proofReport.txt
 
+# As part of the bundler package ruby creates a local environment
+exec=bundle exec
+
 all: site
 
 site:
-	jekyll build
+	$(exec) jekyll build
 
 preview:
-	jekyll serve --watch --incremental
+	$(exec) jekyll serve --watch --incremental
+
+host:
+	$(exec) jekyll serve --watch --incremental -H 0.0.0.0
 
 theme:
 	lessc --clean-css $(LESS) > assets/style.css

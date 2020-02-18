@@ -123,6 +123,26 @@ sudo gem install bundler ruby-dev jekyll
 
 `gem` is the package manager for Ruby libraries.
 
+
+If you wish to install locally because you don't have admin rights.
+
+```
+gem install --user-install ruby-dev bundler
+```
+
+Then you will be able to install any required ruby libraries with.
+
+```
+bundle install
+```
+
+Run any command with the bundler environment with:
+
+```
+bundle exec *COMMAND*
+bundle exec jekyll build
+```
+
 #### Jekyll Plugins
 If there are any plugins in use, you'll need to install those too. 
 You can check the `_config.yml` file for a list of enabled plugins.
