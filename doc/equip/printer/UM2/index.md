@@ -9,7 +9,7 @@ date: 2019-07-23
 
 # About this Machine
 
-The Ultimaker 2 3D printer is for printing solid 3D models from (.stl) digital files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints only in PLA (Polyactic Acid) filament.
+The Ultimaker 2 3D printer is for printing solid 3D models from (.stl) digital files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints only in PLA (PolyLactic Acid) filament.
 
 # Before you start!
 [Read the 3D Printing Guide before you start](/doc/equip/printer/3D-Printing-Checklist)!
@@ -55,13 +55,13 @@ You can change the part’s orientation by using the toolbox on the left.
 
 ![](img/image13.png) <!-- {width="2.3541666666666665in" height="5.197916666666667in"} -->
 
-Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X axis, green is the Y axis, blue is the Z axis.
+Grab the hoop handles and rotate it so that a) the part is completely flat with the print bed, and b) overhangs are minimal. Red is the X-axis, green is the Y-axis, blue is the Z-axis.
 
 ![](img/image15.png) <!-- {width="6.5in" height="6.138888888888889in"} -->
 
-Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z axis.
+Once you have the part properly oriented, you can change things such as scale and position using the additional tools on the left. You can also mirror the part, in case you want to flip it over the x, y, or z-axis.
 
-Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts, so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders).
+Right-clicking on the part yields additional dialogs. You can multiply the part so that you can print more than one, or arrange multiple parts so that they cluster in the center in the most efficient way. You can also clear the print bed or change the type of filament used in the extruder (the Ultimaker 2 has only one extruder, but the Ultimaker 3 has two extruders).
 
 ![](img/image14.png) <!-- {width="3.3541666666666665in" height="3.7916666666666665in"} -->
 
@@ -73,7 +73,7 @@ Once all your parts are arranged on the bed and you are ready to print, head ove
 
 ![](img/image17.png) <!-- {width="4.947916666666667in" height="7.791666666666667in"} -->
 
-To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print it is set to “Low Quality.”
+To change the print quality, select the dropdown on the top of the toolbar. This fills in all the other settings automatically. Notice how in this image the print is set to “Low Quality.”
 
 ### Custom Mode
 
@@ -93,7 +93,7 @@ The Ultimaker 2 has only one extruder, so the support material will be the same 
 
 Support Placement: Choose where you want to place your supports. Choose “Touching Buildplate” if you only want to generate support material from the build plate. Choose “Everywhere” if you want to generate support material anywhere there is an overhang, even if that overhang is over your part.
 
-Support Overhang Angle: The minimal angle from the build plate at which supports will be generated. Decreasing this number will generate more supports, because more angles will be considered overhangs.
+Support Overhang Angle: The minimal angle from the build plate at which supports will be generated. Decreasing this number will generate more supports because more angles will be considered overhangs.
 
 Support Density: This is the infill density for supports. Just like infill density for your part, increasing it will make your support stronger but the print will take longer and will use more filament.
 
