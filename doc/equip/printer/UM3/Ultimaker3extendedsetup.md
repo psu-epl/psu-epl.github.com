@@ -32,31 +32,31 @@ date:
 -   Gently place the printer on its side and examine case for any
 shipping damage or obvious flaws that would necessitate
 returning it.
--   Insert the spool holder into the back of the machine and gentlyrotate into place until the locking tabs snap into place.
--   Route the NFC cable through the labeled slot in the back of the caseand plug into the labeled port on the control board.
--   Install the accompanying cable cover over the NFC cable. Align topof the cover first to the spool holder then gently snap thelocking tabs into place.
--   Return the machine to the upright position and remove the packingmaterial from around the build plate area.
+-   Insert the spool holder into the back of the machine and gently rotate into place until the locking tabs snap into place.
+-   Route the NFC cable through the labeled slot in the back of the case and plug into the labeled port on the control board.
+-   Install the accompanying cable cover over the NFC cable. Align top of the cover first to the spool holder then gently snap the locking tabs into place.
+-   Return the machine to the upright position and remove the packing material from around the build plate area.
 -   Open the front build plate locking tabs by rotating
 ![](img/90deg.gif){width="0.23958333333333334in"height="0.125in"}
 away from the center of the build area.
--   Remove any fingerprints from the build plate glass using a drymicrofiber cloth.
--   Insert build plate glass into the back locking tabs gently pressingon the front edge of the glass to align the glass with the edgesof the build plate heater.
+-   Remove any fingerprints from the build plate glass using a dry microfiber cloth.
+-   Insert build plate glass into the back locking tabs gently pressing on the front edge of the glass to align the glass with the edges of the build plate heater.
 -   Rotate the front locking tabs back into their original positions.
--   Using a pair of side cutters remove the zip ties holding theprinthead in place.
--   Plug the power supply into the back of the machine flatside downwards.
+-   Using a pair of side cutters remove the zip ties holding the print head in place.
+-   Plug the power supply into the back of the machine flat side downwards.
 -   IT’S ALIVE!!!!!1!
 
 ## Setup
 
 -   The printer will guide you through the initial setup process. Controls are very similar to the Ultimaker 2
 -   Step 1: inserting the printer cores.
-    -   Gently press down on the front facing fan housing to open theprinter core housing.
-    -   Insert the printer core by squeezing together the front plastictabs and sliding the printer core into the desired slot.Firmlypress the core into place until you hear a small click. Themachine will auto detect the printer core being used.
+    -   Gently press down on the front facing fan housing to open the printer core housing.
+    -   Insert the printer core by squeezing together the front plastic tabs and sliding the printer core into the desired slot. Firmly press the core into place until you hear a small click. The machine will auto detect the printer core being used.
 -   Step 2: Loading the print material.
     -   Load the material for print core #2 first.
     -   Follow a similar material loading procedure to the Ultimaker 2
-    -   Load the spool for print core #1 and attach the guide arm tothe end of the spool holder
+    -   Load the spool for print core #1 and attach the guide arm to the end of the spool holder
     -   The machine will guide you through the process.
 -   Step 3: Leveling the build plate
     -   System &gt; Build plate &gt; Manual Leveling
-    -   Follow directions on the machine to level the build plate andset the Z-offset 
+    -   Follow directions on the machine to level the build plate and set the Z-offset 

@@ -26,7 +26,7 @@ The Ultimaker 3 3D printer is for printing solid 3D models from digital files. I
 
 ## Poor build plate adhesion
 
-Poor build plate adhesion is the **#1 root cause of ultimaker failure**. It leads to a blob of material dragging with the print head, which if left uncaught will eventually block the print core. If the print core is left blocked for too long, material will flow backwards up the print core, past the heat sink. Once plastic gets in there, you are hosed. It is a real pain to unclog the core. Clogged cores lead to hate, hate leads to anger, and anger leads to a dead ultimaker. Improperly unclogging a core in this condition is *very likely* how our print cores get destroyed most of the time. They are super fragile.
+Poor build plate adhesion is the **#1 root cause of Ultimaker failure**. It leads to a blob of material dragging with the print head, which if left uncaught will eventually block the print core. If the print core is left blocked for too long, material will flow backwards up the print core, past the heat sink. Once plastic gets in there, you are hosed. It is a real pain to unclog the core. Clogged cores lead to hate, hate leads to anger, and anger leads to a dead Ultimaker. Improperly unclogging a core in this condition is *very likely* how our print cores get destroyed most of the time. They are super fragile.
 
 ## How to prevent this
 
@@ -45,9 +45,9 @@ Some CAD programs offer to export in mm scale even when the part is designed in 
 
 # SOP
 
-1. Check the material currently loaded in the ultimaker. For now, make sure it is Amphora 3300. Later, we'll have settings for all materials.
+1. Check the material currently loaded in the Ultimaker. For now, make sure it is Amphora 3300. Later, we'll have settings for all materials.
 2. Open Cura. Cura (version x.xx) is the software you will use to slice your 3D model(s) into layers and export them as toolpaths. 
-3. Connect to the ultimaker. This is how cura knows which ultimaker you are going to print on, so do it first. A blue checkmark in the printers dropdown indicates you are connected.
+3. Connect to the Ultimaker. This is how cura knows which Ultimaker you are going to print on, so do it first. A blue check mark in the printers dropdown indicates you are connected.
 4. Click on the material settings tab. Then click on the custom submenu, and select Amphora 3300.
 5. On the machine profile on the right, first change the profile to "CRAZY / RESET PROFILE". Sometimes, settings get stuck. Buggy software. This helps unstuck them.
 5. Now, change to the profile matching the material and machine you want to print on. Only profiles matching the currently selected machine should be available., so if your target printer profile is not available, double check your connection is correct.
@@ -58,6 +58,6 @@ Some CAD programs offer to export in mm scale even when the part is designed in 
 11. If everything looks fine, click the "Send print to network" button once. Trust me, nothing will happen, but it will remember every single time you click that and you will have to cancel all the duplicates manually one at a time.
 12. Now, here is where things get tedious. Because we are using a nonstandard material, we have to do a material override before every single print. This is like three extra steps, because Ultimaker.
 13. First, go to the "monitor" tab. I'm writing this form memory, but it is the third tab (Prepare and preview being the first two). You will be shown a list of 3d printers. Each one will have a "manage printer" link. Clicking that link will open the printer management interface in the web browser.
-14. Once printer management is open, you should see that your print is there waiting to be printed. It will say "ACTION REQUIRED". CLick that, and confirm the manual override.
+14. Once printer management is open, you should see that your print is there waiting to be printed. It will say "ACTION REQUIRED". Click that, and confirm the manual override.
 15. With any luck, at this point, the print will start.
 16. NOTE: You will need to clear the "have you removed the previous print?" dialog before every new print. That can only be done from the wheel AFAIK.

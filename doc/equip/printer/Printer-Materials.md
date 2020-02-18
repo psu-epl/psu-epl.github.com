@@ -18,7 +18,7 @@ Currently, the only 3D printer we have with this material is the FormLabs.
 ## Form Labs
 The Form Labs currently supports two materials: Regular and Durable. In general, both materials have excellent resolution and rigidity properties, showing almost no layering.
 
-However, resin tends to be brittle, so resin prints are mostly intolerant to deformation. That means these prints cannot be tapped, although plastite screws reportedly work well.
+However, resin tends to be brittle, so resin prints are mostly intolerant to deformation. That means these prints cannot be tapped, although plastic screws reportedly work well.
 
 The Durable is a more durable version of the Regular, as the name implies.
 
@@ -40,7 +40,7 @@ We have four 3D printers which use FDM. The Ultimaker 2, two Ultimaker 3's, and 
 
 Our Ultimaker 2 currently sports a 0.8mm core, and uses Amphora 3300 filament, which has similar behavior to PLA.
 
-Prints done in this material are much less brittle than SLA, but also less accurate, especially on account of the 0.8mmcore.
+Prints done in this material are much less brittle than SLA, but also less accurate, especially on account of the 0.8mm core.
 
 In general, these prints are great for prototyping where accuracy beyond 1mm is not a major concern, and due to their flexibility can handle a wide range of load conditions.
 
@@ -52,7 +52,7 @@ Ask a manager, but currently, our Amphora 3300 costs $1.25 per meter of material
 
 Our two Ultimaker 3's currently sport a 0.8mm core, and use Amphora 3300 filament, which has similar behavior to PLA.
 
-Prints done in this material are much less brittle than SLA, but also less accurate, especially on account of the 0.8mmcore.
+Prints done in this material are much less brittle than SLA, but also less accurate, especially on account of the 0.8mm core.
 
 In general, these prints are great for prototyping where accuracy beyond 1mm is not a major concern, and due to their flexibility can handle a wider range of load conditions than our Ultimaker 2.
 
@@ -62,7 +62,7 @@ Ask a manager, but currently, our Amphora 3300 costs $1.25 per meter of material
 
 ## Mojo
 
-Our third and final variety of FDM printer is the Mojo 3D printer. It prints in ABS, which is harder and more brittle than PLA or Amphora3300, but still far less brittle than resin.
+Our third and final variety of FDM printer is the Mojo 3D printer. It prints in ABS, which is harder and more brittle than PLA or Amphora 3300, but still far less brittle than resin.
 
 The accuracy is not as good as with the Ultimaker, but is still superior to anything achievable on the Ultimakers.
 

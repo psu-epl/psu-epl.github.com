@@ -22,7 +22,7 @@ output:
 Do you have a 3D print you want to have made?  This guide will help you. Before you begin, you will need a few things.
 
 1. You will need a .stl version of your part.
-1. You will need to know the approximate dimensions of your part or widget (ie it is 2.1" at the extreme in the z axis)
+1. You will need to know the approximate dimensions of your part or widget (i.e. it is 2.1" at the extreme in the z axis)
 1. You should have a good idea of which printer you want to print it on, and your settings preferences (color, material type, quality, etc)
 1. **All 3D prints must be paid for before we will print them! More on this later in the guide**
 
@@ -36,7 +36,7 @@ In general, 3D printing at the EPL works like this
     * Either email the .stl file along with your preferences to lid@pdx.edu
     * Or add the print to the queue manually
 1. Have your print sliced and priced
-	* If you are at the EPL in person, you can slice the print yourself, just have a manager calculate the resulting price. Don't forget to add the preform or gcode to the queue. The Mojo has its own software on the computer next to it.
+	* If you are at the EPL in person, you can slice the print yourself, just have a manager calculate the resulting price. Don't forget to add the PreForm or GCODE to the queue. The Mojo has its own software on the computer next to it.
 	* Otherwise, the managers will do this for you and inform you of the price
 1. Pay for the print and have a manager approve that you are paid
 	* If you submitted via email, you will be sent an email by the manager asking you to pay.
@@ -74,7 +74,7 @@ Create an entry at the bottom of the 3D printer queue spreadsheet, and fill out 
 
 # Slicing and Pricing a 3D Print (Managers, Users with Supervision)
 
-To slice and price an unpriced print in the queue, open the .stl file in the appropriate slicer. For ultimakers, this is Cura. For form labs, this is the custom PreForm software.
+To slice and price an unpriced print in the queue, open the .stl file in the appropriate slicer. For Ultimakers, this is Cura. For form labs, this is the custom PreForm software.
 
 Follow the guide for your printer for specific instructions on how to slice.
 
@@ -95,7 +95,7 @@ Once your print is paid for, a manager will mark it as paid, and it will officia
 
 # Executing a Print (Managers, Trained Users under supervision)
 
-When it comes time to actually execute your print, use the generaged G-Code or Preform and follow the appropriate SOP for the printer.
+When it comes time to actually execute your print, use the generated G-Code or Preform and follow the appropriate SOP for the printer.
 
 [See here to find the appropriate guide](/doc/equip/printer)
 
@@ -115,7 +115,7 @@ When it comes time to actually execute your print, use the generaged G-Code or P
     - On the block with your prints' name on it, there will be a flag on the right hand side which has a hazard symbol with words "Action Required". Underneath of it will be an option which says "Show Details". Select this, and another window will open up. On this window, select "Override configuration and start print?". Select this, and your print will start. Make sure build plate is clean, with new glue in place.
 
 # Post-Processing (Managers, Users with Supervision)
-Some prints require post-processing.  For example, Formlab prints require an alcohol bath and UV light exposure.  If a print requires special post-processing, make sure the sticky note stays with the part on whatever machine it is currently in.  If support material needs to be trimmed, this should be done by the user, to avoid potential damage to the print.
+Some prints require post-processing.  For example, FormLab prints require an alcohol bath and UV light exposure.  If a print requires special post-processing, make sure the sticky note stays with the part on whatever machine it is currently in.  If support material needs to be trimmed, this should be done by the user, to avoid potential damage to the print.
 
 Mark the part as post-processing on the queue.
 
