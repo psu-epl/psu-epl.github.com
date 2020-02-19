@@ -31,7 +31,7 @@ date:
     - Start-> All Programs->Mojo->Mojo Control Panel
 1. If your part is not displayed, and the printer is not currently printing another job, click the “Select Part” button and select your part.
 1. Verify there are enough model and support material left to complete your job:
-    - The model and support material bar graphs should be green
+    - The model and support material bar graphs should be green.
 1. Select the appropriate build raft:
     - If your part will fit inside a 1-inch cube then there is a reusable Kapton build raft that may be used.  However, there may be some warping around the bottom edge of your part.
     - Any parts that are larger than a 1-inch cube must use the standard non-reusable build raft.
