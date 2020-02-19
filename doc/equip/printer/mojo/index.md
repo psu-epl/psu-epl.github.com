@@ -11,7 +11,7 @@ date:
 # Mojo 3D Printer Standard Operating Procedures
 ## Preparing model to print
 1. Open the “Mojo Print Wizard”:
-   - Start -> All Programs -> Mojo -> Print Wizard
+   - Start -> All Programs -> Mojo -> Print Wizard.
 1. Select your part in pop-up file explorer.
 1. Verify STL units matches what's expected.
 1. Verify that the part has the correct size, and adjust the scale if necessary:
