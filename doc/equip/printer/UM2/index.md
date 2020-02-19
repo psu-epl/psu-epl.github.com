@@ -12,11 +12,11 @@ date: 2019-07-23
 The Ultimaker 2 3D printer is for printing solid 3D models from (.stl) digital files. It has a print bed size of 22.3 cm × 22.3 cm × 20.5 cm. It prints only in PLA (PolyLactic Acid) filament.
 
 # Before you start!
-[Read the 3D Printing Guide before you start](/doc/equip/printer/3D-Printing-Checklist)!
+[Read the 3D Printing Guide before you start!](/doc/equip/printer/3D-Printing-Checklist)
 
 # Useful Links
-- [Link to Ultimaker 2 User Manual](https://ultimaker.com/en/resources/16955-changing-filament)
-- For material, type, and price please refer to the [3D Material Guide](../Printer-Materials)
+- [Link to Ultimaker 2 User Manual.](https://ultimaker.com/en/resources/16955-changing-filament)
+- For material, type, and price please refer to the [3D Material Guide.](../Printer-Materials)
 
 # Machine Safety
 The 3D printing head and the glass bed reaches high temperatures. Keep your hands clear of the Ultimaker print bed and head. Only Managers should change filament and adjust leveling settings.
@@ -33,7 +33,7 @@ You will need to have your part in .stl (Stereolithographic) format. Most CAD pr
 Some CAD programs offer to export in mm scale even when the part is designed in inches, but this sometimes doesn’t work and the part will appear extremely small on the print bed. To eliminate headaches, design your part in millimeters.
 
 ## Operation
-Only Managers are allowed to start prints, change filament, and adjust settings. How to [become a manager]!
+Only Managers are allowed to start prints, change filament, and adjust settings. How to [become a manager!]
 
 # Using Cura
 Cura (2.7.0) is the software you will use to slice your 3D model(s) into layers and export them as toolpaths. If you are setting up your own print be sure to keep your .stl file and .gcode file for the Managers to review. There are some troubleshooting techniques that the Managers are equipped with to prevent printing errors! **Note: Always have a Manager review your part!** If needed, ask a Manager for assistance using Cura. 
