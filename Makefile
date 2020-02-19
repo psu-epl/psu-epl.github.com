@@ -15,7 +15,7 @@ preview:
 	$(exec) jekyll serve --watch --incremental
 
 host:
-	$(exec) jekyll serve --watch --incremental -H 0.0.0.0
+	$(exec) jekyll serve --watch --incremental -H $(shell hostname)
 
 theme:
 	lessc --clean-css $(LESS) > assets/style.css
