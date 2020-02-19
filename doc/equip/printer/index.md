@@ -20,3 +20,14 @@ layout: doc
 ### [Ultimaker 2](UM2)
 
 ### [Ultimaker 3](UM3)
+
+Ultimaker 3 Stream!
+<iframe
+    src="https://player.twitch.tv/?channel=psuEPL"
+    width="640"
+    height="480"
+    frameborder="0"
+    scrolling="no"
+    muted="true"
+    allowfullscreen="true">
+</iframe>
