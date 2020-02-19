@@ -43,7 +43,7 @@ Open your STL or OBJ files.
 
 ### Setting Up:
 
-Most parts print better when support at an angle. For automatic set-up select “One Click Print.”, PreForm will then use the sequence of tools to “orient all”, “generate all”, and “layout all.”. If you would like to do this manually use the FormLab tools to adjust the model “Oriention”, generate the “Supports”, and adjust the “Layout”. Most parts print better when the model is in the center; If possible keep the model layout in the center of the print bed.
+Most parts print better when support at an angle. For automatic set-up select “One Click Print.”, PreForm will then use the sequence of tools to “orient all”, “generate all”, and “layout all.”. If you would like to do this manually use the FormLab tools to adjust the model “Orientation”, generate the “Supports”, and adjust the “Layout”. Most parts print better when the model is in the center; If possible keep the model layout in the center of the print bed.
 
 
 ![](img/Preform_OneClickPrint.png)
@@ -80,7 +80,7 @@ Finally, confirm your print's material and layer height, then click the orange p
 
 ### Things to Remember Before You Print
 
-- Make sure the build plate is empty and clean (thing on top)
+- Make sure the build plate is empty and clean (the thing on top)
 - Make sure the tank vent is open (giant shampoo bottle thing in back)
 - Mark your print as "printing" in the queue
 - Attach a sticky note for the print to the front of the printer containing:
