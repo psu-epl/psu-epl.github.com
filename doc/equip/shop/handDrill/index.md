@@ -33,12 +33,33 @@ Ask a Manager if you have any questions!
 # Using this Machine
 
 ## Setup
-
 ### Adjusting the Spin Direction:
-All hand drills have a way to select the direction of spin. This selection switch is typically above the trigger on the hand drill
+All hand drills have a way to select the direction of spin. This selection switch is typically above the trigger on the hand drill. On some drills this switch will have arrow that will indicate the direction of travel.
 
 ### Adjusting the Speed:
+On the top of the main body of the drill there will be a switch that has numbers next to it. This is the speed adjustment switch. Typically it will be a "1" for the low speed/high torque option. While a "2" is meant for high speed/low torque. *Do not adjust the speed switch unless the tool is at a complete stop, or you can damage the gearing.
 
 ### Adjusting the Clutch:
+Just behind drill tip there is a ring with the number 1 - 20 on it. This is the clutch selection ring. On the top of the drill there will be an arrow that points to the current clutch setting. The clutch is meant to disengage at a certain point of resistance. The higher the number on the clutch ring, then more torque will be applied before the clutch engages, meaning the larger the fastener that can be driven. 
+If you continue to spin the clutch pass the 20 you will find the symbol of a drive bit. This will set the clutch in to drill mode. This mode is meant for drilling in to material and telling the clutch not to engage. 
+Safety Note: If you select a clutch setting that is to high for the task you are preforming then the drill will not clutch, which means the motor will not disengage but it will stall if overloaded, causing a sudden twist. This can cause a serious wrist or hand injury.
 
 ### Installing a Drill Bit:
+In order to remove a bit, hold the chuck with one hand and the handle of your drill with the other hand. Next, turn the chuck counter clockwise (to the left) to loosen it. This process will enable the jaws in the chuck to open up and let you remove the bit.
+
+Repeat in reverse direction to insert a new drill bit.
+
+## Operation 
+Squeeze the trigger and go to work.
+
+## Shutdown & Cleanup
+Once you are done with your job please remove the bit and place the drill in the cabinet and battery on charger. 
+
+## Troubleshooting
+| Problem | Possible Causes | Likely Solutions |
+|---------|-----------------|------------------|
+| Trigger pushed in but rill wont spin | Battery is dead | Please charge the battery and try again |
+| Trigger does not move | A direction is't selected | Press the direction select switch to either the left or right.
+
+## Maintenance (Managers Only)
+Check the basic function of the direction switch and clutch
