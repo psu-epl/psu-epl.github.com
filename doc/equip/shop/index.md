@@ -11,6 +11,8 @@ These are general purpose hand tools and power tools -- stuff that someone might
 - [Arbor Press](arborPress)
 - [Belt Sander](beltSander)
 - [Bench Grinder](benchGrinder)
+- [Hand Drill}(handDrill)
+- {Impact Driver](impactDriver)
 - [Miter Saw](miterSaw)
 - [Rotary Tool](rotaryTool)
 - [Sawzall](sawzall)
