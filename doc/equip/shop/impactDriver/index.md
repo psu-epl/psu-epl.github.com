@@ -10,7 +10,7 @@ numbersections: true # controls whether the section headings are numbered
 The impact driver is a tool used primiarily for driving screws in and tightening them. 
 They're similar to hand drills, but they have a high torque and push in the bit as it drills. 
 Due to the high torque, they drill in screws faster than with a hand drill. 
-(TLDR: You use hand drills to drill holes, impact drivers to drill screws.) An image of the impact driver is below, they're often shorter than hand drills.
+(TLDR: You use hand drills to drill holes, impact drivers to drive screws in / unscrew things quickly.) An image of the impact driver is below, they're often shorter than hand drills.
 ![picture of the machine](https://946e583539399c301dc7-100ffa5b52865b8ec92e09e9de9f4d02.ssl.cf2.rackcdn.com/19930/4445085.jpg)
 
 ## Useful Links
