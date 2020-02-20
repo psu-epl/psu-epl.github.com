@@ -27,29 +27,18 @@ Ask a manager if you have any questions!
 These sections describe the standard usage and common pitfalls.
 
 ## Setup
-* To insert a bit, pull the black chuck sleeve out and then plop the bit in. When you let go of the chuck sleeve, the bit will tighten.
+* To insert a bit, pull the black collet out and then plop the bit in. When you let go of the collet, the bit will tighten. Make sure the bit is tightened and fully centered. 
 * Make sure that the battery is inserted, it will slot into the bottom of the impact driver.
 
 ## Operation
-* The tool will normally be locked. To unlock it, press the black button right above the switch. 
+* The tool will normally be locked. To unlock it, press the black button right above the trigger. 
 The left button will turn the bit counterclockwise, the right button will turn it clockwise. 
+* Place your bit into the screw head like you would a screwdriver and make sure you're holding the impact driver straight.
+* Drive in your bit, clockwise is screwing it in, counterclockwise is unscrewing it.
 
 ## Shutdown
-Lock it, 
+* Lock the impact driver.
+* Charge the battery if needed.
 
 ## Cleanup
-Explain how to reset the work station for the next user.
-
-# Tips and Tricks
-List some sections describing advaned techniques.
-
-{% comment %}
-# Quick Links
-[]: 
-[]: 
-[]: 
-[]: 
-[]: 
-[]: 
-[]: 
-{% endcomment %}
+* Make sure you put everything back where you found it! 
