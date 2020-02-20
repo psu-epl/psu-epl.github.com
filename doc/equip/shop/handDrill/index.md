@@ -25,7 +25,7 @@ The lab has two hand drills. One is a Ryobi branded hand drill, and the other is
 - Do not use damaged or broken drill bit! 
 - Keep fingers, hands, and power cords clear of the drill bits. 
 
-*Be aware of a bit jumping off of your material and into somewhere you don't want it. Slower speeds and proper sized bits can help make working with this tool safer
+*Be aware of a bit jumping off of your material and into somewhere you don't want it. Slower speeds and proper sized bits can help make working with this tool safer*
 
 ## How to Get Help
 Ask a Manager if you have any questions!
