@@ -168,6 +168,16 @@
       sop: /doc/equip/shop/arborPress
       up: true
 
+    - name: Hand Drill
+      img: doc/equip/shop/handDrill.jpg
+      sop: doc/equip/shop/handDrill
+      up: true
+      
+    - name: Impact Driver
+      img: doc/equip/shop/impactDriver.jpg
+      sop: doc/equip/shop/impactDriver
+      up: true
+      
 - title: Miscellaneous
   machines:
     - name: Thermocut 115/E
