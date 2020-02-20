@@ -34,7 +34,7 @@ The 8220 and 4000 models are essentially the same tool, one just has a battery a
 This is a tiny spinning cutter. It can give you lacerations, throw metal chips into people's eyes, or grab loose things.
 
 - Always wear safety glasses when working with or around this machine.
-    - Your reading glasses are not safety glasses!
+    - **Your reading glasses are not safety glasses!**
 - Always keeps your hands away from the cutting head when using running this machine.
 - Always tie back or tuck in long hair, jewelry, long sleeves, et cetera that could get caught in the blade. 
 - Always be prepared for the cutting head to grab the part and throw the part/tool.
@@ -45,8 +45,12 @@ This is a tiny spinning cutter. It can give you lacerations, throw metal chips i
 ## How to Get Help
 TODO: Include a list of which documents, websites, people, or mailing lists should be consulted in case of problems.
 
+**In the case of equipment failure or operation concerns, turn off the rotary tool, remove or unplug the power source for the rotary tool, and communicate with an EPL manager immediately.** 
+
 # Using this Machine
 These sections describe the standard usage and common pitfalls.
+
+- **IMPORTANT:** Always start by making sure your hair or jewelry will not get caught in the tool. Next, be sure to equip the proper safety gear including: Safety Glasses, Dust Mask (if applicable), and Gloves (if cutting fiberous material or metals)
 
 ## Choosing a Cutting Head
 There are a lot of available attachments for these tools.
@@ -135,19 +139,32 @@ TODO: Describe make the machine ready to use.
 
 ## Operation
 TODO: Show how to actually *do the thing*.
+- Before applying the tool bit to the material, turn on the rotary tool and visually confirm the bit is not off center when rotating. 
+- If possible, secure your workpiece using a clamp or vice as the rotary tool can create a lot of kickback.
+- Be sure to choose the appropriate speed for the bit and material. A rule of thumb is: if you see smoke or discoloration of the material, the speed is set too high. It is advised that you make several passes on a material when doing a cutting operation.
+- For the first time operation of a rotary tool, it is usefull to do a test cut on some plastic or scrap material to get a feel for how the initial cut glides as well as how the bite into the material feels.
+
+![Picture of the Tool In Use](https://www.dremel.com/productimages/xr03391v23.jpg.pagespeed.ic.6Ycq7FSqOZ.webp)
+![Cutting with a Dremel](https://i1.wp.com/makezine.com/wp-content/uploads/2013/06/p1060738.jpg?w=620&ssl=1)
 
 ## Cleanup
 1. Set the tool to the lowest speed setting, and make sure the power switch is in the off position.
 1. Let a manager know if a cutting head was damaged or broken while you were using this machine.
     - If you think something was too damaged to be put back in the kit, let a manager know.
 1. Return all cutting heads and accessories to the tool kit(s).
-1. Return the tool kit(s) and rotary tool to the tool cabinet.
+1. Clean and return the tool kit(s) and rotary tool to the tool cabinet.
 1. Vacuum up the work area, including any surrounding work areas which may have collected dust/cuttings/swarf.
     - Leave the lab a little bit cleaner than you found it! 😇
 
 # Tips and Tricks
 TODO: List some sections describing advanced techniques.
-
+ - Let the tool do the work: The speed of the tool should be doing the work on the material, NOT the force you apply. It is better to make multiple passes to maintain control over the workpiece.
+ - Sand in the same direction the tool tip is spinning, this creates the smoothest finish when sanding.
+ - Cut against the direction the tool tip is spinning, be ready for the tool tip to try and climb up the piece your working on. 
+ - If you have a stripped screw head, you can use a cutting tool to create a notch across the screw head to then back out the screw with a flathead.
+ - For fitted pins or connectors, it can be helpful to round off the tips to prevent jams
+ - If you are cutting glass, you will need to use a diamond bit at a slow speed with lubricant. Only apply light pressure and every few seconds, back out the cutting bit and relubricate the bit. 
+ - It is possible to create a fence guide to help create straight lines and cuts with the rotary tool. 
 {% comment %}
 # Quick Links
 []: 
