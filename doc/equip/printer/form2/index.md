@@ -43,7 +43,7 @@ Open your STL or OBJ files.
 
 ### Setting Up:
 
-Most parts print better when support at an angle. For automatic set-up select “One Click Print.”, PreForm will then use the sequence of tools to “orient all”, “generate all”, and “layout all.”. If you would like to do this manually use the FormLab tools to adjust the model “Orientation”, generate the “Supports”, and adjust the “Layout”. Most parts print better when the model is in the center; If possible keep the model layout in the center of the print bed.
+Most parts print better when supported at an angle. For automatic set-up select “One Click Print.”, PreForm will then use the sequence of tools to “orient all”, “generate all”, and “layout all.”. If you would like to do this manually use the FormLab tools to adjust the model “Orientation”, generate the “Supports”, and adjust the “Layout”. Most parts print better when the model is in the center; if possible keep the model layout in the center of the print bed.
 
 
 ![](img/Preform_OneClickPrint.png)
