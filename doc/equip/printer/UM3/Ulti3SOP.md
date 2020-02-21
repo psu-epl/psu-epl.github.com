@@ -1,5 +1,5 @@
 ---
-title: Ulti 3 SOP
+title: Ultimaker 3 SOP
 layout: doc
 author: Tiffani Shilts, Armaan Roshani
 date: \today
@@ -34,7 +34,7 @@ There are seven key things to get right to prevent print core failure:
 1. Material settings must be accurate (improves build plate adhesion, prevents burnt material).
 2. Material must be in good condition. Right now, our black nylon is an example of POOR condition. Use Amphora 3300.
 3. Build plates should be cleaned before every print. Improves adhesion.
-4. Monitor the build for the first 6 layers after it starts. You can do this in 5 minute intervals if you want, but make sure you don't forget -- this is the most dangerous time for the printers -- Adhesion failure is most likely during these layers, and the result of a failure is most catastrophic since the print core is up against the glass and there is less free volume for a forming blob.
+4. Monitor the build for the first 6 layers after it starts. You can do this in 5 minute intervals if you want, but make sure you don't forget -- this is the most dangerous time for the printers -- Adhesion failure is most likely during these layers, and the result of a failure is most catastrophic since the print core is up against the glass and there is less free volume for a forming blob. --
 5. Make sure the first layer lines are fusing to each other properly. Poor first-layer fusion is an indicator that the build plate is not properly leveled and needs to be realigned. Unfortunately, cleaning the build plates does knock the alignment out faster.
 6. Build plate should be glued, but do not glue the whole surface. Alternating stripes of glue and no glue is best.
 7. Do not attempt to unclog a core without being trained on that specific procedure first. All of the above should prevent us from ever clogging our cores, but if this does happen, you need to be careful not to put torque in the wrong places.
