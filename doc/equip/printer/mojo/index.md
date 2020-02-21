@@ -19,7 +19,7 @@ date:
  - Make sure the size of the part in the 3D view looks correct relative to the print bed.
 1. Orient the part as desired.
 1. Select desired support structure:
-    - Default of “Sparse” is typically sufficient?
+    - Default of “Smart” is typically sufficient.
 
 ## Printing
 1. Hit “Print” in the Print Wizard:
