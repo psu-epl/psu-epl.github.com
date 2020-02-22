@@ -133,7 +133,7 @@ gem install --user-install ruby-dev bundler
 Then you will be able to install any required ruby libraries with.
 
 ```
-bundle install
+bundle install --path vendor/bundle
 ```
 
 Run any command with the bundler environment with:
