@@ -21,9 +21,9 @@ or 1200 ×1200×1200mm manually using a fixed mount.
 - This 3D scanner has high accuracy and scanning speed that provides high-resolution and quality 3D modeling of reverse enineering and design.
 
 ## Useful Links
-- [manufacturer website](https://www.einscan.com/einscan-se-sp)
+- [Manufacturer Website](https://www.einscan.com/einscan-se-sp)
 - [Quick Start Guide] - The majority of the material in this SOP is copied from this guide.
-- more links to manufacturer docs, calculators, outside tutorials, etc.  
+- More links to manufacturer docs, calculators, outside tutorials, etc.  
 It's preferred that critical documents like manuals, TDSs, and MSDSs be kept in the repo when possible/allowed.
 Markdown contains a feature to define a bunch of named links at the bottom of your document.
 This can make it easier to create your "useful links" list and to refer to them throughout the document.
@@ -52,7 +52,6 @@ Describe how to check that the machine is okay to use. Describe make the machine
 The recommended size for objects that can be scanned with the Shinning 3D Scanner is from 30x30x30 mm (1.2x1.2x1.2 in) to 250x250x250 mm (38x38x38 in) and the weight is less than 5 kg (11 lbs).
 
 ## Operation
-Show how to actually *do the thing*.
 
 ### Before Scanning
 - Click **New Project** to start new scan. 
