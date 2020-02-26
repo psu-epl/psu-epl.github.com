@@ -2,7 +2,7 @@
 layout: base
 title: Portland State University Electronics Prototyping Lab
 ---
-![The EPL](/images/lab_panorama1.JPG)
+![The EPL](/images/lab_pano_2019.png)
 
 The EPL is a lab for rapidly prototyping electronics projects.
 It is meant for students to be able to walk in with an idea and walk out with a fully functioning prototype.
