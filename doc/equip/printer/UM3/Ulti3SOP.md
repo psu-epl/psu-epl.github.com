@@ -1,6 +1,6 @@
 ---
 title: Ultimaker 3 SOP
-layout: doc
+layout: sop
 author: Tiffani Shilts, Armaan Roshani
 date: \today
 fontsize: 12pt
