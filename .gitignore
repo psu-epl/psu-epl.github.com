@@ -31,3 +31,9 @@ _site/
 .jekyll-metadata
 
 
+#=========================================================
+# Additional things
+#=========================================================
+
+# making life easier for Mac users
+.DS_Store
