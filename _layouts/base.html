@@ -122,7 +122,8 @@ pages_fxn = function(pages, otherArgs){
     var preTree = '';
     if (page.url != '/'){
         // preTree = '<a href="{{ parentRef }}">..</a>\n' // lol, as long as I have that info in LIQUID already...
-        preTree = '<a href='+parentPage.url+'>..</a>\n'
+        preTree = '<a href='+parentPage.url+'>'+parentPage.title+'</a>\n'
+        preTree += "│   ⬐ you are here ⬎\n"
     }
     console.log('I am done with myParent.');
     preTree += preFromTree(siteTree, '', {pages});
