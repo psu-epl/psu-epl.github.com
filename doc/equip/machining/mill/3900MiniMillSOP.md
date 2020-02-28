@@ -99,7 +99,7 @@ Manual machines are controlled by turning dials which control the X, Y
 and Z axis movement of the tool. The location and details of these dials
 are described in detail below.
 
-![](img/image4.png){width="6.5in" height="4.82in"}
+![](img/label.png){width="6.5in" height="4.82in"}
 
 The Z-axis can be controled at both fine and coarse incriments. Switch
 to the fine control by pushing the coarse control handle (pictured

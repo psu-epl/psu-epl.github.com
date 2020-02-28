@@ -60,7 +60,7 @@ Select the spindle speed from the above chart and set the correct speed using th
 	
 Manual machines are controlled by turning dials which control the X, Y and Z axis movement of the tool. The location and details of these dials are described in detail below.
 	
-![](img/label.PNG)
+![](img/label.png)
 	
 The Z-axis can be controled at both fine and coarse incriments. Switch to the fine control by pushing the coarse control handle (pictured above) until the drive teeth have completely engaged. The fine control will now turn smoothly.
 	
