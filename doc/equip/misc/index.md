@@ -11,3 +11,5 @@ date:
 # [Shining 3D Scanner](shining3D)
 
 # [Thermocutter](Thermocut)
+
+# [Pick and Place](pickAndPlace)
