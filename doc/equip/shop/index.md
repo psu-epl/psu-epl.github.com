@@ -17,3 +17,5 @@ These are general purpose hand tools and power tools -- stuff that someone might
 - [Rotary Tool](rotaryTool)
 - [Sawzall](sawzall)
 - [Scroll Saw](scrollSaw)
+
+{{ page.url }}

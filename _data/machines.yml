@@ -26,6 +26,12 @@
       log: https://drive.google.com/open?id=12IgVs25qrH1A4t1jfN01G-PFT6XaxOnn0CgPeG3brVY
       up: true
 
+    - name: Pick and Place
+      img: images/pickAndPlace.jpg
+      sop: /doc/equip/misc/pickAndPlace
+      log: https://drive.google.com/open?id=1rsTGvFpD9nGbvPkbAQiWuUJSHUlgWXImFJR7efWPjzI
+      up: false
+
     - name: Soldering Equipment
       img: images/SolderingEquipment.jpg
       sop: /doc/equip/solder/Soldering-Equipment
@@ -171,12 +177,12 @@
       up: true
 
     - name: Hand Drill
-      img: doc/equip/shop/handDrill.jpg
+      img: doc/equip/shop/img/handDrill.jpg
       sop: doc/equip/shop/handDrill
       up: true
       
     - name: Impact Driver
-      img: doc/equip/shop/impactDriver.jpg
+      img: doc/equip/shop/img/impactDriver.jpg
       sop: doc/equip/shop/impactDriver
       up: true
       

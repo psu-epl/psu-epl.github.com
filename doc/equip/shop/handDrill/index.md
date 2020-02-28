@@ -1,15 +1,15 @@
 ---
-date: Feb. 12 2020
 title: Hand Drill
 layout: doc
 author: Nick Long
+date: 2020-02-12
 ---
 
 # About this Machine
 The lab has two hand drills. One is a Ryobi branded hand drill, and the other is Black + Decker branded.
 
-<img src="/doc/equip/shop/img/ryobiHandDrill.jpg" width="400">
-<img src="/doc/equip/shop/img/blackDeckerHandDrill.jpg" width="400">
+|----------------------------------------------|----------------------------------------------------|
+| ![](img/ryobiHandDrill.jpg){: width="400px"} | ![](img/blackDeckerHandDrill.jpg){: width="400px"} |
 
 ## Useful Links
 - [Ryobi Manufacturer Website](https://www.ryobitools.com/power-tools)
@@ -56,10 +56,13 @@ Squeeze the trigger and go to work.
 Once you are done with your job please remove the bit and place the drill in the cabinet and battery on charger. 
 
 ## Troubleshooting
-| Problem | Possible Causes | Likely Solutions |
-|---------|-----------------|------------------|
-| Trigger pushed in but rill wont spin | Battery is dead | Please charge the battery and try again |
-| Trigger does not move | A direction is't selected | Press the direction select switch to either the left or right.
+
+| Problem | Possible Causes | Likely Solutions
+| ------- | --------------- | ----------------
+| Trigger pushed in but rill wont spin | Battery is dead           | Please charge the battery and try again
+| Trigger does not move                | A direction is't selected | Press the direction select switch to either the left or right.
 
 ## Maintenance (Managers Only)
 Check the basic function of the direction switch and clutch
+
+{{ page.url }}
