@@ -1,10 +1,17 @@
 ---
 ---
 {% comment %}
-read the site structure into a JSON object
+Read the site structure into a JSON object
+
+There appears to be a bug/feature in Jekyll/Liquid where loops will 
+automatically terminate after 127 elements. This would prevent us from looping 
+over all the site pages. By manually specifying the loop limit to be equal to 
+the number of site pages, Liquid someone recognizes that the loop shouldn't 
+terminate at the 127th element.
 {% endcomment %}
 [ 
-    {%for pagei in site.pages%}  { 
+    {%- assign npages = site.pages | size -%}
+    {%- for pagei in site.pages limit:npages -%}  { 
             "title": "{{pagei.title}}" ,
             "url": "{{pagei.url}}", 
             "dir": "{{pagei.dir}}", 
@@ -18,7 +25,7 @@ read the site structure into a JSON object
             "parentInd": "",
             "children": [],
             "siblings": []
-        }{% unless forloop.last %},{% endunless %}
-    {%endfor%}
+        }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
     ]
 

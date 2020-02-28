@@ -30,6 +30,11 @@ _site/
 # If the site isn't displaying right locally, try deleting this file.
 .jekyll-metadata
 
+# This locks us to particilar versions for Jekyll and its extensions.
+# We don't want this, because it's an added barrier of entry and probably only
+# effects the local previews.
+Gemfile.lock
+
 
 #=========================================================
 # Additional things
