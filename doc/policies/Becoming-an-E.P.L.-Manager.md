@@ -29,6 +29,7 @@ Here's what you need to know.
 
 - Send an email to the current EPL administrator (currently Chris) at lid@pdx.edu establishing yourself as a candidate for manager. This email should include a little info about yourself. The lab admin will then send you an application to fill out. The date that the application is filled out will be your start date. 
 - Finish being trained on all of the equipment that's currently being used. You will also need to be trained in all of the store operations. You have approximately 30 days from your application date to train on all of the equipment. 
+- Once done with all training email the admin at epl@pdx.edu or at their personal email address (in this case Chris Clark at cjclark@pdx.edu). They will then complete the process. 
 - Don't get vetoed. The admin will email the current manager group and let everyone know you're about to become a new manager. Any current manager can veto someone trying to become a manager. This may sound arbitrary, but it's not. It's specifically to prevent people who aren't good with other people or with equipment from becoming managers. Becoming a manager is a big responsibility and means keeping people safe, being responsible, and contributing to the community. Some people just aren't ready for that yet.
 - Get briefed by the administrator. The admin will meet with you and go over becoming a manager. This takes about an hour.
 
