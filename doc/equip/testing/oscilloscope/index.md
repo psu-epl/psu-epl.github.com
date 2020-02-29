@@ -29,6 +29,8 @@ Block of text under construction
 
  	![](img/TDS7254_intro.png)
 
+![](img/overview_7254.png)
+
 Block of text under construction
 
 ## Tektronix TDS3034
@@ -44,4 +46,5 @@ Block of text under construction
  	![](img/TDS380_intro.png)
 
 Block of text under construction
+
 
