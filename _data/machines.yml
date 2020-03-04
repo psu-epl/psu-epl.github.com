@@ -85,7 +85,7 @@
       img: doc/equip/printer/form2/img/Formlabs2.JPG
       sop: /doc/equip/printer/form2
       log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
-      up: True
+      up: false
 
 - title: Machining Equipment
   machines:
