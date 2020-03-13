@@ -16,20 +16,22 @@ We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:l
 
 # <font color="red">Lab Closure</font>
 To help prevent the spread of [COVID-19], __the lab will be closed until PSU reopens__. 
-This is expected to happen in mid April.
+This is expected to continue until mid-April.
 
 People will not be allowed into the lab, either through the main door or the PSAS door.
-The lab will still be available to managers, but on a very limited basis.
-Managers wishing to schedule time in the lab should contact Kathleen.
+__Managers will not be allowed in the lab__ without explicit permission from Kathleen.
+Anyone who violates these rules will loose access to the lab.
 
 ## Online Resources
 We understand that many students will still need to do prototyping. 
-Here's a list of online vendors that will be able to help you complete your projects remotely.
+Here's a list of online vendors that will be able to help you complete your projects remotely, 
+besides from the obvious ebay, Newegg, and Amazon.
 
 | Site | Notes
 | ---- | -----
 | __Circuit Boards__ | 
-| [OSH Park] | up to 4-layer PCBs, fast turnaround, 1.6 mm and 0.8 mm boards, stencils, flex boards
+| [OSH Park] | up to 4-layer PCBs, fast turnaround, 1.6 mm and 0.8 mm boards, flex boards
+| [OSH Stencils] | stainless steel and polyimide stencils
 | [JLCPCB] | SMT population, lots of board options, stencils
 | [4PCB] | 
 | __Electronic Components__ | 
@@ -135,6 +137,7 @@ Here are some links to commonly visited pages:
 [tree]: /siteTree
 [style]: /doc/contributing
 [OSH Park]: https://oshpark.com/
+[OSH Stencils]: https://www.oshstencils.com/
 [JLCPCB]: https://jlcpcb.com/
 [4PCB]: https://www.4pcb.com/pcb-student-discount.html
 [Rapidmade]: https://www.rapidmade.com/
