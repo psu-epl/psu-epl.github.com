@@ -2,6 +2,7 @@
 layout: base
 title: Portland State University Electronics Prototyping Lab
 ---
+
 ![The EPL](/images/lab_pano_2019.png)
 
 The EPL is a lab for rapidly prototyping electronics projects.
@@ -12,6 +13,38 @@ Our phone number is **503-725-2879**.
 
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:lid@pdx.edu) to donate!
+
+# <font color="red">Lab Closure</font>
+To help prevent the spread of [COVID-19], __the lab will be closed until PSU reopens__. 
+This is expected to happen in mid April.
+
+People will not be allowed into the lab, either through the main door or the PSAS door.
+The lab will still be available to managers, but on a very limited basis.
+Managers wishing to schedule time in the lab should contact Kathleen.
+
+## Online Resources
+We understand that many students will still need to do prototyping. 
+Here's a list of online vendors that will be able to help you complete your projects remotely.
+
+| Site | Notes
+| ---- | -----
+| __Circuit Boards__ | 
+| [OSH Park] | up to 4-layer PCBs, fast turnaround, 1.6 mm and 0.8 mm boards, stencils, flex boards
+| [JLCPCB] | SMT population, lots of board options, stencils
+| [4PCB] | 
+| __Electronic Components__ | 
+| [Digikey] | good pricing, normally excellent selection (impacted by COVID-19), excellent part search
+| [Mouser] | 
+| __3D Parts__ | 3D printing, CNC machining, injection molding, sheet metal, instant quotes from CAD
+| [Rapidmade] | local to Portland, many other services, instant quotes for 3D prints only
+| [Protolabs] | high quality, kind of picky
+| [3D Hubs] | cheap/popular, brokers to small shops, severely delayed shipping due to COVID-19
+| [Xometry] | good 3D printing, brokered machining
+| __Mechanical Components__ |
+| [McMaster-Carr] | large markups, good selection, very easy to find what you need, sells components and tools
+| [MSC Direct] | decent prices, very good selection, poor interface
+| [Metal Supermarkets] | metal stock, cut to size, minimal processing available
+| [TAP Plastics] | plastic stock, cut to size, minimal processing available, also sells tools
 
 # Using the Labs
 1. View our [Lab Equipment](/doc/equip) and read the instructions on the equipment you want to use.
@@ -52,8 +85,10 @@ Click on a machine to jump to its documentation.
 {% include machines.html %}
 
 # Lab Status
-The lab is currently open to all PSU students and staff. The lab is also open to the greater Portland community members by
-invitation only.
+The lab is currently __closed__ to all PSU students and staff. 
+{% comment %}
+The lab is also open to the greater Portland community members by invitation only.
+{% endcomment %}
 
 # Frequently Visited
 Here are some links to commonly visited pages:
@@ -99,3 +134,17 @@ Here are some links to commonly visited pages:
 [inventory]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRctTWgzjjFlbtDmUZ98G7og6jb6IJ1X1vd8zwDnGen3mGZxCVO0T1Jp2Iw2ze2l4Bet2ey2GKlb9wB/pubhtml
 [tree]: /siteTree
 [style]: /doc/contributing
+[OSH Park]: https://oshpark.com/
+[JLCPCB]: https://jlcpcb.com/
+[4PCB]: https://www.4pcb.com/pcb-student-discount.html
+[Rapidmade]: https://www.rapidmade.com/
+[3D Hubs]: https://www.3dhubs.com/
+[Protolabs]: https://www.protolabs.com/
+[Xometry]: https://www.xometry.com/
+[Digikey]: https://www.digikey.com/
+[McMaster-Carr]: https://www.mcmaster.com/
+[MSC Direct]: https://www.mscdirect.com/
+[Metal Supermarkets]: https://ecommerce.metalsupermarkets.com/MSC-Home.aspx
+[TAP Plastics]: https://www.tapplastics.com/
+[Mouser]: https://www.mouser.com/
+[COVID-19]: https://www.cdc.gov/coronavirus/2019-ncov/about/index.html
