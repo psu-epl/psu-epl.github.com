@@ -15,12 +15,16 @@ Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:lid@pdx.edu) to donate!
 
 # <font color="red">Lab Closure</font>
-To help prevent the spread of [COVID-19], __the lab will be closed until PSU reopens__. 
-This is expected to continue until mid-April.
+To help contain the further spread of the [COVID-19] virus,
+the __EPL will be closed__ until PSU resumes a normal class schedule and activity on campus. 
+This is expected to be until mid to late April.
 
-People will not be allowed into the lab, either through the main door or the PSAS door.
-__Managers will not be allowed in the lab__ without explicit permission from Kathleen.
-Anyone who violates these rules will loose access to the lab.
+People will not be allowed into the lab, either through the main door or the PSAS door. 
+__Managers will also not be allowed in the lab__, without explicit permission from Kathleen. 
+__Anyone who violates this rule__ will lose continued access to the EPL.
+
+We are sorry for the shutdown but have deemed it prudent to close down. 
+Listed below are outside resources for your projects. 
 
 ## Online Resources
 We understand that many students will still need to do prototyping. 
