@@ -17,11 +17,11 @@ We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:l
 # <font color="red">Lab Closure</font>
 To help contain the further spread of the [COVID-19] virus,
 the __EPL will be closed__ until PSU resumes a normal class schedule and activity on campus. 
-This is expected to be until mid to late April.
+This is expected to be until late April.
 
 People will not be allowed into the lab, either through the main door or the PSAS door. 
-__Managers will also not be allowed in the lab__, without explicit permission from Kathleen. 
-__Anyone who violates this rule__ will lose continued access to the EPL.
+__Managers will also not be allowed in the lab__. 
+Anyone who violates this rule will lose continued access to the EPL.
 
 We are sorry for the shutdown but have deemed it prudent to close down. 
 Listed below are outside resources for your projects. 
