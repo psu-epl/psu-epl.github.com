@@ -11,6 +11,9 @@ It is meant for students to be able to walk in with an idea and walk out with a 
 The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1900 SW 4th Avenue** in room **FAB 84-20**.
 Our phone number is **503-725-2879**.
 
+[Checkout]
+Pay for things.
+
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:lid@pdx.edu) to donate!
 
