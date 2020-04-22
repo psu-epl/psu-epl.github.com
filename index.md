@@ -29,7 +29,7 @@ Anyone who violates this rule will lose continued access to the EPL.
 We are sorry for the shutdown but have deemed it prudent to close down. 
 Listed below are outside resources for your projects. 
 
-We also have a slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us [here](https://eplabpsu.slack.com/archives/C1W89N8BY)
+**We also have a slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us [here](https://eplabpsu.slack.com/archives/C1W89N8BY)**
 
 ## Online Resources
 We understand that many students will still need to do prototyping. 
