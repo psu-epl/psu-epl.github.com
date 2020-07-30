@@ -20,7 +20,6 @@ We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:l
 # <font color="red">Lab Closure</font>
 To help contain the further spread of the [COVID-19] virus,
 the __EPL will be closed__ until PSU resumes a normal class schedule and activity on campus. 
-This is expected to be until late April.
 
 People will not be allowed into the lab, either through the main door or the PSAS door. 
 __Managers will also not be allowed in the lab__. 
@@ -30,6 +29,9 @@ We are sorry for the shutdown but have deemed it prudent to close down.
 Listed below are outside resources for your projects. 
 
 **We also have a slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us [here](https://eplabpsu.slack.com/archives/C1W89N8BY)**
+
+# Lab Kits
+This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students.
 
 ## Online Resources
 We understand that many students will still need to do prototyping. 
