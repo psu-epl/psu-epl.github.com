@@ -6,7 +6,7 @@ date:
 
 ---
 
-# [Silhouette-Cameo](Silhouette-Cameo)
+# [Silhouette-Cameo](cameo)
 
 # [Shining 3D Scanner](shining3D)
 

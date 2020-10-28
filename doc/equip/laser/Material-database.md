@@ -24,11 +24,11 @@ Thickness mm (in) |       Laser Settings      | Kerf mm
 
 The above experimental values were charted and found that cut power was roughly exponential with thickness.
 
-![Acrylic cut power as a function of material thickness](images/EPL_acrylic_cut_power.png)
+![Acrylic cut power as a function of material thickness](/doc/images/EPL_acrylic_cut_power.png)
 
 The fit curve is found to be:
 
-![power = 168.216 e^(-0.3607 thickness)](images/acrylic_math_fit.png)
+![power = 168.216 e^(-0.3607 thickness)](/doc/images/acrylic_math_fit.png)
 
 ### Etching
 
@@ -38,7 +38,7 @@ The fit curve is found to be:
 
 It is possible to cut channels by varying the laser power and focus. 80% power gives v-shaped channel about halfway through 1/8" acrylic when the laser is moved up a little bit from focused.
 
-![40,60,80,80,60,40% power at two different focus depths](images/acrylicChannel.jpg)
+![40,60,80,80,60,40% power at two different focus depths](/doc/images/acrylicChannel.jpg)
 
 Several channels were cut in 1/8" acrylic with 59mm, 60mm, and 61mm focus depth, and the approximate depths and widths were measured using calipers. I wouldn't trust these values too far.
 
@@ -74,7 +74,7 @@ Thickness mm (in) | Cut Speed (at 100% power)
 
 **Method**: Bamboo was placed on the bed and focused to the surface height. A series of 1/4 inch squares were cut at 500 dpi and varying powers/speeds. Gradients were also created for different dpis and halftoning methods.
 
-![Bamboo laser raster guide](images/raster_key_bamboo.png)
+![Bamboo laser raster guide](/doc/images/raster_key_bamboo.png)
 
 ***
 
@@ -98,7 +98,7 @@ Thickness mm (in) | Cut Speed (at 100% power)
 
 The kapton is considered next to its source file.
 
-![Cut kapton next to source for calibration](images/calibratded_polyimide.png)
+![Cut kapton next to source for calibration](/doc/images/calibratded_polyimide.png)
 
 
 ***
@@ -126,8 +126,8 @@ Can be purchased online here: http://www.gravostore.com/
  - 50% "Power" (current)
  - 100% "Vector Current" (PWM)
 
-![Etched Black-on-White Gravoply Laser](images/gravoply_laser1.jpg)
-![Etched Black-on-White Gravoply Laser](images/gravoply_laser2.jpg)
+![Etched Black-on-White Gravoply Laser](/doc/images/gravoply_laser1.jpg)
+![Etched Black-on-White Gravoply Laser](/doc/images/gravoply_laser2.jpg)
 
 ***
 

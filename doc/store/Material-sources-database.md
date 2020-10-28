@@ -16,7 +16,7 @@ date:
 ## Kapton Film
 Used for solder stencils, sort of not as good as paper.
 
-- Vendor: Kapton Source <http://Kaptonsource.com/>
+- Vendor: Kapton Source ~~http://Kaptonsource.com/~~ (This vendor has died.)
   - 3 Mil by 12" by 36 yard roll
   - PC533FILM-12000-36
   - $315.00 + shipping
@@ -80,7 +80,12 @@ We order everything directly from Mojo at <http://shop.stratasys.com/>
 - Printing plates: "Modeling Bases" # 350-10000, $70 for 24 bases from 
 - Cleaning Tablets: Ecoworks Tablets #300-00104, $110 for 24 tablets
 
-We can also recycle packs for free: <http://www.stratasys.com/Help/Recycle/Recycle-UPS.aspx>
+We can also recycle packs for free: <https://www.stratasys.com/recycling/recycling-instructions>
+{% comment %}
+It's unclear whether they still offer free recycling for 3rd party material.
+Here's the old broken link:
+<http://www.stratasys.com/Help/Recycle/Recycle-UPS.aspx>
+{% endcomment %}
 
 # PCB Router
 

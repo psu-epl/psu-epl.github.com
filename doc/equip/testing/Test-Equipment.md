@@ -20,7 +20,7 @@ revision date: 7 Feb 2020
 * DM504A
 
 ## VNA
-* HP 8753E 30kHz-6GHz: View the SOP [here](/doc/equip/testing/VNA)
+* HP 8753E 30kHz-6GHz: View the SOP [here](/doc/equip/testing/vna)
 
 ## Function Generators
 * Tektronix FG 503 3MHz
@@ -37,7 +37,7 @@ revision date: 7 Feb 2020
 ## LCR Meter
 * GenRad 1657
 
-## [RF Chamber](/doc/equip/testing/RF-Chamber)
+## [RF Chamber](/doc/equip/testing/rfchamber)
 
 ## [Environmental Testing Lab](/doc/equip/testing/ETL/index)
 

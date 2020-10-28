@@ -25,7 +25,7 @@ Applications include,
 -Testing carbon nanotube wires, semiconductor nanowires, and copper nanowires using I-V measurements, conductivity, low resistance measurements (1 ohm-100k ohm, 1 ohm - 100 ohm, and 1 micro-ohm - 10 ohm).
 
 ## Useful Links
--The [LabTracer software](https://www.keithley.com) can coordinate the operation of up to four Series 2400 SourceMeter instruments at once, and collect voltage and/or current readings from any of the instruments, as well as a timestamp for each measurement set.
+-The [LabTracer software](https://www.tek.com/keithley) can coordinate the operation of up to four Series 2400 SourceMeter instruments at once, and collect voltage and/or current readings from any of the instruments, as well as a timestamp for each measurement set.
 
 <!--- # About this Machine
 Write a short description of what this machine's good for plus its advantages, disadvantages, and quirks

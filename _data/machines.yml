@@ -178,12 +178,12 @@
 
     - name: Hand Drill
       img: doc/equip/shop/img/handDrill.jpg
-      sop: doc/equip/shop/handDrill
+      sop: /doc/equip/shop/handDrill
       up: true
       
     - name: Impact Driver
       img: doc/equip/shop/img/impactDriver.jpg
-      sop: doc/equip/shop/impactDriver
+      sop: /doc/equip/shop/impactDriver
       up: true
       
 - title: Miscellaneous

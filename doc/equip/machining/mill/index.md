@@ -205,7 +205,7 @@ TODO: taking parts to dimension
 [old SOP1]: Little-Machine-Shop-3-axis-manual-mill
 [old SOP2]: 3900MiniMillSOP
 [manual]: 3900_Mini_Mill_Users_Guide.pdf
-[machine shop]: https://www.pdx.edu/mme/machine-shop
+[machine shop]: https://www.pdx.edu/mechanical-materials-engineering/mme-machine-shop
 []: 
 []: 
 []: 

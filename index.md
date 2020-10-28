@@ -61,7 +61,7 @@ besides from the obvious ebay, Newegg, and Amazon.
 
 # Using the Labs
 1. View our [Lab Equipment](/doc/equip) and read the instructions on the equipment you want to use.
-1. Check the calendar for office hours.
+1. Check the [calendar] for office hours.
 1. Come in during those hours and get trained by a manager on the equipment you want to use.
   - Be sure you've signed a liability waiver!
 1. Once you're trained on a something, you can come in during any office hours and use that equipment.
@@ -71,7 +71,7 @@ besides from the obvious ebay, Newegg, and Amazon.
   - [Click here][Become a Manager] to get started.
 
 # Lab Calendar
-This calendar tells you which managers are on-duty and when.
+This [calendar] tells you which managers are on-duty and when.
 You can only use the lab when supervised by a manager.
 {% include calendar_lab.html %}
 
@@ -136,13 +136,14 @@ Here are some links to commonly visited pages:
 [Equipment]: doc/equip
 [Circuit Store and Lockers]: doc/store
 [Lab Policies]: doc/policies
-[RF Chamber]: doc/equip/testing/RF-Chamber
+[RF Chamber]: doc/equip/testing/rfchamber
 [3D Print Your Part]: doc/equip/printer
 [Workshops]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
 [Become a Manager]: doc/policies/Becoming-an-E.P.L.-Manager
 [Sponsors]: doc/policies/Sponsors
 [checkout]: https://commerce.cashnet.com/ecei
 [donate]: https://cconn.foundation.pdx.edu/ccon/new_gift.do?action=newGift&giving_page_id=240
+[calendar]: https://calendar.google.com/calendar/embed?src=epl.pdx%40gmail.com&ctz=America%2FLos_Angeles
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
 [inventory]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRctTWgzjjFlbtDmUZ98G7og6jb6IJ1X1vd8zwDnGen3mGZxCVO0T1Jp2Iw2ze2l4Bet2ey2GKlb9wB/pubhtml
 [tree]: /siteTree

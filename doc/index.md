@@ -10,8 +10,11 @@ Can't find what you're looking for? Try the [site tree](/siteTree).
 If you'd like to contribute to this documentation, [read this](/doc/contributing).
 
 ## [Equipment](/doc/equip/)
-- EPL, [you *must read* the specific documentation before being trained on a given piece of equipment](/doc/equip/)
-- [RF-Chamber](/doc/equip/testing/RF-Chamber)
+You *must read* the SOP for a given piece of equipment *before* being trained to use it.
+
+Breaking things up by room:
+- [main EPL](/doc/equip/)
+- [RF-Chamber](/doc/equip/testing/rfchamber)
 - [Environmental Testing Lab](/doc/equip/testing/ETL/)
 
 ## [Circuit Store](/doc/store/)

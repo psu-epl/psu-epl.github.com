@@ -24,7 +24,11 @@ output:
 
 **This guide is written both for Managers and for users of the EPL. Some steps apply to only one or the other.**
 
-[Link to Ultimaker 3 user manual](https://ultimaker.com/download/61355/Ultimaker%203%20manual%20%28EN%29.pdf) (16Mb PDF)
+{% comment %}
+Ultimaker is known to break this link from time to time, 
+but they also keep the manual as "all rights reserved". >:(
+{% endcomment %}
+[Link to Ultimaker 3 user manual](https://support.ultimaker.com/hc/en-us/article_attachments/360010836740/Ultimaker_3_manual__En_.pdf) (~16Mb PDF)
 
 # About the Ultimaker 3
 The Ultimaker 3 3D printer is for printing solid 3D models from digital files. It has a print bed size of x.xx cm × x.xx cm × x.xx cm. We only print on type of material at this time: Amphora 3300. 
