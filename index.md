@@ -28,7 +28,7 @@ Anyone who violates this rule will lose continued access to the EPL.
 We are sorry for the shutdown but have deemed it prudent to close down. 
 Listed below are outside resources for your projects. 
 
-**We also have a slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us [here](https://eplabpsu.slack.com/archives/C1W89N8BY)**
+**We also have a discord server and slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us on discord [here](https://discord.gg/xjqhGRRNB6) and slack [here](https://eplabpsu.slack.com/archives/C1W89N8BY)**
 
 # Lab Kits
 This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students.
