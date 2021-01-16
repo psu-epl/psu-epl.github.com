@@ -17,21 +17,26 @@ Pay for things here including all of your Lab kits, Analog Discovery 2, and Tool
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:lid@pdx.edu) to donate!
 
-# <font color="red">Lab Closure</font>
-To help contain the further spread of the [COVID-19] virus,
-the __EPL will be closed__ until PSU resumes a normal class schedule and activity on campus. 
+# <font color="red">Lab Opening!</font>
+The EPL is now allowing strictly limited student workspace reservations! Students will be able to reserve a 2 hour slot to work in the EPL. Please keep in mind that if you make an in-person workstation reservation you will be **absolutely required to follow all of our safety rules, NO EXCEPTIONS**. You will get your temperature taken before entering, masks are required *at all times* (over the nose), social distancing, and no food or drink is allowed. 
 
-People will not be allowed into the lab, either through the main door or the PSAS door. 
-__Managers will also not be allowed in the lab__. 
-Anyone who violates this rule will lose continued access to the EPL.
+The workstation is limited to an isolated work space which includes the following equipment:
 
-We are sorry for the shutdown but have deemed it prudent to close down. 
-Listed below are outside resources for your projects. 
+- Oscilloscope
+- Function Generator
+- 3 Output Power Supply
+- Multimeter
+- Soldering Station
+- Hand Tools
+
+Students will also be able to order 3D prints, PCBs, and laser cuts; they can be picked up when a manager is on shift (see our calendar) or during a workstation reservation. Please email epl@pdx.edu for more information. 
+
+**If you would like to make an EPL reservation please view our [Appointment Calendar](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUptTkpPelVKbmNrfGRlZmF1bHR8NjQ1ZGNlZDkxMTZiYTljODAxMzIxMWU2NDA5MGE0NjA).** You will see 2 hour slots between 12-1600 named 'EPL Student Workstation Reservation'. *The email you use to reserve this slot is the email we will contact for building access, rules, and information*, if your reservation does not appear on your calendar please email us at epl@pdx.edu for assistance. 
 
 **We also have a discord server and slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us on discord [here](https://discord.gg/xjqhGRRNB6) and slack [here](https://eplabpsu.slack.com/archives/C1W89N8BY)**
 
 # Lab Kits
-This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students. [Checkout] here. 
+This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students. __[Checkout] here.__ 
 
 ## Online Resources
 We understand that many students will still need to do prototyping. 
@@ -98,7 +103,7 @@ Click on a machine to jump to its documentation.
 {% include machines.html %}
 
 # Lab Status
-The lab is currently __closed__ to all PSU students and staff. 
+The lab is currently closed to the public. You will need to reserve a workstation for access.  
 {% comment %}
 The lab is also open to the greater Portland community members by invitation only.
 {% endcomment %}
