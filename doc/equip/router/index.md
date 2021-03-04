@@ -11,6 +11,6 @@ date:
 
 # [LPKF](LPKF)
 
-# [S104] (S104)
+# [S104] (LPKF_S104)
 
 # [Getting-Gerbers](Getting-Gerbers)
