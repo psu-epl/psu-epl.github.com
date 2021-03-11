@@ -39,7 +39,7 @@ The log in information should be on the monitor. If it is not, ask a manager on 
 
 2. Launch LPKF CircuitPro PM 2.7.
 
-<img src="img/s104_5.png" width="650">
+<img src="img/s104_5.png" width="200">
 
 It might ask for your license key. Ask a manager for help if this happens.
 
