@@ -137,3 +137,74 @@ If the bits your tool path requires are not available, ask a manager for help id
 
 
 ## Prepare the Cutting Area and Mount Copper Blank
+
+
+1. Make sure the white backing surface is as smooth as possible.
+<img src="img/s104_22.jpg" width="650">
+
+This step is very important. The machine doesn't know where the backing surface actually is beyond what the user tells it, and it assumes it is a perfectly flat plane. Deviations as small as 0.5 mm can cause manufacturing defects which will make your board fail. While no PCB is mounted, open the machine cover and run your hands over the backing surface and feel for any deviations. Blow any debris off the surface, and it is a good idea to smooth it out with a razor blade.
+
+2. Mount your PCB blank
+<img src="img/s104_23.jpg" width="650">
+
+Place a flat, untwisted PCB blank with enough room for your board on the backing surface. Take it down in at least two locations to hold it in place during routing. Relying on the backing surface's vacuum is not sufficient to hold it securely. Close the machine cover when you are finished.
+
+3. Edit pattern placement on your PCB blank
+
+This is where you tell the S104 where you want it to route your board. Click on the artwork representing your circuit and right click to select the contextual menu "Placement." Move the circuit to a location where you have enough PCB blank material to manufacture your circuit.
+
+Next, select the "Mouse Cursor" mode in the left side menu. One at a time, making sure to wait for the machine to finish moving before clicking again, click on each of the four corners of your circuit. Ensure the tool head remains on material for the entire area and that the tool head will not need to cross through tape or any other obstacles while it is routing your PCB.
+
+## Prepare to Process
+
+Go to the "Machining" drop down menu and select "Process All." It will prompt you to mount the PCB blank and tape it down. If you have been following the instructions, you already did that so you can just click OK.
+
+Next, it will prompt you for the location settings of the actual PCB blank. This is telling the machine how much total material is there.
+
+<img src="img/s104_24.png" width="650">
+
+Click to the front left corner of your material. It's ok to tell the machine there is less material available than is actually present, but be careful not to tell the machine you have a larger PCB blank than is physically available. Once the head has navigated to the front left region (the near side of the machine from which the user can access it, or the front side closest to the computer), click the "P1" button. It should shift the copper colored square's top-left anchor to your current mouse mode cursor camera location. Now navigate the machine head to the "rear"-right (away from the user and the computer) of of your material, and click the "P2" button. You should now have a copper rectangle drawn around your circuit's representation.
+
+Click continue.
+
+It will give you an opportunity to adjust your circuit's placement at this point. If you have been following instructions, it should already be within the acceptable work area. If necessary, you can adjust the circuit's location at this time, but afterwards ensure by using the mouse cursor mode on the four corners that it is still within an acceptable part of the PCB blank, without obstructions.
+
+Click continue, and the S104 will begin the manufacturing process.
+
+## Some Common Routing Interrupts
+
+1. Test Milling Width
+
+During the machining process, CircuitPro may ask you to test the milling width. Select an area of the board which you do not need to perform the test in, and if necessary, adjust the tool. CircuitPro will probably ask you to adjust the tool more than is necessary. I recommend first trying half of the recommended adjustment and repeating the test if desired.
+
+
+2. Tool Holder Empty
+<img src="img/s104_25.png" width="650">
+
+You may get a "Tool holder empty" error during the routing process. This is usually caused by the machine not fully inserting bits it has used into their holders. In this case, simply open the cover and push the loose bit firmly into its holder. Close the machine cover and it should resume the routing process.
+
+## Fiducial Alignment
+
+You will have to go through fiducial alignment for all double sided boards. Correctly identifying the fiducials is critical to manufacturing your board correctly.
+
+After the first side has been completed, the machine will prompt you to flip the board across its HORIZONTAL line of symmetry. Make sure to secure the PCB blank with tape again after you have flipped it. The machine will then guide you through finding the fiducials with the camera. Keep in mind that the S104's camera is in front of the tool collet. Make sure you are correctly identifying the fiducials, and not other drill holes on the board. If you incorrectly identify the fiducials, the machine will cut the second side offset from the first side, rendering your PCB unusable and requiring you to start the manufacturing process over.
+
+CircuitPro will usually take you to approximately the correct ballpark, but unless you were extremely accurate when you flipped your PCB over you will still have to correctly identify the first fiducial manually with the camera. Use the X and Y camera seek tools in the left side toolbar. The camera will have a targeting reticle the expected size of the fiducials. When you have the camera near a fiducial, click identify and center. The machine will then be able to execute another spiral search to try to find the next fiducial. After you have identified the first fidicual, CircuitPro is much more likely to be able to identify the rest automatically.
+
+PRO TIP: The picture of the machining view is where the S104 is EXPECTING your circuit to be. It is NOT an accurate reflection of where you have flipped your board.
+
+When you have identified all your fiducials, the S104 will continue with the manufacturing process.
+
+## Cleanup
+
+When the S104 is done processing your board, you may remove the tape and remove your PCB blank. If there is any debris remaining, please carefully clean the station. Close the cover, but do NOT power off the S104 yet.
+
+# POWERING OFF THE S104 BEFORE YOU QUIT CircuitPro CAUSES PROBLEMS FOR THE NEXT PERSON.
+
+First, quit CircuitPro. This will properly disconnect the S104. When CircuitPro is done disconnecting the S104, it will quit. At this point it is safe to power off the system in the reverse order from how you turned it on.
+
+1. Turn off the S104 on the rear of the machine.
+2. Switch the exhaust system to Standby
+3. Turn off the air compressor.
+
+Congratulations, you have (hopefully) successfully routed your PCB!
