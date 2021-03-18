@@ -119,7 +119,10 @@ The Isolate settings control how much copper will be removed around your feature
 
 Contour Routing settings control where the breakout tabs on your board will be, so that your board can be removed when it is finished. Horizontal Gaps, Vertical Gaps, or Edge Gaps work best.
 
-Adjust the drills and fiducial settings if necessary. If you don’t have any special considerations for those settings, the defaults should be fine. Your board probably does not have pockets, so go to the pockets settings and deselect the “Process” box.
+Adjust the drills and fiducial settings if necessary. If you don’t have any special considerations for those settings, the defaults should be fine.
+
+### Remove Pocket Processing
+Your board probably does not have pockets, so go to the pockets settings and deselect the “Process” box. Pockets are also known as Z-axis milling, and they are used to cut sections of the PCB out. They should not be needed for a one or two sided board.
 
 <img src="img/s104_18.png" width="650">
 
@@ -158,7 +161,7 @@ Place a flat, untwisted PCB blank with enough room for your board on the backing
 
 ### Edit pattern placement on your PCB blank
 
-This is where you tell the S104 where you want it to route your board. Click on the artwork representing your circuit and right click to select the contextual menu "Placement." Move the circuit to a location where you have enough PCB blank material to manufacture your circuit.
+This is where you tell the S104 where you want it to route your board. You need to be in Machining view to do this. Click the "Machining view" tab at the top of the work area. Click on the artwork representing your circuit and right click to select the contextual menu "Placement." Move the circuit to a location where you have enough PCB blank material to manufacture your circuit.
 
 Next, select the "Mouse Cursor" mode in the left side menu. One at a time, making sure to wait for the machine to finish moving before clicking again, click on each of the four corners of your circuit. Ensure the tool head remains on material for the entire area and that the tool head will not need to cross through tape or any other obstacles while it is routing your PCB.
 
