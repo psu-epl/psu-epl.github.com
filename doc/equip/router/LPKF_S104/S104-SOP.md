@@ -6,6 +6,13 @@ date: March 4th, 2021
 
 ---
 
+## Table of Contents
+{:.no_toc.nonumber}
+
+1. ToC
+{:toc}
+{:.toc}
+
 # Using the LPKF S104 Circuit Board Router
 <img src = "img/s104_1.jpg" width="650">
 
@@ -18,13 +25,13 @@ The S104 expects things to be turned on in a particular on in a particular order
 
 Turn on the air compressor by setting the operating mode to AUTO. Ensure the red valve is in the position shown above (parallel with the piping, not perpendicular) to allow the air to flow.
 
-2. Turn on the exhaust system.
+### Turn on the exhaust system.
 
 <img src="img/s104_3.jpg" width="650">
 
 Turn the exhaust system on by pushing the power button until the "System ON" light is on.
 
-3. Turn on the S104.
+### Turn on the S104.
 
 <img src="img/s104_4.jpg" width="650">
 
@@ -33,11 +40,11 @@ The power switch for the S104 is on the back of the machine.
 
 ## Log Into the Host Computer and Connect to the S104
 
-1. Log into the host computer.
+### Log into the host computer.
 
 The log in information should be on the monitor. If it is not, ask a manager on duty.
 
-2. Launch LPKF CircuitPro PM 2.7.
+### Launch LPKF CircuitPro PM 2.7.
 
 <img src="img/s104_5.png" width="200">
 
@@ -45,7 +52,7 @@ It might ask for your license key. Ask a manager for help if this happens.
 
 <img src="img/s104_6.png" width="650">
 
-3. Connect Circuit Pro to the S104.
+### Connect Circuit Pro to the S104.
 
 <img src="img/s104_7.png" width="650">
 
@@ -67,13 +74,13 @@ Next we will connect to the S104 manually. Do this by going to the "Machining" d
 
 For a two-sided board, you will (probably) require 4 files.
 
-1. A top Gerber file.
+### A top Gerber file.
 This file describes what parts of the copper on the top of your board will be milled away.
-2. A bottom Gerber file.
+### A bottom Gerber file.
 This file describes what parts of the copper on the bottom of your board will be milled away.
-3. A board outline Gerber file.
+### A board outline Gerber file.
 This file describes what the boundaries of your board will be - where the cuts that will remove it from the copper blank will be.
-4. An Excellion drilling file.
+### An Excellion drilling file.
 This file describes where holes will be drilled in your board.
 
 Next, you will assign your files to the layers of the board.
@@ -139,17 +146,17 @@ If the bits your tool path requires are not available, ask a manager for help id
 ## Prepare the Cutting Area and Mount Copper Blank
 
 
-1. Make sure the white backing surface is as smooth as possible.
+### Make sure the white backing surface is as smooth as possible.
 <img src="img/s104_22.jpg" width="650">
 
 This step is very important. The machine doesn't know where the backing surface actually is beyond what the user tells it, and it assumes it is a perfectly flat plane. Deviations as small as 0.5 mm can cause manufacturing defects which will make your board fail. While no PCB is mounted, open the machine cover and run your hands over the backing surface and feel for any deviations. Blow any debris off the surface, and it is a good idea to smooth it out with a razor blade.
 
-2. Mount your PCB blank
+### Mount your PCB blank
 <img src="img/s104_23.jpg" width="650">
 
 Place a flat, untwisted PCB blank with enough room for your board on the backing surface. Take it down in at least two locations to hold it in place during routing. Relying on the backing surface's vacuum is not sufficient to hold it securely. Close the machine cover when you are finished.
 
-3. Edit pattern placement on your PCB blank
+### Edit pattern placement on your PCB blank
 
 This is where you tell the S104 where you want it to route your board. Click on the artwork representing your circuit and right click to select the contextual menu "Placement." Move the circuit to a location where you have enough PCB blank material to manufacture your circuit.
 
@@ -173,15 +180,15 @@ Click continue, and the S104 will begin the manufacturing process.
 
 ## Some Common Routing Interrupts
 
-1. Test Milling Width
+### Test Milling Width
 
 During the machining process, CircuitPro may ask you to test the milling width. Select an area of the board which you do not need to perform the test in, and if necessary, adjust the tool. CircuitPro will probably ask you to adjust the tool more than is necessary. I recommend first trying half of the recommended adjustment and repeating the test if desired.
 
 
-2. Tool Holder Empty
+### Tool Holder Empty
 <img src="img/s104_25.png" width="650">
 
-You may get a "Tool holder empty" error during the routing process. This is usually caused by the machine not fully inserting bits it has used into their holders. In this case, simply open the cover and push the loose bit firmly into its holder. Close the machine cover and it should resume the routing process.
+You may get a "Tool holder empty" error during the routing process. This is usually caused by the machine not fully inserting bits it has used into their holders. In this case, simply open the cover and push the loose bit firmly into its holder. Close the machine cover, click "Retry" and it should resume the routing process.
 
 ## Fiducial Alignment
 
@@ -203,8 +210,8 @@ When the S104 is done processing your board, you may remove the tape and remove 
 
 First, quit CircuitPro. This will properly disconnect the S104. When CircuitPro is done disconnecting the S104, it will quit. At this point it is safe to power off the system in the reverse order from how you turned it on.
 
-1. Turn off the S104 on the rear of the machine.
-2. Switch the exhaust system to Standby
-3. Turn off the air compressor.
+### Turn off the S104 on the rear of the machine.
+### Switch the exhaust system to Standby
+### Turn off the air compressor.
 
 Congratulations, you have (hopefully) successfully routed your PCB!
