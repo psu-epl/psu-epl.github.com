@@ -12,7 +12,7 @@ date: March 4th, 2021
 ## Turning Everything On
 The S104 expects things to be turned on in a particular on in a particular order. Please follow the correct order below. Do this BEFORE opening the router's software on the host computer.
 
-1. Turn on the air compressor.
+### Turn on the air compressor.
 
 <img src ="img/s104_2.jpg" width="650">
 
