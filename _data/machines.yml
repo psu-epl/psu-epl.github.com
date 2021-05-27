@@ -30,7 +30,7 @@
       img: images/pickAndPlace.jpg
       sop: /doc/equip/misc/pickAndPlace
       log: https://drive.google.com/open?id=1rsTGvFpD9nGbvPkbAQiWuUJSHUlgWXImFJR7efWPjzI
-      up: true
+      up: false
 
     - name: Soldering Equipment
       img: images/SolderingEquipment.jpg
@@ -180,12 +180,12 @@
       img: doc/equip/shop/img/handDrill.jpg
       sop: /doc/equip/shop/handDrill
       up: true
-      
+
     - name: Impact Driver
       img: doc/equip/shop/img/impactDriver.jpg
       sop: /doc/equip/shop/impactDriver
       up: true
-      
+
 - title: Miscellaneous
   machines:
     - name: Thermocut 115/E
