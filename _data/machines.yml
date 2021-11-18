@@ -24,7 +24,7 @@
       img: images/torch.jpg
       sop: /doc/equip/solder/oven
       log: https://drive.google.com/open?id=12IgVs25qrH1A4t1jfN01G-PFT6XaxOnn0CgPeG3brVY
-      up: true
+      up: false
 
     - name: Pick and Place
       img: images/pickAndPlace.jpg
@@ -56,13 +56,14 @@
       sop: /doc/equip/printer/mojo
       log: https://drive.google.com/open?id=1Pa-c1Xg9IxAz1RduAMTdo2n3MXvBVPVkdMLfOVE992Q
       up: true
-
-    - name: Ultimaker2 3D Printer
-      nickname: Jekyll
-      img: images/ultimaker.jpg
-      sop: /doc/equip/printer/UM2
-      log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
-      up: true
+   
+   #No longer in use
+   # - name: Ultimaker2 3D Printer
+   #   nickname: Jekyll
+   #   img: images/ultimaker.jpg
+   #   sop: /doc/equip/printer/UM2
+   #   log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
+   #   up: true
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Harold
@@ -78,14 +79,16 @@
       # per Chris, this should link to index.md so students can see the 3D Printing Guide as well as SOP
       sop: /doc/equip/printer/UM3
       log: https://drive.google.com/open?id=1j2wiCxc_EMB3Ooz6ejKgaZR8mz39dCNLOgnmJnj6fbA
-      up: true
+      up: false
 
-    - name: Form 2 SLA Printer
-      nickname: Hyde
-      img: doc/equip/printer/form2/img/Formlabs2.JPG
-      sop: /doc/equip/printer/form2
-      log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
-      up: true
+    #No longer in use, RIP
+    #TODO:Replace with Form 3 SOP when we get those
+    #- name: Form 2 SLA Printer
+    #  nickname: Hyde
+    #  img: doc/equip/printer/form2/img/Formlabs2.JPG
+    #  sop: /doc/equip/printer/form2
+    #  log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
+    #  up: true
 
 - title: Machining Equipment
   machines:
@@ -111,7 +114,7 @@
       img: images/WAZER.jpg
       sop: /doc/equip/machining/wazer
       log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-      up: True
+      up: false
 
 - title: Laser Cutters
   machines:
@@ -126,12 +129,13 @@
       sop: /doc/equip/laser/fullSpectrum
       log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
       up: true
-
-    - name: K40 Laser Cutter
-      img: images/K40Laser.jpg
-      sop: /doc/equip/laser/K-40
-      log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
-      up: true
+    
+    # No longer in use
+    # - name: K40 Laser Cutter
+    #  img: images/K40Laser.jpg
+    #  sop: /doc/equip/laser/K-40
+    #  log: https://drive.google.com/open?id=1AqRiHApBkbOwIytM8G8S9Ldw6WZPAcEkfOU5c3cfs00
+    #  up: true
 
 - title: Shop and Hand Tools
   machines:
