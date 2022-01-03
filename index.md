@@ -38,6 +38,9 @@ Students will also be able to order 3D prints, PCBs, and laser cuts; they can be
 # Lab Kits
 This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students. __[Checkout] here.__ 
 
+# Lockers
+If you want to rent a locker for the term or for the year you can do so by by clicking on the checkout link above. But before you do so please check out the [Locker] spreadsheet to verify that the locker you want to rent is empty and not currently rented. 
+
 ## Online Resources
 We understand that many students will still need to do prototyping. 
 Here's a list of online vendors that will be able to help you complete your projects remotely, 
@@ -140,6 +143,7 @@ Here are some links to commonly visited pages:
 [manager repo]: https://github.com/psu-epl/epl-managers-private/wiki
 [Equipment]: doc/equip
 [Circuit Store and Lockers]: doc/store
+[Lockers]: doc/Lockers
 [Lab Policies]: doc/policies
 [RF Chamber]: doc/equip/testing/rfchamber
 [3D Print Your Part]: doc/equip/printer
