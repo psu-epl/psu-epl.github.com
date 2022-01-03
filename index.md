@@ -143,7 +143,7 @@ Here are some links to commonly visited pages:
 [manager repo]: https://github.com/psu-epl/epl-managers-private/wiki
 [Equipment]: doc/equip
 [Circuit Store and Lockers]: doc/store
-[Lockers]: https://docs.google.com/spreadsheets/d/e/2PACX-1vT7pUdZbHaSqYIqmJzhX3nfxPW7e2na6rdv--wl-m9lS-7Nyp-kjTztF1uVG3L2sZUNjye5hzyK8yaW/pubhtml?gid=0&single=true
+[Locker]: https://docs.google.com/spreadsheets/d/e/2PACX-1vT7pUdZbHaSqYIqmJzhX3nfxPW7e2na6rdv--wl-m9lS-7Nyp-kjTztF1uVG3L2sZUNjye5hzyK8yaW/pubhtml?gid=0&single=true
 [Lab Policies]: doc/policies
 [RF Chamber]: doc/equip/testing/rfchamber
 [3D Print Your Part]: doc/equip/printer
