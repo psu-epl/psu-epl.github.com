@@ -6,12 +6,11 @@
       log: https://drive.google.com/open?id=1dn1lqT6qjSTQcAiOyRoKjd4zqJ5IO3UAcCQ4iV2hdww
       up: true
 
-    #- name: LPKF S64 PCB Router
-    #  img: ''
-    #  sop: ''
-    #  log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
-    #  up: true
-    #  no longer in use
+    - name: LPKF S64 PCB Router
+      img: ''
+      sop: ''
+      log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
+      up: true
 
     - name: A406 PCB Router
       img: images/A406.jpg
@@ -24,7 +23,7 @@
       img: images/torch.jpg
       sop: /doc/equip/solder/oven
       log: https://drive.google.com/open?id=12IgVs25qrH1A4t1jfN01G-PFT6XaxOnn0CgPeG3brVY
-      up: false
+      up: true
 
     - name: Pick and Place
       img: images/pickAndPlace.jpg
