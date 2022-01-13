@@ -7,7 +7,7 @@
       up: true
 
     - name: LPKF S64 PCB Router
-      img: 'images/protomat-s64.jpg'
+      img: 'images/protomat-s64.jpeg'
       sop: '/doc/equip/router/LPKF_S64'
       log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
       up: true
