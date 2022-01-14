@@ -11,6 +11,12 @@
       sop: '/doc/equip/router/LPKF_S64'
       log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
       up: true
+      
+    - name: LPKF Multipress S
+      img: images/LPKF_MultipressS.jpg
+      sop: /doc/equip/misc/LPKF_MultipressS
+      log: https://docs.google.com/document/d/1Nv3dj-DykJZSKGyz4PUMKyzOxjthq7dXZl-wFgAFKZU/edit?usp=sharing
+      up: false
 
     - name: A406 PCB Router
       img: images/A406.jpg
@@ -209,14 +215,8 @@
       log: https://drive.google.com/open?id=1Hq_bsZNxvSJglJ_Um2DlJyZj5Id9WqOj7CcpHh3c1rY
       up: true
 
-    - name: LPKF Multipress S
-      img: images/LPKF_MultipressS.jpg
-      sop: /doc/equip/misc/LPKF_MultipressS
-      log: 
-      up: false
-
     - name: EZFORM SV 1217
       img: images/EZFORM SV 1217.jpg
       sop: /doc/equip/misc/EZFORM_SV_1217
-      log: 
+      log: https://docs.google.com/document/d/1zd2u6r1CzxvhMYUp2qMHmzdmSuv2kWyEVzbfporWuyo/edit?usp=sharing
       up: false
