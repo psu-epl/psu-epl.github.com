@@ -12,7 +12,7 @@ The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1
 Our phone number is **503-725-2879**.
 
 [Checkout]
-Pay for things here including all of your Lab kits, Analog Discovery 2, and Toolboxes.
+Pay for things here including all of your Lab kits, Analog Discovery 2, and Toolboxes. Once you pay you will receive an email letting you know that your purchase is ready to pick up. Please do NOT come to the lab before you receive the email. We are trying to protect our student workers and you by lowering contact through this process. 
 
 Please consider donating to the lab to help us further our growth.
 We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:lid@pdx.edu) to donate!
