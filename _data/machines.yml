@@ -18,11 +18,11 @@
       log: https://docs.google.com/document/d/1Nv3dj-DykJZSKGyz4PUMKyzOxjthq7dXZl-wFgAFKZU/edit?usp=sharing
       up: false
 
-    - name: A406 PCB Router
-      img: images/A406.jpg
-      sop: /doc/equip/router/A406
-      log: https://drive.google.com/open?id=1FQ2Yk2N9h-7r4D-DekRvR2kizTpJYJVYTe7bal3aU9A
-      up: false
+  #  - name: A406 PCB Router
+  #    img: images/A406.jpg
+  #    sop: /doc/equip/router/A406
+  #    log: https://drive.google.com/open?id=1FQ2Yk2N9h-7r4D-DekRvR2kizTpJYJVYTe7bal3aU9A
+  #    up: false
 
     - name: T200N Desktop Solder Oven
       nickname: Orang
@@ -119,7 +119,7 @@
       img: images/WAZER.jpg
       sop: /doc/equip/machining/wazer
       log: https://drive.google.com/open?id=1K8UdJqhq6MAJGD8nq72OJNoIlRZpVLQmefCGKX9BH24
-      up: false
+      up: true
 
 - title: Laser Cutters
   machines:
@@ -133,7 +133,7 @@
       img: images/newFullSpectrum.jpg
       sop: /doc/equip/laser/fullSpectrum
       log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
-      up: true
+      up: false
     
     # No longer in use
     # - name: K40 Laser Cutter
