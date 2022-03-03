@@ -1,5 +1,5 @@
 ---
-title: Manchining Equipment
+title: Machining Equipment
 layout: doc
 author: 
 date: 
