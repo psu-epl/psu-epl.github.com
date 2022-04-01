@@ -10,7 +10,7 @@
       img: 'images/protomat-S64.jpeg'
       sop: '/doc/equip/router/LPKF_S64'
       log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
-      up: true
+      up: false
       
     - name: LPKF Multipress S
       img: images/LPKF_MultipressS.jpg
@@ -29,7 +29,7 @@
       img: images/torch.jpg
       sop: /doc/equip/solder/oven
       log: https://drive.google.com/open?id=12IgVs25qrH1A4t1jfN01G-PFT6XaxOnn0CgPeG3brVY
-      up: true
+      up: false
 
     - name: Pick and Place
       img: images/pickAndPlace.jpg
@@ -54,13 +54,14 @@
       sop: /doc/equip/testing
       up: true
 
-- title: 3D Printers
-  machines:
-    - name: Stratasys Mojo 3D Printer
-      img: images/mojo.JPG
-      sop: /doc/equip/printer/mojo
-      log: https://drive.google.com/open?id=1Pa-c1Xg9IxAz1RduAMTdo2n3MXvBVPVkdMLfOVE992Q
-      up: true
+#- title: 3D Printers
+#  machines:
+#    - name: Stratasys Mojo 3D Printer
+#      img: images/mojo.JPG
+#      sop: /doc/equip/printer/mojo
+#      log: https://drive.google.com/open?id=1Pa-c1Xg9IxAz1RduAMTdo2n3MXvBVPVkdMLfOVE992Q
+#      up: true
+#   Depricated
    
    #No longer in use
    # - name: Ultimaker2 3D Printer
@@ -87,8 +88,8 @@
       up: false
 
     #No longer in use, RIP
-    #TODO:Replace with Form 3 SOP when we get those
-    #- name: Form 2 SLA Printer
+    #TODO:Replace with Form 3 SOP when we get those ----
+    #- name: Form 3 SLA Printer
     #  nickname: Hyde
     #  img: doc/equip/printer/form2/img/Formlabs2.JPG
     #  sop: /doc/equip/printer/form2
@@ -113,7 +114,7 @@
       img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
       log: https://drive.google.com/open?id=1zZ9TxElqa57awR_Anar17_2WOML6XUWwccMtX0apNGY
-      up: true
+      up: false
 
     - name: WAZER
       img: images/WAZER.jpg
@@ -127,13 +128,13 @@
       img: images/QD1390LaserCutter.JPG
       sop: /doc/equip/laser/QD-1390
       log: https://drive.google.com/open?id=1g21LsECuta3ZlnXwHGctOWkAPx9Jb28hXpn2aOoqVxc
-      up: false
+      up: true
 
-    - name: Full Spectrum Laser Cutter
-      img: images/newFullSpectrum.jpg
-      sop: /doc/equip/laser/fullSpectrum
-      log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
-      up: false
+    #- name: Full Spectrum Laser Cutter
+    #  img: images/newFullSpectrum.jpg
+    #  sop: /doc/equip/laser/fullSpectrum
+    #  log: https://drive.google.com/open?id=15i3dGqo5BEgLgmMeSaC0AGJAqSa1pGsdWEjOiMeRDl4
+    #  up: false
     
     # No longer in use
     # - name: K40 Laser Cutter
@@ -190,10 +191,10 @@
       sop: /doc/equip/shop/handDrill
       up: true
 
-    - name: Impact Driver
-      img: doc/equip/shop/img/impactDriver.jpg
-      sop: /doc/equip/shop/impactDriver
-      up: true
+    #- name: Impact Driver
+    #  img: doc/equip/shop/img/impactDriver.jpg
+    #  sop: /doc/equip/shop/impactDriver
+    #  up: true
 
 - title: Miscellaneous
   machines:
