@@ -1,11 +1,11 @@
 ---
-title: LPKF S64
+title: LPKF S104
 layout: doc
 author: 
 date: 
 ---
 
-The LPKF S64 is small computer-controlled milling machine that is meant to mill blank printed circuit boards (PCBs).
+The LPKF S104 is small computer-controlled milling machine that is meant to mill blank printed circuit boards (PCBs).
 
 # Useful Links
 <!---
