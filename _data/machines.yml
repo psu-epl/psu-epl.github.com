@@ -10,7 +10,7 @@
       img: 'images/protomat-S64.jpeg'
       sop: '/doc/equip/router/LPKF_S64'
       log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
-      up: false
+      up: true
       
     - name: LPKF Multipress S
       img: images/LPKF_MultipressS.jpg
