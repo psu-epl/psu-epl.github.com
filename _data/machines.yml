@@ -204,17 +204,17 @@
       log: https://drive.google.com/open?id=1ThNEOycO3oOycAmgoHBNHdN7wuUt3p_TZaulOMTJopQ
       up: true
 
-    - name: Shining 3D Scanner
-      img: images/shining3D.jpg
-      sop: /doc/equip/misc/shining3D
-      log: https://drive.google.com/open?id=1k206TcGVjXwMQcvdbiEdIBj58mjVJjbowkipwPHTVAs
-      up: true
+    #- name: Shining 3D Scanner
+    #  img: images/shining3D.jpg
+    #  sop: /doc/equip/misc/shining3D
+    #  log: https://drive.google.com/open?id=1k206TcGVjXwMQcvdbiEdIBj58mjVJjbowkipwPHTVAs
+    #  up: true
 
     - name: Silhouette Cameo
       img: images/cameo.jpg
       sop: /doc/equip/misc/cameo
       log: https://drive.google.com/open?id=1Hq_bsZNxvSJglJ_Um2DlJyZj5Id9WqOj7CcpHh3c1rY
-      up: true
+      up: false
 
     - name: EZFORM SV 1217
       img: images/EZFORM SV 1217.jpg
