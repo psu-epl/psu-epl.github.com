@@ -54,7 +54,7 @@
       sop: /doc/equip/testing
       up: true
 
-#- title: 3D Printers
+- title: 3D Printers
 #  machines:
 #    - name: Stratasys Mojo 3D Printer
 #      img: images/mojo.JPG
