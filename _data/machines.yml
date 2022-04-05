@@ -29,7 +29,7 @@
       img: images/torch.jpg
       sop: /doc/equip/solder/oven
       log: https://drive.google.com/open?id=12IgVs25qrH1A4t1jfN01G-PFT6XaxOnn0CgPeG3brVY
-      up: false
+      up: true
 
     - name: Pick and Place
       img: images/pickAndPlace.jpg
@@ -77,7 +77,7 @@
       # per Chris, this should link to index.md so students can see the 3D Printing Guide as well as SOP
       sop: /doc/equip/printer/UM3
       log: https://drive.google.com/open?id=1Rv7u8gue2PmMjZiChcRXUE5_H8AnhcjPdVjrxjSZEjg
-      up: true
+      up: false
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Maude
@@ -87,14 +87,12 @@
       log: https://drive.google.com/open?id=1j2wiCxc_EMB3Ooz6ejKgaZR8mz39dCNLOgnmJnj6fbA
       up: false
 
-    #No longer in use, RIP
-    #TODO:Replace with Form 3 SOP when we get those ----
-    #- name: Form 3 SLA Printer
-    #  nickname: Hyde
-    #  img: doc/equip/printer/form2/img/Formlabs2.JPG
-    #  sop: /doc/equip/printer/form2
-    #  log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
-    #  up: true
+    - name: Form 3 SLA Printer
+      nickname: Hyde
+      img: doc/equip/printer/form2/img/Formlabs2.JPG
+      sop: /doc/equip/printer/form2
+      log: https://drive.google.com/open?id=1PE-mZIJ0KBf3SCqLOtEJTKYnLTgV0Kxkgneye6q4K-E
+      up: true
 
 - title: Machining Equipment
   machines:
