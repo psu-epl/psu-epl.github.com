@@ -106,10 +106,10 @@ Click on a machine to jump to its documentation.
 {% include machines.html %}
 
 # Lab Status
-The lab is currently closed to the public. You will need to reserve a workstation for access.  
-{% comment %}
+The lab is currently open to the Portland State students from any department.
+
 The lab is also open to the greater Portland community members by invitation only.
-{% endcomment %}
+
 
 # Frequently Visited
 Here are some links to commonly visited pages:
