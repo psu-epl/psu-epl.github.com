@@ -112,7 +112,7 @@
       img: doc/equip/machining/drillPress/img/drillPress.jpg
       sop: /doc/equip/machining/drillPress
       log: https://drive.google.com/open?id=1zZ9TxElqa57awR_Anar17_2WOML6XUWwccMtX0apNGY
-      up: false
+      up: true
 
     - name: WAZER
       img: images/WAZER.jpg
