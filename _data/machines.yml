@@ -7,9 +7,9 @@
       up: true
 
     - name: LPKF S104 PCB Router
-      img: 'images/protomat-S64.jpeg'
-      sop: '/doc/equip/router/LPKF_S64'
-      log: https://drive.google.com/open?id=14VmGsehc6Zf5TIjYWEmArbBhcsS47j_BQZ2RqgokyJc
+      img: 'images/PCBRouterLPKF_S104.jpg'
+      sop: '/doc/equip/router/LPKF_S104'
+      log: https://docs.google.com/document/d/1lSQI7fYIWv5HzLuNKWiuwirMsK6y6SgTAzuB9FwjPy0
       up: true
       
     - name: LPKF Multipress S
