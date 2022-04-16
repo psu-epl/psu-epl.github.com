@@ -8,7 +8,9 @@ date: 2022-04-14
 ## Table of Contents
 {:.no_toc.nonumber}
 
+- Replaced With ToC
 {:toc}
+
 
 ## Changing a Bit
 
