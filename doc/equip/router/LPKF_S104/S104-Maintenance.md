@@ -1,5 +1,5 @@
 ---
-title: LPKF S104 Maintinence
+title: LPKF S104 Maintenance
 layout: doc
 author: Julia Filipchuk
 date: 2022-04-14
@@ -7,6 +7,8 @@ date: 2022-04-14
 
 ## Table of Contents
 {:.no_toc.nonumber}
+
+{:toc}
 
 ## Changing a Bit
 
