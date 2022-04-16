@@ -55,21 +55,21 @@
       up: true
 
 - title: 3D Printers
-#  machines:
-#    - name: Stratasys Mojo 3D Printer
-#      img: images/mojo.JPG
-#      sop: /doc/equip/printer/mojo
-#      log: https://drive.google.com/open?id=1Pa-c1Xg9IxAz1RduAMTdo2n3MXvBVPVkdMLfOVE992Q
-#      up: true
-#   Depricated
+  machines:
+    # Depreciated
+    #- name: Stratasys Mojo 3D Printer
+    #  img: images/mojo.JPG
+    #  sop: /doc/equip/printer/mojo
+    #  log: https://drive.google.com/open?id=1Pa-c1Xg9IxAz1RduAMTdo2n3MXvBVPVkdMLfOVE992Q
+    #  up: true
    
-   #No longer in use
-   # - name: Ultimaker2 3D Printer
-   #   nickname: Jekyll
-   #   img: images/ultimaker.jpg
-   #   sop: /doc/equip/printer/UM2
-   #   log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
-   #   up: true
+    # No longer in use
+    #- name: Ultimaker2 3D Printer
+    #  nickname: Jekyll
+    #  img: images/ultimaker.jpg
+    #  sop: /doc/equip/printer/UM2
+    #  log: https://drive.google.com/open?id=14xrf0oEFLMfu-EHukV3gUt1ocjLcHan8dD_WzsQLMf8
+    #  up: true
 
     - name: Ultimaker3 Extended 3D Printer
       nickname: Harold
