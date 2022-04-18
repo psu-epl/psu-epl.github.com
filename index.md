@@ -33,7 +33,7 @@ Students will also be able to order 3D prints, PCBs, and laser cuts; they can be
 
 **If you would like to make an EPL reservation please view our [Appointment Calendar](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUptTkpPelVKbmNrfGRlZmF1bHR8NjQ1ZGNlZDkxMTZiYTljODAxMzIxMWU2NDA5MGE0NjA).** You will see 2 hour slots between 12-1600 named 'EPL Student Workstation Reservation'. *The email you use to reserve this slot is the email we will contact for building access, rules, and information*, if your reservation does not appear on your calendar please email us at epl@pdx.edu for assistance. 
 
-**We also have a discord server and slack workspace for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us on discord [here](https://discord.gg/xjqhGRRNB6) and slack [here](https://eplabpsu.slack.com/archives/C1W89N8BY)**
+**We also have a discord server for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us on discord [here](https://discord.gg/xjqhGRRNB6)
 
 # Lab Kits
 This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students. __[Checkout] here.__ 
