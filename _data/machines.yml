@@ -10,7 +10,7 @@
       img: 'images/PCBRouterLPKF_S104.jpg'
       sop: '/doc/equip/router/LPKF_S104'
       log: https://docs.google.com/document/d/1lSQI7fYIWv5HzLuNKWiuwirMsK6y6SgTAzuB9FwjPy0
-      up: false
+      up: true
       
     - name: LPKF Multipress S
       img: images/LPKF_MultipressS.jpg
