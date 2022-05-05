@@ -9,29 +9,29 @@ The EPL is a lab for rapidly prototyping electronics projects.
 It is meant for students to be able to walk in with an idea and walk out with a fully functioning prototype.
 
 The EPL is on the lower level of the **PSU Fourth Avenue Building** (FAB) at **1900 SW 4th Avenue** in room **FAB 84-20**.
-Our phone number is **503-725-2879**.
+# Our phone number is **503-725-2879**.
 
 [Checkout]
-Pay for things here including all of your Lab kits, Analog Discovery 2, and Toolboxes. Once you pay you will receive an email letting you know that your purchase is ready to pick up. Please do NOT come to the lab before you receive the email. We are trying to protect our student workers and you by lowering contact through this process. 
+Pay for things here.
 
 Please consider donating to the lab to help us further our growth.
-We are a 501c3 and your donation is tax deductible! Email [lid@pdx.edu](mailto:lid@pdx.edu) to donate!
+We are a 501c3 and your donation is tax deductible! Email [epl@pdx.edu](mailto:epl@pdx.edu) to donate!
 
 # <font color="red">Lab Opening!</font>
-The EPL is now allowing strictly limited student workspace reservations! Students will be able to reserve a 2 hour slot to work in the EPL. Please keep in mind that if you make an in-person workstation reservation you will be **absolutely required to follow all of our safety rules, NO EXCEPTIONS**. You will get your temperature taken before entering, masks are required *at all times* (over the nose), social distancing, and no food or drink is allowed. 
+# The EPL is now allowing strictly limited student workspace reservations! Students will be able to reserve a 2 hour slot to work in the EPL. Please keep in mind that if you make an in-person workstation reservation you will be **absolutely required to follow all of our safety rules, NO EXCEPTIONS**. You will get your temperature taken before entering, masks are required *at all times* (over the nose), social distancing, and no food or drink is allowed. 
 
-The workstation is limited to an isolated work space which includes the following equipment:
+# The workstation is limited to an isolated work space which includes the following equipment:
 
-- Oscilloscope
-- Function Generator
-- 3 Output Power Supply
-- Multimeter
-- Soldering Station
-- Hand Tools
+# - Oscilloscope
+# - Function Generator
+# - 3 Output Power Supply
+# - Multimeter
+# - Soldering Station
+# - Hand Tools
 
-Students will also be able to order 3D prints, PCBs, and laser cuts; they can be picked up when a manager is on shift (see our calendar) or during a workstation reservation. Please email epl@pdx.edu for more information. 
+# Students will also be able to order 3D prints, PCBs, and laser cuts; they can be picked up when a manager is on shift (see our calendar) or during a workstation reservation. Please email epl@pdx.edu for more information. 
 
-**If you would like to make an EPL reservation please view our [Appointment Calendar](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUptTkpPelVKbmNrfGRlZmF1bHR8NjQ1ZGNlZDkxMTZiYTljODAxMzIxMWU2NDA5MGE0NjA).** You will see 2 hour slots between 12-1600 named 'EPL Student Workstation Reservation'. *The email you use to reserve this slot is the email we will contact for building access, rules, and information*, if your reservation does not appear on your calendar please email us at epl@pdx.edu for assistance. 
+# **If you would like to make an EPL reservation please view our [Appointment Calendar](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUptTkpPelVKbmNrfGRlZmF1bHR8NjQ1ZGNlZDkxMTZiYTljODAxMzIxMWU2NDA5MGE0NjA).** You will see 2 hour slots between 12-1600 named 'EPL Student Workstation Reservation'. *The email you use to reserve this slot is the email we will contact for building access, rules, and information*, if your reservation does not appear on your calendar please email us at epl@pdx.edu for assistance. 
 
 **We also have a discord server for students to interact with our managers. You can ask questions about your projects, resources, Analog Discovery 2's, etc. Join us on discord [here](https://discord.gg/xjqhGRRNB6)
 
