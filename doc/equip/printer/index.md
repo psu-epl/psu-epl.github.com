@@ -1,7 +1,7 @@
 ---
 title: 3D Printing
-author: Joe Shields
-date: 2018-07-21
+author: Ed Ivory
+date: 2022-06-01
 layout: doc
 
 ---
@@ -13,15 +13,15 @@ layout: doc
 
 # Printer-Specific Guides:
 
-### [FormLabs 2](form2)
+### [Form 3+](form2)
 
-### [Mojo 3D](mojo)
+<!--### [Mojo 3D](mojo)
 
-### [Ultimaker 2](UM2)
+### [Ultimaker 2](UM2)-->
 
 ### [Ultimaker 3](UM3)
 
-Ultimaker 3 Stream!
+<!--Ultimaker 3 Stream!
 <iframe
     src="https://player.twitch.tv/?channel=psuEPL"
     width="640"
@@ -30,4 +30,4 @@ Ultimaker 3 Stream!
     scrolling="no"
     muted="true"
     allowfullscreen="true">
-</iframe>
+</iframe>-->
