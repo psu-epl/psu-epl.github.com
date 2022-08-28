@@ -39,17 +39,17 @@ Most take time to run, and so it's unlikely we could do anything on any one mach
 Or for some machines, in less than a week.
 
 ### You should really have such-and-such machine!
-We'd love to know that! Please let Phillip, Andrew, or Chris know, and we'll put it on our "to get" list.
+We'd love to know that! Please let Phillip, Andrew, or Ed know, and we'll put it on our "to get" list.
 
 ### I have some equipment that's underused, do you want it?
-Probably! Let Phillip, Andrew, or Chris know, and we'll let you know. 
+Probably! Let Phillip, Andrew, or Ed know, and we'll let you know. 
 We're quite anxious to build up the available equipment list, and the EPL makes an excellent place to put equipment where it really gets used.
 
 ### My graduate/URMP/REU/UTEAP/whatever student needs to buy something my lab. How do?
 The student will do the following.
 
 - Fill out the Google form on one of the checkout machines.
-- Chris will send them an email saying they’re approved to get the item/service.
+- Ed will send them an email saying they’re approved to get the item/service.
 - They show a manager that email and *only then* will the manager let them start the print, take the part, or whatever.
 
 Otherwise, have them purchase it and then reimburse them.
