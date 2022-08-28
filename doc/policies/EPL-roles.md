@@ -6,7 +6,7 @@ date:
 ---
 
 - EPL administrators
-	- Final decision making authority and responsibility (Chris, Phillip)
+	- Final decision making authority and responsibility (Ed)
 - EPL managers
 	- Trained on all machines
 	- 24-hour badge access
