@@ -13,7 +13,7 @@ date:
 
 ## Non-emergency Safety Protocols (Non-serious injury)
 - Contact an EPL Lab Administrator immediately
-	- Chris Clark
+	- Ed Ivory
 	- Phillip Wong
 	- Andrew Greenberg
 
