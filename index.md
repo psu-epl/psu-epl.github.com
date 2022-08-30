@@ -154,7 +154,7 @@ Here are some links to commonly visited pages:
 [donate]: https://cconn.foundation.pdx.edu/ccon/new_gift.do?action=newGift&giving_page_id=240
 [calendar]: https://calendar.google.com/calendar/embed?src=epl.pdx%40gmail.com&ctz=America%2FLos_Angeles
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
-[inventory]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRctTWgzjjFlbtDmUZ98G7og6jb6IJ1X1vd8zwDnGen3mGZxCVO0T1Jp2Iw2ze2l4Bet2ey2GKlb9wB/pubhtml
+[inventory]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSy2tACJnVOon0_VF75Fo0Aj-I5TJjd7ckUuy9WtD-kGMqwXkSLTKipag1j-d6NTOb_gN5wnvR9bneB/pubhtml
 [tree]: /siteTree
 [style]: /doc/contributing
 [OSH Park]: https://oshpark.com/
