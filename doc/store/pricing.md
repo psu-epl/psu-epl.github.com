@@ -48,4 +48,4 @@ date: 2019-11-09
 - Lockers $10.00 a term or $20.00 for full year (4 terms Fall to end of Summer) *As a note these are the blue lockers by the Tek Lab
 
 [ECE Labs]: http://web.cecs.pdx.edu/~ecelab/
-[inventory]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRctTWgzjjFlbtDmUZ98G7og6jb6IJ1X1vd8zwDnGen3mGZxCVO0T1Jp2Iw2ze2l4Bet2ey2GKlb9wB/pubhtml
+[inventory]: [https://docs.google.com/spreadsheets/d/e/2PACX-1vRctTWgzjjFlbtDmUZ98G7og6jb6IJ1X1vd8zwDnGen3mGZxCVO0T1Jp2Iw2ze2l4Bet2ey2GKlb9wB/pubhtml](https://docs.google.com/spreadsheets/d/e/2PACX-1vSy2tACJnVOon0_VF75Fo0Aj-I5TJjd7ckUuy9WtD-kGMqwXkSLTKipag1j-d6NTOb_gN5wnvR9bneB/pubhtml)
