@@ -39,7 +39,7 @@ We are a 501c3 and your donation is tax deductible! Email [epl@pdx.edu](mailto:e
 This [link](https://sites.google.com/pdx.edu/ece-lab-resources/) will lead you to the ECE lab resources page. That resource page can bring you to more information on what components are required for each [lab](https://sites.google.com/pdx.edu/ece-lab-resources/students/lab-kits), what components are in a [tool box](https://sites.google.com/pdx.edu/ece-lab-resources/students/tool-box), and other resources and useful guides for students. __[Checkout] here.__ 
 
 # Lockers
-Locker rentals are temporarily on hold while we rework the rental system. If you need a locker immediately, visit the store in person or send us an email [epl@pdx.edu](mailto:epl@pdx.edu).
+Online locker rentals are temporarily on hold while we rework the rental system. If you need a locker immediately, visit the store in person or send us an email [epl@pdx.edu](mailto:epl@pdx.edu).
 <!--- If you want to rent a locker for the term or for the year you can do so by by clicking on the checkout link above. But before you do so please check out the [Locker] spreadsheet to verify that the locker you want to rent is empty and not currently rented. --->
 
 ## Online Resources
