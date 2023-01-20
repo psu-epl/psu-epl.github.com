@@ -116,8 +116,6 @@ The lab is also open to the greater Portland community members by invitation onl
 Here are some links to commonly visited pages:
 - [Equipment]
   The tools we have at our disposal.
-- [Store Inventory][inventory]
-  Stuff we sell.
 - [Checkout]
   Pay for things.
 - [Lab Policies]
