@@ -114,6 +114,8 @@ This produces very bright, broad spectrum light, including ultra-violet light.
 This poses a risk to people nearby the machine.
 Eye damage can be avoided by not staring directly at the area being lased.
 
+The laser should be automatically disabled whenever the door is opened, but it is still best to avoid starting the machine while the door is open.
+
 #### High Voltage
 <details><summary>Be careful when maintaining machine.</summary>
 
@@ -274,7 +276,6 @@ TODO:
     - If it's not on either list, ask a manager.
 1. Identify where the fire extinguisher is.
 1. Make sure there isn't excessive debris in the tray under the chamber.
-    - __Danger: make sure the laser is disabled before checking the tray!__
 1. Make sure none of the side or rear maintenance panels are open.
     - If they are, ask a manager if it's okay to close them.
     - The panels __may not__ remain open when the laser is enabled!
