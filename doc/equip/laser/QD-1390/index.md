@@ -5,10 +5,11 @@ author: Joe Shields, Bertrand DeChant, Chuck Faber, David Lay, Haneef Mubarak, B
 date: 2019-05-17
 numbersections: true
 ---
+
+{%comment%}
 TODO add stuff:
 Close vinyl curtains
 
-{%comment%}
 # Global TODOs
 - [X] Resize the images to something that's sane for the web.
 - [X] Rename the images to something descriptive.
@@ -107,9 +108,6 @@ Serious eye damage can be avoided by following the procedures in this SOP.
 - The panels and hood should __never__ be opened when the laser is enabled.
 - Reflective objects should __never__ be placed in the chamber.
 - Do not stare at the cut
-- The laser should __only__ be enabled *immediately before* making a cut, and disabled *immediately after* that cut has finished.
-    - The laser is disabled when this switch is in the downward "0" position. The switch should not glow in this position.  
-  ![](img/laserDisable.png)
 
 When lasing, the material is heated to extreme temperatures.
 This produces very bright, broad spectrum light, including ultra-violet light.
@@ -330,8 +328,6 @@ Below you can find some examples of cuts made in common materials.
 ## Physical Prep
 When your job is ready in RDWorks:
 
-1. Ensure the laser is disabled by turning the switch on the right of the machine off.  
-   ![](img/laserDisable.png)
 1. Open the hood.
 1. Place your material under the laser head.
 
@@ -361,9 +357,7 @@ It's __strongly recommended__ that you also [preview your job](#previewing-your-
 ## Turn Everything On
 However, do not enable the laser yet!
 
-1. Ensure the laser is disabled by turning the switch on the right of the machine off. Also make sure the key is in the "Off" position (to the left)
-1. Turn on the power strip on the floor and the power strip on the wire rack under the computer.
-    - The power strip on the floor powers the air compressor, the power strip on the rack controls everything else
+1. Turn on the power strip on the wire rack under the computer.
 1. Check that everything is working as described below
 
 #### Chiller
@@ -380,15 +374,12 @@ However, do not enable the laser yet!
 Ensure the air hose to the filter is connected the back of the laser
 
 #### Air On
-1. Check that the air compressor is working
-    - Air should be flowing out of the laser head continuously at this point. If it is not, check that the handle on the valve is zip-tied into the on position.
-    - The air pressure in the line should be around 10 psi. Adjust the pressure using the knob to the right of the switch and read the pressure off of the right gauge.
-    - Double check that a _gentle_ stream of air is leaving the end of the lens assembly.
-        - If it isn't, make sure the valve on the blue air line leading to the laser is open.  
-          ![](img/compressor.png)
+1. Check that the air assist is working
+    - Flip the "Air Assist" switch on the right side of the machine to the "ON" position. Air should now be coming out of the laser head.
+    - Flip the switch back to the "Auto" position
 
 ## Operation
-It's pew-pew time!
+It's time to cut!
 
 #### Set position
 Use the move controls in LightBurn to position the laser head where you want it to be. This lines up with the green box in LightBurn. Remember that the area in LightBurn *does not* match the laser bed.
@@ -402,8 +393,8 @@ Use the move controls in LightBurn to position the laser head where you want it 
     1. You're not using any of the [banned materials](#banned).
     1. You know where the fire extinguisher is.
     1. All of the side panels, the hood, and the back panel are closed.
-    1. The chiller, air filter, and air compressor are all running.
-    1. The cutting head is delivering a gentle, steady stream of air.
+    1. The chiller, and air filter are both running.
+    1. The cutting head is delivering a gentle, steady stream of air when air assist is on
     1. The website shows this mahchine is currently working (not "down" or "having issues").
         - This is visible [at the top of this page](#), or on [the main EPL page](/).
         - If the machine is having issues, ask a manager if it will interfere with your job. You can also find out more on the maintenance log, viewable at [the top of this page](#).
@@ -414,11 +405,8 @@ Use the move controls in LightBurn to position the laser head where you want it 
 
   1. Set any raster layers' output to "no", since these take a long time to execute.
       - You may want to add a zero-power layer that outlines the rastered areas, if that's important to your work.
-  1. Ensure the laser is disabled by flipping the "Laser" switch on the right of the machine off.  
-     ![](img/laserDisable.png)
   1. Make sure `Start From:` is set to `Current Position`
   1. Close the hood, and click "Frame" in the laser control on LightBurn.
-      - Since you disabled the laser, it will not burn your piece.
       - Danger: __Do not run your job with the hood open!__
         Even if the laser is disabled, you can be seriously injured by the moving X-Y gantry.
         You should also _never rely on a single safety measure_ like the enable/disable switch.  
@@ -429,9 +417,7 @@ Use the move controls in LightBurn to position the laser head where you want it 
   Just don't forget to set them back to the correct speed for the final job.
 
 ### Laser Enable
-1. Make sure that the machine door is closed
-1. Turn the "Laser" switch on the side of the cutter __ON__ (upward "1" position).
-![](img/laserEnable.png)
+Make sure that the machine door is closed. The laser will be automatically enabled when the door is closed and disabled when the door is open.
 
 ### Run the Job
 1. Press start on LightBurn to start the cutting job.
@@ -443,8 +429,7 @@ Use the move controls in LightBurn to position the laser head where you want it 
       ![](img/start.PNG)
 
 ### Laser Disable
-1. When you job finishes, the machine will beep. Disable the laser using the switch on the right of the machine.  
-   ![](img/laserDisable.png)
+1. When you job finishes, the machine will beep.
 
 ### Post-Cut
 1. Wait for the smoke and vapors to get sucked out of the chamber. This takes anywhere from seconds to minutes, depending on how long the job was. Don't make the lab smell any more than you have to.
@@ -456,7 +441,6 @@ This is what you do when your cut job's done.
 
 ## Shutdown
 If you are completely done:
-1. Turn off the air compressor from the power strip on the floor.
 1. Wait about 10-15 minutes from your last cut before turning off everything else by turning off the power strip on the wire rack
     - However, please do not just leave it running.
 1. Close LightBurn. (saving your job is optional, but recommended)
@@ -467,7 +451,6 @@ If you are completely done:
 1. Either take your scrap with you.
     - Alternatively, break it into useful-sized pieces before leaving it in the scrap bin.
         - Nobody wants your 1 inch wide sticks and they clutter up the bin.
-        - Bonus points if you planned ahead and laser-cut your scraps into usable-sized pieces.
 1. Ask a manager if you forgot to clean up anything.
 1. __Don't forget to pay for your session and any material you purchased!__
 
