@@ -32,11 +32,8 @@ If you have any questions, [please email us.][lidworks]
 
 # Subjects
 ## [Circuit Testing](Circuit-Testing)
-## [Eagle CAD](Eagle-CAD)
 ## [KiCAD](KiCAD)
-## [Onshape Workshop](Onshape-Workshop)
 ## [Soldering Workshop](Soldering-Workshop)
-## [SolidWorks](SolidWorks)
 
 [Eventbrite]: https://www.eventbrite.com/o/portland-state-university-electronics-prototyping-lab-epl-11381470478
 [lidworks]: mailto:lidworks@pdx.edu
